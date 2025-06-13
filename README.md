@@ -12,8 +12,7 @@
   <a href="https://www.frontrun.pro/">Website</a> •
   <a href="#features">Features</a> •
   <a href="#installation">Installation</a> •
-  <a href="#privacy">Privacy</a> •
-  <a href="#contributing">Contributing</a>
+  <a href="#privacy--security">Privacy & Security</a> •
 </p>
 
 ## Overview
