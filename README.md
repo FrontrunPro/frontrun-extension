@@ -1,5 +1,7 @@
 # Frontrun Extension
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/FrontrunPro/frontrun-extension)
+
 <p align="center">
   <img src="icon128.plasmo.f86e3ae6.png" alt="Frontrun Logo" width="128" height="128">
 </p>
@@ -13,6 +15,7 @@
   <a href="#features">Features</a> •
   <a href="#installation">Installation</a> •
   <a href="#privacy--security">Privacy & Security</a> •
+  
 </p>
 
 ## Overview
