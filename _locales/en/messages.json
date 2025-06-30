@@ -132,5 +132,121 @@
     "message": "For seamless experience, import your labels to Frontrun."
   },
   "import": { "message": "Import" },
-  "explore_frontrun": { "message": "Explore Frontrun" }
+  "explore_frontrun": { "message": "Explore Frontrun" },
+  "please_enter_wallet_addresses": {
+    "message": "Please enter wallet addresses"
+  },
+  "no_valid_wallet_addresses_found": {
+    "message": "No valid wallet addresses found"
+  },
+  "invalid_wallet_address_with_addr": {
+    "message": "Invalid wallet address: {address}"
+  },
+  "missing_label_for_address": {
+    "message": "Missing label for address: {address}"
+  },
+  "successfully_imported_labels": {
+    "message": "Successfully imported labels!"
+  },
+  "failed_to_import_labels": { "message": "Failed to import labels" },
+  "failed_to_parse_wallet_data": { "message": "Failed to parse wallet data" },
+  "bulk_import": { "message": "Bulk Import" },
+  "paste_your_exported_wallets_here": {
+    "message": "Paste your exported wallets here..."
+  },
+  "alt_wallet": { "message": "Alt Wallet" },
+  "high": { "message": "High" },
+  "medium": { "message": "Med" },
+  "we_are_confident_pocket_wallet": {
+    "message": "We're {confidence} confident this wallet serves as a Pocket Wallet for the selected address."
+  },
+  "please_enter_a_primary_label": { "message": "Please enter a primary label" },
+  "successfully_updated_label": { "message": "Label updated successfully!" },
+  "failed_to_update_label": { "message": "Failed to update label" },
+  "create": { "message": "Create" },
+  "trading_feature_coming_soon": {
+    "message": "This feature is coming soon. Reach out to us if you're interested in early access."
+  },
+  "feature_temporarily_disabled": {
+    "message": "This feature is temporarily disabled and will be restored automatically."
+  },
+  "please_enter_invite_code": { "message": "Please enter an invite code" },
+  "something_went_wrong": { "message": "Something went wrong" },
+  "already_signed_up_with_twitter": {
+    "message": "Already signed up with Twitter?"
+  },
+  "twitter_login": { "message": "Twitter login" },
+  "google_only_twitter_notice": {
+    "message": "All users should use Google • Twitter login is only for users who previously signed up with Twitter"
+  },
+  "need_help": { "message": "Need help?" },
+  "docs": { "message": "Docs" },
+  "community": { "message": "Community" },
+  "search_placeholder": {
+    "message": "Search by label, address, keyword, or name"
+  },
+  "import_from_gmgn": { "message": "Import from GMGN" },
+  "import_from_solscan": { "message": "Import from Solscan" },
+  "import_from_axiom": { "message": "Import from Axiom" },
+  "import_from_photon": { "message": "Import from Photon" },
+  "supported_wallets": { "message": "Supported Wallets" },
+  "copied": { "message": "Copied" },
+  "copy": { "message": "Copy" },
+  "custom_labels_detected": { "message": "Custom labels detected" },
+  "remind_later": { "message": "Remind later" },
+  "import_to_frontrun_tip": {
+    "message": "Import to Frontrun to seemlesly display on X and other platforms?"
+  },
+  "never_show_this_again": { "message": "Never show this again." },
+  "failed_to_import_labels_refresh": {
+    "message": "Failed to import labels, please refresh the page"
+  },
+  "importing_labels": { "message": "Importing Labels" },
+  "generating_project_summary": { "message": "Generating project summary…" },
+  "please_wait_minutes": { "message": "Please wait ~1–2 minutes." },
+  "update_summary": { "message": "Update Summary" },
+  "generate_summary": { "message": "Generate Summary" },
+  "quick_buy": { "message": "Quick Buy" },
+  "quick_sell": { "message": "Quick Sell" },
+  "recently_logged_in_as": { "message": "Recently logged in as" },
+  "clear": { "message": "Clear" },
+  "login_method": { "message": "Login method" },
+  "google": { "message": "Google" },
+  "twitter": { "message": "Twitter" },
+  "loading": { "message": "Loading..." },
+  "continue_with_google": { "message": "Continue with Google" },
+  "or": { "message": "or" },
+  "activate_account": { "message": "Activate Account" },
+  "enter_invite_code": { "message": "Enter invite code" },
+  "need_a_code": { "message": "Need a code?" },
+  "join_telegram": { "message": "Join Telegram" },
+  "activate": { "message": "Activate" },
+  "switch_account": { "message": "Switch Account" },
+  "kol_data": { "message": "KOL data" },
+  "custom_labels": { "message": "Custom labels" },
+  "smart_wallet_insights": { "message": "Smart wallet insights" },
+  "seamless_tagging": { "message": "Seamless tagging" },
+  "alpha_discovery": { "message": "Alpha discovery" },
+  "real_time_tracking": { "message": "Real-time tracking" },
+  "x_integration": { "message": "X integration" },
+  "trade_on_signals": { "message": "Trade on signals," },
+  "not_speculation": { "message": "not speculation." },
+  "open_sidepanel_to_explore_frontrun": {
+    "message": "Open SidePanel To Explore Frontrun"
+  },
+  "profile_data": { "message": "Profile Data" },
+  "twitter_label": { "message": "Twitter Label" },
+  "name": { "message": "Name" },
+  "show_full_list": { "message": "Show Full List" },
+  "are_you_sure_you_want_to_delete_this_profile": {
+    "message": "Are you sure you want to delete this profile?"
+  },
+  "wallet_data": { "message": "Wallet Data" },
+  "wallet_label": { "message": "Wallet Label" },
+  "are_you_sure_you_want_to_delete_this_label": {
+    "message": "Are you sure you want to delete this label? The wallet will be removed"
+  },
+  "delete_label": { "message": "Delete Label" },
+  "of": { "message": "of" },
+  "selected": { "message": "selected" }
 }

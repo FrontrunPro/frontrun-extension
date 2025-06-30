@@ -79,7 +79,7 @@
   "recent_labels": { "message": "最近的标签" },
   "no_custom_labels_yet": { "message": "您还没有分配任何自定义标签。" },
   "start_trading": { "message": "开始交易" },
-  "profiles": { "message": "X 账户" },
+  "profiles": { "message": "账户" },
   "wallets": { "message": "钱包" },
   "welcome_to_frontrun": { "message": "欢迎来到 Frontrun" },
   "pin_extension_for_quick_access": { "message": "固定插件以快速访问" },
@@ -110,5 +110,109 @@
     "message": "为了获得更流畅的体验，请将您的标签导入到 Frontrun。"
   },
   "import": { "message": "导入" },
-  "explore_frontrun": { "message": "探索 Frontrun" }
+  "explore_frontrun": { "message": "探索 Frontrun" },
+  "please_enter_wallet_addresses": { "message": "请输入钱包地址" },
+  "no_valid_wallet_addresses_found": { "message": "未找到有效的钱包地址" },
+  "invalid_wallet_address_with_addr": {
+    "message": "无效的钱包地址：{address}"
+  },
+  "missing_label_for_address": { "message": "地址缺少标签：{address}" },
+  "successfully_imported_labels": { "message": "标签导入成功！" },
+  "failed_to_import_labels": { "message": "标签导入失败" },
+  "failed_to_parse_wallet_data": { "message": "解析钱包数据失败" },
+  "bulk_import": { "message": "批量导入" },
+  "paste_your_exported_wallets_here": { "message": "请粘贴你导出的钱包..." },
+  "alt_wallet": { "message": "关联钱包" },
+  "high": { "message": "高" },
+  "medium": { "message": "中" },
+  "we_are_confident_pocket_wallet": {
+    "message": "我们对该钱包可能是口袋钱包的置信度为{confidence}"
+  },
+  "please_enter_a_primary_label": { "message": "请输入主要标签" },
+  "successfully_updated_label": { "message": "标签更新成功！" },
+  "failed_to_update_label": { "message": "标签更新失败" },
+  "create": { "message": "创建" },
+  "trading_feature_coming_soon": {
+    "message": "该功能即将上线。如需抢先体验，请联系我们。"
+  },
+  "feature_temporarily_disabled": {
+    "message": "该功能暂时停用，将在恢复后自动开启。"
+  },
+  "please_enter_invite_code": { "message": "请输入邀请码" },
+  "something_went_wrong": { "message": "出现错误" },
+  "already_signed_up_with_twitter": { "message": "已使用 Twitter 注册？" },
+  "twitter_login": { "message": "Twitter 登录" },
+  "google_only_twitter_notice": {
+    "message": "所有用户应使用 Google • Twitter 登录仅适用于之前使用 Twitter 注册的用户"
+  },
+  "need_help": { "message": "需要帮助？" },
+  "docs": { "message": "文档" },
+  "community": { "message": "社区" },
+  "search_placeholder": { "message": "按标签、地址、关键词或名称搜索" },
+  "import_from_gmgn": { "message": "从 GMGN 导入" },
+  "import_from_solscan": { "message": "从 Solscan 导入" },
+  "import_from_axiom": { "message": "从 Axiom 导入" },
+  "import_from_photon": { "message": "从 Photon 导入" },
+  "supported_wallets": { "message": "支持的钱包" },
+  "copied": { "message": "已复制" },
+  "copy": { "message": "复制" },
+  "custom_labels_detected": { "message": "检测到自定义标签" },
+  "remind_later": { "message": "稍后提醒" },
+  "import_to_frontrun_tip": {
+    "message": "导入到 Frontrun，可在 X 和其他平台无缝显示？"
+  },
+  "never_show_this_again": { "message": "不再显示此提示。" },
+  "failed_to_import_labels_refresh": {
+    "message": "导入标签失败，请刷新页面重试"
+  },
+  "importing_labels": { "message": "正在导入标签" },
+  "generating_project_summary": { "message": "正在生成项目总结…" },
+  "please_wait_minutes": { "message": "请等待约1-2分钟。" },
+  "update_summary": { "message": "更新总结" },
+  "generate_summary": { "message": "生成总结" },
+  "quick_buy": { "message": "快捷买入" },
+  "quick_sell": { "message": "快捷卖出" },
+  "instant_trade": { "message": "闪电交易" },
+  "sell": { "message": "卖出" },
+  "recently_logged_in_as": { "message": "最近登录账号" },
+  "clear": { "message": "清除" },
+  "login_method": { "message": "登录方式" },
+  "google": { "message": "Google" },
+  "twitter": { "message": "Twitter" },
+  "loading": { "message": "加载中..." },
+  "continue_with_google": { "message": "使用 Google 登录" },
+  "or": { "message": "或" },
+  "activate_account": { "message": "激活账号" },
+  "enter_invite_code": { "message": "输入邀请码" },
+  "need_a_code": { "message": "需要邀请码？" },
+  "join_telegram": { "message": "加入 Telegram" },
+  "activate": { "message": "激活" },
+  "switch_account": { "message": "切换账号" },
+  "kol_data": { "message": "KOL 数据" },
+  "custom_labels": { "message": "自定义标签" },
+  "smart_wallet_insights": { "message": "智能钱包洞察" },
+  "seamless_tagging": { "message": "无缝打标签" },
+  "alpha_discovery": { "message": "Alpha 发现" },
+  "real_time_tracking": { "message": "实时追踪" },
+  "x_integration": { "message": "X 集成" },
+  "trade_on_signals": { "message": "基于信号交易，" },
+  "not_speculation": { "message": "而非投机。" },
+  "open_sidepanel_to_explore_frontrun": {
+    "message": "打开侧边栏探索 Frontrun"
+  },
+  "profile_data": { "message": "账户数据" },
+  "twitter_label": { "message": "Twitter 标签" },
+  "name": { "message": "名称" },
+  "show_full_list": { "message": "显示完整列表" },
+  "are_you_sure_you_want_to_delete_this_profile": {
+    "message": "确定要删除此账户吗？"
+  },
+  "wallet_data": { "message": "钱包数据" },
+  "wallet_label": { "message": "钱包标签" },
+  "are_you_sure_you_want_to_delete_this_label": {
+    "message": "确定要删除此标签吗？钱包将被移除"
+  },
+  "delete_label": { "message": "删除标签" },
+  "of": { "message": "/" },
+  "selected": { "message": "已选" }
 }
