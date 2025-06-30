@@ -248,5 +248,19 @@
   },
   "delete_label": { "message": "Delete Label" },
   "of": { "message": "of" },
-  "selected": { "message": "selected" }
+  "selected": { "message": "selected" },
+  "group": { "message": "Group" },
+  "group_management": { "message": "Group Management" },
+  "add_wallet": { "message": "Add Wallet" },
+  "add_multi_wallet": { "message": "Add Multi Wallet" },
+  "delete_group": { "message": "Delete Group" },
+  "are_you_sure_you_want_to_delete_this_group": {
+    "message": "Are you sure you want to delete this group?"
+  },
+  "success_group_updated": { "message": "Successfully updated group" },
+  "error_group_update": { "message": "Failed to update group" },
+  "success_wallets_removed": { "message": "Successfully removed wallets" },
+  "error_wallets_remove": { "message": "Failed to remove wallets" },
+  "success_group_deleted": { "message": "Successfully deleted group" },
+  "error_group_delete": { "message": "Failed to delete group" }
 }

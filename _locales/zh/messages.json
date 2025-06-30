@@ -214,5 +214,19 @@
   },
   "delete_label": { "message": "删除标签" },
   "of": { "message": "/" },
-  "selected": { "message": "已选" }
+  "selected": { "message": "已选" },
+  "group": { "message": "分组" },
+  "group_management": { "message": "分组管理" },
+  "add_wallet": { "message": "添加钱包" },
+  "add_multi_wallet": { "message": "添加多钱包" },
+  "delete_group": { "message": "删除分组" },
+  "are_you_sure_you_want_to_delete_this_group": {
+    "message": "确定要删除此分组吗？"
+  },
+  "success_group_updated": { "message": "分组更新成功" },
+  "error_group_update": { "message": "分组更新失败" },
+  "success_wallets_removed": { "message": "钱包移除成功" },
+  "error_wallets_remove": { "message": "钱包移除失败" },
+  "success_group_deleted": { "message": "分组删除成功" },
+  "error_group_delete": { "message": "分组删除失败" }
 }
