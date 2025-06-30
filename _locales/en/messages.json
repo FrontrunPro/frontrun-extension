@@ -83,6 +83,7 @@
   "save": { "message": "Save" },
   "add_alt_wallets_to_group": { "message": "Add Alt Wallets to Group" },
   "add_to_group": { "message": "Add to Group" },
+  "select_wallet": { "message": "Select Wallet" },
   "explore_universal_labels": { "message": "Explore Universal Labels" },
   "recent_labels": { "message": "Recent Labels" },
   "no_custom_labels_yet": {
@@ -163,6 +164,7 @@
   "please_enter_a_primary_label": { "message": "Please enter a primary label" },
   "successfully_updated_label": { "message": "Label updated successfully!" },
   "failed_to_update_label": { "message": "Failed to update label" },
+  "failed_to_delete_label": { "message": "Failed to delete label" },
   "create": { "message": "Create" },
   "trading_feature_coming_soon": {
     "message": "This feature is coming soon. Reach out to us if you're interested in early access."
@@ -297,5 +299,10 @@
   "this_wallet_is_already_labeled_keep_the_current_label_or_update_it": {
     "message": "This wallet is already labeled. Keep the current label or update it."
   },
-  "paste_the_wallet_address": { "message": "Paste the wallet address" }
+  "paste_the_wallet_address": { "message": "Paste the wallet address" },
+  "please_select_at_least_one_wallet": {
+    "message": "Please select at least one wallet"
+  },
+  "importing": { "message": "Importing..." },
+  "frontrun_summary": { "message": "Frontrun Summary" }
 }
