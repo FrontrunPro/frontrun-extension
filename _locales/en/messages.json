@@ -1,0 +1,136 @@
+{
+  "labeling": { "message": "Labeling" },
+  "trading": { "message": "Trading" },
+  "setting": { "message": "Settings" },
+  "add": { "message": "Add" },
+  "appearance": { "message": "Appearance" },
+  "platform_settings": { "message": "Platform Settings" },
+  "light": { "message": "Light" },
+  "dark": { "message": "Dark" },
+  "logout": { "message": "Log out" },
+  "language": { "message": "Language" },
+  "smart_followers": { "message": "Smart followers" },
+  "powered_by": { "message": "Powered by" },
+  "log_in_to_view_insights": { "message": "Log in to view insights" },
+  "label_updated_successfully": { "message": "Label updated successfully!" },
+  "name_change": { "message": "Name change" },
+  "username_history": { "message": "Username History" },
+  "get_ca_history": { "message": "Get CA History" },
+  "ca_history": { "message": "CA History" },
+  "fetch_ca_history_failed": {
+    "message": "Failed to fetch CA History. Please try again later."
+  },
+  "add_label": { "message": "Add Label" },
+  "successfully_created_group": { "message": "Successfully created group" },
+  "failed_to_create_group": { "message": "Failed to create group" },
+  "enter_a_group_name": { "message": "Enter a group name" },
+  "characters": { "message": "characters" },
+  "group_name_already_exists": { "message": "Group name already exists" },
+  "view_summary": { "message": "View Summary" },
+  "x_profile": { "message": "X Profile" },
+  "net_worth": { "message": "Net Worth" },
+  "win_rate": { "message": "Win Rate" },
+  "pnl_90d": { "message": "PnL (90D)" },
+  "address": { "message": "Address" },
+  "program_derived_address": { "message": "Program Derived Address" },
+  "confirm": { "message": "Confirm" },
+  "cancel": { "message": "Cancel" },
+  "jito_bundle_details": { "message": "Jito Bundle Details" },
+  "bundle_id": { "message": "Bundle ID" },
+  "total_transactions": { "message": "Total Transactions" },
+  "transaction_signatures": { "message": "Transaction Signatures" },
+  "loading_details": { "message": "Loading details..." },
+  "details_not_available": { "message": "Details not available" },
+  "no_bundle_data_available": { "message": "No Bundle Data Available" },
+  "unable_to_load_bundle_info": {
+    "message": "Unable to load bundle information at this time."
+  },
+  "view_on_jito_explorer": { "message": "View on Jito Explorer" },
+  "close": { "message": "Close" },
+  "signer": { "message": "Signer" },
+  "checking": { "message": "Checking..." },
+  "bundled_with": { "message": "Bundled with" },
+  "transactions": { "message": "Transactions" },
+  "jito_bundle": { "message": "Jito Bundle" },
+  "not_bundled": { "message": "Not Bundled" },
+  "bundle_check_failed": { "message": "Bundle Check Failed" },
+  "unknown": { "message": "Unknown" },
+  "successfully_updated_group": { "message": "Successfully updated group" },
+  "failed_to_save_group": { "message": "Failed to save group" },
+  "groups": { "message": "Groups" },
+  "tags": { "message": "Tags" },
+  "duplicated_group_name": { "message": "Duplicated group name" },
+  "group_name_required": { "message": "Group name is required" },
+  "new_wallet": { "message": "New Wallet" },
+  "new_group": { "message": "New Group" },
+  "import_labels": { "message": "Import Labels" },
+  "group_name": { "message": "Group Name" },
+  "enter_a_new_group_name": { "message": "Enter a new group name" },
+  "wallet_address": { "message": "Wallet Address" },
+  "enter_a_new_wallet_address": { "message": "Enter a new wallet address" },
+  "primary_label": { "message": "Primary Label" },
+  "enter_a_name_for_easy_tracking": {
+    "message": "Enter a name for easy tracking"
+  },
+  "wallet_address_is_required": { "message": "Wallet address is required" },
+  "invalid_wallet_address": { "message": "Invalid wallet address" },
+  "primary_label_is_required": { "message": "Primary label is required" },
+  "wallet_created_successfully": { "message": "Successfully created wallet!" },
+  "wallet_creation_failed": { "message": "Failed to create wallet!" },
+  "please_select_at_least_one_group": {
+    "message": "Please select at least one group"
+  },
+  "save": { "message": "Save" },
+  "add_alt_wallets_to_group": { "message": "Add Alt Wallets to Group" },
+  "add_to_group": { "message": "Add to Group" },
+  "explore_universal_labels": { "message": "Explore Universal Labels" },
+  "recent_labels": { "message": "Recent Labels" },
+  "no_custom_labels_yet": {
+    "message": "You haven't assigned any custom labels yet."
+  },
+  "start_trading": { "message": "Start Trading" },
+  "profiles": { "message": "Profiles" },
+  "wallets": { "message": "Wallets" },
+  "welcome_to_frontrun": { "message": "Welcome to Frontrun" },
+  "pin_extension_for_quick_access": {
+    "message": "Pin Extension for Quick Access"
+  },
+  "extensions": { "message": "Extensions" },
+  "frontrun": { "message": "Frontrun" },
+  "pin": { "message": "Pin" },
+  "lets_explore_labels_on_gmgn": { "message": "Let's Explore Labels on GMGN" },
+  "explore_labels_on_gmgn": { "message": "Explore Labels on GMGN" },
+  "lets_explore_labels_on_x": { "message": "Let's Explore Labels on X" },
+  "explore_labels_on_x": { "message": "Explore Labels on X" },
+  "ready_to_frontrun": { "message": "Ready to Frontrun" },
+  "skip_intro": { "message": "Skip Intro >" },
+  "gmgn_label_1": {
+    "message": "Find and hover over existing label to view groups and tags."
+  },
+  "gmgn_label_2": { "message": "Create and customize labels for any wallet." },
+  "gmgn_label_3": {
+    "message": "Easily auto-import your custom groups from GMGN to Frontrun for seamless cross-platform visibility."
+  },
+  "profile_label_1": {
+    "message": "Hover over View Summary to see more details about the account."
+  },
+  "profile_label_2": {
+    "message": "Create and customize labels for any X user."
+  },
+  "profile_label_3": {
+    "message": "View smart followers on each profile page."
+  },
+  "your_account_is_activated": { "message": "Your account is activated!" },
+  "view_frontrun_insights_line": {
+    "message": "You can now view the Frontrun insights on X and other platforms."
+  },
+  "add_custom_labels_by_clicking": {
+    "message": "Add custom labels by clicking"
+  },
+  "icon_next_to_address_on": { "message": "icon next to wallet's address on" },
+  "seamless_experience": {
+    "message": "For seamless experience, import your labels to Frontrun."
+  },
+  "import": { "message": "Import" },
+  "explore_frontrun": { "message": "Explore Frontrun" }
+}
