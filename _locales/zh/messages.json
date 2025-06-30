@@ -228,5 +228,40 @@
   "success_wallets_removed": { "message": "钱包移除成功" },
   "error_wallets_remove": { "message": "钱包移除失败" },
   "success_group_deleted": { "message": "分组删除成功" },
-  "error_group_delete": { "message": "分组删除失败" }
+  "error_group_delete": { "message": "分组删除失败" },
+  "delete_profile": { "message": "删除账户" },
+  "add_multiple_wallets": { "message": "添加多钱包" },
+  "add_single_wallet": { "message": "添加单钱包" },
+  "wallet_address_placeholder": {
+    "message": "钱包地址"
+  },
+  "wallet_label_placeholder": {
+    "message": "钱包地址: 主要标签"
+  },
+  "duplicate_wallet_addresses_found": {
+    "message": "重复的钱包地址"
+  },
+  "invalid_wallet_addresses": { "message": "无效的钱包地址" },
+  "please_enter_a_label": { "message": "请输入标签" },
+  "success_imported_labels": { "message": "标签导入成功！" },
+  "error_importing_wallets": {
+    "message": "钱包导入失败，请稍后再试。"
+  },
+  "auto_generate_labels_from_group_name": {
+    "message": "从分组名称自动生成标签。"
+  },
+  "enter_wallet_addresses_one_per_line": {
+    "message": "请输入钱包地址，每行一个。"
+  },
+  "use_colon_for_custom_labels": {
+    "message": "使用冒号自定义标签。"
+  },
+  "format": { "message": "格式" },
+  "add_wallets": { "message": "添加钱包" },
+  "processing": { "message": "处理中..." },
+  "invalid_solana_address": { "message": "无效的 Solana 地址" },
+  "this_wallet_is_already_labeled_keep_the_current_label_or_update_it": {
+    "message": "此钱包已标记。保留当前标签或更新它。"
+  },
+  "paste_the_wallet_address": { "message": "粘贴钱包地址" }
 }

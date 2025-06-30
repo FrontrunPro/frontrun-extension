@@ -262,5 +262,40 @@
   "success_wallets_removed": { "message": "Successfully removed wallets" },
   "error_wallets_remove": { "message": "Failed to remove wallets" },
   "success_group_deleted": { "message": "Successfully deleted group" },
-  "error_group_delete": { "message": "Failed to delete group" }
+  "error_group_delete": { "message": "Failed to delete group" },
+  "delete_profile": { "message": "Delete Profile" },
+  "add_multiple_wallets": { "message": "Add Multiple Wallets" },
+  "add_single_wallet": { "message": "Add Single Wallet" },
+  "wallet_address_placeholder": {
+    "message": "wallet address"
+  },
+  "wallet_label_placeholder": {
+    "message": "wallet address: Primary Label"
+  },
+  "duplicate_wallet_addresses_found": {
+    "message": "Duplicate wallet addresses found"
+  },
+  "invalid_wallet_addresses": { "message": "Invalid wallet addresses" },
+  "please_enter_a_label": { "message": "Please enter a label" },
+  "success_imported_labels": { "message": "Successfully imported labels!" },
+  "error_importing_wallets": {
+    "message": "Error importing wallets. Please try again."
+  },
+  "auto_generate_labels_from_group_name": {
+    "message": "Auto-generate labels from group name."
+  },
+  "enter_wallet_addresses_one_per_line": {
+    "message": "Enter wallet addresses, one per line."
+  },
+  "use_colon_for_custom_labels": {
+    "message": "Use colon for custom labels."
+  },
+  "format": { "message": "Format" },
+  "add_wallets": { "message": "Add Wallets" },
+  "processing": { "message": "Processing..." },
+  "invalid_solana_address": { "message": "Invalid Solana address" },
+  "this_wallet_is_already_labeled_keep_the_current_label_or_update_it": {
+    "message": "This wallet is already labeled. Keep the current label or update it."
+  },
+  "paste_the_wallet_address": { "message": "Paste the wallet address" }
 }
