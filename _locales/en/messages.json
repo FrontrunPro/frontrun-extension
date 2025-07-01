@@ -13,6 +13,7 @@
   "powered_by": { "message": "Powered by" },
   "log_in_to_view_insights": { "message": "Log in to view insights" },
   "label_updated_successfully": { "message": "Label updated successfully!" },
+  "label_deleted_successfully": { "message": "Label deleted successfully!" },
   "name_change": { "message": "Name change" },
   "username_history": { "message": "Username History" },
   "get_ca_history": { "message": "Get CA History" },
@@ -20,6 +21,17 @@
   "fetch_ca_history_failed": {
     "message": "Failed to fetch CA History. Please try again later."
   },
+  "deleted_CA_count": { "message": "{deletedCACount} deleted" },
+  "active_CA_count": { "message": "{activeCACount} active" },
+  "deleted_tweets": { "message": "{deletedTweetsCount} deleted tweets" },
+  "undeleted_tweets": { "message": "{undeletedTweetCount} active tweets" },
+  "deleted_tweets_title": { "message": "Deleted Tweets" },
+  "no_active_tweets_found": { "message": "No active tweets found" },
+  "view_on_twitter": { "message": "View on Twitter" },
+  "deleted_tweets_found": { "message": "Found {deletedTweetsCount} deleted tweets" },
+  "no_deleted_tweets_found": { "message": "No deleted tweets found" },
+  "active_tweets": { "message": "Active Tweets" },
+  "CA_mentioned_by": { "message": "CA mentioned by @{twitterUsername}" },
   "add_label": { "message": "Add Label" },
   "successfully_created_group": { "message": "Successfully created group" },
   "failed_to_create_group": { "message": "Failed to create group" },
@@ -148,6 +160,12 @@
   },
   "successfully_imported_labels": {
     "message": "Successfully imported labels!"
+  },
+  "successfully_added_wallets_to_groups": {
+    "message": "Successfully added wallets to groups!"
+  },
+  "failed_to_add_wallets_to_groups": {
+    "message": "Failed to add wallets to groups!"
   },
   "failed_to_import_labels": { "message": "Failed to import labels" },
   "failed_to_parse_wallet_data": { "message": "Failed to parse wallet data" },
