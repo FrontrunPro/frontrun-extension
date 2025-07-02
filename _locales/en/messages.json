@@ -28,7 +28,9 @@
   "deleted_tweets_title": { "message": "Deleted Tweets" },
   "no_active_tweets_found": { "message": "No active tweets found" },
   "view_on_twitter": { "message": "View on Twitter" },
-  "deleted_tweets_found": { "message": "Found {deletedTweetsCount} deleted tweets" },
+  "deleted_tweets_found": {
+    "message": "Found {deletedTweetsCount} deleted tweets"
+  },
   "no_deleted_tweets_found": { "message": "No deleted tweets found" },
   "active_tweets": { "message": "Active Tweets" },
   "CA_mentioned_by": { "message": "CA mentioned by @{twitterUsername}" },
@@ -191,7 +193,9 @@
     "message": "This feature is temporarily disabled and will be restored automatically."
   },
   "please_enter_invite_code": { "message": "Please enter an invite code" },
-  "something_went_wrong": { "message": "Something went wrong" },
+  "something_went_wrong": {
+    "message": "Something went wrong, please try again later"
+  },
   "already_signed_up_with_twitter": {
     "message": "Already signed up with Twitter?"
   },
@@ -322,5 +326,8 @@
     "message": "Please select at least one wallet"
   },
   "importing": { "message": "Importing..." },
-  "frontrun_summary": { "message": "Frontrun Summary" }
+  "frontrun_summary": { "message": "Frontrun Summary" },
+  "twitter_sign_up_is_being_phased_out": {
+    "message": "Twitter sign-up is being phased out—please use Google to create your account."
+  }
 }

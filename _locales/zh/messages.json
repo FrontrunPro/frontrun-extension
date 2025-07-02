@@ -25,7 +25,9 @@
   "deleted_tweets_title": { "message": "已删除推文" },
   "no_active_tweets_found": { "message": "未找到活跃推文" },
   "view_on_twitter": { "message": "在 Twitter 上查看" },
-  "deleted_tweets_found": { "message": "已找到 {deletedTweetsCount} 个已删除推文" },
+  "deleted_tweets_found": {
+    "message": "已找到 {deletedTweetsCount} 个已删除推文"
+  },
   "no_deleted_tweets_found": { "message": "未找到已删除推文" },
   "ca_history": { "message": "发盘历史" },
   "fetch_ca_history_failed": { "message": "获取发盘历史失败，请稍后再试。" },
@@ -154,7 +156,7 @@
     "message": "该功能暂时停用，将在恢复后自动开启。"
   },
   "please_enter_invite_code": { "message": "请输入邀请码" },
-  "something_went_wrong": { "message": "出现错误" },
+  "something_went_wrong": { "message": "出现错误，请稍后再试" },
   "already_signed_up_with_twitter": { "message": "已使用 Twitter 注册？" },
   "twitter_login": { "message": "Twitter 登录" },
   "google_only_twitter_notice": {
@@ -271,5 +273,8 @@
   "paste_the_wallet_address": { "message": "粘贴钱包地址" },
   "please_select_at_least_one_wallet": { "message": "请至少选择一个钱包" },
   "importing": { "message": "导入中..." },
-  "frontrun_summary": { "message": "Frontrun 概览" }
+  "frontrun_summary": { "message": "Frontrun 概览" },
+  "twitter_sign_up_is_being_phased_out": {
+    "message": "Twitter 注册正在逐步淘汰——请使用 Google 创建您的账户。"
+  }
 }
