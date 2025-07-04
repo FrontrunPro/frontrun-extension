@@ -95,6 +95,7 @@
     "message": "Please select at least one group"
   },
   "save": { "message": "Save" },
+  "last_active": { "message": "Last Active" },
   "add_alt_wallets_to_group": { "message": "Add Alt Wallets to Group" },
   "add_to_group": { "message": "Add to Group" },
   "select_wallet": { "message": "Select Wallet" },

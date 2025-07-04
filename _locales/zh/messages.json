@@ -86,6 +86,7 @@
   "wallet_creation_failed": { "message": "创建钱包失败！" },
   "please_select_at_least_one_group": { "message": "请至少选择一个分组" },
   "save": { "message": "保存" },
+  "last_active": { "message": "最后活跃" },
   "add_alt_wallets_to_group": { "message": "将备用钱包添加到分组" },
   "add_to_group": { "message": "添加到分组" },
   "select_wallet": { "message": "选择钱包" },
