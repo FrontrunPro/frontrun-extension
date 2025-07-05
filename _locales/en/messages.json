@@ -55,6 +55,7 @@
   "transaction_signatures": { "message": "Transaction Signatures" },
   "loading_details": { "message": "Loading details..." },
   "details_not_available": { "message": "Details not available" },
+  "no_alt_wallets_found": { "message": "No alt wallets found" },
   "no_bundle_data_available": { "message": "No Bundle Data Available" },
   "unable_to_load_bundle_info": {
     "message": "Unable to load bundle information at this time."

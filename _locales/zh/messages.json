@@ -52,6 +52,7 @@
   "transaction_signatures": { "message": "交易签名" },
   "loading_details": { "message": "加载详情..." },
   "details_not_available": { "message": "暂无详情" },
+  "no_alt_wallets_found": { "message": "未找到关联钱包" },
   "no_bundle_data_available": { "message": "暂无 Bundle 数据" },
   "unable_to_load_bundle_info": { "message": "暂时无法加载 Bundle 信息。" },
   "view_on_jito_explorer": { "message": "在 Jito Explorer 查看" },
