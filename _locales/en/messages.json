@@ -331,5 +331,197 @@
   "frontrun_summary": { "message": "Frontrun Summary" },
   "twitter_sign_up_is_being_phased_out": {
     "message": "Twitter sign-up is being phased out—please use Google to create your account."
+  },
+  "read_more": {
+    "message": "Read more"
+  },
+  "secure_signing": {
+    "message": "secure signing"
+  },
+  "frontrun_never_gets_the_the_access_to_use_private_keys": {
+    "message": "Frontrun never gets the the access to use private keys."
+  },
+  "create_new_wallet": {
+    "message": "Create New Wallet"
+  },
+  "start_fresh_with_a_brand_new_key_pair_generated_right_in_your_browser": {
+    "message": "Start fresh with a brand new key pair generated right in your browser."
+  },
+  "enable_with_google": {
+    "message": "Enable with Google"
+  },
+  "your_wallets": {
+    "message": "Your Wallets"
+  },
+  "creating": {
+    "message": "Creating..."
+  },
+  "you_have_reached_the_maximum_number_of_wallets": {
+    "message": "You have reached the maximum number of wallets"
+  },
+  "failed_to_create_wallet": {
+    "message": "Failed to create wallet"
+  },
+  "failed_to_fetch_imported_private_keys": {
+    "message": "Failed to fetch imported private keys"
+  },
+  "failed_to_fetch_addresses": {
+    "message": "Failed to fetch addresses"
+  },
+  "failed_to_fetch_portfolio_for_address": {
+    "message": "Failed to fetch portfolio for address"
+  },
+  "private_key_imported_successfully": {
+    "message": "Private key imported successfully"
+  },
+  "failed_to_import_private_key": {
+    "message": "Failed to import private key"
+  },
+  "import_wallet": {
+    "message": "Import Wallet"
+  },
+  "do_not_share_your_private_key_with_anyone_frontrun_never_sees_or_stores_your_key": {
+    "message": "Do not share your private key with anyone. Frontrun never sees or stores your key."
+  },
+  "please_enter_the_destination_address": {
+    "message": "Please enter the destination address"
+  },
+  "destination_address_is_not_valid": {
+    "message": "Destination address is not valid"
+  },
+  "cannot_send_sol_to_the_same_address": {
+    "message": "Cannot send SOL to the same address"
+  },
+  "please_enter_the_amount": {
+    "message": "Please enter the amount"
+  },
+  "invalid_amount": {
+    "message": "Invalid amount"
+  },
+  "failed_to_export_private_key": {
+    "message": "Failed to export private key"
+  },
+  "make_sure_the_destination_accepts_sol": {
+    "message": "Make sure the destination accepts SOL"
+  },
+  "destination_address": {
+    "message": "Destination Address"
+  },
+  "amount": {
+    "message": "Amount"
+  },
+  "balance": {
+    "message": "Balance"
+  },
+  "verify_with_google": {
+    "message": "Verify with Google"
+  },
+  "from": {
+    "message": "From"
+  },
+  "to": {
+    "message": "To"
+  },
+  "sending": {
+    "message": "Sending..."
+  },
+  "send": {
+    "message": "Send"
+  },
+  "sol_was_successfully_sent_to": {
+    "message": "SOL was successfully sent to"
+  },
+  "view_transaction": {
+    "message": "View transaction"
+  },
+  "done": {
+    "message": "Done"
+  },
+  "default_wallet": {
+    "message": "Default Wallet"
+  },
+  "set_as_default_wallet": {
+    "message": "Set as Default Wallet"
+  },
+  "deposit": {
+    "message": "Deposit"
+  },
+  "withdraw": {
+    "message": "Withdraw"
+  },
+  "view_on_solscan": {
+    "message": "View on Solscan"
+  },
+  "view_private_key": {
+    "message": "View Private Key"
+  },
+  "archive_wallet": {
+    "message": "Archive Wallet"
+  },
+  "holdings": {
+    "message": "Holdings"
+  },
+  "hide_low": {
+    "message": "Hide low"
+  },
+  "trade": {
+    "message": "Trade"
+  },
+  "share": {
+    "message": "Share"
+  },
+  "deposit_sol": {
+    "message": "Deposit SOL"
+  },
+  "deposit_address": {
+    "message": "Deposit Address"
+  },
+  "only_send_sol_to_this_address": {
+    "message": "Only send SOL to this address."
+  },
+  "copied_to_clipboard": {
+    "message": "Copied to clipboard"
+  },
+  "failed_to_copy_address": {
+    "message": "Failed to copy address"
+  },
+  "copy_address": {
+    "message": "Copy Address"
+  },
+  "export_private_key": {
+    "message": "Export Private Key"
+  },
+  "your_private_key_will_provide_all_access_to_this_account_do_not_share_your_private_key_with_anyone_frontrun_never_sees_or_stores_your_key": {
+    "message": "Your Private Key will provide all access to this account. Do not share your Private Key with anyone. Frontrun never sees or stores your key."
+  },
+  "reveal_private_key": {
+    "message": "Reveal Private Key"
+  },
+  "enter_private_key": {
+    "message": "Enter Private Key"
+  },
+  "withdraw_failed": {
+    "message": "Withdraw failed"
+  },
+  "confirm_withdraw": {
+    "message": "Confirm Withdraw"
+  },
+  "withdraw_sol": {
+    "message": "Withdraw SOL"
+  },
+  "success": {
+    "message": "Success"
+  },
+  "error": {
+    "message": "Error"
+  },
+  "enter_destination_address": {
+    "message": "Enter destination address"
+  },
+  "enter_amount": {
+    "message": "Enter amount"
+  },
+  "enable_trading": {
+    "message": "Enable Trading"
   }
 }

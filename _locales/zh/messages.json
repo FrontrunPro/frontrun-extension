@@ -278,5 +278,197 @@
   "frontrun_summary": { "message": "Frontrun 概览" },
   "twitter_sign_up_is_being_phased_out": {
     "message": "Twitter 注册正在逐步淘汰——请使用 Google 创建您的账户。"
+  },
+  "read_more": {
+    "message": "阅读更多"
+  },
+  "secure_signing": {
+    "message": "安全签名"
+  },
+  "frontrun_never_gets_the_the_access_to_use_private_keys": {
+    "message": "Frontrun 永远不会获取私钥的访问权限。"
+  },
+  "create_new_wallet": {
+    "message": "创建新钱包"
+  },
+  "start_fresh_with_a_brand_new_key_pair_generated_right_in_your_browser": {
+    "message": "在浏览器中生成全新的密钥对，开始全新的交易之旅。"
+  },
+  "enable_with_google": {
+    "message": "使用 Google 启用"
+  },
+  "your_wallets": {
+    "message": "您的钱包"
+  },
+  "creating": {
+    "message": "创建中..."
+  },
+  "you_have_reached_the_maximum_number_of_wallets": {
+    "message": "您已达到最大钱包数量"
+  },
+  "failed_to_create_wallet": {
+    "message": "创建钱包失败"
+  },
+  "failed_to_fetch_imported_private_keys": {
+    "message": "获取导入的私钥失败"
+  },
+  "failed_to_fetch_addresses": {
+    "message": "获取钱包地址失败"
+  },
+  "failed_to_fetch_portfolio_for_address": {
+    "message": "获取钱包资产失败"
+  },
+  "private_key_imported_successfully": {
+    "message": "私钥导入成功"
+  },
+  "failed_to_import_private_key": {
+    "message": "私钥导入失败"
+  },
+  "import_wallet": {
+    "message": "导入钱包"
+  },
+  "do_not_share_your_private_key_with_anyone_frontrun_never_sees_or_stores_your_key": {
+    "message": "不要与任何人分享您的私钥。Frontrun 永远不会看到或存储您的私钥。"
+  },
+  "please_enter_the_destination_address": {
+    "message": "请输入目标地址"
+  },
+  "destination_address_is_not_valid": {
+    "message": "目标地址无效"
+  },
+  "cannot_send_sol_to_the_same_address": {
+    "message": "不能发送 SOL 到相同地址"
+  },
+  "please_enter_the_amount": {
+    "message": "请输入金额"
+  },
+  "invalid_amount": {
+    "message": "无效金额"
+  },
+  "failed_to_export_private_key": {
+    "message": "导出私钥失败"
+  },
+  "make_sure_the_destination_accepts_sol": {
+    "message": "确保目标地址接受 SOL"
+  },
+  "destination_address": {
+    "message": "目标地址"
+  },
+  "amount": {
+    "message": "金额"
+  },
+  "balance": {
+    "message": "余额"
+  },
+  "verify_with_google": {
+    "message": "使用 Google 验证"
+  },
+  "from": {
+    "message": "从"
+  },
+  "to": {
+    "message": "到"
+  },
+  "sending": {
+    "message": "发送中..."
+  },
+  "send": {
+    "message": "发送"
+  },
+  "sol_was_successfully_sent_to": {
+    "message": "SOL 成功发送至"
+  },
+  "view_transaction": {
+    "message": "查看交易"
+  },
+  "done": {
+    "message": "完成"
+  },
+  "default_wallet": {
+    "message": "默认钱包"
+  },
+  "set_as_default_wallet": {
+    "message": "设为默认钱包"
+  },
+  "deposit": {
+    "message": "充值"
+  },
+  "withdraw": {
+    "message": "提现"
+  },
+  "view_on_solscan": {
+    "message": "在 Solscan 上查看"
+  },
+  "view_private_key": {
+    "message": "查看私钥"
+  },
+  "archive_wallet": {
+    "message": "归档钱包"
+  },
+  "holdings": {
+    "message": "持仓"
+  },
+  "hide_low": {
+    "message": "隐藏低余额"
+  },
+  "trade": {
+    "message": "交易"
+  },
+  "share": {
+    "message": "分享"
+  },
+  "deposit_sol": {
+    "message": "充值 SOL"
+  },
+  "deposit_address": {
+    "message": "充值地址"
+  },
+  "only_send_sol_to_this_address": {
+    "message": "仅发送 SOL 到此地址。"
+  },
+  "copied_to_clipboard": {
+    "message": "已复制到剪贴板"
+  },
+  "failed_to_copy_address": {
+    "message": "复制地址失败"
+  },
+  "copy_address": {
+    "message": "复制地址"
+  },
+  "export_private_key": {
+    "message": "导出私钥"
+  },
+  "your_private_key_will_provide_all_access_to_this_account_do_not_share_your_private_key_with_anyone_frontrun_never_sees_or_stores_your_key": {
+    "message": "您的私钥将提供对此账户的所有访问权限。请勿与任何人分享您的私钥。Frontrun 永远不会看到或存储您的私钥。"
+  },
+  "reveal_private_key": {
+    "message": "显示私钥"
+  },
+  "enter_private_key": {
+    "message": "输入私钥"
+  },
+  "withdraw_failed": {
+    "message": "提现失败"
+  },
+  "confirm_withdraw": {
+    "message": "确认提现"
+  },
+  "withdraw_sol": {
+    "message": "提现 SOL"
+  },
+  "success": {
+    "message": "成功"
+  },
+  "error": {
+    "message": "错误"
+  },
+  "enter_destination_address": {
+    "message": "输入目标地址"
+  },
+  "enter_amount": {
+    "message": "输入金额"
+  },
+  "enable_trading": {
+    "message": "启用交易"
   }
 }
