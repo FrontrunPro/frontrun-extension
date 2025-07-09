@@ -470,5 +470,12 @@
   },
   "enable_trading": {
     "message": "启用交易"
-  }
+  },
+  "select_group": { "message": "选择分组" },
+  "are_you_sure_you_want_to_delete_these_groups": {
+    "message": "确定要删除这些分组吗？钱包将被移除所有关联的自定义分组。"
+  },
+  "successfully_deleted_group": { "message": "分组删除成功" },
+  "failed_to_delete_group": { "message": "分组删除失败" },
+  "delete": { "message": "删除" }
 }

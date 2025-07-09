@@ -523,5 +523,12 @@
   },
   "enable_trading": {
     "message": "Enable Trading"
-  }
+  },
+  "select_group": { "message": "Select Group" },
+  "are_you_sure_you_want_to_delete_these_groups": {
+    "message": "Are you sure you want to delete these groups? The wallets will be removed from all associated custom groups."
+  },
+  "successfully_deleted_group": { "message": "Successfully deleted group" },
+  "failed_to_delete_group": { "message": "Failed to delete group" },
+  "delete": { "message": "Delete" }
 }
