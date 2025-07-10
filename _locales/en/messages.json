@@ -83,7 +83,6 @@
   "enter_a_new_group_name": { "message": "Enter a new group name" },
   "wallet_address": { "message": "Wallet Address" },
   "enter_a_new_wallet_address": { "message": "Enter a new wallet address" },
-  "primary_label": { "message": "Primary Label" },
   "enter_a_name_for_easy_tracking": {
     "message": "Enter a name for easy tracking"
   },
@@ -215,7 +214,7 @@
   "import_from_solscan": { "message": "Import from Solscan" },
   "import_from_axiom": { "message": "Import from Axiom" },
   "import_from_photon": { "message": "Import from Photon" },
-  "supported_wallets": { "message": "Supported Wallets" },
+  "supported_wallets": { "message": "Supported Wallets Formats" },
   "copied": { "message": "Copied" },
   "copy": { "message": "Copy" },
   "custom_labels_detected": { "message": "Custom labels detected" },
@@ -295,8 +294,11 @@
   "wallet_address_placeholder": {
     "message": "wallet address"
   },
+  "format_placeholder": {
+    "message": "Supports Axiom, GMGN, Raybot, BullX. "
+  },
   "wallet_label_placeholder": {
-    "message": "wallet address: Primary Label"
+    "message": "Wallet address: Label"
   },
   "duplicate_wallet_addresses_found": {
     "message": "Duplicate wallet addresses found"

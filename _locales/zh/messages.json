@@ -78,7 +78,6 @@
   "enter_a_new_group_name": { "message": "输入新的分组名称" },
   "wallet_address": { "message": "钱包地址" },
   "enter_a_new_wallet_address": { "message": "输入新的钱包地址" },
-  "primary_label": { "message": "主要标签" },
   "enter_a_name_for_easy_tracking": { "message": "输入名称以便跟踪" },
   "wallet_address_is_required": { "message": "钱包地址为必填项" },
   "invalid_wallet_address": { "message": "无效的钱包地址" },
@@ -172,7 +171,7 @@
   "import_from_solscan": { "message": "从 Solscan 导入" },
   "import_from_axiom": { "message": "从 Axiom 导入" },
   "import_from_photon": { "message": "从 Photon 导入" },
-  "supported_wallets": { "message": "支持的钱包" },
+  "supported_wallets": { "message": "支持的钱包组类型" },
   "copied": { "message": "已复制" },
   "copy": { "message": "复制" },
   "custom_labels_detected": { "message": "检测到自定义标签" },
@@ -252,7 +251,12 @@
   "add_multiple_wallets": { "message": "添加多钱包" },
   "add_single_wallet": { "message": "添加单钱包" },
   "wallet_address_placeholder": { "message": "钱包地址" },
-  "wallet_label_placeholder": { "message": "钱包地址: 主要标签" },
+  "format_placeholder": {
+    "message": "支持Axiom, GMGN, Raybot, BullX的导出格式。"
+  },
+  "wallet_label_placeholder": {
+    "message": "钱包地址: 标签"
+  },
   "duplicate_wallet_addresses_found": { "message": "重复的钱包地址" },
   "invalid_wallet_addresses": { "message": "无效的钱包地址" },
   "please_enter_a_label": { "message": "请输入标签" },
