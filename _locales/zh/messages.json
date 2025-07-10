@@ -279,6 +279,10 @@
   "twitter_sign_up_is_being_phased_out": {
     "message": "Twitter 注册正在逐步淘汰——请使用 Google 创建您的账户。"
   },
+  "delete_wallet": { "message": "删除钱包" },
+  "are_you_sure_you_want_to_remove_this_wallet_from_group": {
+    "message": "确定要从分组中移除此钱包吗？"
+  },
   "read_more": {
     "message": "阅读更多"
   },

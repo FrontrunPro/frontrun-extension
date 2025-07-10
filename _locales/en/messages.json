@@ -332,6 +332,10 @@
   "twitter_sign_up_is_being_phased_out": {
     "message": "Twitter sign-up is being phased out—please use Google to create your account."
   },
+  "delete_wallet": { "message": "Delete Wallet" },
+  "are_you_sure_you_want_to_remove_this_wallet_from_group": {
+    "message": "Are you sure you want to remove this wallet from the group?"
+  },
   "read_more": {
     "message": "Read more"
   },
