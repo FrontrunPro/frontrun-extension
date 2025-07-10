@@ -536,5 +536,6 @@
   },
   "successfully_deleted_group": { "message": "Successfully deleted group" },
   "failed_to_delete_group": { "message": "Failed to delete group" },
-  "delete": { "message": "Delete" }
+  "delete": { "message": "Delete" },
+  "fail": { "message": "Fail" }
 }
