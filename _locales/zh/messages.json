@@ -171,13 +171,16 @@
   "import_from_solscan": { "message": "从 Solscan 导入" },
   "import_from_axiom": { "message": "从 Axiom 导入" },
   "import_from_photon": { "message": "从 Photon 导入" },
+  "import_privacy_message": {
+    "message": "您导入的标签始终对您保持私密，不会与其他用户共享。"
+  },
   "supported_wallets": { "message": "支持的钱包组类型" },
   "copied": { "message": "已复制" },
   "copy": { "message": "复制" },
   "custom_labels_detected": { "message": "检测到自定义标签" },
   "remind_later": { "message": "稍后提醒" },
   "import_to_frontrun_tip": {
-    "message": "导入到 Frontrun，可在 X 和其他平台无缝显示？"
+    "message": "将标签导入 Frontrun，便可在 Solscan、Axiom、GMGN 等平台无缝显示。所有标签仅您可见，绝不会与其他用户共享。"
   },
   "never_show_this_again": { "message": "不再显示此提示。" },
   "failed_to_import_labels_refresh": {

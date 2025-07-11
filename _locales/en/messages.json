@@ -214,13 +214,16 @@
   "import_from_solscan": { "message": "Import from Solscan" },
   "import_from_axiom": { "message": "Import from Axiom" },
   "import_from_photon": { "message": "Import from Photon" },
+  "import_privacy_message": {
+    "message": "Your imported labels will always be private to you and won't be shared with other users."
+  },
   "supported_wallets": { "message": "Supported Wallets Formats" },
   "copied": { "message": "Copied" },
   "copy": { "message": "Copy" },
   "custom_labels_detected": { "message": "Custom labels detected" },
   "remind_later": { "message": "Remind later" },
   "import_to_frontrun_tip": {
-    "message": "Import to Frontrun to seemlesly display on X and other platforms?"
+    "message": "Import your labels into Frontrun for seamless viewing on Solscan, Axiom, GMGN, and more. Your labels stay private—never shared with anyone else."
   },
   "never_show_this_again": { "message": "Never show this again." },
   "failed_to_import_labels_refresh": {
