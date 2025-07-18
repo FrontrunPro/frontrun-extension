@@ -153,6 +153,9 @@
   "please_enter_wallet_addresses": {
     "message": "Please enter wallet addresses"
   },
+  "please_enter_wallet_address": {
+    "message": "Please enter wallet address"
+  },
   "no_valid_wallet_addresses_found": {
     "message": "No valid wallet addresses found"
   },

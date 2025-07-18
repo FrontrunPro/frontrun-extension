@@ -130,6 +130,7 @@
   "import": { "message": "导入" },
   "explore_frontrun": { "message": "探索 Frontrun" },
   "please_enter_wallet_addresses": { "message": "请输入钱包地址" },
+  "please_enter_wallet_address": { "message": "请输入钱包地址" },
   "no_valid_wallet_addresses_found": { "message": "未找到有效的钱包地址" },
   "invalid_wallet_address_with_addr": {
     "message": "无效的钱包地址：{address}"
