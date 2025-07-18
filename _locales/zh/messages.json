@@ -89,6 +89,7 @@
   "last_active": { "message": "最后活跃" },
   "add_alt_wallets_to_group": { "message": "将备用钱包添加到分组" },
   "add_to_group": { "message": "添加到分组" },
+  "adding": { "message": "添加中..." },
   "select_wallet": { "message": "选择钱包" },
   "explore_universal_labels": { "message": "逛逛跨平台标签" },
   "recent_labels": { "message": "最近的标签" },
@@ -251,7 +252,6 @@
   "success_group_deleted": { "message": "分组删除成功" },
   "error_group_delete": { "message": "分组删除失败" },
   "delete_profile": { "message": "删除账户" },
-  "add_multiple_wallets": { "message": "添加多钱包" },
   "add_single_wallet": { "message": "添加单钱包" },
   "wallet_address_placeholder": { "message": "钱包地址" },
   "format_placeholder": {
@@ -287,11 +287,12 @@
     "message": "Twitter 注册正在逐步淘汰——请使用 Google 创建您的账户。"
   },
   "delete_wallet": { "message": "删除钱包" },
+  "deleting": { "message": "删除中..." },
   "are_you_sure_you_want_to_remove_this_wallet_from_group": {
     "message": "确定要从分组中移除此钱包吗？"
   },
   "read_more": {
-    "message": "阅读更多"
+    "message": "【阅读更多】"
   },
   "secure_signing": {
     "message": "安全签名"
@@ -489,5 +490,12 @@
   "successfully_deleted_group": { "message": "分组删除成功" },
   "failed_to_delete_group": { "message": "分组删除失败" },
   "delete": { "message": "删除" },
-  "fail": { "message": "失败" }
+  "fail": { "message": "失败" },
+  "label_ui": { "message": "标签样式" },
+  "option_1": { "message": "选项1" },
+  "option_2": { "message": "选项2" },
+  "insufficient_balance": { "message": "余额不足" },
+  "failed_to_withdraw": { "message": "提现失败" },
+  "successfully_deleted_wallets": { "message": "钱包删除成功" },
+  "failed_to_delete_wallet": { "message": "钱包删除失败" }
 }

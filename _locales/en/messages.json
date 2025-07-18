@@ -98,6 +98,7 @@
   "last_active": { "message": "Last Active" },
   "add_alt_wallets_to_group": { "message": "Add Alt Wallets to Group" },
   "add_to_group": { "message": "Add to Group" },
+  "adding": { "message": "Adding..." },
   "select_wallet": { "message": "Select Wallet" },
   "explore_universal_labels": { "message": "Explore Universal Labels" },
   "recent_labels": { "message": "Recent Labels" },
@@ -292,7 +293,6 @@
   "success_group_deleted": { "message": "Successfully deleted group" },
   "error_group_delete": { "message": "Failed to delete group" },
   "delete_profile": { "message": "Delete Profile" },
-  "add_multiple_wallets": { "message": "Add Multiple Wallets" },
   "add_single_wallet": { "message": "Add Single Wallet" },
   "wallet_address_placeholder": {
     "message": "wallet address"
@@ -338,11 +338,12 @@
     "message": "Twitter sign-up is being phased out—please use Google to create your account."
   },
   "delete_wallet": { "message": "Delete Wallet" },
+  "deleting": { "message": "Deleting..." },
   "are_you_sure_you_want_to_remove_this_wallet_from_group": {
     "message": "Are you sure you want to remove this wallet from the group?"
   },
   "read_more": {
-    "message": "Read more"
+    "message": "[Read more]"
   },
   "secure_signing": {
     "message": "secure signing"
@@ -540,5 +541,12 @@
   "successfully_deleted_group": { "message": "Successfully deleted group" },
   "failed_to_delete_group": { "message": "Failed to delete group" },
   "delete": { "message": "Delete" },
-  "fail": { "message": "Fail" }
+  "fail": { "message": "Fail" },
+  "label_ui": { "message": "Label Style" },
+  "option_1": { "message": "Option 1" },
+  "option_2": { "message": "Option 2" },
+  "insufficient_balance": { "message": "Insufficient Balance" },
+  "failed_to_withdraw": { "message": "Failed to withdraw" },
+  "successfully_deleted_wallets": { "message": "Successfully deleted wallets" },
+  "failed_to_delete_wallet": { "message": "Failed to delete wallet" }
 }
