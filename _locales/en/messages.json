@@ -266,6 +266,7 @@
   "open_sidepanel_to_explore_frontrun": {
     "message": "Open SidePanel To Explore Frontrun"
   },
+  "view_docs": { "message": "View Docs" },
   "profile_data": { "message": "Profile Data" },
   "twitter_label": { "message": "Twitter Label" },
   "name": { "message": "Name" },

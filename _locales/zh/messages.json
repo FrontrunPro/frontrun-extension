@@ -223,6 +223,7 @@
   "open_sidepanel_to_explore_frontrun": {
     "message": "打开侧边栏探索 Frontrun"
   },
+  "view_docs": { "message": "查看文档" },
   "profile_data": { "message": "账户数据" },
   "twitter_label": { "message": "Twitter 标签" },
   "name": { "message": "名称" },
