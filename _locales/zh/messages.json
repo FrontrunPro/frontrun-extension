@@ -499,5 +499,16 @@
   "insufficient_balance": { "message": "余额不足" },
   "failed_to_withdraw": { "message": "提现失败" },
   "successfully_deleted_wallets": { "message": "钱包删除成功" },
-  "failed_to_delete_wallet": { "message": "钱包删除失败" }
+  "failed_to_delete_wallet": { "message": "钱包删除失败" },
+  "twitter_login_deprecated_please_bind_google": {
+    "message": "Twitter 登录已弃用。请绑定您的 Google 账号以继续。"
+  },
+  "link_to_google_account": {
+    "message": "绑定 Google 账号"
+  },
+  "link_failed_retry": { "message": "绑定失败。请重试。" },
+  "binding": { "message": "绑定中..." },
+  "bind_now": { "message": "立即绑定" },
+  "account_migration": { "message": "账号迁移" },
+  "account_linked_successfully": { "message": "账号绑定成功" }
 }

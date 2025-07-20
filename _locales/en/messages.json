@@ -552,5 +552,16 @@
   "insufficient_balance": { "message": "Insufficient Balance" },
   "failed_to_withdraw": { "message": "Failed to withdraw" },
   "successfully_deleted_wallets": { "message": "Successfully deleted wallets" },
-  "failed_to_delete_wallet": { "message": "Failed to delete wallet" }
+  "failed_to_delete_wallet": { "message": "Failed to delete wallet" },
+  "twitter_login_deprecated_please_bind_google": {
+    "message": "Twitter login is deprecated. Please bind your Google account to continue."
+  },
+  "link_to_google_account": {
+    "message": "Link to Google account"
+  },
+  "link_failed_retry": { "message": "Link failed. Please try again." },
+  "binding": { "message": "Binding..." },
+  "bind_now": { "message": "Bind now" },
+  "account_migration": { "message": "Account Migration" },
+  "account_linked_successfully": { "message": "Account linked successfully" }
 }
