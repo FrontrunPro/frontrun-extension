@@ -564,5 +564,11 @@
   "binding": { "message": "Binding..." },
   "bind_now": { "message": "Bind now" },
   "account_migration": { "message": "Account Migration" },
-  "account_linked_successfully": { "message": "Account linked successfully" }
+  "account_linked_successfully": { "message": "Account linked successfully" },
+  "if_you_have_any_issues_please_join": {
+    "message": "If you have any issues, please join our"
+  },
+  "telegram_community": {
+    "message": "Telegram community"
+  }
 }

@@ -511,5 +511,11 @@
   "binding": { "message": "绑定中..." },
   "bind_now": { "message": "立即绑定" },
   "account_migration": { "message": "账号迁移" },
-  "account_linked_successfully": { "message": "账号绑定成功" }
+  "account_linked_successfully": { "message": "账号绑定成功" },
+  "if_you_have_any_issues_please_join": {
+    "message": "如果您遇到问题，请加入我们的"
+  },
+  "telegram_community": {
+    "message": "电报社区"
+  }
 }
