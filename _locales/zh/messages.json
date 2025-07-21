@@ -242,6 +242,9 @@
   "primary_label_is_required": {
     "message": "主要标签为必填项"
   },
+  "alt_wallets_saved_successfully": {
+    "message": "成功保存关联钱包！"
+  },
   "wallet_created_successfully": {
     "message": "创建钱包成功！"
   },

@@ -317,6 +317,9 @@
   "primary_label_is_required": {
     "message": "Primary label is required"
   },
+  "alt_wallets_saved_successfully": {
+    "message": "Successfully saved alt wallets!"
+  },
   "wallet_created_successfully": {
     "message": "Successfully created wallet!"
   },
