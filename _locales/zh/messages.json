@@ -88,6 +88,7 @@
   "save": { "message": "保存" },
   "last_active": { "message": "最后活跃" },
   "add_alt_wallets_to_group": { "message": "将备用钱包添加到分组" },
+  "search_for_alt_wallets": { "message": "搜索关联钱包" },
   "add_to_group": { "message": "添加到分组" },
   "adding": { "message": "添加中..." },
   "select_wallet": { "message": "选择钱包" },

@@ -97,6 +97,7 @@
   "save": { "message": "Save" },
   "last_active": { "message": "Last Active" },
   "add_alt_wallets_to_group": { "message": "Add Alt Wallets to Group" },
+  "search_for_alt_wallets": { "message": "Search Alt wallets " },
   "add_to_group": { "message": "Add to Group" },
   "adding": { "message": "Adding..." },
   "select_wallet": { "message": "Select Wallet" },
