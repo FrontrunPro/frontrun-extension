@@ -1,131 +1,409 @@
 {
-  "labeling": { "message": "Labeling" },
-  "trading": { "message": "Trading" },
-  "setting": { "message": "Settings" },
-  "add": { "message": "Add" },
-  "appearance": { "message": "Appearance" },
-  "platform_settings": { "message": "Platform Settings" },
-  "light": { "message": "Light" },
-  "dark": { "message": "Dark" },
-  "logout": { "message": "Log out" },
-  "language": { "message": "Language" },
-  "smart_followers": { "message": "Smart followers" },
-  "powered_by": { "message": "Powered by" },
-  "log_in_to_view_insights": { "message": "Log in to view insights" },
-  "label_updated_successfully": { "message": "Label updated successfully!" },
-  "label_deleted_successfully": { "message": "Label deleted successfully!" },
-  "name_change": { "message": "Name change" },
-  "username_history": { "message": "Username History" },
-  "get_ca_history": { "message": "Get CA History" },
-  "ca_history": { "message": "CA History" },
+  "labeling": {
+    "message": "Labeling"
+  },
+  "trading": {
+    "message": "Trading"
+  },
+  "setting": {
+    "message": "Settings"
+  },
+  "add": {
+    "message": "Add"
+  },
+  "appearance": {
+    "message": "Appearance"
+  },
+  "platform_settings": {
+    "message": "Platform Settings"
+  },
+  "light": {
+    "message": "Light"
+  },
+  "dark": {
+    "message": "Dark"
+  },
+  "logout": {
+    "message": "Log out"
+  },
+  "language": {
+    "message": "Language"
+  },
+  "smart_followers": {
+    "message": "Smart followers"
+  },
+  "powered_by": {
+    "message": "Powered by"
+  },
+  "log_in_to_view_insights": {
+    "message": "Log in to view insights"
+  },
+  "label_updated_successfully": {
+    "message": "Label updated successfully!"
+  },
+  "label_deleted_successfully": {
+    "message": "Label deleted successfully!"
+  },
+  "name_change": {
+    "message": "Name change"
+  },
+  "username_history": {
+    "message": "Username History"
+  },
+  "get_ca_history": {
+    "message": "Get CA History"
+  },
+  "ca_history": {
+    "message": "CA History"
+  },
   "fetch_ca_history_failed": {
     "message": "Failed to fetch CA History. Please try again later."
   },
-  "deleted_CA_count": { "message": "{deletedCACount} deleted" },
-  "active_CA_count": { "message": "{activeCACount} active" },
-  "deleted_tweets": { "message": "{deletedTweetsCount} deleted tweets" },
-  "undeleted_tweets": { "message": "{undeletedTweetCount} active tweets" },
-  "deleted_tweets_title": { "message": "Deleted Tweets" },
-  "no_active_tweets_found": { "message": "No active tweets found" },
-  "view_on_twitter": { "message": "View on Twitter" },
+  "deleted_CA_count": {
+    "message": "{deletedCACount} deleted"
+  },
+  "active_CA_count": {
+    "message": "{activeCACount} active"
+  },
+  "deleted_tweets": {
+    "message": "{deletedTweetsCount} deleted tweets"
+  },
+  "undeleted_tweets": {
+    "message": "{undeletedTweetCount} active tweets"
+  },
+  "deleted_tweets_title": {
+    "message": "Deleted Tweets"
+  },
+  "no_active_tweets_found": {
+    "message": "No active tweets found"
+  },
+  "view_on_twitter": {
+    "message": "View on Twitter"
+  },
   "deleted_tweets_found": {
     "message": "Found {deletedTweetsCount} deleted tweets"
   },
-  "no_deleted_tweets_found": { "message": "No deleted tweets found" },
-  "active_tweets": { "message": "Active Tweets" },
-  "CA_mentioned_by": { "message": "CA mentioned by @{twitterUsername}" },
-  "add_label": { "message": "Add Label" },
-  "successfully_created_group": { "message": "Successfully created group" },
-  "failed_to_create_group": { "message": "Failed to create group" },
-  "enter_a_group_name": { "message": "Enter a group name" },
-  "characters": { "message": "characters" },
-  "group_name_already_exists": { "message": "Group name already exists" },
-  "view_summary": { "message": "View Summary" },
-  "x_profile": { "message": "X Profile" },
-  "net_worth": { "message": "Net Worth" },
-  "win_rate": { "message": "Win Rate" },
-  "pnl_90d": { "message": "PnL (90D)" },
-  "address": { "message": "Address" },
-  "program_derived_address": { "message": "Program Derived Address" },
-  "confirm": { "message": "Confirm" },
-  "cancel": { "message": "Cancel" },
-  "jito_bundle_details": { "message": "Jito Bundle Details" },
-  "bundle_id": { "message": "Bundle ID" },
-  "total_transactions": { "message": "Total Transactions" },
-  "transaction_signatures": { "message": "Transaction Signatures" },
-  "loading_details": { "message": "Loading details..." },
-  "details_not_available": { "message": "Details not available" },
-  "no_alt_wallets_found": { "message": "No alt wallets found" },
-  "no_bundle_data_available": { "message": "No Bundle Data Available" },
+  "no_deleted_tweets_found": {
+    "message": "No deleted tweets found"
+  },
+  "active_tweets": {
+    "message": "Active Tweets"
+  },
+  "CA_mentioned_by": {
+    "message": "CA mentioned by @{twitterUsername}"
+  },
+  "add_label": {
+    "message": "Add Label"
+  },
+  "successfully_created_group": {
+    "message": "Successfully created group"
+  },
+  "failed_to_create_group": {
+    "message": "Failed to create group"
+  },
+  "enter_a_group_name": {
+    "message": "Enter a group name"
+  },
+  "characters": {
+    "message": "characters"
+  },
+  "group_name_already_exists": {
+    "message": "Group name already exists"
+  },
+  "view_summary": {
+    "message": "View Summary"
+  },
+  "x_profile": {
+    "message": "X Profile"
+  },
+  "net_worth": {
+    "message": "Net Worth"
+  },
+  "win_rate": {
+    "message": "Win Rate"
+  },
+  "pnl_90d": {
+    "message": "PnL (90D)"
+  },
+  "address": {
+    "message": "Address"
+  },
+  "program_derived_address": {
+    "message": "Program Derived Address"
+  },
+  "confirm": {
+    "message": "Confirm"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "jito_bundle_details": {
+    "message": "Jito Bundle Details"
+  },
+  "bundle_id": {
+    "message": "Bundle ID"
+  },
+  "total_transactions": {
+    "message": "Total Transactions"
+  },
+  "transaction_signatures": {
+    "message": "Transaction Signatures"
+  },
+  "loading_details": {
+    "message": "Loading details..."
+  },
+  "details_not_available": {
+    "message": "Details not available"
+  },
+  "no_alt_wallets_found": {
+    "message": "No alt wallets found"
+  },
+  "no_bundle_data_available": {
+    "message": "No Bundle Data Available"
+  },
   "unable_to_load_bundle_info": {
     "message": "Unable to load bundle information at this time."
   },
-  "view_on_jito_explorer": { "message": "View on Jito Explorer" },
-  "close": { "message": "Close" },
-  "signer": { "message": "Signer" },
-  "checking": { "message": "Checking..." },
-  "bundled_with": { "message": "Bundled with" },
-  "transactions": { "message": "Transactions" },
-  "jito_bundle": { "message": "Jito Bundle" },
-  "not_bundled": { "message": "Not Bundled" },
-  "bundle_check_failed": { "message": "Bundle Check Failed" },
-  "unknown": { "message": "Unknown" },
-  "successfully_updated_group": { "message": "Successfully updated group" },
-  "failed_to_save_group": { "message": "Failed to save group" },
-  "groups": { "message": "Groups" },
-  "tags": { "message": "Tags" },
-  "duplicated_group_name": { "message": "Duplicated group name" },
-  "group_name_required": { "message": "Group name is required" },
-  "new_wallet": { "message": "New Wallet" },
-  "new_group": { "message": "New Group" },
-  "import_labels": { "message": "Import Labels" },
-  "group_name": { "message": "Group Name" },
-  "enter_a_new_group_name": { "message": "Enter a new group name" },
-  "wallet_address": { "message": "Wallet Address" },
-  "enter_a_new_wallet_address": { "message": "Enter a new wallet address" },
+  "view_on_jito_explorer": {
+    "message": "View on Jito Explorer"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "signer": {
+    "message": "Signer"
+  },
+  "checking": {
+    "message": "Checking..."
+  },
+  "bundled_with": {
+    "message": "Bundled with"
+  },
+  "transactions": {
+    "message": "Transactions"
+  },
+  "jito_bundle": {
+    "message": "Jito Bundle"
+  },
+  "not_bundled": {
+    "message": "Not Bundled"
+  },
+  "bundle_check_failed": {
+    "message": "Bundle Check Failed"
+  },
+  "unknown": {
+    "message": "Unknown"
+  },
+  "successfully_updated_group": {
+    "message": "Successfully updated group"
+  },
+  "failed_to_save_group": {
+    "message": "Failed to save group"
+  },
+  "groups": {
+    "message": "Groups"
+  },
+  "tags": {
+    "message": "Tags"
+  },
+  "duplicated_group_name": {
+    "message": "Duplicated group name"
+  },
+  "group_name_required": {
+    "message": "Group name is required"
+  },
+  "new_wallet": {
+    "message": "New Wallet"
+  },
+  "new_group": {
+    "message": "New Group"
+  },
+  "import_labels": {
+    "message": "Import Labels"
+  },
+  "group_name": {
+    "message": "Group Name"
+  },
+  "enter_a_new_group_name": {
+    "message": "Enter a new group name"
+  },
+  "wallet_address": {
+    "message": "Wallet Address"
+  },
+  "enter_a_new_wallet_address": {
+    "message": "Enter a new wallet address"
+  },
+  "primary_label": {
+    "message": "Primary Label"
+  },
+  "view_on_jito_explorer": {
+    "message": "View on Jito Explorer"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "signer": {
+    "message": "Signer"
+  },
+  "checking": {
+    "message": "Checking..."
+  },
+  "bundled_with": {
+    "message": "Bundled with"
+  },
+  "transactions": {
+    "message": "Transactions"
+  },
+  "jito_bundle": {
+    "message": "Jito Bundle"
+  },
+  "not_bundled": {
+    "message": "Not Bundled"
+  },
+  "bundle_check_failed": {
+    "message": "Bundle Check Failed"
+  },
+  "unknown": {
+    "message": "Unknown"
+  },
+  "successfully_updated_group": {
+    "message": "Successfully updated group"
+  },
+  "failed_to_save_group": {
+    "message": "Failed to save group"
+  },
+  "groups": {
+    "message": "Groups"
+  },
+  "tags": {
+    "message": "Tags"
+  },
+  "duplicated_group_name": {
+    "message": "Duplicated group name"
+  },
+  "group_name_required": {
+    "message": "Group name is required"
+  },
+  "new_wallet": {
+    "message": "New Wallet"
+  },
+  "new_group": {
+    "message": "New Group"
+  },
+  "import_labels": {
+    "message": "Import Labels"
+  },
+  "group_name": {
+    "message": "Group Name"
+  },
+  "enter_a_new_group_name": {
+    "message": "Enter a new group name"
+  },
+  "wallet_address": {
+    "message": "Wallet Address"
+  },
+  "enter_a_new_wallet_address": {
+    "message": "Enter a new wallet address"
+  },
   "enter_a_name_for_easy_tracking": {
     "message": "Enter a name for easy tracking"
   },
-  "wallet_address_is_required": { "message": "Wallet address is required" },
-  "invalid_wallet_address": { "message": "Invalid wallet address" },
-  "primary_label_is_required": { "message": "Primary label is required" },
-  "wallet_created_successfully": { "message": "Successfully created wallet!" },
-  "wallet_creation_failed": { "message": "Failed to create wallet!" },
+  "wallet_address_is_required": {
+    "message": "Wallet address is required"
+  },
+  "invalid_wallet_address": {
+    "message": "Invalid wallet address"
+  },
+  "primary_label_is_required": {
+    "message": "Primary label is required"
+  },
+  "wallet_created_successfully": {
+    "message": "Successfully created wallet!"
+  },
+  "wallet_creation_failed": {
+    "message": "Failed to create wallet!"
+  },
   "please_select_at_least_one_group": {
     "message": "Please select at least one group"
   },
-  "save": { "message": "Save" },
-  "last_active": { "message": "Last Active" },
-  "add_alt_wallets_to_group": { "message": "Add Alt Wallets to Group" },
-  "search_for_alt_wallets": { "message": "Search Alt wallets " },
-  "add_to_group": { "message": "Add to Group" },
-  "adding": { "message": "Adding..." },
-  "select_wallet": { "message": "Select Wallet" },
-  "explore_universal_labels": { "message": "Explore Universal Labels" },
-  "recent_labels": { "message": "Recent Labels" },
+  "save": {
+    "message": "Save"
+  },
+  "last_active": {
+    "message": "Last Active"
+  },
+  "add_alt_wallets_to_group": {
+    "message": "Add Alt Wallets to Group"
+  },
+  "search_for_alt_wallets": {
+    "message": "Search Alt wallets "
+  },
+  "add_to_group": {
+    "message": "Add to Group"
+  },
+  "adding": {
+    "message": "Adding..."
+  },
+  "select_wallet": {
+    "message": "Select Wallet"
+  },
+  "explore_universal_labels": {
+    "message": "Explore Universal Labels"
+  },
+  "recent_labels": {
+    "message": "Recent Labels"
+  },
   "no_custom_labels_yet": {
     "message": "You haven't assigned any custom labels yet."
   },
-  "start_trading": { "message": "Start Trading" },
-  "profiles": { "message": "Profiles" },
-  "wallets": { "message": "Wallets" },
-  "welcome_to_frontrun": { "message": "Welcome to Frontrun" },
+  "start_trading": {
+    "message": "Start Trading"
+  },
+  "profiles": {
+    "message": "Profiles"
+  },
+  "wallets": {
+    "message": "Wallets"
+  },
+  "welcome_to_frontrun": {
+    "message": "Welcome to Frontrun"
+  },
   "pin_extension_for_quick_access": {
     "message": "Pin Extension for Quick Access"
   },
-  "extensions": { "message": "Extensions" },
-  "frontrun": { "message": "Frontrun" },
-  "pin": { "message": "Pin" },
-  "lets_explore_labels_on_gmgn": { "message": "Let's Explore Labels on GMGN" },
-  "explore_labels_on_gmgn": { "message": "Explore Labels on GMGN" },
-  "lets_explore_labels_on_x": { "message": "Let's Explore Labels on X" },
-  "explore_labels_on_x": { "message": "Explore Labels on X" },
-  "ready_to_frontrun": { "message": "Ready to Frontrun" },
-  "skip_intro": { "message": "Skip Intro >" },
+  "extensions": {
+    "message": "Extensions"
+  },
+  "frontrun": {
+    "message": "Frontrun"
+  },
+  "pin": {
+    "message": "Pin"
+  },
+  "lets_explore_labels_on_gmgn": {
+    "message": "Let's Explore Labels on GMGN"
+  },
+  "explore_labels_on_gmgn": {
+    "message": "Explore Labels on GMGN"
+  },
+  "lets_explore_labels_on_x": {
+    "message": "Let's Explore Labels on X"
+  },
+  "explore_labels_on_x": {
+    "message": "Explore Labels on X"
+  },
+  "ready_to_frontrun": {
+    "message": "Ready to Frontrun"
+  },
+  "skip_intro": {
+    "message": "Skip Intro >"
+  },
   "gmgn_label_1": {
     "message": "Find and hover over existing label to view groups and tags."
   },
-  "gmgn_label_2": { "message": "Create and customize labels for any wallet." },
+  "gmgn_label_2": {
+    "message": "Create and customize labels for any wallet."
+  },
   "gmgn_label_3": {
     "message": "Easily auto-import your custom groups from GMGN to Frontrun for seamless cross-platform visibility."
   },
@@ -138,19 +416,27 @@
   "profile_label_3": {
     "message": "View smart followers on each profile page."
   },
-  "your_account_is_activated": { "message": "Your account is activated!" },
+  "your_account_is_activated": {
+    "message": "Your account is activated!"
+  },
   "view_frontrun_insights_line": {
     "message": "You can now view the Frontrun insights on X and other platforms."
   },
   "add_custom_labels_by_clicking": {
     "message": "Add custom labels by clicking"
   },
-  "icon_next_to_address_on": { "message": "icon next to wallet's address on" },
+  "icon_next_to_address_on": {
+    "message": "icon next to wallet's address on"
+  },
   "seamless_experience": {
     "message": "For seamless experience, import your labels to Frontrun."
   },
-  "import": { "message": "Import" },
-  "explore_frontrun": { "message": "Explore Frontrun" },
+  "import": {
+    "message": "Import"
+  },
+  "explore_frontrun": {
+    "message": "Explore Frontrun"
+  },
   "please_enter_wallet_addresses": {
     "message": "Please enter wallet addresses"
   },
@@ -175,130 +461,315 @@
   "failed_to_add_wallets_to_groups": {
     "message": "Failed to add wallets to groups!"
   },
-  "failed_to_import_labels": { "message": "Failed to import labels" },
-  "failed_to_parse_wallet_data": { "message": "Failed to parse wallet data" },
-  "bulk_import": { "message": "Bulk Import" },
+  "failed_to_import_labels": {
+    "message": "Failed to import labels"
+  },
+  "failed_to_parse_wallet_data": {
+    "message": "Failed to parse wallet data"
+  },
+  "bulk_import": {
+    "message": "Bulk Import"
+  },
   "paste_your_exported_wallets_here": {
     "message": "Paste your exported wallets here..."
   },
-  "alt_wallet": { "message": "Alt Wallet" },
-  "high": { "message": "High" },
-  "medium": { "message": "Med" },
+  "alt_wallet": {
+    "message": "Alt Wallet"
+  },
+  "high": {
+    "message": "High"
+  },
+  "medium": {
+    "message": "Med"
+  },
   "we_are_confident_pocket_wallet": {
     "message": "We're {confidence} confident this wallet serves as a Pocket Wallet for the selected address."
   },
-  "please_enter_a_primary_label": { "message": "Please enter a primary label" },
-  "successfully_updated_label": { "message": "Label updated successfully!" },
-  "failed_to_update_label": { "message": "Failed to update label" },
-  "failed_to_delete_label": { "message": "Failed to delete label" },
-  "create": { "message": "Create" },
+  "please_enter_a_primary_label": {
+    "message": "Please enter a primary label"
+  },
+  "successfully_updated_label": {
+    "message": "Label updated successfully!"
+  },
+  "failed_to_update_label": {
+    "message": "Failed to update label"
+  },
+  "failed_to_delete_label": {
+    "message": "Failed to delete label"
+  },
+  "create": {
+    "message": "Create"
+  },
   "trading_feature_coming_soon": {
     "message": "This feature is coming soon. Reach out to us if you're interested in early access."
   },
   "feature_temporarily_disabled": {
     "message": "This feature is temporarily disabled and will be restored automatically."
   },
-  "please_enter_invite_code": { "message": "Please enter an invite code" },
+  "please_enter_invite_code": {
+    "message": "Please enter an invite code"
+  },
   "something_went_wrong": {
     "message": "Something went wrong, please try again later"
   },
   "already_signed_up_with_twitter": {
     "message": "Already signed up with Twitter?"
   },
-  "twitter_login": { "message": "Twitter login" },
+  "twitter_login": {
+    "message": "Twitter login"
+  },
   "google_only_twitter_notice": {
     "message": "All users should use Google • Twitter login is only for users who previously signed up with Twitter"
   },
-  "need_help": { "message": "Need help?" },
-  "docs": { "message": "Docs" },
-  "community": { "message": "Community" },
+  "need_help": {
+    "message": "Need help?"
+  },
+  "docs": {
+    "message": "Docs"
+  },
+  "community": {
+    "message": "Community"
+  },
   "search_placeholder": {
     "message": "Search by label, address, keyword, or name"
   },
-  "import_from_gmgn": { "message": "Import from GMGN" },
-  "import_from_solscan": { "message": "Import from Solscan" },
-  "import_from_axiom": { "message": "Import from Axiom" },
-  "import_from_photon": { "message": "Import from Photon" },
+  "import_from_gmgn": {
+    "message": "Import from GMGN"
+  },
+  "import_from_solscan": {
+    "message": "Import from Solscan"
+  },
+  "import_from_axiom": {
+    "message": "Import from Axiom"
+  },
+  "import_from_photon": {
+    "message": "Import from Photon"
+  },
+  "supported_wallets": {
+    "message": "Supported Wallets"
+  },
+  "copied": {
+    "message": "Copied"
+  },
+  "copy": {
+    "message": "Copy"
+  },
+  "custom_labels_detected": {
+    "message": "Custom labels detected"
+  },
+  "remind_later": {
+    "message": "Remind later"
+  },
+  "import_from_gmgn": {
+    "message": "Import from GMGN"
+  },
+  "import_from_solscan": {
+    "message": "Import from Solscan"
+  },
+  "import_from_axiom": {
+    "message": "Import from Axiom"
+  },
+  "import_from_photon": {
+    "message": "Import from Photon"
+  },
   "import_privacy_message": {
     "message": "Your imported labels will always be private to you and won't be shared with other users."
   },
-  "supported_wallets": { "message": "Supported Wallets Formats" },
-  "copied": { "message": "Copied" },
-  "copy": { "message": "Copy" },
-  "custom_labels_detected": { "message": "Custom labels detected" },
-  "remind_later": { "message": "Remind later" },
+  "supported_wallets": {
+    "message": "Supported Wallets Formats"
+  },
+  "copied": {
+    "message": "Copied"
+  },
+  "copy": {
+    "message": "Copy"
+  },
+  "custom_labels_detected": {
+    "message": "Custom labels detected"
+  },
+  "remind_later": {
+    "message": "Remind later"
+  },
   "import_to_frontrun_tip": {
     "message": "Import your labels into Frontrun for seamless viewing on Solscan, Axiom, GMGN, and more. Your labels stay private—never shared with anyone else."
   },
-  "never_show_this_again": { "message": "Never show this again." },
+  "never_show_this_again": {
+    "message": "Never show this again."
+  },
   "failed_to_import_labels_refresh": {
     "message": "Failed to import labels, please refresh the page"
   },
-  "importing_labels": { "message": "Importing Labels" },
-  "generating_project_summary": { "message": "Generating project summary…" },
-  "please_wait_minutes": { "message": "Please wait ~1–2 minutes." },
-  "update_summary": { "message": "Update Summary" },
-  "generate_summary": { "message": "Generate Summary" },
-  "quick_buy": { "message": "Quick Buy" },
-  "quick_sell": { "message": "Quick Sell" },
-  "recently_logged_in_as": { "message": "Recently logged in as" },
-  "clear": { "message": "Clear" },
-  "login_method": { "message": "Login method" },
-  "google": { "message": "Google" },
-  "twitter": { "message": "Twitter" },
-  "loading": { "message": "Loading..." },
-  "continue_with_google": { "message": "Continue with Google" },
-  "or": { "message": "or" },
-  "activate_account": { "message": "Activate Account" },
-  "enter_invite_code": { "message": "Enter invite code" },
-  "need_a_code": { "message": "Need a code?" },
-  "join_telegram": { "message": "Join Telegram" },
-  "activate": { "message": "Activate" },
-  "switch_account": { "message": "Switch Account" },
-  "kol_data": { "message": "KOL data" },
-  "custom_labels": { "message": "Custom labels" },
-  "smart_wallet_insights": { "message": "Smart wallet insights" },
-  "seamless_tagging": { "message": "Seamless tagging" },
-  "alpha_discovery": { "message": "Alpha discovery" },
-  "real_time_tracking": { "message": "Real-time tracking" },
-  "x_integration": { "message": "X integration" },
-  "trade_on_signals": { "message": "Trade on signals," },
-  "not_speculation": { "message": "not speculation." },
+  "importing_labels": {
+    "message": "Importing Labels"
+  },
+  "generating_project_summary": {
+    "message": "Generating project summary…"
+  },
+  "please_wait_minutes": {
+    "message": "Please wait ~1–2 minutes."
+  },
+  "update_summary": {
+    "message": "Update Summary"
+  },
+  "generate_summary": {
+    "message": "Generate Summary"
+  },
+  "quick_buy": {
+    "message": "Buy"
+  },
+  "quick_sell": {
+    "message": "Sell"
+  },
+  "recently_logged_in_as": {
+    "message": "Recently logged in as"
+  },
+  "clear": {
+    "message": "Clear"
+  },
+  "login_method": {
+    "message": "Login method"
+  },
+  "google": {
+    "message": "Google"
+  },
+  "twitter": {
+    "message": "Twitter"
+  },
+  "loading": {
+    "message": "Loading..."
+  },
+  "continue_with_google": {
+    "message": "Continue with Google"
+  },
+  "or": {
+    "message": "or"
+  },
+  "activate_account": {
+    "message": "Activate Account"
+  },
+  "enter_invite_code": {
+    "message": "Enter invite code"
+  },
+  "need_a_code": {
+    "message": "Need a code?"
+  },
+  "join_telegram": {
+    "message": "Join Telegram"
+  },
+  "activate": {
+    "message": "Activate"
+  },
+  "switch_account": {
+    "message": "Switch Account"
+  },
+  "kol_data": {
+    "message": "KOL data"
+  },
+  "custom_labels": {
+    "message": "Custom labels"
+  },
+  "smart_wallet_insights": {
+    "message": "Smart wallet insights"
+  },
+  "seamless_tagging": {
+    "message": "Seamless tagging"
+  },
+  "alpha_discovery": {
+    "message": "Alpha discovery"
+  },
+  "real_time_tracking": {
+    "message": "Real-time tracking"
+  },
+  "x_integration": {
+    "message": "X integration"
+  },
+  "trade_on_signals": {
+    "message": "Trade on signals,"
+  },
+  "not_speculation": {
+    "message": "not speculation."
+  },
   "open_sidepanel_to_explore_frontrun": {
     "message": "Open SidePanel To Explore Frontrun"
   },
-  "view_docs": { "message": "View Docs" },
-  "profile_data": { "message": "Profile Data" },
-  "twitter_label": { "message": "Twitter Label" },
-  "name": { "message": "Name" },
-  "show_full_list": { "message": "Show Full List" },
+  "view_docs": {
+    "message": "View Docs"
+  },
+  "profile_data": {
+    "message": "Profile Data"
+  },
+  "twitter_label": {
+    "message": "Twitter Label"
+  },
+  "name": {
+    "message": "Name"
+  },
+  "show_full_list": {
+    "message": "Show Full List"
+  },
   "are_you_sure_you_want_to_delete_this_profile": {
     "message": "Are you sure you want to delete this profile?"
   },
-  "wallet_data": { "message": "Wallet Data" },
-  "wallet_label": { "message": "Wallet Label" },
+  "wallet_data": {
+    "message": "Wallet Data"
+  },
+  "wallet_label": {
+    "message": "Wallet Label"
+  },
   "are_you_sure_you_want_to_delete_this_label": {
     "message": "Are you sure you want to delete this label? The wallet will be removed"
   },
-  "delete_label": { "message": "Delete Label" },
-  "of": { "message": "of" },
-  "selected": { "message": "selected" },
-  "group": { "message": "Group" },
-  "group_management": { "message": "Group Management" },
-  "add_wallet": { "message": "Add Wallet" },
-  "add_multi_wallet": { "message": "Add Multi Wallet" },
-  "delete_group": { "message": "Delete Group" },
+  "delete_label": {
+    "message": "Delete Label"
+  },
+  "of": {
+    "message": "of"
+  },
+  "selected": {
+    "message": "selected"
+  },
+  "group": {
+    "message": "Group"
+  },
+  "group_management": {
+    "message": "Group Management"
+  },
+  "add_wallet": {
+    "message": "Add Wallet"
+  },
+  "add_multi_wallet": {
+    "message": "Add Multi Wallet"
+  },
+  "delete_group": {
+    "message": "Delete Group"
+  },
   "are_you_sure_you_want_to_delete_this_group": {
     "message": "Are you sure you want to delete this group?"
   },
-  "success_group_updated": { "message": "Successfully updated group" },
-  "error_group_update": { "message": "Failed to update group" },
-  "success_wallets_removed": { "message": "Successfully removed wallets" },
-  "error_wallets_remove": { "message": "Failed to remove wallets" },
-  "success_group_deleted": { "message": "Successfully deleted group" },
-  "error_group_delete": { "message": "Failed to delete group" },
-  "delete_profile": { "message": "Delete Profile" },
-  "add_single_wallet": { "message": "Add Single Wallet" },
+  "success_group_updated": {
+    "message": "Successfully updated group"
+  },
+  "error_group_update": {
+    "message": "Failed to update group"
+  },
+  "success_wallets_removed": {
+    "message": "Successfully removed wallets"
+  },
+  "error_wallets_remove": {
+    "message": "Failed to remove wallets"
+  },
+  "success_group_deleted": {
+    "message": "Successfully deleted group"
+  },
+  "error_group_delete": {
+    "message": "Failed to delete group"
+  },
+  "delete_profile": {
+    "message": "Delete Profile"
+  },
+  "add_single_wallet": {
+    "message": "Add Single Wallet"
+  },
   "wallet_address_placeholder": {
     "message": "wallet address"
   },
@@ -311,9 +782,15 @@
   "duplicate_wallet_addresses_found": {
     "message": "Duplicate wallet addresses found"
   },
-  "invalid_wallet_addresses": { "message": "Invalid wallet addresses" },
-  "please_enter_a_label": { "message": "Please enter a label" },
-  "success_imported_labels": { "message": "Successfully imported labels!" },
+  "invalid_wallet_addresses": {
+    "message": "Invalid wallet addresses"
+  },
+  "please_enter_a_label": {
+    "message": "Please enter a label"
+  },
+  "success_imported_labels": {
+    "message": "Successfully imported labels!"
+  },
   "error_importing_wallets": {
     "message": "Error importing wallets. Please try again."
   },
@@ -326,24 +803,42 @@
   "use_colon_for_custom_labels": {
     "message": "Use colon for custom labels."
   },
-  "format": { "message": "Format" },
-  "add_wallets": { "message": "Add Wallets" },
-  "processing": { "message": "Processing..." },
-  "invalid_solana_address": { "message": "Invalid Solana address" },
+  "format": {
+    "message": "Format"
+  },
+  "add_wallets": {
+    "message": "Add Wallets"
+  },
+  "processing": {
+    "message": "Processing..."
+  },
+  "invalid_solana_address": {
+    "message": "Invalid Solana address"
+  },
   "this_wallet_is_already_labeled_keep_the_current_label_or_update_it": {
     "message": "This wallet is already labeled. Keep the current label or update it."
   },
-  "paste_the_wallet_address": { "message": "Paste the wallet address" },
+  "paste_the_wallet_address": {
+    "message": "Paste the wallet address"
+  },
   "please_select_at_least_one_wallet": {
     "message": "Please select at least one wallet"
   },
-  "importing": { "message": "Importing..." },
-  "frontrun_summary": { "message": "Frontrun Summary" },
+  "importing": {
+    "message": "Importing..."
+  },
+  "frontrun_summary": {
+    "message": "Frontrun Summary"
+  },
   "twitter_sign_up_is_being_phased_out": {
     "message": "Twitter sign-up is being phased out—please use Google to create your account."
   },
-  "delete_wallet": { "message": "Delete Wallet" },
-  "deleting": { "message": "Deleting..." },
+  "delete_wallet": {
+    "message": "Delete Wallet"
+  },
+  "deleting": {
+    "message": "Deleting..."
+  },
   "are_you_sure_you_want_to_remove_this_wallet_from_group": {
     "message": "Are you sure you want to remove this wallet from the group?"
   },
@@ -539,32 +1034,66 @@
   "enable_trading": {
     "message": "Enable Trading"
   },
-  "select_group": { "message": "Select Group" },
+  "select_group": {
+    "message": "Select Group"
+  },
   "are_you_sure_you_want_to_delete_these_groups": {
     "message": "Are you sure you want to delete these groups? The wallets will be removed from all associated custom groups."
   },
-  "successfully_deleted_group": { "message": "Successfully deleted group" },
-  "failed_to_delete_group": { "message": "Failed to delete group" },
-  "delete": { "message": "Delete" },
-  "fail": { "message": "Fail" },
-  "label_ui": { "message": "Label Style" },
-  "option_1": { "message": "Option 1" },
-  "option_2": { "message": "Option 2" },
-  "insufficient_balance": { "message": "Insufficient Balance" },
-  "failed_to_withdraw": { "message": "Failed to withdraw" },
-  "successfully_deleted_wallets": { "message": "Successfully deleted wallets" },
-  "failed_to_delete_wallet": { "message": "Failed to delete wallet" },
+  "successfully_deleted_group": {
+    "message": "Successfully deleted group"
+  },
+  "failed_to_delete_group": {
+    "message": "Failed to delete group"
+  },
+  "delete": {
+    "message": "Delete"
+  },
+  "fail": {
+    "message": "Fail"
+  },
+  "label_ui": {
+    "message": "Label Style"
+  },
+  "option_1": {
+    "message": "Option 1"
+  },
+  "option_2": {
+    "message": "Option 2"
+  },
+  "insufficient_balance": {
+    "message": "Insufficient Balance"
+  },
+  "failed_to_withdraw": {
+    "message": "Failed to withdraw"
+  },
+  "successfully_deleted_wallets": {
+    "message": "Successfully deleted wallets"
+  },
+  "failed_to_delete_wallet": {
+    "message": "Failed to delete wallet"
+  },
   "twitter_login_deprecated_please_bind_google": {
     "message": "Twitter login is deprecated. Please bind your Google account to continue."
   },
   "link_to_google_account": {
     "message": "Link to Google account"
   },
-  "link_failed_retry": { "message": "Link failed. Please try again." },
-  "binding": { "message": "Binding..." },
-  "bind_now": { "message": "Bind now" },
-  "account_migration": { "message": "Account Migration" },
-  "account_linked_successfully": { "message": "Account linked successfully" },
+  "link_failed_retry": {
+    "message": "Link failed. Please try again."
+  },
+  "binding": {
+    "message": "Binding..."
+  },
+  "bind_now": {
+    "message": "Bind now"
+  },
+  "account_migration": {
+    "message": "Account Migration"
+  },
+  "account_linked_successfully": {
+    "message": "Account linked successfully"
+  },
   "if_you_have_any_issues_please_join": {
     "message": "If you have any issues, please join our"
   },
