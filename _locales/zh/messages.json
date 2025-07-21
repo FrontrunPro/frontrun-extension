@@ -350,7 +350,10 @@
   "view_frontrun_insights_line": {
     "message": "您现在可以在 X 和其他平台查看 Frontrun 洞察。"
   },
-  "successfully_added_wallets_to_groups": {
+  "successfully_added_wallets_to_group": {
+    "message": "成功添加钱包到分组！"
+  },
+  "successfully_added_wallet_to_group": {
     "message": "成功添加钱包到分组！"
   },
   "failed_to_add_wallets_to_groups": {

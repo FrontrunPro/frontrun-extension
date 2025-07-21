@@ -458,8 +458,11 @@
   "successfully_imported_labels": {
     "message": "Successfully imported labels!"
   },
-  "successfully_added_wallets_to_groups": {
-    "message": "Successfully added wallets to groups!"
+  "successfully_added_wallets_to_group": {
+    "message": "Successfully added wallets to group!"
+  },
+  "successfully_added_wallet_to_group": {
+    "message": "Successfully added wallet to group!"
   },
   "failed_to_add_wallets_to_groups": {
     "message": "Failed to add wallets to groups!"
