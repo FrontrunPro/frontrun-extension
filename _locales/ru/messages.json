@@ -1,0 +1,1070 @@
+{
+  "labeling": {
+    "message": "Метки"
+  },
+  "trading": {
+    "message": "Трейдинг"
+  },
+  "setting": {
+    "message": "Настройки"
+  },
+  "add": {
+    "message": "Добавить"
+  },
+  "appearance": {
+    "message": "Внешний вид"
+  },
+  "platform_settings": {
+    "message": "Настройки платформы"
+  },
+  "light": {
+    "message": "Светлая"
+  },
+  "dark": {
+    "message": "Тёмная"
+  },
+  "logout": {
+    "message": "Выйти"
+  },
+  "language": {
+    "message": "Язык"
+  },
+  "smart_followers": {
+    "message": "Умные подписчики"
+  },
+  "powered_by": {
+    "message": "Работает на"
+  },
+  "log_in_to_view_insights": {
+    "message": "Войдите, чтобы увидеть аналитику"
+  },
+  "label_updated_successfully": {
+    "message": "Метка успешно обновлена!"
+  },
+  "label_deleted_successfully": {
+    "message": "Метка успешно удалена!"
+  },
+  "username_history": {
+    "message": "История имён пользователя"
+  },
+  "get_ca_history": {
+    "message": "Получить историю CA"
+  },
+  "fetch_ca_history_failed": {
+    "message": "Не удалось получить историю CA. Попробуйте позже."
+  },
+  "deleted_CA_count": {
+    "message": "{deletedCACount} удалённых CA"
+  },
+  "active_CA_count": {
+    "message": "{activeCACount} активных CA"
+  },
+  "deleted_tweets": {
+    "message": "{deletedTweetsCount} удалённых твитов"
+  },
+  "undeleted_tweets": {
+    "message": "{undeletedTweetCount} активных твитов"
+  },
+  "deleted_tweets_title": {
+    "message": "Удалённые твиты"
+  },
+  "no_active_tweets_found": {
+    "message": "Активных твитов с CA не найдено"
+  },
+  "view_on_twitter": {
+    "message": "Открыть в Twitter"
+  },
+  "deleted_tweets_found": {
+    "message": "Найдено {deletedTweetsCount} удалённых твитов"
+  },
+  "no_deleted_tweets_found": {
+    "message": "Удалённых твитов с CA не найдено"
+  },
+  "active_tweets": {
+    "message": "Активные твиты"
+  },
+  "CA_mentioned_by": {
+    "message": "CA упомянута @{twitterUsername}"
+  },
+  "add_label": {
+    "message": "Добавить метку"
+  },
+  "successfully_created_group": {
+    "message": "Группа успешно создана"
+  },
+  "failed_to_create_group": {
+    "message": "Не удалось создать группу"
+  },
+  "enter_a_group_name": {
+    "message": "Введите название группы"
+  },
+  "characters": {
+    "message": "символов"
+  },
+  "group_name_already_exists": {
+    "message": "Название группы уже существует"
+  },
+  "view_summary": {
+    "message": "Просмотреть сводку"
+  },
+  "x_profile": {
+    "message": "Профиль X"
+  },
+  "net_worth": {
+    "message": "Чистая стоимость"
+  },
+  "win_rate": {
+    "message": "Процент побед"
+  },
+  "pnl_90d": {
+    "message": "PnL (90 дней)"
+  },
+  "address": {
+    "message": "Адрес"
+  },
+  "program_derived_address": {
+    "message": "Адрес, полученный программой"
+  },
+  "confirm": {
+    "message": "Подтвердить"
+  },
+  "cancel": {
+    "message": "Отмена"
+  },
+  "jito_bundle_details": {
+    "message": "Детали пакета Jito"
+  },
+  "bundle_id": {
+    "message": "ID пакета"
+  },
+  "total_transactions": {
+    "message": "Всего транзакций"
+  },
+  "validator_tip": {
+    "message": "Чаевые Jito"
+  },
+  "transaction_signatures": {
+    "message": "Подписи транзакций"
+  },
+  "loading_details": {
+    "message": "Загрузка деталей..."
+  },
+  "details_not_available": {
+    "message": "Детали недоступны"
+  },
+  "no_alt_wallets_found": {
+    "message": "Альт‑кошельков не найдено"
+  },
+  "no_bundle_data_available": {
+    "message": "Данные о пакете недоступны"
+  },
+  "unable_to_load_bundle_info": {
+    "message": "Не удаётся загрузить информацию о пакете."
+  },
+  "view_on_jito_explorer": {
+    "message": "Открыть в Jito Explorer"
+  },
+  "close": {
+    "message": "Закрыть"
+  },
+  "signer": {
+    "message": "Подписант"
+  },
+  "checking": {
+    "message": "Проверка..."
+  },
+  "bundled_with": {
+    "message": "В пакете с"
+  },
+  "transactions": {
+    "message": "Транзакции"
+  },
+  "jito_bundle": {
+    "message": "Пакет Jito"
+  },
+  "not_bundled": {
+    "message": "Не в пакете"
+  },
+  "bundle_check_failed": {
+    "message": "Ошибка проверки пакета"
+  },
+  "unknown": {
+    "message": "Неизвестно"
+  },
+  "successfully_updated_group": {
+    "message": "Группа успешно обновлена"
+  },
+  "failed_to_save_group": {
+    "message": "Не удалось сохранить группу"
+  },
+  "groups": {
+    "message": "Группы"
+  },
+  "tags": {
+    "message": "Теги"
+  },
+  "duplicated_group_name": {
+    "message": "Дублирующееся название группы"
+  },
+  "group_name_required": {
+    "message": "Название группы обязательно"
+  },
+  "new_wallet": {
+    "message": "Новый кошелёк"
+  },
+  "new_group": {
+    "message": "Новая группа"
+  },
+  "import_labels": {
+    "message": "Импорт меток"
+  },
+  "group_name": {
+    "message": "Название группы"
+  },
+  "enter_a_new_group_name": {
+    "message": "Введите новое название группы"
+  },
+  "wallet_address": {
+    "message": "Адрес кошелька"
+  },
+  "enter_a_new_wallet_address": {
+    "message": "Введите новый адрес кошелька"
+  },
+  "primary_label": {
+    "message": "Основная метка"
+  },
+  "enter_a_name_for_easy_tracking": {
+    "message": "Введите название для удобства отслеживания"
+  },
+  "wallet_address_is_required": {
+    "message": "Адрес кошелька обязателен"
+  },
+  "invalid_wallet_address": {
+    "message": "Неверный адрес кошелька"
+  },
+  "primary_label_is_required": {
+    "message": "Основная метка обязательна"
+  },
+  "alt_wallets_saved_successfully": {
+    "message": "Альт‑кошельки успешно сохранены!"
+  },
+  "wallet_created_successfully": {
+    "message": "Кошелёк успешно создан!"
+  },
+  "wallet_creation_failed": {
+    "message": "Не удалось создать кошелёк!"
+  },
+  "please_select_at_least_one_group": {
+    "message": "Пожалуйста, выберите хотя бы одну группу"
+  },
+  "save": {
+    "message": "Сохранить"
+  },
+  "last_active": {
+    "message": "Последняя активность"
+  },
+  "add_alt_wallets_to_group": {
+    "message": "Добавить альт‑кошельки в группу"
+  },
+  "search_for_alt_wallets": {
+    "message": "Поиск альт‑кошельков"
+  },
+  "add_to_group": {
+    "message": "Добавить в группу"
+  },
+  "adding": {
+    "message": "Добавление..."
+  },
+  "select_wallet": {
+    "message": "Выберите кошелёк"
+  },
+  "explore_universal_labels": {
+    "message": "Исследовать универсальные метки"
+  },
+  "recent_labels": {
+    "message": "Недавние метки"
+  },
+  "no_custom_labels_yet": {
+    "message": "Вы ещё не назначили пользовательские метки."
+  },
+  "start_trading": {
+    "message": "Начать торговать"
+  },
+  "profiles": {
+    "message": "Профили"
+  },
+  "wallets": {
+    "message": "Кошельки"
+  },
+  "welcome_to_frontrun": {
+    "message": "Добро пожаловать во Frontrun"
+  },
+  "pin_extension_for_quick_access": {
+    "message": "Закрепите расширение для быстрого доступа"
+  },
+  "extensions": {
+    "message": "Расширения"
+  },
+  "frontrun": {
+    "message": "Frontrun"
+  },
+  "pin": {
+    "message": "Закрепить"
+  },
+  "lets_explore_labels_on_gmgn": {
+    "message": "Давайте исследуем метки на GMGN"
+  },
+  "explore_labels_on_gmgn": {
+    "message": "Исследовать метки на GMGN"
+  },
+  "lets_explore_labels_on_x": {
+    "message": "Давайте исследуем метки на X"
+  },
+  "explore_labels_on_x": {
+    "message": "Исследовать метки на X"
+  },
+  "ready_to_frontrun": {
+    "message": "Готовы к Frontrun"
+  },
+  "skip_intro": {
+    "message": "Пропустить вступление >"
+  },
+  "gmgn_label_1": {
+    "message": "Найдите существующую метку и наведите курсор, чтобы увидеть группы и теги."
+  },
+  "gmgn_label_2": {
+    "message": "Создавайте и настраивайте метки для любого кошелька."
+  },
+  "gmgn_label_3": {
+    "message": "Легко импортируйте свои пользовательские группы из GMGN во Frontrun для удобного просмотра на всех платформах."
+  },
+  "profile_label_1": {
+    "message": "Наведите курсор на «Просмотреть сводку», чтобы узнать больше об аккаунте."
+  },
+  "profile_label_2": {
+    "message": "Создавайте и настраивайте метки для любого пользователя X."
+  },
+  "profile_label_3": {
+    "message": "Смотрите умных подписчиков на каждой странице профиля."
+  },
+  "your_account_is_activated": {
+    "message": "Ваш аккаунт активирован!"
+  },
+  "view_frontrun_insights_line": {
+    "message": "Теперь вы можете видеть аналитику Frontrun в X и на других платформах."
+  },
+  "add_custom_labels_by_clicking": {
+    "message": "Добавляйте пользовательские метки, нажав на"
+  },
+  "icon_next_to_address_on": {
+    "message": "иконку рядом с адресом кошелька на"
+  },
+  "seamless_experience": {
+    "message": "Для лучшего опыта импортируйте свои метки во Frontrun."
+  },
+  "import": {
+    "message": "Импорт"
+  },
+  "explore_frontrun": {
+    "message": "Исследовать Frontrun"
+  },
+  "please_enter_wallet_addresses": {
+    "message": "Введите адреса кошельков"
+  },
+  "please_enter_wallet_address": {
+    "message": "Введите адрес кошелька"
+  },
+  "no_valid_wallet_addresses_found": {
+    "message": "Не найдено действительных адресов кошельков"
+  },
+  "invalid_wallet_address_with_addr": {
+    "message": "Неверный адрес кошелька: {address}"
+  },
+  "missing_label_for_address": {
+    "message": "Отсутствует метка для адреса: {address}"
+  },
+  "successfully_imported_labels": {
+    "message": "Метки успешно импортированы!"
+  },
+  "successfully_added_wallets_to_group": {
+    "message": "Кошельки успешно добавлены в группу!"
+  },
+  "successfully_added_wallet_to_group": {
+    "message": "Кошелёк успешно добавлен в группу!"
+  },
+  "failed_to_add_wallets_to_groups": {
+    "message": "Не удалось добавить кошельки в группы!"
+  },
+  "failed_to_import_labels": {
+    "message": "Не удалось импортировать метки"
+  },
+  "failed_to_parse_wallet_data": {
+    "message": "Не удалось обработать данные кошелька"
+  },
+  "bulk_import": {
+    "message": "Массовый импорт"
+  },
+  "paste_your_exported_wallets_here": {
+    "message": "Вставьте экспортированные кошельки сюда..."
+  },
+  "alt_wallet": {
+    "message": "Альт‑кошелёк"
+  },
+  "high": {
+    "message": "Высокий"
+  },
+  "medium": {
+    "message": "Средний"
+  },
+  "we_are_confident_pocket_wallet": {
+    "message": "Мы {confidence} уверены, что этот кошелёк является карманным для выбранного адреса."
+  },
+  "please_enter_a_primary_label": {
+    "message": "Введите основную метку"
+  },
+  "successfully_updated_label": {
+    "message": "Метка успешно обновлена!"
+  },
+  "failed_to_update_label": {
+    "message": "Не удалось обновить метку"
+  },
+  "failed_to_delete_label": {
+    "message": "Не удалось удалить метку"
+  },
+  "create": {
+    "message": "Создать"
+  },
+  "trading_feature_coming_soon": {
+    "message": "Эта функция скоро появится. Свяжитесь с нами для раннего доступа."
+  },
+  "feature_temporarily_disabled": {
+    "message": "Эта функция временно отключена и будет восстановлена автоматически."
+  },
+  "please_enter_invite_code": {
+    "message": "Введите код приглашения"
+  },
+  "something_went_wrong": {
+    "message": "Что‑то пошло не так. Попробуйте позже"
+  },
+  "already_signed_up_with_twitter": {
+    "message": "Уже зарегистрировались через Twitter?"
+  },
+  "twitter_login": {
+    "message": "Войти через Twitter"
+  },
+  "google_only_twitter_notice": {
+    "message": "Все пользователи должны использовать Google • Вход через Twitter только для ранее зарегистрированных"
+  },
+  "need_help": {
+    "message": "Нужна помощь?"
+  },
+  "docs": {
+    "message": "Документация"
+  },
+  "community": {
+    "message": "Сообщество"
+  },
+  "search_placeholder": {
+    "message": "Поиск по метке, адресу, ключевому слову или имени"
+  },
+  "import_from_gmgn": {
+    "message": "Импорт из GMGN"
+  },
+  "import_from_solscan": {
+    "message": "Импорт из Solscan"
+  },
+  "import_from_axiom": {
+    "message": "Импорт из Axiom"
+  },
+  "import_from_photon": {
+    "message": "Импорт из Photon"
+  },
+  "import_privacy_message": {
+    "message": "Ваши импортированные метки всегда останутся приватными и не будут доступны другим пользователям."
+  },
+  "supported_wallets": {
+    "message": "Поддерживаемые кошельки"
+  },
+  "copied": {
+    "message": "Скопировано"
+  },
+  "copy": {
+    "message": "Копировать"
+  },
+  "custom_labels_detected": {
+    "message": "Обнаружены пользовательские метки"
+  },
+  "remind_later": {
+    "message": "Напомнить позже"
+  },
+  "import_to_frontrun_tip": {
+    "message": "Импортируйте свои метки во Frontrun для удобного просмотра на Solscan, Axiom, GMGN и других платформах. Метки останутся приватными — их никто не увидит."
+  },
+  "never_show_this_again": {
+    "message": "Больше не показывать."
+  },
+  "failed_to_import_labels_refresh": {
+    "message": "Не удалось импортировать метки, обновите страницу"
+  },
+  "importing_labels": {
+    "message": "Импорт меток"
+  },
+  "generating_project_summary": {
+    "message": "Генерация сводки проекта…"
+  },
+  "please_wait_minutes": {
+    "message": "Пожалуйста, подождите ~1–2 минуты."
+  },
+  "update_summary": {
+    "message": "Обновить сводку"
+  },
+  "generate_summary": {
+    "message": "Сгенерировать сводку"
+  },
+  "quick_buy": {
+    "message": "Купить"
+  },
+  "quick_sell": {
+    "message": "Продать"
+  },
+  "recently_logged_in_as": {
+    "message": "Недавно вошли как"
+  },
+  "clear": {
+    "message": "Очистить"
+  },
+  "login_method": {
+    "message": "Метод входа"
+  },
+  "google": {
+    "message": "Google"
+  },
+  "twitter": {
+    "message": "Twitter"
+  },
+  "loading": {
+    "message": "Загрузка..."
+  },
+  "continue_with_google": {
+    "message": "Продолжить с Google"
+  },
+  "or": {
+    "message": "или"
+  },
+  "activate_account": {
+    "message": "Активировать аккаунт"
+  },
+  "enter_invite_code": {
+    "message": "Введите код приглашения"
+  },
+  "need_a_code": {
+    "message": "Нужен код?"
+  },
+  "join_telegram": {
+    "message": "Присоединиться к Telegram"
+  },
+  "activate": {
+    "message": "Активировать"
+  },
+  "switch_account": {
+    "message": "Сменить аккаунт"
+  },
+  "kol_data": {
+    "message": "Данные KOL"
+  },
+  "custom_labels": {
+    "message": "Пользовательские метки"
+  },
+  "smart_wallet_insights": {
+    "message": "Инсайты умного кошелька"
+  },
+  "seamless_tagging": {
+    "message": "Бесшовное тегирование"
+  },
+  "alpha_discovery": {
+    "message": "Поиск альфы"
+  },
+  "real_time_tracking": {
+    "message": "Отслеживание в реальном времени"
+  },
+  "x_integration": {
+    "message": "Интеграция с X"
+  },
+  "trade_on_signals": {
+    "message": "Торгуйте по сигналам,"
+  },
+  "not_speculation": {
+    "message": "а не по догадкам."
+  },
+  "open_sidepanel_to_explore_frontrun": {
+    "message": "Откройте боковую панель, чтобы исследовать Frontrun"
+  },
+  "view_docs": {
+    "message": "Посмотреть документацию"
+  },
+  "profile_data": {
+    "message": "Данные профиля"
+  },
+  "twitter_label": {
+    "message": "Твиттер‑метка"
+  },
+  "name": {
+    "message": "Имя"
+  },
+  "show_full_list": {
+    "message": "Показать полный список"
+  },
+  "are_you_sure_you_want_to_delete_this_profile": {
+    "message": "Вы уверены, что хотите удалить этот профиль?"
+  },
+  "wallet_data": {
+    "message": "Данные кошелька"
+  },
+  "wallet_label": {
+    "message": "Метка кошелька"
+  },
+  "are_you_sure_you_want_to_delete_this_label": {
+    "message": "Вы уверены, что хотите удалить эту метку? Кошелёк будет удалён"
+  },
+  "delete_label": {
+    "message": "Удалить метку"
+  },
+  "of": {
+    "message": "из"
+  },
+  "selected": {
+    "message": "выбрано"
+  },
+  "group": {
+    "message": "Группа"
+  },
+  "group_management": {
+    "message": "Управление группами"
+  },
+  "add_wallet": {
+    "message": "Добавить кошелёк"
+  },
+  "add_multi_wallet": {
+    "message": "Добавить несколько кошельков"
+  },
+  "delete_group": {
+    "message": "Удалить группу"
+  },
+  "are_you_sure_you_want_to_delete_this_group": {
+    "message": "Вы уверены, что хотите удалить эту группу?"
+  },
+  "success_group_updated": {
+    "message": "Группа успешно обновлена"
+  },
+  "error_group_update": {
+    "message": "Не удалось обновить группу"
+  },
+  "success_wallets_removed": {
+    "message": "Кошельки успешно удалены"
+  },
+  "error_wallets_remove": {
+    "message": "Не удалось удалить кошельки"
+  },
+  "success_group_deleted": {
+    "message": "Группа успешно удалена"
+  },
+  "error_group_delete": {
+    "message": "Не удалось удалить группу"
+  },
+  "delete_profile": {
+    "message": "Удалить профиль"
+  },
+  "add_single_wallet": {
+    "message": "Добавить один кошелёк"
+  },
+  "wallet_address_placeholder": {
+    "message": "адрес кошелька"
+  },
+  "format_placeholder": {
+    "message": "Поддерживает Axiom, GMGN, Raybot, BullX."
+  },
+  "wallet_label_placeholder": {
+    "message": "Адрес кошелька: метка"
+  },
+  "duplicate_wallet_addresses_found": {
+    "message": "Найдены дублирующиеся адреса кошельков"
+  },
+  "invalid_wallet_addresses": {
+    "message": "Неверные адреса кошельков"
+  },
+  "please_enter_a_label": {
+    "message": "Введите метку"
+  },
+  "success_imported_labels": {
+    "message": "Метки успешно импортированы!"
+  },
+  "error_importing_wallets": {
+    "message": "Ошибка импорта кошельков. Попробуйте снова."
+  },
+  "auto_generate_labels_from_group_name": {
+    "message": "Автоматически генерировать метки из названия группы."
+  },
+  "enter_wallet_addresses_one_per_line": {
+    "message": "Введите адреса кошельков, по одному в строке."
+  },
+  "use_colon_for_custom_labels": {
+    "message": "Используйте двоеточие для пользовательских меток."
+  },
+  "format": {
+    "message": "Формат"
+  },
+  "add_wallets": {
+    "message": "Добавить кошельки"
+  },
+  "processing": {
+    "message": "Обработка..."
+  },
+  "invalid_solana_address": {
+    "message": "Неверный адрес Solana"
+  },
+  "this_wallet_is_already_labeled_keep_the_current_label_or_update_it": {
+    "message": "Этот кошелёк уже имеет метку. Оставить текущую или обновить?"
+  },
+  "paste_the_wallet_address": {
+    "message": "Вставьте адрес кошелька"
+  },
+  "please_select_at_least_one_wallet": {
+    "message": "Выберите хотя бы один кошелёк"
+  },
+  "importing": {
+    "message": "Импорт..."
+  },
+  "frontrun_summary": {
+    "message": "Сводка Frontrun"
+  },
+  "twitter_sign_up_is_being_phased_out": {
+    "message": "Регистрация через Twitter будет отключена — используйте Google для создания аккаунта."
+  },
+  "delete_wallet": {
+    "message": "Удалить кошелёк"
+  },
+  "deleting": {
+    "message": "Удаление..."
+  },
+  "are_you_sure_you_want_to_remove_this_wallet_from_group": {
+    "message": "Вы уверены, что хотите удалить этот кошелёк из группы?"
+  },
+  "read_more": {
+    "message": "[Читать далее]"
+  },
+  "secure_signing": {
+    "message": "безопасная подпись"
+  },
+  "frontrun_never_gets_the_the_access_to_use_private_keys": {
+    "message": "Frontrun никогда не получает доступ к вашим приватным ключам."
+  },
+  "create_new_wallet": {
+    "message": "Создать новый кошелёк"
+  },
+  "start_fresh_with_a_brand_new_key_pair_generated_right_in_your_browser": {
+    "message": "Начните с нуля с новой парой ключей, сгенерированной прямо в вашем браузере."
+  },
+  "enable_with_google": {
+    "message": "Включить с Google"
+  },
+  "your_wallets": {
+    "message": "Ваши кошельки"
+  },
+  "creating": {
+    "message": "Создание..."
+  },
+  "you_have_reached_the_maximum_number_of_wallets": {
+    "message": "Вы достигли максимального количества кошельков"
+  },
+  "failed_to_create_wallet": {
+    "message": "Не удалось создать кошелёк"
+  },
+  "failed_to_fetch_imported_private_keys": {
+    "message": "Не удалось получить импортированные приватные ключи"
+  },
+  "failed_to_fetch_addresses": {
+    "message": "Не удалось получить адреса"
+  },
+  "failed_to_fetch_portfolio_for_address": {
+    "message": "Не удалось получить портфель для адреса"
+  },
+  "private_key_imported_successfully": {
+    "message": "Приватный ключ успешно импортирован"
+  },
+  "failed_to_import_private_key": {
+    "message": "Не удалось импортировать приватный ключ"
+  },
+  "import_wallet": {
+    "message": "Импорт кошелька"
+  },
+  "do_not_share_your_private_key_with_anyone_frontrun_never_sees_or_stores_your_key": {
+    "message": "Не делитесь приватным ключом ни с кем. Frontrun не видит и не хранит ваши ключи."
+  },
+  "please_enter_the_destination_address": {
+    "message": "Введите адрес назначения"
+  },
+  "destination_address_is_not_valid": {
+    "message": "Адрес назначения недействителен"
+  },
+  "cannot_send_sol_to_the_same_address": {
+    "message": "Нельзя отправить SOL на тот же адрес"
+  },
+  "please_enter_the_amount": {
+    "message": "Введите сумму"
+  },
+  "invalid_amount": {
+    "message": "Неверная сумма"
+  },
+  "failed_to_export_private_key": {
+    "message": "Не удалось экспортировать приватный ключ"
+  },
+  "make_sure_the_destination_accepts_sol": {
+    "message": "Убедитесь, что адрес назначения принимает SOL"
+  },
+  "destination_address": {
+    "message": "Адрес назначения"
+  },
+  "amount": {
+    "message": "Сумма"
+  },
+  "balance": {
+    "message": "Баланс"
+  },
+  "verify_with_google": {
+    "message": "Подтвердить через Google"
+  },
+  "from": {
+    "message": "От"
+  },
+  "to": {
+    "message": "К"
+  },
+  "sending": {
+    "message": "Отправка..."
+  },
+  "send": {
+    "message": "Отправить"
+  },
+  "sol_was_successfully_sent_to": {
+    "message": "SOL успешно отправлен на"
+  },
+  "view_transaction": {
+    "message": "Посмотреть транзакцию"
+  },
+  "done": {
+    "message": "Готово"
+  },
+  "default_wallet": {
+    "message": "Кошелёк по умолчанию"
+  },
+  "set_as_default_wallet": {
+    "message": "Сделать кошельком по умолчанию"
+  },
+  "deposit": {
+    "message": "Депозит"
+  },
+  "withdraw": {
+    "message": "Вывод"
+  },
+  "view_on_solscan": {
+    "message": "Открыть в Solscan"
+  },
+  "view_private_key": {
+    "message": "Показать приватный ключ"
+  },
+  "archive_wallet": {
+    "message": "Архивировать кошелёк"
+  },
+  "holdings": {
+    "message": "Активы"
+  },
+  "hide_low": {
+    "message": "Скрыть мелкие"
+  },
+  "trade": {
+    "message": "Торговать"
+  },
+  "share": {
+    "message": "Поделиться"
+  },
+  "deposit_sol": {
+    "message": "Пополнение SOL"
+  },
+  "deposit_address": {
+    "message": "Адрес депозита"
+  },
+  "only_send_sol_to_this_address": {
+    "message": "Отправляйте SOL только на этот адрес."
+  },
+  "copied_to_clipboard": {
+    "message": "Скопировано в буфер"
+  },
+  "failed_to_copy_address": {
+    "message": "Не удалось скопировать адрес"
+  },
+  "copy_address": {
+    "message": "Копировать адрес"
+  },
+  "export_private_key": {
+    "message": "Экспорт приватного ключа"
+  },
+  "your_private_key_will_provide_all_access_to_this_account_do_not_share_your_private_key_with_anyone_frontrun_never_sees_or_stores_your_key": {
+    "message": "Приватный ключ даст полный доступ к аккаунту. Не делитесь ключом. Frontrun не видит и не хранит ваши ключи."
+  },
+  "reveal_private_key": {
+    "message": "Показать приватный ключ"
+  },
+  "enter_private_key": {
+    "message": "Введите приватный ключ"
+  },
+  "withdraw_failed": {
+    "message": "Вывод не удался"
+  },
+  "confirm_withdraw": {
+    "message": "Подтвердить вывод"
+  },
+  "withdraw_sol": {
+    "message": "Вывести SOL"
+  },
+  "success": {
+    "message": "Успех"
+  },
+  "error": {
+    "message": "Ошибка"
+  },
+  "enter_destination_address": {
+    "message": "Введите адрес назначения"
+  },
+  "enter_amount": {
+    "message": "Введите сумму"
+  },
+  "enable_trading": {
+    "message": "Включить торговлю"
+  },
+  "select_group": {
+    "message": "Выберите группу"
+  },
+  "are_you_sure_you_want_to_delete_these_groups": {
+    "message": "Вы уверены, что хотите удалить эти группы? Кошельки будут удалены из всех связанных групп."
+  },
+  "successfully_deleted_group": {
+    "message": "Группа успешно удалена"
+  },
+  "failed_to_delete_group": {
+    "message": "Не удалось удалить группу"
+  },
+  "delete": {
+    "message": "Удалить"
+  },
+  "fail": {
+    "message": "Неудача"
+  },
+  "label_ui": {
+    "message": "Стиль меток"
+  },
+  "option_1": {
+    "message": "Вариант 1"
+  },
+  "option_2": {
+    "message": "Вариант 2"
+  },
+  "insufficient_balance": {
+    "message": "Недостаточный баланс"
+  },
+  "failed_to_withdraw": {
+    "message": "Не удалось выполнить вывод"
+  },
+  "successfully_deleted_wallets": {
+    "message": "Кошельки успешно удалены"
+  },
+  "failed_to_delete_wallet": {
+    "message": "Не удалось удалить кошелёк"
+  },
+  "twitter_login_deprecated_please_bind_google": {
+    "message": "Вход через Twitter устарел. Привяжите аккаунт Google."
+  },
+  "link_to_google_account": {
+    "message": "Привязать к Google‑аккаунту"
+  },
+  "link_failed_retry": {
+    "message": "Не удалось привязать. Попробуйте ещё раз."
+  },
+  "binding": {
+    "message": "Привязка..."
+  },
+  "bind_now": {
+    "message": "Привязать сейчас"
+  },
+  "account_migration": {
+    "message": "Миграция аккаунта"
+  },
+  "account_linked_successfully": {
+    "message": "Аккаунт успешно привязан"
+  },
+  "if_you_have_any_issues_please_join": {
+    "message": "Если у вас есть вопросы, присоединяйтесь к нашему"
+  },
+  "telegram_community": {
+    "message": "сообществу в Telegram"
+  },
+  "recent_searches": {
+    "message": "Недавние поиски"
+  },
+  "no_results_found": {
+    "message": "Ничего не найдено"
+  },
+  "username": {
+    "message": "Ник"
+  },
+  "history": {
+    "message": "История"
+  },
+  "no_username_changes": {
+    "message": "Изменений имени пользователя нет"
+  },
+  "tokens": {
+    "message": "Токены"
+  },
+  "wallet_history": {
+    "message": "История кошелька"
+  },
+  "wallet_history_for": {
+    "message": "История кошелька для @{twitterUsername}"
+  },
+  "fetch_wallet_history_failed": {
+    "message": "Не удалось получить историю кошелька. Попробуйте позже."
+  },
+  "associated_wallets": {
+    "message": "Связанные кошельки"
+  },
+  "mentioned_wallets": {
+    "message": "Упомянутые кошельки"
+  },
+  "linked": {
+    "message": "Связан"
+  },
+  "mentioned": {
+    "message": "Упомянут"
+  },
+  "deleted_wallet_mentions": {
+    "message": "Удалённые упоминания кошельков"
+  },
+  "deleted": {
+    "message": "УДАЛЕНО"
+  },
+  "no_associated_wallets_found": {
+    "message": "Связанные кошельки не найдены"
+  },
+  "no_wallet_mentions_found": {
+    "message": "Упоминаний кошельков в твитах не найдено"
+  },
+  "tweet": {
+    "message": "твит"
+  },
+  "tweets": {
+    "message": "твиты"
+  },
+  "active": {
+    "message": "Активный"
+  }
+}

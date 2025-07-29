@@ -44,9 +44,6 @@
   "label_deleted_successfully": {
     "message": "标签删除成功！"
   },
-  "name_change": {
-    "message": "改名历史"
-  },
   "username_history": {
     "message": "用户名历史"
   },
@@ -57,22 +54,22 @@
     "message": "CA 被 @{twitterUsername} 提及"
   },
   "deleted_CA_count": {
-    "message": "{deletedCACount} 个已删除"
+    "message": "{deletedCACount} 个已删除CA"
   },
   "active_CA_count": {
-    "message": "{activeCACount} 个活跃"
+    "message": "{activeCACount} 个未删除CA"
   },
   "deleted_tweets": {
     "message": "{deletedTweetsCount} 个已删除推文"
   },
   "undeleted_tweets": {
-    "message": "{undeletedTweetCount} 个活跃推文"
+    "message": "{undeletedTweetCount} 个未删除推文"
   },
   "deleted_tweets_title": {
     "message": "已删除推文"
   },
   "no_active_tweets_found": {
-    "message": "未找到活跃推文"
+    "message": "未找到未删除包含CA的推文"
   },
   "view_on_twitter": {
     "message": "在 Twitter 上查看"
@@ -81,10 +78,7 @@
     "message": "已找到 {deletedTweetsCount} 个已删除推文"
   },
   "no_deleted_tweets_found": {
-    "message": "未找到已删除推文"
-  },
-  "ca_history": {
-    "message": "发盘历史"
+    "message": "未找到已删除包含CA的推文"
   },
   "fetch_ca_history_failed": {
     "message": "获取发盘历史失败，请稍后再试。"
@@ -142,6 +136,9 @@
   },
   "total_transactions": {
     "message": "交易总数"
+  },
+  "validator_tip": {
+    "message": "小费"
   },
   "transaction_signatures": {
     "message": "交易签名"
@@ -1009,5 +1006,65 @@
   },
   "telegram_community": {
     "message": "电报社区"
+  },
+  "recent_searches": {
+    "message": "最近搜索"
+  },
+  "no_results_found": {
+    "message": "没有结果"
+  },
+  "username": {
+    "message": "改名"
+  },
+  "history": {
+    "message": "历史"
+  },
+  "no_username_changes": {
+    "message": "暂无用户名变更"
+  },
+  "tokens": {
+    "message": "发盘"
+  },
+  "wallet_history": {
+    "message": "钱包历史"
+  },
+  "wallet_history_for": {
+    "message": "@{twitterUsername} 的钱包历史"
+  },
+  "fetch_wallet_history_failed": {
+    "message": "获取钱包历史失败，请稍后再试。"
+  },
+  "associated_wallets": {
+    "message": "关联钱包"
+  },
+  "mentioned_wallets": {
+    "message": "提及钱包"
+  },
+  "linked": {
+    "message": "关联"
+  },
+  "mentioned": {
+    "message": "提及"
+  },
+  "deleted_wallet_mentions": {
+    "message": "已删除钱包提及"
+  },
+  "deleted": {
+    "message": "已删除"
+  },
+  "no_associated_wallets_found": {
+    "message": "未找到关联钱包"
+  },
+  "no_wallet_mentions_found": {
+    "message": "推文中未找到钱包提及"
+  },
+  "tweet": {
+    "message": "推文"
+  },
+  "tweets": {
+    "message": "推文"
+  },
+  "active": {
+    "message": "活跃"
   }
 }

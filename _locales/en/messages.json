@@ -44,26 +44,20 @@
   "label_deleted_successfully": {
     "message": "Label deleted successfully!"
   },
-  "name_change": {
-    "message": "Name change"
-  },
   "username_history": {
     "message": "Username History"
   },
   "get_ca_history": {
     "message": "Get CA History"
   },
-  "ca_history": {
-    "message": "CA History"
-  },
   "fetch_ca_history_failed": {
     "message": "Failed to fetch CA History. Please try again later."
   },
   "deleted_CA_count": {
-    "message": "{deletedCACount} deleted"
+    "message": "{deletedCACount} deleted CAs"
   },
   "active_CA_count": {
-    "message": "{activeCACount} active"
+    "message": "{activeCACount} active CAs"
   },
   "deleted_tweets": {
     "message": "{deletedTweetsCount} deleted tweets"
@@ -75,7 +69,7 @@
     "message": "Deleted Tweets"
   },
   "no_active_tweets_found": {
-    "message": "No active tweets found"
+    "message": "No active tweets with CAs found"
   },
   "view_on_twitter": {
     "message": "View on Twitter"
@@ -84,7 +78,7 @@
     "message": "Found {deletedTweetsCount} deleted tweets"
   },
   "no_deleted_tweets_found": {
-    "message": "No deleted tweets found"
+    "message": "No deleted tweets with CAs found"
   },
   "active_tweets": {
     "message": "Active Tweets"
@@ -145,6 +139,9 @@
   },
   "total_transactions": {
     "message": "Total Transactions"
+  },
+  "validator_tip": {
+    "message": "Jito Tip"
   },
   "transaction_signatures": {
     "message": "Transaction Signatures"
@@ -235,75 +232,6 @@
   },
   "primary_label": {
     "message": "Primary Label"
-  },
-  "view_on_jito_explorer": {
-    "message": "View on Jito Explorer"
-  },
-  "close": {
-    "message": "Close"
-  },
-  "signer": {
-    "message": "Signer"
-  },
-  "checking": {
-    "message": "Checking..."
-  },
-  "bundled_with": {
-    "message": "Bundled with"
-  },
-  "transactions": {
-    "message": "Transactions"
-  },
-  "jito_bundle": {
-    "message": "Jito Bundle"
-  },
-  "not_bundled": {
-    "message": "Not Bundled"
-  },
-  "bundle_check_failed": {
-    "message": "Bundle Check Failed"
-  },
-  "unknown": {
-    "message": "Unknown"
-  },
-  "successfully_updated_group": {
-    "message": "Successfully updated group"
-  },
-  "failed_to_save_group": {
-    "message": "Failed to save group"
-  },
-  "groups": {
-    "message": "Groups"
-  },
-  "tags": {
-    "message": "Tags"
-  },
-  "duplicated_group_name": {
-    "message": "Duplicated group name"
-  },
-  "group_name_required": {
-    "message": "Group name is required"
-  },
-  "new_wallet": {
-    "message": "New Wallet"
-  },
-  "new_group": {
-    "message": "New Group"
-  },
-  "import_labels": {
-    "message": "Import Labels"
-  },
-  "group_name": {
-    "message": "Group Name"
-  },
-  "enter_a_new_group_name": {
-    "message": "Enter a new group name"
-  },
-  "wallet_address": {
-    "message": "Wallet Address"
-  },
-  "enter_a_new_wallet_address": {
-    "message": "Enter a new wallet address"
   },
   "enter_a_name_for_easy_tracking": {
     "message": "Enter a name for easy tracking"
@@ -551,38 +479,11 @@
   "import_from_photon": {
     "message": "Import from Photon"
   },
-  "supported_wallets": {
-    "message": "Supported Wallets"
-  },
-  "copied": {
-    "message": "Copied"
-  },
-  "copy": {
-    "message": "Copy"
-  },
-  "custom_labels_detected": {
-    "message": "Custom labels detected"
-  },
-  "remind_later": {
-    "message": "Remind later"
-  },
-  "import_from_gmgn": {
-    "message": "Import from GMGN"
-  },
-  "import_from_solscan": {
-    "message": "Import from Solscan"
-  },
-  "import_from_axiom": {
-    "message": "Import from Axiom"
-  },
-  "import_from_photon": {
-    "message": "Import from Photon"
-  },
   "import_privacy_message": {
     "message": "Your imported labels will always be private to you and won't be shared with other users."
   },
   "supported_wallets": {
-    "message": "Supported Wallets Formats"
+    "message": "Supported Wallets"
   },
   "copied": {
     "message": "Copied"
@@ -855,7 +756,7 @@
     "message": "secure signing"
   },
   "frontrun_never_gets_the_the_access_to_use_private_keys": {
-    "message": "Frontrun never gets the the access to use private keys."
+    "message": "Frontrun never has access to your private keys."
   },
   "create_new_wallet": {
     "message": "Create New Wallet"
@@ -897,7 +798,7 @@
     "message": "Import Wallet"
   },
   "do_not_share_your_private_key_with_anyone_frontrun_never_sees_or_stores_your_key": {
-    "message": "Do not share your private key with anyone. Frontrun never sees or stores your key."
+    "message": "Do not share your private key with anyone. Frontrun never has access to your private keys."
   },
   "please_enter_the_destination_address": {
     "message": "Please enter the destination address"
@@ -1008,7 +909,7 @@
     "message": "Export Private Key"
   },
   "your_private_key_will_provide_all_access_to_this_account_do_not_share_your_private_key_with_anyone_frontrun_never_sees_or_stores_your_key": {
-    "message": "Your Private Key will provide all access to this account. Do not share your Private Key with anyone. Frontrun never sees or stores your key."
+    "message": "Your Private Key will provide all access to this account. Do not share your Private Key with anyone. Frontrun never has access to your private keys."
   },
   "reveal_private_key": {
     "message": "Reveal Private Key"
@@ -1105,5 +1006,65 @@
   },
   "telegram_community": {
     "message": "Telegram community"
+  },
+  "recent_searches": {
+    "message": "Recent Searches"
+  },
+  "no_results_found": {
+    "message": "No results found"
+  },
+  "username": {
+    "message": "Username"
+  },
+  "history": {
+    "message": "History"
+  },
+  "no_username_changes": {
+    "message": "No username changes"
+  },
+  "tokens": {
+    "message": "Tokens"
+  },
+  "wallet_history": {
+    "message": "Wallet History"
+  },
+  "wallet_history_for": {
+    "message": "Wallet History for @{twitterUsername}"
+  },
+  "fetch_wallet_history_failed": {
+    "message": "Failed to fetch wallet history. Please try again later."
+  },
+  "associated_wallets": {
+    "message": "Linked Wallets"
+  },
+  "mentioned_wallets": {
+    "message": "Mentioned Wallets"
+  },
+  "linked": {
+    "message": "Linked"
+  },
+  "mentioned": {
+    "message": "Mentioned"
+  },
+  "deleted_wallet_mentions": {
+    "message": "Deleted Wallet Mentions"
+  },
+  "deleted": {
+    "message": "DELETED"
+  },
+  "no_associated_wallets_found": {
+    "message": "No associated wallets found"
+  },
+  "no_wallet_mentions_found": {
+    "message": "No wallet mentions found in tweets"
+  },
+  "tweet": {
+    "message": "tweet"
+  },
+  "tweets": {
+    "message": "tweets"
+  },
+  "active": {
+    "message": "Active"
   }
 }
