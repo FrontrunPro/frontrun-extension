@@ -1366,5 +1366,11 @@
   },
   "translate_size": {
     "message": "翻译文本样式"
+  },
+  "label_tool": {
+    "message": "编辑标签按钮"
+  },
+  "label_tool_description": {
+    "message": "在地址旁显示一个小笔图标，直接新增或编辑标签"
   }
 }

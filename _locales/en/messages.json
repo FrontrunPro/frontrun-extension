@@ -1375,5 +1375,11 @@
   },
   "translate_size": {
     "message": "Translated text style"
+  },
+  "label_tool": {
+    "message": "Edit label button"
+  },
+  "label_tool_description": {
+    "message": "Show a small pen next to addresses to add or edit labels inline."
   }
 }
