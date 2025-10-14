@@ -17,6 +17,24 @@
   "platform_settings": {
     "message": "平台设置"
   },
+  "general_settings": {
+    "message": "通用"
+  },
+  "twitter_settings": {
+    "message": "推特设置"
+  },
+  "trading_settings": {
+    "message": "交易设置"
+  },
+  "display_settings": {
+    "message": "显示设置"
+  },
+  "cache": {
+    "message": "缓存"
+  },
+  "clear_cache": {
+    "message": "清除"
+  },
   "light": {
     "message": "浅色"
   },
@@ -34,6 +52,9 @@
   },
   "powered_by": {
     "message": "数据来自"
+  },
+  "tags_from": {
+    "message": "标签来自"
   },
   "log_in_to_view_insights": {
     "message": "登录查看洞察"
@@ -270,7 +291,13 @@
     "message": "添加中..."
   },
   "select_wallet": {
-    "message": "选择钱包"
+    "message": "管理钱包"
+  },
+  "select_all": {
+    "message": "全选"
+  },
+  "deselect_all": {
+    "message": "取消全选"
   },
   "explore_universal_labels": {
     "message": "逛逛跨平台标签"
@@ -289,6 +316,9 @@
   },
   "wallets": {
     "message": "钱包"
+  },
+  "no_wallet_found_yet": {
+    "message": "暂无钱包"
   },
   "welcome_to_frontrun": {
     "message": "欢迎来到 Frontrun"
@@ -434,6 +464,12 @@
   "feature_temporarily_disabled": {
     "message": "该功能暂时停用，将在恢复后自动开启。"
   },
+  "prioritize_frontrun": {
+    "message": "优先显示 Frontrun"
+  },
+  "prioritize_frontrun_tip": {
+    "message": "当同时有多个扩展程序显示时，优化用户体验"
+  },
   "please_enter_invite_code": {
     "message": "请输入邀请码"
   },
@@ -442,12 +478,6 @@
   },
   "already_signed_up_with_twitter": {
     "message": "已使用 Twitter 注册？"
-  },
-  "twitter_login": {
-    "message": "Twitter 登录"
-  },
-  "google_only_twitter_notice": {
-    "message": "所有用户应使用 Google • Twitter 登录仅适用于之前使用 Twitter 注册的用户"
   },
   "need_help": {
     "message": "需要帮助？"
@@ -503,17 +533,8 @@
   "importing_labels": {
     "message": "正在导入标签"
   },
-  "generating_project_summary": {
-    "message": "正在生成项目总结…"
-  },
-  "please_wait_minutes": {
-    "message": "请等待约1-2分钟。"
-  },
-  "update_summary": {
-    "message": "更新总结"
-  },
-  "generate_summary": {
-    "message": "生成总结"
+  "auto_import_labels": {
+    "message": "自动同步标签"
   },
   "quick_buy": {
     "message": "买入"
@@ -566,6 +587,12 @@
   "activate": {
     "message": "激活"
   },
+  "trial": {
+    "message": "试用 3 天"
+  },
+  "ended_trial": {
+    "message": "3 天试用已结束，请获取邀请码："
+  },
   "switch_account": {
     "message": "切换账号"
   },
@@ -578,8 +605,8 @@
   "smart_wallet_insights": {
     "message": "智能钱包洞察"
   },
-  "seamless_tagging": {
-    "message": "无缝打标签"
+  "cross_platform_labels": {
+    "message": "跨平台标签共享"
   },
   "alpha_discovery": {
     "message": "Alpha 发现"
@@ -734,12 +761,6 @@
   "importing": {
     "message": "导入中..."
   },
-  "frontrun_summary": {
-    "message": "Frontrun 概览"
-  },
-  "twitter_sign_up_is_being_phased_out": {
-    "message": "Twitter 注册正在逐步淘汰——请使用 Google 创建您的账户。"
-  },
   "delete_wallet": {
     "message": "删除钱包"
   },
@@ -855,10 +876,10 @@
     "message": "完成"
   },
   "default_wallet": {
-    "message": "默认钱包"
+    "message": "活跃钱包"
   },
   "set_as_default_wallet": {
-    "message": "设为默认钱包"
+    "message": "设为活跃钱包"
   },
   "deposit": {
     "message": "充值"
@@ -980,9 +1001,6 @@
   "failed_to_delete_wallet": {
     "message": "钱包删除失败"
   },
-  "twitter_login_deprecated_please_bind_google": {
-    "message": "Twitter 登录已弃用。请绑定您的 Google 账号以继续。"
-  },
   "link_to_google_account": {
     "message": "绑定 Google 账号"
   },
@@ -1064,7 +1082,289 @@
   "tweets": {
     "message": "推文"
   },
+  "follower": {
+    "message": "关注者"
+  },
+  "followers": {
+    "message": "关注者"
+  },
   "active": {
     "message": "活跃"
+  },
+  "wallet_not_verified": {
+    "message": "此钱包尚未验证。"
+  },
+  "label_text_style": {
+    "message": "标签文本样式"
+  },
+  "compact": {
+    "message": "紧凑"
+  },
+  "default": {
+    "message": "默认"
+  },
+  "active_mentions": {
+    "message": "活跃提及"
+  },
+  "deleted_mentions": {
+    "message": "已删除提及"
+  },
+  "all_mentions_for": {
+    "message": "所有提及"
+  },
+  "click_to_view_all_mentions": {
+    "message": "点击查看所有提及"
+  },
+  "failed_to_get_mentions": {
+    "message": "获取提及失败"
+  },
+  "frequent_logout_help": {
+    "message": "经常被登出？查看解决方法"
+  },
+  "add_to_wallets": {
+    "message": "添加到钱包"
+  },
+  "successfully_added_to_wallets": {
+    "message": "成功添加到钱包"
+  },
+  "failed_to_add_to_wallets": {
+    "message": "添加到钱包失败"
+  },
+  "anyone_can_own_a_name_always_verify": {
+    "message": "任何人都可以拥有一个名字。请始终验证。"
+  },
+  "anyone_can_own_a_name": {
+    "message": "任何人都可以拥有一个名字。"
+  },
+  "always_verify": {
+    "message": "请始终验证。"
+  },
+  "archived": {
+    "message": "已归档"
+  },
+  "archive": {
+    "message": "归档"
+  },
+  "unarchive": {
+    "message": "取消归档"
+  },
+  "wallet_deleted_successfully": {
+    "message": "钱包删除成功"
+  },
+  "wallet_deleted_failed": {
+    "message": "钱包删除失败"
+  },
+  "alias": {
+    "message": "别名"
+  },
+  "edit_alias": {
+    "message": "编辑别名"
+  },
+  "enter_alias_placeholder": {
+    "message": "输入别名"
+  },
+  "alias_updated_successfully": {
+    "message": "别名更新成功"
+  },
+  "view_all": {
+    "message": "查看所有"
+  },
+  "top_mentions": {
+    "message": "顶级提及"
+  },
+  "buy": {
+    "message": "买入"
+  },
+  "fee": {
+    "message": "手续费"
+  },
+  "no_default_wallet_address": {
+    "message": "没有默认钱包地址，请先设置默认钱包"
+  },
+  "no_token_found": {
+    "message": "未找到代币"
+  },
+  "amount_less_than_zero": {
+    "message": "金额小于0"
+  },
+  "sol_balance_not_enough": {
+    "message": "SOL余额不足"
+  },
+  "token_balance_not_enough": {
+    "message": "{tokenTicker}余额不足"
+  },
+  "token_balance_less_than_amount": {
+    "message": "{tokenTicker}余额为{tokenBalance}，少于{amount}"
+  },
+  "transaction_confirmed": {
+    "message": "交易已确认"
+  },
+  "order_execution_failed": {
+    "message": "订单执行失败"
+  },
+  "this_will_permanently_remove_this_wallet_from_your_list": {
+    "message": "这将永久删除此钱包。您只能使用私钥重新导入它。"
+  },
+  "select_your_active_wallet": {
+    "message": "选择您的活跃钱包。"
+  },
+  "manage": {
+    "message": "管理"
+  },
+  "executing_order": {
+    "message": "正在执行订单"
+  },
+  "token_creator_label_gmgn": {
+    "message": "代币创建者标签"
+  },
+  "token_creator_label_axiom": {
+    "message": "DA标签"
+  },
+  "profile": {
+    "message": "改名"
+  },
+  "profile_history": {
+    "message": "个人资料历史"
+  },
+  "name_change": {
+    "message": "改名"
+  },
+  "profile_change": {
+    "message": "简介变更"
+  },
+  "no_bio_changes": {
+    "message": "没有简介变更"
+  },
+  "refresh": {
+    "message": "刷新"
+  },
+  "top_positions": {
+    "message": "顶级位置"
+  },
+  "top_moves": {
+    "message": "成就"
+  },
+  "token": {
+    "message": "代币"
+  },
+  "ranking": {
+    "message": "排名"
+  },
+  "holder_history": {
+    "message": "持有者历史"
+  },
+  "holders": {
+    "message": "持有者"
+  },
+  "position": {
+    "message": "位置"
+  },
+  "pnl": {
+    "message": "Pnl"
+  },
+  "only_pnl_above_50k_is_displayed": {
+    "message": "仅显示高于 $50k 的 PnL。"
+  },
+  "top_trader": {
+    "message": "顶级交易者"
+  },
+  "top_holder": {
+    "message": "顶级持有者"
+  },
+  "pnl_over_50k": {
+    "message": "高于 $50k 的 PnL"
+  },
+  "you_saved": {
+    "message": "您节省了"
+  },
+  "in_fees_using": {
+    "message": "的手续费，通过使用"
+  },
+  "fee_saved": {
+    "message": "手续费已节省"
+  },
+  "more": {
+    "message": "更多"
+  },
+  "order_summary": {
+    "message": "订单摘要"
+  },
+  "swapped": {
+    "message": "已交换"
+  },
+  "transaction_details": {
+    "message": "交易详情"
+  },
+  "trade_summary": {
+    "message": "交易摘要"
+  },
+  "time": {
+    "message": "时间"
+  },
+  "date": {
+    "message": "日期"
+  },
+  "signature": {
+    "message": "签名"
+  },
+  "transaction_fee": {
+    "message": "交易手续费"
+  },
+  "wallet": {
+    "message": "钱包"
+  },
+  "price": {
+    "message": "价格"
+  },
+  "slippage": {
+    "message": "滑点"
+  },
+  "tip": {
+    "message": "小费"
+  },
+  "priority_fee": {
+    "message": "优先费"
+  },
+  "for": {
+    "message": "换取"
+  },
+  "current_position": {
+    "message": "当前持仓"
+  },
+  "all_positions": {
+    "message": "所有持仓"
+  },
+  "bought": {
+    "message": "买入"
+  },
+  "sold": {
+    "message": "卖出"
+  },
+  "holding": {
+    "message": "余额"
+  },
+  "position_pnl_percentage": {
+    "message": "盈亏"
+  },
+  "platform_integrations": {
+    "message": "平台开关"
+  },
+  "import_labels_from_terminals": {
+    "message": "自动同步您在其他平台添加的标签（只有您可见，不会分享给其他用户）。"
+  },
+  "remaining_qty": {
+    "message": "数量"
+  },
+  "holding_value": {
+    "message": "余额"
+  },
+  "show_translate": {
+    "message": "显示翻译"
+  },
+  "show_translate_tip": {
+    "message": "在 GMGN 中显示翻译(中文->英文)"
+  },
+  "translate_size": {
+    "message": "翻译文本样式"
   }
 }

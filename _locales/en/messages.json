@@ -11,11 +11,32 @@
   "add": {
     "message": "Add"
   },
+  "top_moves": {
+    "message": "Top Moves"
+  },
   "appearance": {
     "message": "Appearance"
   },
   "platform_settings": {
-    "message": "Platform Settings"
+    "message": "Platform Controls"
+  },
+  "general_settings": {
+    "message": "General"
+  },
+  "twitter_settings": {
+    "message": "X Settings"
+  },
+  "trading_settings": {
+    "message": "Trading Settings"
+  },
+  "display_settings": {
+    "message": "Customization & Display"
+  },
+  "cache": {
+    "message": "Cache"
+  },
+  "clear_cache": {
+    "message": "Clear"
   },
   "light": {
     "message": "Light"
@@ -34,6 +55,9 @@
   },
   "powered_by": {
     "message": "Powered by"
+  },
+  "tags_from": {
+    "message": "Tags from"
   },
   "log_in_to_view_insights": {
     "message": "Log in to view insights"
@@ -276,7 +300,13 @@
     "message": "Adding..."
   },
   "select_wallet": {
-    "message": "Select Wallet"
+    "message": "Manage Wallet"
+  },
+  "select_all": {
+    "message": "Select All"
+  },
+  "deselect_all": {
+    "message": "Deselect All"
   },
   "explore_universal_labels": {
     "message": "Explore Universal Labels"
@@ -295,6 +325,9 @@
   },
   "wallets": {
     "message": "Wallets"
+  },
+  "no_wallet_found_yet": {
+    "message": "No wallet found yet"
   },
   "welcome_to_frontrun": {
     "message": "Welcome to Frontrun"
@@ -440,6 +473,12 @@
   "feature_temporarily_disabled": {
     "message": "This feature is temporarily disabled and will be restored automatically."
   },
+  "prioritize_frontrun": {
+    "message": "Prioritize Frontrun"
+  },
+  "prioritize_frontrun_tip": {
+    "message": "Optimize user experience when multiple extensions are displayed simultaneously"
+  },
   "please_enter_invite_code": {
     "message": "Please enter an invite code"
   },
@@ -448,12 +487,6 @@
   },
   "already_signed_up_with_twitter": {
     "message": "Already signed up with Twitter?"
-  },
-  "twitter_login": {
-    "message": "Twitter login"
-  },
-  "google_only_twitter_notice": {
-    "message": "All users should use Google • Twitter login is only for users who previously signed up with Twitter"
   },
   "need_help": {
     "message": "Need help?"
@@ -509,23 +542,17 @@
   "importing_labels": {
     "message": "Importing Labels"
   },
-  "generating_project_summary": {
-    "message": "Generating project summary…"
-  },
-  "please_wait_minutes": {
-    "message": "Please wait ~1–2 minutes."
-  },
-  "update_summary": {
-    "message": "Update Summary"
-  },
-  "generate_summary": {
-    "message": "Generate Summary"
+  "auto_import_labels": {
+    "message": "Auto-sync labels"
   },
   "quick_buy": {
     "message": "Buy"
   },
   "quick_sell": {
     "message": "Sell"
+  },
+  "instant_trade": {
+    "message": "Instant Trade"
   },
   "recently_logged_in_as": {
     "message": "Recently logged in as"
@@ -566,6 +593,12 @@
   "activate": {
     "message": "Activate"
   },
+  "trial": {
+    "message": "Start 3-day trial"
+  },
+  "ended_trial": {
+    "message": "3-day trial has ended, please obtain an invite code: "
+  },
   "switch_account": {
     "message": "Switch Account"
   },
@@ -578,8 +611,8 @@
   "smart_wallet_insights": {
     "message": "Smart wallet insights"
   },
-  "seamless_tagging": {
-    "message": "Seamless tagging"
+  "cross_platform_labels": {
+    "message": "Cross-Platform Labels"
   },
   "alpha_discovery": {
     "message": "Alpha discovery"
@@ -734,12 +767,6 @@
   "importing": {
     "message": "Importing..."
   },
-  "frontrun_summary": {
-    "message": "Frontrun Summary"
-  },
-  "twitter_sign_up_is_being_phased_out": {
-    "message": "Twitter sign-up is being phased out—please use Google to create your account."
-  },
   "delete_wallet": {
     "message": "Delete Wallet"
   },
@@ -855,10 +882,10 @@
     "message": "Done"
   },
   "default_wallet": {
-    "message": "Default Wallet"
+    "message": "Active Wallet"
   },
   "set_as_default_wallet": {
-    "message": "Set as Default Wallet"
+    "message": "Set as Active Wallet"
   },
   "deposit": {
     "message": "Deposit"
@@ -980,9 +1007,6 @@
   "failed_to_delete_wallet": {
     "message": "Failed to delete wallet"
   },
-  "twitter_login_deprecated_please_bind_google": {
-    "message": "Twitter login is deprecated. Please bind your Google account to continue."
-  },
   "link_to_google_account": {
     "message": "Link to Google account"
   },
@@ -1014,7 +1038,7 @@
     "message": "No results found"
   },
   "username": {
-    "message": "Username"
+    "message": "Name"
   },
   "history": {
     "message": "History"
@@ -1064,7 +1088,292 @@
   "tweets": {
     "message": "tweets"
   },
+  "follower": {
+    "message": "follower"
+  },
+  "followers": {
+    "message": "followers"
+  },
   "active": {
     "message": "Active"
+  },
+  "wallet_not_verified": {
+    "message": "This wallet has not been verified."
+  },
+  "label_text_style": {
+    "message": "Label Text Style"
+  },
+  "compact": {
+    "message": "Compact"
+  },
+  "default": {
+    "message": "Default"
+  },
+  "active_mentions": {
+    "message": "Active Mentions"
+  },
+  "deleted_mentions": {
+    "message": "Deleted Mentions"
+  },
+  "all_mentions_for": {
+    "message": "All mentions for"
+  },
+  "click_to_view_all_mentions": {
+    "message": "Click to view all mentions"
+  },
+  "failed_to_get_mentions": {
+    "message": "Failed to get mentions"
+  },
+  "frequent_logout_help": {
+    "message": "Keep getting signed out? See how to fix it"
+  },
+  "add_to_wallets": {
+    "message": "Add to Wallets"
+  },
+  "successfully_added_to_wallets": {
+    "message": "Successfully added to wallets"
+  },
+  "failed_to_add_to_wallets": {
+    "message": "Failed to add to wallets"
+  },
+  "anyone_can_own_a_name_always_verify": {
+    "message": "Anyone can own a name. Always verify."
+  },
+  "anyone_can_own_a_name": {
+    "message": "Anyone can own a name."
+  },
+  "always_verify": {
+    "message": "Always verify"
+  },
+  "archived": {
+    "message": "archived"
+  },
+  "archive": {
+    "message": "archive"
+  },
+  "unarchive": {
+    "message": "unarchive"
+  },
+  "wallet_deleted_successfully": {
+    "message": "Wallet deleted successfully"
+  },
+  "wallet_deleted_failed": {
+    "message": "Wallet deleted failed"
+  },
+  "alias": {
+    "message": "Alias"
+  },
+  "edit_alias": {
+    "message": "Edit Alias"
+  },
+  "enter_alias_placeholder": {
+    "message": "Enter alias"
+  },
+  "alias_updated_successfully": {
+    "message": "Alias updated successfully"
+  },
+  "alias_updated_failed": {
+    "message": "Alias updated failed"
+  },
+  "view_all": {
+    "message": "View All"
+  },
+  "top_mentions": {
+    "message": "Top Mentions"
+  },
+  "buy": {
+    "message": "Buy"
+  },
+  "sell": {
+    "message": "Sell"
+  },
+  "fee": {
+    "message": "Fee"
+  },
+  "no_default_wallet_address": {
+    "message": "There is no default wallet address, please set default wallet first"
+  },
+  "no_token_found": {
+    "message": "No token found"
+  },
+  "amount_less_than_zero": {
+    "message": "Amount is less than 0"
+  },
+  "sol_balance_not_enough": {
+    "message": "SOL balance is not enough"
+  },
+  "token_balance_not_enough": {
+    "message": "Balance of {tokenTicker} is not enough"
+  },
+  "token_balance_less_than_amount": {
+    "message": "Balance of {tokenTicker} is {tokenBalance}, less than {amount}"
+  },
+  "transaction_confirmed": {
+    "message": "Order confirmed"
+  },
+  "order_execution_failed": {
+    "message": "Order execution failed"
+  },
+  "this_will_permanently_remove_this_wallet_from_your_list": {
+    "message": "This will permanently remove this wallet from your list. You will only be able to re-import it using its private key."
+  },
+  "select_your_active_wallet": {
+    "message": "Select your active wallet."
+  },
+  "manage": {
+    "message": "Manage"
+  },
+  "executing_order": {
+    "message": "Executing Order"
+  },
+  "token_creator_label_gmgn": {
+    "message": "Token Creator Label"
+  },
+  "token_creator_label_axiom": {
+    "message": "DA Label"
+  },
+  "profile": {
+    "message": "Profile"
+  },
+  "profile_history": {
+    "message": "Profile History"
+  },
+  "name_change": {
+    "message": "Name Change"
+  },
+  "profile_change": {
+    "message": "Bio Change"
+  },
+  "no_bio_changes": {
+    "message": "No bio changes"
+  },
+  "refresh": {
+    "message": "Refresh"
+  },
+  "top_positions": {
+    "message": "Top Positions"
+  },
+  "token": {
+    "message": "Token"
+  },
+  "ranking": {
+    "message": "Ranking"
+  },
+  "holder_history": {
+    "message": "Holder History"
+  },
+  "holders": {
+    "message": "Holders"
+  },
+  "position": {
+    "message": "Position"
+  },
+  "pnl": {
+    "message": "Pnl"
+  },
+  "only_pnl_above_50k_is_displayed": {
+    "message": "Only PnL above $50k is displayed."
+  },
+  "top_trader": {
+    "message": "Top Trader"
+  },
+  "top_holder": {
+    "message": "Top Holder"
+  },
+  "pnl_over_50k": {
+    "message": "PnL over $50k"
+  },
+  "you_saved": {
+    "message": "You saved"
+  },
+  "in_fees_using": {
+    "message": "in fees using"
+  },
+  "fee_saved": {
+    "message": "Fee Saved"
+  },
+  "more": {
+    "message": "More"
+  },
+  "order_summary": {
+    "message": "Order Summary"
+  },
+  "swapped": {
+    "message": "Swapped"
+  },
+  "transaction_details": {
+    "message": "Transaction Details"
+  },
+  "trade_summary": {
+    "message": "Trade Summary"
+  },
+  "time": {
+    "message": "Time"
+  },
+  "date": {
+    "message": "Date"
+  },
+  "signature": {
+    "message": "Signature"
+  },
+  "transaction_fee": {
+    "message": "Transaction Fee"
+  },
+  "wallet": {
+    "message": "Wallet"
+  },
+  "price": {
+    "message": "Price"
+  },
+  "slippage": {
+    "message": "Slippage"
+  },
+  "tip": {
+    "message": "Tip"
+  },
+  "priority_fee": {
+    "message": "Priority Fee"
+  },
+  "for": {
+    "message": "for"
+  },
+  "current_position": {
+    "message": "Current Position"
+  },
+  "all_positions": {
+    "message": "All Positions"
+  },
+  "bought": {
+    "message": "Bought"
+  },
+  "sold": {
+    "message": "Sold"
+  },
+  "holding": {
+    "message": "Holding"
+  },
+  "position_pnl_percentage": {
+    "message": "Pnl"
+  },
+  "platform_integrations": {
+    "message": "Platform Integrations"
+  },
+  "import_labels_from_terminals": {
+    "message": "Auto-sync your labels from terminals automatically (only you can see them, not shared with other users)."
+  },
+  "remaining_qty": {
+    "message": "Holding"
+  },
+  "holding_value": {
+    "message": "Value"
+  },
+  "show_translate": {
+    "message": "Enable Translation"
+  },
+  "show_translate_tip": {
+    "message": "Enable translation for name and symbol in GMGN"
+  },
+  "translate_size": {
+    "message": "Translated text style"
   }
 }

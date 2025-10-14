@@ -11,11 +11,32 @@
   "add": {
     "message": "Добавить"
   },
+  "top_moves": {
+    "message": "Крупные движения"
+  },
   "appearance": {
     "message": "Внешний вид"
   },
   "platform_settings": {
-    "message": "Настройки платформы"
+    "message": "Управление платформой"
+  },
+  "general_settings": {
+    "message": "Общие"
+  },
+  "twitter_settings": {
+    "message": "Настройки X"
+  },
+  "trading_settings": {
+    "message": "Настройки торговли"
+  },
+  "display_settings": {
+    "message": "Настройки отображения"
+  },
+  "cache": {
+    "message": "Кэш"
+  },
+  "clear_cache": {
+    "message": "Очистить"
   },
   "light": {
     "message": "Светлая"
@@ -34,6 +55,9 @@
   },
   "powered_by": {
     "message": "Работает на"
+  },
+  "tags_from": {
+    "message": "Теги из"
   },
   "log_in_to_view_insights": {
     "message": "Войдите, чтобы увидеть аналитику"
@@ -105,7 +129,7 @@
     "message": "Название группы уже существует"
   },
   "view_summary": {
-    "message": "Просмотреть сводку"
+    "message": "Обзор"
   },
   "x_profile": {
     "message": "Профиль X"
@@ -264,10 +288,10 @@
     "message": "Последняя активность"
   },
   "add_alt_wallets_to_group": {
-    "message": "Добавить альт‑кошельки в группу"
+    "message": "Добавить все в группу"
   },
   "search_for_alt_wallets": {
-    "message": "Поиск альт‑кошельков"
+    "message": "Связанные кошельки"
   },
   "add_to_group": {
     "message": "Добавить в группу"
@@ -276,7 +300,13 @@
     "message": "Добавление..."
   },
   "select_wallet": {
-    "message": "Выберите кошелёк"
+    "message": "Управление кошельком"
+  },
+  "select_all": {
+    "message": "Выбрать все"
+  },
+  "deselect_all": {
+    "message": "Снять выделение"
   },
   "explore_universal_labels": {
     "message": "Исследовать универсальные метки"
@@ -295,6 +325,9 @@
   },
   "wallets": {
     "message": "Кошельки"
+  },
+  "no_wallet_found_yet": {
+    "message": "Кошельки не найдены"
   },
   "welcome_to_frontrun": {
     "message": "Добро пожаловать во Frontrun"
@@ -440,6 +473,12 @@
   "feature_temporarily_disabled": {
     "message": "Эта функция временно отключена и будет восстановлена автоматически."
   },
+  "prioritize_frontrun": {
+    "message": "Приоритетный Frontrun"
+  },
+  "prioritize_frontrun_tip": {
+    "message": "Оптимизировать опыт пользователя при одновременном использовании нескольких расширений"
+  },
   "please_enter_invite_code": {
     "message": "Введите код приглашения"
   },
@@ -448,12 +487,6 @@
   },
   "already_signed_up_with_twitter": {
     "message": "Уже зарегистрировались через Twitter?"
-  },
-  "twitter_login": {
-    "message": "Войти через Twitter"
-  },
-  "google_only_twitter_notice": {
-    "message": "Все пользователи должны использовать Google • Вход через Twitter только для ранее зарегистрированных"
   },
   "need_help": {
     "message": "Нужна помощь?"
@@ -509,23 +542,17 @@
   "importing_labels": {
     "message": "Импорт меток"
   },
-  "generating_project_summary": {
-    "message": "Генерация сводки проекта…"
-  },
-  "please_wait_minutes": {
-    "message": "Пожалуйста, подождите ~1–2 минуты."
-  },
-  "update_summary": {
-    "message": "Обновить сводку"
-  },
-  "generate_summary": {
-    "message": "Сгенерировать сводку"
+  "auto_import_labels": {
+    "message": "Автоматически синхронизировать метки"
   },
   "quick_buy": {
     "message": "Купить"
   },
   "quick_sell": {
     "message": "Продать"
+  },
+  "instant_trade": {
+    "message": "Мгновенная торговля"
   },
   "recently_logged_in_as": {
     "message": "Недавно вошли как"
@@ -566,6 +593,12 @@
   "activate": {
     "message": "Активировать"
   },
+  "trial": {
+    "message": "Пробный период 3 дня"
+  },
+  "ended_trial": {
+    "message": "3-дневный пробный период закончился, пожалуйста, получите код приглашения: "
+  },
   "switch_account": {
     "message": "Сменить аккаунт"
   },
@@ -578,8 +611,8 @@
   "smart_wallet_insights": {
     "message": "Инсайты умного кошелька"
   },
-  "seamless_tagging": {
-    "message": "Бесшовное тегирование"
+  "cross_platform_labels": {
+    "message": "Универсальные метки"
   },
   "alpha_discovery": {
     "message": "Поиск альфы"
@@ -734,12 +767,6 @@
   "importing": {
     "message": "Импорт..."
   },
-  "frontrun_summary": {
-    "message": "Сводка Frontrun"
-  },
-  "twitter_sign_up_is_being_phased_out": {
-    "message": "Регистрация через Twitter будет отключена — используйте Google для создания аккаунта."
-  },
   "delete_wallet": {
     "message": "Удалить кошелёк"
   },
@@ -855,10 +882,10 @@
     "message": "Готово"
   },
   "default_wallet": {
-    "message": "Кошелёк по умолчанию"
+    "message": "Активный кошелёк"
   },
   "set_as_default_wallet": {
-    "message": "Сделать кошельком по умолчанию"
+    "message": "Сделать активным кошельком"
   },
   "deposit": {
     "message": "Депозит"
@@ -980,9 +1007,6 @@
   "failed_to_delete_wallet": {
     "message": "Не удалось удалить кошелёк"
   },
-  "twitter_login_deprecated_please_bind_google": {
-    "message": "Вход через Twitter устарел. Привяжите аккаунт Google."
-  },
   "link_to_google_account": {
     "message": "Привязать к Google‑аккаунту"
   },
@@ -1064,7 +1088,289 @@
   "tweets": {
     "message": "твиты"
   },
+  "follower": {
+    "message": "подписчик"
+  },
+  "followers": {
+    "message": "подписчиков"
+  },
   "active": {
     "message": "Активный"
+  },
+  "wallet_not_verified": {
+    "message": "Этот кошелек не был верифицирован."
+  },
+  "label_text_style": {
+    "message": "Стиль текста меток"
+  },
+  "compact": {
+    "message": "Компактный"
+  },
+  "default": {
+    "message": "По умолчанию"
+  },
+  "active_mentions": {
+    "message": "Активные упоминания"
+  },
+  "deleted_mentions": {
+    "message": "Удалённые упоминания"
+  },
+  "all_mentions_for": {
+    "message": "Все упоминания для"
+  },
+  "click_to_view_all_mentions": {
+    "message": "Нажмите, чтобы просмотреть все упоминания"
+  },
+  "failed_to_get_mentions": {
+    "message": "Не удалось получить упоминания"
+  },
+  "frequent_logout_help": {
+    "message": "Вас часто выбрасывает из аккаунта? Вот как это исправить"
+  },
+  "add_to_wallets": {
+    "message": "Добавить в кошельки"
+  },
+  "successfully_added_to_wallets": {
+    "message": "Успешно добавлено в кошельки"
+  },
+  "failed_to_add_to_wallets": {
+    "message": "Не удалось добавить в кошельки"
+  },
+  "anyone_can_own_a_name_always_verify": {
+    "message": "Любой может иметь имя. Всегда проверяйте."
+  },
+  "anyone_can_own_a_name": {
+    "message": "Любой может иметь имя."
+  },
+  "always_verify": {
+    "message": "Всегда проверять"
+  },
+  "archived": {
+    "message": "архивирован"
+  },
+  "archive": {
+    "message": "архивировать"
+  },
+  "unarchive": {
+    "message": "разархивировать"
+  },
+  "wallet_deleted_successfully": {
+    "message": "Кошелёк успешно удален"
+  },
+  "wallet_deleted_failed": {
+    "message": "Не удалось удалить кошелёк"
+  },
+  "alias": {
+    "message": "Псевдоним"
+  },
+  "edit_alias": {
+    "message": "Редактировать псевдоним"
+  },
+  "enter_alias_placeholder": {
+    "message": "Введите псевдоним"
+  },
+  "alias_updated_successfully": {
+    "message": "Псевдоним успешно обновлен"
+  },
+  "view_all": {
+    "message": "Посмотреть все"
+  },
+  "top_mentions": {
+    "message": "Топ упоминания"
+  },
+  "buy": {
+    "message": "Купить"
+  },
+  "sell": {
+    "message": "Продать"
+  },
+  "fee": {
+    "message": "Комиссия"
+  },
+  "no_default_wallet_address": {
+    "message": "Нет адреса кошелька по умолчанию, сначала установите кошелек по умолчанию"
+  },
+  "no_token_found": {
+    "message": "Токен не найден"
+  },
+  "amount_less_than_zero": {
+    "message": "Сумма меньше 0"
+  },
+  "sol_balance_not_enough": {
+    "message": "Недостаточно SOL"
+  },
+  "token_balance_not_enough": {
+    "message": "Недостаточно {tokenTicker}"
+  },
+  "token_balance_less_than_amount": {
+    "message": "Баланс {tokenTicker} составляет {tokenBalance}, меньше {amount}"
+  },
+  "transaction_confirmed": {
+    "message": "Транзакция подтверждена"
+  },
+  "order_execution_failed": {
+    "message": "Ошибка выполнения ордера"
+  },
+  "this_will_permanently_remove_this_wallet_from_your_list": {
+    "message": "Это удалит кошелёк навсегда. Вы сможете его восстановить только с помощью приватного ключа."
+  },
+  "select_your_active_wallet": {
+    "message": "Выберите активный кошелек."
+  },
+  "manage": {
+    "message": "Управление"
+  },
+  "executing_order": {
+    "message": "Выполнение заказа"
+  },
+  "token_creator_label_gmgn": {
+    "message": "Метка Создателя Токена"
+  },
+  "token_creator_label_axiom": {
+    "message": "Метка DA"
+  },
+  "profile": {
+    "message": "Профиль"
+  },
+  "profile_history": {
+    "message": "История профиля"
+  },
+  "name_change": {
+    "message": "Изменение имени"
+  },
+  "profile_change": {
+    "message": "Изменение биографии"
+  },
+  "no_bio_changes": {
+    "message": "Без изменений в биографии"
+  },
+  "refresh": {
+    "message": "Обновить"
+  },
+  "top_positions": {
+    "message": "Топ Позиции"
+  },
+  "token": {
+    "message": "Токен"
+  },
+  "ranking": {
+    "message": "Ранг"
+  },
+  "holder_history": {
+    "message": "История Холдеров"
+  },
+  "holders": {
+    "message": "Холдеры"
+  },
+  "position": {
+    "message": "Позиция"
+  },
+  "pnl": {
+    "message": "Pnl"
+  },
+  "only_pnl_above_50k_is_displayed": {
+    "message": "Только PnL выше $50k отображается."
+  },
+  "top_trader": {
+    "message": "Топ Торговец"
+  },
+  "top_holder": {
+    "message": "Топ Холдер"
+  },
+  "pnl_over_50k": {
+    "message": "PnL выше $50k"
+  },
+  "you_saved": {
+    "message": "Вы сэкономили"
+  },
+  "in_fees_using": {
+    "message": "комиссии, используя"
+  },
+  "fee_saved": {
+    "message": "Комиссия сохранена"
+  },
+  "more": {
+    "message": "Больше"
+  },
+  "order_summary": {
+    "message": "Сводка заказа"
+  },
+  "swapped": {
+    "message": "Обменено"
+  },
+  "transaction_details": {
+    "message": "Детали транзакции"
+  },
+  "trade_summary": {
+    "message": "Сводка торговли"
+  },
+  "time": {
+    "message": "Время"
+  },
+  "date": {
+    "message": "Дата"
+  },
+  "signature": {
+    "message": "Подпись"
+  },
+  "transaction_fee": {
+    "message": "Комиссия транзакции"
+  },
+  "wallet": {
+    "message": "Кошелек"
+  },
+  "price": {
+    "message": "Цена"
+  },
+  "slippage": {
+    "message": "Проскальзывание"
+  },
+  "tip": {
+    "message": "Чаевые"
+  },
+  "priority_fee": {
+    "message": "Приоритетная комиссия"
+  },
+  "for": {
+    "message": "за"
+  },
+  "current_position": {
+    "message": "Текущая позиция"
+  },
+  "all_positions": {
+    "message": "Все позиции"
+  },
+  "bought": {
+    "message": "Покупка"
+  },
+  "sold": {
+    "message": "Продажа"
+  },
+  "holding": {
+    "message": "Баланс"
+  },
+  "position_pnl_percentage": {
+    "message": "П&У"
+  },
+  "platform_integrations": {
+    "message": "Платформы"
+  },
+  "import_labels_from_terminals": {
+    "message": "Автоматически синхронизировать метки из терминалов автоматически (только вы можете их видеть, не разделяются с другими пользователями)."
+  },
+  "remaining_qty": {
+    "message": "Количество"
+  },
+  "holding_value": {
+    "message": "Баланс"
+  },
+  "show_translate": {
+    "message": "Показать перевод"
+  },
+  "show_translate_tip": {
+    "message": "Показать перевод для имени и символа в GMGN"
+  },
+  "translate_size": {
+    "message": "Стиль текста перевода"
   }
 }
