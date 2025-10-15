@@ -1136,14 +1136,11 @@
   "failed_to_add_to_wallets": {
     "message": "Failed to add to wallets"
   },
-  "anyone_can_own_a_name_always_verify": {
-    "message": "Anyone can own a name. Always verify."
-  },
   "anyone_can_own_a_name": {
-    "message": "Anyone can own a name."
+    "message": "Anyone can register a domain (e.g., name.sns)."
   },
   "always_verify": {
-    "message": "Always verify"
+    "message": "Treat domains as clues—not proof of identity."
   },
   "archived": {
     "message": "archived"
@@ -1381,5 +1378,8 @@
   },
   "label_tool_description": {
     "message": "Show a small pen next to addresses to add or edit labels inline."
+  },
+  "primary_domain": {
+    "message": "Primary Domain"
   }
 }

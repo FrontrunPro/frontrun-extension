@@ -1130,14 +1130,11 @@
   "failed_to_add_to_wallets": {
     "message": "添加到钱包失败"
   },
-  "anyone_can_own_a_name_always_verify": {
-    "message": "任何人都可以拥有一个名字。请始终验证。"
-  },
   "anyone_can_own_a_name": {
-    "message": "任何人都可以拥有一个名字。"
+    "message": "任何人都可以注册任意域名（如 name.sns）。"
   },
   "always_verify": {
-    "message": "请始终验证。"
+    "message": "把域名当作线索，而不是身份的证明。"
   },
   "archived": {
     "message": "已归档"
@@ -1372,5 +1369,8 @@
   },
   "label_tool_description": {
     "message": "在地址旁显示一个小笔图标，直接新增或编辑标签"
+  },
+  "primary_domain": {
+    "message": "主要域名"
   }
 }
