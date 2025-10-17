@@ -1145,6 +1145,9 @@
   "unarchive": {
     "message": "取消归档"
   },
+  "cannot_deactivate_last_active_wallet": {
+    "message": "至少需要保持一个钱包为激活状态"
+  },
   "wallet_deleted_successfully": {
     "message": "钱包删除成功"
   },
@@ -1240,6 +1243,9 @@
   },
   "top_moves": {
     "message": "成就"
+  },
+  "top_moves_info": {
+    "message": "Top Moves 会展示该用户在主要代币上的重要近期交易：单笔 PnL ≥ $50,000，或持仓进入前 100 名。PnL 显示为绿色；持仓排名显示为黄色。"
   },
   "token": {
     "message": "代币"

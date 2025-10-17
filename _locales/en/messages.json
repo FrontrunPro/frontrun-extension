@@ -14,6 +14,9 @@
   "top_moves": {
     "message": "Top Moves"
   },
+  "top_moves_info": {
+    "message": "Top Moves surfaces this profile's notable recent trades on major tokens: trades with $50k+ PnL or positions that are within top 100 holders. PnL appears in green; holder rank in yellow."
+  },
   "appearance": {
     "message": "Appearance"
   },
@@ -1150,6 +1153,9 @@
   },
   "unarchive": {
     "message": "unarchive"
+  },
+  "cannot_deactivate_last_active_wallet": {
+    "message": "At least one wallet must be active"
   },
   "wallet_deleted_successfully": {
     "message": "Wallet deleted successfully"

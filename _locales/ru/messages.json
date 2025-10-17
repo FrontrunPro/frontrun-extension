@@ -14,6 +14,9 @@
   "top_moves": {
     "message": "Крупные движения"
   },
+  "top_moves_info": {
+    "message": "Top Moves показывает заметные недавние сделки этого профиля по основным токенам: сделки PnL ≥ $50k или топ‑100 держателей. PnL зелёным; ранг жёлтым."
+  },
   "appearance": {
     "message": "Внешний вид"
   },
@@ -1150,6 +1153,9 @@
   },
   "unarchive": {
     "message": "разархивировать"
+  },
+  "cannot_deactivate_last_active_wallet": {
+    "message": "Необходимо хотя бы один активный кошелек"
   },
   "wallet_deleted_successfully": {
     "message": "Кошелёк успешно удален"
