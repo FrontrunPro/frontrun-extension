@@ -1247,6 +1247,12 @@
   "top_moves_info": {
     "message": "Top Moves 会展示该用户在主要代币上的重要近期交易：单笔 PnL ≥ $50,000，或持仓进入前 100 名。PnL 显示为绿色；持仓排名显示为黄色。"
   },
+  "top_moves_setting_info": {
+    "message": "Top Moves 会展示该用户在主要代币上的重要近期交易：单笔 PnL ≥ $50,000，或持仓进入前 100 名"
+  },
+  "all": {
+    "message": "全部"
+  },
   "token": {
     "message": "代币"
   },
@@ -1378,5 +1384,17 @@
   },
   "primary_domain": {
     "message": "主要域名"
+  },
+  "inline_pnl": {
+    "message": "推文 PnL 标记"
+  },
+  "inline_pnl_info": {
+    "message": "在包含合约地址的帖子中显示盈亏标记"
+  },
+  "account": {
+    "message": "账户"
+  },
+  "user_id": {
+    "message": "用户 ID"
   }
 }

@@ -11,14 +11,17 @@
   "add": {
     "message": "Add"
   },
+  "appearance": {
+    "message": "Appearance"
+  },
   "top_moves": {
     "message": "Top Moves"
   },
   "top_moves_info": {
     "message": "Top Moves surfaces this profile's notable recent trades on major tokens: trades with $50k+ PnL or positions that are within top 100 holders. PnL appears in green; holder rank in yellow."
   },
-  "appearance": {
-    "message": "Appearance"
+  "top_moves_setting_info": {
+    "message": "Top Moves shows this profile's notable recent trades on major tokens: trades with $50k+ PnL or positions that are within top 100 holders"
   },
   "platform_settings": {
     "message": "Platform Controls"
@@ -986,6 +989,9 @@
   "delete": {
     "message": "Delete"
   },
+  "all": {
+    "message": "All"
+  },
   "fail": {
     "message": "Fail"
   },
@@ -1387,5 +1393,17 @@
   },
   "primary_domain": {
     "message": "Primary Domain"
+  },
+  "inline_pnl": {
+    "message": "PnL Badges on Tweets"
+  },
+  "inline_pnl_info": {
+    "message": "Show profit/loss badges on posts with contract addresses"
+  },
+  "account": {
+    "message": "Account"
+  },
+  "user_id": {
+    "message": "User ID"
   }
 }
