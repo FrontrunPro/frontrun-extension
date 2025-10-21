@@ -57,7 +57,7 @@
     "message": "Language"
   },
   "smart_followers": {
-    "message": "Smart followers"
+    "message": "Smart Followers"
   },
   "powered_by": {
     "message": "Powered by"
@@ -549,7 +549,7 @@
     "message": "Importing Labels"
   },
   "auto_import_labels": {
-    "message": "Auto-sync labels"
+    "message": "Auto-Sync Labels"
   },
   "quick_buy": {
     "message": "Buy"
@@ -792,10 +792,10 @@
     "message": "Frontrun never has access to your private keys."
   },
   "create_new_wallet": {
-    "message": "Create New Wallet"
+    "message": "Enable Trading Wallet"
   },
   "start_fresh_with_a_brand_new_key_pair_generated_right_in_your_browser": {
-    "message": "Start fresh with a brand new key pair generated right in your browser."
+    "message": "Use your Google account to securely access your trading wallet. A new wallet will be created on first use, or sign in to access your existing wallet."
   },
   "enable_with_google": {
     "message": "Enable with Google"
@@ -875,9 +875,6 @@
   "sending": {
     "message": "Sending..."
   },
-  "send": {
-    "message": "Send"
-  },
   "sol_was_successfully_sent_to": {
     "message": "SOL was successfully sent to"
   },
@@ -893,11 +890,11 @@
   "set_as_default_wallet": {
     "message": "Set as Active Wallet"
   },
-  "deposit": {
-    "message": "Deposit"
+  "receive": {
+    "message": "Receive"
   },
-  "withdraw": {
-    "message": "Withdraw"
+  "send": {
+    "message": "Send"
   },
   "view_on_solscan": {
     "message": "View on Solscan"
@@ -920,11 +917,11 @@
   "share": {
     "message": "Share"
   },
-  "deposit_sol": {
-    "message": "Deposit SOL"
+  "receive_sol": {
+    "message": "Receive SOL"
   },
-  "deposit_address": {
-    "message": "Deposit Address"
+  "receive_address": {
+    "message": "Receive Address"
   },
   "only_send_sol_to_this_address": {
     "message": "Only send SOL to this address."
@@ -950,14 +947,14 @@
   "enter_private_key": {
     "message": "Enter Private Key"
   },
-  "withdraw_failed": {
-    "message": "Withdraw failed"
+  "send_failed": {
+    "message": "Send failed"
   },
-  "confirm_withdraw": {
-    "message": "Confirm Withdraw"
+  "confirm_send": {
+    "message": "Confirm Send"
   },
-  "withdraw_sol": {
-    "message": "Withdraw SOL"
+  "send_sol": {
+    "message": "Send SOL"
   },
   "success": {
     "message": "Success"
@@ -1007,8 +1004,8 @@
   "insufficient_balance": {
     "message": "Insufficient Balance"
   },
-  "failed_to_withdraw": {
-    "message": "Failed to withdraw"
+  "failed_to_send": {
+    "message": "Failed to send"
   },
   "successfully_deleted_wallets": {
     "message": "Successfully deleted wallets"
@@ -1289,6 +1286,9 @@
   "top_holder": {
     "message": "Top Holder"
   },
+  "top_holder_setting": {
+    "message": "Top Holder"
+  },
   "pnl_over_50k": {
     "message": "PnL over $50k"
   },
@@ -1310,23 +1310,14 @@
   "swapped": {
     "message": "Swapped"
   },
-  "transaction_details": {
-    "message": "Transaction Details"
-  },
   "trade_summary": {
     "message": "Trade Summary"
   },
   "time": {
     "message": "Time"
   },
-  "date": {
-    "message": "Date"
-  },
   "signature": {
     "message": "Signature"
-  },
-  "transaction_fee": {
-    "message": "Transaction Fee"
   },
   "wallet": {
     "message": "Wallet"
@@ -1368,7 +1359,7 @@
     "message": "Platform Integrations"
   },
   "import_labels_from_terminals": {
-    "message": "Auto-sync your labels from terminals automatically (only you can see them, not shared with other users)."
+    "message": "Auto-sync your labels from terminals automatically (only you can see them, not shared with other users)"
   },
   "remaining_qty": {
     "message": "Holding"
@@ -1383,13 +1374,13 @@
     "message": "Enable translation for name and symbol in GMGN"
   },
   "translate_size": {
-    "message": "Translated text style"
+    "message": "Translated Text Style"
   },
   "label_tool": {
-    "message": "Edit label button"
+    "message": "Edit Label Button"
   },
   "label_tool_description": {
-    "message": "Show a small pen next to addresses to add or edit labels inline."
+    "message": "Show a small pen next to addresses to add or edit labels inline"
   },
   "primary_domain": {
     "message": "Primary Domain"
@@ -1399,6 +1390,12 @@
   },
   "inline_pnl_info": {
     "message": "Show profit/loss badges on posts with contract addresses"
+  },
+  "auto_derived_labels": {
+    "message": "Auto-Generated Labels"
+  },
+  "auto_derived_labels_tip": {
+    "message": "Show auto-generated labels based on wallet positions and PnL, like:"
   },
   "account": {
     "message": "Account"

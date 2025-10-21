@@ -795,10 +795,10 @@
     "message": "Frontrun никогда не получает доступ к вашим приватным ключам."
   },
   "create_new_wallet": {
-    "message": "Создать новый кошелёк"
+    "message": "Включить торговый кошелёк"
   },
   "start_fresh_with_a_brand_new_key_pair_generated_right_in_your_browser": {
-    "message": "Начните с нуля с новой парой ключей, сгенерированной прямо в вашем браузере."
+    "message": "Используйте свой Google-аккаунт для безопасного доступа к вашему торговому кошельку. Новый кошелёк будет создан при первом использовании, или войдите для доступа к существующему кошельку."
   },
   "enable_with_google": {
     "message": "Включить с Google"
@@ -896,12 +896,6 @@
   "set_as_default_wallet": {
     "message": "Сделать активным кошельком"
   },
-  "deposit": {
-    "message": "Депозит"
-  },
-  "withdraw": {
-    "message": "Вывод"
-  },
   "view_on_solscan": {
     "message": "Открыть в Solscan"
   },
@@ -923,11 +917,14 @@
   "share": {
     "message": "Поделиться"
   },
-  "deposit_sol": {
-    "message": "Пополнение SOL"
+  "receive": {
+    "message": "Получить"
   },
-  "deposit_address": {
-    "message": "Адрес депозита"
+  "receive_sol": {
+    "message": "Получить SOL"
+  },
+  "receive_address": {
+    "message": "Адрес получения"
   },
   "only_send_sol_to_this_address": {
     "message": "Отправляйте SOL только на этот адрес."
@@ -953,14 +950,14 @@
   "enter_private_key": {
     "message": "Введите приватный ключ"
   },
-  "withdraw_failed": {
-    "message": "Вывод не удался"
+  "send_failed": {
+    "message": "Не удалось отправить"
   },
-  "confirm_withdraw": {
-    "message": "Подтвердить вывод"
+  "confirm_send": {
+    "message": "Подтвердить отправку"
   },
-  "withdraw_sol": {
-    "message": "Вывести SOL"
+  "send_sol": {
+    "message": "Отправить SOL"
   },
   "success": {
     "message": "Успех"
@@ -1007,8 +1004,8 @@
   "insufficient_balance": {
     "message": "Недостаточный баланс"
   },
-  "failed_to_withdraw": {
-    "message": "Не удалось выполнить вывод"
+  "failed_to_send": {
+    "message": "Не удалось отправить"
   },
   "successfully_deleted_wallets": {
     "message": "Кошельки успешно удалены"
@@ -1286,6 +1283,9 @@
   "top_holder": {
     "message": "Топ Холдер"
   },
+  "top_holder_setting": {
+    "message": "Top Holder"
+  },
   "pnl_over_50k": {
     "message": "PnL выше $50k"
   },
@@ -1307,23 +1307,14 @@
   "swapped": {
     "message": "Обменено"
   },
-  "transaction_details": {
-    "message": "Детали транзакции"
-  },
   "trade_summary": {
     "message": "Сводка торговли"
   },
   "time": {
     "message": "Время"
   },
-  "date": {
-    "message": "Дата"
-  },
   "signature": {
     "message": "Подпись"
-  },
-  "transaction_fee": {
-    "message": "Комиссия транзакции"
   },
   "wallet": {
     "message": "Кошелек"
@@ -1396,6 +1387,12 @@
   },
   "inline_pnl_info": {
     "message": "Показывать бейджи прибыли/убытка в постах с адресами контрактов"
+  },
+  "auto_derived_labels": {
+    "message": "Автогенерируемые метки"
+  },
+  "auto_derived_labels_tip": {
+    "message": "Показывать автогенерируемые метки на основе позиций и PnL кошелька, например:"
   },
   "account": {
     "message": "Аккаунт"

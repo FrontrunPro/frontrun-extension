@@ -780,10 +780,10 @@
     "message": "Frontrun 永远不会获取私钥的访问权限。"
   },
   "create_new_wallet": {
-    "message": "创建新钱包"
+    "message": "启用交易钱包"
   },
   "start_fresh_with_a_brand_new_key_pair_generated_right_in_your_browser": {
-    "message": "在浏览器中生成全新的密钥对，开始全新的交易之旅。"
+    "message": "使用 Google 账号安全地访问您的交易钱包。首次使用将自动创建钱包，已有钱包的用户可直接登录。"
   },
   "enable_with_google": {
     "message": "使用 Google 启用"
@@ -881,11 +881,8 @@
   "set_as_default_wallet": {
     "message": "设为活跃钱包"
   },
-  "deposit": {
-    "message": "充值"
-  },
-  "withdraw": {
-    "message": "提现"
+  "receive": {
+    "message": "接收"
   },
   "view_on_solscan": {
     "message": "在 Solscan 上查看"
@@ -908,11 +905,11 @@
   "share": {
     "message": "分享"
   },
-  "deposit_sol": {
-    "message": "充值 SOL"
+  "receive_sol": {
+    "message": "接收 SOL"
   },
-  "deposit_address": {
-    "message": "充值地址"
+  "receive_address": {
+    "message": "接收地址"
   },
   "only_send_sol_to_this_address": {
     "message": "仅发送 SOL 到此地址。"
@@ -938,14 +935,14 @@
   "enter_private_key": {
     "message": "输入私钥"
   },
-  "withdraw_failed": {
-    "message": "提现失败"
+  "send_failed": {
+    "message": "发送失败"
   },
-  "confirm_withdraw": {
-    "message": "确认提现"
+  "confirm_send": {
+    "message": "确认发送"
   },
-  "withdraw_sol": {
-    "message": "提现 SOL"
+  "send_sol": {
+    "message": "发送 SOL"
   },
   "success": {
     "message": "成功"
@@ -992,8 +989,8 @@
   "insufficient_balance": {
     "message": "余额不足"
   },
-  "failed_to_withdraw": {
-    "message": "提现失败"
+  "failed_to_send": {
+    "message": "发送失败"
   },
   "successfully_deleted_wallets": {
     "message": "钱包删除成功"
@@ -1269,7 +1266,7 @@
     "message": "位置"
   },
   "pnl": {
-    "message": "Pnl"
+    "message": "盈利"
   },
   "only_pnl_above_50k_is_displayed": {
     "message": "仅显示高于 $50k 的 PnL。"
@@ -1279,6 +1276,9 @@
   },
   "top_holder": {
     "message": "顶级持有者"
+  },
+  "top_holder_setting": {
+    "message": "前排持有者"
   },
   "pnl_over_50k": {
     "message": "高于 $50k 的 PnL"
@@ -1301,23 +1301,14 @@
   "swapped": {
     "message": "已交换"
   },
-  "transaction_details": {
-    "message": "交易详情"
-  },
   "trade_summary": {
     "message": "交易摘要"
   },
   "time": {
     "message": "时间"
   },
-  "date": {
-    "message": "日期"
-  },
   "signature": {
     "message": "签名"
-  },
-  "transaction_fee": {
-    "message": "交易手续费"
   },
   "wallet": {
     "message": "钱包"
@@ -1390,6 +1381,12 @@
   },
   "inline_pnl_info": {
     "message": "在包含合约地址的帖子中显示盈亏标记"
+  },
+  "auto_derived_labels": {
+    "message": "自动生成标签"
+  },
+  "auto_derived_labels_tip": {
+    "message": "显示基于钱包持仓和盈利的自动生成标签，类似："
   },
   "account": {
     "message": "账户"
