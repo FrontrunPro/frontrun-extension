@@ -1397,6 +1397,9 @@
   "auto_derived_labels_tip": {
     "message": "Show auto-generated labels based on wallet positions and PnL, like:"
   },
+  "high_profit":{
+    "message": "High Profit 7D"
+  },
   "account": {
     "message": "Account"
   },
