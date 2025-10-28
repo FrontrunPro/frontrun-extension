@@ -1394,7 +1394,7 @@
   "auto_derived_labels_tip": {
     "message": "Показывать автогенерируемые метки на основе позиций и PnL кошелька, например:"
   },
-  "high_profit":{
+  "high_profit": {
     "message": "High Profit 7D"
   },
   "account": {
@@ -1402,5 +1402,8 @@
   },
   "user_id": {
     "message": "ID пользователя"
+  },
+  "no_fee": {
+    "message": "Без комиссии"
   }
 }

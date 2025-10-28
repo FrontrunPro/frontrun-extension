@@ -1388,7 +1388,7 @@
   "auto_derived_labels_tip": {
     "message": "显示基于钱包持仓和盈利的自动生成标签，类似："
   },
-  "high_profit":{
+  "high_profit": {
     "message": "7天高收益"
   },
   "account": {
@@ -1396,5 +1396,8 @@
   },
   "user_id": {
     "message": "用户 ID"
+  },
+  "no_fee": {
+    "message": "无手续费"
   }
 }
