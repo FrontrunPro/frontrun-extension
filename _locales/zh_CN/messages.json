@@ -956,6 +956,9 @@
   "enter_amount": {
     "message": "输入金额"
   },
+  "max": {
+    "message": "最大"
+  },
   "enable_trading": {
     "message": "启用交易"
   },

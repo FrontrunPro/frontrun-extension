@@ -971,6 +971,9 @@
   "enter_amount": {
     "message": "Введите сумму"
   },
+  "max": {
+    "message": "МАКС"
+  },
   "enable_trading": {
     "message": "Включить торговлю"
   },

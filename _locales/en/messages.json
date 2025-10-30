@@ -968,6 +968,9 @@
   "enter_amount": {
     "message": "Enter amount"
   },
+  "max": {
+    "message": "MAX"
+  },
   "enable_trading": {
     "message": "Enable Trading"
   },
