@@ -746,8 +746,8 @@
   "processing": {
     "message": "处理中..."
   },
-  "invalid_solana_address": {
-    "message": "无效的 Solana 地址"
+  "invalid_address": {
+    "message": "无效地址"
   },
   "this_wallet_is_already_labeled_keep_the_current_label_or_update_it": {
     "message": "此钱包已标记。保留当前标签或更新它。"
@@ -1191,10 +1191,10 @@
     "message": "SOL余额不足"
   },
   "token_balance_not_enough": {
-    "message": "{tokenTicker}余额不足"
+    "message": "余额不足"
   },
   "token_balance_less_than_amount": {
-    "message": "{tokenTicker}余额为{tokenBalance}，少于{amount}"
+    "message": "余额为{tokenBalance}，少于{amount}"
   },
   "transaction_confirmed": {
     "message": "交易已确认"

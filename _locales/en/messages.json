@@ -758,8 +758,8 @@
   "processing": {
     "message": "Processing..."
   },
-  "invalid_solana_address": {
-    "message": "Invalid Solana address"
+  "invalid_address": {
+    "message": "Invalid address"
   },
   "this_wallet_is_already_labeled_keep_the_current_label_or_update_it": {
     "message": "This wallet is already labeled. Keep the current label or update it."
@@ -1212,10 +1212,10 @@
     "message": "SOL balance is not enough"
   },
   "token_balance_not_enough": {
-    "message": "Balance of {tokenTicker} is not enough"
+    "message": "Balance is not enough"
   },
   "token_balance_less_than_amount": {
-    "message": "Balance of {tokenTicker} is {tokenBalance}, less than {amount}"
+    "message": "Balance is {tokenBalance}, less than {amount}"
   },
   "transaction_confirmed": {
     "message": "Order confirmed"

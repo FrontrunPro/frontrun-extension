@@ -761,8 +761,8 @@
   "processing": {
     "message": "Обработка..."
   },
-  "invalid_solana_address": {
-    "message": "Неверный адрес Solana"
+  "invalid_address": {
+    "message": "Неверный адрес"
   },
   "this_wallet_is_already_labeled_keep_the_current_label_or_update_it": {
     "message": "Этот кошелёк уже имеет метку. Оставить текущую или обновить?"
@@ -1209,10 +1209,10 @@
     "message": "Недостаточно SOL"
   },
   "token_balance_not_enough": {
-    "message": "Недостаточно {tokenTicker}"
+    "message": "Недостаточно"
   },
   "token_balance_less_than_amount": {
-    "message": "Баланс {tokenTicker} составляет {tokenBalance}, меньше {amount}"
+    "message": "Баланс составляет {tokenBalance}, меньше {amount}"
   },
   "transaction_confirmed": {
     "message": "Транзакция подтверждена"
