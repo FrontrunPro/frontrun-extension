@@ -242,6 +242,12 @@
   "enter_a_new_group_name": {
     "message": "输入新的分组名称"
   },
+  "failed_to_load_groups": {
+    "message": "加载分组失败"
+  },
+  "no_groups_found": {
+    "message": "暂无分组"
+  },
   "wallet_address": {
     "message": "钱包地址"
   },
@@ -624,7 +630,7 @@
     "message": "而非投机。"
   },
   "open_sidepanel_to_explore_frontrun": {
-    "message": "打开侧边栏探索 Frontrun"
+    "message": "打开 Frontrun"
   },
   "view_docs": {
     "message": "查看文档"
@@ -1402,5 +1408,11 @@
   },
   "no_fee": {
     "message": "无手续费"
+  },
+  "switch_to_popup": {
+    "message": "切换到 Popup"
+  },
+  "switch_to_sidepanel": {
+    "message": "切换到 Sidepanel"
   }
 }

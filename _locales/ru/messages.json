@@ -257,6 +257,12 @@
   "enter_a_new_group_name": {
     "message": "Введите новое название группы"
   },
+  "failed_to_load_groups": {
+    "message": "Не удалось загрузить группы"
+  },
+  "no_groups_found": {
+    "message": "Группы не найдены"
+  },
   "wallet_address": {
     "message": "Адрес кошелька"
   },
@@ -639,7 +645,7 @@
     "message": "а не по догадкам."
   },
   "open_sidepanel_to_explore_frontrun": {
-    "message": "Откройте боковую панель, чтобы исследовать Frontrun"
+    "message": "Откройте Frontrun"
   },
   "view_docs": {
     "message": "Посмотреть документацию"
@@ -1408,5 +1414,11 @@
   },
   "no_fee": {
     "message": "Без комиссии"
+  },
+  "switch_to_popup": {
+    "message": "Переключить на Popup"
+  },
+  "switch_to_sidepanel": {
+    "message": "Переключить на Sidepanel"
   }
 }

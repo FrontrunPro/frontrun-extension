@@ -254,6 +254,12 @@
   "enter_a_new_group_name": {
     "message": "Enter a new group name"
   },
+  "failed_to_load_groups": {
+    "message": "Failed to load groups"
+  },
+  "no_groups_found": {
+    "message": "No groups found"
+  },
   "wallet_address": {
     "message": "Wallet Address"
   },
@@ -636,7 +642,7 @@
     "message": "not speculation."
   },
   "open_sidepanel_to_explore_frontrun": {
-    "message": "Open SidePanel To Explore Frontrun"
+    "message": "Open Frontrun"
   },
   "view_docs": {
     "message": "View Docs"
@@ -1411,5 +1417,11 @@
   },
   "no_fee": {
     "message": "0 fee"
+  },
+  "switch_to_popup": {
+    "message": "Switch to Popup"
+  },
+  "switch_to_sidepanel": {
+    "message": "Switch to Sidepanel"
   }
 }
