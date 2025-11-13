@@ -38,6 +38,9 @@
   "trading_settings": {
     "message": "Настройки торговли"
   },
+  "execution_settings": {
+    "message": "Настройки выполнения"
+  },
   "display_settings": {
     "message": "Настройки отображения"
   },
@@ -212,6 +215,9 @@
   "transactions": {
     "message": "Транзакции"
   },
+  "market_cap": {
+    "message": "Капитализация"
+  },
   "jito_bundle": {
     "message": "Пакет Jito"
   },
@@ -314,11 +320,20 @@
   "adding": {
     "message": "Добавление..."
   },
+  "choose_wallet": {
+    "message": "Выбрать кошелек"
+  },
   "select_wallet": {
     "message": "Управление кошельком"
   },
   "select_all": {
     "message": "Выбрать все"
+  },
+  "select_wallets": {
+    "message": "Выбрать кошельки"
+  },
+  "select_all_with_balance": {
+    "message": "Выбрать все с балансом"
   },
   "deselect_all": {
     "message": "Снять выделение"
@@ -340,6 +355,12 @@
   },
   "wallets": {
     "message": "Кошельки"
+  },
+  "wallet_name_cannot_be_empty": {
+    "message": "Название кошелька не может быть пустым"
+  },
+  "wallet_name_cannot_exceed_max_length": {
+    "message": "Название кошелька не может превышать {maxLength} символов"
   },
   "no_wallet_found_yet": {
     "message": "Кошельки не найдены"
@@ -1190,6 +1211,9 @@
   "view_all": {
     "message": "Посмотреть все"
   },
+  "view_all_positions": {
+    "message": "Посмотреть все позиции"
+  },
   "top_mentions": {
     "message": "Топ упоминания"
   },
@@ -1261,6 +1285,12 @@
   },
   "refresh": {
     "message": "Обновить"
+  },
+  "refresh_all_positions": {
+    "message": "Обновить все позиции"
+  },
+  "failed_to_refresh_positions": {
+    "message": "Не удалось обновить позиции"
   },
   "top_positions": {
     "message": "Топ Позиции"
@@ -1334,11 +1364,38 @@
   "slippage": {
     "message": "Проскальзывание"
   },
+  "total_cost": {
+    "message": "Общая стоимость"
+  },
   "tip": {
     "message": "Чаевые"
   },
   "priority_fee": {
     "message": "Приоритетная комиссия"
+  },
+  "market_trading": {
+    "message": "Рынок"
+  },
+  "slippage_must_be_a_number": {
+    "message": "Проскальзывание должно быть числом"
+  },
+  "slippage_cannot_be_negative": {
+    "message": "Проскальзывание не может быть отрицательным"
+  },
+  "slippage_cannot_be_greater_than_100": {
+    "message": "Проскальзывание не может быть больше 100%"
+  },
+  "priority_fee_must_be_a_number": {
+    "message": "Приоритетная комиссия должна быть числом"
+  },
+  "priority_fee_cannot_be_negative": {
+    "message": "Приоритетная комиссия не может быть отрицательной"
+  },
+  "tip_must_be_a_number": {
+    "message": "Чаевые должны быть числом"
+  },
+  "tip_cannot_be_negative": {
+    "message": "Чаевые не могут быть отрицательными"
   },
   "for": {
     "message": "за"
@@ -1348,6 +1405,9 @@
   },
   "all_positions": {
     "message": "Все позиции"
+  },
+  "all_wallets": {
+    "message": "Все кошельки"
   },
   "bought": {
     "message": "Покупка"
@@ -1415,10 +1475,136 @@
   "no_fee": {
     "message": "Без комиссии"
   },
+  "add_to_selection": {
+    "message": "Добавить в выбор"
+  },
+  "remove_from_selection": {
+    "message": "Удалить из выбора"
+  },
+  "buy_variance": {
+    "message": "Вариация покупки"
+  },
+  "transaction_delay": {
+    "message": "Задержка транзакции"
+  },
+  "variance_description": {
+    "message": "Вариация суммы покупки среди выбранных кошельков. Случайно от 0% до 100%."
+  },
+  "delay_description": {
+    "message": "Задержка между каждой транзакцией в миллисекундах. 0ms означает отсутствие задержки."
+  },
+  "back": {
+    "message": "Назад"
+  },
+  "settings": {
+    "message": "Настройки"
+  },
   "switch_to_popup": {
     "message": "Переключить на Popup"
   },
   "switch_to_sidepanel": {
     "message": "Переключить на Sidepanel"
+  },
+  "save_changes": {
+    "message": "Сохранить изменения"
+  },
+  "saving": {
+    "message": "Сохранение..."
+  },
+  "preset": {
+    "message": "Пресет"
+  },
+  "buy_settings": {
+    "message": "Настройки покупки"
+  },
+  "sell_settings": {
+    "message": "Настройки продажи"
+  },
+  "mev_mode": {
+    "message": "MEV режим"
+  },
+  "auto_fee": {
+    "message": "Автоматический сбор"
+  },
+  "max_fee": {
+    "message": "Максимальный сбор"
+  },
+  "off": {
+    "message": "ВЫКЛ"
+  },
+  "secure": {
+    "message": "ЗАЩИЩЕННЫЙ"
+  },
+  "edit": {
+    "message": "Редактировать"
+  },
+  "collapse": {
+    "message": "Свернуть"
+  },
+  "expand": {
+    "message": "Развернуть"
+  },
+  "fee_saved_trading_panel": {
+    "message": "Сохранено!"
+  },
+  "limit_orders": {
+    "message": "Лимитные ордера"
+  },
+  "limit": {
+    "message": "Лимит"
+  },
+  "creating_limit_order": {
+    "message": "Создание лимитного ордера"
+  },
+  "limit_order_placed": {
+    "message": "Лимитный ордер размещён"
+  },
+  "create_limit_order_failed": {
+    "message": "Не удалось создать лимитный ордер"
+  },
+  "failed_to_initialize_limit_order": {
+    "message": "Не удалось инициализировать лимитный ордер, пожалуйста, обновите страницу и попробуйте снова."
+  },
+  "limit_order_notional_value_too_low": {
+    "message": "Номинальная стоимость лимитного ордера должна быть не менее 5 USD"
+  },
+  "enter_sol_amount": {
+    "message": "Введите количество SOL"
+  },
+  "enter_percent_0_100": {
+    "message": "Введите % (0~100)"
+  },
+  "buy_order": {
+    "message": "Ордер на покупку"
+  },
+  "sell_order": {
+    "message": "Ордер на продажу"
+  },
+  "cancelling_limit_order": {
+    "message": "Отмена лимитного ордера"
+  },
+  "limit_order_cancelled": {
+    "message": "Лимитный ордер отменён"
+  },
+  "failed_to_cancel_limit_order": {
+    "message": "Не удалось отменить лимитный ордер"
+  },
+  "active_trades": {
+    "message": "Активные сделки"
+  },
+  "action": {
+    "message": "Действие"
+  },
+  "target_mc": {
+    "message": "Целевая кап."
+  },
+  "current_mc": {
+    "message": "Текущая кап."
+  },
+  "amt": {
+    "message": "Кол-во"
+  },
+  "manage_portfolio": {
+    "message": "Управление портфелем"
   }
 }

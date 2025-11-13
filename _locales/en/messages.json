@@ -35,6 +35,9 @@
   "trading_settings": {
     "message": "Trading Settings"
   },
+  "execution_settings": {
+    "message": "Execution Settings"
+  },
   "display_settings": {
     "message": "Customization & Display"
   },
@@ -311,11 +314,20 @@
   "adding": {
     "message": "Adding..."
   },
+  "choose_wallet": {
+    "message": "Choose Wallet"
+  },
   "select_wallet": {
     "message": "Manage Wallet"
   },
   "select_all": {
     "message": "Select All"
+  },
+  "select_wallets": {
+    "message": "Select Wallets"
+  },
+  "select_all_with_balance": {
+    "message": "Select All with Balance"
   },
   "deselect_all": {
     "message": "Deselect All"
@@ -337,6 +349,12 @@
   },
   "wallets": {
     "message": "Wallets"
+  },
+  "wallet_name_cannot_be_empty": {
+    "message": "Wallet name cannot be empty"
+  },
+  "wallet_name_cannot_exceed_max_length": {
+    "message": "Wallet name cannot exceed {maxLength} characters"
   },
   "no_wallet_found_yet": {
     "message": "No wallet found yet"
@@ -890,12 +908,6 @@
   "done": {
     "message": "Done"
   },
-  "default_wallet": {
-    "message": "Active Wallet"
-  },
-  "set_as_default_wallet": {
-    "message": "Set as Active Wallet"
-  },
   "receive": {
     "message": "Receive"
   },
@@ -1193,6 +1205,9 @@
   "view_all": {
     "message": "View All"
   },
+  "view_all_positions": {
+    "message": "View All Positions"
+  },
   "top_mentions": {
     "message": "Top Mentions"
   },
@@ -1265,6 +1280,12 @@
   "refresh": {
     "message": "Refresh"
   },
+  "refresh_all_positions": {
+    "message": "Refresh all positions"
+  },
+  "failed_to_refresh_positions": {
+    "message": "Failed to refresh positions"
+  },
   "top_positions": {
     "message": "Top Positions"
   },
@@ -1316,6 +1337,9 @@
   "order_summary": {
     "message": "Order Summary"
   },
+  "market_cap": {
+    "message": "Market Cap"
+  },
   "swapped": {
     "message": "Swapped"
   },
@@ -1337,11 +1361,38 @@
   "slippage": {
     "message": "Slippage"
   },
+  "total_cost": {
+    "message": "Total Cost"
+  },
   "tip": {
     "message": "Tip"
   },
   "priority_fee": {
     "message": "Priority Fee"
+  },
+  "market_trading": {
+    "message": "Market"
+  },
+  "slippage_must_be_a_number": {
+    "message": "Slippage must be a number"
+  },
+  "slippage_cannot_be_negative": {
+    "message": "Slippage cannot be negative"
+  },
+  "slippage_cannot_be_greater_than_100": {
+    "message": "Slippage cannot be greater than 100%"
+  },
+  "priority_fee_must_be_a_number": {
+    "message": "Priority fee must be a number"
+  },
+  "priority_fee_cannot_be_negative": {
+    "message": "Priority fee cannot be negative"
+  },
+  "tip_must_be_a_number": {
+    "message": "Tip must be a number"
+  },
+  "tip_cannot_be_negative": {
+    "message": "Tip cannot be negative"
   },
   "for": {
     "message": "for"
@@ -1351,6 +1402,9 @@
   },
   "all_positions": {
     "message": "All Positions"
+  },
+  "all_wallets": {
+    "message": "All Wallets"
   },
   "bought": {
     "message": "Bought"
@@ -1418,10 +1472,136 @@
   "no_fee": {
     "message": "0 fee"
   },
+  "add_to_selection": {
+    "message": "Add to selection"
+  },
+  "remove_from_selection": {
+    "message": "Remove from selection"
+  },
+  "buy_variance": {
+    "message": "Buy Variance"
+  },
+  "transaction_delay": {
+    "message": "Transaction Delay"
+  },
+  "variance_description": {
+    "message": "The variance of the buy amount across the selected wallets. 0% to 100% randomly."
+  },
+  "delay_description": {
+    "message": "The delay between each transaction in milliseconds. 0ms means no delay."
+  },
+  "back": {
+    "message": "Back"
+  },
+  "settings": {
+    "message": "Settings"
+  },
   "switch_to_popup": {
     "message": "Switch to Popup"
   },
   "switch_to_sidepanel": {
     "message": "Switch to Sidepanel"
+  },
+  "save_changes": {
+    "message": "Save Changes"
+  },
+  "saving": {
+    "message": "Saving..."
+  },
+  "preset": {
+    "message": "Preset"
+  },
+  "buy_settings": {
+    "message": "Buy Settings"
+  },
+  "sell_settings": {
+    "message": "Sell Settings"
+  },
+  "mev_mode": {
+    "message": "Mev Mode"
+  },
+  "auto_fee": {
+    "message": "Auto Fee"
+  },
+  "max_fee": {
+    "message": "Max Fee"
+  },
+  "off": {
+    "message": "OFF"
+  },
+  "secure": {
+    "message": "SECURE"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "collapse": {
+    "message": "Collapse"
+  },
+  "expand": {
+    "message": "Expand"
+  },
+  "fee_saved_trading_panel": {
+    "message": "Saved!"
+  },
+  "limit_orders": {
+    "message": "Limit Orders"
+  },
+  "limit": {
+    "message": "Limit"
+  },
+  "creating_limit_order": {
+    "message": "Creating Limit Order"
+  },
+  "limit_order_placed": {
+    "message": "Limit Order Placed"
+  },
+  "create_limit_order_failed": {
+    "message": "Create Limit Order Failed"
+  },
+  "failed_to_initialize_limit_order": {
+    "message": "Failed to initialize limit order, please refresh the page and try again."
+  },
+  "limit_order_notional_value_too_low": {
+    "message": "Limit order notional value must be at least 5 USD"
+  },
+  "enter_sol_amount": {
+    "message": "Enter SOL amount"
+  },
+  "enter_percent_0_100": {
+    "message": "Enter % (0~100)"
+  },
+  "buy_order": {
+    "message": "Buy Order"
+  },
+  "sell_order": {
+    "message": "Sell Order"
+  },
+  "cancelling_limit_order": {
+    "message": "Cancelling Limit Order"
+  },
+  "limit_order_cancelled": {
+    "message": "Limit Order Cancelled"
+  },
+  "failed_to_cancel_limit_order": {
+    "message": "Failed to cancel limit order"
+  },
+  "active_trades": {
+    "message": "Active Trades"
+  },
+  "action": {
+    "message": "Action"
+  },
+  "target_mc": {
+    "message": "Target MC"
+  },
+  "current_mc": {
+    "message": "Current MC"
+  },
+  "amt": {
+    "message": "Amt"
+  },
+  "manage_portfolio": {
+    "message": "Manage Portfolio"
   }
 }

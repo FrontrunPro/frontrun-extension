@@ -11,6 +11,9 @@
   "add": {
     "message": "添加"
   },
+  "market_cap": {
+    "message": "市值"
+  },
   "appearance": {
     "message": "主题"
   },
@@ -25,6 +28,9 @@
   },
   "trading_settings": {
     "message": "交易设置"
+  },
+  "execution_settings": {
+    "message": "执行设置"
   },
   "display_settings": {
     "message": "显示设置"
@@ -296,11 +302,20 @@
   "adding": {
     "message": "添加中..."
   },
+  "choose_wallet": {
+    "message": "选择钱包"
+  },
   "select_wallet": {
     "message": "管理钱包"
   },
   "select_all": {
     "message": "全选"
+  },
+  "select_wallets": {
+    "message": "选择钱包"
+  },
+  "select_all_with_balance": {
+    "message": "选择有余额的钱包"
   },
   "deselect_all": {
     "message": "取消全选"
@@ -322,6 +337,12 @@
   },
   "wallets": {
     "message": "钱包"
+  },
+  "wallet_name_cannot_be_empty": {
+    "message": "钱包名称不能为空"
+  },
+  "wallet_name_cannot_exceed_max_length": {
+    "message": "钱包名称不能超过 {maxLength} 个字符"
   },
   "no_wallet_found_yet": {
     "message": "暂无钱包"
@@ -1175,6 +1196,9 @@
   "view_all": {
     "message": "查看所有"
   },
+  "view_all_positions": {
+    "message": "查看所有持仓"
+  },
   "top_mentions": {
     "message": "顶级提及"
   },
@@ -1243,6 +1267,12 @@
   },
   "refresh": {
     "message": "刷新"
+  },
+  "refresh_all_positions": {
+    "message": "刷新所有持仓"
+  },
+  "failed_to_refresh_positions": {
+    "message": "刷新持仓失败"
   },
   "top_positions": {
     "message": "顶级位置"
@@ -1328,11 +1358,38 @@
   "slippage": {
     "message": "滑点"
   },
+  "total_cost": {
+    "message": "总费用"
+  },
   "tip": {
     "message": "小费"
   },
   "priority_fee": {
     "message": "优先费"
+  },
+  "market_trading": {
+    "message": "市价"
+  },
+  "slippage_must_be_a_number": {
+    "message": "滑点必须是数字"
+  },
+  "slippage_cannot_be_negative": {
+    "message": "滑点不能为负数"
+  },
+  "slippage_cannot_be_greater_than_100": {
+    "message": "滑点不能大于100%"
+  },
+  "priority_fee_must_be_a_number": {
+    "message": "优先费必须是数字"
+  },
+  "priority_fee_cannot_be_negative": {
+    "message": "优先费不能为负数"
+  },
+  "tip_must_be_a_number": {
+    "message": "小费必须是数字"
+  },
+  "tip_cannot_be_negative": {
+    "message": "小费不能为负数"
   },
   "for": {
     "message": "换取"
@@ -1342,6 +1399,9 @@
   },
   "all_positions": {
     "message": "所有持仓"
+  },
+  "all_wallets": {
+    "message": "所有钱包"
   },
   "bought": {
     "message": "买入"
@@ -1409,10 +1469,136 @@
   "no_fee": {
     "message": "无手续费"
   },
+  "add_to_selection": {
+    "message": "添加到选择"
+  },
+  "remove_from_selection": {
+    "message": "从选择中移除"
+  },
+  "buy_variance": {
+    "message": "购买变化幅度"
+  },
+  "transaction_delay": {
+    "message": "交易延迟"
+  },
+  "variance_description": {
+    "message": "所选钱包购买金额的变化幅度。0% 到 100% 随机分配。"
+  },
+  "delay_description": {
+    "message": "每笔交易之间的延迟时间（毫秒）。0ms 表示无延迟。"
+  },
+  "back": {
+    "message": "返回"
+  },
+  "settings": {
+    "message": "设置"
+  },
   "switch_to_popup": {
     "message": "切换到 Popup"
   },
   "switch_to_sidepanel": {
     "message": "切换到 Sidepanel"
+  },
+  "save_changes": {
+    "message": "保存更改"
+  },
+  "saving": {
+    "message": "保存中..."
+  },
+  "preset": {
+    "message": "预设"
+  },
+  "buy_settings": {
+    "message": "买入设置"
+  },
+  "sell_settings": {
+    "message": "卖出设置"
+  },
+  "mev_mode": {
+    "message": "MEV 模式"
+  },
+  "auto_fee": {
+    "message": "自动费用"
+  },
+  "max_fee": {
+    "message": "最大费用"
+  },
+  "off": {
+    "message": "关闭"
+  },
+  "secure": {
+    "message": "安全"
+  },
+  "edit": {
+    "message": "编辑"
+  },
+  "manage_portfolio": {
+    "message": "管理投资组合"
+  },
+  "collapse": {
+    "message": "收起"
+  },
+  "expand": {
+    "message": "展开"
+  },
+  "fee_saved_trading_panel": {
+    "message": "已节省！"
+  },
+  "limit_orders": {
+    "message": "限价单"
+  },
+  "limit": {
+    "message": "限价"
+  },
+  "creating_limit_order": {
+    "message": "正在创建限价单"
+  },
+  "limit_order_placed": {
+    "message": "限价单已下单"
+  },
+  "create_limit_order_failed": {
+    "message": "创建限价单失败"
+  },
+  "failed_to_initialize_limit_order": {
+    "message": "初始化限价单失败，请刷新页面后重试。"
+  },
+  "limit_order_notional_value_too_low": {
+    "message": "限价单名义价值至少为 5 美元"
+  },
+  "enter_sol_amount": {
+    "message": "输入 SOL 数量"
+  },
+  "enter_percent_0_100": {
+    "message": "输入百分比 (0~100)"
+  },
+  "buy_order": {
+    "message": "买入订单"
+  },
+  "sell_order": {
+    "message": "卖出订单"
+  },
+  "cancelling_limit_order": {
+    "message": "正在取消限价单"
+  },
+  "limit_order_cancelled": {
+    "message": "限价单已取消"
+  },
+  "failed_to_cancel_limit_order": {
+    "message": "取消限价单失败"
+  },
+  "active_trades": {
+    "message": "活跃交易"
+  },
+  "action": {
+    "message": "操作"
+  },
+  "target_mc": {
+    "message": "目标市值"
+  },
+  "current_mc": {
+    "message": "当前市值"
+  },
+  "amt": {
+    "message": "数量"
   }
 }
