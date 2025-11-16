@@ -38,6 +38,9 @@
   "execution_settings": {
     "message": "Execution Settings"
   },
+  "execution_settings_updated_successfully": {
+    "message": "Execution Settings updated successfully"
+  },
   "display_settings": {
     "message": "Customization & Display"
   },
@@ -298,6 +301,9 @@
   },
   "save": {
     "message": "Save"
+  },
+  "saved": {
+    "message": "Saved"
   },
   "last_active": {
     "message": "Last Active"
@@ -922,6 +928,9 @@
   },
   "archive_wallet": {
     "message": "Archive Wallet"
+  },
+  "archive_wallet_disabled": {
+    "message": "Active Wallet Cannot Be Archived"
   },
   "holdings": {
     "message": "Holdings"

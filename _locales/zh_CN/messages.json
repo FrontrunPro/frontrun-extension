@@ -32,6 +32,9 @@
   "execution_settings": {
     "message": "执行设置"
   },
+  "execution_settings_updated_successfully": {
+    "message": "执行设置更新成功"
+  },
   "display_settings": {
     "message": "显示设置"
   },
@@ -286,6 +289,9 @@
   },
   "save": {
     "message": "保存"
+  },
+  "saved": {
+    "message": "已保存"
   },
   "last_active": {
     "message": "最后活跃"
@@ -919,6 +925,9 @@
   },
   "archive_wallet": {
     "message": "归档钱包"
+  },
+  "archive_wallet_disabled": {
+    "message": "活跃钱包不能归档"
   },
   "holdings": {
     "message": "持仓"

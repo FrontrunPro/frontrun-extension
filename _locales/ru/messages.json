@@ -41,6 +41,9 @@
   "execution_settings": {
     "message": "Настройки выполнения"
   },
+  "execution_settings_updated_successfully": {
+    "message": "Настройки выполнения успешно обновлены"
+  },
   "display_settings": {
     "message": "Настройки отображения"
   },
@@ -304,6 +307,9 @@
   },
   "save": {
     "message": "Сохранить"
+  },
+  "saved": {
+    "message": "Сохранено"
   },
   "last_active": {
     "message": "Последняя активность"
@@ -931,6 +937,9 @@
   },
   "archive_wallet": {
     "message": "Архивировать кошелёк"
+  },
+  "archive_wallet_disabled": {
+    "message": "Активный кошелёк не может быть архивирован"
   },
   "holdings": {
     "message": "Активы"
