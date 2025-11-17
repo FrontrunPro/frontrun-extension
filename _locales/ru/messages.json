@@ -1232,6 +1232,9 @@
   "sell": {
     "message": "Продать"
   },
+  "selling": {
+    "message": "Продажа"
+  },
   "fee": {
     "message": "Комиссия"
   },

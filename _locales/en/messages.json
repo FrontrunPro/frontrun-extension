@@ -1226,6 +1226,9 @@
   "sell": {
     "message": "Sell"
   },
+  "selling": {
+    "message": "Selling"
+  },
   "fee": {
     "message": "Fee"
   },
@@ -1551,7 +1554,7 @@
     "message": "Expand"
   },
   "fee_saved_trading_panel": {
-    "message": "Saved!"
+    "message": "saved!"
   },
   "limit_orders": {
     "message": "Limit Orders"

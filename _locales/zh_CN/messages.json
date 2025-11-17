@@ -581,6 +581,9 @@
   "sell": {
     "message": "卖出"
   },
+  "selling": {
+    "message": "卖出中"
+  },
   "recently_logged_in_as": {
     "message": "最近登录账号"
   },
