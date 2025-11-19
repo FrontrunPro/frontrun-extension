@@ -1631,6 +1631,48 @@
   "failed_to_cancel_limit_order": {
     "message": "Не удалось отменить лимитный ордер"
   },
+  "enable_turnkey_title": {
+    "message": "Включите Turnkey для лимитных ордеров"
+  },
+  "enable_turnkey_description_1": {
+    "message": "Лимитные ордера работают на кастодиальном кошельке Turnkey - той же инфраструктуре, что использует Axiom."
+  },
+  "enable_turnkey_description_2": {
+    "message": "Ваш приватный ключ будет безопасно импортирован в Turnkey для подписи транзакций."
+  },
+  "enable_turnkey_description_3": {
+    "message": "Frontrun никогда не получает доступ к вашим приватным ключам."
+  },
+  "enable_turnkey_read_more": {
+    "message": "Подробнее"
+  },
+  "enable_turnkey_button": {
+    "message": "Включить через Google"
+  },
+  "limit_order_buy_triggered": {
+    "message": "Ордер на покупку {tokenSymbol} был активирован."
+  },
+  "limit_order_sell_triggered": {
+    "message": "Ордер на продажу {tokenSymbol} был активирован."
+  },
+  "limit_order_buy_completed": {
+    "message": "Ордер на покупку {tokenSymbol} был выполнен."
+  },
+  "limit_order_sell_completed": {
+    "message": "Ордер на продажу {tokenSymbol} был выполнен."
+  },
+  "limit_order_buy_expired": {
+    "message": "Ордер на покупку {tokenSymbol} истёк."
+  },
+  "limit_order_sell_expired": {
+    "message": "Ордер на продажу {tokenSymbol} истёк."
+  },
+  "limit_order_buy_failed": {
+    "message": "Ордер на покупку {tokenSymbol} не выполнен."
+  },
+  "limit_order_sell_failed": {
+    "message": "Ордер на продажу {tokenSymbol} не выполнен."
+  },
   "active_trades": {
     "message": "Активные сделки"
   },

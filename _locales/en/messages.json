@@ -1628,6 +1628,48 @@
   "failed_to_cancel_limit_order": {
     "message": "Failed to cancel limit order"
   },
+  "enable_turnkey_title": {
+    "message": "Enable Turnkey for Limit Orders"
+  },
+  "enable_turnkey_description_1": {
+    "message": "Limit Orders run on a custodial wallet powered by Turnkey - the same infra used by Axiom."
+  },
+  "enable_turnkey_description_2": {
+    "message": "Your private key will be securely imported to Turnkey for signing."
+  },
+  "enable_turnkey_description_3": {
+    "message": "Frontrun never gets access to your private keys."
+  },
+  "enable_turnkey_read_more": {
+    "message": "Read more"
+  },
+  "enable_turnkey_button": {
+    "message": "Enable with Google"
+  },
+  "limit_order_buy_triggered": {
+    "message": "The buy order for {tokenSymbol} has been triggered."
+  },
+  "limit_order_sell_triggered": {
+    "message": "The sell order for {tokenSymbol} has been triggered."
+  },
+  "limit_order_buy_completed": {
+    "message": "The buy order for {tokenSymbol} has been completed."
+  },
+  "limit_order_sell_completed": {
+    "message": "The sell order for {tokenSymbol} has been completed."
+  },
+  "limit_order_buy_expired": {
+    "message": "The buy order for {tokenSymbol} has expired."
+  },
+  "limit_order_sell_expired": {
+    "message": "The sell order for {tokenSymbol} has expired."
+  },
+  "limit_order_buy_failed": {
+    "message": "The buy order for {tokenSymbol} has failed."
+  },
+  "limit_order_sell_failed": {
+    "message": "The sell order for {tokenSymbol} has failed."
+  },
   "active_trades": {
     "message": "Active Trades"
   },

@@ -1628,6 +1628,48 @@
   "failed_to_cancel_limit_order": {
     "message": "取消限价单失败"
   },
+  "enable_turnkey_title": {
+    "message": "启用 Turnkey 以使用限价单"
+  },
+  "enable_turnkey_description_1": {
+    "message": "限价单运行在由 Turnkey 提供支持的托管钱包上 - 这是 Axiom 使用的相同基础设施。"
+  },
+  "enable_turnkey_description_2": {
+    "message": "您的私钥将被安全导入到 Turnkey 进行签名。"
+  },
+  "enable_turnkey_description_3": {
+    "message": "Frontrun 永远不会访问您的私钥。"
+  },
+  "enable_turnkey_read_more": {
+    "message": "了解更多"
+  },
+  "enable_turnkey_button": {
+    "message": "使用 Google 启用"
+  },
+  "limit_order_buy_triggered": {
+    "message": "{tokenSymbol} 的买入订单已触发。"
+  },
+  "limit_order_sell_triggered": {
+    "message": "{tokenSymbol} 的卖出订单已触发。"
+  },
+  "limit_order_buy_completed": {
+    "message": "{tokenSymbol} 的买入订单已完成。"
+  },
+  "limit_order_sell_completed": {
+    "message": "{tokenSymbol} 的卖出订单已完成。"
+  },
+  "limit_order_buy_expired": {
+    "message": "{tokenSymbol} 的买入订单已过期。"
+  },
+  "limit_order_sell_expired": {
+    "message": "{tokenSymbol} 的卖出订单已过期。"
+  },
+  "limit_order_buy_failed": {
+    "message": "{tokenSymbol} 的买入订单已失败。"
+  },
+  "limit_order_sell_failed": {
+    "message": "{tokenSymbol} 的卖出订单已失败。"
+  },
   "active_trades": {
     "message": "活跃交易"
   },
