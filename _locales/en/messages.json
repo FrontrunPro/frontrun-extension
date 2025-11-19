@@ -362,6 +362,30 @@
   "wallet_name_cannot_exceed_max_length": {
     "message": "Wallet name cannot exceed {maxLength} characters"
   },
+  "wallet_management": {
+    "message": "Wallet Management"
+  },
+  "wallet_dashboard_disabled": {
+    "message": "Wallet Dashboard is not enabled"
+  },
+  "assets": {
+    "message": "Assets"
+  },
+  "total_assets": {
+    "message": "Total Assets"
+  },
+  "group_view": {
+    "message": "Group View"
+  },
+  "sol": {
+    "message": "SOL"
+  },
+  "value": {
+    "message": "Value"
+  },
+  "no_positions_yet": {
+    "message": "No positions yet"
+  },
   "no_wallet_found_yet": {
     "message": "No wallet found yet"
   },
@@ -914,6 +938,9 @@
   "done": {
     "message": "Done"
   },
+  "set_as_default_wallet": {
+    "message": "Set as active wallet"
+  },
   "receive": {
     "message": "Receive"
   },
@@ -934,6 +961,9 @@
   },
   "holdings": {
     "message": "Holdings"
+  },
+  "no_holdings": {
+    "message": "No Positions"
   },
   "hide_low": {
     "message": "Hide low"
@@ -1615,5 +1645,401 @@
   },
   "manage_portfolio": {
     "message": "Manage Portfolio"
+  },
+  "wallet_common_password_incorrect": {
+    "message": "Incorrect password"
+  },
+  "wallet_common_password_mismatch": {
+    "message": "Passwords do not match"
+  },
+  "wallet_create_toast_created": {
+    "message": "Successfully created {count} wallet(s)"
+  },
+  "wallet_create_toast_failed": {
+    "message": "Failed to create wallet"
+  },
+  "wallet_common_toast_copied": {
+    "message": "{label} copied to clipboard"
+  },
+  "wallet_common_toast_copy_failed": {
+    "message": "Failed to copy"
+  },
+  "wallet_common_password_strength_weak": {
+    "message": "Weak"
+  },
+  "wallet_common_password_strength_medium": {
+    "message": "Medium"
+  },
+  "wallet_common_password_strength_strong": {
+    "message": "Strong"
+  },
+  "wallet_create_chain_label": {
+    "message": "Chain"
+  },
+  "wallet_create_quantity_label": {
+    "message": "Quantity"
+  },
+  "wallet_create_quantity_cap": {
+    "message": "Max 50"
+  },
+  "wallet_common_continue": {
+    "message": "Continue"
+  },
+  "wallet_common_password_create_title": {
+    "message": "Create a Password"
+  },
+  "wallet_create_password_description": {
+    "message": "Create a password to securely unlock your wallet."
+  },
+  "wallet_common_password_placeholder": {
+    "message": "Enter password"
+  },
+  "wallet_common_confirm_password_placeholder": {
+    "message": "Confirm password"
+  },
+  "wallet_common_verifying": {
+    "message": "Verifying..."
+  },
+  "wallet_create_verify_description": {
+    "message": "Enter your existing password to unlock your wallet."
+  },
+  "wallet_create_seed_warning_title": {
+    "message": "Secure Your Seed Phrase"
+  },
+  "wallet_create_seed_warning_intro": {
+    "message": "Please read carefully before continuing."
+  },
+  "wallet_create_seed_warning_item1_title": {
+    "message": "Never share your seed phrase."
+  },
+  "wallet_create_seed_warning_item1_body": {
+    "message": "Anyone with it can access your assets."
+  },
+  "wallet_create_seed_warning_item2_title": {
+    "message": "Keep it safe and offline."
+  },
+  "wallet_create_seed_warning_item2_body": {
+    "message": "Avoid saving it in screenshots or cloud notes."
+  },
+  "wallet_create_seed_warning_item3_title": {
+    "message": "Frontrun cannot recover it."
+  },
+  "wallet_create_seed_warning_item3_body": {
+    "message": "Your seed phrase is stored only on your device."
+  },
+  "wallet_create_seed_warning_item4_title": {
+    "message": "View your seed phrase in private."
+  },
+  "wallet_create_seed_warning_item4_body": {
+    "message": "Make sure no one can see your screen."
+  },
+  "wallet_common_seed_phrase_button": {
+    "message": "Reveal Seed Phrase"
+  },
+  "wallet_common_seed_phrase_title": {
+    "message": "Your Seed Phrase"
+  },
+  "wallet_common_seed_phrase_description": {
+    "message": "Paste a 12-word seed phrase to restore an existing wallet."
+  },
+  "wallet_common_import_private_key_title": {
+    "message": "Import from private key"
+  },
+  "wallet_common_import_private_key_description": {
+    "message": "Paste a compatible private key to bring an existing wallet online."
+  },
+  "wallet_common_seed_phrase_label": {
+    "message": "Seed phrase"
+  },
+  "wallet_common_seed_phrase_show": {
+    "message": "Show"
+  },
+  "wallet_common_seed_phrase_hide": {
+    "message": "Hide"
+  },
+  "wallet_common_seed_phrase_word_placeholder": {
+    "message": "word"
+  },
+  "wallet_common_seed_phrase_missing": {
+    "message": "Please enter every word in the seed phrase"
+  },
+  "wallet_common_copy_seed_phrase": {
+    "message": "Copy Seed Phrase"
+  },
+  "wallet_create_creating_state": {
+    "message": "Creating..."
+  },
+  "wallet_create_primary_cta": {
+    "message": "Create Wallets"
+  },
+  "wallet_common_title_create_wallets": {
+    "message": "Create Wallets"
+  },
+  "wallet_common_assign_to_group_label": {
+    "message": "Assign to Group"
+  },
+  "wallet_common_select_group_placeholder": {
+    "message": "Select a group"
+  },
+  "wallet_common_error_private_key_required": {
+    "message": "Please enter a private key"
+  },
+  "wallet_common_error_seed_phrase_incomplete": {
+    "message": "Please fill in all seed phrase words"
+  },
+  "wallet_common_action_import_seed_phrase": {
+    "message": "Import Seed Phrase"
+  },
+  "wallet_common_option_generate_wallet": {
+    "message": "Generate new wallet"
+  },
+  "wallet_common_option_import_seed_phrase": {
+    "message": "Import from seed phrase"
+  },
+  "wallet_common_option_import_private_key": {
+    "message": "Import from private key"
+  },
+  "wallet_common_secure_wallets_title": {
+    "message": "Secure your wallets"
+  },
+  "wallet_common_secure_wallets_description": {
+    "message": "Choose how you want to bring wallets into your vault."
+  },
+  "wallet_common_importing_wallets_title": {
+    "message": "Importing wallets"
+  },
+  "wallet_common_importing_wallets_description": {
+    "message": "Please keep this window open while we finish importing your wallets."
+  },
+  "wallet_common_importing_wallets_progress": {
+    "message": "Syncing Turnkey wallets to your vault..."
+  },
+  "wallet_common_password_session_expired": {
+    "message": "Your password session expired. Please try again."
+  },
+  "wallet_import_error_prepare_failed": {
+    "message": "Unable to prepare wallet import"
+  },
+  "wallet_common_password_set_failed": {
+    "message": "Failed to set password"
+  },
+  "wallet_common_toast_import_success": {
+    "message": "Wallet imported successfully"
+  },
+  "wallet_import_error_connection": {
+    "message": "Unable to establish Solana connection"
+  },
+  "wallet_import_error_no_valid_wallets": {
+    "message": "No valid wallets derived from the provided seed phrase"
+  },
+  "wallet_import_seed_created_toast": {
+    "message": "New wallet created from seed phrase"
+  },
+  "wallet_import_seed_imported_toast": {
+    "message": "Imported {count} wallet(s) from seed phrase"
+  },
+  "wallet_common_toast_import_failed": {
+    "message": "Failed to import wallet"
+  },
+  "wallet_common_private_key_tab": {
+    "message": "Private Key"
+  },
+  "wallet_common_seed_phrase_tab": {
+    "message": "Seed Phrase"
+  },
+  "wallet_common_private_key_warning": {
+    "message": "Do not share your Private Key with anyone. Frontrun never sees or stores your key."
+  },
+  "wallet_common_seed_phrase_warning": {
+    "message": "Do not share your Seed Phrase with anyone. Frontrun never sees or stores it."
+  },
+  "wallet_common_enter_private_key": {
+    "message": "Enter Private Key"
+  },
+  "wallet_common_private_key_placeholder": {
+    "message": "Paste your private key here"
+  },
+  "wallet_common_enter_seed_phrase": {
+    "message": "Enter Your Seed Phrase"
+  },
+  "wallet_import_primary_cta": {
+    "message": "Import Wallet"
+  },
+  "wallet_import_importing_state": {
+    "message": "Importing..."
+  },
+  "wallet_common_back": {
+    "message": "Back"
+  },
+  "wallet_import_verify_description": {
+    "message": "Enter your existing password to encrypt new wallets securely."
+  },
+  "wallet_import_password_description": {
+    "message": "Set a password to encrypt newly imported wallets on this device."
+  },
+  "wallet_import_saving_state": {
+    "message": "Saving..."
+  },
+  "wallet_common_title_verify_password": {
+    "message": "Verify Password"
+  },
+  "wallet_common_title_set_password": {
+    "message": "Set Wallet Password"
+  },
+  "wallet_common_title_import_wallet": {
+    "message": "Import Wallet"
+  },
+  "password_dialog_title_create": {
+    "message": "Set wallet password"
+  },
+  "password_dialog_title_unlock": {
+    "message": "Unlock wallet"
+  },
+  "password_dialog_description_create": {
+    "message": "Create a password to securely unlock your wallet."
+  },
+  "password_dialog_description_unlock": {
+    "message": "Enter your wallet password to decrypt the local private keys."
+  },
+  "password_dialog_action_set_password": {
+    "message": "Continue"
+  },
+  "password_dialog_action_unlock": {
+    "message": "Unlock"
+  },
+  "password_dialog_heading_create": {
+    "message": "Create wallet password"
+  },
+  "password_dialog_heading_unlock": {
+    "message": "Welcome back"
+  },
+  "password_dialog_placeholder_create": {
+    "message": "Create a strong password"
+  },
+  "password_dialog_placeholder_unlock": {
+    "message": "Enter password to unlock"
+  },
+  "password_dialog_hide_password": {
+    "message": "Hide password"
+  },
+  "password_dialog_show_password": {
+    "message": "Show password"
+  },
+  "password_dialog_hide_confirm_password": {
+    "message": "Hide confirm password"
+  },
+  "password_dialog_show_confirm_password": {
+    "message": "Show confirm password"
+  },
+  "password_dialog_hint_strength": {
+    "message": "Mix numbers, symbols, and letters to increase strength."
+  },
+  "password_dialog_hint_storage": {
+    "message": "Store this password safely—we can’t recover it."
+  },
+  "password_dialog_action_labels_only": {
+    "message": "Labels only"
+  },
+  "password_dialog_action_forgot": {
+    "message": "Forgot password?"
+  },
+  "password_dialog_forgot_title": {
+    "message": "Forgot your password?"
+  },
+  "password_dialog_forgot_description": {
+    "message": "Your password only lives on this device. Try another password or reset the wallets."
+  },
+  "password_dialog_forgot_label_info": {
+    "message": "Your label data will remain available."
+  },
+  "password_dialog_action_try_other": {
+    "message": "Try another password"
+  },
+  "password_dialog_action_reset_wallets": {
+    "message": "Reset and clear wallet data"
+  },
+  "password_dialog_reset_heading": {
+    "message": "Wallet data cleared"
+  },
+  "password_dialog_reset_description": {
+    "message": "We removed every encrypted wallet from this device. Re-import them with your seed phrase or private key, then set a new password."
+  },
+  "password_dialog_reset_failed": {
+    "message": "Failed to reset wallets"
+  },
+  "password_dialog_seed_warning_title": {
+    "message": "Seed Phrase"
+  },
+  "password_dialog_seed_warning_description": {
+    "message": "We’ll generate 12 words that unlock your wallet. Save them before continuing."
+  },
+  "password_dialog_seed_heading": {
+    "message": "Secure Your Seed Phrase"
+  },
+  "password_dialog_seed_subheading": {
+    "message": "You’ll need this to restore your wallet."
+  },
+  "password_dialog_action_create_wallet": {
+    "message": "Create wallet"
+  },
+  "password_dialog_label_create_password": {
+    "message": "Create password"
+  },
+  "password_dialog_label_unlock_password": {
+    "message": "Wallet password"
+  },
+  "password_dialog_handle_request_failed": {
+    "message": "Failed to open the password dialog"
+  },
+  "password_dialog_reset_confirm_title": {
+    "message": "Reset wallets?"
+  },
+  "password_dialog_reset_confirm_description_primary": {
+    "message": "Resetting removes all encrypted wallet data from this device. This cannot be undone."
+  },
+  "password_dialog_reset_confirm_description_secondary": {
+    "message": "Make sure you’ve backed up every wallet before continuing."
+  },
+  "password_dialog_action_reset_wallet": {
+    "message": "Reset wallet"
+  },
+  "password_dialog_password_required": {
+    "message": "Please enter a password."
+  },
+  "password_dialog_password_min_length": {
+    "message": "Password must be at least {minLength} characters."
+  },
+  "password_dialog_create_failed": {
+    "message": "Failed to create and store wallets."
+  },
+  "password_dialog_clipboard_unavailable": {
+    "message": "Clipboard access isn’t available."
+  },
+  "password_dialog_seed_copied": {
+    "message": "Seed phrase copied"
+  },
+  "password_dialog_seed_copy_failed": {
+    "message": "Failed to copy seed phrase"
+  },
+  "password_dialog_seed_generate_failed": {
+    "message": "Failed to generate seed phrase"
+  },
+  "password_dialog_seed_missing": {
+    "message": "Seed phrase is missing"
+  },
+  "password_dialog_session_expired": {
+    "message": "Your session expired. Please try again."
+  },
+  "trading_panel_locked_title": {
+    "message": "Trading Locked"
+  },
+  "trading_panel_locked_description": {
+    "message": "Log in through the pop-up to unlock your wallets."
+  },
+  "trading_panel_unlock_button": {
+    "message": "Unlock in Pop-up"
+  },
+  "trading_panel_unlock_failed": {
+    "message": "Unable to unlock password"
   }
 }

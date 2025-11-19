@@ -350,6 +350,30 @@
   "wallet_name_cannot_exceed_max_length": {
     "message": "钱包名称不能超过 {maxLength} 个字符"
   },
+  "wallet_management": {
+    "message": "钱包管理"
+  },
+  "wallet_dashboard_disabled": {
+    "message": "钱包面板未启用"
+  },
+  "assets": {
+    "message": "资产"
+  },
+  "total_assets": {
+    "message": "总资产"
+  },
+  "group_view": {
+    "message": "分组视图"
+  },
+  "sol": {
+    "message": "SOL"
+  },
+  "value": {
+    "message": "价值"
+  },
+  "no_positions_yet": {
+    "message": "暂无持仓"
+  },
   "no_wallet_found_yet": {
     "message": "暂无钱包"
   },
@@ -1205,6 +1229,9 @@
   "alias_updated_successfully": {
     "message": "别名更新成功"
   },
+  "alias_updated_failed": {
+    "message": "别名更新失败"
+  },
   "view_all": {
     "message": "查看所有"
   },
@@ -1340,7 +1367,7 @@
   "in_fees_using": {
     "message": "的手续费，通过使用"
   },
-  "fee_saved": {
+  "fee_saved_trading_panel": {
     "message": "手续费已节省"
   },
   "more": {
@@ -1544,6 +1571,9 @@
   "edit": {
     "message": "编辑"
   },
+  "no_holdings": {
+    "message": "暂无持仓"
+  },
   "manage_portfolio": {
     "message": "管理投资组合"
   },
@@ -1553,7 +1583,7 @@
   "expand": {
     "message": "展开"
   },
-  "fee_saved_trading_panel": {
+  "fee_saved": {
     "message": "已节省！"
   },
   "limit_orders": {
@@ -1612,5 +1642,401 @@
   },
   "amt": {
     "message": "数量"
+  },
+  "wallet_common_password_incorrect": {
+    "message": "密码错误"
+  },
+  "wallet_common_password_mismatch": {
+    "message": "两次输入的密码不一致"
+  },
+  "wallet_create_toast_created": {
+    "message": "成功创建 {count} 个钱包"
+  },
+  "wallet_create_toast_failed": {
+    "message": "创建钱包失败"
+  },
+  "wallet_common_toast_copied": {
+    "message": "{label} 已复制到剪贴板"
+  },
+  "wallet_common_toast_copy_failed": {
+    "message": "复制失败"
+  },
+  "wallet_common_password_strength_weak": {
+    "message": "弱"
+  },
+  "wallet_common_password_strength_medium": {
+    "message": "中"
+  },
+  "wallet_common_password_strength_strong": {
+    "message": "强"
+  },
+  "wallet_create_chain_label": {
+    "message": "链"
+  },
+  "wallet_create_quantity_label": {
+    "message": "数量"
+  },
+  "wallet_create_quantity_cap": {
+    "message": "最多 50"
+  },
+  "wallet_common_continue": {
+    "message": "继续"
+  },
+  "wallet_common_password_create_title": {
+    "message": "创建密码"
+  },
+  "wallet_create_password_description": {
+    "message": "创建一个密码以安全解锁你的钱包。"
+  },
+  "wallet_common_password_placeholder": {
+    "message": "输入密码"
+  },
+  "wallet_common_confirm_password_placeholder": {
+    "message": "确认密码"
+  },
+  "wallet_common_verifying": {
+    "message": "正在验证..."
+  },
+  "wallet_create_verify_description": {
+    "message": "输入你已有的密码来解锁钱包。"
+  },
+  "wallet_create_seed_warning_title": {
+    "message": "保护你的助记词"
+  },
+  "wallet_create_seed_warning_intro": {
+    "message": "继续之前请认真阅读。"
+  },
+  "wallet_create_seed_warning_item1_title": {
+    "message": "不要与任何人分享助记词。"
+  },
+  "wallet_create_seed_warning_item1_body": {
+    "message": "拥有它的人可以访问你的资产。"
+  },
+  "wallet_create_seed_warning_item2_title": {
+    "message": "请安全保管并离线保存。"
+  },
+  "wallet_create_seed_warning_item2_body": {
+    "message": "不要把它保存在截图或云笔记中。"
+  },
+  "wallet_create_seed_warning_item3_title": {
+    "message": "Frontrun 无法帮你找回。"
+  },
+  "wallet_create_seed_warning_item3_body": {
+    "message": "助记词只存储在你的设备上。"
+  },
+  "wallet_create_seed_warning_item4_title": {
+    "message": "在私密环境下查看助记词。"
+  },
+  "wallet_create_seed_warning_item4_body": {
+    "message": "确保没有人能看到你的屏幕。"
+  },
+  "wallet_common_seed_phrase_button": {
+    "message": "显示助记词"
+  },
+  "wallet_common_seed_phrase_title": {
+    "message": "你的助记词"
+  },
+  "wallet_common_seed_phrase_description": {
+    "message": "粘贴 12 个助记词即可恢复已有钱包。"
+  },
+  "wallet_common_import_private_key_title": {
+    "message": "通过私钥导入"
+  },
+  "wallet_common_import_private_key_description": {
+    "message": "粘贴一组可用的私钥，即可在本设备继续使用该钱包。"
+  },
+  "wallet_common_seed_phrase_label": {
+    "message": "助记词"
+  },
+  "wallet_common_seed_phrase_show": {
+    "message": "显示"
+  },
+  "wallet_common_seed_phrase_hide": {
+    "message": "隐藏"
+  },
+  "wallet_common_seed_phrase_word_placeholder": {
+    "message": "单词"
+  },
+  "wallet_common_seed_phrase_missing": {
+    "message": "请填写助记词的全部单词"
+  },
+  "wallet_common_copy_seed_phrase": {
+    "message": "复制助记词"
+  },
+  "wallet_create_creating_state": {
+    "message": "正在创建..."
+  },
+  "wallet_create_primary_cta": {
+    "message": "创建钱包"
+  },
+  "wallet_common_title_create_wallets": {
+    "message": "创建钱包"
+  },
+  "wallet_common_assign_to_group_label": {
+    "message": "分配到分组"
+  },
+  "wallet_common_select_group_placeholder": {
+    "message": "选择一个分组"
+  },
+  "wallet_common_error_private_key_required": {
+    "message": "请输入私钥"
+  },
+  "wallet_common_error_seed_phrase_incomplete": {
+    "message": "请完整填写助记词的每个单词"
+  },
+  "wallet_common_action_import_seed_phrase": {
+    "message": "导入助记词"
+  },
+  "wallet_common_option_generate_wallet": {
+    "message": "生成新钱包"
+  },
+  "wallet_common_option_import_seed_phrase": {
+    "message": "从助记词导入"
+  },
+  "wallet_common_option_import_private_key": {
+    "message": "从私钥导入"
+  },
+  "wallet_common_secure_wallets_title": {
+    "message": "保护你的钱包"
+  },
+  "wallet_common_secure_wallets_description": {
+    "message": "选择要以何种方式将钱包导入保管库。"
+  },
+  "wallet_common_importing_wallets_title": {
+    "message": "正在导入钱包"
+  },
+  "wallet_common_importing_wallets_description": {
+    "message": "导入过程中请保持此窗口开启。"
+  },
+  "wallet_common_importing_wallets_progress": {
+    "message": "正在将 Turnkey 钱包同步到自托管保管库……"
+  },
+  "wallet_common_password_session_expired": {
+    "message": "密码会话已过期，请重试。"
+  },
+  "wallet_import_error_prepare_failed": {
+    "message": "无法准备钱包导入"
+  },
+  "wallet_common_password_set_failed": {
+    "message": "设置密码失败"
+  },
+  "wallet_common_toast_import_success": {
+    "message": "钱包导入成功"
+  },
+  "wallet_import_error_connection": {
+    "message": "无法建立 Solana 连接"
+  },
+  "wallet_import_error_no_valid_wallets": {
+    "message": "无法根据助记词生成有效的钱包"
+  },
+  "wallet_import_seed_created_toast": {
+    "message": "已通过助记词创建新钱包"
+  },
+  "wallet_import_seed_imported_toast": {
+    "message": "已从助记词导入 {count} 个钱包"
+  },
+  "wallet_common_toast_import_failed": {
+    "message": "钱包导入失败"
+  },
+  "wallet_common_private_key_tab": {
+    "message": "私钥"
+  },
+  "wallet_common_seed_phrase_tab": {
+    "message": "助记词"
+  },
+  "wallet_common_private_key_warning": {
+    "message": "不要与任何人分享你的私钥。Frontrun 永远不会查看或存储你的私钥。"
+  },
+  "wallet_common_seed_phrase_warning": {
+    "message": "不要与任何人分享你的助记词。Frontrun 永远不会查看或存储你的助记词。"
+  },
+  "wallet_common_enter_private_key": {
+    "message": "输入私钥"
+  },
+  "wallet_common_private_key_placeholder": {
+    "message": "在此粘贴你的私钥"
+  },
+  "wallet_common_enter_seed_phrase": {
+    "message": "输入你的助记词"
+  },
+  "wallet_import_primary_cta": {
+    "message": "导入钱包"
+  },
+  "wallet_import_importing_state": {
+    "message": "正在导入..."
+  },
+  "wallet_common_back": {
+    "message": "返回"
+  },
+  "wallet_import_verify_description": {
+    "message": "输入你已有的密码，以便安全地加密新钱包。"
+  },
+  "wallet_import_password_description": {
+    "message": "设置一个密码，用于在此设备上加密导入的钱包。"
+  },
+  "wallet_import_saving_state": {
+    "message": "正在保存..."
+  },
+  "wallet_common_title_verify_password": {
+    "message": "验证密码"
+  },
+  "wallet_common_title_set_password": {
+    "message": "设置钱包密码"
+  },
+  "wallet_common_title_import_wallet": {
+    "message": "导入钱包"
+  },
+  "password_dialog_reset_failed": {
+    "message": "清除加密钱包失败"
+  },
+  "password_dialog_seed_generate_failed": {
+    "message": "生成助记词失败"
+  },
+  "password_dialog_clipboard_unavailable": {
+    "message": "无法使用剪贴板，请手动复制。"
+  },
+  "password_dialog_seed_copied": {
+    "message": "助记词已复制"
+  },
+  "password_dialog_seed_copy_failed": {
+    "message": "现在无法复制助记词"
+  },
+  "password_dialog_session_expired": {
+    "message": "密码会话已失效，请重新开始。"
+  },
+  "password_dialog_seed_missing": {
+    "message": "未找到助记词，请重新生成。"
+  },
+  "password_dialog_create_failed": {
+    "message": "创建并保存钱包失败"
+  },
+  "password_dialog_password_required": {
+    "message": "请填写密码"
+  },
+  "password_dialog_password_min_length": {
+    "message": "密码长度至少 {minLength} 个字符。"
+  },
+  "password_dialog_title_create": {
+    "message": "设置钱包密码"
+  },
+  "password_dialog_title_unlock": {
+    "message": "解锁钱包"
+  },
+  "password_dialog_description_create": {
+    "message": "使用密码加密本地私钥，保护你的自托管钱包。"
+  },
+  "password_dialog_description_unlock": {
+    "message": "输入钱包密码以解密本地私钥。"
+  },
+  "password_dialog_action_set_password": {
+    "message": "设置密码"
+  },
+  "password_dialog_action_unlock": {
+    "message": "解锁"
+  },
+  "password_dialog_heading_create": {
+    "message": "创建钱包密码"
+  },
+  "password_dialog_heading_unlock": {
+    "message": "欢迎回来"
+  },
+  "password_dialog_placeholder_create": {
+    "message": "创建一个更强的密码"
+  },
+  "password_dialog_placeholder_unlock": {
+    "message": "输入密码解锁"
+  },
+  "password_dialog_hide_password": {
+    "message": "隐藏密码"
+  },
+  "password_dialog_show_password": {
+    "message": "显示密码"
+  },
+  "password_dialog_hide_confirm_password": {
+    "message": "隐藏确认密码"
+  },
+  "password_dialog_show_confirm_password": {
+    "message": "显示确认密码"
+  },
+  "password_dialog_hint_strength": {
+    "message": "混合数字、符号和字母以提升强度。"
+  },
+  "password_dialog_hint_storage": {
+    "message": "妥善保管此密码，丢失后无法找回。"
+  },
+  "password_dialog_action_labels_only": {
+    "message": "仅使用标签继续"
+  },
+  "password_dialog_action_forgot": {
+    "message": "忘记密码？"
+  },
+  "password_dialog_forgot_title": {
+    "message": "忘记密码？"
+  },
+  "password_dialog_forgot_description": {
+    "message": "密码仅保存在此设备上，我们无法替你找回。请再尝试一个密码或重置钱包。"
+  },
+  "password_dialog_forgot_label_info": {
+    "message": "你的标签数据会继续保留。"
+  },
+  "password_dialog_action_try_other": {
+    "message": "尝试其它密码"
+  },
+  "password_dialog_action_reset_wallets": {
+    "message": "重置并清除所有钱包数据"
+  },
+  "password_dialog_reset_heading": {
+    "message": "钱包数据已清空"
+  },
+  "password_dialog_reset_description": {
+    "message": "我们已从此设备移除所有加密钱包。请使用助记词或私钥重新导入并设置新密码。"
+  },
+  "password_dialog_seed_warning_title": {
+    "message": "保管好你的恢复短语"
+  },
+  "password_dialog_seed_warning_description": {
+    "message": "我们会生成 12 个助记词来解锁你的钱包，请在继续之前离线保存。"
+  },
+  "password_dialog_seed_heading": {
+    "message": "写下这 12 个单词"
+  },
+  "password_dialog_seed_subheading": {
+    "message": "这是在新设备上恢复自托管钱包的唯一方式。"
+  },
+  "password_dialog_action_create_wallet": {
+    "message": "创建钱包"
+  },
+  "password_dialog_label_create_password": {
+    "message": "创建密码"
+  },
+  "password_dialog_label_unlock_password": {
+    "message": "钱包密码"
+  },
+  "password_dialog_handle_request_failed": {
+    "message": "密码弹窗处理失败"
+  },
+  "password_dialog_reset_confirm_title": {
+    "message": "确认重置钱包"
+  },
+  "password_dialog_reset_confirm_description_primary": {
+    "message": "重置会移除此设备上的所有加密钱包数据且无法撤销。"
+  },
+  "password_dialog_reset_confirm_description_secondary": {
+    "message": "继续之前，请确保你已备份所有钱包。"
+  },
+  "password_dialog_action_reset_wallet": {
+    "message": "重置钱包"
+  },
+  "trading_panel_locked_title": {
+    "message": "交易已锁定"
+  },
+  "trading_panel_locked_description": {
+    "message": "通过弹窗登录以解锁您的钱包。"
+  },
+  "trading_panel_unlock_button": {
+    "message": "在弹窗中解锁"
+  },
+  "trading_panel_unlock_failed": {
+    "message": "无法解锁密码"
   }
 }

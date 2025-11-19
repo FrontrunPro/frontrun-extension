@@ -368,6 +368,30 @@
   "wallet_name_cannot_exceed_max_length": {
     "message": "Название кошелька не может превышать {maxLength} символов"
   },
+  "wallet_management": {
+    "message": "Управление кошельками"
+  },
+  "wallet_dashboard_disabled": {
+    "message": "Панель кошельков не включена"
+  },
+  "assets": {
+    "message": "Активы"
+  },
+  "total_assets": {
+    "message": "Всего активов"
+  },
+  "group_view": {
+    "message": "Просмотр по группам"
+  },
+  "sol": {
+    "message": "SOL"
+  },
+  "value": {
+    "message": "Стоимость"
+  },
+  "no_positions_yet": {
+    "message": "Пока нет позиций"
+  },
   "no_wallet_found_yet": {
     "message": "Кошельки не найдены"
   },
@@ -1217,6 +1241,9 @@
   "alias_updated_successfully": {
     "message": "Псевдоним успешно обновлен"
   },
+  "alias_updated_failed": {
+    "message": "Не удалось обновить псевдоним"
+  },
   "view_all": {
     "message": "Посмотреть все"
   },
@@ -1550,6 +1577,9 @@
   "edit": {
     "message": "Редактировать"
   },
+  "no_holdings": {
+    "message": "Нет позиций"
+  },
   "collapse": {
     "message": "Свернуть"
   },
@@ -1618,5 +1648,401 @@
   },
   "manage_portfolio": {
     "message": "Управление портфелем"
+  },
+  "wallet_common_password_incorrect": {
+    "message": "Неверный пароль"
+  },
+  "wallet_common_password_mismatch": {
+    "message": "Пароли не совпадают"
+  },
+  "wallet_create_toast_created": {
+    "message": "Успешно создано {count} кошельков"
+  },
+  "wallet_create_toast_failed": {
+    "message": "Не удалось создать кошелек"
+  },
+  "wallet_common_toast_copied": {
+    "message": "{label} скопировано в буфер обмена"
+  },
+  "wallet_common_toast_copy_failed": {
+    "message": "Не удалось скопировать"
+  },
+  "wallet_common_password_strength_weak": {
+    "message": "Слабый"
+  },
+  "wallet_common_password_strength_medium": {
+    "message": "Средний"
+  },
+  "wallet_common_password_strength_strong": {
+    "message": "Сильный"
+  },
+  "wallet_create_chain_label": {
+    "message": "Сеть"
+  },
+  "wallet_create_quantity_label": {
+    "message": "Количество"
+  },
+  "wallet_create_quantity_cap": {
+    "message": "Макс. 50"
+  },
+  "wallet_common_continue": {
+    "message": "Продолжить"
+  },
+  "wallet_common_password_create_title": {
+    "message": "Создайте пароль"
+  },
+  "wallet_create_password_description": {
+    "message": "Создайте пароль, чтобы безопасно разблокировать кошелек."
+  },
+  "wallet_common_password_placeholder": {
+    "message": "Введите пароль"
+  },
+  "wallet_common_confirm_password_placeholder": {
+    "message": "Подтвердите пароль"
+  },
+  "wallet_common_verifying": {
+    "message": "Проверяем..."
+  },
+  "wallet_create_verify_description": {
+    "message": "Введите текущий пароль, чтобы разблокировать кошелек."
+  },
+  "wallet_create_seed_warning_title": {
+    "message": "Защитите свою мнемонику"
+  },
+  "wallet_create_seed_warning_intro": {
+    "message": "Перед продолжением внимательно прочитайте."
+  },
+  "wallet_create_seed_warning_item1_title": {
+    "message": "Никому не передавайте мнемонику."
+  },
+  "wallet_create_seed_warning_item1_body": {
+    "message": "Имея ее, можно получить доступ к вашим активам."
+  },
+  "wallet_create_seed_warning_item2_title": {
+    "message": "Храните ее в безопасности и офлайн."
+  },
+  "wallet_create_seed_warning_item2_body": {
+    "message": "Не сохраняйте ее в скриншотах или облачных заметках."
+  },
+  "wallet_create_seed_warning_item3_title": {
+    "message": "Frontrun не сможет ее восстановить."
+  },
+  "wallet_create_seed_warning_item3_body": {
+    "message": "Мнемоника хранится только на вашем устройстве."
+  },
+  "wallet_create_seed_warning_item4_title": {
+    "message": "Просматривайте мнемонику наедине."
+  },
+  "wallet_create_seed_warning_item4_body": {
+    "message": "Убедитесь, что никто не видит ваш экран."
+  },
+  "wallet_common_import_private_key_title": {
+    "message": "Импорт по приватному ключу"
+  },
+  "wallet_common_import_private_key_description": {
+    "message": "Вставьте совместимый приватный ключ, чтобы подключить существующий кошелек."
+  },
+  "wallet_common_seed_phrase_button": {
+    "message": "Показать мнемонику"
+  },
+  "wallet_common_seed_phrase_title": {
+    "message": "Ваша мнемоника"
+  },
+  "wallet_common_seed_phrase_description": {
+    "message": "Вставьте 12 слов мнемоники, чтобы восстановить кошелек."
+  },
+  "wallet_common_seed_phrase_label": {
+    "message": "Мнемоника"
+  },
+  "wallet_common_seed_phrase_show": {
+    "message": "Показать"
+  },
+  "wallet_common_seed_phrase_hide": {
+    "message": "Скрыть"
+  },
+  "wallet_common_seed_phrase_word_placeholder": {
+    "message": "слово"
+  },
+  "wallet_common_seed_phrase_missing": {
+    "message": "Укажите все слова мнемоники"
+  },
+  "wallet_common_copy_seed_phrase": {
+    "message": "Скопировать мнемонику"
+  },
+  "wallet_create_creating_state": {
+    "message": "Создаем..."
+  },
+  "wallet_create_primary_cta": {
+    "message": "Создать кошельки"
+  },
+  "wallet_common_title_create_wallets": {
+    "message": "Создать кошельки"
+  },
+  "wallet_common_assign_to_group_label": {
+    "message": "Назначить группу"
+  },
+  "wallet_common_select_group_placeholder": {
+    "message": "Выберите группу"
+  },
+  "wallet_common_error_private_key_required": {
+    "message": "Введите приватный ключ"
+  },
+  "wallet_common_error_seed_phrase_incomplete": {
+    "message": "Заполните все слова мнемоники"
+  },
+  "wallet_common_action_import_seed_phrase": {
+    "message": "Импортировать сид-фразу"
+  },
+  "wallet_common_option_generate_wallet": {
+    "message": "Создать новый кошелек"
+  },
+  "wallet_common_option_import_seed_phrase": {
+    "message": "Импортировать из сид-фразы"
+  },
+  "wallet_common_option_import_private_key": {
+    "message": "Импортировать из приватного ключа"
+  },
+  "wallet_common_secure_wallets_title": {
+    "message": "Защитите свои кошельки"
+  },
+  "wallet_common_secure_wallets_description": {
+    "message": "Выберите, как добавить кошельки в хранилище."
+  },
+  "wallet_common_importing_wallets_title": {
+    "message": "Импортируем кошельки"
+  },
+  "wallet_common_importing_wallets_description": {
+    "message": "Не закрывайте окно, пока мы заканчиваем импорт."
+  },
+  "wallet_common_importing_wallets_progress": {
+    "message": "Синхронизируем кошельки Turnkey с вашим хранилищем..."
+  },
+  "wallet_common_password_session_expired": {
+    "message": "Сессия пароля истекла. Попробуйте снова."
+  },
+  "wallet_import_error_prepare_failed": {
+    "message": "Не удалось подготовить импорт кошелька"
+  },
+  "wallet_common_password_set_failed": {
+    "message": "Не удалось установить пароль"
+  },
+  "wallet_common_toast_import_success": {
+    "message": "Кошелек успешно импортирован"
+  },
+  "wallet_import_error_connection": {
+    "message": "Не удалось установить соединение с Solana"
+  },
+  "wallet_import_error_no_valid_wallets": {
+    "message": "По указанной мнемонике не удалось получить действительные кошельки"
+  },
+  "wallet_import_seed_created_toast": {
+    "message": "Новый кошелек создан из мнемоники"
+  },
+  "wallet_import_seed_imported_toast": {
+    "message": "Импортировано кошельков: {count} из мнемоники"
+  },
+  "wallet_common_toast_import_failed": {
+    "message": "Не удалось импортировать кошелек"
+  },
+  "wallet_common_private_key_tab": {
+    "message": "Приватный ключ"
+  },
+  "wallet_common_seed_phrase_tab": {
+    "message": "Мнемоника"
+  },
+  "wallet_common_private_key_warning": {
+    "message": "Никому не передавайте свой приватный ключ. Frontrun никогда не видит и не хранит его."
+  },
+  "wallet_common_seed_phrase_warning": {
+    "message": "Никому не передавайте свою мнемонику. Frontrun никогда не видит и не хранит ее."
+  },
+  "wallet_common_enter_private_key": {
+    "message": "Введите приватный ключ"
+  },
+  "wallet_common_private_key_placeholder": {
+    "message": "Вставьте приватный ключ здесь"
+  },
+  "wallet_common_enter_seed_phrase": {
+    "message": "Введите свою мнемонику"
+  },
+  "wallet_import_primary_cta": {
+    "message": "Импортировать кошелек"
+  },
+  "wallet_import_importing_state": {
+    "message": "Импортируем..."
+  },
+  "wallet_common_back": {
+    "message": "Назад"
+  },
+  "wallet_import_verify_description": {
+    "message": "Введите текущий пароль, чтобы безопасно зашифровать новые кошельки."
+  },
+  "wallet_import_password_description": {
+    "message": "Задайте пароль для шифрования импортированных кошельков на этом устройстве."
+  },
+  "wallet_import_saving_state": {
+    "message": "Сохраняем..."
+  },
+  "wallet_common_title_verify_password": {
+    "message": "Проверка пароля"
+  },
+  "wallet_common_title_set_password": {
+    "message": "Настройка пароля кошелька"
+  },
+  "wallet_common_title_import_wallet": {
+    "message": "Импорт кошелька"
+  },
+  "password_dialog_reset_failed": {
+    "message": "Не удалось сбросить зашифрованные кошельки"
+  },
+  "password_dialog_seed_generate_failed": {
+    "message": "Не удалось сгенерировать мнемонику"
+  },
+  "password_dialog_clipboard_unavailable": {
+    "message": "Буфер обмена недоступен. Скопируйте вручную."
+  },
+  "password_dialog_seed_copied": {
+    "message": "Мнемоника скопирована"
+  },
+  "password_dialog_seed_copy_failed": {
+    "message": "Не удалось скопировать мнемонику"
+  },
+  "password_dialog_session_expired": {
+    "message": "Сеанс пароля истёк. Начните заново."
+  },
+  "password_dialog_seed_missing": {
+    "message": "Мнемоника отсутствует. Создайте её повторно."
+  },
+  "password_dialog_create_failed": {
+    "message": "Не удалось создать и сохранить кошелёк"
+  },
+  "password_dialog_password_required": {
+    "message": "Введите пароль"
+  },
+  "password_dialog_password_min_length": {
+    "message": "Пароль должен содержать не менее {minLength} символов."
+  },
+  "password_dialog_title_create": {
+    "message": "Создайте пароль кошелька"
+  },
+  "password_dialog_title_unlock": {
+    "message": "Разблокируйте кошельки"
+  },
+  "password_dialog_description_create": {
+    "message": "Защитите свои self-custodial кошельки паролем, который шифрует приватные ключи."
+  },
+  "password_dialog_description_unlock": {
+    "message": "Введите пароль кошелька, чтобы расшифровать приватные ключи."
+  },
+  "password_dialog_action_set_password": {
+    "message": "Задать пароль"
+  },
+  "password_dialog_action_unlock": {
+    "message": "Разблокировать"
+  },
+  "password_dialog_heading_create": {
+    "message": "Создайте пароль кошелька"
+  },
+  "password_dialog_heading_unlock": {
+    "message": "С возвращением"
+  },
+  "password_dialog_placeholder_create": {
+    "message": "Придумайте надёжный пароль"
+  },
+  "password_dialog_placeholder_unlock": {
+    "message": "Введите пароль для разблокировки"
+  },
+  "password_dialog_hide_password": {
+    "message": "Скрыть пароль"
+  },
+  "password_dialog_show_password": {
+    "message": "Показать пароль"
+  },
+  "password_dialog_hide_confirm_password": {
+    "message": "Скрыть подтверждение пароля"
+  },
+  "password_dialog_show_confirm_password": {
+    "message": "Показать подтверждение пароля"
+  },
+  "password_dialog_hint_strength": {
+    "message": "Используйте цифры, символы и буквы для большей надёжности."
+  },
+  "password_dialog_hint_storage": {
+    "message": "Храните этот пароль безопасно. Его нельзя восстановить."
+  },
+  "password_dialog_action_labels_only": {
+    "message": "Продолжить только с ярлыками"
+  },
+  "password_dialog_action_forgot": {
+    "message": "Забыли пароль?"
+  },
+  "password_dialog_forgot_title": {
+    "message": "Забыли пароль?"
+  },
+  "password_dialog_forgot_description": {
+    "message": "Пароль хранится только на этом устройстве. Попробуйте другой пароль или сбросьте кошелёк."
+  },
+  "password_dialog_forgot_label_info": {
+    "message": "Ваши ярлыки сохранятся."
+  },
+  "password_dialog_action_try_other": {
+    "message": "Попробовать другой пароль"
+  },
+  "password_dialog_action_reset_wallets": {
+    "message": "Сбросить и удалить все данные кошельков"
+  },
+  "password_dialog_reset_heading": {
+    "message": "Данные кошельков очищены"
+  },
+  "password_dialog_reset_description": {
+    "message": "Мы удалили зашифрованные кошельки с этого устройства. Импортируйте их заново с помощью мнемоники или приватных ключей и задайте новый пароль."
+  },
+  "password_dialog_seed_warning_title": {
+    "message": "Защитите фразу восстановления"
+  },
+  "password_dialog_seed_warning_description": {
+    "message": "Мы сгенерируем 12 слов, которые открывают ваши кошельки. Сохраните их офлайн перед продолжением."
+  },
+  "password_dialog_seed_heading": {
+    "message": "Запишите эти 12 слов"
+  },
+  "password_dialog_seed_subheading": {
+    "message": "Это единственный способ восстановить self-custodial кошельки на новом устройстве."
+  },
+  "password_dialog_action_create_wallet": {
+    "message": "Создать кошелёк"
+  },
+  "password_dialog_label_create_password": {
+    "message": "Создать пароль"
+  },
+  "password_dialog_label_unlock_password": {
+    "message": "Пароль кошелька"
+  },
+  "password_dialog_handle_request_failed": {
+    "message": "Не удалось обработать запрос диалога пароля"
+  },
+  "password_dialog_reset_confirm_title": {
+    "message": "Подтвердите сброс кошелька"
+  },
+  "password_dialog_reset_confirm_description_primary": {
+    "message": "Сброс удалит все зашифрованные кошельки на этом устройстве и его нельзя отменить."
+  },
+  "password_dialog_reset_confirm_description_secondary": {
+    "message": "Убедитесь, что вы сделали резервные копии всех кошельков перед продолжением."
+  },
+  "password_dialog_action_reset_wallet": {
+    "message": "Сбросить кошелёк"
+  },
+  "trading_panel_locked_title": {
+    "message": "Торговля заблокирована"
+  },
+  "trading_panel_locked_description": {
+    "message": "Войдите через всплывающее окно, чтобы разблокировать кошельки."
+  },
+  "trading_panel_unlock_button": {
+    "message": "Разблокировать во всплывающем окне"
+  },
+  "trading_panel_unlock_failed": {
+    "message": "Не удалось разблокировать пароль"
   }
 }
