@@ -629,6 +629,9 @@
   "continue_with_google": {
     "message": "使用 Google 登录"
   },
+  "continue": {
+    "message": "继续"
+  },
   "or": {
     "message": "或"
   },
@@ -1023,7 +1026,7 @@
     "message": "最大"
   },
   "enable_trading": {
-    "message": "启用交易"
+    "message": "启用交易 (Beta)"
   },
   "select_group": {
     "message": "选择分组"
@@ -1607,6 +1610,9 @@
   "limit_order_notional_value_too_low": {
     "message": "限价单名义价值至少为 5 美元"
   },
+  "wallet_position_not_found": {
+    "message": "未找到钱包持仓：{address}"
+  },
   "enter_sol_amount": {
     "message": "输入 SOL 数量"
   },
@@ -1646,6 +1652,12 @@
   "enable_turnkey_button": {
     "message": "使用 Google 启用"
   },
+  "limit_order_buy_active": {
+    "message": "{tokenSymbol} 的买入订单已创建并激活。"
+  },
+  "limit_order_sell_active": {
+    "message": "{tokenSymbol} 的卖出订单已创建并激活。"
+  },
   "limit_order_buy_triggered": {
     "message": "{tokenSymbol} 的买入订单已触发。"
   },
@@ -1657,6 +1669,12 @@
   },
   "limit_order_sell_completed": {
     "message": "{tokenSymbol} 的卖出订单已完成。"
+  },
+  "limit_order_buy_cancelled": {
+    "message": "{tokenSymbol} 的买入订单已取消。"
+  },
+  "limit_order_sell_cancelled": {
+    "message": "{tokenSymbol} 的卖出订单已取消。"
   },
   "limit_order_buy_expired": {
     "message": "{tokenSymbol} 的买入订单已过期。"
@@ -1684,6 +1702,33 @@
   },
   "amt": {
     "message": "数量"
+  },
+  "autotrade_strategy": {
+    "message": "自动交易策略"
+  },
+  "add_order": {
+    "message": "添加订单"
+  },
+  "take_profit": {
+    "message": "止盈"
+  },
+  "stop_loss": {
+    "message": "止损"
+  },
+  "dev_sell": {
+    "message": "Dev Sell"
+  },
+  "tp": {
+    "message": "TP"
+  },
+  "sell_amt": {
+    "message": "卖出数量"
+  },
+  "cancel_all": {
+    "message": "取消全部"
+  },
+  "autotrade_limit_orders_created": {
+    "message": "自动交易限价单已创建"
   },
   "wallet_common_password_incorrect": {
     "message": "密码错误"
@@ -2080,5 +2125,89 @@
   },
   "trading_panel_unlock_failed": {
     "message": "无法解锁密码"
+  },
+  "enable_trading_intro_fast_title": {
+    "message": "交易速度超越Axiom/GMGN"
+  },
+  "enable_trading_intro_fee_title": {
+    "message": "相比Axiom/GMGN节省超过70%的交易费用"
+  },
+  "enable_trading_intro_custodial_title": {
+    "message": "Frontrun 永远不会存储您的私钥。"
+  },
+  "enable_trading_create_password_title": {
+    "message": "创建密码"
+  },
+  "enable_trading_create_password_description": {
+    "message": "创建密码以安全解锁您的钱包。"
+  },
+  "enable_trading_enter_password_placeholder": {
+    "message": "输入密码"
+  },
+  "enable_trading_confirm_password_placeholder": {
+    "message": "确认密码"
+  },
+  "enable_trading_password_warning": {
+    "message": "只有您可以访问或恢复此密码。如果丢失，Frontrun 无法恢复您的密码。"
+  },
+  "enable_trading_seed_warning_title": {
+    "message": "助记词"
+  },
+  "enable_trading_seed_warning_intro": {
+    "message": "继续之前请仔细阅读。"
+  },
+  "enable_trading_seed_warning_item1": {
+    "message": "永远不要分享您的助记词。任何人拥有它都可以访问您的资产。"
+  },
+  "enable_trading_seed_warning_item2": {
+    "message": "请安全保管并离线保存。不要将其保存在截图或云笔记中。"
+  },
+  "enable_trading_seed_warning_item3": {
+    "message": "Frontrun 无法恢复它。您的助记词仅存储在您的设备上。"
+  },
+  "enable_trading_import_existing_wallet": {
+    "message": "导入现有钱包"
+  },
+  "enable_trading_saved_seed_phrase": {
+    "message": "我已保存助记词"
+  },
+  "enable_trading_enter_private_key_below": {
+    "message": "请在下方输入您的私钥。"
+  },
+  "enable_trading_label_wallet_title": {
+    "message": "为钱包添加标签"
+  },
+  "enable_trading_label_wallet_description": {
+    "message": "为您的默认钱包添加一个简短标签。"
+  },
+  "enable_trading_wallet_label_placeholder": {
+    "message": "例如：主钱包、交易、储蓄"
+  },
+  "enable_trading_skip": {
+    "message": "跳过"
+  },
+  "enable_trading_success_title": {
+    "message": "一切就绪！"
+  },
+  "enable_trading_wallets_ready": {
+    "message": "个钱包"
+  },
+  "enable_trading_are_ready_to_use": {
+    "message": "已准备就绪。"
+  },
+  "enable_trading_your_wallet": {
+    "message": "您的钱包"
+  },
+  "enable_trading_is_ready_to_use": {
+    "message": "已准备就绪。"
+  },
+  "enable_trading_beta_notice": {
+    "message": "交易功能处于 Beta 阶段。我们正在快速迭代以提供早期访问。请期待持续改进。"
+  },
+  "enable_trading_report_issue": {
+    "message": "报告问题。"
+  },
+  "enable_trading_password_min_length_fallback": {
+    "message": "密码长度至少为 6 个字符"
   }
 }

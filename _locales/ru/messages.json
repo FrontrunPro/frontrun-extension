@@ -641,6 +641,9 @@
   "continue_with_google": {
     "message": "Продолжить с Google"
   },
+  "continue": {
+    "message": "Продолжить"
+  },
   "or": {
     "message": "или"
   },
@@ -1035,7 +1038,7 @@
     "message": "МАКС"
   },
   "enable_trading": {
-    "message": "Включить торговлю"
+    "message": "Включить торговлю (Beta)"
   },
   "select_group": {
     "message": "Выберите группу"
@@ -1610,6 +1613,9 @@
   "limit_order_notional_value_too_low": {
     "message": "Номинальная стоимость лимитного ордера должна быть не менее 5 USD"
   },
+  "wallet_position_not_found": {
+    "message": "Позиция кошелька не найдена: {address}"
+  },
   "enter_sol_amount": {
     "message": "Введите количество SOL"
   },
@@ -1649,6 +1655,12 @@
   "enable_turnkey_button": {
     "message": "Включить через Google"
   },
+  "limit_order_buy_active": {
+    "message": "Ордер на покупку {tokenSymbol} создан и активен."
+  },
+  "limit_order_sell_active": {
+    "message": "Ордер на продажу {tokenSymbol} создан и активен."
+  },
   "limit_order_buy_triggered": {
     "message": "Ордер на покупку {tokenSymbol} был активирован."
   },
@@ -1660,6 +1672,12 @@
   },
   "limit_order_sell_completed": {
     "message": "Ордер на продажу {tokenSymbol} был выполнен."
+  },
+  "limit_order_buy_cancelled": {
+    "message": "Ордер на покупку {tokenSymbol} был отменён."
+  },
+  "limit_order_sell_cancelled": {
+    "message": "Ордер на продажу {tokenSymbol} был отменён."
   },
   "limit_order_buy_expired": {
     "message": "Ордер на покупку {tokenSymbol} истёк."
@@ -1690,6 +1708,33 @@
   },
   "manage_portfolio": {
     "message": "Управление портфелем"
+  },
+  "autotrade_strategy": {
+    "message": "Автоторговая стратегия"
+  },
+  "add_order": {
+    "message": "Добавить заказ"
+  },
+  "take_profit": {
+    "message": "Тейк-профит"
+  },
+  "stop_loss": {
+    "message": "Стоп-лосс"
+  },
+  "dev_sell": {
+    "message": "Dev Sell"
+  },
+  "tp": {
+    "message": "TP"
+  },
+  "sell_amt": {
+    "message": "Сумма продажи"
+  },
+  "cancel_all": {
+    "message": "Отменить все"
+  },
+  "autotrade_limit_orders_created": {
+    "message": "Автоторговые лимитные ордера созданы"
   },
   "wallet_common_password_incorrect": {
     "message": "Неверный пароль"
@@ -2086,5 +2131,89 @@
   },
   "trading_panel_unlock_failed": {
     "message": "Не удалось разблокировать пароль"
+  },
+  "enable_trading_intro_fast_title": {
+    "message": "Торгуйте мгновенно на любой платформе."
+  },
+  "enable_trading_intro_fee_title": {
+    "message": "Самая прозрачная структура комиссий"
+  },
+  "enable_trading_intro_custodial_title": {
+    "message": "Frontrun никогда не хранит ваш приватный ключ."
+  },
+  "enable_trading_create_password_title": {
+    "message": "Создать пароль"
+  },
+  "enable_trading_create_password_description": {
+    "message": "Создайте пароль для безопасной разблокировки кошелька."
+  },
+  "enable_trading_enter_password_placeholder": {
+    "message": "Введите пароль"
+  },
+  "enable_trading_confirm_password_placeholder": {
+    "message": "Подтвердите пароль"
+  },
+  "enable_trading_password_warning": {
+    "message": "Только вы можете получить доступ или восстановить этот пароль. Frontrun не может восстановить ваш пароль, если он утерян."
+  },
+  "enable_trading_seed_warning_title": {
+    "message": "Мнемоника"
+  },
+  "enable_trading_seed_warning_intro": {
+    "message": "Пожалуйста, внимательно прочитайте перед продолжением."
+  },
+  "enable_trading_seed_warning_item1": {
+    "message": "Никогда не делитесь своей мнемоникой. Любой, у кого она есть, может получить доступ к вашим активам."
+  },
+  "enable_trading_seed_warning_item2": {
+    "message": "Храните её в безопасности и офлайн. Никогда не сохраняйте её в скриншотах или облачных заметках."
+  },
+  "enable_trading_seed_warning_item3": {
+    "message": "Frontrun не может её восстановить. Ваша мнемоника хранится только на вашем устройстве."
+  },
+  "enable_trading_import_existing_wallet": {
+    "message": "Импортировать существующий кошелёк"
+  },
+  "enable_trading_saved_seed_phrase": {
+    "message": "Я сохранил мнемонику"
+  },
+  "enable_trading_enter_private_key_below": {
+    "message": "Введите ваш приватный ключ ниже."
+  },
+  "enable_trading_label_wallet_title": {
+    "message": "Назовите ваш кошелёк"
+  },
+  "enable_trading_label_wallet_description": {
+    "message": "Добавьте короткое название для вашего кошелька по умолчанию."
+  },
+  "enable_trading_wallet_label_placeholder": {
+    "message": "например: Основной, Торговля, Сбережения"
+  },
+  "enable_trading_skip": {
+    "message": "Пропустить"
+  },
+  "enable_trading_success_title": {
+    "message": "Всё готово!"
+  },
+  "enable_trading_wallets_ready": {
+    "message": "кошельков"
+  },
+  "enable_trading_are_ready_to_use": {
+    "message": "готовы к использованию."
+  },
+  "enable_trading_your_wallet": {
+    "message": "Ваш кошелёк"
+  },
+  "enable_trading_is_ready_to_use": {
+    "message": "готов к использованию."
+  },
+  "enable_trading_beta_notice": {
+    "message": "Торговля находится в бета-версии. Мы быстро развиваемся, чтобы предоставить вам ранний доступ. Ожидайте постоянных улучшений."
+  },
+  "enable_trading_report_issue": {
+    "message": "Сообщить о проблеме."
+  },
+  "enable_trading_password_min_length_fallback": {
+    "message": "Пароль должен содержать не менее 6 символов"
   }
 }

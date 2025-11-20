@@ -635,6 +635,9 @@
   "continue_with_google": {
     "message": "Continue with Google"
   },
+  "continue": {
+    "message": "Continue"
+  },
   "or": {
     "message": "or"
   },
@@ -1029,7 +1032,7 @@
     "message": "MAX"
   },
   "enable_trading": {
-    "message": "Enable Trading"
+    "message": "Enable Trading (Beta)"
   },
   "select_group": {
     "message": "Select Group"
@@ -1607,6 +1610,9 @@
   "limit_order_notional_value_too_low": {
     "message": "Limit order notional value must be at least 5 USD"
   },
+  "wallet_position_not_found": {
+    "message": "Wallet position not found for {address}"
+  },
   "enter_sol_amount": {
     "message": "Enter SOL amount"
   },
@@ -1646,6 +1652,12 @@
   "enable_turnkey_button": {
     "message": "Enable with Google"
   },
+  "limit_order_buy_active": {
+    "message": "The buy order for {tokenSymbol} has been created and is active."
+  },
+  "limit_order_sell_active": {
+    "message": "The sell order for {tokenSymbol} has been created and is active."
+  },
   "limit_order_buy_triggered": {
     "message": "The buy order for {tokenSymbol} has been triggered."
   },
@@ -1657,6 +1669,12 @@
   },
   "limit_order_sell_completed": {
     "message": "The sell order for {tokenSymbol} has been completed."
+  },
+  "limit_order_buy_cancelled": {
+    "message": "The buy order for {tokenSymbol} has been cancelled."
+  },
+  "limit_order_sell_cancelled": {
+    "message": "The sell order for {tokenSymbol} has been cancelled."
   },
   "limit_order_buy_expired": {
     "message": "The buy order for {tokenSymbol} has expired."
@@ -1687,6 +1705,33 @@
   },
   "manage_portfolio": {
     "message": "Manage Portfolio"
+  },
+  "autotrade_strategy": {
+    "message": "Autotrade Strategy"
+  },
+  "add_order": {
+    "message": "Add Order"
+  },
+  "take_profit": {
+    "message": "Take Profit"
+  },
+  "stop_loss": {
+    "message": "Stop Loss"
+  },
+  "dev_sell": {
+    "message": "Dev Sell"
+  },
+  "tp": {
+    "message": "TP"
+  },
+  "sell_amt": {
+    "message": "Sell amt"
+  },
+  "cancel_all": {
+    "message": "Cancel All"
+  },
+  "autotrade_limit_orders_created": {
+    "message": "Autotrade limit orders created"
   },
   "wallet_common_password_incorrect": {
     "message": "Incorrect password"
@@ -2083,5 +2128,89 @@
   },
   "trading_panel_unlock_failed": {
     "message": "Unable to unlock password"
+  },
+  "enable_trading_intro_fast_title": {
+    "message": "Trade instantly across any platform"
+  },
+  "enable_trading_intro_fee_title": {
+    "message": "Most Transparent Fee Structure"
+  },
+  "enable_trading_intro_custodial_title": {
+    "message": "Frontrun never stores your private key"
+  },
+  "enable_trading_create_password_title": {
+    "message": "Create Password"
+  },
+  "enable_trading_create_password_description": {
+    "message": "Create a password to securely unlock your wallet."
+  },
+  "enable_trading_enter_password_placeholder": {
+    "message": "Enter password"
+  },
+  "enable_trading_confirm_password_placeholder": {
+    "message": "Confirm Password"
+  },
+  "enable_trading_password_warning": {
+    "message": "Only you can access or recover this password. Frontrun cannot restore your password if it's lost."
+  },
+  "enable_trading_seed_warning_title": {
+    "message": "Seed Phrase"
+  },
+  "enable_trading_seed_warning_intro": {
+    "message": "Please read carefully before continuing."
+  },
+  "enable_trading_seed_warning_item1": {
+    "message": "Never share your seed phrase. Anyone with it can access your assets."
+  },
+  "enable_trading_seed_warning_item2": {
+    "message": "Keep it safe and offline. Never save it in screenshots or cloud notes."
+  },
+  "enable_trading_seed_warning_item3": {
+    "message": "Frontrun cannot recover it. Your seed phrase is stored only on your device."
+  },
+  "enable_trading_import_existing_wallet": {
+    "message": "Import an existing wallet"
+  },
+  "enable_trading_saved_seed_phrase": {
+    "message": "I have saved the seed phrase"
+  },
+  "enable_trading_enter_private_key_below": {
+    "message": "Enter your private key below."
+  },
+  "enable_trading_label_wallet_title": {
+    "message": "Label Your Wallet"
+  },
+  "enable_trading_label_wallet_description": {
+    "message": "Add a short label for your default wallet."
+  },
+  "enable_trading_wallet_label_placeholder": {
+    "message": "eg. Main, Trading, Saving"
+  },
+  "enable_trading_skip": {
+    "message": "Skip"
+  },
+  "enable_trading_success_title": {
+    "message": "You are all set!"
+  },
+  "enable_trading_wallets_ready": {
+    "message": "wallets"
+  },
+  "enable_trading_are_ready_to_use": {
+    "message": "are ready to use."
+  },
+  "enable_trading_your_wallet": {
+    "message": "Your wallet"
+  },
+  "enable_trading_is_ready_to_use": {
+    "message": "is ready to use."
+  },
+  "enable_trading_beta_notice": {
+    "message": "Trading is in Beta. We're shipping fast to give you early access. Expect ongoing improvements."
+  },
+  "enable_trading_report_issue": {
+    "message": "Report an issue."
+  },
+  "enable_trading_password_min_length_fallback": {
+    "message": "Password must be at least 6 characters"
   }
 }
