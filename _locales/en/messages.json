@@ -920,6 +920,9 @@
   "balance": {
     "message": "Balance"
   },
+  "remaining": {
+    "message": "Remaining"
+  },
   "verify_with_google": {
     "message": "Verify with Google"
   },
@@ -1289,6 +1292,9 @@
   "order_execution_failed": {
     "message": "Order execution failed"
   },
+  "transactions_failed": {
+    "message": "transactions failed"
+  },
   "this_will_permanently_remove_this_wallet_from_your_list": {
     "message": "This will permanently remove this wallet from your list. You will only be able to re-import it using its private key."
   },
@@ -1342,6 +1348,12 @@
   },
   "holder_history": {
     "message": "Holder History"
+  },
+  "network_fee": {
+    "message": "Network Fee"
+  },
+  "more_fee_saved": {
+    "message": "more"
   },
   "holders": {
     "message": "Holders"
@@ -1517,6 +1529,9 @@
   "no_fee": {
     "message": "0 fee"
   },
+  "save_fees_percent": {
+    "message": "Save {x}% fees"
+  },
   "add_to_selection": {
     "message": "Add to selection"
   },
@@ -1579,6 +1594,30 @@
   },
   "edit": {
     "message": "Edit"
+  },
+  "total_fees": {
+    "message": "Total Fees"
+  },
+  "transaction_overpaid": {
+    "message": "This transaction overpaid {fee} in fees"
+  },
+  "transaction_overpaid_prefix": {
+    "message": "This transaction overpaid"
+  },
+  "transaction_overpaid_suffix": {
+    "message": "in fees"
+  },
+  "save_percentage": {
+    "message": "Save {percentage}%"
+  },
+  "save_with_frontrun": {
+    "message": "Save {savings}% with"
+  },
+  "total": {
+    "message": "Total"
+  },
+  "save_fees": {
+    "message": "Save {fee} in fees!"
   },
   "collapse": {
     "message": "Collapse"
@@ -1884,7 +1923,7 @@
     "message": "Import from seed phrase"
   },
   "wallet_common_option_import_private_key": {
-    "message": "Import from private key"
+    "message": "Import from Private Key"
   },
   "wallet_common_secure_wallets_title": {
     "message": "Secure your wallets"
@@ -2030,11 +2069,17 @@
   "password_dialog_action_forgot": {
     "message": "Forgot password?"
   },
+  "password_dialog_trading_beta_message": {
+    "message": "Trading is in Beta. We're shipping fast to give you early access. Expect ongoing improvements."
+  },
+  "password_dialog_report_issue": {
+    "message": "Report an issue."
+  },
   "password_dialog_forgot_title": {
     "message": "Forgot your password?"
   },
   "password_dialog_forgot_description": {
-    "message": "Your password only lives on this device. Try another password or reset the wallets."
+    "message": "We can’t retrieve your password since it’s stored only on your device. You can try another password, or reset your wallet data to start fresh.Your Label data will remain saved."
   },
   "password_dialog_forgot_label_info": {
     "message": "Your label data will remain available."
@@ -2082,10 +2127,13 @@
     "message": "Reset wallets?"
   },
   "password_dialog_reset_confirm_description_primary": {
-    "message": "Resetting removes all encrypted wallet data from this device. This cannot be undone."
+    "message": "Resetting will permanently remove all wallet data from this device and restore it to the default state."
   },
   "password_dialog_reset_confirm_description_secondary": {
     "message": "Make sure you’ve backed up every wallet before continuing."
+  },
+  "password_dialog_reset_confirm_description_secondary_secondary": {
+    "message": "This action cannot be undone."
   },
   "password_dialog_action_reset_wallet": {
     "message": "Reset wallet"
@@ -2212,5 +2260,50 @@
   },
   "enable_trading_password_min_length_fallback": {
     "message": "Password must be at least 6 characters"
+  },
+  "extension_settings": {
+    "message": "Settings"
+  },
+  "wallet_dashboard": {
+    "message": "Wallet Dashboard"
+  },
+  "support_and_feedback": {
+    "message": "Support & Feedback"
+  },
+  "support": {
+    "message": "Support"
+  },
+  "support_telegram_description": {
+    "message": "Get help fast. Contact Support on Telegram"
+  },
+  "chat_on_telegram": {
+    "message": "Chat on Telegram"
+  },
+  "feedback": {
+    "message": "Feedback"
+  },
+  "feedback_description": {
+    "message": "Report bugs or request new features."
+  },
+  "report_bug_title": {
+    "message": "Found a bug? Tell us, we'll fix it fast."
+  },
+  "report_bug": {
+    "message": "Report Bug"
+  },
+  "request_feature_title": {
+    "message": "Have an idea to improve Frontrun?"
+  },
+  "request_feature": {
+    "message": "Request Feature"
+  },
+  "lock_wallet": {
+    "message": "Lock Wallet"
+  },
+  "wallet_locked": {
+    "message": "Wallet locked"
+  },
+  "failed_to_lock_wallet": {
+    "message": "Failed to lock wallet"
   }
 }

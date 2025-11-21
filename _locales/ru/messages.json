@@ -926,6 +926,9 @@
   "balance": {
     "message": "Баланс"
   },
+  "remaining": {
+    "message": "Остаток"
+  },
   "verify_with_google": {
     "message": "Подтвердить через Google"
   },
@@ -1292,6 +1295,9 @@
   "order_execution_failed": {
     "message": "Ошибка выполнения ордера"
   },
+  "transactions_failed": {
+    "message": "транзакций не выполнено"
+  },
   "this_will_permanently_remove_this_wallet_from_your_list": {
     "message": "Это удалит кошелёк навсегда. Вы сможете его восстановить только с помощью приватного ключа."
   },
@@ -1442,6 +1448,12 @@
   "for": {
     "message": "за"
   },
+  "more_fee_saved": {
+    "message": "больше"
+  },
+  "network_fee": {
+    "message": "Сетевая комиссия"
+  },
   "current_position": {
     "message": "Текущая позиция"
   },
@@ -1517,6 +1529,9 @@
   "no_fee": {
     "message": "Без комиссии"
   },
+  "save_fees_percent": {
+    "message": "Сэкономьте {x}% на комиссиях"
+  },
   "add_to_selection": {
     "message": "Добавить в выбор"
   },
@@ -1579,6 +1594,30 @@
   },
   "edit": {
     "message": "Редактировать"
+  },
+  "total_fees": {
+    "message": "Общая комиссия"
+  },
+  "transaction_overpaid": {
+    "message": "Эта транзакция дополнительно потратила {fee} комиссии"
+  },
+  "transaction_overpaid_prefix": {
+    "message": "Эта транзакция дополнительно потратила"
+  },
+  "transaction_overpaid_suffix": {
+    "message": "комиссии"
+  },
+  "save_percentage": {
+    "message": "Экономия {percentage}%"
+  },
+  "save_with_frontrun": {
+    "message": "экономьте {savings}% с"
+  },
+  "total": {
+    "message": "Всего"
+  },
+  "save_fees": {
+    "message": "Экономия {fee} комиссии!"
   },
   "no_holdings": {
     "message": "Нет позиций"
@@ -2063,6 +2102,12 @@
   "password_dialog_action_forgot": {
     "message": "Забыли пароль?"
   },
+  "password_dialog_trading_beta_message": {
+    "message": "Торговля находится в бета-версии. Мы быстро выпускаем обновления, чтобы дать вам ранний доступ. Ожидайте постоянных улучшений."
+  },
+  "password_dialog_report_issue": {
+    "message": "Сообщить о проблеме."
+  },
   "password_dialog_forgot_title": {
     "message": "Забыли пароль?"
   },
@@ -2116,6 +2161,9 @@
   },
   "password_dialog_reset_confirm_description_secondary": {
     "message": "Убедитесь, что вы сделали резервные копии всех кошельков перед продолжением."
+  },
+  "password_dialog_reset_confirm_description_secondary_secondary": {
+    "message": "Это действие нельзя отменить."
   },
   "password_dialog_action_reset_wallet": {
     "message": "Сбросить кошелёк"
@@ -2215,5 +2263,50 @@
   },
   "enable_trading_password_min_length_fallback": {
     "message": "Пароль должен содержать не менее 6 символов"
+  },
+  "extension_settings": {
+    "message": "Настройки расширения"
+  },
+  "wallet_dashboard": {
+    "message": "Панель кошелька"
+  },
+  "support_and_feedback": {
+    "message": "Поддержка и отзывы"
+  },
+  "support": {
+    "message": "Поддержка"
+  },
+  "support_telegram_description": {
+    "message": "Получите быструю помощь. Свяжитесь со службой поддержки в Telegram"
+  },
+  "chat_on_telegram": {
+    "message": "Чат в Telegram"
+  },
+  "feedback": {
+    "message": "Отзыв"
+  },
+  "feedback_description": {
+    "message": "Сообщите об ошибках или запросите новые функции."
+  },
+  "report_bug_title": {
+    "message": "Нашли ошибку? Сообщите нам, мы быстро исправим."
+  },
+  "report_bug": {
+    "message": "Сообщить об ошибке"
+  },
+  "request_feature_title": {
+    "message": "Есть идея, как улучшить Frontrun?"
+  },
+  "request_feature": {
+    "message": "Запросить функцию"
+  },
+  "lock_wallet": {
+    "message": "Заблокировать кошелёк"
+  },
+  "wallet_locked": {
+    "message": "Кошелёк заблокирован"
+  },
+  "failed_to_lock_wallet": {
+    "message": "Не удалось заблокировать кошелёк"
   }
 }

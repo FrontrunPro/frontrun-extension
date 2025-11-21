@@ -168,7 +168,7 @@
     "message": "交易总数"
   },
   "validator_tip": {
-    "message": "小费"
+    "message": "Jito小费"
   },
   "transaction_signatures": {
     "message": "交易签名"
@@ -914,6 +914,9 @@
   "balance": {
     "message": "余额"
   },
+  "remaining": {
+    "message": "余额"
+  },
   "verify_with_google": {
     "message": "使用 Google 验证"
   },
@@ -1274,6 +1277,9 @@
   "order_execution_failed": {
     "message": "订单执行失败"
   },
+  "transactions_failed": {
+    "message": "笔交易失败"
+  },
   "this_will_permanently_remove_this_wallet_from_your_list": {
     "message": "这将永久删除此钱包。您只能使用私钥重新导入它。"
   },
@@ -1511,6 +1517,9 @@
   "no_fee": {
     "message": "无手续费"
   },
+  "save_fees_percent": {
+    "message": "立省 {x}% 交易费"
+  },
   "add_to_selection": {
     "message": "添加到选择"
   },
@@ -1573,6 +1582,36 @@
   },
   "edit": {
     "message": "编辑"
+  },
+  "total_fees": {
+    "message": "总费用"
+  },
+  "transaction_overpaid": {
+    "message": "这笔交易额外花费了 {fee} 手续费"
+  },
+  "transaction_overpaid_prefix": {
+    "message": "这笔交易额外花费了"
+  },
+  "transaction_overpaid_suffix": {
+    "message": "手续费"
+  },
+  "more_fee_saved": {
+    "message": "更多"
+  },
+  "network_fee": {
+    "message": "网络费用"
+  },
+  "save_percentage": {
+    "message": "立省 {percentage}%"
+  },
+  "save_with_frontrun": {
+    "message": "用 Frontrun 立省 {savings}% →"
+  },
+  "total": {
+    "message": "总计"
+  },
+  "save_fees": {
+    "message": "省 {fee} 手续费！"
   },
   "no_holdings": {
     "message": "暂无持仓"
@@ -1847,6 +1886,12 @@
   "wallet_common_seed_phrase_missing": {
     "message": "请填写助记词的全部单词"
   },
+  "wallet_common_seed_phrase_12_words": {
+    "message": "12个单词"
+  },
+  "wallet_common_seed_phrase_24_words": {
+    "message": "24个单词"
+  },
   "wallet_common_copy_seed_phrase": {
     "message": "复制助记词"
   },
@@ -2057,6 +2102,12 @@
   "password_dialog_action_forgot": {
     "message": "忘记密码？"
   },
+  "password_dialog_trading_beta_message": {
+    "message": "交易功能处于 Beta 阶段。我们正在快速迭代以提供早期访问。请期待持续改进。"
+  },
+  "password_dialog_report_issue": {
+    "message": "报告问题。"
+  },
   "password_dialog_forgot_title": {
     "message": "忘记密码？"
   },
@@ -2209,5 +2260,50 @@
   },
   "enable_trading_password_min_length_fallback": {
     "message": "密码长度至少为 6 个字符"
+  },
+  "extension_settings": {
+    "message": "扩展设置"
+  },
+  "wallet_dashboard": {
+    "message": "钱包面板"
+  },
+  "support_and_feedback": {
+    "message": "支持与反馈"
+  },
+  "support": {
+    "message": "支持"
+  },
+  "support_telegram_description": {
+    "message": "快速获取帮助。在 Telegram 上联系支持"
+  },
+  "chat_on_telegram": {
+    "message": "在 Telegram 上聊天"
+  },
+  "feedback": {
+    "message": "反馈"
+  },
+  "feedback_description": {
+    "message": "报告错误或请求新功能。"
+  },
+  "report_bug_title": {
+    "message": "发现错误？告诉我们，我们会快速修复。"
+  },
+  "report_bug": {
+    "message": "报告错误"
+  },
+  "request_feature_title": {
+    "message": "有改进 Frontrun 的想法？"
+  },
+  "request_feature": {
+    "message": "请求功能"
+  },
+  "lock_wallet": {
+    "message": "锁定钱包"
+  },
+  "wallet_locked": {
+    "message": "钱包已锁定"
+  },
+  "failed_to_lock_wallet": {
+    "message": "锁定钱包失败"
   }
 }
