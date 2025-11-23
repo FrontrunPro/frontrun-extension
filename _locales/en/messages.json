@@ -1068,7 +1068,7 @@
     "message": "Option 2"
   },
   "insufficient_balance": {
-    "message": "Insufficient Balance"
+    "message": "Insufficient balance for this transaction."
   },
   "failed_to_send": {
     "message": "Failed to send"
@@ -1291,6 +1291,18 @@
   },
   "order_execution_failed": {
     "message": "Order execution failed"
+  },
+  "transaction_failed_due_to_low_liquidity": {
+    "message": "Transaction failed due to low liquidity in the pool"
+  },
+  "slippage_exceeded": {
+    "message": "Slippage tolerance exceeded. Try increasing your slippage tolerance"
+  },
+  "insufficient_liquidity": {
+    "message": "Insufficient liquidity in the pool."
+  },
+  "launchpad_trade_failed": {
+    "message": "Launchpad trade failed. Please try again."
   },
   "transactions_failed": {
     "message": "transactions failed"

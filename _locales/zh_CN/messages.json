@@ -1059,7 +1059,7 @@
     "message": "选项2"
   },
   "insufficient_balance": {
-    "message": "余额不足"
+    "message": "余额不足，无法完成此交易。"
   },
   "failed_to_send": {
     "message": "发送失败"
@@ -1276,6 +1276,18 @@
   },
   "order_execution_failed": {
     "message": "订单执行失败"
+  },
+  "transaction_failed_due_to_low_liquidity": {
+    "message": "由于流动性不足，交易失败"
+  },
+  "slippage_exceeded": {
+    "message": "滑点容忍度超出。请尝试增加滑点容忍度"
+  },
+  "insufficient_liquidity": {
+    "message": "池中流动性不足。请尝试减少交易金额。"
+  },
+  "launchpad_trade_failed": {
+    "message": "Launchpad 交易失败。请重试。"
   },
   "transactions_failed": {
     "message": "笔交易失败"

@@ -1071,7 +1071,7 @@
     "message": "Вариант 2"
   },
   "insufficient_balance": {
-    "message": "Недостаточный баланс"
+    "message": "Недостаточно средств для выполнения этой транзакции."
   },
   "failed_to_send": {
     "message": "Не удалось отправить"
@@ -1294,6 +1294,18 @@
   },
   "order_execution_failed": {
     "message": "Ошибка выполнения ордера"
+  },
+  "transaction_failed_due_to_low_liquidity": {
+    "message": "Транзакция не выполнена из-за низкой ликвидности"
+  },
+  "slippage_exceeded": {
+    "message": "Превышен допуск проскальзывания. Попробуйте увеличить допуск проскальзывания"
+  },
+  "insufficient_liquidity": {
+    "message": "Недостаточная ликвидность в пуле. Попробуйте уменьшить сумму сделки."
+  },
+  "launchpad_trade_failed": {
+    "message": "Сделка Launchpad не выполнена. Пожалуйста, попробуйте снова."
   },
   "transactions_failed": {
     "message": "транзакций не выполнено"
