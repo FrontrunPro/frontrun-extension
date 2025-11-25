@@ -911,6 +911,9 @@
   "invalid_amount": {
     "message": "Неверная сумма"
   },
+  "amount_required": {
+    "message": "Требуется указать сумму"
+  },
   "failed_to_export_private_key": {
     "message": "Не удалось экспортировать приватный ключ"
   },

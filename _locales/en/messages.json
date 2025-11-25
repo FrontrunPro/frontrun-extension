@@ -905,6 +905,9 @@
   "invalid_amount": {
     "message": "Invalid amount"
   },
+  "amount_required": {
+    "message": "Amount is required"
+  },
   "failed_to_export_private_key": {
     "message": "Failed to export private key"
   },

@@ -899,6 +899,9 @@
   "invalid_amount": {
     "message": "无效金额"
   },
+  "amount_required": {
+    "message": "金额为必填项"
+  },
   "failed_to_export_private_key": {
     "message": "导出私钥失败"
   },
@@ -1389,7 +1392,7 @@
     "message": "的手续费，通过使用"
   },
   "fee_saved_trading_panel": {
-    "message": "手续费已节省"
+    "message": "已节省"
   },
   "more": {
     "message": "更多"
