@@ -608,6 +608,9 @@
   "quick_buy": {
     "message": "Buy"
   },
+  "quick_buy_label": {
+    "message": "Quick Buy"
+  },
   "quick_sell": {
     "message": "Sell"
   },
@@ -1218,7 +1221,7 @@
     "message": "Treat domains as clues—not proof of identity."
   },
   "archived": {
-    "message": "archived"
+    "message": "Archived"
   },
   "archive": {
     "message": "archive"

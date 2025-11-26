@@ -596,6 +596,9 @@
   "quick_buy": {
     "message": "买入"
   },
+  "quick_buy_label": {
+    "message": "快速买入"
+  },
   "quick_sell": {
     "message": "卖出"
   },
@@ -2196,7 +2199,7 @@
     "message": "交易速度超越Axiom/GMGN"
   },
   "enable_trading_intro_fee_title": {
-    "message": "相比Axiom/GMGN节省超过70%的交易费用"
+    "message": "相比Axiom/GMGN节省超过90%的交易费用"
   },
   "enable_trading_intro_custodial_title": {
     "message": "Frontrun 永远不会存储您的私钥。"
