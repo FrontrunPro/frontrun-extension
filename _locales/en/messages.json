@@ -645,7 +645,7 @@
     "message": "or"
   },
   "activate_account": {
-    "message": "Activate Account"
+    "message": "Have an invite code?"
   },
   "enter_invite_code": {
     "message": "Enter invite code"
@@ -664,6 +664,9 @@
   },
   "ended_trial": {
     "message": "3-day trial has ended, please obtain an invite code: "
+  },
+  "skip": {
+    "message": "Skip"
   },
   "switch_account": {
     "message": "Switch Account"
@@ -1271,6 +1274,18 @@
   "selling": {
     "message": "Selling"
   },
+  "sell_init": {
+    "message": "Sell Init."
+  },
+  "sell_initial_insufficient_tokens": {
+    "message": "You do not have enough tokens to cover your initial position"
+  },
+  "have_already_made_profit": {
+    "message": "You cannot sell initial position because you have already made your initial investment."
+  },
+  "price_not_available": {
+    "message": "Price is not available. Please try again later."
+  },
   "fee": {
     "message": "Fee"
   },
@@ -1294,6 +1309,9 @@
   },
   "transaction_confirmed": {
     "message": "Order confirmed"
+  },
+  "transaction_confirmed_sidepanel": {
+    "message": "Transaction Confirmed"
   },
   "order_execution_failed": {
     "message": "Order execution failed"
@@ -1401,7 +1419,7 @@
     "message": "You saved"
   },
   "in_fees_using": {
-    "message": "in fees using"
+    "message": "in fees"
   },
   "fee_saved": {
     "message": "Fee Saved"
@@ -1642,6 +1660,12 @@
   },
   "expand": {
     "message": "Expand"
+  },
+  "enable_keyboard_shortcuts": {
+    "message": "Enable keyboard shortcuts"
+  },
+  "disable_keyboard_shortcuts": {
+    "message": "Hold space to use hotkeys"
   },
   "fee_saved_trading_panel": {
     "message": "saved!"
@@ -2199,7 +2223,7 @@
     "message": "Trade instantly across any platform"
   },
   "enable_trading_intro_fee_title": {
-    "message": "Most Transparent Fee Structure"
+    "message": "A flat fee of 0.1% for every trade"
   },
   "enable_trading_intro_custodial_title": {
     "message": "Frontrun never stores your private key"

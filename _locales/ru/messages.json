@@ -651,7 +651,7 @@
     "message": "или"
   },
   "activate_account": {
-    "message": "Активировать аккаунт"
+    "message": "Есть код приглашения?"
   },
   "enter_invite_code": {
     "message": "Введите код приглашения"
@@ -670,6 +670,9 @@
   },
   "ended_trial": {
     "message": "3-дневный пробный период закончился, пожалуйста, получите код приглашения: "
+  },
+  "skip": {
+    "message": "Пропустить"
   },
   "switch_account": {
     "message": "Сменить аккаунт"
@@ -1274,6 +1277,18 @@
   "selling": {
     "message": "Продажа"
   },
+  "sell_init": {
+    "message": "Окупаемость"
+  },
+  "sell_initial_insufficient_tokens": {
+    "message": "У вас недостаточно токенов для покрытия вашей начальной позиции!"
+  },
+  "price_not_available": {
+    "message": "Цена недоступна. Пожалуйста, попробуйте позже."
+  },
+  "have_already_made_profit": {
+    "message": "Вы не можете продать начальную позицию, потому что вы уже сделали свою начальную инвестицию."
+  },
   "fee": {
     "message": "Комиссия"
   },
@@ -1296,6 +1311,9 @@
     "message": "Баланс составляет {tokenBalance}, меньше {amount}"
   },
   "transaction_confirmed": {
+    "message": "Транзакция подтверждена"
+  },
+  "transaction_confirmed_sidepanel": {
     "message": "Транзакция подтверждена"
   },
   "order_execution_failed": {
@@ -1398,7 +1416,7 @@
     "message": "Вы сэкономили"
   },
   "in_fees_using": {
-    "message": "комиссии, используя"
+    "message": "комиссии"
   },
   "fee_saved": {
     "message": "Комиссия сохранена"
@@ -1645,6 +1663,12 @@
   },
   "expand": {
     "message": "Развернуть"
+  },
+  "enable_keyboard_shortcuts": {
+    "message": "Включить горячие клавиши"
+  },
+  "disable_keyboard_shortcuts": {
+    "message": "Удерживайте пробел для использования горячих клавиш"
   },
   "fee_saved_trading_panel": {
     "message": "Сохранено!"
@@ -2202,7 +2226,7 @@
     "message": "Торгуйте мгновенно на любой платформе."
   },
   "enable_trading_intro_fee_title": {
-    "message": "Самая прозрачная структура комиссий"
+    "message": "Фиксированная комиссия 0.1% за каждую сделку"
   },
   "enable_trading_intro_custodial_title": {
     "message": "Frontrun никогда не хранит ваш приватный ключ."

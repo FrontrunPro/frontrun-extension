@@ -611,6 +611,15 @@
   "selling": {
     "message": "卖出中"
   },
+  "sell_init": {
+    "message": "出本"
+  },
+  "sell_initial_insufficient_tokens": {
+    "message": "您没有足够的代币来覆盖您的初始仓位"
+  },
+  "price_not_available": {
+    "message": "价格不可用，请稍后再试"
+  },
   "recently_logged_in_as": {
     "message": "最近登录账号"
   },
@@ -639,7 +648,7 @@
     "message": "或"
   },
   "activate_account": {
-    "message": "激活账号"
+    "message": "有邀请码吗？"
   },
   "enter_invite_code": {
     "message": "输入邀请码"
@@ -658,6 +667,9 @@
   },
   "ended_trial": {
     "message": "3 天试用已结束，请获取邀请码："
+  },
+  "skip": {
+    "message": "跳过"
   },
   "switch_account": {
     "message": "切换账号"
@@ -1268,6 +1280,9 @@
   "amount_less_than_zero": {
     "message": "金额小于0"
   },
+  "have_already_made_profit": {
+    "message": "不能再出售初始持仓，因为您已经回本。"
+  },
   "sol_balance_not_enough": {
     "message": "SOL余额不足"
   },
@@ -1278,6 +1293,9 @@
     "message": "余额为{tokenBalance}，少于{amount}"
   },
   "transaction_confirmed": {
+    "message": "交易已确认"
+  },
+  "transaction_confirmed_sidepanel": {
     "message": "交易已确认"
   },
   "order_execution_failed": {
@@ -1392,7 +1410,7 @@
     "message": "您节省了"
   },
   "in_fees_using": {
-    "message": "的手续费，通过使用"
+    "message": "手续费"
   },
   "fee_saved_trading_panel": {
     "message": "已节省"
@@ -1642,6 +1660,12 @@
   },
   "expand": {
     "message": "展开"
+  },
+  "enable_keyboard_shortcuts": {
+    "message": "启用键盘快捷键"
+  },
+  "disable_keyboard_shortcuts": {
+    "message": "按住空格键使用快捷键"
   },
   "fee_saved": {
     "message": "已节省！"
@@ -2199,7 +2223,7 @@
     "message": "交易速度超越Axiom/GMGN"
   },
   "enable_trading_intro_fee_title": {
-    "message": "相比Axiom/GMGN节省超过90%的交易费用"
+    "message": "每笔交易仅收取0.1%手续费"
   },
   "enable_trading_intro_custodial_title": {
     "message": "Frontrun 永远不会存储您的私钥。"
