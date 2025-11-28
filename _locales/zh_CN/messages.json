@@ -1734,40 +1734,40 @@
     "message": "使用 Google 启用"
   },
   "limit_order_buy_active": {
-    "message": "{tokenSymbol} 的买入订单已创建并激活。"
+    "message": "${tokenSymbol} 的买入订单已创建并激活。"
   },
   "limit_order_sell_active": {
-    "message": "{tokenSymbol} 的卖出订单已创建并激活。"
+    "message": "${tokenSymbol} 的卖出订单已创建并激活。"
   },
   "limit_order_buy_triggered": {
-    "message": "{tokenSymbol} 的买入订单已触发。"
+    "message": "${tokenSymbol} 的买入订单已触发。"
   },
   "limit_order_sell_triggered": {
-    "message": "{tokenSymbol} 的卖出订单已触发。"
+    "message": "${tokenSymbol} 的卖出订单已触发。"
   },
   "limit_order_buy_completed": {
-    "message": "{tokenSymbol} 的买入订单已完成。"
+    "message": "${tokenSymbol} 的买入订单已完成。"
   },
   "limit_order_sell_completed": {
-    "message": "{tokenSymbol} 的卖出订单已完成。"
+    "message": "${tokenSymbol} 的卖出订单已完成。"
   },
   "limit_order_buy_cancelled": {
-    "message": "{tokenSymbol} 的买入订单已取消。"
+    "message": "${tokenSymbol} 的买入订单已取消。"
   },
   "limit_order_sell_cancelled": {
-    "message": "{tokenSymbol} 的卖出订单已取消。"
+    "message": "${tokenSymbol} 的卖出订单已取消。"
   },
   "limit_order_buy_expired": {
-    "message": "{tokenSymbol} 的买入订单已过期。"
+    "message": "${tokenSymbol} 的买入订单已过期。"
   },
   "limit_order_sell_expired": {
-    "message": "{tokenSymbol} 的卖出订单已过期。"
+    "message": "${tokenSymbol} 的卖出订单已过期。"
   },
   "limit_order_buy_failed": {
-    "message": "{tokenSymbol} 的买入订单已失败。"
+    "message": "${tokenSymbol} 的买入订单已失败。"
   },
   "limit_order_sell_failed": {
-    "message": "{tokenSymbol} 的卖出订单已失败。"
+    "message": "${tokenSymbol} 的卖出订单已失败。"
   },
   "active_trades": {
     "message": "活跃交易"

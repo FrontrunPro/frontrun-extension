@@ -1737,40 +1737,40 @@
     "message": "Включить через Google"
   },
   "limit_order_buy_active": {
-    "message": "Ордер на покупку {tokenSymbol} создан и активен."
+    "message": "Ордер на покупку ${tokenSymbol} создан и активен."
   },
   "limit_order_sell_active": {
-    "message": "Ордер на продажу {tokenSymbol} создан и активен."
+    "message": "Ордер на продажу ${tokenSymbol} создан и активен."
   },
   "limit_order_buy_triggered": {
-    "message": "Ордер на покупку {tokenSymbol} был активирован."
+    "message": "Ордер на покупку ${tokenSymbol} был активирован."
   },
   "limit_order_sell_triggered": {
-    "message": "Ордер на продажу {tokenSymbol} был активирован."
+    "message": "Ордер на продажу ${tokenSymbol} был активирован."
   },
   "limit_order_buy_completed": {
-    "message": "Ордер на покупку {tokenSymbol} был выполнен."
+    "message": "Ордер на покупку ${tokenSymbol} был выполнен."
   },
   "limit_order_sell_completed": {
-    "message": "Ордер на продажу {tokenSymbol} был выполнен."
+    "message": "Ордер на продажу ${tokenSymbol} был выполнен."
   },
   "limit_order_buy_cancelled": {
-    "message": "Ордер на покупку {tokenSymbol} был отменён."
+    "message": "Ордер на покупку ${tokenSymbol} был отменён."
   },
   "limit_order_sell_cancelled": {
-    "message": "Ордер на продажу {tokenSymbol} был отменён."
+    "message": "Ордер на продажу ${tokenSymbol} был отменён."
   },
   "limit_order_buy_expired": {
-    "message": "Ордер на покупку {tokenSymbol} истёк."
+    "message": "Ордер на покупку ${tokenSymbol} истёк."
   },
   "limit_order_sell_expired": {
-    "message": "Ордер на продажу {tokenSymbol} истёк."
+    "message": "Ордер на продажу ${tokenSymbol} истёк."
   },
   "limit_order_buy_failed": {
-    "message": "Ордер на покупку {tokenSymbol} не выполнен."
+    "message": "Ордер на покупку ${tokenSymbol} не выполнен."
   },
   "limit_order_sell_failed": {
-    "message": "Ордер на продажу {tokenSymbol} не выполнен."
+    "message": "Ордер на продажу ${tokenSymbol} не выполнен."
   },
   "active_trades": {
     "message": "Активные сделки"

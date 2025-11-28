@@ -1734,40 +1734,40 @@
     "message": "Enable with Google"
   },
   "limit_order_buy_active": {
-    "message": "The buy order for {tokenSymbol} has been created and is active."
+    "message": "The buy order for ${tokenSymbol} has been created and is active."
   },
   "limit_order_sell_active": {
-    "message": "The sell order for {tokenSymbol} has been created and is active."
+    "message": "The sell order for ${tokenSymbol} has been created and is active."
   },
   "limit_order_buy_triggered": {
-    "message": "The buy order for {tokenSymbol} has been triggered."
+    "message": "The buy order for ${tokenSymbol} has been triggered."
   },
   "limit_order_sell_triggered": {
-    "message": "The sell order for {tokenSymbol} has been triggered."
+    "message": "The sell order for ${tokenSymbol} has been triggered."
   },
   "limit_order_buy_completed": {
-    "message": "The buy order for {tokenSymbol} has been completed."
+    "message": "The buy order for ${tokenSymbol} has been completed."
   },
   "limit_order_sell_completed": {
-    "message": "The sell order for {tokenSymbol} has been completed."
+    "message": "The sell order for ${tokenSymbol} has been completed."
   },
   "limit_order_buy_cancelled": {
-    "message": "The buy order for {tokenSymbol} has been cancelled."
+    "message": "The buy order for ${tokenSymbol} has been cancelled."
   },
   "limit_order_sell_cancelled": {
-    "message": "The sell order for {tokenSymbol} has been cancelled."
+    "message": "The sell order for ${tokenSymbol} has been cancelled."
   },
   "limit_order_buy_expired": {
-    "message": "The buy order for {tokenSymbol} has expired."
+    "message": "The buy order for ${tokenSymbol} has expired."
   },
   "limit_order_sell_expired": {
-    "message": "The sell order for {tokenSymbol} has expired."
+    "message": "The sell order for ${tokenSymbol} has expired."
   },
   "limit_order_buy_failed": {
-    "message": "The buy order for {tokenSymbol} has failed."
+    "message": "The buy order for ${tokenSymbol} has failed."
   },
   "limit_order_sell_failed": {
-    "message": "The sell order for {tokenSymbol} has failed."
+    "message": "The sell order for ${tokenSymbol} has failed."
   },
   "active_trades": {
     "message": "Active Trades"
