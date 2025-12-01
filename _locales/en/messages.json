@@ -1322,6 +1322,9 @@
   "slippage_exceeded": {
     "message": "Slippage tolerance exceeded. Try increasing your slippage tolerance"
   },
+  "bonding_curve_completed": {
+    "message": "The bonding curve has completed. Please refresh your page"
+  },
   "insufficient_liquidity": {
     "message": "Insufficient liquidity in the pool."
   },
