@@ -867,7 +867,7 @@
     "message": "Используйте свой Google-аккаунт для безопасного доступа к вашему торговому кошельку. Новый кошелёк будет создан при первом использовании, или войдите для доступа к существующему кошельку."
   },
   "enable_with_google": {
-    "message": "Включить с Google"
+    "message": "Продолжить с Google"
   },
   "your_wallets": {
     "message": "Ваши кошельки"
@@ -1050,7 +1050,10 @@
     "message": "МАКС"
   },
   "enable_trading": {
-    "message": "Включить торговлю (Beta)"
+    "message": "Включить торговый кошелёк (Beta)"
+  },
+  "upgrade_to_passwordless": {
+    "message": "Предоставить доступ без пароля"
   },
   "select_group": {
     "message": "Выберите группу"
@@ -1321,6 +1324,9 @@
   },
   "transaction_failed_due_to_low_liquidity": {
     "message": "Транзакция не выполнена из-за низкой ликвидности"
+  },
+  "transaction_failed_due_to_no_quotes": {
+    "message": "Не удалось получить цитату"
   },
   "slippage_exceeded": {
     "message": "Превышен допуск проскальзывания. Попробуйте увеличить допуск проскальзывания"
@@ -1737,7 +1743,34 @@
     "message": "Подробнее"
   },
   "enable_turnkey_button": {
-    "message": "Включить через Google"
+    "message": "Продолжить через Google"
+  },
+  "turnkey_initializing": {
+    "message": "Инициализация Turnkey..."
+  },
+  "turnkey_importing_keys": {
+    "message": "Импорт приватных ключей в Turnkey..."
+  },
+  "turnkey_syncing_account": {
+    "message": "Синхронизация с вашим аккаунтом..."
+  },
+  "turnkey_imported_successfully": {
+    "message": "Успешно импортировано в Turnkey"
+  },
+  "turnkey_enabling": {
+    "message": "Включение Turnkey..."
+  },
+  "turnkey_import_failed": {
+    "message": "Не удалось импортировать в Turnkey"
+  },
+  "turnkey_enable_failed": {
+    "message": "Не удалось включить Turnkey"
+  },
+  "turnkey_refresh_and_retry": {
+    "message": ", обновите страницу и попробуйте снова"
+  },
+  "turnkey_google_auth_failed": {
+    "message": "Ошибка аутентификации Google"
   },
   "limit_order_buy_active": {
     "message": "Ордер на покупку ${tokenSymbol} создан и активен."
@@ -2226,13 +2259,13 @@
     "message": "Не удалось разблокировать пароль"
   },
   "enable_trading_intro_fast_title": {
-    "message": "Торгуйте мгновенно на любой платформе."
+    "message": "Торгуйте мгновенно на любой платформе"
   },
   "enable_trading_intro_fee_title": {
-    "message": "Фиксированная комиссия 0.1% за каждую сделку"
+    "message": "Самая прозрачная структура комиссий."
   },
   "enable_trading_intro_custodial_title": {
-    "message": "Frontrun никогда не хранит ваш приватный ключ."
+    "message": "Та же инфраструктура, что у Axiom, Padre и Moonshot."
   },
   "enable_trading_create_password_title": {
     "message": "Создать пароль"

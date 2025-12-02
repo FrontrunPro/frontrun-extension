@@ -864,7 +864,7 @@
     "message": "使用 Google 账号安全地访问您的交易钱包。首次使用将自动创建钱包，已有钱包的用户可直接登录。"
   },
   "enable_with_google": {
-    "message": "使用 Google 启用"
+    "message": "使用 Google 继续"
   },
   "your_wallets": {
     "message": "您的钱包"
@@ -1048,6 +1048,9 @@
   },
   "enable_trading": {
     "message": "启用交易 (Beta)"
+  },
+  "upgrade_to_passwordless": {
+    "message": "升级到无密码交易"
   },
   "select_group": {
     "message": "选择分组"
@@ -1303,6 +1306,9 @@
   },
   "transaction_failed_due_to_low_liquidity": {
     "message": "由于流动性不足，交易失败"
+  },
+  "transaction_failed_due_to_no_quotes": {
+    "message": "获得报价失败"
   },
   "slippage_exceeded": {
     "message": "滑点容忍度超出。请尝试增加滑点容忍度"
@@ -1734,7 +1740,34 @@
     "message": "了解更多"
   },
   "enable_turnkey_button": {
-    "message": "使用 Google 启用"
+    "message": "使用 Google 继续"
+  },
+  "turnkey_initializing": {
+    "message": "正在初始化 Turnkey..."
+  },
+  "turnkey_importing_keys": {
+    "message": "正在将私钥导入 Turnkey..."
+  },
+  "turnkey_syncing_account": {
+    "message": "正在同步到您的账户..."
+  },
+  "turnkey_imported_successfully": {
+    "message": "已成功导入到 Turnkey"
+  },
+  "turnkey_enabling": {
+    "message": "正在启用 Turnkey..."
+  },
+  "turnkey_import_failed": {
+    "message": "导入到 Turnkey 失败"
+  },
+  "turnkey_enable_failed": {
+    "message": "启用 Turnkey 失败"
+  },
+  "turnkey_refresh_and_retry": {
+    "message": "，请刷新页面后重试"
+  },
+  "turnkey_google_auth_failed": {
+    "message": "Google 身份验证失败"
   },
   "limit_order_buy_active": {
     "message": "${tokenSymbol} 的买入订单已创建并激活。"
@@ -2223,13 +2256,13 @@
     "message": "无法解锁密码"
   },
   "enable_trading_intro_fast_title": {
-    "message": "交易速度超越Axiom/GMGN"
+    "message": "在任何平台上都能即时完成交易。"
   },
   "enable_trading_intro_fee_title": {
-    "message": "每笔交易仅收取0.1%手续费"
+    "message": "最透明、最公平的费用结构。"
   },
   "enable_trading_intro_custodial_title": {
-    "message": "Frontrun 永远不会存储您的私钥。"
+    "message": "与 Axiom Padre Moonshot 使用相同基础设施。"
   },
   "enable_trading_create_password_title": {
     "message": "创建密码"

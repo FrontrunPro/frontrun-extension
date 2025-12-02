@@ -861,7 +861,7 @@
     "message": "Use your Google account to securely access your trading wallet. A new wallet will be created on first use, or sign in to access your existing wallet."
   },
   "enable_with_google": {
-    "message": "Enable with Google"
+    "message": "Continue with Google"
   },
   "your_wallets": {
     "message": "Your Wallets"
@@ -1045,6 +1045,9 @@
   },
   "enable_trading": {
     "message": "Enable Trading (Beta)"
+  },
+  "upgrade_to_passwordless": {
+    "message": "Upgrade to Passwordless"
   },
   "select_group": {
     "message": "Select Group"
@@ -1318,6 +1321,9 @@
   },
   "transaction_failed_due_to_low_liquidity": {
     "message": "Transaction failed due to low liquidity in the pool"
+  },
+  "transaction_failed_due_to_no_quotes": {
+    "message": "Failed to get quote"
   },
   "slippage_exceeded": {
     "message": "Slippage tolerance exceeded. Try increasing your slippage tolerance"
@@ -1734,7 +1740,34 @@
     "message": "Read more"
   },
   "enable_turnkey_button": {
-    "message": "Enable with Google"
+    "message": "Continue with Google"
+  },
+  "turnkey_initializing": {
+    "message": "Initializing Turnkey..."
+  },
+  "turnkey_importing_keys": {
+    "message": "Importing private keys to Turnkey..."
+  },
+  "turnkey_syncing_account": {
+    "message": "Syncing to your account..."
+  },
+  "turnkey_imported_successfully": {
+    "message": "Imported to Turnkey successfully"
+  },
+  "turnkey_enabling": {
+    "message": "Enabling Turnkey..."
+  },
+  "turnkey_import_failed": {
+    "message": "Failed to import to Turnkey"
+  },
+  "turnkey_enable_failed": {
+    "message": "Failed to enable Turnkey"
+  },
+  "turnkey_refresh_and_retry": {
+    "message": ", please refresh the page and try again"
+  },
+  "turnkey_google_auth_failed": {
+    "message": "Google authentication failed"
   },
   "limit_order_buy_active": {
     "message": "The buy order for ${tokenSymbol} has been created and is active."
@@ -2226,10 +2259,10 @@
     "message": "Trade instantly across any platform"
   },
   "enable_trading_intro_fee_title": {
-    "message": "A flat fee of 0.1% for every trade"
+    "message": "Most transparent fee structure."
   },
   "enable_trading_intro_custodial_title": {
-    "message": "Frontrun never stores your private key"
+    "message": "Same infra as Axiom, Padre, and Moonshot."
   },
   "enable_trading_create_password_title": {
     "message": "Create Password"
