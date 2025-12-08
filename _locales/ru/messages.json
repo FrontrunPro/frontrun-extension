@@ -1184,6 +1184,24 @@
   "active": {
     "message": "Активные"
   },
+  "show_positions": {
+    "message": "Показать позиции"
+  },
+  "show_wallets": {
+    "message": "Показать кошельки"
+  },
+  "show_all": {
+    "message": "Показать все"
+  },
+  "active_only": {
+    "message": "Только активные"
+  },
+  "hidden": {
+    "message": "Скрытые"
+  },
+  "view": {
+    "message": "Просмотр"
+  },
   "wallet_not_verified": {
     "message": "Этот кошелек не был верифицирован."
   },
@@ -1319,6 +1337,15 @@
   "transaction_confirmed_sidepanel": {
     "message": "Транзакция подтверждена"
   },
+  "confirmed_buy": {
+    "message": "Куплено"
+  },
+  "confirmed_sell": {
+    "message": "Продано"
+  },
+  "details": {
+    "message": "Детали"
+  },
   "order_execution_failed": {
     "message": "Ошибка выполнения ордера"
   },
@@ -1342,6 +1369,15 @@
   },
   "transactions_failed": {
     "message": "транзакций не выполнено"
+  },
+  "failed_to_get_token_info": {
+    "message": "Не удалось получить информацию о токене. Пожалуйста, попробуйте снова."
+  },
+  "token_verification_failed": {
+    "message": "Проверка токена не удалась. Пожалуйста, обновите страницу и попробуйте снова."
+  },
+  "no_active_wallets": {
+    "message": "Нет активных кошельков. Пожалуйста, активируйте хотя бы один кошелёк."
   },
   "this_will_permanently_remove_this_wallet_from_your_list": {
     "message": "Это удалит кошелёк навсегда. Вы сможете его восстановить только с помощью приватного ключа."

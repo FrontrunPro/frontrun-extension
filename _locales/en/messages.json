@@ -1181,6 +1181,12 @@
   "active": {
     "message": "Active"
   },
+  "active_only": {
+    "message": "Active Only"
+  },
+  "hidden": {
+    "message": "Hidden"
+  },
   "wallet_not_verified": {
     "message": "This wallet has not been verified."
   },
@@ -1259,6 +1265,9 @@
   "alias_updated_failed": {
     "message": "Alias updated failed"
   },
+  "view": {
+    "message": "View"
+  },
   "view_all": {
     "message": "View All"
   },
@@ -1316,6 +1325,15 @@
   "transaction_confirmed_sidepanel": {
     "message": "Transaction Confirmed"
   },
+  "confirmed_buy": {
+    "message": "Confirmed Buy"
+  },
+  "confirmed_sell": {
+    "message": "Confirmed Sell"
+  },
+  "details": {
+    "message": "Details"
+  },
   "order_execution_failed": {
     "message": "Order execution failed"
   },
@@ -1339,6 +1357,15 @@
   },
   "transactions_failed": {
     "message": "transactions failed"
+  },
+  "failed_to_get_token_info": {
+    "message": "Failed to get token info. Please try again."
+  },
+  "token_verification_failed": {
+    "message": "Token verification failed. Please refresh the page and try again."
+  },
+  "no_active_wallets": {
+    "message": "No active wallets. Please activate at least one wallet."
   },
   "this_will_permanently_remove_this_wallet_from_your_list": {
     "message": "This will permanently remove this wallet from your list. You will only be able to re-import it using its private key."
@@ -1507,6 +1534,15 @@
   },
   "all_wallets": {
     "message": "All Wallets"
+  },
+  "show_all": {
+    "message": "Show All"
+  },
+  "show_positions": {
+    "message": "Show Positions"
+  },
+  "show_wallets": {
+    "message": "Show Wallets"
   },
   "bought": {
     "message": "Bought"

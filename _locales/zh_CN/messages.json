@@ -1181,6 +1181,12 @@
   "active": {
     "message": "活跃"
   },
+  "active_only": {
+    "message": "仅活跃"
+  },
+  "hidden": {
+    "message": "隐藏"
+  },
   "wallet_not_verified": {
     "message": "此钱包尚未验证。"
   },
@@ -1259,6 +1265,9 @@
   "alias_updated_failed": {
     "message": "别名更新失败"
   },
+  "view": {
+    "message": "查看"
+  },
   "view_all": {
     "message": "查看所有"
   },
@@ -1301,6 +1310,15 @@
   "transaction_confirmed_sidepanel": {
     "message": "交易已确认"
   },
+  "confirmed_buy": {
+    "message": "确认购买"
+  },
+  "confirmed_sell": {
+    "message": "确认卖出"
+  },
+  "details": {
+    "message": "详情"
+  },
   "order_execution_failed": {
     "message": "订单执行失败"
   },
@@ -1324,6 +1342,15 @@
   },
   "transactions_failed": {
     "message": "笔交易失败"
+  },
+  "failed_to_get_token_info": {
+    "message": "获取代币信息失败，请重试。"
+  },
+  "token_verification_failed": {
+    "message": "代币验证失败，请刷新页面后重试。"
+  },
+  "no_active_wallets": {
+    "message": "没有活跃钱包，请至少激活一个钱包。"
   },
   "this_will_permanently_remove_this_wallet_from_your_list": {
     "message": "这将永久删除此钱包。您只能使用私钥重新导入它。"
@@ -1495,6 +1522,15 @@
   },
   "all_wallets": {
     "message": "所有钱包"
+  },
+  "show_all": {
+    "message": "显示全部"
+  },
+  "show_positions": {
+    "message": "显示持仓"
+  },
+  "show_wallets": {
+    "message": "显示钱包"
   },
   "bought": {
     "message": "买入"
