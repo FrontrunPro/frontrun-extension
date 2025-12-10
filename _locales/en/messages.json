@@ -1187,6 +1187,9 @@
   "hidden": {
     "message": "Hidden"
   },
+  "show_token": {
+    "message": "Show token"
+  },
   "wallet_not_verified": {
     "message": "This wallet has not been verified."
   },
@@ -2295,10 +2298,10 @@
     "message": "Trade instantly across any platform"
   },
   "enable_trading_intro_fee_title": {
-    "message": "Most transparent fee structure."
+    "message": "Most transparent fee structure"
   },
   "enable_trading_intro_custodial_title": {
-    "message": "Same infra as Axiom, Padre, and Moonshot."
+    "message": "Same infra as Axiom, Padre, and Moonshot"
   },
   "enable_trading_create_password_title": {
     "message": "Create Password"
@@ -2419,5 +2422,20 @@
   },
   "failed_to_lock_wallet": {
     "message": "Failed to lock wallet"
+  },
+  "quick_buy_amount": {
+    "message": "Quick Buy Amount"
+  },
+  "new_pairs": {
+    "message": "New Pairs"
+  },
+  "final_stretch": {
+    "message": "Final Stretch"
+  },
+  "migrated": {
+    "message": "Migrated"
+  },
+  "almost_bonded": {
+    "message": "Almost Bonded"
   }
 }

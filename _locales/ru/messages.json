@@ -617,6 +617,21 @@
   "quick_buy_label": {
     "message": "Быстрая покупка"
   },
+  "quick_buy_amount": {
+    "message": "Сумма быстрой покупки"
+  },
+  "new_pairs": {
+    "message": "Новые пары"
+  },
+  "final_stretch": {
+    "message": "Финальный рывок"
+  },
+  "migrated": {
+    "message": "Мигрировано"
+  },
+  "almost_bonded": {
+    "message": "Почти привязано"
+  },
   "quick_sell": {
     "message": "Продать"
   },
@@ -1198,6 +1213,9 @@
   },
   "hidden": {
     "message": "Скрытые"
+  },
+  "show_token": {
+    "message": "Показать токен"
   },
   "view": {
     "message": "Просмотр"
@@ -2298,10 +2316,10 @@
     "message": "Торгуйте мгновенно на любой платформе"
   },
   "enable_trading_intro_fee_title": {
-    "message": "Самая прозрачная структура комиссий."
+    "message": "Самая прозрачная структура комиссий"
   },
   "enable_trading_intro_custodial_title": {
-    "message": "Та же инфраструктура, что у Axiom, Padre и Moonshot."
+    "message": "Та же инфраструктура, что у Axiom, Padre и Moonshot"
   },
   "enable_trading_create_password_title": {
     "message": "Создать пароль"
