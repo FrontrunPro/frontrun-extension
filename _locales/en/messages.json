@@ -1754,6 +1754,9 @@
   "sell_order": {
     "message": "Sell Order"
   },
+  "cancel_order": {
+    "message": "Cancel Order"
+  },
   "cancelling_limit_order": {
     "message": "Cancelling Limit Order"
   },
@@ -2293,6 +2296,21 @@
   },
   "trading_panel_unlock_failed": {
     "message": "Unable to unlock password"
+  },
+  "trading_panel_tap_up_wallet": {
+    "message": "Top Up Your Wallet"
+  },
+  "trading_panel_add_funds_description": {
+    "message": "Deposit SOL to start trading and save up to 90% in fees."
+  },
+  "trading_panel_receive_funds": {
+    "message": "Receive Funds"
+  },
+  "active_wallet_empty_top_up": {
+    "message": "An active wallet is empty. Top up."
+  },
+  "empty_wallets_in_use_top_up": {
+    "message": "Empty wallets in use. Top up."
   },
   "enable_trading_intro_fast_title": {
     "message": "Trade instantly across any platform"

@@ -1769,6 +1769,9 @@
   "sell_order": {
     "message": "卖出订单"
   },
+  "cancel_order": {
+    "message": "取消订单"
+  },
   "cancelling_limit_order": {
     "message": "正在取消限价单"
   },
@@ -2308,6 +2311,21 @@
   },
   "trading_panel_unlock_failed": {
     "message": "无法解锁密码"
+  },
+  "trading_panel_tap_up_wallet": {
+    "message": "充值您的钱包"
+  },
+  "trading_panel_add_funds_description": {
+    "message": "存入 SOL 以开始交易，节省高达 90% 的费用。"
+  },
+  "trading_panel_receive_funds": {
+    "message": "接收资金"
+  },
+  "active_wallet_empty_top_up": {
+    "message": "活跃钱包为空。请充值。"
+  },
+  "empty_wallets_in_use_top_up": {
+    "message": "正在使用的钱包为空。请充值。"
   },
   "enable_trading_intro_fast_title": {
     "message": "在任何平台上都能即时完成交易"

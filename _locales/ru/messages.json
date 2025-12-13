@@ -1772,6 +1772,9 @@
   "sell_order": {
     "message": "Ордер на продажу"
   },
+  "cancel_order": {
+    "message": "Отменить ордер"
+  },
   "cancelling_limit_order": {
     "message": "Отмена лимитного ордера"
   },
@@ -2311,6 +2314,21 @@
   },
   "trading_panel_unlock_failed": {
     "message": "Не удалось разблокировать пароль"
+  },
+  "trading_panel_tap_up_wallet": {
+    "message": "Пополните кошелёк"
+  },
+  "trading_panel_add_funds_description": {
+    "message": "Пополните SOL, чтобы начать торговать и сэкономить до 90% на комиссиях."
+  },
+  "trading_panel_receive_funds": {
+    "message": "Получить средства"
+  },
+  "active_wallet_empty_top_up": {
+    "message": "Активный кошелёк пуст. Пополните его."
+  },
+  "empty_wallets_in_use_top_up": {
+    "message": "Используемые кошельки пусты. Пополните их."
   },
   "enable_trading_intro_fast_title": {
     "message": "Торгуйте мгновенно на любой платформе"
