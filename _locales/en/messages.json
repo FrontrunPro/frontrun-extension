@@ -527,6 +527,93 @@
   "create": {
     "message": "Create"
   },
+  "earn": {
+    "message": "Earn"
+  },
+  "jupiter_earn": {
+    "message": "Jupiter Earn"
+  },
+  "jupiter_earn_description": {
+    "message": "Deposit your SOL and USDC into Jupiter Lend to earn yield."
+  },
+  "jupiter_earn_info_1": {
+    "message": "Deposits will be processed for all active wallets"
+  },
+  "jupiter_earn_info_2": {
+    "message": "Estimated Gas Fee $0.00063"
+  },
+  "jupiter_earn_info_3": {
+    "message": "You can withdraw anytime from Jupiter"
+  },
+  "earned": {
+    "message": "earned"
+  },
+  "total_earnings": {
+    "message": "Total Earnings"
+  },
+  "jupiter_withdraw_description": {
+    "message": "Withdraw your SOL and USDC from Jupiter Lend back to your wallets."
+  },
+  "no_balance_to_deposit": {
+    "message": "No balance available to deposit"
+  },
+  "available": {
+    "message": "Available"
+  },
+  "amount_exceeds_balance": {
+    "message": "Amount exceeds available balance"
+  },
+  "deposit_all": {
+    "message": "Deposit All"
+  },
+  "processing_deposits": {
+    "message": "Processing deposits..."
+  },
+  "deposits_completed": {
+    "message": "deposits completed successfully"
+  },
+  "processing_withdrawals": {
+    "message": "Processing withdrawals..."
+  },
+  "withdrawals_completed": {
+    "message": "withdrawals completed successfully"
+  },
+  "withdraw_all": {
+    "message": "Withdraw All"
+  },
+  "depositing": {
+    "message": "Depositing..."
+  },
+  "all_deposits_failed": {
+    "message": "All deposits failed"
+  },
+  "deposit_failed": {
+    "message": "Deposit failed"
+  },
+  "withdraw_failed": {
+    "message": "Withdraw failed"
+  },
+  "all_withdrawals_failed": {
+    "message": "All withdrawals failed"
+  },
+  "no_position_to_withdraw": {
+    "message": "No position to withdraw"
+  },
+  "withdrawing": {
+    "message": "Withdrawing"
+  },
+  "loading_positions": {
+    "message": "Loading positions..."
+  },
+  "try_again": {
+    "message": "Try Again"
+  },
+  "deposit": {
+    "message": "Deposit"
+  },
+  "withdraw": {
+    "message": "Withdraw"
+  },
   "trading_feature_coming_soon": {
     "message": "This feature is coming soon. Reach out to us if you're interested in early access."
   },
@@ -1290,7 +1377,7 @@
     "message": "Selling"
   },
   "sell_init": {
-    "message": "Sell Init."
+    "message": "Initials"
   },
   "sell_initial_insufficient_tokens": {
     "message": "You do not have enough tokens to cover your initial position"
@@ -1357,6 +1444,9 @@
   },
   "launchpad_trade_failed": {
     "message": "Launchpad trade failed. Please try again."
+  },
+  "trade_failed": {
+    "message": "Trade Failed"
   },
   "transactions_failed": {
     "message": "transactions failed"
@@ -1667,8 +1757,32 @@
   "auto_fee": {
     "message": "Auto Fee"
   },
+  "enter_max_fee": {
+    "message": "Enter max fee"
+  },
+  "enter_max_fee_placeholder": {
+    "message": "Enter Max Fee"
+  },
+  "priority_fee_auto_tooltip": {
+    "message": "Real-time priority fee from network (auto calculated)"
+  },
+  "bribe_fee_auto_tooltip": {
+    "message": "Real-time tip fee from network (auto calculated)"
+  },
+  "recommended_priority_fee_tooltip": {
+    "message": "Recommended Priority Fee is {fee} SOL"
+  },
+  "recommended_bribe_fee_tooltip": {
+    "message": "Recommended Bribe Fee is {fee} SOL"
+  },
+  "no_limit": {
+    "message": "no limit"
+  },
   "max_fee": {
     "message": "Max Fee"
+  },
+  "on": {
+    "message": "ON"
   },
   "off": {
     "message": "OFF"
@@ -1678,6 +1792,9 @@
   },
   "edit": {
     "message": "Edit"
+  },
+  "edit_preset_value_tooltip": {
+    "message": "Edit preset value"
   },
   "total_fees": {
     "message": "Total Fees"
@@ -1730,8 +1847,17 @@
   "limit_order_placed": {
     "message": "Limit Order Placed"
   },
+  "limit_order_creation_failed": {
+    "message": "Limit order creation failed:"
+  },
+  "limit_order_triggered_successfully": {
+    "message": "Limit Order Triggered"
+  },
   "create_limit_order_failed": {
     "message": "Create Limit Order Failed"
+  },
+  "limit_order_partial_result": {
+    "message": "{failed} transactions failed ({succeeded} succeeded)"
   },
   "failed_to_initialize_limit_order": {
     "message": "Failed to initialize limit order, please refresh the page and try again."
@@ -1760,8 +1886,8 @@
   "cancelling_limit_order": {
     "message": "Cancelling Limit Order"
   },
-  "limit_order_cancelled": {
-    "message": "Limit Order Cancelled"
+  "limit_order_canceled": {
+    "message": "Limit Order Canceled"
   },
   "failed_to_cancel_limit_order": {
     "message": "Failed to cancel limit order"
@@ -1829,11 +1955,11 @@
   "limit_order_sell_completed": {
     "message": "The sell order for ${tokenSymbol} has been completed."
   },
-  "limit_order_buy_cancelled": {
-    "message": "The buy order for ${tokenSymbol} has been cancelled."
+  "limit_order_buy_canceled": {
+    "message": "The buy order for ${tokenSymbol} has been canceled."
   },
-  "limit_order_sell_cancelled": {
-    "message": "The sell order for ${tokenSymbol} has been cancelled."
+  "limit_order_sell_canceled": {
+    "message": "The sell order for ${tokenSymbol} has been canceled."
   },
   "limit_order_buy_expired": {
     "message": "The buy order for ${tokenSymbol} has expired."
@@ -2455,5 +2581,83 @@
   },
   "almost_bonded": {
     "message": "Almost Bonded"
+  },
+  "trading_panel_transparency": {
+    "message": "Trading Panel Transparency"
+  },
+  "trading_panel_transparency_description": {
+    "message": "Adjust how visible the trading panel appears on the page"
+  },
+  "preview_panel": {
+    "message": "Preview panel"
+  },
+  "read_more_in_alert": {
+    "message": "Read more"
+  },
+  "trading_sound_settings": {
+    "message": "Trading Sound Settings"
+  },
+  "enable_sound": {
+    "message": "Enable Sound"
+  },
+  "sound_volume": {
+    "message": "Sound Volume"
+  },
+  "buy_sound_effect": {
+    "message": "Buy Sound Effect"
+  },
+  "sell_sound_effect": {
+    "message": "Sell Sound Effect"
+  },
+  "custom": {
+    "message": "Custom"
+  },
+  "upload_custom": {
+    "message": "Upload Custom"
+  },
+  "change_custom": {
+    "message": "Change Custom"
+  },
+  "failed_to_play_sound": {
+    "message": "Failed to play sound"
+  },
+  "file_too_large": {
+    "message": "File is too large. Please select an audio file smaller than 0.5MB"
+  },
+  "invalid_file_type": {
+    "message": "Invalid file type. Please select an audio file"
+  },
+  "failed_to_read_file": {
+    "message": "Failed to read file. Please try again"
+  },
+  "custom_sounds": {
+    "message": "Custom Sounds"
+  },
+  "max_custom_sounds_reached": {
+    "message": "Maximum custom sounds reached (max 5)"
+  },
+  "custom_sound_uploaded": {
+    "message": "Custom sound uploaded successfully"
+  },
+  "custom_sound_deleted": {
+    "message": "Custom sound deleted successfully"
+  },
+  "failed_to_delete_sound": {
+    "message": "Failed to delete sound"
+  },
+  "custom_sounds_count": {
+    "message": "{count}/{max} custom sounds used"
+  },
+  "total_size": {
+    "message": "Total Size"
+  },
+  "clear_all": {
+    "message": "Clear All"
+  },
+  "all_custom_sounds_cleared": {
+    "message": "All custom sounds cleared"
+  },
+  "audio_too_long": {
+    "message": "Audio is too long. Please select an audio file no longer than {max} seconds"
   }
 }

@@ -515,6 +515,93 @@
   "create": {
     "message": "创建"
   },
+  "earn": {
+    "message": "赚取"
+  },
+  "jupiter_earn": {
+    "message": "Jupiter 赚取"
+  },
+  "jupiter_earn_description": {
+    "message": "将您的 SOL 和 USDC 存入 Jupiter Lend 以赚取收益。"
+  },
+  "jupiter_earn_info_1": {
+    "message": "将为所有活跃钱包处理存款"
+  },
+  "jupiter_earn_info_2": {
+    "message": "预计 Gas 费用 $0.00063"
+  },
+  "jupiter_earn_info_3": {
+    "message": "您可以随时从 Jupiter 提取"
+  },
+  "earned": {
+    "message": "已赚取"
+  },
+  "total_earnings": {
+    "message": "总收益"
+  },
+  "jupiter_withdraw_description": {
+    "message": "将您的 SOL 和 USDC 从 Jupiter Lend 提取回您的钱包。"
+  },
+  "no_balance_to_deposit": {
+    "message": "没有可存入的余额"
+  },
+  "available": {
+    "message": "可用"
+  },
+  "amount_exceeds_balance": {
+    "message": "金额超过可用余额"
+  },
+  "deposit_all": {
+    "message": "全部存入"
+  },
+  "processing_deposits": {
+    "message": "正在处理存款..."
+  },
+  "deposits_completed": {
+    "message": "笔存款已成功完成"
+  },
+  "processing_withdrawals": {
+    "message": "正在处理提款..."
+  },
+  "withdrawals_completed": {
+    "message": "笔提款已成功完成"
+  },
+  "withdraw_all": {
+    "message": "全部提款"
+  },
+  "depositing": {
+    "message": "存入中..."
+  },
+  "all_deposits_failed": {
+    "message": "所有存款失败"
+  },
+  "deposit_failed": {
+    "message": "存款失败"
+  },
+  "withdraw_failed": {
+    "message": "提款失败"
+  },
+  "all_withdrawals_failed": {
+    "message": "所有提款失败"
+  },
+  "no_position_to_withdraw": {
+    "message": "没有可提款的仓位"
+  },
+  "withdrawing": {
+    "message": "提款中"
+  },
+  "loading_positions": {
+    "message": "加载仓位中..."
+  },
+  "try_again": {
+    "message": "重试"
+  },
+  "deposit": {
+    "message": "存款"
+  },
+  "withdraw": {
+    "message": "提款"
+  },
   "trading_feature_coming_soon": {
     "message": "该功能即将上线。如需抢先体验，请联系我们。"
   },
@@ -627,7 +714,7 @@
     "message": "卖出中"
   },
   "sell_init": {
-    "message": "出本"
+    "message": "回本"
   },
   "sell_initial_insufficient_tokens": {
     "message": "您没有足够的代币来覆盖您的初始仓位"
@@ -1358,6 +1445,9 @@
   "launchpad_trade_failed": {
     "message": "Launchpad 交易失败。请重试。"
   },
+  "trade_failed": {
+    "message": "交易失败"
+  },
   "transactions_failed": {
     "message": "笔交易失败"
   },
@@ -1670,8 +1760,32 @@
   "auto_fee": {
     "message": "自动费用"
   },
+  "enter_max_fee": {
+    "message": "输入最大费用"
+  },
+  "enter_max_fee_placeholder": {
+    "message": "输入最大费用"
+  },
+  "priority_fee_auto_tooltip": {
+    "message": "来自网络的实时优先费（自动计算）"
+  },
+  "bribe_fee_auto_tooltip": {
+    "message": "来自网络的实时小费（自动计算）"
+  },
+  "recommended_priority_fee_tooltip": {
+    "message": "推荐优先费为 {fee} SOL"
+  },
+  "recommended_bribe_fee_tooltip": {
+    "message": "推荐小费为 {fee} SOL"
+  },
+  "no_limit": {
+    "message": "无限制"
+  },
   "max_fee": {
     "message": "最大费用"
+  },
+  "on": {
+    "message": "开启"
   },
   "off": {
     "message": "关闭"
@@ -1681,6 +1795,9 @@
   },
   "edit": {
     "message": "编辑"
+  },
+  "edit_preset_value_tooltip": {
+    "message": "编辑预设值"
   },
   "total_fees": {
     "message": "总费用"
@@ -1745,8 +1862,17 @@
   "limit_order_placed": {
     "message": "限价单已下单"
   },
+  "limit_order_creation_failed": {
+    "message": "限价单创建失败："
+  },
+  "limit_order_triggered_successfully": {
+    "message": "限价单触发成功"
+  },
   "create_limit_order_failed": {
     "message": "创建限价单失败"
+  },
+  "limit_order_partial_result": {
+    "message": "{failed} 笔交易失败（{succeeded} 笔成功）"
   },
   "failed_to_initialize_limit_order": {
     "message": "初始化限价单失败，请刷新页面后重试。"
@@ -1775,7 +1901,7 @@
   "cancelling_limit_order": {
     "message": "正在取消限价单"
   },
-  "limit_order_cancelled": {
+  "limit_order_canceled": {
     "message": "限价单已取消"
   },
   "failed_to_cancel_limit_order": {
@@ -1844,10 +1970,10 @@
   "limit_order_sell_completed": {
     "message": "${tokenSymbol} 的卖出订单已完成。"
   },
-  "limit_order_buy_cancelled": {
+  "limit_order_buy_canceled": {
     "message": "${tokenSymbol} 的买入订单已取消。"
   },
-  "limit_order_sell_cancelled": {
+  "limit_order_sell_canceled": {
     "message": "${tokenSymbol} 的卖出订单已取消。"
   },
   "limit_order_buy_expired": {
@@ -2455,5 +2581,83 @@
   },
   "failed_to_lock_wallet": {
     "message": "锁定钱包失败"
+  },
+  "trading_panel_transparency": {
+    "message": "交易面板透明度"
+  },
+  "trading_panel_transparency_description": {
+    "message": "调整交易面板在页面上的可见度"
+  },
+  "preview_panel": {
+    "message": "预览面板"
+  },
+  "read_more_in_alert": {
+    "message": "阅读更多"
+  },
+  "trading_sound_settings": {
+    "message": "交易声音设置"
+  },
+  "enable_sound": {
+    "message": "启用声音"
+  },
+  "sound_volume": {
+    "message": "提示音量"
+  },
+  "buy_sound_effect": {
+    "message": "购买音效"
+  },
+  "sell_sound_effect": {
+    "message": "卖出音效"
+  },
+  "custom": {
+    "message": "自定义"
+  },
+  "upload_custom": {
+    "message": "上传自定义"
+  },
+  "change_custom": {
+    "message": "更改自定义"
+  },
+  "failed_to_play_sound": {
+    "message": "播放音效失败"
+  },
+  "file_too_large": {
+    "message": "文件太大，请选择小于0.5MB的音频文件"
+  },
+  "invalid_file_type": {
+    "message": "无效的文件类型，请选择音频文件"
+  },
+  "failed_to_read_file": {
+    "message": "读取文件失败，请重试"
+  },
+  "custom_sounds": {
+    "message": "自定义音效"
+  },
+  "max_custom_sounds_reached": {
+    "message": "已达到自定义音效上限（最多5个）"
+  },
+  "custom_sound_uploaded": {
+    "message": "自定义音效上传成功"
+  },
+  "custom_sound_deleted": {
+    "message": "自定义音效删除成功"
+  },
+  "failed_to_delete_sound": {
+    "message": "删除音效失败"
+  },
+  "custom_sounds_count": {
+    "message": "已使用 {count}/{max} 个自定义音效"
+  },
+  "total_size": {
+    "message": "总大小"
+  },
+  "clear_all": {
+    "message": "清除全部"
+  },
+  "all_custom_sounds_cleared": {
+    "message": "已清除所有自定义音效"
+  },
+  "audio_too_long": {
+    "message": "音频时长过长，请选择不超过{max}秒的音频文件"
   }
 }

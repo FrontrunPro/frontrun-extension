@@ -533,6 +533,93 @@
   "create": {
     "message": "Создать"
   },
+  "earn": {
+    "message": "Заработать"
+  },
+  "jupiter_earn": {
+    "message": "Jupiter Earn"
+  },
+  "jupiter_earn_description": {
+    "message": "Внесите SOL и USDC в Jupiter Lend для получения дохода."
+  },
+  "jupiter_earn_info_1": {
+    "message": "Депозиты будут обработаны для всех активных кошельков"
+  },
+  "jupiter_earn_info_2": {
+    "message": "Ориентировочная комиссия за газ $0.00063"
+  },
+  "jupiter_earn_info_3": {
+    "message": "Вы можете вывести средства в любое время через Jupiter"
+  },
+  "earned": {
+    "message": "заработано"
+  },
+  "total_earnings": {
+    "message": "Общий доход"
+  },
+  "jupiter_withdraw_description": {
+    "message": "Выведите ваши SOL и USDC из Jupiter Lend обратно на ваши кошельки."
+  },
+  "no_balance_to_deposit": {
+    "message": "Нет доступного баланса для депозита"
+  },
+  "available": {
+    "message": "Доступно"
+  },
+  "amount_exceeds_balance": {
+    "message": "Сумма превышает доступный баланс"
+  },
+  "deposit_all": {
+    "message": "Внести всё"
+  },
+  "processing_deposits": {
+    "message": "Обработка депозитов..."
+  },
+  "deposits_completed": {
+    "message": "депозитов успешно завершено"
+  },
+  "processing_withdrawals": {
+    "message": "Обработка выводов..."
+  },
+  "withdrawals_completed": {
+    "message": "выводов успешно завершено"
+  },
+  "withdraw_all": {
+    "message": "Вывести всё"
+  },
+  "depositing": {
+    "message": "Внесение..."
+  },
+  "all_deposits_failed": {
+    "message": "Все депозиты не удались"
+  },
+  "deposit_failed": {
+    "message": "Депозит не удался"
+  },
+  "withdraw_failed": {
+    "message": "Вывод не удался"
+  },
+  "all_withdrawals_failed": {
+    "message": "Все выводы не удались"
+  },
+  "no_position_to_withdraw": {
+    "message": "Нет позиции для вывода"
+  },
+  "withdrawing": {
+    "message": "Выводим"
+  },
+  "loading_positions": {
+    "message": "Загрузка позиций..."
+  },
+  "try_again": {
+    "message": "Повторить"
+  },
+  "deposit": {
+    "message": "Депозит"
+  },
+  "withdraw": {
+    "message": "Вывод"
+  },
   "trading_feature_coming_soon": {
     "message": "Эта функция скоро появится. Свяжитесь с нами для раннего доступа."
   },
@@ -1317,7 +1404,7 @@
     "message": "Продажа"
   },
   "sell_init": {
-    "message": "Окупаемость"
+    "message": "Окупить"
   },
   "sell_initial_insufficient_tokens": {
     "message": "У вас недостаточно токенов для покрытия вашей начальной позиции!"
@@ -1384,6 +1471,9 @@
   },
   "launchpad_trade_failed": {
     "message": "Сделка Launchpad не выполнена. Пожалуйста, попробуйте снова."
+  },
+  "trade_failed": {
+    "message": "Сделка не выполнена"
   },
   "transactions_failed": {
     "message": "транзакций не выполнено"
@@ -1682,8 +1772,32 @@
   "auto_fee": {
     "message": "Автоматический сбор"
   },
+  "enter_max_fee": {
+    "message": "Введите макс. комиссию"
+  },
+  "enter_max_fee_placeholder": {
+    "message": "Введите макс. комиссию"
+  },
+  "priority_fee_auto_tooltip": {
+    "message": "Приоритетная комиссия в реальном времени из сети (автоматически)"
+  },
+  "bribe_fee_auto_tooltip": {
+    "message": "Чаевые в реальном времени из сети (автоматически)"
+  },
+  "recommended_priority_fee_tooltip": {
+    "message": "Рекомендуемая приоритетная комиссия {fee} SOL"
+  },
+  "recommended_bribe_fee_tooltip": {
+    "message": "Рекомендуемые чаевые {fee} SOL"
+  },
+  "no_limit": {
+    "message": "без ограничений"
+  },
   "max_fee": {
     "message": "Максимальный сбор"
+  },
+  "on": {
+    "message": "ВКЛ"
   },
   "off": {
     "message": "ВЫКЛ"
@@ -1693,6 +1807,9 @@
   },
   "edit": {
     "message": "Редактировать"
+  },
+  "edit_preset_value_tooltip": {
+    "message": "Редактировать значение пресета"
   },
   "total_fees": {
     "message": "Общая комиссия"
@@ -1748,8 +1865,17 @@
   "limit_order_placed": {
     "message": "Лимитный ордер размещён"
   },
+  "limit_order_creation_failed": {
+    "message": "Не удалось создать лимитный ордер:"
+  },
+  "limit_order_triggered_successfully": {
+    "message": "Лимитный ордер успешно активирован"
+  },
   "create_limit_order_failed": {
     "message": "Не удалось создать лимитный ордер"
+  },
+  "limit_order_partial_result": {
+    "message": "{failed} транзакций не удалось ({succeeded} успешно)"
   },
   "failed_to_initialize_limit_order": {
     "message": "Не удалось инициализировать лимитный ордер, пожалуйста, обновите страницу и попробуйте снова."
@@ -1778,7 +1904,7 @@
   "cancelling_limit_order": {
     "message": "Отмена лимитного ордера"
   },
-  "limit_order_cancelled": {
+  "limit_order_canceled": {
     "message": "Лимитный ордер отменён"
   },
   "failed_to_cancel_limit_order": {
@@ -1847,10 +1973,10 @@
   "limit_order_sell_completed": {
     "message": "Ордер на продажу ${tokenSymbol} был выполнен."
   },
-  "limit_order_buy_cancelled": {
+  "limit_order_buy_canceled": {
     "message": "Ордер на покупку ${tokenSymbol} был отменён."
   },
-  "limit_order_sell_cancelled": {
+  "limit_order_sell_canceled": {
     "message": "Ордер на продажу ${tokenSymbol} был отменён."
   },
   "limit_order_buy_expired": {
@@ -2458,5 +2584,83 @@
   },
   "failed_to_lock_wallet": {
     "message": "Не удалось заблокировать кошелёк"
+  },
+  "trading_panel_transparency": {
+    "message": "Прозрачность торговой панели"
+  },
+  "trading_panel_transparency_description": {
+    "message": "Настройте видимость торговой панели на странице"
+  },
+  "preview_panel": {
+    "message": "Панель предпросмотра"
+  },
+  "read_more_in_alert": {
+    "message": "Читать далее"
+  },
+  "trading_sound_settings": {
+    "message": "Настройки звука торговли"
+  },
+  "enable_sound": {
+    "message": "Включить звук"
+  },
+  "sound_volume": {
+    "message": "Громкость звука"
+  },
+  "buy_sound_effect": {
+    "message": "Звуковой эффект покупки"
+  },
+  "sell_sound_effect": {
+    "message": "Звуковой эффект продажи"
+  },
+  "custom": {
+    "message": "Пользовательский"
+  },
+  "upload_custom": {
+    "message": "Загрузить пользовательский"
+  },
+  "change_custom": {
+    "message": "Изменить пользовательский"
+  },
+  "failed_to_play_sound": {
+    "message": "Не удалось воспроизвести звук"
+  },
+  "file_too_large": {
+    "message": "Файл слишком большой. Пожалуйста, выберите аудиофайл размером менее 0.5 МБ"
+  },
+  "invalid_file_type": {
+    "message": "Неверный тип файла. Пожалуйста, выберите аудиофайл"
+  },
+  "failed_to_read_file": {
+    "message": "Не удалось прочитать файл. Пожалуйста, попробуйте снова"
+  },
+  "custom_sounds": {
+    "message": "Пользовательские звуки"
+  },
+  "max_custom_sounds_reached": {
+    "message": "Достигнуто максимальное количество пользовательских звуков (максимум 5)"
+  },
+  "custom_sound_uploaded": {
+    "message": "Пользовательский звук успешно загружен"
+  },
+  "custom_sound_deleted": {
+    "message": "Пользовательский звук успешно удален"
+  },
+  "failed_to_delete_sound": {
+    "message": "Не удалось удалить звук"
+  },
+  "custom_sounds_count": {
+    "message": "Использовано {count}/{max} пользовательских звуков"
+  },
+  "total_size": {
+    "message": "Общий размер"
+  },
+  "clear_all": {
+    "message": "Очистить все"
+  },
+  "all_custom_sounds_cleared": {
+    "message": "Все пользовательские звуки удалены"
+  },
+  "audio_too_long": {
+    "message": "Аудио слишком длинное. Пожалуйста, выберите аудиофайл длительностью не более {max} секунд"
   }
 }
