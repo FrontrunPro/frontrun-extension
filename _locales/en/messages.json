@@ -1379,6 +1379,9 @@
   "sell_init": {
     "message": "Initials"
   },
+  "sell_initial_failed": {
+    "message": "Initial sell failed"
+  },
   "sell_initial_insufficient_tokens": {
     "message": "You do not have enough tokens to cover your initial position"
   },
@@ -2016,7 +2019,7 @@
     "message": "Cancel All"
   },
   "autotrade_limit_orders_created": {
-    "message": "Autotrade limit orders created"
+    "message": "TP/SL order created"
   },
   "wallet_common_password_incorrect": {
     "message": "Incorrect password"
@@ -2570,6 +2573,15 @@
   "quick_buy_amount": {
     "message": "Quick Buy Amount"
   },
+  "quick_buy_settings": {
+    "message": "Quick Buy Settings"
+  },
+  "use_autotrade": {
+    "message": "Use Autotrade"
+  },
+  "autotrade_settings_hint": {
+    "message": "Autotrade strategies should be configured in the trading panel"
+  },
   "new_pairs": {
     "message": "New Pairs"
   },
@@ -2659,5 +2671,125 @@
   },
   "audio_too_long": {
     "message": "Audio is too long. Please select an audio file no longer than {max} seconds"
+  },
+  "xmas_holiday_lucky_draw": {
+    "message": "Holiday Lucky Draw"
+  },
+  "xmas_holiday_lucky_draw_plain": {
+    "message": "Holiday Lucky Draw"
+  },
+  "xmas_trade_to_win": {
+    "message": "Trade with Frontrun to win up to $1000."
+  },
+  "xmas_new_user_promo": {
+    "message": "Trade 1 SOL to win up to $1000. Ends January 1."
+  },
+  "xmas_existing_user_promo": {
+    "message": "We have a gift for you. Enter the Holiday Lucky Draw."
+  },
+  "xmas_promo_description_line1": {
+    "message": "Your trades already save up to 90% in fees."
+  },
+  "xmas_promo_description_line2": {
+    "message": "Dec 23–Jan 1: each volume milestone can unlock prizes up to $1,000."
+  },
+  "xmas_view_details": {
+    "message": "View Details"
+  },
+  "xmas_details": {
+    "message": "Details"
+  },
+  "xmas_you_are_eligible": {
+    "message": "You are Eligible to Draw"
+  },
+  "xmas_volume": {
+    "message": "Volume"
+  },
+  "xmas_draws_unlocked": {
+    "message": "{current} of {total} draws unlocked"
+  },
+  "xmas_reach_milestone": {
+    "message": "Reach first milestone to draw"
+  },
+  "xmas_reach_milestone_n": {
+    "message": "Reach milestone {n} to draw"
+  },
+  "xmas_all_milestones_unlocked": {
+    "message": "🎉 Congrats! All draws unlocked"
+  },
+  "xmas_drawing": {
+    "message": "Drawing..."
+  },
+  "xmas_draw_now": {
+    "message": "Draw Now ({count})"
+  },
+  "xmas_please_create_wallet": {
+    "message": "Please create a trading wallet first"
+  },
+  "xmas_failed_to_draw": {
+    "message": "Failed to execute draw"
+  },
+  "xmas_how_to_win": {
+    "message": "How to Win"
+  },
+  "xmas_trade_to_qualify": {
+    "message": "Trade to Qualify"
+  },
+  "xmas_trade_milestones_desc": {
+    "message": "Hit trading milestones to earn draws:\n1 SOL, 10 SOL, and 40 SOL.\nEach milestone unlocks one Lucky Draw."
+  },
+  "xmas_spam_warning": {
+    "message": "Spam or wash patterns don't count."
+  },
+  "xmas_get_rewarded": {
+    "message": "Get Rewarded"
+  },
+  "xmas_get_rewarded_desc": {
+    "message": "Receive a random drop up to $1000 auto-credited to your active wallet."
+  },
+  "xmas_join_campaign": {
+    "message": "Join Campaign"
+  },
+  "xmas_you_won": {
+    "message": "You Won!"
+  },
+  "xmas_draw_failed": {
+    "message": "Draw Failed"
+  },
+  "xmas_deposited_to": {
+    "message": "Deposited to"
+  },
+  "xmas_processing": {
+    "message": "Processing..."
+  },
+  "xmas_deposited": {
+    "message": "Deposited"
+  },
+  "xmas_failed": {
+    "message": "Failed"
+  },
+  "xmas_view_tx": {
+    "message": "View Tx"
+  },
+  "xmas_done": {
+    "message": "Done"
+  },
+  "xmas_something_went_wrong": {
+    "message": "Something went wrong with your draw."
+  },
+  "xmas_close": {
+    "message": "Close"
+  },
+  "xmas_draw_history": {
+    "message": "Draw History"
+  },
+  "xmas_available_draws": {
+    "message": "Available Draws"
+  },
+  "xmas_no_history": {
+    "message": "No draw history yet. Complete milestones to unlock draws!"
+  },
+  "xmas_failed_to_load": {
+    "message": "Failed to load data"
   }
 }
