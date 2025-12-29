@@ -1613,6 +1613,12 @@
   "priority_fee_cannot_be_negative": {
     "message": "Priority fee cannot be negative"
   },
+  "priority_fee_warning_exceeds_0_2": {
+    "message": "Warning: Priority fee exceeds 0.2 SOL"
+  },
+  "tip_warning_exceeds_0_2": {
+    "message": "Warning: Tip exceeds 0.2 SOL"
+  },
   "tip_must_be_a_number": {
     "message": "Tip must be a number"
   },
