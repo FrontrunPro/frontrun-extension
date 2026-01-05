@@ -83,6 +83,45 @@
   "label_deleted_successfully": {
     "message": "Метка успешно удалена!"
   },
+  "please_enter_twitter_usernames": {
+    "message": "Пожалуйста, сначала вставьте экспортированные Twitter/X данные."
+  },
+  "no_valid_twitter_usernames_found": {
+    "message": "Не найдено корректных Twitter/X имён пользователя."
+  },
+  "twitter_label_limit_reached": {
+    "message": "Вы достигли максимального количества меток для Twitter/X ({max})."
+  },
+  "import_in_progress": {
+    "message": "Начать импорт"
+  },
+  "twitter_import_started": {
+    "message": "Импорт {count} меток Twitter. Это может занять до 30 минут."
+  },
+  "twitter_import_failed": {
+    "message": "Не удалось импортировать метки Twitter. Пожалуйста, попробуйте снова."
+  },
+  "failed_to_check_profile_limit": {
+    "message": "Не удалось проверить лимит профилей. Пожалуйста, попробуйте снова."
+  },
+  "failed_to_check_wallet_limit": {
+    "message": "Не удалось проверить лимит кошельков. Пожалуйста, попробуйте снова."
+  },
+  "wallet_label_limit_reached": {
+    "message": "Вы достигли максимального количества меток для кошельков ({max})."
+  },
+  "wallet_import_partial_due_to_limit_title": {
+    "message": "Импорт завершён"
+  },
+  "wallet_import_partial_due_to_limit_text": {
+    "message": "Импортировано {imported} из {total} кошельков. Достигнут максимальный лимит меток ({max})."
+  },
+  "wallet_import_partial_due_to_batch_title": {
+    "message": "Импорт завершён"
+  },
+  "wallet_import_partial_due_to_batch_text": {
+    "message": "Импортировано {imported} из {total} кошельков. Лимит пакетной загрузки составляет {batchLimit} кошельков."
+  },
   "username_history": {
     "message": "История имён пользователя"
   },
@@ -329,6 +368,12 @@
   "choose_wallet": {
     "message": "Выбрать кошелек"
   },
+  "wallets_failed_to_activate_retry": {
+    "message": "Не удалось активировать некоторые кошельки. Повторите попытку."
+  },
+  "wallets_failed_to_clear_retry": {
+    "message": "Не удалось очистить некоторые кошельки. Повторите попытку."
+  },
   "select_wallet": {
     "message": "Управление кошельком"
   },
@@ -485,6 +530,12 @@
   "successfully_imported_labels": {
     "message": "Метки успешно импортированы!"
   },
+  "successfully_imported_twitter_labels_title": {
+    "message": "Метки успешно импортированы!"
+  },
+  "successfully_imported_wallet_labels_title": {
+    "message": "Метки кошельков успешно импортированы!"
+  },
   "successfully_added_wallets_to_group": {
     "message": "Кошельки успешно добавлены в группу!"
   },
@@ -503,8 +554,11 @@
   "bulk_import": {
     "message": "Массовый импорт"
   },
+  "bulk_import_placeholder": {
+    "message": "Адрес кошелька: Метка\nАдрес кошелька: Метка\n\nИли вставьте JSON меток Twitter из TamperMonkey, начинающийся с {\"$myTwitterNoteItems\":..."
+  },
   "paste_your_exported_wallets_here": {
-    "message": "Вставьте экспортированные кошельки сюда..."
+    "message": "Вставьте экспортированные кошельки/метки Twitter сюда..."
   },
   "alt_wallet": {
     "message": "Альт‑кошелёк"
@@ -670,6 +724,12 @@
   },
   "supported_wallets": {
     "message": "Поддерживаемые кошельки"
+  },
+  "supported_formats": {
+    "message": "Поддерживаемые форматы"
+  },
+  "tampermonkey_twitter_labels": {
+    "message": "Метки Twitter из TamperMonkey"
   },
   "copied": {
     "message": "Скопировано"
@@ -1748,8 +1808,14 @@
   "buy_variance": {
     "message": "Вариация покупки"
   },
+  "variance": {
+    "message": "Вариация"
+  },
   "transaction_delay": {
     "message": "Задержка транзакции"
+  },
+  "delay": {
+    "message": "Задержка"
   },
   "variance_description": {
     "message": "Вариация суммы покупки среди выбранных кошельков. Случайно от 0% до 100%."
@@ -2800,5 +2866,71 @@
   },
   "xmas_failed_to_load": {
     "message": "Не удалось загрузить данные"
+  },
+  "collapse_side_panel": {
+    "message": "Свернуть"
+  },
+  "active_wallets": {
+    "message": "Активные кошельки"
+  },
+  "multi_wallet_settings": {
+    "message": "Настройки мультикошелька"
+  },
+  "use_sidebar_for_wallets": {
+    "message": "Использовать боковую панель для кошельков"
+  },
+  "use_sidebar_for_wallets_description": {
+    "message": "Показывать выбор кошельков в боковой панели."
+  },
+  "changes_saved": {
+    "message": "Изменения сохранены!"
+  },
+  "panel_background": {
+    "message": "Фон панели"
+  },
+  "custom_image": {
+    "message": "Пользовательское изображение"
+  },
+  "max_file_size_2mb": {
+    "message": "Максимальный размер файла: 2МБ"
+  },
+  "upload": {
+    "message": "Загрузить"
+  },
+  "uploading": {
+    "message": "Загрузка..."
+  },
+  "gif_url": {
+    "message": "GIF URL"
+  },
+  "reset_to_default": {
+    "message": "Сбросить по умолчанию"
+  },
+  "background_image_uploaded": {
+    "message": "Фоновое изображение успешно загружено"
+  },
+  "gif_url_saved": {
+    "message": "GIF URL успешно сохранён"
+  },
+  "background_reset": {
+    "message": "Фон сброшен по умолчанию"
+  },
+  "invalid_url": {
+    "message": "Неверный формат URL"
+  },
+  "url_must_be_gif": {
+    "message": "URL должен быть доступным GIF или WebP изображением"
+  },
+  "failed_to_verify_gif_url": {
+    "message": "Не удалось получить/проверить изображение по URL. Проверьте URL и попробуйте снова"
+  },
+  "preview": {
+    "message": "Предпросмотр"
+  },
+  "background_file_too_large": {
+    "message": "Файл слишком большой. Пожалуйста, выберите файл изображения меньше 2МБ"
+  },
+  "background_invalid_file_type": {
+    "message": "Неверный тип файла. Пожалуйста, выберите файл изображения (JPEG, PNG, GIF или WebP)"
   }
 }

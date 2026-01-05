@@ -74,6 +74,45 @@
   "label_deleted_successfully": {
     "message": "标签删除成功！"
   },
+  "please_enter_twitter_usernames": {
+    "message": "请先粘贴导出的推特用户名/备注内容。"
+  },
+  "no_valid_twitter_usernames_found": {
+    "message": "未找到有效的推特用户名。"
+  },
+  "twitter_label_limit_reached": {
+    "message": "你已达到推特标签数量上限（{max}）。"
+  },
+  "import_in_progress": {
+    "message": "开始导入"
+  },
+  "twitter_import_started": {
+    "message": "正在导入 {count} 个推特标签, 整个过程可最多花费30分钟。"
+  },
+  "twitter_import_failed": {
+    "message": "导入推特标签失败，请重试。"
+  },
+  "failed_to_check_profile_limit": {
+    "message": "检查个人资料限制失败，请重试。"
+  },
+  "failed_to_check_wallet_limit": {
+    "message": "检查钱包限制失败，请重试。"
+  },
+  "wallet_label_limit_reached": {
+    "message": "你已达到钱包标签数量上限（{max}）。"
+  },
+  "wallet_import_partial_due_to_limit_title": {
+    "message": "导入完成"
+  },
+  "wallet_import_partial_due_to_limit_text": {
+    "message": "已导入 {imported} 个，共 {total} 个钱包。你已达到标签数量上限（{max}）。"
+  },
+  "wallet_import_partial_due_to_batch_title": {
+    "message": "导入完成"
+  },
+  "wallet_import_partial_due_to_batch_text": {
+    "message": "已导入 {imported} 个，共 {total} 个钱包。单次批量限制为 {batchLimit} 个钱包。"
+  },
   "username_history": {
     "message": "用户名历史"
   },
@@ -311,6 +350,12 @@
   "choose_wallet": {
     "message": "选择钱包"
   },
+  "wallets_failed_to_activate_retry": {
+    "message": "部分钱包激活失败，请重试。"
+  },
+  "wallets_failed_to_clear_retry": {
+    "message": "部分钱包清除失败，请重试。"
+  },
   "select_wallet": {
     "message": "管理钱包"
   },
@@ -476,6 +521,12 @@
   "successfully_imported_labels": {
     "message": "标签导入成功！"
   },
+  "successfully_imported_twitter_labels_title": {
+    "message": "推特标签导入成功！"
+  },
+  "successfully_imported_wallet_labels_title": {
+    "message": "钱包标签导入成功！"
+  },
   "failed_to_import_labels": {
     "message": "标签导入失败"
   },
@@ -485,8 +536,11 @@
   "bulk_import": {
     "message": "批量导入"
   },
+  "bulk_import_placeholder": {
+    "message": "钱包地址: 标签\n钱包地址: 标签\n\n或粘贴油猴脚本推特标签JSON，格式以 {\"$myTwitterNoteItems\":... 开头"
+  },
   "paste_your_exported_wallets_here": {
-    "message": "请粘贴你导出的钱包..."
+    "message": "请粘贴你导出的钱包/推特标签..."
   },
   "alt_wallet": {
     "message": "关联钱包"
@@ -652,6 +706,12 @@
   },
   "supported_wallets": {
     "message": "支持的钱包组类型"
+  },
+  "supported_formats": {
+    "message": "支持的格式"
+  },
+  "tampermonkey_twitter_labels": {
+    "message": "油猴脚本推特标签"
   },
   "copied": {
     "message": "已复制"
@@ -1736,8 +1796,14 @@
   "buy_variance": {
     "message": "购买变化幅度"
   },
+  "variance": {
+    "message": "变化幅度"
+  },
   "transaction_delay": {
     "message": "交易延迟"
+  },
+  "delay": {
+    "message": "延迟"
   },
   "variance_description": {
     "message": "所选钱包购买金额的变化幅度。0% 到 100% 随机分配。"
@@ -2797,5 +2863,71 @@
   },
   "xmas_failed_to_load": {
     "message": "加载数据失败"
+  },
+  "active_wallets": {
+    "message": "活跃钱包"
+  },
+  "collapse_side_panel": {
+    "message": "收起"
+  },
+  "multi_wallet_settings": {
+    "message": "多钱包设置"
+  },
+  "use_sidebar_for_wallets": {
+    "message": "使用侧边栏选择钱包"
+  },
+  "use_sidebar_for_wallets_description": {
+    "message": "在侧边栏中显示钱包选择。"
+  },
+  "changes_saved": {
+    "message": "更改已保存！"
+  },
+  "panel_background": {
+    "message": "面板背景"
+  },
+  "custom_image": {
+    "message": "自定义图片"
+  },
+  "max_file_size_2mb": {
+    "message": "最大文件大小：2MB"
+  },
+  "upload": {
+    "message": "上传"
+  },
+  "uploading": {
+    "message": "上传中..."
+  },
+  "gif_url": {
+    "message": "GIF 链接"
+  },
+  "reset_to_default": {
+    "message": "恢复默认"
+  },
+  "background_image_uploaded": {
+    "message": "背景图片上传成功"
+  },
+  "gif_url_saved": {
+    "message": "GIF 链接保存成功"
+  },
+  "background_reset": {
+    "message": "背景已恢复默认"
+  },
+  "invalid_url": {
+    "message": "无效的 URL 格式"
+  },
+  "url_must_be_gif": {
+    "message": "URL 必须是可获取的 GIF 或 WebP 图片"
+  },
+  "failed_to_verify_gif_url": {
+    "message": "无法从该 URL 获取/验证图片，请检查 URL 后重试"
+  },
+  "preview": {
+    "message": "预览"
+  },
+  "background_file_too_large": {
+    "message": "文件过大。请选择小于 2MB 的图片文件"
+  },
+  "background_invalid_file_type": {
+    "message": "无效的文件类型。请选择图片文件（JPEG、PNG、GIF 或 WebP）"
   }
 }

@@ -80,6 +80,45 @@
   "label_deleted_successfully": {
     "message": "Label deleted successfully!"
   },
+  "please_enter_twitter_usernames": {
+    "message": "Please paste your exported Twitter usernames/notes first"
+  },
+  "no_valid_twitter_usernames_found": {
+    "message": "No valid Twitter usernames found"
+  },
+  "twitter_label_limit_reached": {
+    "message": "You have reached the maximum label amount for Twitter ({max})"
+  },
+  "import_in_progress": {
+    "message": "Start to import"
+  },
+  "twitter_import_started": {
+    "message": "Importing {count} Twitter labels. It could take up to 30 minutes."
+  },
+  "twitter_import_failed": {
+    "message": "Failed to import Twitter labels. Please try again"
+  },
+  "failed_to_check_profile_limit": {
+    "message": "Failed to check profile limit. Please try again"
+  },
+  "failed_to_check_wallet_limit": {
+    "message": "Failed to check wallet limit. Please try again"
+  },
+  "wallet_label_limit_reached": {
+    "message": "You have reached the maximum label amount for wallets ({max})"
+  },
+  "wallet_import_partial_due_to_limit_title": {
+    "message": "Import completed"
+  },
+  "wallet_import_partial_due_to_limit_text": {
+    "message": "{imported} of {total} wallets imported. You've reached the maximum label amount ({max})."
+  },
+  "wallet_import_partial_due_to_batch_title": {
+    "message": "Import completed"
+  },
+  "wallet_import_partial_due_to_batch_text": {
+    "message": "{imported} of {total} wallets imported. Batch limit is {batchLimit} wallets"
+  },
   "username_history": {
     "message": "Username History"
   },
@@ -323,6 +362,12 @@
   "choose_wallet": {
     "message": "Choose Wallet"
   },
+  "wallets_failed_to_activate_retry": {
+    "message": "Some wallets failed to activate. Please retry."
+  },
+  "wallets_failed_to_clear_retry": {
+    "message": "Some wallets failed to clear. Please retry."
+  },
   "select_wallet": {
     "message": "Manage Wallet"
   },
@@ -479,6 +524,12 @@
   "successfully_imported_labels": {
     "message": "Successfully imported labels!"
   },
+  "successfully_imported_twitter_labels_title": {
+    "message": "Successfully Imported"
+  },
+  "successfully_imported_wallet_labels_title": {
+    "message": "Successfully Imported"
+  },
   "successfully_added_wallets_to_group": {
     "message": "Successfully added wallets to group!"
   },
@@ -497,8 +548,11 @@
   "bulk_import": {
     "message": "Bulk Import"
   },
+  "bulk_import_placeholder": {
+    "message": "Wallet address: Label\nWallet address: Label\n\nOr paste TamperMonkey Twitter labels JSON that begins with {\"$myTwitterNoteItems\":..."
+  },
   "paste_your_exported_wallets_here": {
-    "message": "Paste your exported wallets here..."
+    "message": "Paste your exported wallets/Twitter labels here..."
   },
   "alt_wallet": {
     "message": "Alt Wallet"
@@ -664,6 +718,12 @@
   },
   "supported_wallets": {
     "message": "Supported Wallets"
+  },
+  "supported_formats": {
+    "message": "Supported Formats"
+  },
+  "tampermonkey_twitter_labels": {
+    "message": "TamperMonkey Twitter Labels"
   },
   "copied": {
     "message": "Copied"
@@ -1724,8 +1784,14 @@
   "buy_variance": {
     "message": "Buy Variance"
   },
+  "variance": {
+    "message": "Variance"
+  },
   "transaction_delay": {
     "message": "Transaction Delay"
+  },
+  "delay": {
+    "message": "Delay"
   },
   "variance_description": {
     "message": "The variance of the buy amount across the selected wallets. 0% to 100% randomly."
@@ -2797,5 +2863,71 @@
   },
   "xmas_failed_to_load": {
     "message": "Failed to load data"
+  },
+  "active_wallets": {
+    "message": "Active Wallets"
+  },
+  "collapse_side_panel": {
+    "message": "Collapse"
+  },
+  "multi_wallet_settings": {
+    "message": "Multi-Wallet Settings"
+  },
+  "use_sidebar_for_wallets": {
+    "message": "Use Sidebar for Wallets"
+  },
+  "use_sidebar_for_wallets_description": {
+    "message": "Show wallet selection in a sidebar."
+  },
+  "changes_saved": {
+    "message": "Changes have been saved!"
+  },
+  "panel_background": {
+    "message": "Panel Background"
+  },
+  "custom_image": {
+    "message": "Custom Image"
+  },
+  "max_file_size_2mb": {
+    "message": "Max file size: 2MB"
+  },
+  "upload": {
+    "message": "Upload"
+  },
+  "uploading": {
+    "message": "Uploading..."
+  },
+  "gif_url": {
+    "message": "GIF URL"
+  },
+  "reset_to_default": {
+    "message": "Reset to Default"
+  },
+  "background_image_uploaded": {
+    "message": "Background image uploaded successfully"
+  },
+  "gif_url_saved": {
+    "message": "GIF URL saved successfully"
+  },
+  "background_reset": {
+    "message": "Background reset to default"
+  },
+  "invalid_url": {
+    "message": "Invalid URL format"
+  },
+  "url_must_be_gif": {
+    "message": "URL must be a valid GIF or WebP image (must be fetchable)"
+  },
+  "failed_to_verify_gif_url": {
+    "message": "Failed to fetch/verify the image from this URL. Please check the URL and try again"
+  },
+  "preview": {
+    "message": "Preview"
+  },
+  "background_file_too_large": {
+    "message": "File is too large. Please select an image file smaller than 2MB"
+  },
+  "background_invalid_file_type": {
+    "message": "Invalid file type. Please select an image file (JPEG, PNG, GIF, or WebP)"
   }
 }
