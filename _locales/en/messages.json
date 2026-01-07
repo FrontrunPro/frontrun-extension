@@ -722,6 +722,9 @@
   "supported_formats": {
     "message": "Supported Formats"
   },
+  "tutorial": {
+    "message": "Tutorial ↗"
+  },
   "tampermonkey_twitter_labels": {
     "message": "TamperMonkey Twitter Labels"
   },
@@ -1111,6 +1114,9 @@
   },
   "view_on_solscan": {
     "message": "View on Solscan"
+  },
+  "view_on_bscscan": {
+    "message": "View on BscScan"
   },
   "view_private_key": {
     "message": "View Private Key"
@@ -1625,6 +1631,9 @@
   "market_cap": {
     "message": "Market Cap"
   },
+  "market": {
+    "message": "Market"
+  },
   "swapped": {
     "message": "Swapped"
   },
@@ -1832,6 +1841,9 @@
   "auto_fee": {
     "message": "Auto Fee"
   },
+  "mev": {
+    "message": "MEV"
+  },
   "enter_max_fee": {
     "message": "Enter max fee"
   },
@@ -1860,7 +1872,7 @@
     "message": "ON"
   },
   "off": {
-    "message": "OFF"
+    "message": "Off"
   },
   "secure": {
     "message": "SECURE"
@@ -1870,6 +1882,9 @@
   },
   "edit_preset_value_tooltip": {
     "message": "Edit preset value"
+  },
+  "more_customizations": {
+    "message": "More customizations"
   },
   "total_fees": {
     "message": "Total Fees"
@@ -2048,8 +2063,8 @@
   "limit_order_sell_failed": {
     "message": "The sell order for ${tokenSymbol} has failed."
   },
-  "active_trades": {
-    "message": "Active Trades"
+  "trades": {
+    "message": "Trades"
   },
   "action": {
     "message": "Action"

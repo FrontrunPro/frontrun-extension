@@ -86,6 +86,9 @@
   "import_in_progress": {
     "message": "开始导入"
   },
+  "market": {
+    "message": "市价"
+  },
   "twitter_import_started": {
     "message": "正在导入 {count} 个推特标签, 整个过程可最多花费30分钟。"
   },
@@ -710,6 +713,9 @@
   "supported_formats": {
     "message": "支持的格式"
   },
+  "tutorial": {
+    "message": "教程 ↗"
+  },
   "tampermonkey_twitter_labels": {
     "message": "油猴脚本推特标签"
   },
@@ -1144,6 +1150,9 @@
   },
   "view_on_solscan": {
     "message": "在 Solscan 上查看"
+  },
+  "view_on_bscscan": {
+    "message": "在 BscScan 上查看"
   },
   "view_private_key": {
     "message": "查看私钥"
@@ -1844,6 +1853,9 @@
   "auto_fee": {
     "message": "自动费用"
   },
+  "mev": {
+    "message": "MEV"
+  },
   "enter_max_fee": {
     "message": "输入最大费用"
   },
@@ -1882,6 +1894,9 @@
   },
   "edit_preset_value_tooltip": {
     "message": "编辑预设值"
+  },
+  "more_customizations": {
+    "message": "更多自定义设置"
   },
   "total_fees": {
     "message": "总费用"
@@ -2072,7 +2087,7 @@
   "limit_order_sell_failed": {
     "message": "${tokenSymbol} 的卖出订单已失败。"
   },
-  "active_trades": {
+  "trades": {
     "message": "活跃交易"
   },
   "action": {

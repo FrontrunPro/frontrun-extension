@@ -95,6 +95,9 @@
   "import_in_progress": {
     "message": "Начать импорт"
   },
+  "market": {
+    "message": "Рынок"
+  },
   "twitter_import_started": {
     "message": "Импорт {count} меток Twitter. Это может занять до 30 минут."
   },
@@ -728,6 +731,9 @@
   "supported_formats": {
     "message": "Поддерживаемые форматы"
   },
+  "tutorial": {
+    "message": "Учебник ↗"
+  },
   "tampermonkey_twitter_labels": {
     "message": "Метки Twitter из TamperMonkey"
   },
@@ -1141,6 +1147,9 @@
   },
   "view_on_solscan": {
     "message": "Открыть в Solscan"
+  },
+  "view_on_bscscan": {
+    "message": "Открыть в BscScan"
   },
   "view_private_key": {
     "message": "Показать приватный ключ"
@@ -1856,6 +1865,9 @@
   "auto_fee": {
     "message": "Автоматический сбор"
   },
+  "mev": {
+    "message": "MEV"
+  },
   "enter_max_fee": {
     "message": "Введите макс. комиссию"
   },
@@ -1894,6 +1906,9 @@
   },
   "edit_preset_value_tooltip": {
     "message": "Редактировать значение пресета"
+  },
+  "more_customizations": {
+    "message": "Больше настроек"
   },
   "total_fees": {
     "message": "Общая комиссия"
@@ -2075,7 +2090,7 @@
   "limit_order_sell_failed": {
     "message": "Ордер на продажу ${tokenSymbol} не выполнен."
   },
-  "active_trades": {
+  "trades": {
     "message": "Активные сделки"
   },
   "action": {
