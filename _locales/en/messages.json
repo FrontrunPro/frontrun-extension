@@ -18,10 +18,10 @@
     "message": "Top Moves"
   },
   "top_moves_info": {
-    "message": "Top Moves surfaces this profile's notable recent trades on major tokens: trades with $50k+ PnL or positions that are within top 100 holders. PnL appears in green; holder rank in yellow."
+    "message": "Top Moves surfaces this profile's notable recent trades on major tokens: trades with $30k+ PnL or positions that are within top 100 holders. PnL appears in green; holder rank in yellow."
   },
   "top_moves_setting_info": {
-    "message": "Top Moves shows this profile's notable recent trades on major tokens: trades with $50k+ PnL or positions that are within top 100 holders"
+    "message": "Top Moves shows this profile's notable recent trades on major tokens: trades with $30k+ PnL or positions that are within top 100 holders"
   },
   "platform_settings": {
     "message": "Platform Controls"
@@ -1599,7 +1599,7 @@
     "message": "Pnl"
   },
   "only_pnl_above_50k_is_displayed": {
-    "message": "Only PnL above $50k is displayed."
+    "message": "Only PnL above $30k is displayed."
   },
   "top_trader": {
     "message": "Top Trader"
@@ -1611,7 +1611,7 @@
     "message": "Top Holder"
   },
   "pnl_over_50k": {
-    "message": "PnL over $50k"
+    "message": "PnL over $30k"
   },
   "you_saved": {
     "message": "You saved"
@@ -2689,6 +2689,12 @@
   },
   "preview_panel": {
     "message": "Preview panel"
+  },
+  "estimate_amount_on_hover": {
+    "message": "Estimate Amount on Hover"
+  },
+  "estimate_amount_on_hover_desc": {
+    "message": "Instant trade panel shows reflected amount on hover"
   },
   "read_more_in_alert": {
     "message": "Read more"

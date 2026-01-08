@@ -1617,7 +1617,7 @@
     "message": "盈利"
   },
   "only_pnl_above_50k_is_displayed": {
-    "message": "仅显示高于 $50k 的 PnL。"
+    "message": "仅显示高于 $30k 的 PnL。"
   },
   "top_trader": {
     "message": "顶级交易者"
@@ -1629,7 +1629,7 @@
     "message": "前排持有者"
   },
   "pnl_over_50k": {
-    "message": "高于 $50k 的 PnL"
+    "message": "高于 $30k 的 PnL"
   },
   "you_saved": {
     "message": "您节省了"
@@ -2689,6 +2689,12 @@
   },
   "preview_panel": {
     "message": "预览面板"
+  },
+  "estimate_amount_on_hover": {
+    "message": "悬停显示预估数量"
+  },
+  "estimate_amount_on_hover_desc": {
+    "message": "悬停时在交易面板上显示预估交易数量"
   },
   "read_more_in_alert": {
     "message": "阅读更多"
