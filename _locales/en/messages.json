@@ -1595,6 +1595,9 @@
   "position": {
     "message": "Position"
   },
+  "positions": {
+    "message": "Positions"
+  },
   "pnl": {
     "message": "Pnl"
   },
@@ -1924,6 +1927,9 @@
   },
   "fee_saved_trading_panel": {
     "message": "saved!"
+  },
+  "fee_saved_trading_panel_tooltip": {
+    "message": "You saved {amount} on fees"
   },
   "limit_orders": {
     "message": "Limit Orders"

@@ -27,25 +27,25 @@
     "message": "Внешний вид"
   },
   "platform_settings": {
-    "message": "Управление платформой"
+    "message": "Платформа"
   },
   "general_settings": {
     "message": "Общие"
   },
   "twitter_settings": {
-    "message": "Настройки X"
+    "message": "X"
   },
   "trading_settings": {
-    "message": "Настройки торговли"
+    "message": "Торговля"
   },
   "execution_settings": {
-    "message": "Настройки выполнения"
+    "message": "Исполнение"
   },
   "execution_settings_updated_successfully": {
     "message": "Настройки выполнения успешно обновлены"
   },
   "display_settings": {
-    "message": "Настройки отображения"
+    "message": "Отображение"
   },
   "cache": {
     "message": "Кэш"
@@ -153,7 +153,7 @@
     "message": "Активных твитов с CA не найдено"
   },
   "view_on_twitter": {
-    "message": "Открыть в Twitter"
+    "message": "В Twitter"
   },
   "deleted_tweets_found": {
     "message": "Найдено {deletedTweetsCount} удалённых твитов"
@@ -192,10 +192,10 @@
     "message": "Профиль X"
   },
   "net_worth": {
-    "message": "Чистая стоимость"
+    "message": "Капитал"
   },
   "win_rate": {
-    "message": "Процент побед"
+    "message": "Винрейт"
   },
   "pnl_90d": {
     "message": "PnL (90 дней)"
@@ -219,7 +219,7 @@
     "message": "ID пакета"
   },
   "total_transactions": {
-    "message": "Всего транзакций"
+    "message": "Транзакции"
   },
   "validator_tip": {
     "message": "Чаевые Jito"
@@ -243,7 +243,7 @@
     "message": "Не удаётся загрузить информацию о пакете."
   },
   "view_on_jito_explorer": {
-    "message": "Открыть в Jito Explorer"
+    "message": "На Jito Explorer"
   },
   "close": {
     "message": "Закрыть"
@@ -300,7 +300,7 @@
     "message": "Новая группа"
   },
   "import_labels": {
-    "message": "Импорт меток"
+    "message": "Импорт"
   },
   "group_name": {
     "message": "Название группы"
@@ -378,7 +378,7 @@
     "message": "Не удалось очистить некоторые кошельки. Повторите попытку."
   },
   "select_wallet": {
-    "message": "Управление кошельком"
+    "message": "Кошелёк"
   },
   "select_all": {
     "message": "Выбрать все"
@@ -402,7 +402,7 @@
     "message": "Вы ещё не назначили пользовательские метки."
   },
   "start_trading": {
-    "message": "Начать торговать"
+    "message": "Торговать"
   },
   "profiles": {
     "message": "Профили"
@@ -417,7 +417,7 @@
     "message": "Название кошелька не может превышать {maxLength} символов"
   },
   "wallet_management": {
-    "message": "Управление кошельками"
+    "message": "Кошельки"
   },
   "wallet_dashboard_disabled": {
     "message": "Панель кошельков не включена"
@@ -426,7 +426,7 @@
     "message": "Активы"
   },
   "total_assets": {
-    "message": "Всего активов"
+    "message": "Активы"
   },
   "group_view": {
     "message": "Просмотр по группам"
@@ -570,7 +570,7 @@
     "message": "Высокий"
   },
   "medium": {
-    "message": "Средний"
+    "message": "Средн."
   },
   "we_are_confident_pocket_wallet": {
     "message": "Мы {confidence} уверены, что этот кошелёк является карманным для выбранного адреса."
@@ -612,7 +612,7 @@
     "message": "заработано"
   },
   "total_earnings": {
-    "message": "Общий доход"
+    "message": "Доход"
   },
   "jupiter_withdraw_description": {
     "message": "Выведите ваши SOL и USDC из Jupiter Lend обратно на ваши кошельки."
@@ -762,7 +762,7 @@
     "message": "Импорт меток"
   },
   "auto_import_labels": {
-    "message": "Автоматически синхронизировать метки"
+    "message": "Авто-синхронизация"
   },
   "quick_buy": {
     "message": "Купить"
@@ -771,13 +771,13 @@
     "message": "Быстрая покупка"
   },
   "quick_buy_amount": {
-    "message": "Сумма быстрой покупки"
+    "message": "Сумма"
   },
   "quick_buy_settings": {
-    "message": "Настройки быстрой покупки"
+    "message": "Быстрая покупка"
   },
   "use_autotrade": {
-    "message": "Использовать автоторговлю"
+    "message": "Автоторговля"
   },
   "autotrade_settings_hint": {
     "message": "Стратегии автоторговли настраиваются в торговой панели"
@@ -798,10 +798,10 @@
     "message": "Продать"
   },
   "instant_trade": {
-    "message": "Мгновенная торговля"
+    "message": "Быстро"
   },
   "recently_logged_in_as": {
-    "message": "Недавно вошли как"
+    "message": "Вход как"
   },
   "clear": {
     "message": "Очистить"
@@ -858,7 +858,7 @@
     "message": "Данные KOL"
   },
   "custom_labels": {
-    "message": "Пользовательские метки"
+    "message": "Свои метки"
   },
   "smart_wallet_insights": {
     "message": "Инсайты умного кошелька"
@@ -897,7 +897,7 @@
     "message": "Имя"
   },
   "show_full_list": {
-    "message": "Показать полный список"
+    "message": "Весь список"
   },
   "are_you_sure_you_want_to_delete_this_profile": {
     "message": "Вы уверены, что хотите удалить этот профиль?"
@@ -912,7 +912,7 @@
     "message": "Вы уверены, что хотите удалить эту метку? Кошелёк будет удалён"
   },
   "delete_label": {
-    "message": "Удалить метку"
+    "message": "Удалить"
   },
   "of": {
     "message": "из"
@@ -924,16 +924,16 @@
     "message": "Группа"
   },
   "group_management": {
-    "message": "Управление группами"
+    "message": "Группы"
   },
   "add_wallet": {
     "message": "Добавить кошелёк"
   },
   "add_multi_wallet": {
-    "message": "Добавить несколько кошельков"
+    "message": "+ Кошельки"
   },
   "delete_group": {
-    "message": "Удалить группу"
+    "message": "Удалить"
   },
   "are_you_sure_you_want_to_delete_this_group": {
     "message": "Вы уверены, что хотите удалить эту группу?"
@@ -957,10 +957,10 @@
     "message": "Не удалось удалить группу"
   },
   "delete_profile": {
-    "message": "Удалить профиль"
+    "message": "Удалить"
   },
   "add_single_wallet": {
-    "message": "Добавить один кошелёк"
+    "message": "+ Кошелёк"
   },
   "wallet_address_placeholder": {
     "message": "адрес кошелька"
@@ -1020,7 +1020,7 @@
     "message": "Импорт..."
   },
   "delete_wallet": {
-    "message": "Удалить кошелёк"
+    "message": "Удалить"
   },
   "deleting": {
     "message": "Удаление..."
@@ -1074,7 +1074,7 @@
     "message": "Не удалось импортировать приватный ключ"
   },
   "import_wallet": {
-    "message": "Импорт кошелька"
+    "message": "Импорт"
   },
   "do_not_share_your_private_key_with_anyone_frontrun_never_sees_or_stores_your_key": {
     "message": "Не делитесь приватным ключом ни с кем. Frontrun не видит и не хранит ваши ключи."
@@ -1134,7 +1134,7 @@
     "message": "SOL успешно отправлен на"
   },
   "view_transaction": {
-    "message": "Посмотреть транзакцию"
+    "message": "Транзакция"
   },
   "done": {
     "message": "Готово"
@@ -1143,22 +1143,22 @@
     "message": "Активный кошелёк"
   },
   "set_as_default_wallet": {
-    "message": "Сделать активным кошельком"
+    "message": "Сделать активным"
   },
   "view_on_solscan": {
-    "message": "Открыть в Solscan"
+    "message": "На Solscan"
   },
   "view_on_bscscan": {
-    "message": "Открыть в BscScan"
+    "message": "На BscScan"
   },
   "view_private_key": {
-    "message": "Показать приватный ключ"
+    "message": "Показать ключ"
   },
   "archive_wallet": {
-    "message": "Архивировать кошелёк"
+    "message": "В архив"
   },
   "archive_wallet_disabled": {
-    "message": "Активный кошелёк не может быть архивирован"
+    "message": "Активный не архивируется"
   },
   "holdings": {
     "message": "Активы"
@@ -1191,25 +1191,25 @@
     "message": "Не удалось скопировать адрес"
   },
   "copy_address": {
-    "message": "Копировать адрес"
+    "message": "Копировать"
   },
   "export_private_key": {
-    "message": "Экспорт приватного ключа"
+    "message": "Экспорт ключа"
   },
   "your_private_key_will_provide_all_access_to_this_account_do_not_share_your_private_key_with_anyone_frontrun_never_sees_or_stores_your_key": {
     "message": "Приватный ключ даст полный доступ к аккаунту. Не делитесь ключом. Frontrun не видит и не хранит ваши ключи."
   },
   "reveal_private_key": {
-    "message": "Показать приватный ключ"
+    "message": "Показать ключ"
   },
   "enter_private_key": {
-    "message": "Введите приватный ключ"
+    "message": "Введите ключ"
   },
   "send_failed": {
     "message": "Не удалось отправить"
   },
   "confirm_send": {
-    "message": "Подтвердить отправку"
+    "message": "Подтвердить"
   },
   "send_sol": {
     "message": "Отправить SOL"
@@ -1275,7 +1275,7 @@
     "message": "Не удалось удалить кошелёк"
   },
   "link_to_google_account": {
-    "message": "Привязать к Google‑аккаунту"
+    "message": "К Google"
   },
   "link_failed_retry": {
     "message": "Не удалось привязать. Попробуйте ещё раз."
@@ -1287,7 +1287,7 @@
     "message": "Привязать сейчас"
   },
   "account_migration": {
-    "message": "Миграция аккаунта"
+    "message": "Миграция"
   },
   "account_linked_successfully": {
     "message": "Аккаунт успешно привязан"
@@ -1389,7 +1389,7 @@
     "message": "Этот кошелек не был верифицирован."
   },
   "label_text_style": {
-    "message": "Стиль текста меток"
+    "message": "Стиль меток"
   },
   "compact": {
     "message": "Компактный"
@@ -1416,7 +1416,7 @@
     "message": "Вас часто выбрасывает из аккаунта? Вот как это исправить"
   },
   "add_to_wallets": {
-    "message": "Добавить в кошельки"
+    "message": "В кошельки"
   },
   "successfully_added_to_wallets": {
     "message": "Успешно добавлено в кошельки"
@@ -1452,7 +1452,7 @@
     "message": "Псевдоним"
   },
   "edit_alias": {
-    "message": "Редактировать псевдоним"
+    "message": "Изменить"
   },
   "enter_alias_placeholder": {
     "message": "Введите псевдоним"
@@ -1464,10 +1464,10 @@
     "message": "Не удалось обновить псевдоним"
   },
   "view_all": {
-    "message": "Посмотреть все"
+    "message": "Все"
   },
   "view_all_positions": {
-    "message": "Посмотреть все позиции"
+    "message": "Все позиции"
   },
   "top_mentions": {
     "message": "Топ упоминания"
@@ -1482,10 +1482,10 @@
     "message": "Продажа"
   },
   "sell_init": {
-    "message": "Окупить"
+    "message": "Инит."
   },
   "sell_initial_failed": {
-    "message": "Не удалось окупить"
+    "message": "Не удалось продать инит."
   },
   "sell_initial_insufficient_tokens": {
     "message": "У вас недостаточно токенов для покрытия вашей начальной позиции!"
@@ -1542,7 +1542,7 @@
     "message": "Не удалось получить цитату"
   },
   "slippage_exceeded": {
-    "message": "Превышен допуск проскальзывания. Попробуйте увеличить допуск проскальзывания"
+    "message": "Превышен слипаж. Попробуйте увеличить допуск"
   },
   "bonding_curve_completed": {
     "message": "Кривая связывания завершена. Пожалуйста, обновите страницу"
@@ -1605,7 +1605,7 @@
     "message": "Обновить"
   },
   "refresh_all_positions": {
-    "message": "Обновить все позиции"
+    "message": "Обновить всё"
   },
   "failed_to_refresh_positions": {
     "message": "Не удалось обновить позиции"
@@ -1627,6 +1627,9 @@
   },
   "position": {
     "message": "Позиция"
+  },
+  "positions": {
+    "message": "Позиции"
   },
   "pnl": {
     "message": "Pnl"
@@ -1653,19 +1656,19 @@
     "message": "комиссии"
   },
   "fee_saved": {
-    "message": "Комиссия сохранена"
+    "message": "Экономия"
   },
   "more": {
     "message": "Больше"
   },
   "order_summary": {
-    "message": "Сводка заказа"
+    "message": "Ордер"
   },
   "swapped": {
     "message": "Обменено"
   },
   "trade_summary": {
-    "message": "Сводка торговли"
+    "message": "Итог"
   },
   "time": {
     "message": "Время"
@@ -1680,40 +1683,40 @@
     "message": "Цена"
   },
   "slippage": {
-    "message": "Проскальзывание"
+    "message": "Слипаж"
   },
   "total_cost": {
-    "message": "Общая стоимость"
+    "message": "Итого"
   },
   "tip": {
     "message": "Чаевые"
   },
   "priority_fee": {
-    "message": "Приоритетная комиссия"
+    "message": "Приоритет"
   },
   "market_trading": {
     "message": "Рынок"
   },
   "slippage_must_be_a_number": {
-    "message": "Проскальзывание должно быть числом"
+    "message": "Слипаж должен быть числом"
   },
   "slippage_cannot_be_negative": {
-    "message": "Проскальзывание не может быть отрицательным"
+    "message": "Слипаж не может быть отрицательным"
   },
   "slippage_cannot_be_greater_than_100": {
-    "message": "Проскальзывание не может быть больше 100%"
+    "message": "Слипаж не может быть больше 100%"
   },
   "priority_fee_must_be_a_number": {
-    "message": "Приоритетная комиссия должна быть числом"
+    "message": "Приоритет должен быть числом"
   },
   "priority_fee_cannot_be_negative": {
-    "message": "Приоритетная комиссия не может быть отрицательной"
+    "message": "Приоритет не может быть отрицательным"
   },
   "priority_fee_warning_exceeds_0_2": {
-    "message": "Предупреждение: Приоритетная комиссия превышает 0.2 SOL"
+    "message": "Внимание: приоритет превышает 0.2 SOL"
   },
   "tip_warning_exceeds_0_2": {
-    "message": "Предупреждение: Чаевые превышают 0.2 SOL"
+    "message": "Внимание: чаевые превышают 0.2 SOL"
   },
   "tip_must_be_a_number": {
     "message": "Чаевые должны быть числом"
@@ -1728,10 +1731,10 @@
     "message": "больше"
   },
   "network_fee": {
-    "message": "Сетевая комиссия"
+    "message": "Ком. сети"
   },
   "current_position": {
-    "message": "Текущая позиция"
+    "message": "Позиция"
   },
   "all_positions": {
     "message": "Все позиции"
@@ -1764,16 +1767,16 @@
     "message": "Баланс"
   },
   "show_translate": {
-    "message": "Показать перевод"
+    "message": "Перевод"
   },
   "show_translate_tip": {
     "message": "Показать перевод для имени и символа в GMGN"
   },
   "translate_size": {
-    "message": "Стиль текста перевода"
+    "message": "Размер"
   },
   "label_tool": {
-    "message": "Кнопка редактирования метки"
+    "message": "Кнопка метки"
   },
   "label_tool_description": {
     "message": "Показывать маленький значок-карандаш рядом с адресами, чтобы добавлять или редактировать метки прямо на месте."
@@ -1788,7 +1791,7 @@
     "message": "Показывать бейджи прибыли/убытка в постах с адресами контрактов"
   },
   "auto_derived_labels": {
-    "message": "Автогенерируемые метки"
+    "message": "Авто-метки"
   },
   "auto_derived_labels_tip": {
     "message": "Показывать автогенерируемые метки на основе позиций и PnL кошелька, например:"
@@ -1809,10 +1812,10 @@
     "message": "Сэкономьте {x}% на комиссиях"
   },
   "add_to_selection": {
-    "message": "Добавить в выбор"
+    "message": "В выбор"
   },
   "remove_from_selection": {
-    "message": "Удалить из выбора"
+    "message": "Из выбора"
   },
   "buy_variance": {
     "message": "Вариация покупки"
@@ -1839,13 +1842,13 @@
     "message": "Настройки"
   },
   "switch_to_popup": {
-    "message": "Переключить на Popup"
+    "message": "В Popup"
   },
   "switch_to_sidepanel": {
-    "message": "Переключить на Sidepanel"
+    "message": "В панель"
   },
   "save_changes": {
-    "message": "Сохранить изменения"
+    "message": "Сохранить"
   },
   "saving": {
     "message": "Сохранение..."
@@ -1854,43 +1857,43 @@
     "message": "Пресет"
   },
   "buy_settings": {
-    "message": "Настройки покупки"
+    "message": "Покупка"
   },
   "sell_settings": {
-    "message": "Настройки продажи"
+    "message": "Продажа"
   },
   "mev_mode": {
     "message": "MEV режим"
   },
   "auto_fee": {
-    "message": "Автоматический сбор"
+    "message": "Авто"
   },
   "mev": {
     "message": "MEV"
   },
   "enter_max_fee": {
-    "message": "Введите макс. комиссию"
+    "message": "Макс. комиссия"
   },
   "enter_max_fee_placeholder": {
-    "message": "Введите макс. комиссию"
+    "message": "Макс. комиссия"
   },
   "priority_fee_auto_tooltip": {
-    "message": "Приоритетная комиссия в реальном времени из сети (автоматически)"
+    "message": "Авто-приоритет из сети"
   },
   "bribe_fee_auto_tooltip": {
-    "message": "Чаевые в реальном времени из сети (автоматически)"
+    "message": "Авто-чаевые из сети"
   },
   "recommended_priority_fee_tooltip": {
-    "message": "Рекомендуемая приоритетная комиссия {fee} SOL"
+    "message": "Рекомендуемый приоритет: {fee} SOL"
   },
   "recommended_bribe_fee_tooltip": {
-    "message": "Рекомендуемые чаевые {fee} SOL"
+    "message": "Рекомендуемые чаевые: {fee} SOL"
   },
   "no_limit": {
     "message": "без ограничений"
   },
   "max_fee": {
-    "message": "Максимальный сбор"
+    "message": "Макс."
   },
   "on": {
     "message": "ВКЛ"
@@ -1908,10 +1911,10 @@
     "message": "Редактировать значение пресета"
   },
   "more_customizations": {
-    "message": "Больше настроек"
+    "message": "Ещё"
   },
   "total_fees": {
-    "message": "Общая комиссия"
+    "message": "Комиссии"
   },
   "transaction_overpaid": {
     "message": "Эта транзакция дополнительно потратила {fee} комиссии"
@@ -1944,16 +1947,19 @@
     "message": "Развернуть"
   },
   "enable_keyboard_shortcuts": {
-    "message": "Включить горячие клавиши"
+    "message": "Горячие клавиши"
   },
   "disable_keyboard_shortcuts": {
-    "message": "Удерживайте пробел для использования горячих клавиш"
+    "message": "Пробел для хоткеев"
   },
   "fee_saved_trading_panel": {
     "message": "Сохранено!"
   },
+  "fee_saved_trading_panel_tooltip": {
+    "message": "Вы сэкономили {amount} на комиссиях"
+  },
   "limit_orders": {
-    "message": "Лимитные ордера"
+    "message": "Лимиты"
   },
   "limit": {
     "message": "Лимит"
@@ -1992,13 +1998,13 @@
     "message": "Введите % (0~100)"
   },
   "buy_order": {
-    "message": "Ордер на покупку"
+    "message": "Покупка"
   },
   "sell_order": {
-    "message": "Ордер на продажу"
+    "message": "Продажа"
   },
   "cancel_order": {
-    "message": "Отменить ордер"
+    "message": "Отменить"
   },
   "cancelling_limit_order": {
     "message": "Отмена лимитного ордера"
@@ -2091,7 +2097,7 @@
     "message": "Ордер на продажу ${tokenSymbol} не выполнен."
   },
   "trades": {
-    "message": "Активные сделки"
+    "message": "Сделки"
   },
   "action": {
     "message": "Действие"
@@ -2106,13 +2112,13 @@
     "message": "Кол-во"
   },
   "manage_portfolio": {
-    "message": "Управление портфелем"
+    "message": "Портфель"
   },
   "autotrade_strategy": {
-    "message": "Автоторговая стратегия"
+    "message": "Автоторговля"
   },
   "add_order": {
-    "message": "Добавить заказ"
+    "message": "+ Ордер"
   },
   "take_profit": {
     "message": "Тейк-профит"
@@ -2130,7 +2136,7 @@
     "message": "Сумма продажи"
   },
   "cancel_all": {
-    "message": "Отменить все"
+    "message": "Отменить всё"
   },
   "autotrade_limit_orders_created": {
     "message": "TP/SL ордер создан"
@@ -2640,13 +2646,13 @@
     "message": "Пароль должен содержать не менее 6 символов"
   },
   "extension_settings": {
-    "message": "Настройки расширения"
+    "message": "Настройки"
   },
   "wallet_dashboard": {
-    "message": "Панель кошелька"
+    "message": "Панель"
   },
   "support_and_feedback": {
-    "message": "Поддержка и отзывы"
+    "message": "Поддержка"
   },
   "support": {
     "message": "Поддержка"
@@ -2667,16 +2673,16 @@
     "message": "Нашли ошибку? Сообщите нам, мы быстро исправим."
   },
   "report_bug": {
-    "message": "Сообщить об ошибке"
+    "message": "Баг"
   },
   "request_feature_title": {
     "message": "Есть идея, как улучшить Frontrun?"
   },
   "request_feature": {
-    "message": "Запросить функцию"
+    "message": "Идея"
   },
   "lock_wallet": {
-    "message": "Заблокировать кошелёк"
+    "message": "Заблокировать"
   },
   "wallet_locked": {
     "message": "Кошелёк заблокирован"
@@ -2685,7 +2691,7 @@
     "message": "Не удалось заблокировать кошелёк"
   },
   "trading_panel_transparency": {
-    "message": "Прозрачность торговой панели"
+    "message": "Прозрачность"
   },
   "trading_panel_transparency_description": {
     "message": "Настройте видимость торговой панели на странице"
@@ -2694,7 +2700,7 @@
     "message": "Панель предпросмотра"
   },
   "estimate_amount_on_hover": {
-    "message": "Показать сумму при наведении"
+    "message": "Сумма при наведении"
   },
   "estimate_amount_on_hover_desc": {
     "message": "Панель торговли показывает расчётную сумму при наведении"
@@ -2703,28 +2709,28 @@
     "message": "Читать далее"
   },
   "trading_sound_settings": {
-    "message": "Настройки звука торговли"
+    "message": "Звуки"
   },
   "enable_sound": {
-    "message": "Включить звук"
+    "message": "Звук"
   },
   "sound_volume": {
-    "message": "Громкость звука"
+    "message": "Громкость"
   },
   "buy_sound_effect": {
-    "message": "Звуковой эффект покупки"
+    "message": "Звук покупки"
   },
   "sell_sound_effect": {
-    "message": "Звуковой эффект продажи"
+    "message": "Звук продажи"
   },
   "custom": {
     "message": "Пользовательский"
   },
   "upload_custom": {
-    "message": "Загрузить пользовательский"
+    "message": "Загрузить"
   },
   "change_custom": {
-    "message": "Изменить пользовательский"
+    "message": "Изменить"
   },
   "failed_to_play_sound": {
     "message": "Не удалось воспроизвести звук"
@@ -2739,7 +2745,7 @@
     "message": "Не удалось прочитать файл. Пожалуйста, попробуйте снова"
   },
   "custom_sounds": {
-    "message": "Пользовательские звуки"
+    "message": "Свои звуки"
   },
   "max_custom_sounds_reached": {
     "message": "Достигнуто максимальное количество пользовательских звуков (максимум 5)"
@@ -2775,10 +2781,10 @@
     "message": "Активные кошельки"
   },
   "multi_wallet_settings": {
-    "message": "Настройки мультикошелька"
+    "message": "Мульти-кошелёк"
   },
   "use_sidebar_for_wallets": {
-    "message": "Использовать боковую панель для кошельков"
+    "message": "Боковая панель"
   },
   "use_sidebar_for_wallets_description": {
     "message": "Показывать выбор кошельков в боковой панели."
@@ -2787,10 +2793,10 @@
     "message": "Изменения сохранены!"
   },
   "panel_background": {
-    "message": "Фон панели"
+    "message": "Фон"
   },
   "custom_image": {
-    "message": "Пользовательское изображение"
+    "message": "Изображение"
   },
   "max_file_size_2mb": {
     "message": "Максимальный размер файла: 2МБ"
@@ -2805,7 +2811,7 @@
     "message": "GIF URL"
   },
   "reset_to_default": {
-    "message": "Сбросить по умолчанию"
+    "message": "Сбросить"
   },
   "background_image_uploaded": {
     "message": "Фоновое изображение успешно загружено"

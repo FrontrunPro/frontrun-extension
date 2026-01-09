@@ -1613,6 +1613,9 @@
   "position": {
     "message": "位置"
   },
+  "positions": {
+    "message": "持仓"
+  },
   "pnl": {
     "message": "盈利"
   },
@@ -1639,6 +1642,9 @@
   },
   "fee_saved_trading_panel": {
     "message": "已节省"
+  },
+  "fee_saved_trading_panel_tooltip": {
+    "message": "您节省了{amount}手续费"
   },
   "more": {
     "message": "更多"
