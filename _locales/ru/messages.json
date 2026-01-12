@@ -378,7 +378,7 @@
     "message": "Не удалось очистить некоторые кошельки. Повторите попытку."
   },
   "select_wallet": {
-    "message": "Кошелёк"
+    "message": "Выбрать"
   },
   "select_all": {
     "message": "Выбрать все"
@@ -421,6 +421,9 @@
   },
   "wallet_dashboard_disabled": {
     "message": "Панель кошельков не включена"
+  },
+  "asset": {
+    "message": "Актив"
   },
   "assets": {
     "message": "Активы"
@@ -1130,6 +1133,66 @@
   "send": {
     "message": "Отправить"
   },
+  "send_all_assets": {
+    "message": "Отправить всё"
+  },
+  "select_asset": {
+    "message": "Выбрать актив"
+  },
+  "select_assets": {
+    "message": "Выбрать активы"
+  },
+  "select_multiple": {
+    "message": "Выбрать несколько"
+  },
+  "single": {
+    "message": "Один"
+  },
+  "send_all": {
+    "message": "Отправить всё"
+  },
+  "search_assets": {
+    "message": "Поиск активов"
+  },
+  "enter_amounts_for_selected": {
+    "message": "Укажите сумму для выбранных"
+  },
+  "cannot_add_recipients_with_multiple_assets": {
+    "message": "Недоступно с несколькими активами"
+  },
+  "add_recipient": {
+    "message": "Добавить"
+  },
+  "assets_to_send": {
+    "message": "Активы"
+  },
+  "total_sending": {
+    "message": "Итого"
+  },
+  "remaining_balance": {
+    "message": "Остаток"
+  },
+  "transactions_required": {
+    "message": "транзакций"
+  },
+  "recipients": {
+    "message": "Получатели"
+  },
+  "all_transactions_failed": {
+    "message": "Все транзакции не удались"
+  },
+  "partial_success": {
+    "message": "Частичный успех"
+  },
+  "succeeded": {
+    "message": "успешно"
+  },
+  "batch": {
+    "message": "Пакет"
+  },
+  "retry_failed": {
+    "message": "Повторить"
+  },
   "sol_was_successfully_sent_to": {
     "message": "SOL успешно отправлен на"
   },
@@ -1222,6 +1285,21 @@
   },
   "enter_destination_address": {
     "message": "Введите адрес назначения"
+  },
+  "select_from_wallets": {
+    "message": "Кошельки"
+  },
+  "no_other_wallets": {
+    "message": "Нет кошельков"
+  },
+  "no_wallets_found": {
+    "message": "Не найдено"
+  },
+  "search_wallets": {
+    "message": "Поиск"
+  },
+  "wallets_available": {
+    "message": "доступно"
   },
   "enter_amount": {
     "message": "Введите сумму"
@@ -1482,6 +1560,9 @@
     "message": "Продажа"
   },
   "sell_init": {
+    "message": "Инит."
+  },
+  "sell_init_small": {
     "message": "Инит."
   },
   "sell_initial_failed": {
@@ -1810,6 +1891,9 @@
   },
   "save_fees_percent": {
     "message": "Сэкономьте {x}% на комиссиях"
+  },
+  "with_frontrun": {
+    "message": "через Frontrun"
   },
   "add_to_selection": {
     "message": "Сделать активным"
@@ -2839,5 +2923,14 @@
   },
   "background_invalid_file_type": {
     "message": "Неверный тип файла. Пожалуйста, выберите файл изображения (JPEG, PNG, GIF или WebP)"
+  },
+  "please_select_an_asset": {
+    "message": "Выберите актив"
+  },
+  "please_select_at_least_one_asset": {
+    "message": "Выберите хотя бы один актив"
+  },
+  "addresses": {
+    "message": "Адреса"
   }
 }

@@ -369,7 +369,7 @@
     "message": "Some wallets failed to clear. Please retry."
   },
   "select_wallet": {
-    "message": "Manage Wallet"
+    "message": "Select Wallet"
   },
   "select_all": {
     "message": "Select All"
@@ -412,6 +412,9 @@
   },
   "wallet_dashboard_disabled": {
     "message": "Wallet Dashboard is not enabled"
+  },
+  "asset": {
+    "message": "Asset"
   },
   "assets": {
     "message": "Assets"
@@ -1112,6 +1115,66 @@
   "send": {
     "message": "Send"
   },
+  "send_all_assets": {
+    "message": "Send All Assets"
+  },
+  "select_asset": {
+    "message": "Select Asset"
+  },
+  "select_assets": {
+    "message": "Select Assets"
+  },
+  "select_multiple": {
+    "message": "Select Multiple"
+  },
+  "single": {
+    "message": "Single"
+  },
+  "send_all": {
+    "message": "Send All"
+  },
+  "search_assets": {
+    "message": "Search assets"
+  },
+  "enter_amounts_for_selected": {
+    "message": "Enter amounts for selected assets"
+  },
+  "cannot_add_recipients_with_multiple_assets": {
+    "message": "Cannot add recipients when multiple assets are selected"
+  },
+  "add_recipient": {
+    "message": "Add recipient"
+  },
+  "assets_to_send": {
+    "message": "Assets to send"
+  },
+  "total_sending": {
+    "message": "Total sending"
+  },
+  "remaining_balance": {
+    "message": "Remaining balance"
+  },
+  "transactions_required": {
+    "message": "transactions required"
+  },
+  "recipients": {
+    "message": "Recipients"
+  },
+  "all_transactions_failed": {
+    "message": "All transactions failed"
+  },
+  "partial_success": {
+    "message": "Partial success"
+  },
+  "succeeded": {
+    "message": "succeeded"
+  },
+  "batch": {
+    "message": "Batch"
+  },
+  "retry_failed": {
+    "message": "Retry failed"
+  },
   "view_on_solscan": {
     "message": "View on Solscan"
   },
@@ -1189,6 +1252,21 @@
   },
   "enter_destination_address": {
     "message": "Enter destination address"
+  },
+  "select_from_wallets": {
+    "message": "Select from wallets"
+  },
+  "no_other_wallets": {
+    "message": "No other wallets"
+  },
+  "no_wallets_found": {
+    "message": "No wallets found"
+  },
+  "search_wallets": {
+    "message": "Search wallets"
+  },
+  "wallets_available": {
+    "message": "wallets available"
   },
   "enter_amount": {
     "message": "Enter amount"
@@ -1444,6 +1522,9 @@
   },
   "sell_init": {
     "message": "Initials"
+  },
+  "sell_init_small": {
+    "message": "Init."
   },
   "sell_initial_failed": {
     "message": "Initial sell failed"
@@ -1786,6 +1867,9 @@
   },
   "save_fees_percent": {
     "message": "Save {x}% fees"
+  },
+  "with_frontrun": {
+    "message": "via Frontrun"
   },
   "add_to_selection": {
     "message": "Add to selection"
@@ -2836,5 +2920,14 @@
   },
   "background_invalid_file_type": {
     "message": "Invalid file type. Please select an image file (JPEG, PNG, GIF, or WebP)"
+  },
+  "please_select_an_asset": {
+    "message": "Please select an asset"
+  },
+  "please_select_at_least_one_asset": {
+    "message": "Please select at least one asset"
+  },
+  "addresses": {
+    "message": "Addresses"
   }
 }

@@ -360,7 +360,7 @@
     "message": "部分钱包清除失败，请重试。"
   },
   "select_wallet": {
-    "message": "管理钱包"
+    "message": "选择钱包"
   },
   "select_all": {
     "message": "全选"
@@ -403,6 +403,9 @@
   },
   "wallet_dashboard_disabled": {
     "message": "钱包面板未启用"
+  },
+  "asset": {
+    "message": "资产"
   },
   "assets": {
     "message": "资产"
@@ -791,6 +794,9 @@
   "sell_init": {
     "message": "回本"
   },
+  "sell_init_small": {
+    "message": "回本"
+  },
   "sell_initial_failed": {
     "message": "回本失败"
   },
@@ -1130,6 +1136,66 @@
   "send": {
     "message": "发送"
   },
+  "send_all_assets": {
+    "message": "发送全部资产"
+  },
+  "select_asset": {
+    "message": "选择资产"
+  },
+  "select_assets": {
+    "message": "选择资产"
+  },
+  "select_multiple": {
+    "message": "选择多个"
+  },
+  "single": {
+    "message": "单选"
+  },
+  "send_all": {
+    "message": "全部发送"
+  },
+  "search_assets": {
+    "message": "搜索资产"
+  },
+  "enter_amounts_for_selected": {
+    "message": "请输入所选资产的金额"
+  },
+  "cannot_add_recipients_with_multiple_assets": {
+    "message": "选择多个资产时无法添加收款人"
+  },
+  "add_recipient": {
+    "message": "添加收款人"
+  },
+  "assets_to_send": {
+    "message": "发送资产"
+  },
+  "total_sending": {
+    "message": "发送总额"
+  },
+  "remaining_balance": {
+    "message": "剩余余额"
+  },
+  "transactions_required": {
+    "message": "笔交易"
+  },
+  "recipients": {
+    "message": "收款人"
+  },
+  "all_transactions_failed": {
+    "message": "所有交易失败"
+  },
+  "partial_success": {
+    "message": "部分成功"
+  },
+  "succeeded": {
+    "message": "成功"
+  },
+  "batch": {
+    "message": "批次"
+  },
+  "retry_failed": {
+    "message": "重试失败"
+  },
   "sol_was_successfully_sent_to": {
     "message": "SOL 成功发送至"
   },
@@ -1222,6 +1288,21 @@
   },
   "enter_destination_address": {
     "message": "输入目标地址"
+  },
+  "select_from_wallets": {
+    "message": "从钱包选择"
+  },
+  "no_other_wallets": {
+    "message": "没有其他钱包"
+  },
+  "no_wallets_found": {
+    "message": "未找到钱包"
+  },
+  "search_wallets": {
+    "message": "搜索钱包"
+  },
+  "wallets_available": {
+    "message": "个钱包可用"
   },
   "enter_amount": {
     "message": "输入金额"
@@ -1801,6 +1882,9 @@
   },
   "save_fees_percent": {
     "message": "立省 {x}% 交易费"
+  },
+  "with_frontrun": {
+    "message": "通过 Frontrun"
   },
   "add_to_selection": {
     "message": "添加到选择"
@@ -2836,5 +2920,14 @@
   },
   "background_invalid_file_type": {
     "message": "无效的文件类型。请选择图片文件（JPEG、PNG、GIF 或 WebP）"
+  },
+  "please_select_an_asset": {
+    "message": "请选择一个资产"
+  },
+  "please_select_at_least_one_asset": {
+    "message": "请至少选择一个资产"
+  },
+  "addresses": {
+    "message": "地址"
   }
 }
