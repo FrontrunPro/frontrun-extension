@@ -1772,6 +1772,9 @@
   "tip_warning_exceeds_0_2": {
     "message": "Warning: Tip exceeds 0.2 SOL"
   },
+  "tip_below_recommended_may_slow": {
+    "message": "Below recommended fee ({fee}).\nExecution may be delayed."
+  },
   "tip_must_be_a_number": {
     "message": "Tip must be a number"
   },
@@ -2786,6 +2789,12 @@
   "estimate_amount_on_hover_desc": {
     "message": "Instant trade panel shows reflected amount on hover"
   },
+  "hover_button_visibility": {
+    "message": "Hover Button Visibility"
+  },
+  "hover_button_visibility_desc": {
+    "message": "Toggle the floating trading button on each platform"
+  },
   "read_more_in_alert": {
     "message": "Read more"
   },
@@ -2929,5 +2938,11 @@
   },
   "addresses": {
     "message": "Addresses"
+  },
+  "disable_on_platform": {
+    "message": "Disable on {platform}"
+  },
+  "manage_visibility": {
+    "message": "Manage Visibility"
   }
 }

@@ -1787,6 +1787,9 @@
   "tip_warning_exceeds_0_2": {
     "message": "警告：小费超过了 0.2 SOL"
   },
+  "tip_below_recommended_may_slow": {
+    "message": "费用低于推荐值 ({fee})\n执行可能延迟"
+  },
   "tip_must_be_a_number": {
     "message": "小费必须是数字"
   },
@@ -2786,6 +2789,12 @@
   "estimate_amount_on_hover_desc": {
     "message": "悬停时在交易面板上显示预估交易数量"
   },
+  "hover_button_visibility": {
+    "message": "悬浮按钮显示"
+  },
+  "hover_button_visibility_desc": {
+    "message": "控制各平台悬浮交易按钮的显示"
+  },
   "read_more_in_alert": {
     "message": "阅读更多"
   },
@@ -2929,5 +2938,11 @@
   },
   "addresses": {
     "message": "地址"
+  },
+  "disable_on_platform": {
+    "message": "在 {platform} 上禁用"
+  },
+  "manage_visibility": {
+    "message": "管理可见性"
   }
 }

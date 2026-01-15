@@ -1799,6 +1799,9 @@
   "tip_warning_exceeds_0_2": {
     "message": "Внимание: чаевые превышают 0.2 SOL"
   },
+  "tip_below_recommended_may_slow": {
+    "message": "Ниже рекомендуемой комиссии ({fee}).\nВыполнение может задержаться."
+  },
   "tip_must_be_a_number": {
     "message": "Чаевые должны быть числом"
   },
@@ -2789,6 +2792,12 @@
   "estimate_amount_on_hover_desc": {
     "message": "Панель торговли показывает расчётную сумму при наведении"
   },
+  "hover_button_visibility": {
+    "message": "Плавающая кнопка"
+  },
+  "hover_button_visibility_desc": {
+    "message": "Показ кнопки торговли на платформах"
+  },
   "read_more_in_alert": {
     "message": "Читать далее"
   },
@@ -2932,5 +2941,11 @@
   },
   "addresses": {
     "message": "Адреса"
+  },
+  "disable_on_platform": {
+    "message": "Откл. на {platform}"
+  },
+  "manage_visibility": {
+    "message": "Видимость"
   }
 }
