@@ -2962,5 +2962,62 @@
   },
   "manage_visibility": {
     "message": "管理可见性"
+  },
+  "old_username_looking_for": {
+    "message": "在找"
+  },
+  "old_username_single_account": {
+    "message": "这个账户曾使用过该用户名"
+  },
+  "old_username_multiple_accounts": {
+    "message": "这些账户曾使用过该用户名"
+  },
+  "old_username_different_times": {
+    "message": "不同账户在不同时间使用过"
+  },
+  "old_username_view_profile": {
+    "message": "查看当前主页"
+  },
+  "old_username_changed": {
+    "message": "{time}更改"
+  },
+  "time_today": {
+    "message": "今天"
+  },
+  "time_yesterday": {
+    "message": "昨天"
+  },
+  "time_days_ago": {
+    "message": "{count} 天前"
+  },
+  "time_week_ago": {
+    "message": "{count} 周前"
+  },
+  "time_weeks_ago": {
+    "message": "{count} 周前"
+  },
+  "time_month_ago": {
+    "message": "{count} 个月前"
+  },
+  "time_months_ago": {
+    "message": "{count} 个月前"
+  },
+  "time_year_ago": {
+    "message": "{count} 年前"
+  },
+  "time_years_ago": {
+    "message": "{count} 年前"
+  },
+  "time_years_months_ago": {
+    "message": "{years} 年 {months} 个月前"
+  },
+  "time_year_months_ago": {
+    "message": "{years} 年 {months} 个月前"
+  },
+  "time_years_month_ago": {
+    "message": "{years} 年 {months} 个月前"
+  },
+  "time_year_month_ago": {
+    "message": "{years} 年 {months} 个月前"
   }
 }

@@ -2962,5 +2962,62 @@
   },
   "manage_visibility": {
     "message": "Manage Visibility"
+  },
+  "old_username_looking_for": {
+    "message": "Looking for"
+  },
+  "old_username_single_account": {
+    "message": "This account previously used that handle"
+  },
+  "old_username_multiple_accounts": {
+    "message": "These accounts previously used that handle"
+  },
+  "old_username_different_times": {
+    "message": "Used by different accounts at different times"
+  },
+  "old_username_view_profile": {
+    "message": "View current profile"
+  },
+  "old_username_changed": {
+    "message": "Changed {time}"
+  },
+  "time_today": {
+    "message": "Today"
+  },
+  "time_yesterday": {
+    "message": "Yesterday"
+  },
+  "time_days_ago": {
+    "message": "{count} days ago"
+  },
+  "time_week_ago": {
+    "message": "{count} week ago"
+  },
+  "time_weeks_ago": {
+    "message": "{count} weeks ago"
+  },
+  "time_month_ago": {
+    "message": "{count} month ago"
+  },
+  "time_months_ago": {
+    "message": "{count} months ago"
+  },
+  "time_year_ago": {
+    "message": "{count} year ago"
+  },
+  "time_years_ago": {
+    "message": "{count} years ago"
+  },
+  "time_years_months_ago": {
+    "message": "{years} years, {months} months ago"
+  },
+  "time_year_months_ago": {
+    "message": "{years} year, {months} months ago"
+  },
+  "time_years_month_ago": {
+    "message": "{years} years, {months} month ago"
+  },
+  "time_year_month_ago": {
+    "message": "{years} year, {months} month ago"
   }
 }

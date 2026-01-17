@@ -2965,5 +2965,62 @@
   },
   "manage_visibility": {
     "message": "Видимость"
+  },
+  "old_username_looking_for": {
+    "message": "Ищете"
+  },
+  "old_username_single_account": {
+    "message": "Этот аккаунт использовал данный ник"
+  },
+  "old_username_multiple_accounts": {
+    "message": "Эти аккаунты использовали данный ник"
+  },
+  "old_username_different_times": {
+    "message": "Разные аккаунты в разное время"
+  },
+  "old_username_view_profile": {
+    "message": "Открыть профиль"
+  },
+  "old_username_changed": {
+    "message": "Изменено {time}"
+  },
+  "time_today": {
+    "message": "Сегодня"
+  },
+  "time_yesterday": {
+    "message": "Вчера"
+  },
+  "time_days_ago": {
+    "message": "{count} дн. назад"
+  },
+  "time_week_ago": {
+    "message": "{count} нед. назад"
+  },
+  "time_weeks_ago": {
+    "message": "{count} нед. назад"
+  },
+  "time_month_ago": {
+    "message": "{count} мес. назад"
+  },
+  "time_months_ago": {
+    "message": "{count} мес. назад"
+  },
+  "time_year_ago": {
+    "message": "{count} г. назад"
+  },
+  "time_years_ago": {
+    "message": "{count} г. назад"
+  },
+  "time_years_months_ago": {
+    "message": "{years} г. {months} мес. назад"
+  },
+  "time_year_months_ago": {
+    "message": "{years} г. {months} мес. назад"
+  },
+  "time_years_month_ago": {
+    "message": "{years} г. {months} мес. назад"
+  },
+  "time_year_month_ago": {
+    "message": "{years} г. {months} мес. назад"
   }
 }
