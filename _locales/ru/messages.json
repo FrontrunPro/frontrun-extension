@@ -2792,6 +2792,24 @@
   "estimate_amount_on_hover_desc": {
     "message": "Панель торговли показывает расчётную сумму при наведении"
   },
+  "hotkey_modifier": {
+    "message": "Модификатор хоткеев"
+  },
+  "hotkey_modifier_desc": {
+    "message": "Клавиша для Q/W/E/R и A/S/D/F"
+  },
+  "modifier_none": {
+    "message": "Нет"
+  },
+  "modifier_space": {
+    "message": "Пробел"
+  },
+  "modifier_shift": {
+    "message": "Shift"
+  },
+  "modifier_option": {
+    "message": "Option"
+  },
   "hover_button_visibility": {
     "message": "Плавающая кнопка"
   },

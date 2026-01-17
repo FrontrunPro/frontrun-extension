@@ -2789,6 +2789,24 @@
   "estimate_amount_on_hover_desc": {
     "message": "悬停时在交易面板上显示预估交易数量"
   },
+  "hotkey_modifier": {
+    "message": "快捷键修饰键"
+  },
+  "hotkey_modifier_desc": {
+    "message": "使用 Q/W/E/R（买入）和 A/S/D/F（卖出）快捷键时需要按住的键"
+  },
+  "modifier_none": {
+    "message": "无（直接触发）"
+  },
+  "modifier_space": {
+    "message": "空格"
+  },
+  "modifier_shift": {
+    "message": "Shift"
+  },
+  "modifier_option": {
+    "message": "Option"
+  },
   "hover_button_visibility": {
     "message": "悬浮按钮显示"
   },

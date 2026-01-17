@@ -2789,6 +2789,24 @@
   "estimate_amount_on_hover_desc": {
     "message": "Instant trade panel shows reflected amount on hover"
   },
+  "hotkey_modifier": {
+    "message": "Hotkey Modifier"
+  },
+  "hotkey_modifier_desc": {
+    "message": "Key to hold when using Q/W/E/R (buy) and A/S/D/F (sell) hotkeys"
+  },
+  "modifier_none": {
+    "message": "None (Direct)"
+  },
+  "modifier_space": {
+    "message": "Space"
+  },
+  "modifier_shift": {
+    "message": "Shift"
+  },
+  "modifier_option": {
+    "message": "Option"
+  },
   "hover_button_visibility": {
     "message": "Hover Button Visibility"
   },
