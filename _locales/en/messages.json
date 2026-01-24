@@ -335,6 +335,9 @@
   "wallet_creation_failed": {
     "message": "Failed to create wallet!"
   },
+  "fomo_wallet_tooltip": {
+    "message": "This wallet is created through Fomo"
+  },
   "please_select_at_least_one_group": {
     "message": "Please select at least one group"
   },
@@ -2200,6 +2203,9 @@
   },
   "autotrade_limit_orders_created": {
     "message": "TP/SL order created"
+  },
+  "view_orders_in_trading_panel": {
+    "message": "View orders in trading panel"
   },
   "wallet_common_password_incorrect": {
     "message": "Incorrect password"

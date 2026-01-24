@@ -344,6 +344,9 @@
   "wallet_creation_failed": {
     "message": "Не удалось создать кошелёк!"
   },
+  "fomo_wallet_tooltip": {
+    "message": "Кошелёк создан через Fomo"
+  },
   "please_select_at_least_one_group": {
     "message": "Пожалуйста, выберите хотя бы одну группу"
   },
@@ -2227,6 +2230,9 @@
   },
   "autotrade_limit_orders_created": {
     "message": "TP/SL ордер создан"
+  },
+  "view_orders_in_trading_panel": {
+    "message": "Смотреть в панели"
   },
   "wallet_common_password_incorrect": {
     "message": "Неверный пароль"

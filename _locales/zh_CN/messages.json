@@ -326,6 +326,9 @@
   "wallet_creation_failed": {
     "message": "创建钱包失败！"
   },
+  "fomo_wallet_tooltip": {
+    "message": "此钱包通过 Fomo 创建"
+  },
   "please_select_at_least_one_group": {
     "message": "请至少选择一个分组"
   },
@@ -2221,6 +2224,9 @@
   },
   "autotrade_limit_orders_created": {
     "message": "TP/SL 订单已创建"
+  },
+  "view_orders_in_trading_panel": {
+    "message": "在交易面板中查看订单"
   },
   "wallet_common_password_incorrect": {
     "message": "密码错误"
