@@ -1097,6 +1097,9 @@
   "cannot_send_sol_to_the_same_address": {
     "message": "不能发送 SOL 到相同地址"
   },
+  "cannot_send_to_the_same_address": {
+    "message": "不能发送到相同地址"
+  },
   "please_enter_the_amount": {
     "message": "请输入金额"
   },
@@ -1246,6 +1249,9 @@
   },
   "receive_sol": {
     "message": "接收 SOL"
+  },
+  "receive_bnb": {
+    "message": "接收 BNB"
   },
   "receive_address": {
     "message": "接收地址"
@@ -1603,6 +1609,21 @@
   },
   "bonding_curve_completed": {
     "message": "绑定曲线已完成。请刷新页面"
+  },
+  "error_invalid_mint_authority": {
+    "message": "代币配置无效，请验证代币是否正常"
+  },
+  "error_pool_completed": {
+    "message": "代币已迁移至 DEX，请刷新页面"
+  },
+  "error_not_enough_tokens": {
+    "message": "可卖出的代币数量不足。如果您认为情况并非如此，请尝试刷新页面"
+  },
+  "error_seeds_constraint": {
+    "message": "未知错误：请将该笔交易报告给官方团队"
+  },
+  "error_invalid_token_amount": {
+    "message": "代币数量异常，请重试。如果问题仍然存在，请报告给官方团队"
   },
   "insufficient_liquidity": {
     "message": "池中流动性不足。请尝试减少交易金额。"

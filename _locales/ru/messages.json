@@ -1094,6 +1094,9 @@
   "cannot_send_sol_to_the_same_address": {
     "message": "Нельзя отправить SOL на тот же адрес"
   },
+  "cannot_send_to_the_same_address": {
+    "message": "Нельзя отправить на тот же адрес"
+  },
   "please_enter_the_amount": {
     "message": "Введите сумму"
   },
@@ -1243,6 +1246,9 @@
   },
   "receive_sol": {
     "message": "Получить SOL"
+  },
+  "receive_bnb": {
+    "message": "Получить BNB"
   },
   "receive_address": {
     "message": "Адрес получения"
@@ -1630,6 +1636,21 @@
   },
   "bonding_curve_completed": {
     "message": "Кривая связывания завершена. Пожалуйста, обновите страницу"
+  },
+  "error_invalid_mint_authority": {
+    "message": "Токен недоступен для торговли. Проверьте правильность токена"
+  },
+  "error_pool_completed": {
+    "message": "Кривая связывания завершена. Пожалуйста, обновите страницу"
+  },
+  "error_not_enough_tokens": {
+    "message": "Недостаточно токенов для продажи. Если вы считаете, что это не так, попробуйте обновить страницу"
+  },
+  "error_seeds_constraint": {
+    "message": "Неизвестная ошибка: пожалуйста, сообщите о транзакции команде"
+  },
+  "error_invalid_token_amount": {
+    "message": "Неверная сумма токенов. Попробуйте снова или сообщите о проблеме команде"
   },
   "insufficient_liquidity": {
     "message": "Недостаточная ликвидность в пуле. Попробуйте уменьшить сумму сделки."

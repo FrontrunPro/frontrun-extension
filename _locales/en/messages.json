@@ -1061,6 +1061,9 @@
   "cannot_send_sol_to_the_same_address": {
     "message": "Cannot send SOL to the same address"
   },
+  "cannot_send_to_the_same_address": {
+    "message": "Cannot send to the same address"
+  },
   "please_enter_the_amount": {
     "message": "Please enter the amount"
   },
@@ -1210,6 +1213,9 @@
   },
   "receive_sol": {
     "message": "Receive SOL"
+  },
+  "receive_bnb": {
+    "message": "Receive BNB"
   },
   "receive_address": {
     "message": "Receive Address"
@@ -1590,7 +1596,22 @@
     "message": "Slippage tolerance exceeded. Try increasing your slippage tolerance"
   },
   "bonding_curve_completed": {
-    "message": "The bonding curve has completed. Please refresh your page"
+    "message": "Bonding curve completed. Please refresh the page"
+  },
+  "error_invalid_mint_authority": {
+    "message": "Invalid token configuration. Please verify the token eligibility"
+  },
+  "error_pool_completed": {
+    "message": "Bonding curve has graduated to a DEX. Please refresh the page"
+  },
+  "error_not_enough_tokens": {
+    "message": "Insufficient token balance to sell. Refresh the page if this appears incorrect"
+  },
+  "error_seeds_constraint": {
+    "message": "Unexpected error. Please report this failed transaction to the team"
+  },
+  "error_invalid_token_amount": {
+    "message": "Invalid token amount. Please try again. If the issue persists, please report the issue to the team"
   },
   "insufficient_liquidity": {
     "message": "Insufficient liquidity in the pool."
