@@ -3046,5 +3046,56 @@
   },
   "time_year_month_ago": {
     "message": "{years} year, {months} month ago"
+  },
+  "empty_token_accounts": {
+    "message": "Empty Token Accounts"
+  },
+  "empty_accounts": {
+    "message": "empty accounts"
+  },
+  "no_empty_accounts": {
+    "message": "No Empty Accounts"
+  },
+  "no_empty_accounts_description": {
+    "message": "All your token accounts have a balance."
+  },
+  "reclaimable": {
+    "message": "reclaimable"
+  },
+  "reclaim_rent": {
+    "message": "Reclaim Rent"
+  },
+  "closing": {
+    "message": "Closing"
+  },
+  "dismiss": {
+    "message": "Dismiss"
+  },
+  "token_account": {
+    "message": "Token Account"
+  },
+  "mint": {
+    "message": "Mint"
+  },
+  "rent": {
+    "message": "Rent"
+  },
+  "total_empty_accounts": {
+    "message": "Total Empty Accounts"
+  },
+  "total_reclaimable_rent": {
+    "message": "Total Reclaimable Rent"
+  },
+  "rent_per_account": {
+    "message": "Rent Per Account"
+  },
+  "no_wallets": {
+    "message": "No Wallets"
+  },
+  "no_wallets_description": {
+    "message": "Create a wallet to view empty token accounts."
+  },
+  "zero_balance_warning": {
+    "message": "This wallet has 0 SOL. Send at least 0.001 SOL to cover transaction fees before closing accounts."
   }
 }

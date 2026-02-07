@@ -3049,5 +3049,56 @@
   },
   "time_year_month_ago": {
     "message": "{years} г. {months} мес. назад"
+  },
+  "empty_token_accounts": {
+    "message": "Пустые аккаунты"
+  },
+  "empty_accounts": {
+    "message": "пустых аккаунтов"
+  },
+  "no_empty_accounts": {
+    "message": "Нет пустых аккаунтов"
+  },
+  "no_empty_accounts_description": {
+    "message": "Все ваши токен-аккаунты имеют баланс."
+  },
+  "reclaimable": {
+    "message": "к возврату"
+  },
+  "reclaim_rent": {
+    "message": "Вернуть ренту"
+  },
+  "closing": {
+    "message": "Закрытие"
+  },
+  "dismiss": {
+    "message": "Скрыть"
+  },
+  "token_account": {
+    "message": "Токен-аккаунт"
+  },
+  "mint": {
+    "message": "Минт"
+  },
+  "rent": {
+    "message": "Рента"
+  },
+  "total_empty_accounts": {
+    "message": "Всего пустых аккаунтов"
+  },
+  "total_reclaimable_rent": {
+    "message": "Всего к возврату"
+  },
+  "rent_per_account": {
+    "message": "Рента за аккаунт"
+  },
+  "no_wallets": {
+    "message": "Нет кошельков"
+  },
+  "no_wallets_description": {
+    "message": "Создайте кошелёк для просмотра пустых аккаунтов."
+  },
+  "zero_balance_warning": {
+    "message": "На кошельке 0 SOL. Пополните минимум на 0.001 SOL для оплаты комиссии."
   }
 }

@@ -3046,5 +3046,53 @@
   },
   "time_year_month_ago": {
     "message": "{years} 年 {months} 个月前"
+  },
+  "empty_token_accounts": {
+    "message": "空代币账户"
+  },
+  "empty_accounts": {
+    "message": "个空账户"
+  },
+  "no_empty_accounts": {
+    "message": "没有空账户"
+  },
+  "no_empty_accounts_description": {
+    "message": "所有代币账户均有余额。"
+  },
+  "reclaimable": {
+    "message": "可回收"
+  },
+  "reclaim_rent": {
+    "message": "回收租金"
+  },
+  "closing": {
+    "message": "关闭中"
+  },
+  "dismiss": {
+    "message": "关闭"
+  },
+  "token_account": {
+    "message": "代币账户"
+  },
+  "mint": {
+    "message": "铸币地址"
+  },
+  "rent": {
+    "message": "租金"
+  },
+  "total_empty_accounts": {
+    "message": "空账户总数"
+  },
+  "total_reclaimable_rent": {
+    "message": "可回收租金总额"
+  },
+  "rent_per_account": {
+    "message": "每账户租金"
+  },
+  "no_wallets": {
+    "message": "没有钱包"
+  },
+  "no_wallets_description": {
+    "message": "创建钱包以查看空代币账户。"
   }
 }
