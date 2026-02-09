@@ -1868,6 +1868,18 @@
   "primary_domain": {
     "message": "Primary Domain"
   },
+  "twitter_feed_label": {
+    "message": "Labels on Timeline"
+  },
+  "twitter_feed_label_tip": {
+    "message": "See Frontrun labels next to usernames in your home feed"
+  },
+  "twitter_follower_label": {
+    "message": "Labels on Followers/Following"
+  },
+  "twitter_follower_label_tip": {
+    "message": "See Frontrun labels in your Followers and Following lists"
+  },
   "inline_pnl": {
     "message": "PnL Badges on Tweets"
   },
@@ -2080,6 +2092,9 @@
   },
   "enter_percent_0_100": {
     "message": "Enter % (0~100)"
+  },
+  "price_not_loaded": {
+    "message": "Price not loaded, please refresh the page and try again"
   },
   "buy_order": {
     "message": "Buy Order"

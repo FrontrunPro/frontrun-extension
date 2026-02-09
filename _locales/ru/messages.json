@@ -1892,6 +1892,18 @@
   "primary_domain": {
     "message": "Основной домен"
   },
+  "twitter_feed_label": {
+    "message": "Метки в ленте"
+  },
+  "twitter_feed_label_tip": {
+    "message": "Метки рядом с именем в ленте X(Twitter)"
+  },
+  "twitter_follower_label": {
+    "message": "Метки подписчиков/подписок"
+  },
+  "twitter_follower_label_tip": {
+    "message": "Метки рядом с именем в списках подписчиков и подписок"
+  },
   "inline_pnl": {
     "message": "PNL-бейджи в постах"
   },
@@ -2107,6 +2119,9 @@
   },
   "enter_percent_0_100": {
     "message": "Введите % (0~100)"
+  },
+  "price_not_loaded": {
+    "message": "Цена не загружена, пожалуйста, обновите страницу и попробуйте снова"
   },
   "buy_order": {
     "message": "Покупка"

@@ -1883,6 +1883,18 @@
   "primary_domain": {
     "message": "主要域名"
   },
+  "twitter_feed_label": {
+    "message": "时间线标签"
+  },
+  "twitter_feed_label_tip": {
+    "message": "在首页动态中显示标签"
+  },
+  "twitter_follower_label": {
+    "message": "关注/粉丝列表标签"
+  },
+  "twitter_follower_label_tip": {
+    "message": "在关注和粉丝列表中用户名旁显示标签"
+  },
   "inline_pnl": {
     "message": "推文 PnL 标记"
   },
@@ -2104,6 +2116,9 @@
   },
   "enter_percent_0_100": {
     "message": "输入百分比 (0~100)"
+  },
+  "price_not_loaded": {
+    "message": "价格未能成功加载，请刷新页面后重试"
   },
   "buy_order": {
     "message": "买入订单"
