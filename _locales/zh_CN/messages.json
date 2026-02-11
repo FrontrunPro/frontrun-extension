@@ -173,6 +173,12 @@
   "group_name_already_exists": {
     "message": "分组名称已存在"
   },
+  "search_or_create_a_group": {
+    "message": "搜索或创建分组"
+  },
+  "create_new_group": {
+    "message": "创建新分组"
+  },
   "view_summary": {
     "message": "查看概览"
   },
@@ -314,6 +320,12 @@
   "invalid_wallet_address": {
     "message": "无效的钱包地址"
   },
+  "please_enter_a_valid_solana_address": {
+    "message": "请输入有效的 Solana 地址"
+  },
+  "please_enter_a_valid_bsc_address": {
+    "message": "请输入有效的 BSC 地址"
+  },
   "primary_label_is_required": {
     "message": "主要标签为必填项"
   },
@@ -382,6 +394,18 @@
   },
   "recent_labels": {
     "message": "最近的标签"
+  },
+  "no_recent_labels": {
+    "message": "暂无最近标签"
+  },
+  "customize_frontrun": {
+    "message": "自定义 Frontrun"
+  },
+  "customize_description": {
+    "message": "调整扩展背景和标签样式，以适应您的交易方式。"
+  },
+  "view_settings": {
+    "message": "查看设置"
   },
   "no_custom_labels_yet": {
     "message": "您还没有分配任何自定义标签。"
@@ -830,6 +854,9 @@
   "continue_with_google": {
     "message": "使用 Google 登录"
   },
+  "continue_with_another_account": {
+    "message": "使用其他账号登录"
+  },
   "continue": {
     "message": "继续"
   },
@@ -899,6 +926,15 @@
   "profile_data": {
     "message": "账户数据"
   },
+  "x_profile_label": {
+    "message": "X 账户标签"
+  },
+  "linked_wallets": {
+    "message": "关联钱包"
+  },
+  "add_all_to_group": {
+    "message": "全部加入分组"
+  },
   "twitter_label": {
     "message": "Twitter 标签"
   },
@@ -940,6 +976,9 @@
   },
   "add_multi_wallet": {
     "message": "添加多钱包"
+  },
+  "enter_multiple_wallets": {
+    "message": "输入多个钱包"
   },
   "delete_group": {
     "message": "删除分组"
@@ -3109,5 +3148,65 @@
   },
   "no_wallets_description": {
     "message": "创建钱包以查看空代币账户。"
+  },
+  "add_group": {
+    "message": "添加分组"
+  },
+  "add_wallet_label": {
+    "message": "添加钱包标签"
+  },
+  "error_group_load": {
+    "message": "加载分组失败"
+  },
+  "go_back": {
+    "message": "返回"
+  },
+  "no_groups": {
+    "message": "暂无分组"
+  },
+  "no_profiles": {
+    "message": "暂无档案"
+  },
+  "select_destination_group": {
+    "message": "选择目标分组"
+  },
+  "successfully_imported_wallets": {
+    "message": "成功导入钱包"
+  },
+  "successfully_updated_twitter_username": {
+    "message": "Twitter 用户名已更新"
+  },
+  "failed_to_update_twitter_username": {
+    "message": "更新 Twitter 用户名失败"
+  },
+  "add_twitter_username": {
+    "message": "添加 Twitter 用户名"
+  },
+  "add_public_label": {
+    "message": "添加公开标签"
+  },
+  "ai_tags": {
+    "message": "AI 标签"
+  },
+  "admin_section": {
+    "message": "管理员"
+  },
+  "kol_status": {
+    "message": "KOL 状态"
+  },
+  "add_to_kol": {
+    "message": "添加到 KOL"
+  },
+  "remove_from_kol": {
+    "message": "从 KOL 移除"
+  },
+  "yes": {
+    "message": "是"
+  },
+  "no": {
+    "message": "否"
+  },
+  "failed_to_add_wallet_to_group": {
+    "message": "添加钱包到分组失败"
   }
 }

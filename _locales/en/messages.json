@@ -179,6 +179,12 @@
   "group_name_already_exists": {
     "message": "Group name already exists"
   },
+  "search_or_create_a_group": {
+    "message": "Search or create a group"
+  },
+  "create_new_group": {
+    "message": "Create new group"
+  },
   "view_summary": {
     "message": "View Summary"
   },
@@ -323,6 +329,12 @@
   "invalid_wallet_address": {
     "message": "Invalid wallet address"
   },
+  "please_enter_a_valid_solana_address": {
+    "message": "Please enter a valid Solana address"
+  },
+  "please_enter_a_valid_bsc_address": {
+    "message": "Please enter a valid BSC address"
+  },
   "primary_label_is_required": {
     "message": "Primary label is required"
   },
@@ -391,6 +403,18 @@
   },
   "recent_labels": {
     "message": "Recent Labels"
+  },
+  "no_recent_labels": {
+    "message": "No recent labels yet"
+  },
+  "customize_frontrun": {
+    "message": "Customize Frontrun"
+  },
+  "customize_description": {
+    "message": "Adjust the extension background and label styles to fit how you trade."
+  },
+  "view_settings": {
+    "message": "View Settings"
   },
   "no_custom_labels_yet": {
     "message": "You haven't assigned any custom labels yet."
@@ -794,6 +818,9 @@
   "continue_with_google": {
     "message": "Continue with Google"
   },
+  "continue_with_another_account": {
+    "message": "Continue with another account"
+  },
   "continue": {
     "message": "Continue"
   },
@@ -863,6 +890,15 @@
   "profile_data": {
     "message": "Profile Data"
   },
+  "x_profile_label": {
+    "message": "X Profile Label"
+  },
+  "linked_wallets": {
+    "message": "Linked Wallets"
+  },
+  "add_all_to_group": {
+    "message": "Add All to Group"
+  },
   "twitter_label": {
     "message": "Twitter Label"
   },
@@ -904,6 +940,9 @@
   },
   "add_multi_wallet": {
     "message": "Add Multi Wallet"
+  },
+  "enter_multiple_wallets": {
+    "message": "Enter Multiple Wallets"
   },
   "delete_group": {
     "message": "Delete Group"
@@ -3112,5 +3151,65 @@
   },
   "zero_balance_warning": {
     "message": "This wallet has 0 SOL. Send at least 0.001 SOL to cover transaction fees before closing accounts."
+  },
+  "add_group": {
+    "message": "Add Group"
+  },
+  "add_wallet_label": {
+    "message": "Add Wallet Label"
+  },
+  "error_group_load": {
+    "message": "Failed to load group"
+  },
+  "go_back": {
+    "message": "Go Back"
+  },
+  "no_groups": {
+    "message": "No groups yet"
+  },
+  "no_profiles": {
+    "message": "No profiles yet"
+  },
+  "select_destination_group": {
+    "message": "Select a destination group"
+  },
+  "successfully_imported_wallets": {
+    "message": "Successfully imported wallets"
+  },
+  "successfully_updated_twitter_username": {
+    "message": "Twitter username updated"
+  },
+  "failed_to_update_twitter_username": {
+    "message": "Failed to update Twitter username"
+  },
+  "add_twitter_username": {
+    "message": "Add Twitter Username"
+  },
+  "add_public_label": {
+    "message": "Add Public Label"
+  },
+  "ai_tags": {
+    "message": "AI Tags"
+  },
+  "admin_section": {
+    "message": "Admin"
+  },
+  "kol_status": {
+    "message": "KOL status"
+  },
+  "add_to_kol": {
+    "message": "Add to KOL"
+  },
+  "remove_from_kol": {
+    "message": "Remove from KOL"
+  },
+  "yes": {
+    "message": "Yes"
+  },
+  "no": {
+    "message": "No"
+  },
+  "failed_to_add_wallet_to_group": {
+    "message": "Failed to add wallet to group"
   }
 }

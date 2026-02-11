@@ -185,6 +185,12 @@
   "group_name_already_exists": {
     "message": "Название группы уже существует"
   },
+  "search_or_create_a_group": {
+    "message": "Найти или создать группу"
+  },
+  "create_new_group": {
+    "message": "Создать группу"
+  },
   "view_summary": {
     "message": "Обзор"
   },
@@ -332,6 +338,12 @@
   "invalid_wallet_address": {
     "message": "Неверный адрес кошелька"
   },
+  "please_enter_a_valid_solana_address": {
+    "message": "Введите действительный адрес Solana"
+  },
+  "please_enter_a_valid_bsc_address": {
+    "message": "Введите действительный адрес BSC"
+  },
   "primary_label_is_required": {
     "message": "Основная метка обязательна"
   },
@@ -400,6 +412,18 @@
   },
   "recent_labels": {
     "message": "Недавние метки"
+  },
+  "no_recent_labels": {
+    "message": "Нет недавних меток"
+  },
+  "customize_frontrun": {
+    "message": "Настроить Frontrun"
+  },
+  "customize_description": {
+    "message": "Настройте фон и стили меток под ваш стиль торговли."
+  },
+  "view_settings": {
+    "message": "Настройки"
   },
   "no_custom_labels_yet": {
     "message": "Вы ещё не назначили пользовательские метки."
@@ -827,6 +851,9 @@
   "continue_with_google": {
     "message": "Продолжить с Google"
   },
+  "continue_with_another_account": {
+    "message": "Другой аккаунт"
+  },
   "continue": {
     "message": "Продолжить"
   },
@@ -896,6 +923,15 @@
   "profile_data": {
     "message": "Данные профиля"
   },
+  "x_profile_label": {
+    "message": "Метка X профиля"
+  },
+  "linked_wallets": {
+    "message": "Связанные кошельки"
+  },
+  "add_all_to_group": {
+    "message": "Добавить все в группу"
+  },
   "twitter_label": {
     "message": "Твиттер‑метка"
   },
@@ -937,6 +973,9 @@
   },
   "add_multi_wallet": {
     "message": "+ Кошельки"
+  },
+  "enter_multiple_wallets": {
+    "message": "Несколько кошельков"
   },
   "delete_group": {
     "message": "Удалить"
@@ -3115,5 +3154,65 @@
   },
   "zero_balance_warning": {
     "message": "На кошельке 0 SOL. Пополните минимум на 0.001 SOL для оплаты комиссии."
+  },
+  "add_group": {
+    "message": "Добавить группу"
+  },
+  "add_wallet_label": {
+    "message": "Добавить метку"
+  },
+  "error_group_load": {
+    "message": "Ошибка загрузки группы"
+  },
+  "go_back": {
+    "message": "Назад"
+  },
+  "no_groups": {
+    "message": "Групп пока нет"
+  },
+  "no_profiles": {
+    "message": "Профилей пока нет"
+  },
+  "select_destination_group": {
+    "message": "Выберите группу"
+  },
+  "successfully_imported_wallets": {
+    "message": "Кошельки импортированы"
+  },
+  "successfully_updated_twitter_username": {
+    "message": "Имя Twitter обновлено"
+  },
+  "failed_to_update_twitter_username": {
+    "message": "Ошибка обновления Twitter"
+  },
+  "add_twitter_username": {
+    "message": "Добавить Twitter"
+  },
+  "add_public_label": {
+    "message": "Добавить метку"
+  },
+  "ai_tags": {
+    "message": "AI-теги"
+  },
+  "admin_section": {
+    "message": "Админ"
+  },
+  "kol_status": {
+    "message": "Статус KOL"
+  },
+  "add_to_kol": {
+    "message": "В список KOL"
+  },
+  "remove_from_kol": {
+    "message": "Убрать из KOL"
+  },
+  "yes": {
+    "message": "Да"
+  },
+  "no": {
+    "message": "Нет"
+  },
+  "failed_to_add_wallet_to_group": {
+    "message": "Ошибка добавления"
   }
 }
