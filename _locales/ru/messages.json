@@ -1964,6 +1964,30 @@
   "user_id": {
     "message": "ID пользователя"
   },
+  "username": {
+    "message": "Имя"
+  },
+  "set_username": {
+    "message": "Задать имя"
+  },
+  "username_taken": {
+    "message": "Имя уже занято"
+  },
+  "username_reserved": {
+    "message": "Имя зарезервировано, свяжитесь с командой"
+  },
+  "username_invalid": {
+    "message": "Только буквы и цифры"
+  },
+  "username_updated": {
+    "message": "Имя обновлено"
+  },
+  "username_too_short": {
+    "message": "Минимум 3 символа"
+  },
+  "username_too_long": {
+    "message": "Максимум 10 символов"
+  },
   "no_fee": {
     "message": "Без комиссии"
   },
@@ -2305,6 +2329,27 @@
   },
   "autotrade_limit_orders_created": {
     "message": "TP/SL ордер создан"
+  },
+  "autotrade_tpsl_created": {
+    "message": "TP/SL: {count} создано"
+  },
+  "autotrade_tpsl_failed": {
+    "message": "TP/SL: {count} не удалось создать"
+  },
+  "autotrade_tpsl_failed_with_reason": {
+    "message": "TP/SL: {count} не удалось создать: {reason}"
+  },
+  "autotrade_dev_sell_created": {
+    "message": "Dev Sell: {count} создано"
+  },
+  "autotrade_dev_sell_failed": {
+    "message": "Dev Sell: {count} не удалось создать"
+  },
+  "autotrade_dev_sell_failed_with_reason": {
+    "message": "Dev Sell: {count} не удалось создать: {reason}"
+  },
+  "autotrade_status_separator": {
+    "message": " · "
   },
   "view_orders_in_trading_panel": {
     "message": "Смотреть в панели"

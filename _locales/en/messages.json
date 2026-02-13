@@ -1940,6 +1940,30 @@
   "user_id": {
     "message": "User ID"
   },
+  "username": {
+    "message": "Username"
+  },
+  "set_username": {
+    "message": "Set username"
+  },
+  "username_taken": {
+    "message": "Username is already taken"
+  },
+  "username_reserved": {
+    "message": "Username is reserved, contact team to claim"
+  },
+  "username_invalid": {
+    "message": "Letters and numbers only"
+  },
+  "username_updated": {
+    "message": "Username updated"
+  },
+  "username_too_short": {
+    "message": "Username must be at least 3 characters"
+  },
+  "username_too_long": {
+    "message": "Username must be at most 10 characters"
+  },
   "no_fee": {
     "message": "0 fee"
   },
@@ -2278,6 +2302,27 @@
   },
   "autotrade_limit_orders_created": {
     "message": "TP/SL order created"
+  },
+  "autotrade_tpsl_created": {
+    "message": "TP/SL: {count} created"
+  },
+  "autotrade_tpsl_failed": {
+    "message": "TP/SL: {count} failed"
+  },
+  "autotrade_tpsl_failed_with_reason": {
+    "message": "TP/SL: {count} failed: {reason}"
+  },
+  "autotrade_dev_sell_created": {
+    "message": "Dev Sell: {count} created"
+  },
+  "autotrade_dev_sell_failed": {
+    "message": "Dev Sell: {count} failed"
+  },
+  "autotrade_dev_sell_failed_with_reason": {
+    "message": "Dev Sell: {count} failed: {reason}"
+  },
+  "autotrade_status_separator": {
+    "message": " · "
   },
   "view_orders_in_trading_panel": {
     "message": "View orders in trading panel"

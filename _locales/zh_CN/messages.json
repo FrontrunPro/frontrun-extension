@@ -1955,6 +1955,30 @@
   "user_id": {
     "message": "用户 ID"
   },
+  "username": {
+    "message": "用户名"
+  },
+  "set_username": {
+    "message": "设置用户名"
+  },
+  "username_taken": {
+    "message": "用户名已被占用"
+  },
+  "username_reserved": {
+    "message": "用户名已保留，请联系团队认领"
+  },
+  "username_invalid": {
+    "message": "仅限字母和数字"
+  },
+  "username_updated": {
+    "message": "用户名已更新"
+  },
+  "username_too_short": {
+    "message": "用户名至少3个字符"
+  },
+  "username_too_long": {
+    "message": "用户名最多10个字符"
+  },
   "no_fee": {
     "message": "无手续费"
   },
@@ -2299,6 +2323,27 @@
   },
   "autotrade_limit_orders_created": {
     "message": "TP/SL 订单已创建"
+  },
+  "autotrade_tpsl_created": {
+    "message": "TP/SL：{count} 已创建"
+  },
+  "autotrade_tpsl_failed": {
+    "message": "TP/SL：{count} 失败"
+  },
+  "autotrade_tpsl_failed_with_reason": {
+    "message": "TP/SL：{count} 失败：{reason}"
+  },
+  "autotrade_dev_sell_created": {
+    "message": "Dev Sell：{count} 已创建"
+  },
+  "autotrade_dev_sell_failed": {
+    "message": "Dev Sell：{count} 失败"
+  },
+  "autotrade_dev_sell_failed_with_reason": {
+    "message": "Dev Sell：{count} 失败：{reason}"
+  },
+  "autotrade_status_separator": {
+    "message": " · "
   },
   "view_orders_in_trading_panel": {
     "message": "在交易面板中查看订单"
