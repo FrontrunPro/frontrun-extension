@@ -3256,5 +3256,29 @@
   },
   "failed_to_add_wallet_to_group": {
     "message": "Failed to add wallet to group"
+  },
+  "twitter_x": {
+    "message": "Twitter/X"
+  },
+  "verify": {
+    "message": "Verify"
+  },
+  "twitter_linked": {
+    "message": "Twitter/X verified"
+  },
+  "twitter_unlinked": {
+    "message": "Twitter/X unlinked"
+  },
+  "twitter_already_claimed": {
+    "message": "Already linked to another user"
+  },
+  "twitter_link_failed": {
+    "message": "Verification failed"
+  },
+  "twitter_unlink_failed": {
+    "message": "Failed to unlink Twitter/X"
+  },
+  "confirm_unlink_twitter": {
+    "message": "Unlink Twitter/X?"
   }
 }

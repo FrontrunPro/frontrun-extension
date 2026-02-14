@@ -3253,5 +3253,29 @@
   },
   "failed_to_add_wallet_to_group": {
     "message": "添加钱包到分组失败"
+  },
+  "twitter_x": {
+    "message": "Twitter/X"
+  },
+  "verify": {
+    "message": "验证"
+  },
+  "twitter_linked": {
+    "message": "Twitter/X 已验证"
+  },
+  "twitter_unlinked": {
+    "message": "Twitter/X 已解绑"
+  },
+  "twitter_already_claimed": {
+    "message": "已绑定其他用户"
+  },
+  "twitter_link_failed": {
+    "message": "验证失败"
+  },
+  "twitter_unlink_failed": {
+    "message": "解绑失败"
+  },
+  "confirm_unlink_twitter": {
+    "message": "解绑 Twitter/X？"
   }
 }

@@ -3259,5 +3259,29 @@
   },
   "failed_to_add_wallet_to_group": {
     "message": "Ошибка добавления"
+  },
+  "twitter_x": {
+    "message": "Twitter/X"
+  },
+  "verify": {
+    "message": "Подтвердить"
+  },
+  "twitter_linked": {
+    "message": "Twitter/X подтверждён"
+  },
+  "twitter_unlinked": {
+    "message": "Twitter/X отвязан"
+  },
+  "twitter_already_claimed": {
+    "message": "Привязан к другому пользователю"
+  },
+  "twitter_link_failed": {
+    "message": "Ошибка подтверждения"
+  },
+  "twitter_unlink_failed": {
+    "message": "Не удалось отвязать"
+  },
+  "confirm_unlink_twitter": {
+    "message": "Отвязать Twitter/X?"
   }
 }
