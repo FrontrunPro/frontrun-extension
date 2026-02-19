@@ -176,6 +176,12 @@
   "failed_to_create_group": {
     "message": "Не удалось создать группу"
   },
+  "failed_to_move_wallet": {
+    "message": "Не удалось переместить кошелёк"
+  },
+  "failed_to_reorder": {
+    "message": "Не удалось изменить порядок"
+  },
   "enter_a_group_name": {
     "message": "Введите название группы"
   },
@@ -623,6 +629,21 @@
   "earn": {
     "message": "Заработать"
   },
+  "claim": {
+    "message": "Забрать"
+  },
+  "pump_cashback_label": {
+    "message": "Pump кешбэк (не получен)"
+  },
+  "claiming_cashback": {
+    "message": "Получение..."
+  },
+  "cashback_claimed": {
+    "message": "Кешбэк получен"
+  },
+  "cashback_claim_failed": {
+    "message": "Ошибка получения"
+  },
   "jupiter_earn": {
     "message": "Jupiter Earn"
   },
@@ -805,6 +826,12 @@
   },
   "quick_buy_settings": {
     "message": "Быстрая покупка"
+  },
+  "wallet_tracker_quick_buy": {
+    "message": "Быстрая покупка в трекере"
+  },
+  "wallet_tracker_quick_buy_description": {
+    "message": "Кнопки в трекере Axiom"
   },
   "use_autotrade": {
     "message": "Автоторговля"
@@ -2141,6 +2168,9 @@
   "fee_saved_trading_panel": {
     "message": "Сохранено!"
   },
+  "saved_with_frontrun": {
+    "message": "Кешбэк"
+  },
   "fee_saved_trading_panel_tooltip": {
     "message": "Вы сэкономили {amount} на комиссиях"
   },
@@ -2765,6 +2795,9 @@
   "trading_panel_add_funds_description": {
     "message": "Пополните SOL, чтобы начать торговать и сэкономить до 90% на комиссиях."
   },
+  "trading_panel_add_funds_description_bsc": {
+    "message": "Пополните BNB, чтобы начать торговать и сэкономить до 90% на комиссиях."
+  },
   "trading_panel_receive_funds": {
     "message": "Получить средства"
   },
@@ -3283,5 +3316,50 @@
   },
   "confirm_unlink_twitter": {
     "message": "Отвязать Twitter/X?"
+  },
+  "wallet_group": {
+    "message": "Группа кошельков"
+  },
+  "wallet_group_created": {
+    "message": "Группа создана"
+  },
+  "group_name_placeholder": {
+    "message": "Имя группы..."
+  },
+  "rename_group": {
+    "message": "Переименовать"
+  },
+  "delete_group_confirm": {
+    "message": "Подтвердить?"
+  },
+  "group_deleted": {
+    "message": "Группа удалена"
+  },
+  "create_wallet_in_group": {
+    "message": "Создать кошелёк"
+  },
+  "import_wallet_in_group": {
+    "message": "Импорт кошелька"
+  },
+  "assign_to_group": {
+    "message": "В группу"
+  },
+  "remove_from_group": {
+    "message": "Убрать из группы"
+  },
+  "ungrouped": {
+    "message": "Без группы"
+  },
+  "ungrouped_wallets": {
+    "message": "Без группы"
+  },
+  "no_wallets_in_group": {
+    "message": "Нет кошельков"
+  },
+  "enable_wallet_groups_in_panel": {
+    "message": "Группы в панели"
+  },
+  "show_group_switch_desc": {
+    "message": "Переключение групп в панели"
   }
 }

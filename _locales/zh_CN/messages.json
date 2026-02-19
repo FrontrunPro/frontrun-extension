@@ -164,6 +164,12 @@
   "failed_to_create_group": {
     "message": "创建分组失败"
   },
+  "failed_to_move_wallet": {
+    "message": "移动钱包失败，请重试"
+  },
+  "failed_to_reorder": {
+    "message": "排序失败，请重试"
+  },
   "enter_a_group_name": {
     "message": "输入分组名称"
   },
@@ -605,6 +611,21 @@
   "earn": {
     "message": "赚取"
   },
+  "claim": {
+    "message": "领取"
+  },
+  "pump_cashback_label": {
+    "message": "Pump 返现 (未领取)"
+  },
+  "claiming_cashback": {
+    "message": "领取中..."
+  },
+  "cashback_claimed": {
+    "message": "返现领取成功"
+  },
+  "cashback_claim_failed": {
+    "message": "返现领取失败"
+  },
   "jupiter_earn": {
     "message": "Jupiter 赚取"
   },
@@ -787,6 +808,12 @@
   },
   "quick_buy_settings": {
     "message": "快速买入设置"
+  },
+  "wallet_tracker_quick_buy": {
+    "message": "钱包追踪内快速买入"
+  },
+  "wallet_tracker_quick_buy_description": {
+    "message": "在 Axiom 钱包追踪内显示 Quick Buy 按钮"
   },
   "use_autotrade": {
     "message": "使用自动交易"
@@ -1786,6 +1813,9 @@
   },
   "fee_saved_trading_panel": {
     "message": "已节省"
+  },
+  "saved_with_frontrun": {
+    "message": "已赚返现"
   },
   "fee_saved_trading_panel_tooltip": {
     "message": "您节省了{amount}手续费"
@@ -3277,5 +3307,50 @@
   },
   "confirm_unlink_twitter": {
     "message": "解绑 Twitter/X？"
+  },
+  "wallet_group": {
+    "message": "钱包分组"
+  },
+  "wallet_group_created": {
+    "message": "分组已创建"
+  },
+  "group_name_placeholder": {
+    "message": "输入分组名称..."
+  },
+  "rename_group": {
+    "message": "重命名分组"
+  },
+  "delete_group_confirm": {
+    "message": "确认删除？"
+  },
+  "group_deleted": {
+    "message": "分组已删除"
+  },
+  "create_wallet_in_group": {
+    "message": "创建钱包"
+  },
+  "import_wallet_in_group": {
+    "message": "导入钱包"
+  },
+  "assign_to_group": {
+    "message": "添加到分组"
+  },
+  "remove_from_group": {
+    "message": "从分组移除"
+  },
+  "ungrouped": {
+    "message": "未分组"
+  },
+  "ungrouped_wallets": {
+    "message": "未分组钱包"
+  },
+  "no_wallets_in_group": {
+    "message": "分组中没有钱包"
+  },
+  "enable_wallet_groups_in_panel": {
+    "message": "在面板中启用分组"
+  },
+  "show_group_switch_desc": {
+    "message": "在交易面板中显示分组切换"
   }
 }

@@ -170,6 +170,12 @@
   "failed_to_create_group": {
     "message": "Failed to create group"
   },
+  "failed_to_move_wallet": {
+    "message": "Failed to move wallet. Try again"
+  },
+  "failed_to_reorder": {
+    "message": "Failed to reorder. Try again"
+  },
   "enter_a_group_name": {
     "message": "Enter a group name"
   },
@@ -613,6 +619,21 @@
   },
   "earn": {
     "message": "Earn"
+  },
+  "claim": {
+    "message": "Claim"
+  },
+  "pump_cashback_label": {
+    "message": "Pump Cashback (unclaimed)"
+  },
+  "claiming_cashback": {
+    "message": "Claiming..."
+  },
+  "cashback_claimed": {
+    "message": "Cashback claimed successfully"
+  },
+  "cashback_claim_failed": {
+    "message": "Failed to claim cashback"
   },
   "jupiter_earn": {
     "message": "Jupiter Earn"
@@ -2114,6 +2135,9 @@
   "fee_saved_trading_panel": {
     "message": "saved!"
   },
+  "saved_with_frontrun": {
+    "message": "Cashback Earned"
+  },
   "fee_saved_trading_panel_tooltip": {
     "message": "You saved {amount} on fees"
   },
@@ -2738,6 +2762,9 @@
   "trading_panel_add_funds_description": {
     "message": "Deposit SOL to start trading and save up to 90% in fees."
   },
+  "trading_panel_add_funds_description_bsc": {
+    "message": "Deposit BNB to start trading and save up to 90% in fees."
+  },
   "trading_panel_receive_funds": {
     "message": "Receive Funds"
   },
@@ -2881,6 +2908,12 @@
   },
   "quick_buy_settings": {
     "message": "Quick Buy Settings"
+  },
+  "wallet_tracker_quick_buy": {
+    "message": "Quick Buy in Wallet Tracker"
+  },
+  "wallet_tracker_quick_buy_description": {
+    "message": "Enable Quick Buy buttons in Axiom Wallet Tracker"
   },
   "use_autotrade": {
     "message": "Use Autotrade"
@@ -3280,5 +3313,50 @@
   },
   "confirm_unlink_twitter": {
     "message": "Unlink Twitter/X?"
+  },
+  "wallet_group": {
+    "message": "Wallet Group"
+  },
+  "wallet_group_created": {
+    "message": "Wallet group created"
+  },
+  "group_name_placeholder": {
+    "message": "Enter group name..."
+  },
+  "rename_group": {
+    "message": "Rename Group"
+  },
+  "delete_group_confirm": {
+    "message": "Confirm Delete?"
+  },
+  "group_deleted": {
+    "message": "Group deleted"
+  },
+  "create_wallet_in_group": {
+    "message": "Create Wallet"
+  },
+  "import_wallet_in_group": {
+    "message": "Import Wallet"
+  },
+  "assign_to_group": {
+    "message": "Assign to Group"
+  },
+  "remove_from_group": {
+    "message": "Remove from Group"
+  },
+  "ungrouped": {
+    "message": "Ungrouped"
+  },
+  "ungrouped_wallets": {
+    "message": "Ungrouped Wallets"
+  },
+  "no_wallets_in_group": {
+    "message": "No wallets in this group"
+  },
+  "enable_wallet_groups_in_panel": {
+    "message": "Enable Wallet Groups in Panel"
+  },
+  "show_group_switch_desc": {
+    "message": "Show group switch in trading panel"
   }
 }
