@@ -828,7 +828,7 @@
     "message": "Быстрая покупка"
   },
   "wallet_tracker_quick_buy": {
-    "message": "Быстрая покупка в трекере"
+    "message": "Быстрая покупка (трекер)"
   },
   "wallet_tracker_quick_buy_description": {
     "message": "Кнопки в трекере Axiom"
