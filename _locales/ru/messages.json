@@ -47,6 +47,15 @@
   "display_settings": {
     "message": "Отображение"
   },
+  "show_changelog_on_update": {
+    "message": "Журнал обновлений"
+  },
+  "show_changelog_on_update_tip": {
+    "message": "Открывать журнал при крупном обновлении."
+  },
+  "click_to_see_updates": {
+    "message": "👈 Нажмите для обновлений"
+  },
   "cache": {
     "message": "Кэш"
   },

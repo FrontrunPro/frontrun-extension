@@ -38,6 +38,15 @@
   "display_settings": {
     "message": "显示设置"
   },
+  "show_changelog_on_update": {
+    "message": "更新时显示更新日志"
+  },
+  "show_changelog_on_update_tip": {
+    "message": "当扩展有重大更新时，自动打开更新日志页面。"
+  },
+  "click_to_see_updates": {
+    "message": "👈 点击查看更新"
+  },
   "cache": {
     "message": "缓存"
   },

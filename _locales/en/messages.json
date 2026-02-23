@@ -44,6 +44,15 @@
   "display_settings": {
     "message": "Customization & Display"
   },
+  "show_changelog_on_update": {
+    "message": "Show Changelog on Update"
+  },
+  "show_changelog_on_update_tip": {
+    "message": "Automatically open the changelog when the extension updates."
+  },
+  "click_to_see_updates": {
+    "message": "👈 Click here to see updates"
+  },
   "cache": {
     "message": "Cache"
   },
