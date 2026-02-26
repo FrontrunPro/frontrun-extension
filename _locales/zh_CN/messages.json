@@ -530,6 +530,9 @@
   "successfully_added_wallets_to_group": {
     "message": "成功添加钱包到分组！"
   },
+  "could_not_resolve_chain_fallback_evm": {
+    "message": "无法识别 {count} 个钱包的链种类，已默认用EVM"
+  },
   "successfully_added_wallet_to_group": {
     "message": "成功添加钱包到分组！"
   },

@@ -578,6 +578,9 @@
   "successfully_added_wallets_to_group": {
     "message": "Successfully added wallets to group!"
   },
+  "could_not_resolve_chain_fallback_evm": {
+    "message": "Could not resolve chain for {count} wallet(s). Falling back to EVM"
+  },
   "successfully_added_wallet_to_group": {
     "message": "Successfully added wallet to group!"
   },

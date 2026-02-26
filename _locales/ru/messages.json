@@ -587,6 +587,9 @@
   "successfully_added_wallets_to_group": {
     "message": "Кошельки успешно добавлены в группу!"
   },
+  "could_not_resolve_chain_fallback_evm": {
+    "message": "Не удалось определить сеть для {count} кошельков. Используется EVM"
+  },
   "successfully_added_wallet_to_group": {
     "message": "Кошелёк успешно добавлен в группу!"
   },
