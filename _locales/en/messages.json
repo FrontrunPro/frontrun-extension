@@ -1664,6 +1664,9 @@
   "transaction_failed_due_to_no_quotes": {
     "message": "Failed to get quote"
   },
+  "pool_data_not_ready": {
+    "message": "Pool data not ready yet, please retry"
+  },
   "slippage_exceeded": {
     "message": "Slippage tolerance exceeded. Try increasing your slippage tolerance"
   },

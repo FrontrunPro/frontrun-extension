@@ -1682,6 +1682,9 @@
   "transaction_failed_due_to_no_quotes": {
     "message": "获得报价失败"
   },
+  "pool_data_not_ready": {
+    "message": "池子数据尚未就绪，请重试"
+  },
   "slippage_exceeded": {
     "message": "滑点容忍度超出。请尝试增加滑点容忍度"
   },
