@@ -3323,6 +3323,12 @@
   "confirm_unlink_twitter": {
     "message": "解绑 Twitter/X？"
   },
+  "solana_wallet": {
+    "message": "SOL 钱包"
+  },
+  "bsc_wallet": {
+    "message": "BSC 钱包"
+  },
   "wallet_group": {
     "message": "钱包分组"
   },
@@ -3367,5 +3373,17 @@
   },
   "show_group_switch_desc": {
     "message": "在交易面板中显示分组切换"
+  },
+  "custom_buy_amount": {
+    "message": "自定义买入金额"
+  },
+  "custom_buy_amount_placeholder": {
+    "message": "输入 SOL 数量"
+  },
+  "enable_custom_buy": {
+    "message": "自定义买入金额"
+  },
+  "enable_custom_buy_description": {
+    "message": "在交易面板显示自定义输入框"
   }
 }

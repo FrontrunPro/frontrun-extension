@@ -3329,6 +3329,12 @@
   "confirm_unlink_twitter": {
     "message": "Unlink Twitter/X?"
   },
+  "solana_wallet": {
+    "message": "SOL Wallet"
+  },
+  "bsc_wallet": {
+    "message": "BSC Wallet"
+  },
   "wallet_group": {
     "message": "Wallet Group"
   },
@@ -3373,5 +3379,17 @@
   },
   "show_group_switch_desc": {
     "message": "Show group switch in trading panel"
+  },
+  "custom_buy_amount": {
+    "message": "Custom Buy Amount"
+  },
+  "custom_buy_amount_placeholder": {
+    "message": "Enter SOL amount"
+  },
+  "enable_custom_buy": {
+    "message": "Custom Buy Amount"
+  },
+  "enable_custom_buy_description": {
+    "message": "Show custom SOL input in trading panel"
   }
 }

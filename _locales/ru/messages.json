@@ -3332,6 +3332,12 @@
   "confirm_unlink_twitter": {
     "message": "Отвязать Twitter/X?"
   },
+  "solana_wallet": {
+    "message": "SOL"
+  },
+  "bsc_wallet": {
+    "message": "BSC"
+  },
   "wallet_group": {
     "message": "Группа кошельков"
   },
@@ -3376,5 +3382,17 @@
   },
   "show_group_switch_desc": {
     "message": "Переключение групп в панели"
+  },
+  "custom_buy_amount": {
+    "message": "Своя сумма"
+  },
+  "custom_buy_amount_placeholder": {
+    "message": "Сумма SOL"
+  },
+  "enable_custom_buy": {
+    "message": "Своя сумма"
+  },
+  "enable_custom_buy_description": {
+    "message": "Поле ввода суммы в панели"
   }
 }
