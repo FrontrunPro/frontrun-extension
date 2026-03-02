@@ -2214,7 +2214,7 @@
     "message": "初始化限价单失败，请刷新页面后重试。"
   },
   "limit_order_notional_value_too_low": {
-    "message": "限价单名义价值至少为 5 美元"
+    "message": "限价单名义价值至少为 1 美元"
   },
   "wallet_position_not_found": {
     "message": "未找到钱包持仓：{address}"
@@ -3322,6 +3322,33 @@
   },
   "confirm_unlink_twitter": {
     "message": "解绑 Twitter/X？"
+  },
+  "telegram": {
+    "message": "Telegram"
+  },
+  "link_telegram": {
+    "message": "绑定"
+  },
+  "telegram_linked": {
+    "message": "Telegram 已绑定"
+  },
+  "telegram_unlinked": {
+    "message": "Telegram 已解绑"
+  },
+  "telegram_already_claimed": {
+    "message": "已绑定到其他用户"
+  },
+  "telegram_link_failed": {
+    "message": "绑定失败"
+  },
+  "telegram_link_timeout": {
+    "message": "绑定超时"
+  },
+  "telegram_unlink_failed": {
+    "message": "解绑失败"
+  },
+  "confirm_unlink_telegram": {
+    "message": "解绑 Telegram？"
   },
   "solana_wallet": {
     "message": "SOL 钱包"

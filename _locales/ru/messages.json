@@ -2217,7 +2217,7 @@
     "message": "Не удалось инициализировать лимитный ордер, пожалуйста, обновите страницу и попробуйте снова."
   },
   "limit_order_notional_value_too_low": {
-    "message": "Номинальная стоимость лимитного ордера должна быть не менее 5 USD"
+    "message": "Номинальная стоимость лимитного ордера должна быть не менее 1 USD"
   },
   "wallet_position_not_found": {
     "message": "Позиция кошелька не найдена: {address}"
@@ -3331,6 +3331,33 @@
   },
   "confirm_unlink_twitter": {
     "message": "Отвязать Twitter/X?"
+  },
+  "telegram": {
+    "message": "Telegram"
+  },
+  "link_telegram": {
+    "message": "Привязать"
+  },
+  "telegram_linked": {
+    "message": "Telegram привязан"
+  },
+  "telegram_unlinked": {
+    "message": "Telegram отвязан"
+  },
+  "telegram_already_claimed": {
+    "message": "Привязан к другому пользователю"
+  },
+  "telegram_link_failed": {
+    "message": "Ошибка привязки"
+  },
+  "telegram_link_timeout": {
+    "message": "Время привязки истекло"
+  },
+  "telegram_unlink_failed": {
+    "message": "Не удалось отвязать"
+  },
+  "confirm_unlink_telegram": {
+    "message": "Отвязать Telegram?"
   },
   "solana_wallet": {
     "message": "SOL"

@@ -2184,7 +2184,7 @@
     "message": "Failed to initialize limit order, please refresh the page and try again."
   },
   "limit_order_notional_value_too_low": {
-    "message": "Limit order notional value must be at least 5 USD"
+    "message": "Limit order notional value must be at least 1 USD"
   },
   "wallet_position_not_found": {
     "message": "Wallet position not found for {address}"
@@ -3328,6 +3328,33 @@
   },
   "confirm_unlink_twitter": {
     "message": "Unlink Twitter/X?"
+  },
+  "telegram": {
+    "message": "Telegram"
+  },
+  "link_telegram": {
+    "message": "Link"
+  },
+  "telegram_linked": {
+    "message": "Telegram linked"
+  },
+  "telegram_unlinked": {
+    "message": "Telegram unlinked"
+  },
+  "telegram_already_claimed": {
+    "message": "Already linked to another user"
+  },
+  "telegram_link_failed": {
+    "message": "Linking failed"
+  },
+  "telegram_link_timeout": {
+    "message": "Linking timed out"
+  },
+  "telegram_unlink_failed": {
+    "message": "Failed to unlink Telegram"
+  },
+  "confirm_unlink_telegram": {
+    "message": "Unlink Telegram?"
   },
   "solana_wallet": {
     "message": "SOL Wallet"
