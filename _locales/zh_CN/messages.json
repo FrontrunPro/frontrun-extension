@@ -1313,6 +1313,24 @@
   "archive_wallet_disabled": {
     "message": "活跃钱包不能归档"
   },
+  "monitor_wallet": {
+    "message": "监控"
+  },
+  "unmonitor_wallet": {
+    "message": "取消监控"
+  },
+  "wallet_monitored": {
+    "message": "已添加到监控列表"
+  },
+  "wallet_unmonitored": {
+    "message": "已从监控列表移除"
+  },
+  "wallet_monitor_error": {
+    "message": "监控操作失败"
+  },
+  "wallet_monitor_limit_reached": {
+    "message": "监控上限：最多50个钱包"
+  },
   "holdings": {
     "message": "持仓"
   },
@@ -1429,6 +1447,9 @@
   },
   "option_2": {
     "message": "选项2"
+  },
+  "option_3": {
+    "message": "选项3"
   },
   "insufficient_balance": {
     "message": "余额不足，无法完成此交易。"
@@ -1572,13 +1593,13 @@
     "message": "经常被登出？查看解决方法"
   },
   "add_to_wallets": {
-    "message": "添加到钱包"
+    "message": "添加到标签"
   },
   "successfully_added_to_wallets": {
-    "message": "成功添加到钱包"
+    "message": "成功添加到标签"
   },
   "failed_to_add_to_wallets": {
-    "message": "添加到钱包失败"
+    "message": "添加到标签失败"
   },
   "anyone_can_own_a_name": {
     "message": "任何人都可以注册任意域名（如 name.sns）。"

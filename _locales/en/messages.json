@@ -1268,6 +1268,24 @@
   "archive_wallet_disabled": {
     "message": "Active Wallet Cannot Be Archived"
   },
+  "monitor_wallet": {
+    "message": "Monitor"
+  },
+  "unmonitor_wallet": {
+    "message": "Unmonitor"
+  },
+  "wallet_monitored": {
+    "message": "Wallet added to monitor list"
+  },
+  "wallet_unmonitored": {
+    "message": "Wallet removed from monitor list"
+  },
+  "wallet_monitor_error": {
+    "message": "Failed to update monitor list"
+  },
+  "wallet_monitor_limit_reached": {
+    "message": "Monitor limit reached (50 wallets max)"
+  },
   "holdings": {
     "message": "Holdings"
   },
@@ -1390,6 +1408,9 @@
   },
   "option_2": {
     "message": "Option 2"
+  },
+  "option_3": {
+    "message": "Option 3"
   },
   "insufficient_balance": {
     "message": "Insufficient balance for this transaction."
@@ -1533,13 +1554,13 @@
     "message": "Keep getting signed out? See how to fix it"
   },
   "add_to_wallets": {
-    "message": "Add to Wallets"
+    "message": "Add to Labels"
   },
   "successfully_added_to_wallets": {
-    "message": "Successfully added to wallets"
+    "message": "Successfully added to labels"
   },
   "failed_to_add_to_wallets": {
-    "message": "Failed to add to wallets"
+    "message": "Failed to add to labels"
   },
   "anyone_can_own_a_name": {
     "message": "Anyone can register a domain (e.g., name.sns)."

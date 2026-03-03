@@ -1307,6 +1307,24 @@
   "archive_wallet_disabled": {
     "message": "Активный не архивируется"
   },
+  "monitor_wallet": {
+    "message": "Мониторинг"
+  },
+  "unmonitor_wallet": {
+    "message": "Снять"
+  },
+  "wallet_monitored": {
+    "message": "Кошелёк на мониторинге"
+  },
+  "wallet_unmonitored": {
+    "message": "Мониторинг снят"
+  },
+  "wallet_monitor_error": {
+    "message": "Ошибка мониторинга"
+  },
+  "wallet_monitor_limit_reached": {
+    "message": "Лимит: 50 кошельков"
+  },
   "holdings": {
     "message": "Активы"
   },
@@ -1426,6 +1444,9 @@
   },
   "option_2": {
     "message": "Вариант 2"
+  },
+  "option_3": {
+    "message": "Вариант 3"
   },
   "insufficient_balance": {
     "message": "Недостаточно средств для выполнения этой транзакции."
@@ -1581,13 +1602,13 @@
     "message": "Вас часто выбрасывает из аккаунта? Вот как это исправить"
   },
   "add_to_wallets": {
-    "message": "В кошельки"
+    "message": "Добавить в метки"
   },
   "successfully_added_to_wallets": {
-    "message": "Успешно добавлено в кошельки"
+    "message": "Успешно добавлено в метки"
   },
   "failed_to_add_to_wallets": {
-    "message": "Не удалось добавить в кошельки"
+    "message": "Не удалось добавить в метки"
   },
   "anyone_can_own_a_name": {
     "message": "Любой может зарегистрировать домен (например, name.sns)."
