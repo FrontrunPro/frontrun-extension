@@ -1700,6 +1700,12 @@
   "sol_balance_not_enough": {
     "message": "Недостаточно SOL"
   },
+  "sol_balance_not_enough_for_gas": {
+    "message": "Недостаточно SOL для комиссии и ренты (оплата в SOL даже при торговле USDC)"
+  },
+  "usdc_balance_not_enough": {
+    "message": "Недостаточно USDC"
+  },
   "token_balance_not_enough": {
     "message": "Недостаточно"
   },
@@ -2393,6 +2399,15 @@
   "cancel_all": {
     "message": "Отменить всё"
   },
+  "autotrade_applied": {
+    "message": "Стратегия применена"
+  },
+  "autotrade_apply_failed": {
+    "message": "Ошибка применения"
+  },
+  "autotrade_strategy_exists": {
+    "message": "Стратегия уже существует. Сначала отмените текущую"
+  },
   "autotrade_limit_orders_created": {
     "message": "TP/SL ордер создан"
   },
@@ -2957,6 +2972,42 @@
   "report_bug": {
     "message": "Баг"
   },
+  "bug_report_cta": {
+    "message": "Сообщить о баге"
+  },
+  "bug_report_send": {
+    "message": "Сообщить"
+  },
+  "bug_report_sending": {
+    "message": "Отправка..."
+  },
+  "bug_report_sent": {
+    "message": "Отчёт отправлен команде"
+  },
+  "bug_report_already_sent": {
+    "message": "Уже отправлено, попробуйте позже"
+  },
+  "bug_report_failed": {
+    "message": "Ошибка, попробуйте снова"
+  },
+  "bug_report_modal_title": {
+    "message": "Сообщить об ошибке"
+  },
+  "bug_report_modal_placeholder": {
+    "message": "Что произошло? Шаги для воспроизведения помогут нам быстрее исправить (необязательно)"
+  },
+  "bug_report_modal_send": {
+    "message": "Отправить"
+  },
+  "bug_report_success_title": {
+    "message": "Отчёт отправлен"
+  },
+  "bug_report_success_message": {
+    "message": "Свяжитесь с командой в Telegram, укажите ID:"
+  },
+  "bug_report_copied": {
+    "message": "Скопировано"
+  },
   "request_feature_title": {
     "message": "Есть идея, как улучшить Frontrun?"
   },
@@ -3442,5 +3493,11 @@
   },
   "enable_custom_buy_description": {
     "message": "Поле ввода суммы в панели"
+  },
+  "autotrade_not_supported_usdc": {
+    "message": "Автоторговля недоступна в USDC"
+  },
+  "usdc_not_available_for_token": {
+    "message": "USDC пока недоступен для этого токена"
   }
 }

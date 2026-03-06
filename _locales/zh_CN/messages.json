@@ -1673,6 +1673,12 @@
   "sol_balance_not_enough": {
     "message": "SOL余额不足"
   },
+  "sol_balance_not_enough_for_gas": {
+    "message": "SOL 余额不足，无法支付手续费和租金（使用 USDC 交易时仍需 SOL 支付）"
+  },
+  "usdc_balance_not_enough": {
+    "message": "USDC余额不足"
+  },
   "token_balance_not_enough": {
     "message": "余额不足"
   },
@@ -2387,6 +2393,15 @@
   "cancel_all": {
     "message": "取消全部"
   },
+  "autotrade_applied": {
+    "message": "自动交易策略已应用"
+  },
+  "autotrade_apply_failed": {
+    "message": "应用自动交易策略失败"
+  },
+  "autotrade_strategy_exists": {
+    "message": "该持仓已有策略，请先取消现有策略"
+  },
   "autotrade_limit_orders_created": {
     "message": "TP/SL 订单已创建"
   },
@@ -2951,6 +2966,42 @@
   "report_bug": {
     "message": "报告错误"
   },
+  "bug_report_cta": {
+    "message": "遇到问题？点此上报"
+  },
+  "bug_report_send": {
+    "message": "报告"
+  },
+  "bug_report_sending": {
+    "message": "发送中..."
+  },
+  "bug_report_sent": {
+    "message": "报告已发送给团队"
+  },
+  "bug_report_already_sent": {
+    "message": "已上报，请稍后再试"
+  },
+  "bug_report_failed": {
+    "message": "上传失败，请重试"
+  },
+  "bug_report_modal_title": {
+    "message": "报告问题"
+  },
+  "bug_report_modal_placeholder": {
+    "message": "告诉我们发生了什么，可以帮助更快定位问题，谢谢（选填）"
+  },
+  "bug_report_modal_send": {
+    "message": "发送报告"
+  },
+  "bug_report_success_title": {
+    "message": "已提交报告"
+  },
+  "bug_report_success_message": {
+    "message": "请通过 Telegram 联系团队，提供以下错误 ID："
+  },
+  "bug_report_copied": {
+    "message": "已复制"
+  },
   "request_feature_title": {
     "message": "有改进 Frontrun 的想法？"
   },
@@ -3433,5 +3484,11 @@
   },
   "enable_custom_buy_description": {
     "message": "在交易面板显示自定义输入框"
+  },
+  "autotrade_not_supported_usdc": {
+    "message": "USDC 模式暂不支持自动交易"
+  },
+  "usdc_not_available_for_token": {
+    "message": "该代币暂不支持 USDC 交易"
   }
 }

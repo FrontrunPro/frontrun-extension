@@ -1655,6 +1655,12 @@
   "sol_balance_not_enough": {
     "message": "SOL balance is not enough"
   },
+  "sol_balance_not_enough_for_gas": {
+    "message": "Insufficient SOL for fees & rent (paid in SOL even when trading USDC)"
+  },
+  "usdc_balance_not_enough": {
+    "message": "USDC balance is not enough"
+  },
   "token_balance_not_enough": {
     "message": "Balance is not enough"
   },
@@ -2384,6 +2390,15 @@
   "autotrade_status_separator": {
     "message": " · "
   },
+  "autotrade_applied": {
+    "message": "Auto-trade strategy applied"
+  },
+  "autotrade_apply_failed": {
+    "message": "Failed to apply auto-trade strategy"
+  },
+  "autotrade_strategy_exists": {
+    "message": "Strategy already exists for this position. Cancel existing strategy first."
+  },
   "view_orders_in_trading_panel": {
     "message": "View orders in trading panel"
   },
@@ -2924,6 +2939,42 @@
   "report_bug": {
     "message": "Report Bug"
   },
+  "bug_report_cta": {
+    "message": "Think this is a bug? Click here to report"
+  },
+  "bug_report_send": {
+    "message": "Report"
+  },
+  "bug_report_sending": {
+    "message": "Sending..."
+  },
+  "bug_report_sent": {
+    "message": "Report has been sent to the team"
+  },
+  "bug_report_already_sent": {
+    "message": "Bug already reported, please wait before reporting again"
+  },
+  "bug_report_failed": {
+    "message": "Upload failed, please try again"
+  },
+  "bug_report_modal_title": {
+    "message": "Report a Bug"
+  },
+  "bug_report_modal_placeholder": {
+    "message": "What happened? Steps to reproduce help us fix it faster (optional)"
+  },
+  "bug_report_modal_send": {
+    "message": "Send Report"
+  },
+  "bug_report_success_title": {
+    "message": "Bug Reported"
+  },
+  "bug_report_success_message": {
+    "message": "Please reach out to the team on Telegram with your error ID:"
+  },
+  "bug_report_copied": {
+    "message": "Copied!"
+  },
   "request_feature_title": {
     "message": "Have an idea to improve Frontrun?"
   },
@@ -3439,5 +3490,11 @@
   },
   "enable_custom_buy_description": {
     "message": "Show custom SOL input in trading panel"
+  },
+  "autotrade_not_supported_usdc": {
+    "message": "Auto-Trade is not supported in USDC mode"
+  },
+  "usdc_not_available_for_token": {
+    "message": "USDC trading is not available for this token yet"
   }
 }
