@@ -1679,6 +1679,9 @@
   "sell_initial_insufficient_tokens": {
     "message": "У вас недостаточно токенов для покрытия вашей начальной позиции!"
   },
+  "sell_initial_price_below_cost": {
+    "message": "Цена ниже себестоимости. Продажа инит. невозможна."
+  },
   "price_not_available": {
     "message": "Цена недоступна. Пожалуйста, попробуйте позже."
   },
@@ -2395,6 +2398,9 @@
   },
   "sell_amt": {
     "message": "Сумма продажи"
+  },
+  "slippage_correction": {
+    "message": "Коррекция слипажа"
   },
   "cancel_all": {
     "message": "Отменить всё"
@@ -3488,6 +3494,9 @@
   "custom_buy_amount_placeholder": {
     "message": "Сумма SOL"
   },
+  "custom_buy_amount_placeholder_usdc": {
+    "message": "Сумма USDC"
+  },
   "enable_custom_buy": {
     "message": "Своя сумма"
   },
@@ -3499,5 +3508,17 @@
   },
   "usdc_not_available_for_token": {
     "message": "USDC пока недоступен для этого токена"
+  },
+  "quick_buy_sol_only_warning": {
+    "message": "Быстрая покупка только в SOL. Переключитесь на SOL."
+  },
+  "quick_buy_switched_to_sol": {
+    "message": "Переключено на SOL. Нажмите ещё раз."
+  },
+  "quick_buy_title_with_amount": {
+    "message": "Frontrun быстрая покупка {amount} SOL"
+  },
+  "quick_buy_title": {
+    "message": "Frontrun быстрая покупка"
   }
 }

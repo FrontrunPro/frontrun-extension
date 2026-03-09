@@ -869,6 +869,9 @@
   "sell_initial_insufficient_tokens": {
     "message": "您没有足够的代币来覆盖您的初始仓位"
   },
+  "sell_initial_price_below_cost": {
+    "message": "当前价格低于成本价，无法回本卖出"
+  },
   "price_not_available": {
     "message": "价格不可用，请稍后再试"
   },
@@ -2390,6 +2393,9 @@
   "sell_amt": {
     "message": "卖出数量"
   },
+  "slippage_correction": {
+    "message": "滑点修正"
+  },
   "cancel_all": {
     "message": "取消全部"
   },
@@ -3479,6 +3485,9 @@
   "custom_buy_amount_placeholder": {
     "message": "输入 SOL 数量"
   },
+  "custom_buy_amount_placeholder_usdc": {
+    "message": "输入 USDC 数量"
+  },
   "enable_custom_buy": {
     "message": "自定义买入金额"
   },
@@ -3490,5 +3499,17 @@
   },
   "usdc_not_available_for_token": {
     "message": "该代币暂不支持 USDC 交易"
+  },
+  "quick_buy_sol_only_warning": {
+    "message": "快速买入仅支持 SOL，点击切换"
+  },
+  "quick_buy_switched_to_sol": {
+    "message": "已切换到 SOL 模式，再次点击即可买入"
+  },
+  "quick_buy_title_with_amount": {
+    "message": "Frontrun 快速买入 {amount} SOL"
+  },
+  "quick_buy_title": {
+    "message": "Frontrun 快速买入"
   }
 }

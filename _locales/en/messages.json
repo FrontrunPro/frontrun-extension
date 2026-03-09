@@ -1634,6 +1634,9 @@
   "sell_initial_insufficient_tokens": {
     "message": "You do not have enough tokens to cover your initial position"
   },
+  "sell_initial_price_below_cost": {
+    "message": "Current price is below your cost basis. Cannot sell initial position."
+  },
   "have_already_made_profit": {
     "message": "You cannot sell initial position because you have already made your initial investment."
   },
@@ -2362,6 +2365,9 @@
   },
   "sell_amt": {
     "message": "Sell amt"
+  },
+  "slippage_correction": {
+    "message": "Slippage correction"
   },
   "cancel_all": {
     "message": "Cancel All"
@@ -3485,16 +3491,31 @@
   "custom_buy_amount_placeholder": {
     "message": "Enter SOL amount"
   },
+  "custom_buy_amount_placeholder_usdc": {
+    "message": "Enter USDC amount"
+  },
   "enable_custom_buy": {
     "message": "Custom Buy Amount"
   },
   "enable_custom_buy_description": {
-    "message": "Show custom SOL input in trading panel"
+    "message": "Show custom amount input in trading panel"
   },
   "autotrade_not_supported_usdc": {
     "message": "Auto-Trade is not supported in USDC mode"
   },
   "usdc_not_available_for_token": {
     "message": "USDC trading is not available for this token yet"
+  },
+  "quick_buy_sol_only_warning": {
+    "message": "Quick Buy only supports SOL. Click to switch to SOL."
+  },
+  "quick_buy_switched_to_sol": {
+    "message": "Switched to SOL mode. Click again to Quick Buy."
+  },
+  "quick_buy_title_with_amount": {
+    "message": "Frontrun quick buy {amount} SOL"
+  },
+  "quick_buy_title": {
+    "message": "Frontrun quick buy"
   }
 }
