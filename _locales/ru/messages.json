@@ -2435,6 +2435,15 @@
   "autotrade_dev_sell_failed_with_reason": {
     "message": "Dev Sell: {count} не удалось создать: {reason}"
   },
+  "autotrade_migrate_sell_created": {
+    "message": "Migrate Sell: {count} создано"
+  },
+  "autotrade_migrate_sell_failed": {
+    "message": "Migrate Sell: {count} не удалось"
+  },
+  "autotrade_migrate_sell_failed_with_reason": {
+    "message": "Migrate Sell: {count} не удалось: {reason}"
+  },
   "autotrade_status_separator": {
     "message": " · "
   },
@@ -3502,6 +3511,27 @@
   },
   "enable_custom_buy_description": {
     "message": "Поле ввода суммы в панели"
+  },
+  "migrated_sell": {
+    "message": "Продажа при миграции"
+  },
+  "migrate_sell_unsupported_pool": {
+    "message": "Этот тип пула не поддерживает миграцию"
+  },
+  "migrate_sell_description": {
+    "message": "Автопродажа при миграции на DEX"
+  },
+  "migrate_sell_percentage": {
+    "message": "% продажи"
+  },
+  "migrate_sell_active": {
+    "message": "Активно"
+  },
+  "auto_expand_limit_order_panel": {
+    "message": "Авто-открытие лимитов"
+  },
+  "auto_expand_limit_order_panel_desc": {
+    "message": "Открывать панель после создания лимитного ордера"
   },
   "autotrade_not_supported_usdc": {
     "message": "Автоторговля недоступна в USDC"

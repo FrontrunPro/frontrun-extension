@@ -2393,6 +2393,15 @@
   "autotrade_dev_sell_failed_with_reason": {
     "message": "Dev Sell: {count} failed: {reason}"
   },
+  "autotrade_migrate_sell_created": {
+    "message": "Migrate Sell: {count} created"
+  },
+  "autotrade_migrate_sell_failed": {
+    "message": "Migrate Sell: {count} failed"
+  },
+  "autotrade_migrate_sell_failed_with_reason": {
+    "message": "Migrate Sell: {count} failed: {reason}"
+  },
   "autotrade_status_separator": {
     "message": " · "
   },
@@ -3499,6 +3508,27 @@
   },
   "enable_custom_buy_description": {
     "message": "Show custom amount input in trading panel"
+  },
+  "migrated_sell": {
+    "message": "Migrated Sell"
+  },
+  "migrate_sell_unsupported_pool": {
+    "message": "Migrate Sell is not supported for this pool type"
+  },
+  "migrate_sell_description": {
+    "message": "Auto sell when token migrates to DEX"
+  },
+  "migrate_sell_percentage": {
+    "message": "Sell %"
+  },
+  "migrate_sell_active": {
+    "message": "Active"
+  },
+  "auto_expand_limit_order_panel": {
+    "message": "Auto-Expand Limit Order Panel"
+  },
+  "auto_expand_limit_order_panel_desc": {
+    "message": "Automatically open the right panel after creating a limit order"
   },
   "autotrade_not_supported_usdc": {
     "message": "Auto-Trade is not supported in USDC mode"

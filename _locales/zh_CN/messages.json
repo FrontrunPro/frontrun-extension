@@ -2429,6 +2429,15 @@
   "autotrade_dev_sell_failed_with_reason": {
     "message": "Dev Sell：{count} 失败：{reason}"
   },
+  "autotrade_migrate_sell_created": {
+    "message": "迁移卖出：{count} 已创建"
+  },
+  "autotrade_migrate_sell_failed": {
+    "message": "迁移卖出：{count} 失败"
+  },
+  "autotrade_migrate_sell_failed_with_reason": {
+    "message": "迁移卖出：{count} 失败：{reason}"
+  },
   "autotrade_status_separator": {
     "message": " · "
   },
@@ -3493,6 +3502,27 @@
   },
   "enable_custom_buy_description": {
     "message": "在交易面板显示自定义输入框"
+  },
+  "migrated_sell": {
+    "message": "迁移卖出"
+  },
+  "migrate_sell_unsupported_pool": {
+    "message": "该池类型不支持迁移卖出"
+  },
+  "migrate_sell_description": {
+    "message": "代币迁移到DEX时自动卖出"
+  },
+  "migrate_sell_percentage": {
+    "message": "卖出比例"
+  },
+  "migrate_sell_active": {
+    "message": "已启用"
+  },
+  "auto_expand_limit_order_panel": {
+    "message": "自动展开限价单面板"
+  },
+  "auto_expand_limit_order_panel_desc": {
+    "message": "创建限价单后自动打开右侧面板"
   },
   "autotrade_not_supported_usdc": {
     "message": "USDC 模式暂不支持自动交易"
