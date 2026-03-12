@@ -134,6 +134,21 @@
   "CA_mentioned_by": {
     "message": "CA 被 @{twitterUsername} 提及"
   },
+  "ca_history_for": {
+    "message": "CA 历史"
+  },
+  "active_count": {
+    "message": "{count} 个活跃"
+  },
+  "deleted_count": {
+    "message": "{count} 个已删除"
+  },
+  "show_more_tweets": {
+    "message": "显示 {count} 更多推文"
+  },
+  "show_less": {
+    "message": "收起"
+  },
   "deleted_CA_count": {
     "message": "{deletedCACount} 个已删除CA"
   },
@@ -1512,7 +1527,7 @@
     "message": "钱包历史"
   },
   "wallet_history_for": {
-    "message": "@{twitterUsername} 的钱包历史"
+    "message": "{twitterUsername} 的钱包历史"
   },
   "fetch_wallet_history_failed": {
     "message": "获取钱包历史失败，请稍后再试。"
@@ -1806,7 +1821,7 @@
     "message": "成就"
   },
   "top_moves_info": {
-    "message": "Top Moves 会展示该用户在主要代币上的重要近期交易：单笔 PnL ≥ $50,000，或持仓进入前 100 名。PnL 显示为绿色；持仓排名显示为黄色。"
+    "message": "Top Moves 展示重要交易：PnL $30k+ 或前100持仓。PnL 绿色显示，持仓排名黄色显示。"
   },
   "top_moves_setting_info": {
     "message": "Top Moves 会展示该用户在主要代币上的重要近期交易：单笔 PnL ≥ $50,000，或持仓进入前 100 名"
@@ -2386,6 +2401,15 @@
   },
   "dev_sell": {
     "message": "Dev Sell"
+  },
+  "dev_sell_amt": {
+    "message": "Dev sell 数量"
+  },
+  "sell_amt_on_migration": {
+    "message": "迁移时卖出数量"
+  },
+  "migration": {
+    "message": "迁移"
   },
   "tp": {
     "message": "TP"
@@ -3523,6 +3547,12 @@
   },
   "auto_expand_limit_order_panel_desc": {
     "message": "创建限价单后自动打开右侧面板"
+  },
+  "show_chart_order_lines": {
+    "message": "显示图表订单线"
+  },
+  "show_chart_order_lines_desc": {
+    "message": "在图表上显示限价单和自动交易线"
   },
   "autotrade_not_supported_usdc": {
     "message": "USDC 模式暂不支持自动交易"

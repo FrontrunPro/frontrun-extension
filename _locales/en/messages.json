@@ -18,7 +18,7 @@
     "message": "Top Moves"
   },
   "top_moves_info": {
-    "message": "Top Moves surfaces this profile's notable recent trades on major tokens: trades with $30k+ PnL or positions that are within top 100 holders. PnL appears in green; holder rank in yellow."
+    "message": "Top Moves highlights notable trades: $30k+ PnL or top-100 holder positions. PnL is shown in green, holder rank in yellow."
   },
   "top_moves_setting_info": {
     "message": "Top Moves shows this profile's notable recent trades on major tokens: trades with $30k+ PnL or positions that are within top 100 holders"
@@ -169,6 +169,21 @@
   },
   "CA_mentioned_by": {
     "message": "CA mentioned by @{twitterUsername}"
+  },
+  "ca_history_for": {
+    "message": "CA History for"
+  },
+  "active_count": {
+    "message": "{count} Active"
+  },
+  "deleted_count": {
+    "message": "{count} Deleted"
+  },
+  "show_more_tweets": {
+    "message": "Show {count} more tweets"
+  },
+  "show_less": {
+    "message": "Show less"
   },
   "add_label": {
     "message": "Add Label"
@@ -1470,7 +1485,7 @@
     "message": "Wallet History"
   },
   "wallet_history_for": {
-    "message": "Wallet History for @{twitterUsername}"
+    "message": "Wallet History for {twitterUsername}"
   },
   "fetch_wallet_history_failed": {
     "message": "Failed to fetch wallet history. Please try again later."
@@ -1491,7 +1506,7 @@
     "message": "Deleted Wallet Mentions"
   },
   "deleted": {
-    "message": "DELETED"
+    "message": "Deleted"
   },
   "no_associated_wallets_found": {
     "message": "No associated wallets found"
@@ -2359,6 +2374,15 @@
   },
   "dev_sell": {
     "message": "Dev Sell"
+  },
+  "dev_sell_amt": {
+    "message": "Dev sell amt"
+  },
+  "sell_amt_on_migration": {
+    "message": "Sell amt on migration"
+  },
+  "migration": {
+    "message": "Migration"
   },
   "tp": {
     "message": "TP"
@@ -3529,6 +3553,12 @@
   },
   "auto_expand_limit_order_panel_desc": {
     "message": "Automatically open the right panel after creating a limit order"
+  },
+  "show_chart_order_lines": {
+    "message": "Show Chart Order Lines"
+  },
+  "show_chart_order_lines_desc": {
+    "message": "Display limit order and auto-trade lines on the chart"
   },
   "autotrade_not_supported_usdc": {
     "message": "Auto-Trade is not supported in USDC mode"

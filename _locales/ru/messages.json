@@ -15,7 +15,7 @@
     "message": "Крупные движения"
   },
   "top_moves_info": {
-    "message": "Top Moves показывает заметные недавние сделки этого профиля по основным токенам: сделки PnL ≥ $30k или топ‑100 держателей. PnL зелёным; ранг жёлтым."
+    "message": "Top Moves — заметные сделки: PnL $30k+ или топ-100 держателей. PnL зелёным, ранг жёлтым."
   },
   "top_moves_setting_info": {
     "message": "Top Moves показывает заметные недавние сделки этого профиля по основным токенам: сделки PnL ≥ $30k или топ‑100 держателей"
@@ -175,6 +175,21 @@
   },
   "CA_mentioned_by": {
     "message": "CA упомянута @{twitterUsername}"
+  },
+  "ca_history_for": {
+    "message": "История CA для"
+  },
+  "active_count": {
+    "message": "{count} Активных"
+  },
+  "deleted_count": {
+    "message": "{count} Удалённых"
+  },
+  "show_more_tweets": {
+    "message": "Ещё {count} твитов"
+  },
+  "show_less": {
+    "message": "Свернуть"
   },
   "add_label": {
     "message": "Добавить метку"
@@ -1506,7 +1521,7 @@
     "message": "История кошелька"
   },
   "wallet_history_for": {
-    "message": "История кошелька для @{twitterUsername}"
+    "message": "История кошелька для {twitterUsername}"
   },
   "fetch_wallet_history_failed": {
     "message": "Не удалось получить историю кошелька. Попробуйте позже."
@@ -1527,7 +1542,7 @@
     "message": "Удалённые упоминания кошельков"
   },
   "deleted": {
-    "message": "УДАЛЕНО"
+    "message": "Удалено"
   },
   "no_associated_wallets_found": {
     "message": "Связанные кошельки не найдены"
@@ -2392,6 +2407,15 @@
   },
   "dev_sell": {
     "message": "Dev Sell"
+  },
+  "dev_sell_amt": {
+    "message": "Dev sell сумма"
+  },
+  "sell_amt_on_migration": {
+    "message": "Продажа при миграции"
+  },
+  "migration": {
+    "message": "Миграция"
   },
   "tp": {
     "message": "TP"
@@ -3532,6 +3556,12 @@
   },
   "auto_expand_limit_order_panel_desc": {
     "message": "Открывать панель после создания лимитного ордера"
+  },
+  "show_chart_order_lines": {
+    "message": "Линии ордеров на графике"
+  },
+  "show_chart_order_lines_desc": {
+    "message": "Показывать на графике линии ордеров и автоторговли"
   },
   "autotrade_not_supported_usdc": {
     "message": "Автоторговля недоступна в USDC"
