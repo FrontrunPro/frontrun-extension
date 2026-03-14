@@ -660,16 +660,43 @@
     "message": "Забрать"
   },
   "pump_cashback_label": {
-    "message": "Pump кешбэк (не получен)"
+    "message": "Pump кешбэк"
   },
   "claiming_cashback": {
-    "message": "Получение..."
+    "message": "Забираем..."
   },
   "cashback_claimed": {
-    "message": "Кешбэк получен"
+    "message": "Кешбэк забран"
   },
   "cashback_claim_failed": {
-    "message": "Ошибка получения"
+    "message": "Не удалось забрать"
+  },
+  "claiming": {
+    "message": "Забираем..."
+  },
+  "rent_claimable_label": {
+    "message": "Рента пустых аккаунтов"
+  },
+  "nothing_to_claim": {
+    "message": "Нечего забирать"
+  },
+  "claim_failed": {
+    "message": "Не удалось забрать"
+  },
+  "rent_reclaimed": {
+    "message": "Рента забрана"
+  },
+  "rent_claim_failed": {
+    "message": "Не удалось забрать ренту"
+  },
+  "rent_partial_failure": {
+    "message": "{count} аккаунтов не удалось закрыть"
+  },
+  "claimed_successfully": {
+    "message": "Успешно забрано"
+  },
+  "total_claimed": {
+    "message": "Итого"
   },
   "jupiter_earn": {
     "message": "Jupiter Earn"
@@ -1544,6 +1571,21 @@
   "deleted": {
     "message": "Удалено"
   },
+  "ca_history_for": {
+    "message": "История CA для"
+  },
+  "active_count": {
+    "message": "{count} Активных"
+  },
+  "deleted_count": {
+    "message": "{count} Удалённых"
+  },
+  "show_more_tweets": {
+    "message": "Ещё {count} твитов"
+  },
+  "show_less": {
+    "message": "Свернуть"
+  },
   "no_associated_wallets_found": {
     "message": "Связанные кошельки не найдены"
   },
@@ -1762,6 +1804,9 @@
   },
   "bonding_curve_completed": {
     "message": "Кривая связывания завершена. Пожалуйста, обновите страницу"
+  },
+  "bonding_curve_migrating": {
+    "message": "Токен мигрирует с Bonding Curve на DEX. Попробуйте через несколько секунд"
   },
   "error_invalid_mint_authority": {
     "message": "Токен недоступен для торговли. Проверьте правильность токена"
@@ -2270,6 +2315,9 @@
   "enter_sol_amount": {
     "message": "Введите количество SOL"
   },
+  "enter_usdc_amount": {
+    "message": "Введите количество USDC"
+  },
   "enter_percent_0_100": {
     "message": "Введите % (0~100)"
   },
@@ -2434,6 +2482,9 @@
   },
   "autotrade_apply_failed": {
     "message": "Ошибка применения"
+  },
+  "autotrade_usdc_amm_not_supported": {
+    "message": "Автотрейд пропущен: USDC не поддерживается для этого типа пула"
   },
   "autotrade_strategy_exists": {
     "message": "Стратегия уже существует. Сначала отмените текущую"
@@ -3556,6 +3607,12 @@
   },
   "auto_expand_limit_order_panel_desc": {
     "message": "Открывать панель после создания лимитного ордера"
+  },
+  "single_group_select": {
+    "message": "Одиночный выбор группы"
+  },
+  "single_group_select_desc": {
+    "message": "Только одна группа активна одновременно"
   },
   "show_chart_order_lines": {
     "message": "Линии ордеров на графике"

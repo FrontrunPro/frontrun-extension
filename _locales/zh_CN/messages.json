@@ -642,7 +642,7 @@
     "message": "领取"
   },
   "pump_cashback_label": {
-    "message": "Pump 返现 (未领取)"
+    "message": "Pump 返现"
   },
   "claiming_cashback": {
     "message": "领取中..."
@@ -652,6 +652,33 @@
   },
   "cashback_claim_failed": {
     "message": "返现领取失败"
+  },
+  "claiming": {
+    "message": "领取中..."
+  },
+  "rent_claimable_label": {
+    "message": "空账户租金"
+  },
+  "nothing_to_claim": {
+    "message": "暂无可领取"
+  },
+  "claim_failed": {
+    "message": "领取失败"
+  },
+  "rent_reclaimed": {
+    "message": "已回收租金"
+  },
+  "rent_claim_failed": {
+    "message": "回收租金失败"
+  },
+  "rent_partial_failure": {
+    "message": "{count} 个账户无法关闭"
+  },
+  "claimed_successfully": {
+    "message": "领取成功"
+  },
+  "total_claimed": {
+    "message": "总计领取"
   },
   "jupiter_earn": {
     "message": "Jupiter 赚取"
@@ -1550,6 +1577,21 @@
   "deleted": {
     "message": "已删除"
   },
+  "ca_history_for": {
+    "message": "CA 历史"
+  },
+  "active_count": {
+    "message": "{count} 个活跃"
+  },
+  "deleted_count": {
+    "message": "{count} 个已删除"
+  },
+  "show_more_tweets": {
+    "message": "显示 {count} 更多推文"
+  },
+  "show_less": {
+    "message": "收起"
+  },
   "no_associated_wallets_found": {
     "message": "未找到关联钱包"
   },
@@ -1735,6 +1777,9 @@
   },
   "bonding_curve_completed": {
     "message": "绑定曲线已完成。请刷新页面"
+  },
+  "bonding_curve_migrating": {
+    "message": "代币正在从 Bonding Curve 迁移至 DEX，请稍后重试"
   },
   "error_invalid_mint_authority": {
     "message": "代币配置无效，请验证代币是否正常"
@@ -2267,6 +2312,9 @@
   "enter_sol_amount": {
     "message": "输入 SOL 数量"
   },
+  "enter_usdc_amount": {
+    "message": "输入 USDC 数量"
+  },
   "enter_percent_0_100": {
     "message": "输入百分比 (0~100)"
   },
@@ -2428,6 +2476,9 @@
   },
   "autotrade_apply_failed": {
     "message": "应用自动交易策略失败"
+  },
+  "autotrade_usdc_amm_not_supported": {
+    "message": "自动交易已跳过：该池类型不支持USDC"
   },
   "autotrade_strategy_exists": {
     "message": "该持仓已有策略，请先取消现有策略"
@@ -3547,6 +3598,12 @@
   },
   "auto_expand_limit_order_panel_desc": {
     "message": "创建限价单后自动打开右侧面板"
+  },
+  "single_group_select": {
+    "message": "单选钱包组"
+  },
+  "single_group_select_desc": {
+    "message": "同时只能激活一个钱包组"
   },
   "show_chart_order_lines": {
     "message": "显示图表订单线"
