@@ -677,6 +677,12 @@
   "rent_claimable_label": {
     "message": "Рента пустых аккаунтов"
   },
+  "dust_tokens_available": {
+    "message": "Токены низкой стоимости"
+  },
+  "burn_and_claim": {
+    "message": "Сжечь и забрать"
+  },
   "nothing_to_claim": {
     "message": "Нечего забирать"
   },
@@ -2294,6 +2300,9 @@
   "limit_order_creation_failed": {
     "message": "Не удалось создать лимитный ордер:"
   },
+  "limit_order_max_per_token": {
+    "message": "Лимит достигнут — отмените ордер, чтобы создать новый"
+  },
   "limit_order_triggered_successfully": {
     "message": "Лимитный ордер успешно активирован"
   },
@@ -3128,6 +3137,12 @@
   "estimate_amount_on_hover_desc": {
     "message": "Панель торговли показывает расчётную сумму при наведении"
   },
+  "reset_pnl": {
+    "message": "Сброс PNL"
+  },
+  "reset_pnl_desc": {
+    "message": "Показывает PNL только по текущей позиции; обнуляется при закрытии"
+  },
   "hotkey_modifier": {
     "message": "Модификатор хоткеев"
   },
@@ -3637,5 +3652,92 @@
   },
   "quick_buy_title": {
     "message": "Frontrun быстрая покупка"
+  },
+  "token_incinerator": {
+    "message": "Сжигание токенов"
+  },
+  "token_incinerator_desc": {
+    "message": "Сожгите токены и верните ренту"
+  },
+  "total_token_accounts": {
+    "message": "Всего"
+  },
+  "burnable_accounts": {
+    "message": "Доступно"
+  },
+  "total_reclaimable": {
+    "message": "Возврат"
+  },
+  "burn_and_close": {
+    "message": "Сжечь и закрыть"
+  },
+  "burning": {
+    "message": "Сжигаем..."
+  },
+  "burn_close_accounts": {
+    "message": "Сжечь и закрыть аккаунты"
+  },
+  "burn_irreversible_warning": {
+    "message": "Действие необратимо. Выбранные токены будут уничтожены."
+  },
+  "wsol_warning_title": {
+    "message": "Внимание: Wrapped SOL"
+  },
+  "confirm_burn": {
+    "message": "Подтвердить"
+  },
+  "no_burnable_accounts": {
+    "message": "Нет аккаунтов с балансом"
+  },
+  "no_burnable_accounts_desc": {
+    "message": "Все аккаунты пусты или закрыты"
+  },
+  "loading_token_accounts": {
+    "message": "Загрузка..."
+  },
+  "burn_show_less": {
+    "message": "Свернуть"
+  },
+  "burn_show_more": {
+    "message": "Ещё"
+  },
+  "burn_more": {
+    "message": "ещё"
+  },
+  "burn_wallet_label": {
+    "message": "Кошелёк"
+  },
+  "burn_stablecoin_excluded": {
+    "message": "Стейблкоин — исключён"
+  },
+  "burn_wsol_excluded": {
+    "message": "Wrapped SOL — исключён"
+  },
+  "burn_dust_value": {
+    "message": "Стоимость"
+  },
+  "burn_above_threshold": {
+    "message": "Дороже $0.10 — исключено"
+  },
+  "burn_confirm_title": {
+    "message": "Подтвердить сжигание"
+  },
+  "burn_confirm_strong_warning": {
+    "message": "Действие необратимо. Выбранные токены будут уничтожены навсегда. Восстановление невозможно. Вернётся только рента (~0.002 SOL за аккаунт)."
+  },
+  "burn_confirm_tokens_header": {
+    "message": "Токены для уничтожения"
+  },
+  "burn_abort_error": {
+    "message": "Операция прервана из-за ошибки сети. Сожжённые токены не восстановить."
+  },
+  "burn_type_confirm": {
+    "message": "Введите BURN для подтверждения"
+  },
+  "burn_type_confirm_placeholder": {
+    "message": "Введите BURN"
+  },
+  "burn_select_wallet": {
+    "message": "Выбрать кошелёк"
   }
 }

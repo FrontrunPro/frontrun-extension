@@ -659,6 +659,12 @@
   "rent_claimable_label": {
     "message": "空账户租金"
   },
+  "dust_tokens_available": {
+    "message": "低价值代币"
+  },
+  "burn_and_claim": {
+    "message": "销毁并领取"
+  },
   "nothing_to_claim": {
     "message": "暂无可领取"
   },
@@ -2291,6 +2297,9 @@
   "limit_order_creation_failed": {
     "message": "限价单创建失败："
   },
+  "limit_order_max_per_token": {
+    "message": "已达上限，请取消一个现有订单后再下单"
+  },
   "limit_order_triggered_successfully": {
     "message": "限价单触发成功"
   },
@@ -3122,6 +3131,12 @@
   "estimate_amount_on_hover_desc": {
     "message": "悬停时在交易面板上显示预估交易数量"
   },
+  "reset_pnl": {
+    "message": "重置盈亏"
+  },
+  "reset_pnl_desc": {
+    "message": "平仓后盈亏归零，仅显示当前持仓盈亏"
+  },
   "hotkey_modifier": {
     "message": "快捷键修饰键"
   },
@@ -3628,5 +3643,92 @@
   },
   "quick_buy_title": {
     "message": "Frontrun 快速买入"
+  },
+  "token_incinerator": {
+    "message": "代币焚烧"
+  },
+  "token_incinerator_desc": {
+    "message": "销毁代币并回收账户租金"
+  },
+  "total_token_accounts": {
+    "message": "总账户"
+  },
+  "burnable_accounts": {
+    "message": "可销毁"
+  },
+  "total_reclaimable": {
+    "message": "可回收"
+  },
+  "burn_and_close": {
+    "message": "销毁并关闭"
+  },
+  "burning": {
+    "message": "销毁中..."
+  },
+  "burn_close_accounts": {
+    "message": "销毁并关闭账户"
+  },
+  "burn_irreversible_warning": {
+    "message": "此操作不可撤回。选中的代币将被永久销毁。"
+  },
+  "wsol_warning_title": {
+    "message": "警告：Wrapped SOL"
+  },
+  "confirm_burn": {
+    "message": "确认销毁"
+  },
+  "no_burnable_accounts": {
+    "message": "没有可销毁的代币账户"
+  },
+  "no_burnable_accounts_desc": {
+    "message": "当前没有可销毁的代币账户"
+  },
+  "loading_token_accounts": {
+    "message": "加载代币账户中..."
+  },
+  "burn_show_less": {
+    "message": "收起"
+  },
+  "burn_show_more": {
+    "message": "展开"
+  },
+  "burn_more": {
+    "message": "个"
+  },
+  "burn_wallet_label": {
+    "message": "钱包"
+  },
+  "burn_stablecoin_excluded": {
+    "message": "稳定币 — 已排除"
+  },
+  "burn_wsol_excluded": {
+    "message": "Wrapped SOL — 已排除（关闭即可取回）"
+  },
+  "burn_dust_value": {
+    "message": "价值"
+  },
+  "burn_above_threshold": {
+    "message": "价值超过 $0.10 — 已排除自动选择"
+  },
+  "burn_confirm_title": {
+    "message": "确认销毁并关闭"
+  },
+  "burn_confirm_strong_warning": {
+    "message": "此操作永久且不可撤回。选中的代币将被永久销毁，无法恢复。仅租金（约每个账户 0.002 SOL）会返还。"
+  },
+  "burn_confirm_tokens_header": {
+    "message": "即将销毁的代币"
+  },
+  "burn_abort_error": {
+    "message": "因网络错误已中止操作。已销毁的代币无法恢复。"
+  },
+  "burn_type_confirm": {
+    "message": "输入 BURN 以确认"
+  },
+  "burn_type_confirm_placeholder": {
+    "message": "在此输入 BURN"
+  },
+  "burn_select_wallet": {
+    "message": "选择钱包"
   }
 }

@@ -668,6 +668,12 @@
   "rent_claimable_label": {
     "message": "Empty Account Rent"
   },
+  "dust_tokens_available": {
+    "message": "Low Value Tokens"
+  },
+  "burn_and_claim": {
+    "message": "Burn & Claim"
+  },
   "nothing_to_claim": {
     "message": "Nothing to claim"
   },
@@ -2261,6 +2267,9 @@
   "limit_order_creation_failed": {
     "message": "Limit order creation failed:"
   },
+  "limit_order_max_per_token": {
+    "message": "Limit reached — cancel an existing order to place a new one"
+  },
   "limit_order_triggered_successfully": {
     "message": "Limit Order Triggered"
   },
@@ -3125,6 +3134,12 @@
   "estimate_amount_on_hover_desc": {
     "message": "Instant trade panel shows reflected amount on hover"
   },
+  "reset_pnl": {
+    "message": "Reset PNL"
+  },
+  "reset_pnl_desc": {
+    "message": "Show current-position PNL only; resets to 0 when fully closed"
+  },
   "hotkey_modifier": {
     "message": "Hotkey Modifier"
   },
@@ -3634,5 +3649,92 @@
   },
   "quick_buy_title": {
     "message": "Frontrun quick buy"
+  },
+  "token_incinerator": {
+    "message": "Token Incinerator"
+  },
+  "token_incinerator_desc": {
+    "message": "Burn tokens and reclaim rent from token accounts"
+  },
+  "total_token_accounts": {
+    "message": "Total Accounts"
+  },
+  "burnable_accounts": {
+    "message": "Burnable"
+  },
+  "total_reclaimable": {
+    "message": "Reclaimable"
+  },
+  "burn_and_close": {
+    "message": "Burn & Close"
+  },
+  "burning": {
+    "message": "Burning..."
+  },
+  "burn_close_accounts": {
+    "message": "Burn & Close Accounts"
+  },
+  "burn_irreversible_warning": {
+    "message": "This action is irreversible. Selected tokens will be permanently destroyed."
+  },
+  "wsol_warning_title": {
+    "message": "Warning: Wrapped SOL"
+  },
+  "confirm_burn": {
+    "message": "Confirm Burn"
+  },
+  "no_burnable_accounts": {
+    "message": "No token accounts with balance"
+  },
+  "no_burnable_accounts_desc": {
+    "message": "All accounts are empty or already closed."
+  },
+  "loading_token_accounts": {
+    "message": "Loading token accounts..."
+  },
+  "burn_show_less": {
+    "message": "Show Less"
+  },
+  "burn_show_more": {
+    "message": "Show"
+  },
+  "burn_more": {
+    "message": "More"
+  },
+  "burn_wallet_label": {
+    "message": "Wallet"
+  },
+  "burn_stablecoin_excluded": {
+    "message": "Stablecoin — excluded"
+  },
+  "burn_wsol_excluded": {
+    "message": "Wrapped SOL — excluded (close to unwrap)"
+  },
+  "burn_dust_value": {
+    "message": "Value"
+  },
+  "burn_above_threshold": {
+    "message": "Worth more than $0.10 — excluded from auto-select"
+  },
+  "burn_confirm_title": {
+    "message": "Confirm Burn & Close"
+  },
+  "burn_confirm_strong_warning": {
+    "message": "This action is PERMANENT and IRREVERSIBLE. The selected tokens will be destroyed forever. You will NOT be able to recover them. Only the rent (~0.002 SOL per account) will be returned."
+  },
+  "burn_confirm_tokens_header": {
+    "message": "Tokens to be destroyed"
+  },
+  "burn_abort_error": {
+    "message": "Operation aborted due to network error. Any tokens already burned cannot be recovered."
+  },
+  "burn_type_confirm": {
+    "message": "Type BURN to confirm"
+  },
+  "burn_type_confirm_placeholder": {
+    "message": "Type BURN here"
+  },
+  "burn_select_wallet": {
+    "message": "Select Wallet"
   }
 }
