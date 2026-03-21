@@ -2462,6 +2462,15 @@
   "stop_loss": {
     "message": "Стоп-лосс"
   },
+  "trailing_stop_loss": {
+    "message": "Трейлинг стоп-лосс"
+  },
+  "activation_price": {
+    "message": "Активация"
+  },
+  "activation_price_tooltip": {
+    "message": "Трейлинг начнётся после роста на этот %."
+  },
   "dev_sell": {
     "message": "Dev Sell"
   },
@@ -3713,6 +3722,15 @@
   "burn_wsol_excluded": {
     "message": "Wrapped SOL — исключён"
   },
+  "burn_no_price_data": {
+    "message": "⚠ Нет данных о цене — проверьте"
+  },
+  "burn_unknown_value_title": {
+    "message": "Токены без цены"
+  },
+  "burn_unknown_value_warning": {
+    "message": "Некоторые токены без данных о цене. Проверьте перед сжиганием."
+  },
   "burn_dust_value": {
     "message": "Стоимость"
   },
@@ -3739,5 +3757,11 @@
   },
   "burn_select_wallet": {
     "message": "Выбрать кошелёк"
+  },
+  "burn_rate_limit": {
+    "message": "Слишком частое обновление. Подождите немного."
+  },
+  "burn_daily_limit": {
+    "message": "Лимит обновлений на сегодня исчерпан. Попробуйте завтра."
   }
 }

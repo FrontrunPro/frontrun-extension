@@ -2429,6 +2429,15 @@
   "stop_loss": {
     "message": "Stop Loss"
   },
+  "trailing_stop_loss": {
+    "message": "Trailing Stop Loss"
+  },
+  "activation_price": {
+    "message": "Activation"
+  },
+  "activation_price_tooltip": {
+    "message": "Trailing starts after price rises by this %."
+  },
   "dev_sell": {
     "message": "Dev Sell"
   },
@@ -3710,6 +3719,15 @@
   "burn_wsol_excluded": {
     "message": "Wrapped SOL — excluded (close to unwrap)"
   },
+  "burn_no_price_data": {
+    "message": "⚠ No price data — verify before burning"
+  },
+  "burn_unknown_value_title": {
+    "message": "Tokens with unknown value"
+  },
+  "burn_unknown_value_warning": {
+    "message": "Some selected tokens have no price data. They may still have value. Please verify before burning."
+  },
   "burn_dust_value": {
     "message": "Value"
   },
@@ -3736,5 +3754,11 @@
   },
   "burn_select_wallet": {
     "message": "Select Wallet"
+  },
+  "burn_rate_limit": {
+    "message": "Too many refreshes. Please wait a moment before trying again."
+  },
+  "burn_daily_limit": {
+    "message": "Daily refresh limit reached. Please try again tomorrow."
   }
 }

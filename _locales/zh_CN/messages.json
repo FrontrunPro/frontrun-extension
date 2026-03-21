@@ -2456,6 +2456,15 @@
   "stop_loss": {
     "message": "止损"
   },
+  "trailing_stop_loss": {
+    "message": "追踪止损"
+  },
+  "activation_price": {
+    "message": "激活价"
+  },
+  "activation_price_tooltip": {
+    "message": "价格上涨达到此百分比后开始追踪"
+  },
   "dev_sell": {
     "message": "Dev Sell"
   },
@@ -3704,6 +3713,15 @@
   "burn_wsol_excluded": {
     "message": "Wrapped SOL — 已排除（关闭即可取回）"
   },
+  "burn_no_price_data": {
+    "message": "⚠ 无价格数据 — 请确认后再销毁"
+  },
+  "burn_unknown_value_title": {
+    "message": "价值未知的代币"
+  },
+  "burn_unknown_value_warning": {
+    "message": "部分选中的代币没有价格数据，可能仍有价值。请在销毁前确认。"
+  },
   "burn_dust_value": {
     "message": "价值"
   },
@@ -3730,5 +3748,11 @@
   },
   "burn_select_wallet": {
     "message": "选择钱包"
+  },
+  "burn_rate_limit": {
+    "message": "刷新太频繁，请稍后再试"
+  },
+  "burn_daily_limit": {
+    "message": "今日刷新次数已达上限，请明天再试"
   }
 }
