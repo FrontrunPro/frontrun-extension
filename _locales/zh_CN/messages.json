@@ -3167,6 +3167,24 @@
   "request_feature": {
     "message": "请求功能"
   },
+  "feature_request_placeholder": {
+    "message": "描述您想要的功能..."
+  },
+  "feature_request_telegram": {
+    "message": "Telegram（可选）"
+  },
+  "feature_request_telegram_placeholder": {
+    "message": "@username"
+  },
+  "feature_request_submitting": {
+    "message": "提交中..."
+  },
+  "feature_request_success": {
+    "message": "感谢！您的功能请求已提交。"
+  },
+  "feature_request_submit_another": {
+    "message": "再提一个"
+  },
   "lock_wallet": {
     "message": "锁定钱包"
   },

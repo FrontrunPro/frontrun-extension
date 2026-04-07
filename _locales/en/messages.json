@@ -3116,11 +3116,32 @@
   "bug_report_copied": {
     "message": "Copied!"
   },
+  "bug_report_send_telegram": {
+    "message": "Send to Support"
+  },
   "request_feature_title": {
     "message": "Have an idea to improve Frontrun?"
   },
   "request_feature": {
     "message": "Request Feature"
+  },
+  "feature_request_placeholder": {
+    "message": "Describe the feature you'd like..."
+  },
+  "feature_request_telegram": {
+    "message": "Telegram (optional)"
+  },
+  "feature_request_telegram_placeholder": {
+    "message": "@username"
+  },
+  "feature_request_submitting": {
+    "message": "Submitting..."
+  },
+  "feature_request_success": {
+    "message": "Thanks! Your feature request has been submitted."
+  },
+  "feature_request_submit_another": {
+    "message": "Submit another"
   },
   "lock_wallet": {
     "message": "Lock Wallet"

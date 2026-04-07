@@ -3167,11 +3167,32 @@
   "bug_report_copied": {
     "message": "Скопировано"
   },
+  "bug_report_send_telegram": {
+    "message": "Отправить"
+  },
   "request_feature_title": {
     "message": "Есть идея, как улучшить Frontrun?"
   },
   "request_feature": {
     "message": "Идея"
+  },
+  "feature_request_placeholder": {
+    "message": "Опишите функцию..."
+  },
+  "feature_request_telegram": {
+    "message": "Telegram (необязательно)"
+  },
+  "feature_request_telegram_placeholder": {
+    "message": "@username"
+  },
+  "feature_request_submitting": {
+    "message": "Отправка..."
+  },
+  "feature_request_success": {
+    "message": "Спасибо! Ваш запрос отправлен."
+  },
+  "feature_request_submit_another": {
+    "message": "Ещё идея"
   },
   "lock_wallet": {
     "message": "Заблокировать"
