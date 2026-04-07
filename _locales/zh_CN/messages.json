@@ -14,6 +14,9 @@
   "market_cap": {
     "message": "市值"
   },
+  "avg_buying_mc": {
+    "message": "平均购买市值"
+  },
   "appearance": {
     "message": "主题"
   },
@@ -223,6 +226,9 @@
   },
   "pnl_90d": {
     "message": "90天盈亏"
+  },
+  "pnl_30d": {
+    "message": "30天盈亏"
   },
   "address": {
     "message": "地址"
@@ -868,6 +874,24 @@
   },
   "quick_buy_settings": {
     "message": "快速买入设置"
+  },
+  "quick_buy_mode": {
+    "message": "模式"
+  },
+  "quick_buy_mode_native": {
+    "message": "原生"
+  },
+  "quick_buy_mode_legacy": {
+    "message": "经典"
+  },
+  "native_mode_hint": {
+    "message": "原生模式已设为默认，可在设置中切换回 Legacy。"
+  },
+  "quick_buy_mode_native_desc": {
+    "message": "通过平台原生按钮买入"
+  },
+  "quick_buy_mode_legacy_desc": {
+    "message": "在平台按钮旁显示 Frontrun 按钮"
   },
   "wallet_tracker_quick_buy": {
     "message": "钱包追踪内快速买入"
@@ -1769,6 +1793,9 @@
   "order_execution_failed": {
     "message": "订单执行失败"
   },
+  "rpc_rate_limited": {
+    "message": "RPC 请求过多，请将小费提高到至少 0.00001 SOL"
+  },
   "transaction_failed_due_to_low_liquidity": {
     "message": "由于流动性不足，交易失败"
   },
@@ -1994,6 +2021,9 @@
   "tip_below_recommended_may_slow": {
     "message": "费用低于推荐值 ({fee})\n执行可能延迟"
   },
+  "priority_below_recommended_may_slow": {
+    "message": "Gas 低于推荐值 ({fee})\n执行可能延迟"
+  },
   "tip_must_be_a_number": {
     "message": "小费必须是数字"
   },
@@ -2087,6 +2117,18 @@
   "auto_derived_labels_tip": {
     "message": "显示基于钱包持仓和盈利的自动生成标签，类似："
   },
+  "gmgn_x_tracker_labels": {
+    "message": "GMGN X Tracker 标签"
+  },
+  "gmgn_x_tracker_labels_tip": {
+    "message": "在 GMGN X Tracker 中显示推特标签（仅 Mine 和 Featured）"
+  },
+  "axiom_x_tracker_labels": {
+    "message": "Axiom Twitter 提醒标签"
+  },
+  "axiom_x_tracker_labels_tip": {
+    "message": "在 Axiom Twitter 提醒中显示推特标签"
+  },
   "high_profit": {
     "message": "7天高收益"
   },
@@ -2124,7 +2166,7 @@
     "message": "无手续费"
   },
   "save_fees_percent": {
-    "message": "立省 {x}% 交易费"
+    "message": "{x}% 返现"
   },
   "with_frontrun": {
     "message": "通过 Frontrun"
@@ -2296,6 +2338,9 @@
   },
   "limit_order_creation_failed": {
     "message": "限价单创建失败："
+  },
+  "order_drag_update_failed": {
+    "message": "订单更新失败，请重试"
   },
   "limit_order_max_per_token": {
     "message": "已达上限，请取消一个现有订单后再下单"
@@ -2500,6 +2545,12 @@
   },
   "autotrade_strategy_exists": {
     "message": "该持仓已有策略，请先取消现有策略"
+  },
+  "autotrade_incomplete_orders": {
+    "message": "请填写所有自动交易订单参数"
+  },
+  "autotrade_sl_percentage_too_high": {
+    "message": "止损/追踪止损百分比不能达到 100%"
   },
   "autotrade_limit_orders_created": {
     "message": "TP/SL 订单已创建"
@@ -3146,6 +3197,21 @@
   "reset_pnl_desc": {
     "message": "平仓后盈亏归零，仅显示当前持仓盈亏"
   },
+  "consolidate_token_accounts": {
+    "message": "合并代币账户"
+  },
+  "consolidate_token_accounts_desc": {
+    "message": "显示按钮将非ATA代币账户合并到标准ATA并回收租金"
+  },
+  "consolidate_token_accounts_button": {
+    "message": "合并"
+  },
+  "consolidate_no_non_ata": {
+    "message": "未发现非ATA账户"
+  },
+  "consolidate_success": {
+    "message": "合并成功"
+  },
   "hotkey_modifier": {
     "message": "快捷键修饰键"
   },
@@ -3596,6 +3662,12 @@
   "custom_buy_amount_placeholder_usdc": {
     "message": "输入 USDC 数量"
   },
+  "enable_buy_by_percent": {
+    "message": "按百分比买入"
+  },
+  "enable_buy_by_percent_description": {
+    "message": "显示 % 切换按钮，按余额百分比买入"
+  },
   "enable_custom_buy": {
     "message": "自定义买入金额"
   },
@@ -3754,5 +3826,152 @@
   },
   "burn_daily_limit": {
     "message": "今日刷新次数已达上限，请明天再试"
+  },
+  "share_ca_to_telegram": {
+    "message": "分享 CA 到 Telegram"
+  },
+  "telegram_share_cta": {
+    "message": "在 frontrun.pro 交易，90% 返现"
+  },
+  "default_telegram_group": {
+    "message": "默认 Telegram 群组"
+  },
+  "default_telegram_group_desc": {
+    "message": "设置群组以直接分享。"
+  },
+  "default_telegram_group_placeholder": {
+    "message": "例如 @my_group"
+  },
+  "telegram_share_button": {
+    "message": "Telegram 分享"
+  },
+  "telegram_share_button_desc": {
+    "message": "在交易平台上显示分享按钮，快速将代币 CA 分享到 Telegram 群组。"
+  },
+  "account_suspended_title": {
+    "message": "账户已暂停"
+  },
+  "account_suspended_body": {
+    "message": "您的账户已被暂停使用。请提供您的登录邮箱，通过 Telegram 联系 @FrontrunIntern 申请恢复。"
+  },
+  "account_suspended_api": {
+    "message": "如需 API 访问，请参阅"
+  },
+  "account_suspended_api_link": {
+    "message": "API 文档"
+  },
+  "account_suspended_api_url": {
+    "message": "https://turquoise-earl-bf5.notion.site/Frontrun-API-Beta-2378bbcdc2258084b75bcd7aea84f391"
+  },
+  "strategy_comparison": {
+    "message": "策略 A/B 测试"
+  },
+  "strategy_comparison_description": {
+    "message": "对比两个 landing 策略。钱包1用策略A，钱包2用策略B，其余钱包随机分配。延迟自动设为1ms。"
+  },
+  "strategy_comparison_min_bribe_fee": {
+    "message": "贿赂费必须 >= 0.001 SOL 才能开启策略对比"
+  },
+  "strategy_a": {
+    "message": "策略 A（钱包1）"
+  },
+  "strategy_b": {
+    "message": "策略 B（钱包2）"
+  },
+  "campaign_eligible": {
+    "message": "你已获得资格！"
+  },
+  "campaign_coming_soon": {
+    "message": "即将开始！"
+  },
+  "campaign_meta_active": {
+    "message": "24小时 · 仅限 Pump 代币"
+  },
+  "campaign_meta_prewarm": {
+    "message": "敬请期待"
+  },
+  "campaign_badge_win": {
+    "message": "赢 $1"
+  },
+  "campaign_payout_instant": {
+    "message": "即时发放"
+  },
+  "campaign_payout_claimable": {
+    "message": "活动结束后可领取"
+  },
+  "campaign_promo_cta": {
+    "message": "获得 200% 返现"
+  },
+  "campaign_promo_cta_enjoy": {
+    "message": "享受 200% 返现"
+  },
+  "campaign_promo_prewarm": {
+    "message": "Memescope 周一 200% 返现"
+  },
+  "campaign_promo_active": {
+    "message": "200% 返现"
+  },
+  "campaign_starts_on": {
+    "message": "{day} {time} ET 开始"
+  },
+  "campaign_schedule": {
+    "message": "活动开始于 {day} {time} ET · 持续 {hours} 小时"
+  },
+  "campaign_reward_label": {
+    "message": "活动奖励"
+  },
+  "campaign_ended_subtitle": {
+    "message": "活动已结束，马上可领取"
+  },
+  "campaign_ended_meta": {
+    "message": "奖励计算中"
+  },
+  "campaign_claimable_subtitle": {
+    "message": "奖励已到账！"
+  },
+  "campaign_claimable_meta": {
+    "message": "前往侧边栏领取"
+  },
+  "campaign_cashback_ready": {
+    "message": "返现已到账！"
+  },
+  "claim_now": {
+    "message": "领取"
+  },
+  "campaign_cashback_title": {
+    "message": "{pct}% 返现"
+  },
+  "campaign_volume_title": {
+    "message": "交易 {threshold}，赚 {reward}"
+  },
+  "campaign_volume_after": {
+    "message": "活动结束后可领取"
+  },
+  "campaign_volume_cashback": {
+    "message": "90% 返现"
+  },
+  "campaign_volume_remaining": {
+    "message": "剩余"
+  },
+  "campaign_volume_promo": {
+    "message": "交易 {threshold}，赚 {reward}"
+  },
+  "campaign_learn_more": {
+    "message": "了解更多 →"
+  },
+  "campaign_learn_more_short": {
+    "message": "了解更多"
+  },
+  "campaign_active_ends_in": {
+    "message": "进行中 · 剩余 "
+  },
+  "chrome_update_required_title": {
+    "message": "需要更新 Chrome"
+  },
+  "chrome_update_required_description": {
+    "message": "Frontrun 需要 Chrome 130 或更高版本，请更新浏览器后继续使用。"
+  },
+  "chrome_update_required_button": {
+    "message": "更新 Chrome"
   }
 }

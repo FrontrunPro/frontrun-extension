@@ -230,6 +230,9 @@
   "pnl_90d": {
     "message": "PnL (90D)"
   },
+  "pnl_30d": {
+    "message": "PnL (30D)"
+  },
   "address": {
     "message": "Address"
   },
@@ -1751,6 +1754,9 @@
   "order_execution_failed": {
     "message": "Order execution failed"
   },
+  "rpc_rate_limited": {
+    "message": "RPC rate limited. Increase tip to at least 0.00001 SOL"
+  },
   "transaction_failed_due_to_low_liquidity": {
     "message": "Transaction failed due to low liquidity in the pool"
   },
@@ -1910,6 +1916,9 @@
   "market_cap": {
     "message": "Market Cap"
   },
+  "avg_buying_mc": {
+    "message": "Average Buying Market Cap"
+  },
   "market": {
     "message": "Market"
   },
@@ -1969,6 +1978,9 @@
   },
   "tip_below_recommended_may_slow": {
     "message": "Below recommended fee ({fee}).\nExecution may be delayed."
+  },
+  "priority_below_recommended_may_slow": {
+    "message": "Gas below recommended ({fee}).\nExecution may be delayed."
   },
   "tip_must_be_a_number": {
     "message": "Tip must be a number"
@@ -2063,6 +2075,18 @@
   "auto_derived_labels_tip": {
     "message": "Show auto-generated labels based on wallet positions and PnL, like:"
   },
+  "gmgn_x_tracker_labels": {
+    "message": "GMGN X Tracker Labels"
+  },
+  "gmgn_x_tracker_labels_tip": {
+    "message": "Show profile labels in GMGN X Tracker (Mine & Featured only)"
+  },
+  "axiom_x_tracker_labels": {
+    "message": "Axiom Twitter Alerts Labels"
+  },
+  "axiom_x_tracker_labels_tip": {
+    "message": "Show profile labels in Axiom Twitter Alerts"
+  },
   "high_profit": {
     "message": "High Profit 7D"
   },
@@ -2100,7 +2124,7 @@
     "message": "0 fee"
   },
   "save_fees_percent": {
-    "message": "Save {x}% fees"
+    "message": "{x}% cashback"
   },
   "with_frontrun": {
     "message": "via Frontrun"
@@ -2266,6 +2290,9 @@
   },
   "limit_order_creation_failed": {
     "message": "Limit order creation failed:"
+  },
+  "order_drag_update_failed": {
+    "message": "Failed to update order. Try again"
   },
   "limit_order_max_per_token": {
     "message": "Limit reached — cancel an existing order to place a new one"
@@ -2506,6 +2533,12 @@
   },
   "autotrade_strategy_exists": {
     "message": "Strategy already exists for this position. Cancel existing strategy first."
+  },
+  "autotrade_incomplete_orders": {
+    "message": "Fill in all autotrade order values before trading"
+  },
+  "autotrade_sl_percentage_too_high": {
+    "message": "Stop Loss/TSL percentage must be less than 100%"
   },
   "view_orders_in_trading_panel": {
     "message": "View orders in trading panel"
@@ -3104,6 +3137,24 @@
   "quick_buy_settings": {
     "message": "Quick Buy Settings"
   },
+  "quick_buy_mode": {
+    "message": "Mode"
+  },
+  "quick_buy_mode_native": {
+    "message": "Native"
+  },
+  "quick_buy_mode_legacy": {
+    "message": "Legacy"
+  },
+  "native_mode_hint": {
+    "message": "Native Mode is now default. Use settings to switch back."
+  },
+  "quick_buy_mode_native_desc": {
+    "message": "buy via platform native buttons"
+  },
+  "quick_buy_mode_legacy_desc": {
+    "message": "show Frontrun button alongside platform buttons"
+  },
   "wallet_tracker_quick_buy": {
     "message": "Quick Buy in Wallet Tracker"
   },
@@ -3148,6 +3199,21 @@
   },
   "reset_pnl_desc": {
     "message": "Show current-position PNL only; resets to 0 when fully closed"
+  },
+  "consolidate_token_accounts": {
+    "message": "Consolidate Token Accounts"
+  },
+  "consolidate_token_accounts_desc": {
+    "message": "Show button to merge non-ATA token accounts into the standard ATA and reclaim rent"
+  },
+  "consolidate_token_accounts_button": {
+    "message": "Consolidate"
+  },
+  "consolidate_no_non_ata": {
+    "message": "No non-ATA accounts found"
+  },
+  "consolidate_success": {
+    "message": "Consolidated successfully"
   },
   "hotkey_modifier": {
     "message": "Hotkey Modifier"
@@ -3602,6 +3668,12 @@
   "custom_buy_amount_placeholder_usdc": {
     "message": "Enter USDC amount"
   },
+  "enable_buy_by_percent": {
+    "message": "Buy by Percentage"
+  },
+  "enable_buy_by_percent_description": {
+    "message": "Show % toggle to buy using a percentage of your balance"
+  },
   "enable_custom_buy": {
     "message": "Custom Buy Amount"
   },
@@ -3760,5 +3832,152 @@
   },
   "burn_daily_limit": {
     "message": "Daily refresh limit reached. Please try again tomorrow."
+  },
+  "share_ca_to_telegram": {
+    "message": "Share CA to Telegram"
+  },
+  "telegram_share_cta": {
+    "message": "Trade on frontrun.pro with 90% cashback"
+  },
+  "default_telegram_group": {
+    "message": "Default Telegram Group"
+  },
+  "default_telegram_group_desc": {
+    "message": "Set a group to share directly."
+  },
+  "default_telegram_group_placeholder": {
+    "message": "e.g. @my_group"
+  },
+  "telegram_share_button": {
+    "message": "Telegram Share"
+  },
+  "telegram_share_button_desc": {
+    "message": "Show a share button on trading platforms to quickly share token CA to Telegram groups."
+  },
+  "account_suspended_title": {
+    "message": "Account Suspended"
+  },
+  "account_suspended_body": {
+    "message": "Your account has been suspended. Please provide your login email and DM @FrontrunIntern on Telegram to request access restoration."
+  },
+  "account_suspended_api": {
+    "message": "If you need API access, please refer to our"
+  },
+  "account_suspended_api_link": {
+    "message": "API docs"
+  },
+  "account_suspended_api_url": {
+    "message": "https://turquoise-earl-bf5.notion.site/Frontrun-API-Beta-English-Version-2428bbcdc225806186dfe420734fad66"
+  },
+  "strategy_comparison": {
+    "message": "Strategy A/B Test"
+  },
+  "strategy_comparison_description": {
+    "message": "Compare two landing strategies. Wallet 1 uses Strategy A, Wallet 2 uses Strategy B, remaining wallets randomly assigned. Delay auto-set to 1ms."
+  },
+  "strategy_comparison_min_bribe_fee": {
+    "message": "Bribe fee must be >= 0.001 SOL to enable strategy comparison"
+  },
+  "strategy_a": {
+    "message": "Strategy A (Wallet 1)"
+  },
+  "strategy_b": {
+    "message": "Strategy B (Wallet 2)"
+  },
+  "campaign_eligible": {
+    "message": "You are eligible!"
+  },
+  "campaign_coming_soon": {
+    "message": "Coming soon!"
+  },
+  "campaign_meta_active": {
+    "message": "24hrs · Pump tokens only"
+  },
+  "campaign_meta_prewarm": {
+    "message": "Stay tuned for details"
+  },
+  "campaign_badge_win": {
+    "message": "Win $1"
+  },
+  "campaign_payout_instant": {
+    "message": "Paid out instantly"
+  },
+  "campaign_payout_claimable": {
+    "message": "Claimable after campaign"
+  },
+  "campaign_promo_cta": {
+    "message": "Get 200% Cashback"
+  },
+  "campaign_promo_cta_enjoy": {
+    "message": "Enjoy 200% Cashback"
+  },
+  "campaign_promo_prewarm": {
+    "message": "200% Cashback for 72 hours"
+  },
+  "campaign_promo_active": {
+    "message": "200% Cashback"
+  },
+  "campaign_starts_on": {
+    "message": "Starts on {day} {time} ET"
+  },
+  "campaign_schedule": {
+    "message": "Campaign starts {day} {time} ET · Active for {hours} hours."
+  },
+  "campaign_reward_label": {
+    "message": "Campaign Reward"
+  },
+  "campaign_ended_subtitle": {
+    "message": "Campaign ended — claim coming soon"
+  },
+  "campaign_ended_meta": {
+    "message": "Rewards are being calculated"
+  },
+  "campaign_claimable_subtitle": {
+    "message": "Your reward is ready!"
+  },
+  "campaign_claimable_meta": {
+    "message": "Claim now in sidepanel"
+  },
+  "campaign_cashback_ready": {
+    "message": "Your cashback is ready!"
+  },
+  "claim_now": {
+    "message": "Claim Now"
+  },
+  "campaign_cashback_title": {
+    "message": "{pct}% Cashback"
+  },
+  "campaign_volume_title": {
+    "message": "Trade {threshold}, earn {reward} back"
+  },
+  "campaign_volume_after": {
+    "message": "Claimable post-campaign"
+  },
+  "campaign_volume_cashback": {
+    "message": "90% Cashback"
+  },
+  "campaign_volume_remaining": {
+    "message": "Remaining"
+  },
+  "campaign_volume_promo": {
+    "message": "Trade {threshold}, earn {reward} back"
+  },
+  "campaign_learn_more": {
+    "message": "Learn more →"
+  },
+  "campaign_learn_more_short": {
+    "message": "Learn more"
+  },
+  "campaign_active_ends_in": {
+    "message": "Active · Ends in "
+  },
+  "chrome_update_required_title": {
+    "message": "Chrome Update Required"
+  },
+  "chrome_update_required_description": {
+    "message": "Frontrun requires Chrome 130 or later. Please update your browser to continue."
+  },
+  "chrome_update_required_button": {
+    "message": "Update Chrome"
   }
 }

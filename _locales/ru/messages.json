@@ -236,6 +236,9 @@
   "pnl_90d": {
     "message": "PnL (90 дней)"
   },
+  "pnl_30d": {
+    "message": "PnL (30 дней)"
+  },
   "address": {
     "message": "Адрес"
   },
@@ -298,6 +301,9 @@
   },
   "market_cap": {
     "message": "Капитализация"
+  },
+  "avg_buying_mc": {
+    "message": "Средняя кап. покупки"
   },
   "jito_bundle": {
     "message": "Пакет Jito"
@@ -654,7 +660,7 @@
     "message": "Создать"
   },
   "earn": {
-    "message": "Заработать"
+    "message": "Доход"
   },
   "claim": {
     "message": "Забрать"
@@ -886,6 +892,24 @@
   },
   "quick_buy_settings": {
     "message": "Быстрая покупка"
+  },
+  "quick_buy_mode": {
+    "message": "Режим"
+  },
+  "quick_buy_mode_native": {
+    "message": "Native"
+  },
+  "quick_buy_mode_legacy": {
+    "message": "Legacy"
+  },
+  "native_mode_hint": {
+    "message": "Native Mode по умолчанию. Сменить в настройках."
+  },
+  "quick_buy_mode_native_desc": {
+    "message": "покупка через кнопки платформы"
+  },
+  "quick_buy_mode_legacy_desc": {
+    "message": "кнопка Frontrun рядом с кнопкой платформы"
   },
   "wallet_tracker_quick_buy": {
     "message": "Быстрая покупка (трекер)"
@@ -1796,6 +1820,9 @@
   "order_execution_failed": {
     "message": "Ошибка выполнения ордера"
   },
+  "rpc_rate_limited": {
+    "message": "RPC перегружен. Увеличьте чаевые до 0.00001 SOL"
+  },
   "transaction_failed_due_to_low_liquidity": {
     "message": "Транзакция не выполнена из-за низкой ликвидности"
   },
@@ -2003,6 +2030,9 @@
   "tip_below_recommended_may_slow": {
     "message": "Ниже рекомендуемой комиссии ({fee}).\nВыполнение может задержаться."
   },
+  "priority_below_recommended_may_slow": {
+    "message": "Gas ниже рекомендуемого ({fee}).\nВыполнение может задержаться."
+  },
   "tip_must_be_a_number": {
     "message": "Чаевые должны быть числом"
   },
@@ -2093,6 +2123,18 @@
   "auto_derived_labels_tip": {
     "message": "Показывать автогенерируемые метки на основе позиций и PnL кошелька, например:"
   },
+  "gmgn_x_tracker_labels": {
+    "message": "Метки X Tracker GMGN"
+  },
+  "gmgn_x_tracker_labels_tip": {
+    "message": "Показывать метки профилей в X Tracker GMGN (только Mine и Featured)"
+  },
+  "axiom_x_tracker_labels": {
+    "message": "Метки X Tracker Axiom"
+  },
+  "axiom_x_tracker_labels_tip": {
+    "message": "Показывать метки профилей в X Tracker Axiom"
+  },
   "high_profit": {
     "message": "High Profit 7D"
   },
@@ -2130,7 +2172,7 @@
     "message": "Без комиссии"
   },
   "save_fees_percent": {
-    "message": "Сэкономьте {x}% на комиссиях"
+    "message": "{x}% кэшбэк"
   },
   "with_frontrun": {
     "message": "через Frontrun"
@@ -2299,6 +2341,9 @@
   },
   "limit_order_creation_failed": {
     "message": "Не удалось создать лимитный ордер:"
+  },
+  "order_drag_update_failed": {
+    "message": "Не удалось обновить ордер. Попробуйте снова"
   },
   "limit_order_max_per_token": {
     "message": "Лимит достигнут — отмените ордер, чтобы создать новый"
@@ -2506,6 +2551,12 @@
   },
   "autotrade_strategy_exists": {
     "message": "Стратегия уже существует. Сначала отмените текущую"
+  },
+  "autotrade_incomplete_orders": {
+    "message": "Заполните все параметры ордеров"
+  },
+  "autotrade_sl_percentage_too_high": {
+    "message": "SL/TSL не может быть 100%"
   },
   "autotrade_limit_orders_created": {
     "message": "TP/SL ордер создан"
@@ -3152,6 +3203,21 @@
   "reset_pnl_desc": {
     "message": "Показывает PNL только по текущей позиции; обнуляется при закрытии"
   },
+  "consolidate_token_accounts": {
+    "message": "Объединить токен-аккаунты"
+  },
+  "consolidate_token_accounts_desc": {
+    "message": "Кнопка для объединения не-ATA аккаунтов в стандартный ATA и возврата ренты"
+  },
+  "consolidate_token_accounts_button": {
+    "message": "Объединить"
+  },
+  "consolidate_no_non_ata": {
+    "message": "Не-ATA аккаунты не найдены"
+  },
+  "consolidate_success": {
+    "message": "Успешно объединено"
+  },
   "hotkey_modifier": {
     "message": "Модификатор хоткеев"
   },
@@ -3605,6 +3671,12 @@
   "custom_buy_amount_placeholder_usdc": {
     "message": "Сумма USDC"
   },
+  "enable_buy_by_percent": {
+    "message": "Покупка в %"
+  },
+  "enable_buy_by_percent_description": {
+    "message": "Кнопка % для покупки долей баланса"
+  },
   "enable_custom_buy": {
     "message": "Своя сумма"
   },
@@ -3763,5 +3835,152 @@
   },
   "burn_daily_limit": {
     "message": "Лимит обновлений на сегодня исчерпан. Попробуйте завтра."
+  },
+  "share_ca_to_telegram": {
+    "message": "Поделиться CA в Telegram"
+  },
+  "telegram_share_cta": {
+    "message": "Торгуй на frontrun.pro — кешбэк 90%"
+  },
+  "default_telegram_group": {
+    "message": "Группа Telegram по умолчанию"
+  },
+  "default_telegram_group_desc": {
+    "message": "Группа для быстрой отправки."
+  },
+  "default_telegram_group_placeholder": {
+    "message": "напр. @my_group"
+  },
+  "telegram_share_button": {
+    "message": "Поделиться в Telegram"
+  },
+  "telegram_share_button_desc": {
+    "message": "Кнопка для быстрой отправки CA токена в Telegram-группу."
+  },
+  "account_suspended_title": {
+    "message": "Аккаунт заблокирован"
+  },
+  "account_suspended_body": {
+    "message": "Ваш аккаунт заблокирован. Укажите email и напишите @FrontrunIntern в Telegram."
+  },
+  "account_suspended_api": {
+    "message": "Для доступа к API см."
+  },
+  "account_suspended_api_link": {
+    "message": "документацию API"
+  },
+  "account_suspended_api_url": {
+    "message": "https://turquoise-earl-bf5.notion.site/Frontrun-API-Beta-English-Version-2428bbcdc225806186dfe420734fad66"
+  },
+  "strategy_comparison": {
+    "message": "Strategy A/B Test"
+  },
+  "strategy_comparison_description": {
+    "message": "Compare two landing strategies. Wallet 1 uses Strategy A, Wallet 2 uses Strategy B. Delay auto-set to 1ms."
+  },
+  "strategy_comparison_min_bribe_fee": {
+    "message": "Bribe fee must be >= 0.001 SOL"
+  },
+  "strategy_a": {
+    "message": "Strategy A (Wallet 1)"
+  },
+  "strategy_b": {
+    "message": "Strategy B (Wallet 2)"
+  },
+  "campaign_eligible": {
+    "message": "Вы участвуете!"
+  },
+  "campaign_coming_soon": {
+    "message": "Скоро!"
+  },
+  "campaign_meta_active": {
+    "message": "24ч · Только Pump токены"
+  },
+  "campaign_meta_prewarm": {
+    "message": "Следите за новостями"
+  },
+  "campaign_badge_win": {
+    "message": "Выиграй $1"
+  },
+  "campaign_payout_instant": {
+    "message": "Мгновенная выплата"
+  },
+  "campaign_payout_claimable": {
+    "message": "Доступно после кампании"
+  },
+  "campaign_promo_cta": {
+    "message": "Кешбэк 200%"
+  },
+  "campaign_promo_cta_enjoy": {
+    "message": "Кешбэк 200%"
+  },
+  "campaign_promo_prewarm": {
+    "message": "200% кешбэк в Memescope Monday"
+  },
+  "campaign_promo_active": {
+    "message": "200% кешбэк"
+  },
+  "campaign_starts_on": {
+    "message": "Старт {day} {time} ET"
+  },
+  "campaign_schedule": {
+    "message": "Старт {day} {time} ET · {hours}ч"
+  },
+  "campaign_reward_label": {
+    "message": "Награда"
+  },
+  "campaign_ended_subtitle": {
+    "message": "Кампания завершена — скоро можно забрать"
+  },
+  "campaign_ended_meta": {
+    "message": "Награды рассчитываются"
+  },
+  "campaign_claimable_subtitle": {
+    "message": "Награда готова!"
+  },
+  "campaign_claimable_meta": {
+    "message": "Заберите в боковой панели"
+  },
+  "campaign_cashback_ready": {
+    "message": "Кешбэк готов!"
+  },
+  "claim_now": {
+    "message": "Забрать"
+  },
+  "campaign_cashback_title": {
+    "message": "Кешбэк {pct}%"
+  },
+  "campaign_volume_title": {
+    "message": "Торгуйте {threshold}, получите {reward}"
+  },
+  "campaign_volume_after": {
+    "message": "Доступно после кампании"
+  },
+  "campaign_volume_cashback": {
+    "message": "90% кешбэк"
+  },
+  "campaign_volume_remaining": {
+    "message": "Остаток"
+  },
+  "campaign_volume_promo": {
+    "message": "Торгуйте {threshold}, получите {reward}"
+  },
+  "campaign_learn_more": {
+    "message": "Подробнее →"
+  },
+  "campaign_learn_more_short": {
+    "message": "Подробнее"
+  },
+  "campaign_active_ends_in": {
+    "message": "Активна · до конца "
+  },
+  "chrome_update_required_title": {
+    "message": "Обновите Chrome"
+  },
+  "chrome_update_required_description": {
+    "message": "Для работы Frontrun необходим Chrome 130 или новее. Обновите браузер."
+  },
+  "chrome_update_required_button": {
+    "message": "Обновить Chrome"
   }
 }
