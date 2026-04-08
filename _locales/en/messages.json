@@ -1755,7 +1755,7 @@
     "message": "Order execution failed"
   },
   "rpc_rate_limited": {
-    "message": "RPC rate limited. Increase tip to at least 0.00001 SOL"
+    "message": "RPC rate limited. Your tip is {currentTip} SOL — increase to at least 0.00001 SOL to use a faster strategy"
   },
   "transaction_failed_due_to_low_liquidity": {
     "message": "Transaction failed due to low liquidity in the pool"
@@ -3082,6 +3082,9 @@
   },
   "bug_report_cta": {
     "message": "Think this is a bug? Click here to report"
+  },
+  "no_pool_found": {
+    "message": "No valid pool found for this token. Trading is unavailable."
   },
   "bug_report_send": {
     "message": "Report"

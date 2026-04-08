@@ -1821,7 +1821,7 @@
     "message": "Ошибка выполнения ордера"
   },
   "rpc_rate_limited": {
-    "message": "RPC перегружен. Увеличьте чаевые до 0.00001 SOL"
+    "message": "RPC перегружен. Ваши чаевые {currentTip} SOL — нужно минимум 0.00001 SOL"
   },
   "transaction_failed_due_to_low_liquidity": {
     "message": "Транзакция не выполнена из-за низкой ликвидности"
@@ -3133,6 +3133,9 @@
   },
   "bug_report_cta": {
     "message": "Сообщить о баге"
+  },
+  "no_pool_found": {
+    "message": "Пул не найден. Торговля недоступна."
   },
   "bug_report_send": {
     "message": "Сообщить"

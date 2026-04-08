@@ -1794,7 +1794,7 @@
     "message": "订单执行失败"
   },
   "rpc_rate_limited": {
-    "message": "RPC 请求过多，请将小费提高到至少 0.00001 SOL"
+    "message": "RPC 请求过多。当前小费 {currentTip} SOL，请提高到至少 0.00001 SOL 以使用更快的发送策略"
   },
   "transaction_failed_due_to_low_liquidity": {
     "message": "由于流动性不足，交易失败"
@@ -3127,6 +3127,9 @@
   },
   "bug_report_cta": {
     "message": "遇到问题？点此上报"
+  },
+  "no_pool_found": {
+    "message": "未找到有效池，无法交易。"
   },
   "bug_report_send": {
     "message": "报告"
