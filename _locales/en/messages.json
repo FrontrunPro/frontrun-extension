@@ -779,6 +779,27 @@
   "deposit": {
     "message": "Deposit"
   },
+  "empty_wallets_cta_title": {
+    "message": "Fund Your Wallets"
+  },
+  "empty_wallets_cta_description": {
+    "message": "Trade on the same terminals with faster fills and up to 10x higher cashback."
+  },
+  "get_started_trading_title": {
+    "message": "Get Started with Trading"
+  },
+  "get_started_trading_description": {
+    "message": "Create or import a wallet to start trading with faster fills and up to 10x higher cashback."
+  },
+  "or_import_existing_wallet": {
+    "message": "Or import an existing wallet"
+  },
+  "create_wallet_label": {
+    "message": "Create Wallet"
+  },
+  "empty_wallets_cta_learn_more": {
+    "message": "Learn more"
+  },
   "withdraw": {
     "message": "Withdraw"
   },
@@ -1367,6 +1388,9 @@
   "copied_to_clipboard": {
     "message": "Copied to clipboard"
   },
+  "copy_failed": {
+    "message": "Failed to copy"
+  },
   "failed_to_copy_address": {
     "message": "Failed to copy address"
   },
@@ -1811,6 +1835,9 @@
   "no_active_wallets": {
     "message": "No active wallets. Please activate at least one wallet."
   },
+  "no_active_wallets_for_chain": {
+    "message": "No active {chain} wallets for this trade"
+  },
   "this_will_permanently_remove_this_wallet_from_your_list": {
     "message": "This will permanently remove this wallet from your list. You will only be able to re-import it using its private key."
   },
@@ -1975,6 +2002,30 @@
   },
   "tip_warning_exceeds_0_2": {
     "message": "Warning: Tip exceeds 0.2 SOL"
+  },
+  "bsc_gas_price_warning_exceeds": {
+    "message": "Warning: Gas Price exceeds {threshold} Gwei"
+  },
+  "bsc_tip_warning_exceeds": {
+    "message": "Warning: Tip exceeds {threshold} BNB"
+  },
+  "slippage_label": {
+    "message": "Slippage (%)"
+  },
+  "priority_fee_label": {
+    "message": "Priority Fee (SOL)"
+  },
+  "tip_label": {
+    "message": "Tip (SOL)"
+  },
+  "bsc_gas_price_label": {
+    "message": "Gas Price (Gwei)"
+  },
+  "bsc_tip_label": {
+    "message": "Tip (BNB)"
+  },
+  "bsc_tip_too_low": {
+    "message": "Tip too low, minimum {minTip} BNB required for current gas price"
   },
   "tip_below_recommended_may_slow": {
     "message": "Below recommended fee ({fee}).\nExecution may be delayed."
@@ -2450,6 +2501,9 @@
   "add_order": {
     "message": "Add Order"
   },
+  "add_trailing_stop_loss": {
+    "message": "Add Trailing Stop Loss"
+  },
   "take_profit": {
     "message": "Take Profit"
   },
@@ -2489,6 +2543,21 @@
   "cancel_all": {
     "message": "Cancel All"
   },
+  "apply_to_current_position": {
+    "message": "Apply to Current Position"
+  },
+  "advanced_autotrade": {
+    "message": "Advanced Autotrade"
+  },
+  "applying": {
+    "message": "Applying..."
+  },
+  "apply_no_position_title": {
+    "message": "No position found"
+  },
+  "apply_no_position_description": {
+    "message": "You need to hold this token to apply a post-entry Trailing Stop Loss."
+  },
   "autotrade_limit_orders_created": {
     "message": "TP/SL order created"
   },
@@ -2527,6 +2596,15 @@
   },
   "autotrade_apply_failed": {
     "message": "Failed to apply auto-trade strategy"
+  },
+  "autotrade_no_holder_wallet": {
+    "message": "No active wallet holds this token. Switch to a wallet that owns it before applying."
+  },
+  "autotrade_tab_for_new_buys": {
+    "message": "For New Buys"
+  },
+  "autotrade_tab_apply_to_position": {
+    "message": "Apply to Position"
   },
   "autotrade_usdc_amm_not_supported": {
     "message": "Auto-trade skipped: USDC not supported for this pool type"
@@ -4003,5 +4081,11 @@
   },
   "chrome_update_required_button": {
     "message": "Update Chrome"
+  },
+  "limit_buy": {
+    "message": "Limit Buy"
+  },
+  "limit_sell": {
+    "message": "Limit Sell"
   }
 }

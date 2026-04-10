@@ -773,6 +773,27 @@
   "deposit": {
     "message": "存款"
   },
+  "empty_wallets_cta_title": {
+    "message": "为钱包充值"
+  },
+  "empty_wallets_cta_description": {
+    "message": "在同一终端交易，享受更快成交和高达 10 倍返现。"
+  },
+  "get_started_trading_title": {
+    "message": "开始交易"
+  },
+  "get_started_trading_description": {
+    "message": "创建或导入钱包，享受更快成交和高达 10 倍返现。"
+  },
+  "or_import_existing_wallet": {
+    "message": "或导入已有钱包"
+  },
+  "create_wallet_label": {
+    "message": "创建钱包"
+  },
+  "empty_wallets_cta_learn_more": {
+    "message": "了解更多"
+  },
   "withdraw": {
     "message": "提款"
   },
@@ -1433,6 +1454,9 @@
   "copied_to_clipboard": {
     "message": "已复制到剪贴板"
   },
+  "copy_failed": {
+    "message": "复制失败"
+  },
   "failed_to_copy_address": {
     "message": "复制地址失败"
   },
@@ -1850,6 +1874,9 @@
   "no_active_wallets": {
     "message": "没有活跃钱包，请至少激活一个钱包。"
   },
+  "no_active_wallets_for_chain": {
+    "message": "没有可用的 {chain} 钱包"
+  },
   "this_will_permanently_remove_this_wallet_from_your_list": {
     "message": "这将永久删除此钱包。您只能使用私钥重新导入它。"
   },
@@ -2017,6 +2044,30 @@
   },
   "tip_warning_exceeds_0_2": {
     "message": "警告：小费超过了 0.2 SOL"
+  },
+  "bsc_gas_price_warning_exceeds": {
+    "message": "警告：燃料费超过了 {threshold} Gwei"
+  },
+  "bsc_tip_warning_exceeds": {
+    "message": "警告：小费超过了 {threshold} BNB"
+  },
+  "slippage_label": {
+    "message": "滑点 (%)"
+  },
+  "priority_fee_label": {
+    "message": "优先费 (SOL)"
+  },
+  "tip_label": {
+    "message": "小费 (SOL)"
+  },
+  "bsc_gas_price_label": {
+    "message": "燃料费 (Gwei)"
+  },
+  "bsc_tip_label": {
+    "message": "小费 (BNB)"
+  },
+  "bsc_tip_too_low": {
+    "message": "小费不足，当前燃料费下最低需 {minTip} BNB"
   },
   "tip_below_recommended_may_slow": {
     "message": "费用低于推荐值 ({fee})\n执行可能延迟"
@@ -2495,6 +2546,9 @@
   "add_order": {
     "message": "添加订单"
   },
+  "add_trailing_stop_loss": {
+    "message": "添加移动止损"
+  },
   "take_profit": {
     "message": "止盈"
   },
@@ -2534,11 +2588,35 @@
   "cancel_all": {
     "message": "取消全部"
   },
+  "apply_to_current_position": {
+    "message": "应用到当前持仓"
+  },
+  "advanced_autotrade": {
+    "message": "高级自动交易"
+  },
+  "applying": {
+    "message": "应用中..."
+  },
+  "apply_no_position_title": {
+    "message": "未找到持仓"
+  },
+  "apply_no_position_description": {
+    "message": "需要持有该代币才能应用追踪止损"
+  },
   "autotrade_applied": {
     "message": "自动交易策略已应用"
   },
   "autotrade_apply_failed": {
     "message": "应用自动交易策略失败"
+  },
+  "autotrade_no_holder_wallet": {
+    "message": "当前活跃钱包未持有该代币，请切换到持有该代币的钱包后重试"
+  },
+  "autotrade_tab_for_new_buys": {
+    "message": "新买单"
+  },
+  "autotrade_tab_apply_to_position": {
+    "message": "应用到当前持仓"
   },
   "autotrade_usdc_amm_not_supported": {
     "message": "自动交易已跳过：该池类型不支持USDC"
@@ -3994,5 +4072,11 @@
   },
   "chrome_update_required_button": {
     "message": "更新 Chrome"
+  },
+  "limit_buy": {
+    "message": "限价买入"
+  },
+  "limit_sell": {
+    "message": "限价卖出"
   }
 }
