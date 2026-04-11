@@ -1587,7 +1587,7 @@
     "message": "Ничего не найдено"
   },
   "username": {
-    "message": "Ник"
+    "message": "Имя"
   },
   "history": {
     "message": "История"
@@ -1624,21 +1624,6 @@
   },
   "deleted": {
     "message": "Удалено"
-  },
-  "ca_history_for": {
-    "message": "История CA для"
-  },
-  "active_count": {
-    "message": "{count} Активных"
-  },
-  "deleted_count": {
-    "message": "{count} Удалённых"
-  },
-  "show_more_tweets": {
-    "message": "Ещё {count} твитов"
-  },
-  "show_less": {
-    "message": "Свернуть"
   },
   "no_associated_wallets_found": {
     "message": "Связанные кошельки не найдены"
@@ -2072,6 +2057,9 @@
   "bsc_gas_price_label": {
     "message": "Gas Price (Gwei)"
   },
+  "bsc_gas_price_label_with_min": {
+    "message": "Цена газа (Gwei), мин. {min}"
+  },
   "bsc_tip_label": {
     "message": "Чаевые (BNB)"
   },
@@ -2194,9 +2182,6 @@
   },
   "user_id": {
     "message": "ID пользователя"
-  },
-  "username": {
-    "message": "Имя"
   },
   "set_username": {
     "message": "Задать имя"
@@ -3284,6 +3269,24 @@
   "failed_to_lock_wallet": {
     "message": "Не удалось заблокировать кошелёк"
   },
+  "section_trading_panel": {
+    "message": "Торговая панель"
+  },
+  "section_limit_orders_chart": {
+    "message": "Ордера и графики"
+  },
+  "section_shortcuts": {
+    "message": "Горячие клавиши"
+  },
+  "section_look_feel": {
+    "message": "Вид и звук"
+  },
+  "section_integrations": {
+    "message": "Интеграции"
+  },
+  "section_advanced": {
+    "message": "Дополнительно"
+  },
   "trading_panel_transparency": {
     "message": "Прозрачность"
   },
@@ -3806,6 +3809,12 @@
   "auto_expand_limit_order_panel_desc": {
     "message": "Открывать панель после создания лимитного ордера"
   },
+  "chart_limit_order_context_menu": {
+    "message": "Лимит по клику на графике"
+  },
+  "chart_limit_order_context_menu_desc": {
+    "message": "Показать «Frontrun Limit Buy/Sell» в меню графика"
+  },
   "single_group_select": {
     "message": "Одиночный выбор группы"
   },
@@ -4085,10 +4094,61 @@
   "chrome_update_required_button": {
     "message": "Обновить Chrome"
   },
+  "trending_now_title": {
+    "message": "В тренде"
+  },
+  "trending_now_tab_wallets": {
+    "message": "Кошельки"
+  },
+  "trending_now_tab_accounts": {
+    "message": "Аккаунты"
+  },
+  "trending_now_subline_wallets": {
+    "message": "По числу меток пользователей"
+  },
+  "trending_now_subline_accounts": {
+    "message": "Тренды Twitter с криптотематикой"
+  },
+  "trending_now_loading": {
+    "message": "Загрузка…"
+  },
+  "trending_now_failed": {
+    "message": "Ошибка загрузки"
+  },
+  "trending_now_empty_wallets": {
+    "message": "Нет данных"
+  },
+  "trending_now_empty_accounts": {
+    "message": "Нет данных"
+  },
+  "trending_now_trending_for": {
+    "message": "В тренде:"
+  },
+  "trending_now_collapse": {
+    "message": "Свернуть"
+  },
+  "trending_now_expand": {
+    "message": "Развернуть"
+  },
+  "trending_now_crypto_relevance_level": {
+    "message": "Крипто-релевантность"
+  },
+  "trending_now_crypto_relevance": {
+    "message": "Крипто-релевантность:"
+  },
+  "trending_now_followers": {
+    "message": "Подписчики"
+  },
+  "trending_now_labels_count": {
+    "message": "меток"
+  },
   "limit_buy": {
     "message": "Лимитная покупка"
   },
   "limit_sell": {
     "message": "Лимитная продажа"
+  },
+  "trending_accounts_title": {
+    "message": "Популярные аккаунты"
   }
 }

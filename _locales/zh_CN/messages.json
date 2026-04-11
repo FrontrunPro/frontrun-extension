@@ -1593,7 +1593,7 @@
     "message": "没有结果"
   },
   "username": {
-    "message": "改名"
+    "message": "用户名"
   },
   "history": {
     "message": "历史"
@@ -1630,21 +1630,6 @@
   },
   "deleted": {
     "message": "已删除"
-  },
-  "ca_history_for": {
-    "message": "CA 历史"
-  },
-  "active_count": {
-    "message": "{count} 个活跃"
-  },
-  "deleted_count": {
-    "message": "{count} 个已删除"
-  },
-  "show_more_tweets": {
-    "message": "显示 {count} 更多推文"
-  },
-  "show_less": {
-    "message": "收起"
   },
   "no_associated_wallets_found": {
     "message": "未找到关联钱包"
@@ -2063,6 +2048,9 @@
   "bsc_gas_price_label": {
     "message": "燃料费 (Gwei)"
   },
+  "bsc_gas_price_label_with_min": {
+    "message": "燃料费 (Gwei)，最小 {min}"
+  },
   "bsc_tip_label": {
     "message": "小费 (BNB)"
   },
@@ -2188,9 +2176,6 @@
   },
   "user_id": {
     "message": "用户 ID"
-  },
-  "username": {
-    "message": "用户名"
   },
   "set_username": {
     "message": "设置用户名"
@@ -3275,6 +3260,24 @@
   "failed_to_lock_wallet": {
     "message": "锁定钱包失败"
   },
+  "section_trading_panel": {
+    "message": "交易面板"
+  },
+  "section_limit_orders_chart": {
+    "message": "限价单与图表"
+  },
+  "section_shortcuts": {
+    "message": "快捷键"
+  },
+  "section_look_feel": {
+    "message": "外观与声音"
+  },
+  "section_integrations": {
+    "message": "集成"
+  },
+  "section_advanced": {
+    "message": "高级"
+  },
   "trading_panel_transparency": {
     "message": "交易面板透明度"
   },
@@ -3794,6 +3797,12 @@
   "auto_expand_limit_order_panel_desc": {
     "message": "创建限价单后自动打开右侧面板"
   },
+  "chart_limit_order_context_menu": {
+    "message": "图表右键限价单"
+  },
+  "chart_limit_order_context_menu_desc": {
+    "message": "在图表右键菜单中显示 Frontrun 限价买入/卖出"
+  },
   "single_group_select": {
     "message": "单选钱包组"
   },
@@ -4073,10 +4082,61 @@
   "chrome_update_required_button": {
     "message": "更新 Chrome"
   },
+  "trending_now_title": {
+    "message": "热门"
+  },
+  "trending_now_tab_wallets": {
+    "message": "钱包"
+  },
+  "trending_now_tab_accounts": {
+    "message": "账号"
+  },
+  "trending_now_subline_wallets": {
+    "message": "按贴标签的用户数排序"
+  },
+  "trending_now_subline_accounts": {
+    "message": "与加密相关的热门 Twitter 账号"
+  },
+  "trending_now_loading": {
+    "message": "加载中…"
+  },
+  "trending_now_failed": {
+    "message": "加载失败"
+  },
+  "trending_now_empty_wallets": {
+    "message": "暂无热门钱包"
+  },
+  "trending_now_empty_accounts": {
+    "message": "暂无热门账号"
+  },
+  "trending_now_trending_for": {
+    "message": "热门主题:"
+  },
+  "trending_now_collapse": {
+    "message": "收起"
+  },
+  "trending_now_expand": {
+    "message": "展开"
+  },
+  "trending_now_crypto_relevance_level": {
+    "message": "加密相关度"
+  },
+  "trending_now_crypto_relevance": {
+    "message": "加密相关度:"
+  },
+  "trending_now_followers": {
+    "message": "关注者"
+  },
+  "trending_now_labels_count": {
+    "message": "个标签"
+  },
   "limit_buy": {
     "message": "限价买入"
   },
   "limit_sell": {
     "message": "限价卖出"
+  },
+  "trending_accounts_title": {
+    "message": "热门账号"
   }
 }

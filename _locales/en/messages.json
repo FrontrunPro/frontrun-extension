@@ -1530,7 +1530,7 @@
     "message": "No results found"
   },
   "username": {
-    "message": "Name"
+    "message": "Username"
   },
   "history": {
     "message": "History"
@@ -1567,21 +1567,6 @@
   },
   "deleted": {
     "message": "Deleted"
-  },
-  "ca_history_for": {
-    "message": "CA History for"
-  },
-  "active_count": {
-    "message": "{count} Active"
-  },
-  "deleted_count": {
-    "message": "{count} Deleted"
-  },
-  "show_more_tweets": {
-    "message": "Show {count} more tweets"
-  },
-  "show_less": {
-    "message": "Show less"
   },
   "no_associated_wallets_found": {
     "message": "No associated wallets found"
@@ -2021,6 +2006,9 @@
   "bsc_gas_price_label": {
     "message": "Gas Price (Gwei)"
   },
+  "bsc_gas_price_label_with_min": {
+    "message": "Gas Price (Gwei), min {min}"
+  },
   "bsc_tip_label": {
     "message": "Tip (BNB)"
   },
@@ -2146,9 +2134,6 @@
   },
   "user_id": {
     "message": "User ID"
-  },
-  "username": {
-    "message": "Username"
   },
   "set_username": {
     "message": "Set username"
@@ -3281,6 +3266,24 @@
   "almost_bonded": {
     "message": "Almost Bonded"
   },
+  "section_trading_panel": {
+    "message": "Trading Panel"
+  },
+  "section_limit_orders_chart": {
+    "message": "Limit Orders & Chart"
+  },
+  "section_shortcuts": {
+    "message": "Shortcuts"
+  },
+  "section_look_feel": {
+    "message": "Look & Feel"
+  },
+  "section_integrations": {
+    "message": "Integrations"
+  },
+  "section_advanced": {
+    "message": "Advanced"
+  },
   "trading_panel_transparency": {
     "message": "Trading Panel Transparency"
   },
@@ -3803,6 +3806,12 @@
   "auto_expand_limit_order_panel_desc": {
     "message": "Automatically open the right panel after creating a limit order"
   },
+  "chart_limit_order_context_menu": {
+    "message": "Chart Right-Click Limit Order"
+  },
+  "chart_limit_order_context_menu_desc": {
+    "message": "Show \"Frontrun Limit Buy/Sell\" in chart right-click menu"
+  },
   "single_group_select": {
     "message": "Single Group Select"
   },
@@ -4082,10 +4091,61 @@
   "chrome_update_required_button": {
     "message": "Update Chrome"
   },
+  "trending_now_title": {
+    "message": "Trending Now"
+  },
+  "trending_now_tab_wallets": {
+    "message": "Wallets"
+  },
+  "trending_now_tab_accounts": {
+    "message": "Accounts"
+  },
+  "trending_now_subline_wallets": {
+    "message": "Ranked by number of users who labeled this wallet"
+  },
+  "trending_now_subline_accounts": {
+    "message": "Trending Twitter accounts with crypto relevance"
+  },
+  "trending_now_loading": {
+    "message": "Loading…"
+  },
+  "trending_now_failed": {
+    "message": "Failed to load trending data"
+  },
+  "trending_now_empty_wallets": {
+    "message": "No trending wallets yet"
+  },
+  "trending_now_empty_accounts": {
+    "message": "No trending accounts yet"
+  },
+  "trending_now_trending_for": {
+    "message": "Trending for:"
+  },
+  "trending_now_collapse": {
+    "message": "Collapse"
+  },
+  "trending_now_expand": {
+    "message": "Expand"
+  },
+  "trending_now_crypto_relevance_level": {
+    "message": "Crypto Relevance Level"
+  },
+  "trending_now_crypto_relevance": {
+    "message": "Crypto Relevance:"
+  },
+  "trending_now_followers": {
+    "message": "Followers"
+  },
+  "trending_now_labels_count": {
+    "message": "labels"
+  },
   "limit_buy": {
     "message": "Limit Buy"
   },
   "limit_sell": {
     "message": "Limit Sell"
+  },
+  "trending_accounts_title": {
+    "message": "Trending Accounts"
   }
 }
