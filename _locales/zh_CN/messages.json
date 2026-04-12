@@ -4109,6 +4109,21 @@
   "trending_now_empty_accounts": {
     "message": "暂无热门账号"
   },
+  "trending_now_dismiss": {
+    "message": "关闭"
+  },
+  "trending_now_dismiss_confirm": {
+    "message": "隐藏热门账号？"
+  },
+  "trending_now_dismiss_yes": {
+    "message": "隐藏"
+  },
+  "trending_now_dismiss_hint": {
+    "message": "可在 设置 → 推特 中重新开启"
+  },
+  "trending_now_setting_tip": {
+    "message": "在推特侧栏显示热门账号"
+  },
   "trending_now_trending_for": {
     "message": "热门主题:"
   },

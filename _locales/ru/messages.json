@@ -4121,6 +4121,21 @@
   "trending_now_empty_accounts": {
     "message": "Нет данных"
   },
+  "trending_now_dismiss": {
+    "message": "Скрыть"
+  },
+  "trending_now_dismiss_confirm": {
+    "message": "Скрыть тренды?"
+  },
+  "trending_now_dismiss_yes": {
+    "message": "Да"
+  },
+  "trending_now_dismiss_hint": {
+    "message": "Включить снова: Настройки → Twitter"
+  },
+  "trending_now_setting_tip": {
+    "message": "Трендовые аккаунты в боковой панели"
+  },
   "trending_now_trending_for": {
     "message": "В тренде:"
   },

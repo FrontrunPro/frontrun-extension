@@ -4118,6 +4118,21 @@
   "trending_now_empty_accounts": {
     "message": "No trending accounts yet"
   },
+  "trending_now_dismiss": {
+    "message": "Dismiss"
+  },
+  "trending_now_dismiss_confirm": {
+    "message": "Hide trending accounts?"
+  },
+  "trending_now_dismiss_yes": {
+    "message": "Hide"
+  },
+  "trending_now_dismiss_hint": {
+    "message": "Re-enable anytime in Settings → Twitter"
+  },
+  "trending_now_setting_tip": {
+    "message": "Show trending accounts in the Twitter sidebar"
+  },
   "trending_now_trending_for": {
     "message": "Trending for:"
   },
