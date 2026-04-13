@@ -1838,6 +1838,9 @@
   "error_not_enough_tokens": {
     "message": "可卖出的代币数量不足。如果您认为情况并非如此，请尝试刷新页面"
   },
+  "error_token_migrated_to_new_pool": {
+    "message": "代币已迁移至新池，请等待迁移完成后再交易"
+  },
   "error_seeds_constraint": {
     "message": "未知错误：请将该笔交易报告给官方团队"
   },
@@ -2807,6 +2810,18 @@
   "wallet_common_error_seed_phrase_incomplete": {
     "message": "请完整填写助记词的每个单词"
   },
+  "wallet_common_error_invalid_evm_private_key": {
+    "message": "无效的 EVM 私钥"
+  },
+  "wallet_common_error_invalid_private_key": {
+    "message": "无效的私钥"
+  },
+  "wallet_already_imported": {
+    "message": "该钱包已导入"
+  },
+  "wallet_import_bsc_not_supported": {
+    "message": "暂不支持导入 BSC 钱包"
+  },
   "wallet_common_action_import_seed_phrase": {
     "message": "导入助记词"
   },
@@ -3685,6 +3700,18 @@
   },
   "confirm_unlink_twitter": {
     "message": "解绑 Twitter/X？"
+  },
+  "connect_twitter_prompt": {
+    "message": "连接 \ud835\udd4f 到 Frontrun"
+  },
+  "connect_twitter_benefit_smart_followers": {
+    "message": "解锁你主页 Top 100 聪明关注者"
+  },
+  "connect_twitter_benefit_wallet": {
+    "message": "在 \ud835\udd4f 主页展示你的公开钱包 (即将上线)"
+  },
+  "connect_twitter_benefit_label": {
+    "message": "让交易者标记和发现你 (即将上线)"
   },
   "telegram": {
     "message": "Telegram"

@@ -1799,6 +1799,9 @@
   "error_not_enough_tokens": {
     "message": "Insufficient token balance to sell. Refresh the page if this appears incorrect"
   },
+  "error_token_migrated_to_new_pool": {
+    "message": "Token has migrated to new pool, please trade after migration is complete"
+  },
   "error_seeds_constraint": {
     "message": "Unexpected error. Please report this failed transaction to the team"
   },
@@ -2756,6 +2759,18 @@
   "wallet_common_error_seed_phrase_incomplete": {
     "message": "Please fill in all seed phrase words"
   },
+  "wallet_common_error_invalid_evm_private_key": {
+    "message": "Invalid EVM private key"
+  },
+  "wallet_common_error_invalid_private_key": {
+    "message": "Invalid private key"
+  },
+  "wallet_already_imported": {
+    "message": "This wallet has already been imported"
+  },
+  "wallet_import_bsc_not_supported": {
+    "message": "BSC wallet import is not available"
+  },
   "wallet_common_action_import_seed_phrase": {
     "message": "Import Seed Phrase"
   },
@@ -3694,6 +3709,18 @@
   },
   "confirm_unlink_twitter": {
     "message": "Unlink Twitter/X?"
+  },
+  "connect_twitter_prompt": {
+    "message": "Connect \ud835\udd4f to Frontrun"
+  },
+  "connect_twitter_benefit_smart_followers": {
+    "message": "Unlock top 100 smart followers on your profile"
+  },
+  "connect_twitter_benefit_wallet": {
+    "message": "Show your public wallets on your \ud835\udd4f profile (Soon)"
+  },
+  "connect_twitter_benefit_label": {
+    "message": "Get discovered and labeled by other traders (Soon)"
   },
   "telegram": {
     "message": "Telegram"

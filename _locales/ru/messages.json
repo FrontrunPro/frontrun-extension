@@ -1865,6 +1865,9 @@
   "error_not_enough_tokens": {
     "message": "Недостаточно токенов для продажи. Если вы считаете, что это не так, попробуйте обновить страницу"
   },
+  "error_token_migrated_to_new_pool": {
+    "message": "Токен мигрировал в новый пул, торгуйте после завершения миграции"
+  },
   "error_seeds_constraint": {
     "message": "Неизвестная ошибка: пожалуйста, сообщите о транзакции команде"
   },
@@ -2807,6 +2810,18 @@
   "wallet_common_error_seed_phrase_incomplete": {
     "message": "Заполните все слова мнемоники"
   },
+  "wallet_common_error_invalid_evm_private_key": {
+    "message": "Неверный приватный ключ EVM"
+  },
+  "wallet_common_error_invalid_private_key": {
+    "message": "Неверный приватный ключ"
+  },
+  "wallet_already_imported": {
+    "message": "Этот кошелёк уже импортирован"
+  },
+  "wallet_import_bsc_not_supported": {
+    "message": "Импорт BSC кошелька недоступен"
+  },
   "wallet_common_action_import_seed_phrase": {
     "message": "Импортировать сид-фразу"
   },
@@ -3697,6 +3712,18 @@
   },
   "confirm_unlink_twitter": {
     "message": "Отвязать Twitter/X?"
+  },
+  "connect_twitter_prompt": {
+    "message": "Связать \ud835\udd4f с Frontrun"
+  },
+  "connect_twitter_benefit_smart_followers": {
+    "message": "Топ-100 умных подписчиков в профиле"
+  },
+  "connect_twitter_benefit_wallet": {
+    "message": "Публичные кошельки в \ud835\udd4f профиле (Скоро)"
+  },
+  "connect_twitter_benefit_label": {
+    "message": "Трейдеры найдут и отметят вас (Скоро)"
   },
   "telegram": {
     "message": "Telegram"
