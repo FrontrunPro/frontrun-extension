@@ -1763,6 +1763,12 @@
   "order_execution_failed": {
     "message": "Order execution failed"
   },
+  "transaction_expired": {
+    "message": "Transaction expired — please try again."
+  },
+  "program_error_code": {
+    "message": "Transaction failed (error {errorCode})"
+  },
   "rpc_rate_limited": {
     "message": "RPC rate limited. Your tip is {currentTip} SOL — increase to at least 0.00001 SOL to use a faster strategy"
   },
@@ -2347,6 +2353,9 @@
   },
   "limit_order_notional_value_too_low": {
     "message": "Limit order notional value must be at least 1 USD"
+  },
+  "limit_order_price_not_available": {
+    "message": "Token price is not available yet. Please wait and try again."
   },
   "wallet_position_not_found": {
     "message": "Wallet position not found for {address}"
@@ -3837,7 +3846,7 @@
     "message": "Switched to SOL mode. Click again to Quick Buy."
   },
   "quick_buy_title_with_amount": {
-    "message": "Frontrun quick buy {amount} SOL"
+    "message": "Frontrun quick buy {amount} {currency}"
   },
   "quick_buy_title": {
     "message": "Frontrun quick buy"

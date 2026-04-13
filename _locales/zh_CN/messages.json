@@ -1802,6 +1802,12 @@
   "order_execution_failed": {
     "message": "订单执行失败"
   },
+  "transaction_expired": {
+    "message": "交易已过期，请重试。"
+  },
+  "program_error_code": {
+    "message": "交易失败（错误 {errorCode}）"
+  },
   "rpc_rate_limited": {
     "message": "RPC 请求过多。当前小费 {currentTip} SOL，请提高到至少 0.00001 SOL 以使用更快的发送策略"
   },
@@ -2395,6 +2401,9 @@
   },
   "limit_order_notional_value_too_low": {
     "message": "限价单名义价值至少为 1 美元"
+  },
+  "limit_order_price_not_available": {
+    "message": "代币价格尚未加载，请稍后再试。"
   },
   "wallet_position_not_found": {
     "message": "未找到钱包持仓：{address}"
@@ -3828,7 +3837,7 @@
     "message": "已切换到 SOL 模式，再次点击即可买入"
   },
   "quick_buy_title_with_amount": {
-    "message": "Frontrun 快速买入 {amount} SOL"
+    "message": "Frontrun 快速买入 {amount} {currency}"
   },
   "quick_buy_title": {
     "message": "Frontrun 快速买入"

@@ -1829,6 +1829,12 @@
   "order_execution_failed": {
     "message": "Ошибка выполнения ордера"
   },
+  "transaction_expired": {
+    "message": "Транзакция истекла — попробуйте снова."
+  },
+  "program_error_code": {
+    "message": "Ошибка транзакции (код {errorCode})"
+  },
   "rpc_rate_limited": {
     "message": "RPC перегружен. Ваши чаевые {currentTip} SOL — нужно минимум 0.00001 SOL"
   },
@@ -2398,6 +2404,9 @@
   },
   "limit_order_notional_value_too_low": {
     "message": "Номинальная стоимость лимитного ордера должна быть не менее 1 USD"
+  },
+  "limit_order_price_not_available": {
+    "message": "Цена токена ещё не загружена. Подождите и попробуйте снова."
   },
   "wallet_position_not_found": {
     "message": "Позиция кошелька не найдена: {address}"
@@ -3840,7 +3849,7 @@
     "message": "Переключено на SOL. Нажмите ещё раз."
   },
   "quick_buy_title_with_amount": {
-    "message": "Frontrun быстрая покупка {amount} SOL"
+    "message": "Frontrun быстрая покупка {amount} {currency}"
   },
   "quick_buy_title": {
     "message": "Frontrun быстрая покупка"
