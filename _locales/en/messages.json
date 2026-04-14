@@ -4204,5 +4204,68 @@
   },
   "trending_accounts_title": {
     "message": "Trending Accounts"
+  },
+  "consolidate": {
+    "message": "Consolidate"
+  },
+  "split_tokens": {
+    "message": "Split"
+  },
+  "split_tooltip": {
+    "message": "Split with other active wallets on 20% variance"
+  },
+  "unselect_all": {
+    "message": "Unselect All"
+  },
+  "consolidate_no_other_wallets": {
+    "message": "No other wallets with token to consolidate from"
+  },
+  "split_select_targets_min": {
+    "message": "Select at least 2 active wallets"
+  },
+  "transfer_consolidate_success": {
+    "message": "Tokens consolidated successfully"
+  },
+  "consolidate_partial_success": {
+    "message": "Consolidated {completed}/{total} wallets ({skipped} skipped — no SOL for fees)"
+  },
+  "split_success": {
+    "message": "Tokens split successfully"
+  },
+  "error_consolidating": {
+    "message": "Error consolidating tokens ({completed}/{total}): {error}"
+  },
+  "error_splitting": {
+    "message": "Error splitting tokens ({completed}/{total}): {error}"
+  },
+  "consolidating_in_progress": {
+    "message": "Consolidating tokens..."
+  },
+  "splitting_in_progress": {
+    "message": "Splitting tokens..."
+  },
+  "splitting_progress": {
+    "message": "Splitting {current}/{total}..."
+  },
+  "split_no_token_balance": {
+    "message": "No token balance to split"
+  },
+  "consolidate_select_one_wallet": {
+    "message": "Please select one wallet"
+  },
+  "consolidate_select_only_one": {
+    "message": "Please select only one wallet"
+  },
+  "consolidate_insufficient_balance": {
+    "message": "Insufficient balance from selected wallet to consolidate to"
+  },
+  "consolidate_sources_no_sol": {
+    "message": "Source wallets have no SOL to pay transfer fees"
+  },
+  "split_insufficient_sol": {
+    "message": "Insufficient balance from selected wallet(s) to split tokens to"
+  },
+  "split_source_wallet_not_found": {
+    "message": "Source wallet not found"
   }
 }

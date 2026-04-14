@@ -4195,5 +4195,68 @@
   },
   "trending_accounts_title": {
     "message": "热门账号"
+  },
+  "consolidate": {
+    "message": "合并"
+  },
+  "split_tokens": {
+    "message": "拆分"
+  },
+  "split_tooltip": {
+    "message": "拆分给其他活跃钱包，20%随机偏差"
+  },
+  "unselect_all": {
+    "message": "取消全选"
+  },
+  "consolidate_no_other_wallets": {
+    "message": "没有其他持有该代币的钱包可供合并"
+  },
+  "split_select_targets_min": {
+    "message": "请选择至少2个钱包"
+  },
+  "transfer_consolidate_success": {
+    "message": "代币合并成功"
+  },
+  "consolidate_partial_success": {
+    "message": "已合并 {completed}/{total} 个钱包（{skipped} 个因无SOL跳过）"
+  },
+  "split_success": {
+    "message": "代币拆分成功"
+  },
+  "error_consolidating": {
+    "message": "合并代币出错 ({completed}/{total}): {error}"
+  },
+  "error_splitting": {
+    "message": "拆分代币出错 ({completed}/{total}): {error}"
+  },
+  "consolidating_in_progress": {
+    "message": "正在合并代币..."
+  },
+  "splitting_in_progress": {
+    "message": "正在拆分代币..."
+  },
+  "splitting_progress": {
+    "message": "正在拆分 {current}/{total}..."
+  },
+  "split_no_token_balance": {
+    "message": "没有可拆分的代币"
+  },
+  "consolidate_select_one_wallet": {
+    "message": "请选择一个钱包"
+  },
+  "consolidate_select_only_one": {
+    "message": "请只选择一个钱包"
+  },
+  "consolidate_insufficient_balance": {
+    "message": "所选钱包余额不足，无法合并"
+  },
+  "consolidate_sources_no_sol": {
+    "message": "持有代币的钱包没有SOL支付手续费"
+  },
+  "split_insufficient_sol": {
+    "message": "目标钱包 SOL 余额不足，无法拆分"
+  },
+  "split_source_wallet_not_found": {
+    "message": "未找到源钱包"
   }
 }

@@ -4207,5 +4207,68 @@
   },
   "trending_accounts_title": {
     "message": "Популярные аккаунты"
+  },
+  "consolidate": {
+    "message": "Объединить"
+  },
+  "split_tokens": {
+    "message": "Разделить"
+  },
+  "split_tooltip": {
+    "message": "Разделить между активными кошельками с отклонением 20%"
+  },
+  "unselect_all": {
+    "message": "Снять все"
+  },
+  "consolidate_no_other_wallets": {
+    "message": "Нет других кошельков с токеном"
+  },
+  "split_select_targets_min": {
+    "message": "Выберите минимум 2 кошелька"
+  },
+  "transfer_consolidate_success": {
+    "message": "Токены объединены"
+  },
+  "consolidate_partial_success": {
+    "message": "Объединено {completed}/{total} ({skipped} пропущено — нет SOL)"
+  },
+  "split_success": {
+    "message": "Токены разделены"
+  },
+  "error_consolidating": {
+    "message": "Ошибка объединения ({completed}/{total}): {error}"
+  },
+  "error_splitting": {
+    "message": "Ошибка разделения ({completed}/{total}): {error}"
+  },
+  "consolidating_in_progress": {
+    "message": "Объединение токенов..."
+  },
+  "splitting_in_progress": {
+    "message": "Разделение токенов..."
+  },
+  "splitting_progress": {
+    "message": "Разделение {current}/{total}..."
+  },
+  "split_no_token_balance": {
+    "message": "Нет токенов для разделения"
+  },
+  "consolidate_select_one_wallet": {
+    "message": "Выберите один кошелёк"
+  },
+  "consolidate_select_only_one": {
+    "message": "Выберите только один кошелёк"
+  },
+  "consolidate_insufficient_balance": {
+    "message": "Недостаточный баланс для объединения"
+  },
+  "consolidate_sources_no_sol": {
+    "message": "У кошельков-источников нет SOL для оплаты комиссии"
+  },
+  "split_insufficient_sol": {
+    "message": "Недостаточно SOL для разделения токенов"
+  },
+  "split_source_wallet_not_found": {
+    "message": "Исходный кошелёк не найден"
   }
 }
