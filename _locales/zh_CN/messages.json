@@ -71,6 +71,12 @@
   "smart_followers": {
     "message": "KOL关注"
   },
+  "sort_smart": {
+    "message": "排名"
+  },
+  "sort_recent": {
+    "message": "最新"
+  },
   "powered_by": {
     "message": "数据来自"
   },

@@ -74,6 +74,12 @@
   "smart_followers": {
     "message": "Smart Followers"
   },
+  "sort_smart": {
+    "message": "Top"
+  },
+  "sort_recent": {
+    "message": "Recent"
+  },
   "powered_by": {
     "message": "Powered by"
   },

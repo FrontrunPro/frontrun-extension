@@ -77,6 +77,12 @@
   "smart_followers": {
     "message": "Умные подписчики"
   },
+  "sort_smart": {
+    "message": "Топ"
+  },
+  "sort_recent": {
+    "message": "Новые"
+  },
   "powered_by": {
     "message": "Работает на"
   },
