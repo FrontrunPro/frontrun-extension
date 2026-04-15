@@ -4205,6 +4205,33 @@
   "trending_accounts_title": {
     "message": "Trending Accounts"
   },
+  "upgrade_to_unlock": {
+    "message": "Upgrade to Unlock"
+  },
+  "credit_plan_usage_header": {
+    "message": "{planName} Plan"
+  },
+  "credit_usage_used_today": {
+    "message": "Used today"
+  },
+  "credit_usage_used_this_week": {
+    "message": "Used this week"
+  },
+  "credit_upgrade_tooltip_title": {
+    "message": "Unlock 6M+ wallet labels"
+  },
+  "credit_upgrade_tooltip_feature_labels": {
+    "message": "Smart labels & wallet tags"
+  },
+  "credit_upgrade_tooltip_feature_mentions": {
+    "message": "Twitter mentions & portfolio"
+  },
+  "credit_upgrade_tooltip_feature_insights": {
+    "message": "Top holder & PnL insights"
+  },
+  "credit_upgrade_tooltip_cta": {
+    "message": "See plans →"
+  },
   "consolidate": {
     "message": "Consolidate"
   },

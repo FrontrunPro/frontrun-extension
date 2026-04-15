@@ -4196,6 +4196,33 @@
   "trending_accounts_title": {
     "message": "热门账号"
   },
+  "upgrade_to_unlock": {
+    "message": "Upgrade to Unlock"
+  },
+  "credit_plan_usage_header": {
+    "message": "{planName} 计划"
+  },
+  "credit_usage_used_today": {
+    "message": "今日已用"
+  },
+  "credit_usage_used_this_week": {
+    "message": "本周已用"
+  },
+  "credit_upgrade_tooltip_title": {
+    "message": "解锁 6M+ 钱包标签"
+  },
+  "credit_upgrade_tooltip_feature_labels": {
+    "message": "智能标签与钱包标记"
+  },
+  "credit_upgrade_tooltip_feature_mentions": {
+    "message": "Twitter 提及与投资组合"
+  },
+  "credit_upgrade_tooltip_feature_insights": {
+    "message": "顶级持仓与 PnL 洞察"
+  },
+  "credit_upgrade_tooltip_cta": {
+    "message": "查看方案 →"
+  },
   "consolidate": {
     "message": "合并"
   },

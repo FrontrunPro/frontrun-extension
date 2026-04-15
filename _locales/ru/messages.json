@@ -4208,6 +4208,33 @@
   "trending_accounts_title": {
     "message": "Популярные аккаунты"
   },
+  "upgrade_to_unlock": {
+    "message": "Upgrade to Unlock"
+  },
+  "credit_plan_usage_header": {
+    "message": "План {planName}"
+  },
+  "credit_usage_used_today": {
+    "message": "Исп. сегодня"
+  },
+  "credit_usage_used_this_week": {
+    "message": "Исп. за неделю"
+  },
+  "credit_upgrade_tooltip_title": {
+    "message": "Откройте 6M+ меток кошельков"
+  },
+  "credit_upgrade_tooltip_feature_labels": {
+    "message": "Умные метки и теги"
+  },
+  "credit_upgrade_tooltip_feature_mentions": {
+    "message": "Упоминания X и портфель"
+  },
+  "credit_upgrade_tooltip_feature_insights": {
+    "message": "Топ-холдеры и PnL"
+  },
+  "credit_upgrade_tooltip_cta": {
+    "message": "Смотреть планы →"
+  },
   "consolidate": {
     "message": "Объединить"
   },
