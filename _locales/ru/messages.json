@@ -3809,6 +3809,12 @@
   "show_group_switch_desc": {
     "message": "Переключение групп в панели"
   },
+  "auto_sort_wallets_by_balance": {
+    "message": "Сортировать по балансу"
+  },
+  "auto_sort_wallets_by_balance_desc": {
+    "message": "Вкл. — по балансу SOL/BNB. Выкл. — перетащите, чтобы задать порядок"
+  },
   "custom_buy_amount": {
     "message": "Своя сумма"
   },
@@ -4162,6 +4168,9 @@
   },
   "trending_now_empty_accounts": {
     "message": "Нет данных"
+  },
+  "trending_now_1h_unavailable": {
+    "message": "Нет данных за 1 ч"
   },
   "trending_now_dismiss": {
     "message": "Скрыть"

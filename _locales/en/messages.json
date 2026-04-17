@@ -3806,6 +3806,12 @@
   "show_group_switch_desc": {
     "message": "Show group switch in trading panel"
   },
+  "auto_sort_wallets_by_balance": {
+    "message": "Auto-sort Wallets by Balance"
+  },
+  "auto_sort_wallets_by_balance_desc": {
+    "message": "When on, wallets are ranked by SOL/BNB balance. When off, drag wallets to set a custom order"
+  },
   "custom_buy_amount": {
     "message": "Custom Buy Amount"
   },
@@ -4159,6 +4165,9 @@
   },
   "trending_now_empty_accounts": {
     "message": "No trending accounts yet"
+  },
+  "trending_now_1h_unavailable": {
+    "message": "1h data is not available"
   },
   "trending_now_dismiss": {
     "message": "Dismiss"

@@ -3797,6 +3797,12 @@
   "show_group_switch_desc": {
     "message": "在交易面板中显示分组切换"
   },
+  "auto_sort_wallets_by_balance": {
+    "message": "按余额自动排序钱包"
+  },
+  "auto_sort_wallets_by_balance_desc": {
+    "message": "开启时按 SOL/BNB 余额排序；关闭后可拖动钱包自定义顺序"
+  },
   "custom_buy_amount": {
     "message": "自定义买入金额"
   },
@@ -4150,6 +4156,9 @@
   },
   "trending_now_empty_accounts": {
     "message": "暂无热门账号"
+  },
+  "trending_now_1h_unavailable": {
+    "message": "1 小时数据暂不可用"
   },
   "trending_now_dismiss": {
     "message": "关闭"
