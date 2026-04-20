@@ -3701,6 +3701,9 @@
   "verify": {
     "message": "Подтвердить"
   },
+  "view_more": {
+    "message": "Показать ещё"
+  },
   "twitter_linked": {
     "message": "Twitter/X подтверждён"
   },

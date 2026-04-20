@@ -3698,6 +3698,9 @@
   "verify": {
     "message": "Verify"
   },
+  "view_more": {
+    "message": "View more"
+  },
   "twitter_linked": {
     "message": "Twitter/X verified"
   },

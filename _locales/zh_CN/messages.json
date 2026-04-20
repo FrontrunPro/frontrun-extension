@@ -3689,6 +3689,9 @@
   "verify": {
     "message": "验证"
   },
+  "view_more": {
+    "message": "查看更多"
+  },
   "twitter_linked": {
     "message": "Twitter/X 已验证"
   },
