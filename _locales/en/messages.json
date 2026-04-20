@@ -26,6 +26,66 @@
   "platform_settings": {
     "message": "Platform Controls"
   },
+  "premium_member_settings": {
+    "message": "Premium"
+  },
+  "current_status": {
+    "message": "Current Status"
+  },
+  "learn_more": {
+    "message": "Learn more"
+  },
+  "premium_upgrade_cta_title": {
+    "message": "Upgrade to Premium"
+  },
+  "premium_upgrade_cta_body": {
+    "message": "Upgrade to a higher tier to unlock 3h trending accounts and many more Premium features."
+  },
+  "premium_features_title": {
+    "message": "Premium Member features"
+  },
+  "premium_feature_export_labels": {
+    "message": "Export wallet and Twitter labels in JSON and other supported formats"
+  },
+  "premium_feature_3h_trending": {
+    "message": "Unlimited trending access, including the 3h window"
+  },
+  "premium_feature_full_control": {
+    "message": "Full control of exclusive features"
+  },
+  "premium_feature_minimal_style": {
+    "message": "Minimal style"
+  },
+  "premium_feature_rate_limits": {
+    "message": "Higher rate limits"
+  },
+  "premium_feature_api_access": {
+    "message": "API Access"
+  },
+  "premium_feature_frontrun_badge": {
+    "message": "Frontrun Badge on X"
+  },
+  "premium_feature_many_more": {
+    "message": "Many more features"
+  },
+  "trading_toggle": {
+    "message": "Trading"
+  },
+  "trading_toggle_desc": {
+    "message": "Execute trades across all platforms. Turn off to disable trading everywhere"
+  },
+  "hide_powered_by_on_twitter": {
+    "message": "Hide Frontrun Tag"
+  },
+  "hide_powered_by_on_twitter_desc": {
+    "message": "Hide the Powered by Frontrun tag"
+  },
+  "disable_quickbuy_on_trenches": {
+    "message": "Disable QuickBuy on Discovery Pages"
+  },
+  "disable_quickbuy_on_trenches_desc": {
+    "message": "Disable QuickBuy on token discovery pages across Axiom, GMGN, and Padre"
+  },
   "general_settings": {
     "message": "General"
   },
@@ -3339,7 +3399,7 @@
     "message": "Consolidate Token Accounts"
   },
   "consolidate_token_accounts_desc": {
-    "message": "Show button to merge non-ATA token accounts into the standard ATA and reclaim rent"
+    "message": "Auto-merge non-ATA token accounts when selling. Supports selling tokens from bots like AKBot, TradeWiz."
   },
   "consolidate_token_accounts_button": {
     "message": "Consolidate"
@@ -3712,6 +3772,9 @@
   },
   "twitter_link_failed": {
     "message": "Verification failed"
+  },
+  "twitter_account_restricted": {
+    "message": "Your X account is restricted by Twitter. Please resolve on x.com and try again."
   },
   "twitter_unlink_failed": {
     "message": "Failed to unlink Twitter/X"
@@ -4171,6 +4234,9 @@
   },
   "trending_now_1h_unavailable": {
     "message": "1h data is not available"
+  },
+  "trending_now_premium_locked": {
+    "message": "Available on Gold and Diamond plans."
   },
   "trending_now_dismiss": {
     "message": "Dismiss"

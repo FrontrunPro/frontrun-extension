@@ -23,6 +23,66 @@
   "platform_settings": {
     "message": "平台设置"
   },
+  "premium_member_settings": {
+    "message": "高级会员"
+  },
+  "current_status": {
+    "message": "当前状态"
+  },
+  "learn_more": {
+    "message": "了解更多"
+  },
+  "premium_upgrade_cta_title": {
+    "message": "升级为高级会员"
+  },
+  "premium_upgrade_cta_body": {
+    "message": "升级至更高套餐，解锁 3 小时热门账户以及更多高级会员功能。"
+  },
+  "premium_features_title": {
+    "message": "高级会员功能"
+  },
+  "premium_feature_export_labels": {
+    "message": "以 JSON 等格式导出钱包与推特标签"
+  },
+  "premium_feature_3h_trending": {
+    "message": "无限热门访问，包含 3 小时时间窗"
+  },
+  "premium_feature_full_control": {
+    "message": "完全掌控专属功能"
+  },
+  "premium_feature_minimal_style": {
+    "message": "极简风格"
+  },
+  "premium_feature_rate_limits": {
+    "message": "更高请求频率上限"
+  },
+  "premium_feature_api_access": {
+    "message": "API 访问"
+  },
+  "premium_feature_frontrun_badge": {
+    "message": "X 上的 Frontrun 徽章"
+  },
+  "premium_feature_many_more": {
+    "message": "更多功能"
+  },
+  "trading_toggle": {
+    "message": "交易"
+  },
+  "trading_toggle_desc": {
+    "message": "全平台交易功能。关闭后将禁用所有平台的交易"
+  },
+  "hide_powered_by_on_twitter": {
+    "message": "隐藏 Frontrun 标签"
+  },
+  "hide_powered_by_on_twitter_desc": {
+    "message": "隐藏 Powered by Frontrun 标签"
+  },
+  "disable_quickbuy_on_trenches": {
+    "message": "禁用 QuickBuy"
+  },
+  "disable_quickbuy_on_trenches_desc": {
+    "message": "在 Axiom、GMGN、Padre 的 token 发现页面禁用 QuickBuy"
+  },
   "general_settings": {
     "message": "通用"
   },
@@ -3333,7 +3393,7 @@
     "message": "合并代币账户"
   },
   "consolidate_token_accounts_desc": {
-    "message": "显示按钮将非ATA代币账户合并到标准ATA并回收租金"
+    "message": "卖出时自动合并非ATA代币账户。支持从 AKBot、TradeWiz 等机器人卖出代币。"
   },
   "consolidate_token_accounts_button": {
     "message": "合并"
@@ -3703,6 +3763,9 @@
   },
   "twitter_link_failed": {
     "message": "验证失败"
+  },
+  "twitter_account_restricted": {
+    "message": "你的 X 账号被 Twitter 限制，请先在 x.com 处理后重试。"
   },
   "twitter_unlink_failed": {
     "message": "解绑失败"
@@ -4162,6 +4225,9 @@
   },
   "trending_now_1h_unavailable": {
     "message": "1 小时数据暂不可用"
+  },
+  "trending_now_premium_locked": {
+    "message": "仅 Gold 和 Diamond 套餐可用。"
   },
   "trending_now_dismiss": {
     "message": "关闭"

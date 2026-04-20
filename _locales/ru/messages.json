@@ -29,6 +29,66 @@
   "platform_settings": {
     "message": "Платформа"
   },
+  "premium_member_settings": {
+    "message": "Premium"
+  },
+  "current_status": {
+    "message": "Текущий статус"
+  },
+  "premium_upgrade_cta_title": {
+    "message": "Обновить план"
+  },
+  "premium_upgrade_cta_body": {
+    "message": "Перейдите на более высокий план, чтобы открыть 3ч тренды и другие функции Premium."
+  },
+  "premium_features_title": {
+    "message": "Функции Premium"
+  },
+  "learn_more": {
+    "message": "Подробнее"
+  },
+  "premium_feature_export_labels": {
+    "message": "Экспорт меток кошельков и Twitter в JSON и других форматах"
+  },
+  "premium_feature_3h_trending": {
+    "message": "Безлимитный доступ к трендам: окно 3ч"
+  },
+  "premium_feature_full_control": {
+    "message": "Полный контроль над эксклюзивными функциями"
+  },
+  "premium_feature_minimal_style": {
+    "message": "Минималистичный стиль"
+  },
+  "premium_feature_rate_limits": {
+    "message": "Выше лимиты запросов"
+  },
+  "premium_feature_api_access": {
+    "message": "Доступ к API"
+  },
+  "premium_feature_frontrun_badge": {
+    "message": "Значок Frontrun в X"
+  },
+  "premium_feature_many_more": {
+    "message": "Много других функций"
+  },
+  "trading_toggle": {
+    "message": "Торговля"
+  },
+  "trading_toggle_desc": {
+    "message": "Торговля на всех платформах"
+  },
+  "hide_powered_by_on_twitter": {
+    "message": "Скрыть тег Frontrun"
+  },
+  "hide_powered_by_on_twitter_desc": {
+    "message": "Скрыть тег Powered by Frontrun"
+  },
+  "disable_quickbuy_on_trenches": {
+    "message": "Отключить QuickBuy"
+  },
+  "disable_quickbuy_on_trenches_desc": {
+    "message": "Отключить QuickBuy на страницах Trenches/Pulse в Axiom, GMGN и Padre"
+  },
   "general_settings": {
     "message": "Общие"
   },
@@ -3342,7 +3402,7 @@
     "message": "Объединить токен-аккаунты"
   },
   "consolidate_token_accounts_desc": {
-    "message": "Кнопка для объединения не-ATA аккаунтов в стандартный ATA и возврата ренты"
+    "message": "Авто-объединение не-ATA аккаунтов при продаже. Поддержка продажи токенов из ботов AKBot, TradeWiz."
   },
   "consolidate_token_accounts_button": {
     "message": "Объединить"
@@ -3715,6 +3775,9 @@
   },
   "twitter_link_failed": {
     "message": "Ошибка подтверждения"
+  },
+  "twitter_account_restricted": {
+    "message": "Аккаунт X ограничен. Разблокируйте на x.com и повторите."
   },
   "twitter_unlink_failed": {
     "message": "Не удалось отвязать"
@@ -4174,6 +4237,9 @@
   },
   "trending_now_1h_unavailable": {
     "message": "Нет данных за 1 ч"
+  },
+  "trending_now_premium_locked": {
+    "message": "Доступно на Gold и Diamond."
   },
   "trending_now_dismiss": {
     "message": "Скрыть"
