@@ -45,16 +45,13 @@
     "message": "Premium Member features"
   },
   "premium_feature_export_labels": {
-    "message": "Export wallet and Twitter labels in JSON and other supported formats"
+    "message": "Export wallet and Twitter labels"
   },
   "premium_feature_3h_trending": {
-    "message": "Unlimited trending access, including the 3h window"
-  },
-  "premium_feature_full_control": {
-    "message": "Full control of exclusive features"
+    "message": "3h Trending Accounts"
   },
   "premium_feature_minimal_style": {
-    "message": "Minimal style"
+    "message": "Customization: turn off any unwanted features"
   },
   "premium_feature_rate_limits": {
     "message": "Higher rate limits"
@@ -757,6 +754,12 @@
   },
   "rent_partial_failure": {
     "message": "{count} accounts could not be closed"
+  },
+  "rent_claim_skipped_low_balance": {
+    "message": "{count} wallet(s) skipped — need at least {threshold} SOL to reclaim rent"
+  },
+  "cashback_claim_skipped_low_balance": {
+    "message": "{count} wallet(s) skipped — need at least {threshold} SOL to claim cashback"
   },
   "claimed_successfully": {
     "message": "Claimed Successfully"
@@ -3395,6 +3398,12 @@
   "reset_pnl_desc": {
     "message": "Show current-position PNL only; resets to 0 when fully closed"
   },
+  "pnl_include_fees": {
+    "message": "Include Fees in PNL"
+  },
+  "pnl_include_fees_desc": {
+    "message": "Subtract transaction fees (base, priority, tip, frontrun) from realized PNL"
+  },
   "consolidate_token_accounts": {
     "message": "Consolidate Token Accounts"
   },
@@ -4236,7 +4245,7 @@
     "message": "1h data is not available"
   },
   "trending_now_premium_locked": {
-    "message": "Available on Gold and Diamond plans."
+    "message": "Available on Silver and Gold plans."
   },
   "trending_now_dismiss": {
     "message": "Dismiss"

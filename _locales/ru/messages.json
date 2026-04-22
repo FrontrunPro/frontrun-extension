@@ -48,16 +48,13 @@
     "message": "Подробнее"
   },
   "premium_feature_export_labels": {
-    "message": "Экспорт меток кошельков и Twitter в JSON и других форматах"
+    "message": "Экспорт меток кошельков и Twitter"
   },
   "premium_feature_3h_trending": {
-    "message": "Безлимитный доступ к трендам: окно 3ч"
-  },
-  "premium_feature_full_control": {
-    "message": "Полный контроль над эксклюзивными функциями"
+    "message": "Трендовые аккаунты за 3 часа"
   },
   "premium_feature_minimal_style": {
-    "message": "Минималистичный стиль"
+    "message": "Настройка: отключайте любые функции"
   },
   "premium_feature_rate_limits": {
     "message": "Выше лимиты запросов"
@@ -769,6 +766,12 @@
   },
   "rent_partial_failure": {
     "message": "{count} аккаунтов не удалось закрыть"
+  },
+  "rent_claim_skipped_low_balance": {
+    "message": "Пропущено {count} кошельков — нужно минимум {threshold} SOL"
+  },
+  "cashback_claim_skipped_low_balance": {
+    "message": "Пропущено {count} кошельков — для кэшбэка нужно минимум {threshold} SOL"
   },
   "claimed_successfully": {
     "message": "Успешно забрано"
@@ -3398,6 +3401,12 @@
   "reset_pnl_desc": {
     "message": "Показывает PNL только по текущей позиции; обнуляется при закрытии"
   },
+  "pnl_include_fees": {
+    "message": "Учитывать комиссии в PNL"
+  },
+  "pnl_include_fees_desc": {
+    "message": "Вычитает комиссии (базовая, приоритетная, чаевые, антифронтран) из PNL"
+  },
   "consolidate_token_accounts": {
     "message": "Объединить токен-аккаунты"
   },
@@ -4239,7 +4248,7 @@
     "message": "Нет данных за 1 ч"
   },
   "trending_now_premium_locked": {
-    "message": "Доступно на Gold и Diamond."
+    "message": "Доступно на Silver и Gold."
   },
   "trending_now_dismiss": {
     "message": "Скрыть"

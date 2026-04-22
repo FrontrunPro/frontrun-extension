@@ -42,16 +42,13 @@
     "message": "高级会员功能"
   },
   "premium_feature_export_labels": {
-    "message": "以 JSON 等格式导出钱包与推特标签"
+    "message": "导出钱包与推特标签"
   },
   "premium_feature_3h_trending": {
-    "message": "无限热门访问，包含 3 小时时间窗"
-  },
-  "premium_feature_full_control": {
-    "message": "完全掌控专属功能"
+    "message": "3 小时热门账号"
   },
   "premium_feature_minimal_style": {
-    "message": "极简风格"
+    "message": "自定义：可关闭任何不需要的功能"
   },
   "premium_feature_rate_limits": {
     "message": "更高请求频率上限"
@@ -751,6 +748,12 @@
   },
   "rent_partial_failure": {
     "message": "{count} 个账户无法关闭"
+  },
+  "rent_claim_skipped_low_balance": {
+    "message": "已跳过 {count} 个钱包 —— 至少需要 {threshold} SOL 才能回收租金"
+  },
+  "cashback_claim_skipped_low_balance": {
+    "message": "已跳过 {count} 个钱包 —— 至少需要 {threshold} SOL 才能领取返现"
   },
   "claimed_successfully": {
     "message": "领取成功"
@@ -3389,6 +3392,12 @@
   "reset_pnl_desc": {
     "message": "平仓后盈亏归零，仅显示当前持仓盈亏"
   },
+  "pnl_include_fees": {
+    "message": "盈亏扣除手续费"
+  },
+  "pnl_include_fees_desc": {
+    "message": "从已实现盈亏中扣除交易手续费（基础费、优先费、小费、前置费）"
+  },
   "consolidate_token_accounts": {
     "message": "合并代币账户"
   },
@@ -4227,7 +4236,7 @@
     "message": "1 小时数据暂不可用"
   },
   "trending_now_premium_locked": {
-    "message": "仅 Gold 和 Diamond 套餐可用。"
+    "message": "仅 Silver 和 Gold 套餐可用。"
   },
   "trending_now_dismiss": {
     "message": "关闭"
