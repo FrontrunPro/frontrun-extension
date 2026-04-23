@@ -32,6 +32,15 @@
   "premium_member_settings": {
     "message": "Premium"
   },
+  "premium_menu_chip_upgrade": {
+    "message": "Обновить"
+  },
+  "premium_menu_chip_gold": {
+    "message": "Gold"
+  },
+  "premium_menu_chip_silver": {
+    "message": "Silver"
+  },
   "current_status": {
     "message": "Текущий статус"
   },
@@ -39,7 +48,7 @@
     "message": "Обновить план"
   },
   "premium_upgrade_cta_body": {
-    "message": "Перейдите на более высокий план, чтобы открыть 3ч тренды и другие функции Premium."
+    "message": "Перейдите на Premium: тренды раньше, экспорт меток, выше лимиты и не только."
   },
   "premium_features_title": {
     "message": "Функции Premium"
@@ -48,43 +57,67 @@
     "message": "Подробнее"
   },
   "premium_feature_export_labels": {
-    "message": "Экспорт меток кошельков и Twitter"
+    "message": "Экспорт меток кошельков и X"
   },
   "premium_feature_3h_trending": {
-    "message": "Трендовые аккаунты за 3 часа"
+    "message": "Тренды X-аккаунтов на 2 часа раньше (окна 1ч и 3ч)"
   },
   "premium_feature_minimal_style": {
-    "message": "Настройка: отключайте любые функции"
+    "message": "Отключайте любые функции Frontrun"
   },
   "premium_feature_rate_limits": {
-    "message": "Выше лимиты запросов"
+    "message": "Выше лимиты на запросы данных и поиск"
   },
   "premium_feature_api_access": {
-    "message": "Доступ к API"
+    "message": "API-доступ к smart followers и меткам X/кошельков"
   },
   "premium_feature_frontrun_badge": {
     "message": "Значок Frontrun в X"
   },
   "premium_feature_many_more": {
-    "message": "Много других функций"
+    "message": "Ранний доступ к новым функциям"
   },
   "trading_toggle": {
     "message": "Торговля"
   },
   "trading_toggle_desc": {
-    "message": "Торговля на всех платформах"
+    "message": "Общий переключатель Buy/Sell на Axiom, GMGN, Padre и всех остальных платформах."
   },
   "hide_powered_by_on_twitter": {
-    "message": "Скрыть тег Frontrun"
+    "message": "Скрыть водяной знак Frontrun"
   },
   "hide_powered_by_on_twitter_desc": {
-    "message": "Скрыть тег Powered by Frontrun"
+    "message": "Убрать водяной знак «Powered by Frontrun» в X и торговых терминалах"
   },
   "disable_quickbuy_on_trenches": {
     "message": "Отключить QuickBuy"
   },
   "disable_quickbuy_on_trenches_desc": {
-    "message": "Отключить QuickBuy на страницах Trenches/Pulse в Axiom, GMGN и Padre"
+    "message": "Скрыть кнопку QuickBuy на Axiom Pulse, GMGN Discover и Padre Trenches, чтобы избежать случайных покупок."
+  },
+  "badge_on_x": {
+    "message": "Значок Frontrun в X"
+  },
+  "badge_on_x_desc": {
+    "message": "Показывать ваш Gold-значок Frontrun рядом с ником в X. Видно другим пользователям Frontrun."
+  },
+  "badge_tooltip_team": {
+    "message": "Официальный аккаунт команды Frontrun"
+  },
+  "badge_tooltip_community": {
+    "message": "Признан Frontrun"
+  },
+  "badge_tooltip_community_info": {
+    "message": "Признание, а не рекомендация. DYOR."
+  },
+  "badge_tooltip_gold_title": {
+    "message": "Участник Frontrun Gold"
+  },
+  "badge_tooltip_gold_info": {
+    "message": "Подписчик, не команда Frontrun. DYOR."
+  },
+  "badge_tooltip_gold_cta": {
+    "message": "Перейти на Gold"
   },
   "general_settings": {
     "message": "Общие"
@@ -768,10 +801,10 @@
     "message": "{count} аккаунтов не удалось закрыть"
   },
   "rent_claim_skipped_low_balance": {
-    "message": "Пропущено {count} кошельков — нужно минимум {threshold} SOL"
+    "message": "Пропущено {count} кошельков. Для возврата ренты нужно минимум {threshold} SOL."
   },
   "cashback_claim_skipped_low_balance": {
-    "message": "Пропущено {count} кошельков — для кэшбэка нужно минимум {threshold} SOL"
+    "message": "Пропущено {count} кошельков. Для кэшбэка нужно минимум {threshold} SOL."
   },
   "claimed_successfully": {
     "message": "Успешно забрано"
@@ -1526,6 +1559,9 @@
   "copy_address": {
     "message": "Копировать"
   },
+  "fund_cta_copy_address": {
+    "message": "Копировать адрес"
+  },
   "export_private_key": {
     "message": "Экспорт ключа"
   },
@@ -1552,6 +1588,12 @@
   },
   "error": {
     "message": "Ошибка"
+  },
+  "warning": {
+    "message": "Внимание"
+  },
+  "info": {
+    "message": "Инфо"
   },
   "enter_destination_address": {
     "message": "Введите адрес назначения"
@@ -4085,6 +4127,33 @@
   "default_telegram_group_placeholder": {
     "message": "напр. @my_group"
   },
+  "default_telegram_group_invalid": {
+    "message": "Введите @юзернейм"
+  },
+  "default_telegram_group_private_not_supported": {
+    "message": "Приватные группы не поддерживаются"
+  },
+  "default_telegram_group_target": {
+    "message": "Отправка в @{group}"
+  },
+  "tg_groups_send_to": {
+    "message": "Куда"
+  },
+  "tg_groups_picker_fallback": {
+    "message": "Выбор в Telegram"
+  },
+  "tg_groups_add": {
+    "message": "+ Группа"
+  },
+  "tg_groups_max": {
+    "message": "Максимум 5"
+  },
+  "tg_groups_duplicate": {
+    "message": "Уже есть"
+  },
+  "tg_groups_save": {
+    "message": "Сохранить"
+  },
   "telegram_share_button": {
     "message": "Поделиться в Telegram"
   },
@@ -4384,5 +4453,80 @@
   },
   "split_source_wallet_not_found": {
     "message": "Исходный кошелёк не найден"
+  },
+  "export_labels": {
+    "message": "Экспорт меток"
+  },
+  "export_labels_description": {
+    "message": "Экспортируйте метки для резервной копии или переноса."
+  },
+  "export_labels_premium_required_title": {
+    "message": "Требуется Premium"
+  },
+  "export_labels_premium_required_body": {
+    "message": "Экспорт меток — функция Premium. Обновите план, чтобы экспортировать кошельки и Twitter в Axiom, GMGN, Padre и JSON."
+  },
+  "export_tab_wallets": {
+    "message": "Кошельки"
+  },
+  "export_tab_twitter": {
+    "message": "Twitter"
+  },
+  "export_format_axiom": {
+    "message": "Axiom / Padre (адрес, метка)"
+  },
+  "export_format_gmgn": {
+    "message": "GMGN (JSON)"
+  },
+  "export_format_json": {
+    "message": "Обычный JSON"
+  },
+  "export_format_padre": {
+    "message": "Padre (по одному в строке)"
+  },
+  "export_format_axiom_twitter": {
+    "message": "Axiom (@handle, в строке)"
+  },
+  "export_copy": {
+    "message": "Копировать"
+  },
+  "export_copied": {
+    "message": "Скопировано"
+  },
+  "export_download": {
+    "message": "Скачать"
+  },
+  "export_downloaded": {
+    "message": "Файл скачан"
+  },
+  "export_copy_failed": {
+    "message": "Не удалось скопировать"
+  },
+  "export_empty": {
+    "message": "Нет меток для экспорта"
+  },
+  "export_failed": {
+    "message": "Ошибка загрузки"
+  },
+  "export_loading": {
+    "message": "Подготовка..."
+  },
+  "export_count": {
+    "message": "{count} меток"
+  },
+  "export_axiom_capped_notice": {
+    "message": "Axiom импортирует не больше {cap}. Берём первые {cap} из {total}."
+  },
+  "export_chain_filter_label": {
+    "message": "Фильтр по сети"
+  },
+  "export_chain_all": {
+    "message": "Все"
+  },
+  "export_chain_sol": {
+    "message": "Solana"
+  },
+  "export_chain_evm": {
+    "message": "EVM"
   }
 }

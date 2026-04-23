@@ -26,6 +26,15 @@
   "premium_member_settings": {
     "message": "高级会员"
   },
+  "premium_menu_chip_upgrade": {
+    "message": "升级"
+  },
+  "premium_menu_chip_gold": {
+    "message": "Gold"
+  },
+  "premium_menu_chip_silver": {
+    "message": "Silver"
+  },
   "current_status": {
     "message": "当前状态"
   },
@@ -36,49 +45,73 @@
     "message": "升级为高级会员"
   },
   "premium_upgrade_cta_body": {
-    "message": "升级至更高套餐，解锁 3 小时热门账户以及更多高级会员功能。"
+    "message": "升级解锁更早的热门信号、标签导出、更高请求上限以及更多功能。"
   },
   "premium_features_title": {
     "message": "高级会员功能"
   },
   "premium_feature_export_labels": {
-    "message": "导出钱包与推特标签"
+    "message": "导出钱包与 X 标签"
   },
   "premium_feature_3h_trending": {
-    "message": "3 小时热门账号"
+    "message": "提前 2 小时看到 X 热门账号（1 小时和 3 小时窗口）"
   },
   "premium_feature_minimal_style": {
-    "message": "自定义：可关闭任何不需要的功能"
+    "message": "关闭任何你不需要的 Frontrun 功能"
   },
   "premium_feature_rate_limits": {
-    "message": "更高请求频率上限"
+    "message": "数据查询与检索的更高频率上限"
   },
   "premium_feature_api_access": {
-    "message": "API 访问"
+    "message": "Smart followers、X/钱包标签的 API 接入"
   },
   "premium_feature_frontrun_badge": {
     "message": "X 上的 Frontrun 徽章"
   },
   "premium_feature_many_more": {
-    "message": "更多功能"
+    "message": "新功能抢先体验"
   },
   "trading_toggle": {
     "message": "交易"
   },
   "trading_toggle_desc": {
-    "message": "全平台交易功能。关闭后将禁用所有平台的交易"
+    "message": "Axiom、GMGN、Padre 及其他所有平台的 Buy/Sell 总开关。关闭后将禁用所有平台的交易。"
   },
   "hide_powered_by_on_twitter": {
-    "message": "隐藏 Frontrun 标签"
+    "message": "隐藏 Frontrun 水印"
   },
   "hide_powered_by_on_twitter_desc": {
-    "message": "隐藏 Powered by Frontrun 标签"
+    "message": "在 X 和交易终端上移除 \"Powered by Frontrun\" 水印"
   },
   "disable_quickbuy_on_trenches": {
     "message": "禁用 QuickBuy"
   },
   "disable_quickbuy_on_trenches_desc": {
-    "message": "在 Axiom、GMGN、Padre 的 token 发现页面禁用 QuickBuy"
+    "message": "在 Axiom Pulse、GMGN Discover 和 Padre Trenches 隐藏一键 QuickBuy 按钮，避免误买。"
+  },
+  "badge_on_x": {
+    "message": "X 上的 Frontrun 徽章"
+  },
+  "badge_on_x_desc": {
+    "message": "在你的 X 个人主页名字旁显示 Gold 级 Frontrun 徽章，其他 Frontrun 用户可见。"
+  },
+  "badge_tooltip_team": {
+    "message": "Frontrun 团队官方账号"
+  },
+  "badge_tooltip_community": {
+    "message": "Frontrun 认可账号"
+  },
+  "badge_tooltip_community_info": {
+    "message": "认可，非背书。请自行研究 (DYOR)。"
+  },
+  "badge_tooltip_gold_title": {
+    "message": "Frontrun Gold 会员"
+  },
+  "badge_tooltip_gold_info": {
+    "message": "订阅会员，非 Frontrun 团队。请自行研究 (DYOR)。"
+  },
+  "badge_tooltip_gold_cta": {
+    "message": "升级到 Gold"
   },
   "general_settings": {
     "message": "通用"
@@ -750,10 +783,10 @@
     "message": "{count} 个账户无法关闭"
   },
   "rent_claim_skipped_low_balance": {
-    "message": "已跳过 {count} 个钱包 —— 至少需要 {threshold} SOL 才能回收租金"
+    "message": "已跳过 {count} 个钱包。回收租金至少需要 {threshold} SOL。"
   },
   "cashback_claim_skipped_low_balance": {
-    "message": "已跳过 {count} 个钱包 —— 至少需要 {threshold} SOL 才能领取返现"
+    "message": "已跳过 {count} 个钱包。领取返现至少需要 {threshold} SOL。"
   },
   "claimed_successfully": {
     "message": "领取成功"
@@ -1532,6 +1565,9 @@
   "copy_address": {
     "message": "复制地址"
   },
+  "fund_cta_copy_address": {
+    "message": "复制地址"
+  },
   "export_private_key": {
     "message": "导出私钥"
   },
@@ -1558,6 +1594,12 @@
   },
   "error": {
     "message": "错误"
+  },
+  "warning": {
+    "message": "警告"
+  },
+  "info": {
+    "message": "提示"
   },
   "enter_destination_address": {
     "message": "输入目标地址"
@@ -3158,6 +3200,9 @@
   "trading_panel_add_funds_description": {
     "message": "存入 SOL 以开始交易，节省高达 90% 的费用。"
   },
+  "trading_panel_add_funds_description_bsc": {
+    "message": "存入 BNB 以开始交易，节省高达 90% 的费用。"
+  },
   "trading_panel_receive_funds": {
     "message": "接收资金"
   },
@@ -4073,6 +4118,33 @@
   "default_telegram_group_placeholder": {
     "message": "例如 @my_group"
   },
+  "default_telegram_group_invalid": {
+    "message": "输入公开群的 @用户名"
+  },
+  "default_telegram_group_private_not_supported": {
+    "message": "不支持私密群组,请使用公开 @用户名"
+  },
+  "default_telegram_group_target": {
+    "message": "将发送至 @{group}"
+  },
+  "tg_groups_send_to": {
+    "message": "发送至"
+  },
+  "tg_groups_picker_fallback": {
+    "message": "Telegram 选择器"
+  },
+  "tg_groups_add": {
+    "message": "+ 添加群组"
+  },
+  "tg_groups_max": {
+    "message": "最多 5 个群组"
+  },
+  "tg_groups_duplicate": {
+    "message": "已添加"
+  },
+  "tg_groups_save": {
+    "message": "保存"
+  },
   "telegram_share_button": {
     "message": "Telegram 分享"
   },
@@ -4372,5 +4444,80 @@
   },
   "split_source_wallet_not_found": {
     "message": "未找到源钱包"
+  },
+  "export_labels": {
+    "message": "导出标签"
+  },
+  "export_labels_description": {
+    "message": "导出你的标签，便于备份或迁移到其他工具。"
+  },
+  "export_labels_premium_required_title": {
+    "message": "需要高级会员"
+  },
+  "export_labels_premium_required_body": {
+    "message": "标签导出是高级会员功能。升级后可将钱包和 Twitter 标签导出为 Axiom、GMGN、Padre 或 JSON 格式。"
+  },
+  "export_tab_wallets": {
+    "message": "钱包"
+  },
+  "export_tab_twitter": {
+    "message": "Twitter"
+  },
+  "export_format_axiom": {
+    "message": "Axiom / Padre（地址, 标签）"
+  },
+  "export_format_gmgn": {
+    "message": "GMGN（JSON）"
+  },
+  "export_format_json": {
+    "message": "常规 JSON"
+  },
+  "export_format_padre": {
+    "message": "Padre（每行一个账号）"
+  },
+  "export_format_axiom_twitter": {
+    "message": "Axiom（每行 @账号,）"
+  },
+  "export_copy": {
+    "message": "复制"
+  },
+  "export_copied": {
+    "message": "已复制到剪贴板"
+  },
+  "export_download": {
+    "message": "下载"
+  },
+  "export_downloaded": {
+    "message": "文件已下载"
+  },
+  "export_copy_failed": {
+    "message": "复制到剪贴板失败"
+  },
+  "export_empty": {
+    "message": "暂无可导出的标签"
+  },
+  "export_failed": {
+    "message": "加载导出失败"
+  },
+  "export_loading": {
+    "message": "正在准备导出..."
+  },
+  "export_count": {
+    "message": "{count} 个标签"
+  },
+  "export_axiom_capped_notice": {
+    "message": "Axiom 单次最多导入 {cap} 个账号，已截取前 {cap} 个（共 {total} 个）"
+  },
+  "export_chain_filter_label": {
+    "message": "按链筛选钱包"
+  },
+  "export_chain_all": {
+    "message": "全部"
+  },
+  "export_chain_sol": {
+    "message": "Solana"
+  },
+  "export_chain_evm": {
+    "message": "EVM"
   }
 }

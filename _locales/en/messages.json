@@ -29,6 +29,15 @@
   "premium_member_settings": {
     "message": "Premium"
   },
+  "premium_menu_chip_upgrade": {
+    "message": "Upgrade"
+  },
+  "premium_menu_chip_gold": {
+    "message": "Gold"
+  },
+  "premium_menu_chip_silver": {
+    "message": "Silver"
+  },
   "current_status": {
     "message": "Current Status"
   },
@@ -39,49 +48,73 @@
     "message": "Upgrade to Premium"
   },
   "premium_upgrade_cta_body": {
-    "message": "Upgrade to a higher tier to unlock 3h trending accounts and many more Premium features."
+    "message": "Upgrade to unlock earlier trending signals, label exports, higher rate limits, and more."
   },
   "premium_features_title": {
     "message": "Premium Member features"
   },
   "premium_feature_export_labels": {
-    "message": "Export wallet and Twitter labels"
+    "message": "Export your wallet and X labels"
   },
   "premium_feature_3h_trending": {
-    "message": "3h Trending Accounts"
+    "message": "See trending X accounts 2h earlier (1h & 3h windows)"
   },
   "premium_feature_minimal_style": {
-    "message": "Customization: turn off any unwanted features"
+    "message": "Turn off any Frontrun feature you don't use"
   },
   "premium_feature_rate_limits": {
-    "message": "Higher rate limits"
+    "message": "Higher rate limits on data queries and lookups"
   },
   "premium_feature_api_access": {
-    "message": "API Access"
+    "message": "API access for smart followers, X/Wallet labels"
   },
   "premium_feature_frontrun_badge": {
     "message": "Frontrun Badge on X"
   },
   "premium_feature_many_more": {
-    "message": "Many more features"
+    "message": "Early access to new features"
   },
   "trading_toggle": {
     "message": "Trading"
   },
   "trading_toggle_desc": {
-    "message": "Execute trades across all platforms. Turn off to disable trading everywhere"
+    "message": "Master switch for Buy/Sell on Axiom, GMGN, Padre, and every other platform. Turn off to disable trading everywhere."
   },
   "hide_powered_by_on_twitter": {
-    "message": "Hide Frontrun Tag"
+    "message": "Hide Frontrun Watermark"
   },
   "hide_powered_by_on_twitter_desc": {
-    "message": "Hide the Powered by Frontrun tag"
+    "message": "Remove the \"Powered by Frontrun\" watermark on X and trading terminals"
   },
   "disable_quickbuy_on_trenches": {
     "message": "Disable QuickBuy on Discovery Pages"
   },
   "disable_quickbuy_on_trenches_desc": {
-    "message": "Disable QuickBuy on token discovery pages across Axiom, GMGN, and Padre"
+    "message": "Hide the one-click QuickBuy button on Axiom Pulse, GMGN Discover, and Padre Trenches to avoid accidental buys."
+  },
+  "badge_on_x": {
+    "message": "Frontrun Badge on X"
+  },
+  "badge_on_x_desc": {
+    "message": "Show your Gold Frontrun badge next to your handle on X. Visible to other Frontrun users."
+  },
+  "badge_tooltip_team": {
+    "message": "Official Frontrun team account"
+  },
+  "badge_tooltip_community": {
+    "message": "Recognized by Frontrun"
+  },
+  "badge_tooltip_community_info": {
+    "message": "Recognition, not endorsement. DYOR."
+  },
+  "badge_tooltip_gold_title": {
+    "message": "Frontrun Gold member"
+  },
+  "badge_tooltip_gold_info": {
+    "message": "Subscriber, not Frontrun team. DYOR."
+  },
+  "badge_tooltip_gold_cta": {
+    "message": "Upgrade to Gold"
   },
   "general_settings": {
     "message": "General"
@@ -756,10 +789,10 @@
     "message": "{count} accounts could not be closed"
   },
   "rent_claim_skipped_low_balance": {
-    "message": "{count} wallet(s) skipped — need at least {threshold} SOL to reclaim rent"
+    "message": "{count} wallet(s) skipped. Needs {threshold} SOL minimum to reclaim rent."
   },
   "cashback_claim_skipped_low_balance": {
-    "message": "{count} wallet(s) skipped — need at least {threshold} SOL to claim cashback"
+    "message": "{count} wallet(s) skipped. Needs {threshold} SOL minimum to claim cashback."
   },
   "claimed_successfully": {
     "message": "Claimed Successfully"
@@ -1466,6 +1499,9 @@
   "copy_address": {
     "message": "Copy Address"
   },
+  "fund_cta_copy_address": {
+    "message": "Copy address"
+  },
   "export_private_key": {
     "message": "Export Private Key"
   },
@@ -1492,6 +1528,12 @@
   },
   "error": {
     "message": "Error"
+  },
+  "warning": {
+    "message": "Warning"
+  },
+  "info": {
+    "message": "Info"
   },
   "enter_destination_address": {
     "message": "Enter destination address"
@@ -4082,6 +4124,33 @@
   "default_telegram_group_placeholder": {
     "message": "e.g. @my_group"
   },
+  "default_telegram_group_invalid": {
+    "message": "Enter a public @username"
+  },
+  "default_telegram_group_private_not_supported": {
+    "message": "Private groups aren't supported — use a public @username"
+  },
+  "default_telegram_group_target": {
+    "message": "Sending to @{group}"
+  },
+  "tg_groups_send_to": {
+    "message": "Send to"
+  },
+  "tg_groups_picker_fallback": {
+    "message": "Telegram picker"
+  },
+  "tg_groups_add": {
+    "message": "+ Add group"
+  },
+  "tg_groups_max": {
+    "message": "Max 5 groups"
+  },
+  "tg_groups_duplicate": {
+    "message": "Already added"
+  },
+  "tg_groups_save": {
+    "message": "Save"
+  },
   "telegram_share_button": {
     "message": "Telegram Share"
   },
@@ -4381,5 +4450,80 @@
   },
   "split_source_wallet_not_found": {
     "message": "Source wallet not found"
+  },
+  "export_labels": {
+    "message": "Export Labels"
+  },
+  "export_labels_description": {
+    "message": "Export your labels to back them up or migrate to another tool."
+  },
+  "export_labels_premium_required_title": {
+    "message": "Premium subscription required"
+  },
+  "export_labels_premium_required_body": {
+    "message": "Label export is a Premium feature. Upgrade to export your wallet and Twitter labels in Axiom, GMGN, Padre, and JSON formats."
+  },
+  "export_tab_wallets": {
+    "message": "Wallets"
+  },
+  "export_tab_twitter": {
+    "message": "Twitter"
+  },
+  "export_format_axiom": {
+    "message": "Axiom / Padre (address, label)"
+  },
+  "export_format_gmgn": {
+    "message": "GMGN (JSON)"
+  },
+  "export_format_json": {
+    "message": "Regular JSON"
+  },
+  "export_format_padre": {
+    "message": "Padre (one handle per line)"
+  },
+  "export_format_axiom_twitter": {
+    "message": "Axiom (@handle, per line)"
+  },
+  "export_copy": {
+    "message": "Copy"
+  },
+  "export_copied": {
+    "message": "Copied to clipboard"
+  },
+  "export_download": {
+    "message": "Download"
+  },
+  "export_downloaded": {
+    "message": "File downloaded"
+  },
+  "export_copy_failed": {
+    "message": "Failed to copy to clipboard"
+  },
+  "export_empty": {
+    "message": "No labels to export"
+  },
+  "export_failed": {
+    "message": "Failed to load export"
+  },
+  "export_loading": {
+    "message": "Preparing export..."
+  },
+  "export_count": {
+    "message": "{count} labels"
+  },
+  "export_axiom_capped_notice": {
+    "message": "Axiom accepts at most {cap} accounts per import. Showing the first {cap} of {total}."
+  },
+  "export_chain_filter_label": {
+    "message": "Filter wallets by chain"
+  },
+  "export_chain_all": {
+    "message": "All"
+  },
+  "export_chain_sol": {
+    "message": "Solana"
+  },
+  "export_chain_evm": {
+    "message": "EVM"
   }
 }
