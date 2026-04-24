@@ -150,7 +150,7 @@
     "message": "Кэш"
   },
   "clear_cache": {
-    "message": "Очистить"
+    "message": "Очистить кэш"
   },
   "light": {
     "message": "Светлая"
@@ -1625,6 +1625,21 @@
   "upgrade_to_passwordless": {
     "message": "Предоставить доступ без пароля"
   },
+  "upgrade_intro_cashback_title": {
+    "message": "Торгуйте быстрее с кэшбэком"
+  },
+  "upgrade_intro_cashback_highlight": {
+    "message": "до 90%."
+  },
+  "upgrade_intro_powered_by_turnkey": {
+    "message": "На инфраструктуре {turnkey}"
+  },
+  "upgrade_intro_turnkey_description": {
+    "message": "Та же инфраструктура кошельков, что и у Axiom.\nFrontrun не имеет доступа к вашим ключам."
+  },
+  "upgrade_intro_turnkey_footer": {
+    "message": "Безопасная подпись на основе {turnkey}."
+  },
   "select_group": {
     "message": "Выберите группу"
   },
@@ -2303,6 +2318,12 @@
   "user_id": {
     "message": "ID пользователя"
   },
+  "plan": {
+    "message": "План"
+  },
+  "manage_plan": {
+    "message": "Управлять планом"
+  },
   "set_username": {
     "message": "Задать имя"
   },
@@ -2528,6 +2549,9 @@
   "enter_sol_amount": {
     "message": "Введите количество SOL"
   },
+  "enter_bnb_amount": {
+    "message": "Введите сумму BNB"
+  },
   "enter_usdc_amount": {
     "message": "Введите количество USDC"
   },
@@ -2743,6 +2767,72 @@
   },
   "autotrade_sl_percentage_too_high": {
     "message": "SL/TSL не может быть 100%"
+  },
+  "autotrade_preset_save": {
+    "message": "Сохранить"
+  },
+  "autotrade_preset_apply": {
+    "message": "Применить пресет"
+  },
+  "autotrade_preset_manage": {
+    "message": "Пресеты"
+  },
+  "autotrade_preset_rename": {
+    "message": "Переименовать"
+  },
+  "autotrade_preset_delete": {
+    "message": "Удалить"
+  },
+  "autotrade_preset_name_placeholder": {
+    "message": "Имя пресета"
+  },
+  "autotrade_preset_name_empty": {
+    "message": "Имя обязательно"
+  },
+  "autotrade_preset_limit_reached": {
+    "message": "Максимум {max} пресетов"
+  },
+  "autotrade_preset_limit_placeholder": {
+    "message": "Макс. {max} пресетов"
+  },
+  "autotrade_preset_no_tiers": {
+    "message": "Добавьте хотя бы один ордер"
+  },
+  "autotrade_preset_too_many_tiers": {
+    "message": "Макс. {max} ордеров — удалите лишние"
+  },
+  "autotrade_preset_not_applicable": {
+    "message": "Нет поддерживаемых ордеров"
+  },
+  "autotrade_preset_overwrite_title": {
+    "message": "Перезаписать ордера?"
+  },
+  "autotrade_preset_overwrite_description": {
+    "message": "Пресет заменит текущие {count} ордеров."
+  },
+  "autotrade_preset_overwrite_confirm": {
+    "message": "Перезаписать"
+  },
+  "autotrade_preset_empty_state": {
+    "message": "Нет пресетов"
+  },
+  "autotrade_preset_saved": {
+    "message": "Пресет сохранён"
+  },
+  "autotrade_preset_applied": {
+    "message": "Пресет применён"
+  },
+  "autotrade_preset_deleted": {
+    "message": "Пресет удалён"
+  },
+  "autotrade_preset_tier_count": {
+    "message": "{count} ордеров"
+  },
+  "autotrade_preset_delete_confirm_title": {
+    "message": "Удалить пресет?"
+  },
+  "autotrade_preset_delete_confirm_description": {
+    "message": "\"{name}\" будет удалён."
   },
   "autotrade_limit_orders_created": {
     "message": "TP/SL ордер создан"
@@ -3437,6 +3527,12 @@
   "estimate_amount_on_hover_desc": {
     "message": "Панель торговли показывает расчётную сумму при наведении"
   },
+  "compact_trading_panel": {
+    "message": "Мини-панель торговли"
+  },
+  "compact_trading_panel_desc": {
+    "message": "Уменьшить панель торговли."
+  },
   "reset_pnl": {
     "message": "Сброс PNL"
   },
@@ -4010,6 +4106,18 @@
   "quick_buy_title": {
     "message": "Frontrun быстрая покупка"
   },
+  "axiom_quick_buy_usdc_title": {
+    "message": "Frontrun быстрая покупка {amount} USDC"
+  },
+  "axiom_quick_buy_usdc_suffix": {
+    "message": "USDC"
+  },
+  "sol_price_unavailable": {
+    "message": "Цена SOL недоступна. Попробуйте снова."
+  },
+  "axiom_usdc_pool_fallback_notice": {
+    "message": "Пул не поддерживает USDC — через SOL."
+  },
   "token_incinerator": {
     "message": "Сжигание токенов"
   },
@@ -4367,6 +4475,18 @@
   "upgrade_to_unlock": {
     "message": "Upgrade to Unlock"
   },
+  "rate_limit_reached": {
+    "message": "Лимит достигнут"
+  },
+  "rate_limit_resets_at": {
+    "message": "Сброс в $time$",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "15:00"
+      }
+    }
+  },
   "credit_plan_usage_header": {
     "message": "План {planName}"
   },
@@ -4390,6 +4510,33 @@
   },
   "credit_upgrade_tooltip_cta": {
     "message": "Смотреть планы →"
+  },
+  "credit_upgrade_cta_upgrade_now": {
+    "message": "Улучшить план →"
+  },
+  "credit_limit_cta_see_details": {
+    "message": "Подробнее →"
+  },
+  "credit_limit_daily_title": {
+    "message": "Достигнут дневной лимит"
+  },
+  "credit_limit_weekly_title": {
+    "message": "Достигнут недельный лимит"
+  },
+  "credit_limit_both_title": {
+    "message": "Достигнуты дневной и недельный лимиты"
+  },
+  "credit_limit_tooltip_title": {
+    "message": "Лимит на сегодня"
+  },
+  "credit_limit_tooltip_subtitle": {
+    "message": "План {planName} сбросится через {reset}."
+  },
+  "credit_limit_tooltip_subtitle_generic": {
+    "message": "План {planName} скоро сбросится."
+  },
+  "credit_limit_tooltip_understood": {
+    "message": "Понятно"
   },
   "consolidate": {
     "message": "Объединить"

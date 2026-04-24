@@ -144,7 +144,7 @@
     "message": "缓存"
   },
   "clear_cache": {
-    "message": "清除"
+    "message": "清除缓存"
   },
   "light": {
     "message": "浅色"
@@ -1631,6 +1631,21 @@
   "upgrade_to_passwordless": {
     "message": "升级到无密码交易"
   },
+  "upgrade_intro_cashback_title": {
+    "message": "更快交易，最高可享"
+  },
+  "upgrade_intro_cashback_highlight": {
+    "message": "90% 返现。"
+  },
+  "upgrade_intro_powered_by_turnkey": {
+    "message": "由 {turnkey} 提供支持"
+  },
+  "upgrade_intro_turnkey_description": {
+    "message": "与 Axiom 相同的钱包基础设施。\nFrontrun 永远不会访问您的密钥。"
+  },
+  "upgrade_intro_turnkey_footer": {
+    "message": "由 {turnkey} 提供安全签名。"
+  },
   "select_group": {
     "message": "选择分组"
   },
@@ -2297,6 +2312,12 @@
   "user_id": {
     "message": "用户 ID"
   },
+  "plan": {
+    "message": "套餐"
+  },
+  "manage_plan": {
+    "message": "管理套餐"
+  },
   "set_username": {
     "message": "设置用户名"
   },
@@ -2525,6 +2546,9 @@
   "enter_sol_amount": {
     "message": "输入 SOL 数量"
   },
+  "enter_bnb_amount": {
+    "message": "输入 BNB 数量"
+  },
   "enter_usdc_amount": {
     "message": "输入 USDC 数量"
   },
@@ -2737,6 +2761,72 @@
   },
   "autotrade_sl_percentage_too_high": {
     "message": "止损/追踪止损百分比不能达到 100%"
+  },
+  "autotrade_preset_save": {
+    "message": "保存为预设"
+  },
+  "autotrade_preset_apply": {
+    "message": "应用预设"
+  },
+  "autotrade_preset_manage": {
+    "message": "管理预设"
+  },
+  "autotrade_preset_rename": {
+    "message": "重命名"
+  },
+  "autotrade_preset_delete": {
+    "message": "删除"
+  },
+  "autotrade_preset_name_placeholder": {
+    "message": "预设名称"
+  },
+  "autotrade_preset_name_empty": {
+    "message": "名称不能为空"
+  },
+  "autotrade_preset_limit_reached": {
+    "message": "最多保存 {max} 个预设"
+  },
+  "autotrade_preset_limit_placeholder": {
+    "message": "上限 {max} 个预设"
+  },
+  "autotrade_preset_no_tiers": {
+    "message": "保存前请至少添加一条订单"
+  },
+  "autotrade_preset_too_many_tiers": {
+    "message": "每个预设最多 {max} 条订单，请先删除多余的"
+  },
+  "autotrade_preset_not_applicable": {
+    "message": "此预设无适用订单"
+  },
+  "autotrade_preset_overwrite_title": {
+    "message": "覆盖当前订单？"
+  },
+  "autotrade_preset_overwrite_description": {
+    "message": "应用预设将替换当前 {count} 条订单。"
+  },
+  "autotrade_preset_overwrite_confirm": {
+    "message": "覆盖"
+  },
+  "autotrade_preset_empty_state": {
+    "message": "暂无预设"
+  },
+  "autotrade_preset_saved": {
+    "message": "已保存预设"
+  },
+  "autotrade_preset_applied": {
+    "message": "已应用预设"
+  },
+  "autotrade_preset_deleted": {
+    "message": "已删除预设"
+  },
+  "autotrade_preset_tier_count": {
+    "message": "{count} 条订单"
+  },
+  "autotrade_preset_delete_confirm_title": {
+    "message": "删除预设？"
+  },
+  "autotrade_preset_delete_confirm_description": {
+    "message": "将永久删除 \"{name}\"。"
   },
   "autotrade_limit_orders_created": {
     "message": "TP/SL 订单已创建"
@@ -3431,6 +3521,12 @@
   "estimate_amount_on_hover_desc": {
     "message": "悬停时在交易面板上显示预估交易数量"
   },
+  "compact_trading_panel": {
+    "message": "迷你交易面板"
+  },
+  "compact_trading_panel_desc": {
+    "message": "将交易面板缩小为更小的尺寸。"
+  },
   "reset_pnl": {
     "message": "重置盈亏"
   },
@@ -4001,6 +4097,18 @@
   "quick_buy_title": {
     "message": "Frontrun 快速买入"
   },
+  "axiom_quick_buy_usdc_title": {
+    "message": "Frontrun 快速买入 {amount} USDC"
+  },
+  "axiom_quick_buy_usdc_suffix": {
+    "message": "USDC"
+  },
+  "sol_price_unavailable": {
+    "message": "SOL 价格不可用，请重试。"
+  },
+  "axiom_usdc_pool_fallback_notice": {
+    "message": "此池不支持 USDC，已自动通过 SOL 执行"
+  },
   "token_incinerator": {
     "message": "代币焚烧"
   },
@@ -4358,6 +4466,18 @@
   "upgrade_to_unlock": {
     "message": "Upgrade to Unlock"
   },
+  "rate_limit_reached": {
+    "message": "已达使用上限"
+  },
+  "rate_limit_resets_at": {
+    "message": "将于 $time$ 重置",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "下午 3:00"
+      }
+    }
+  },
   "credit_plan_usage_header": {
     "message": "{planName} 计划"
   },
@@ -4381,6 +4501,33 @@
   },
   "credit_upgrade_tooltip_cta": {
     "message": "查看方案 →"
+  },
+  "credit_upgrade_cta_upgrade_now": {
+    "message": "立即升级 →"
+  },
+  "credit_limit_cta_see_details": {
+    "message": "查看详情 →"
+  },
+  "credit_limit_daily_title": {
+    "message": "今日额度已达上限"
+  },
+  "credit_limit_weekly_title": {
+    "message": "本周额度已达上限"
+  },
+  "credit_limit_both_title": {
+    "message": "今日和本周额度均已达上限"
+  },
+  "credit_limit_tooltip_title": {
+    "message": "今日已达上限"
+  },
+  "credit_limit_tooltip_subtitle": {
+    "message": "您的额度将在 {reset} 后重置。"
+  },
+  "credit_limit_tooltip_subtitle_generic": {
+    "message": "您的额度即将重置。"
+  },
+  "credit_limit_tooltip_understood": {
+    "message": "我知道了"
   },
   "consolidate": {
     "message": "合并"

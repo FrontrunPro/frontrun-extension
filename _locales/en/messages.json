@@ -147,7 +147,7 @@
     "message": "Cache"
   },
   "clear_cache": {
-    "message": "Clear"
+    "message": "Clear Cache"
   },
   "light": {
     "message": "Light"
@@ -1565,6 +1565,21 @@
   "upgrade_to_passwordless": {
     "message": "Upgrade to Passwordless"
   },
+  "upgrade_intro_cashback_title": {
+    "message": "Trade faster with up to"
+  },
+  "upgrade_intro_cashback_highlight": {
+    "message": "90% Cashback."
+  },
+  "upgrade_intro_powered_by_turnkey": {
+    "message": "Powered by {turnkey}"
+  },
+  "upgrade_intro_turnkey_description": {
+    "message": "The same wallet infrastructure as Axiom.\nFrontrun never accesses your keys."
+  },
+  "upgrade_intro_turnkey_footer": {
+    "message": "Powered by {turnkey} secure signing."
+  },
   "select_group": {
     "message": "Select Group"
   },
@@ -2255,6 +2270,12 @@
   "user_id": {
     "message": "User ID"
   },
+  "plan": {
+    "message": "Plan"
+  },
+  "manage_plan": {
+    "message": "Manage plan"
+  },
   "set_username": {
     "message": "Set username"
   },
@@ -2476,6 +2497,9 @@
   },
   "enter_sol_amount": {
     "message": "Enter SOL amount"
+  },
+  "enter_bnb_amount": {
+    "message": "Enter BNB amount"
   },
   "enter_usdc_amount": {
     "message": "Enter USDC amount"
@@ -2725,6 +2749,72 @@
   },
   "autotrade_sl_percentage_too_high": {
     "message": "Stop Loss/TSL percentage must be less than 100%"
+  },
+  "autotrade_preset_save": {
+    "message": "Save as Preset"
+  },
+  "autotrade_preset_apply": {
+    "message": "Apply Preset"
+  },
+  "autotrade_preset_manage": {
+    "message": "Manage Presets"
+  },
+  "autotrade_preset_rename": {
+    "message": "Rename"
+  },
+  "autotrade_preset_delete": {
+    "message": "Delete"
+  },
+  "autotrade_preset_name_placeholder": {
+    "message": "Preset name"
+  },
+  "autotrade_preset_name_empty": {
+    "message": "Name cannot be empty"
+  },
+  "autotrade_preset_limit_reached": {
+    "message": "You can save up to {max} presets"
+  },
+  "autotrade_preset_limit_placeholder": {
+    "message": "Max {max} presets"
+  },
+  "autotrade_preset_no_tiers": {
+    "message": "Add at least one order before saving"
+  },
+  "autotrade_preset_too_many_tiers": {
+    "message": "Max {max} orders per preset — remove some to save"
+  },
+  "autotrade_preset_not_applicable": {
+    "message": "Preset has no orders supported here"
+  },
+  "autotrade_preset_overwrite_title": {
+    "message": "Overwrite existing orders?"
+  },
+  "autotrade_preset_overwrite_description": {
+    "message": "Applying this preset will replace your current {count} orders."
+  },
+  "autotrade_preset_overwrite_confirm": {
+    "message": "Overwrite"
+  },
+  "autotrade_preset_empty_state": {
+    "message": "No saved presets yet"
+  },
+  "autotrade_preset_saved": {
+    "message": "Preset saved"
+  },
+  "autotrade_preset_applied": {
+    "message": "Preset applied"
+  },
+  "autotrade_preset_deleted": {
+    "message": "Preset deleted"
+  },
+  "autotrade_preset_tier_count": {
+    "message": "{count} orders"
+  },
+  "autotrade_preset_delete_confirm_title": {
+    "message": "Delete preset?"
+  },
+  "autotrade_preset_delete_confirm_description": {
+    "message": "\"{name}\" will be permanently removed."
   },
   "view_orders_in_trading_panel": {
     "message": "View orders in trading panel"
@@ -3434,6 +3524,12 @@
   "estimate_amount_on_hover_desc": {
     "message": "Instant trade panel shows reflected amount on hover"
   },
+  "compact_trading_panel": {
+    "message": "Mini Trading Panel"
+  },
+  "compact_trading_panel_desc": {
+    "message": "Shrink the trading panel to a smaller size."
+  },
   "reset_pnl": {
     "message": "Reset PNL"
   },
@@ -4007,6 +4103,18 @@
   "quick_buy_title": {
     "message": "Frontrun quick buy"
   },
+  "axiom_quick_buy_usdc_title": {
+    "message": "Frontrun quick buy {amount} USDC"
+  },
+  "axiom_quick_buy_usdc_suffix": {
+    "message": "USDC"
+  },
+  "sol_price_unavailable": {
+    "message": "SOL price unavailable. Please try again."
+  },
+  "axiom_usdc_pool_fallback_notice": {
+    "message": "Pool doesn't support USDC — routed via SOL."
+  },
   "token_incinerator": {
     "message": "Token Incinerator"
   },
@@ -4364,6 +4472,18 @@
   "upgrade_to_unlock": {
     "message": "Upgrade to Unlock"
   },
+  "rate_limit_reached": {
+    "message": "Rate limit reached"
+  },
+  "rate_limit_resets_at": {
+    "message": "Resets at $time$",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "3:00 PM"
+      }
+    }
+  },
   "credit_plan_usage_header": {
     "message": "{planName} Plan"
   },
@@ -4387,6 +4507,33 @@
   },
   "credit_upgrade_tooltip_cta": {
     "message": "See plans →"
+  },
+  "credit_upgrade_cta_upgrade_now": {
+    "message": "Upgrade now →"
+  },
+  "credit_limit_cta_see_details": {
+    "message": "See details →"
+  },
+  "credit_limit_daily_title": {
+    "message": "Your daily limit is reached"
+  },
+  "credit_limit_weekly_title": {
+    "message": "Your weekly limit is reached"
+  },
+  "credit_limit_both_title": {
+    "message": "Your daily and weekly limits are reached"
+  },
+  "credit_limit_tooltip_title": {
+    "message": "Daily Limit Reached"
+  },
+  "credit_limit_tooltip_subtitle": {
+    "message": "Your {planName} plan resets in {reset}."
+  },
+  "credit_limit_tooltip_subtitle_generic": {
+    "message": "Your {planName} plan resets soon."
+  },
+  "credit_limit_tooltip_understood": {
+    "message": "Understood"
   },
   "consolidate": {
     "message": "Consolidate"
