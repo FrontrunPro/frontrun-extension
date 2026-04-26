@@ -53,9 +53,6 @@
   "premium_features_title": {
     "message": "Функции Premium"
   },
-  "learn_more": {
-    "message": "Подробнее"
-  },
   "premium_feature_export_labels": {
     "message": "Экспорт меток кошельков и X"
   },
@@ -4600,6 +4597,42 @@
   },
   "split_source_wallet_not_found": {
     "message": "Исходный кошелёк не найден"
+  },
+  "first_followers_pill": {
+    "message": "Первые подписчики"
+  },
+  "first_followers_pill_tooltip": {
+    "message": "Посмотреть первых подписчиков этого аккаунта"
+  },
+  "first_followers_panel_title": {
+    "message": "Первые подписчики"
+  },
+  "first_followers_empty": {
+    "message": "Первых подписчиков нет"
+  },
+  "first_followers_locked_title": {
+    "message": "Откройте первых подписчиков"
+  },
+  "first_followers_locked_desc": {
+    "message": "Перейдите на Silver и выше, чтобы видеть первых подписчиков."
+  },
+  "first_followers_followed_on": {
+    "message": "подписался"
+  },
+  "first_followers_loading": {
+    "message": "Загрузка…"
+  },
+  "first_followers_error": {
+    "message": "Не удалось загрузить. Повторите."
+  },
+  "first_followers_stat_following": {
+    "message": "Подписки"
+  },
+  "first_followers_stat_followers": {
+    "message": "Подписчики"
+  },
+  "first_followers_stat_smart": {
+    "message": "Smart"
   },
   "export_labels": {
     "message": "Экспорт меток"

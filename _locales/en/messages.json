@@ -41,9 +41,6 @@
   "current_status": {
     "message": "Current Status"
   },
-  "learn_more": {
-    "message": "Learn more"
-  },
   "premium_upgrade_cta_title": {
     "message": "Upgrade to Premium"
   },
@@ -4597,6 +4594,42 @@
   },
   "split_source_wallet_not_found": {
     "message": "Source wallet not found"
+  },
+  "first_followers_pill": {
+    "message": "First Followers"
+  },
+  "first_followers_pill_tooltip": {
+    "message": "See the first followers that followed this account"
+  },
+  "first_followers_panel_title": {
+    "message": "First Followers"
+  },
+  "first_followers_empty": {
+    "message": "No first followers found"
+  },
+  "first_followers_locked_title": {
+    "message": "Unlock first followers"
+  },
+  "first_followers_locked_desc": {
+    "message": "Upgrade to Silver or higher to see who followed this account first."
+  },
+  "first_followers_followed_on": {
+    "message": "followed"
+  },
+  "first_followers_loading": {
+    "message": "Loading first followers…"
+  },
+  "first_followers_error": {
+    "message": "Failed to load followers. Please try again."
+  },
+  "first_followers_stat_following": {
+    "message": "Following"
+  },
+  "first_followers_stat_followers": {
+    "message": "Followers"
+  },
+  "first_followers_stat_smart": {
+    "message": "Smart"
   },
   "export_labels": {
     "message": "Export Labels"

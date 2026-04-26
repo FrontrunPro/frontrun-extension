@@ -38,9 +38,6 @@
   "current_status": {
     "message": "当前状态"
   },
-  "learn_more": {
-    "message": "了解更多"
-  },
   "premium_upgrade_cta_title": {
     "message": "升级为高级会员"
   },
@@ -4591,6 +4588,42 @@
   },
   "split_source_wallet_not_found": {
     "message": "未找到源钱包"
+  },
+  "first_followers_pill": {
+    "message": "最早的粉丝"
+  },
+  "first_followers_pill_tooltip": {
+    "message": "查看该账户最早的粉丝"
+  },
+  "first_followers_panel_title": {
+    "message": "最早的粉丝"
+  },
+  "first_followers_empty": {
+    "message": "暂无最早粉丝记录"
+  },
+  "first_followers_locked_title": {
+    "message": "解锁最早粉丝"
+  },
+  "first_followers_locked_desc": {
+    "message": "升级到 Silver 或以上会员，即可查看最早关注该账户的用户。"
+  },
+  "first_followers_followed_on": {
+    "message": "关注于"
+  },
+  "first_followers_loading": {
+    "message": "正在加载最早粉丝…"
+  },
+  "first_followers_error": {
+    "message": "加载失败，请重试。"
+  },
+  "first_followers_stat_following": {
+    "message": "关注中"
+  },
+  "first_followers_stat_followers": {
+    "message": "粉丝"
+  },
+  "first_followers_stat_smart": {
+    "message": "聪明钱"
   },
   "export_labels": {
     "message": "导出标签"
