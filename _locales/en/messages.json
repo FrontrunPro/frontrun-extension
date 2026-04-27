@@ -3539,6 +3539,12 @@
   "pnl_include_fees_desc": {
     "message": "Subtract transaction fees (base, priority, tip, frontrun) from realized PNL"
   },
+  "keep_wsol_open": {
+    "message": "Keep WSOL Account Open"
+  },
+  "keep_wsol_open_desc": {
+    "message": "Keep your WSOL token account open after trades. Avoids unwrapping WSOL to native SOL each time, useful for frequent traders."
+  },
   "consolidate_token_accounts": {
     "message": "Consolidate Token Accounts"
   },
@@ -4598,9 +4604,6 @@
   "first_followers_pill": {
     "message": "First Followers"
   },
-  "first_followers_pill_tooltip": {
-    "message": "See the first followers that followed this account"
-  },
   "first_followers_panel_title": {
     "message": "First Followers"
   },
@@ -4613,11 +4616,11 @@
   "first_followers_locked_desc": {
     "message": "Upgrade to Silver or higher to see who followed this account first."
   },
-  "first_followers_followed_on": {
-    "message": "followed"
-  },
   "first_followers_loading": {
     "message": "Loading first followers…"
+  },
+  "first_followers_pending_background_fetch": {
+    "message": "First followers are being prepared. Please come back to this page in about {minutes} min and try again."
   },
   "first_followers_error": {
     "message": "Failed to load followers. Please try again."

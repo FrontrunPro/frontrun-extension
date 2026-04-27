@@ -3536,6 +3536,12 @@
   "pnl_include_fees_desc": {
     "message": "从已实现盈亏中扣除交易手续费（基础费、优先费、小费、前置费）"
   },
+  "keep_wsol_open": {
+    "message": "保留 WSOL 账户"
+  },
+  "keep_wsol_open_desc": {
+    "message": "交易后保留 WSOL 代币账户，不再自动解包为原生 SOL。适合频繁交易的用户。"
+  },
   "consolidate_token_accounts": {
     "message": "合并代币账户"
   },
@@ -4592,9 +4598,6 @@
   "first_followers_pill": {
     "message": "最早的粉丝"
   },
-  "first_followers_pill_tooltip": {
-    "message": "查看该账户最早的粉丝"
-  },
   "first_followers_panel_title": {
     "message": "最早的粉丝"
   },
@@ -4607,11 +4610,11 @@
   "first_followers_locked_desc": {
     "message": "升级到 Silver 或以上会员，即可查看最早关注该账户的用户。"
   },
-  "first_followers_followed_on": {
-    "message": "关注于"
-  },
   "first_followers_loading": {
     "message": "正在加载最早粉丝…"
+  },
+  "first_followers_pending_background_fetch": {
+    "message": "最早粉丝数据正在准备中，请约 {minutes} 分钟后回到此页面再试。"
   },
   "first_followers_error": {
     "message": "加载失败，请重试。"

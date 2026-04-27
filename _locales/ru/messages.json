@@ -3542,6 +3542,12 @@
   "pnl_include_fees_desc": {
     "message": "Вычитает комиссии (базовая, приоритетная, чаевые, антифронтран) из PNL"
   },
+  "keep_wsol_open": {
+    "message": "Сохранять WSOL аккаунт"
+  },
+  "keep_wsol_open_desc": {
+    "message": "Сохранять токен-аккаунт WSOL после сделок. Избегает конвертации WSOL в SOL каждый раз."
+  },
   "consolidate_token_accounts": {
     "message": "Объединить токен-аккаунты"
   },
@@ -4601,9 +4607,6 @@
   "first_followers_pill": {
     "message": "Первые подписчики"
   },
-  "first_followers_pill_tooltip": {
-    "message": "Посмотреть первых подписчиков этого аккаунта"
-  },
   "first_followers_panel_title": {
     "message": "Первые подписчики"
   },
@@ -4616,11 +4619,11 @@
   "first_followers_locked_desc": {
     "message": "Перейдите на Silver и выше, чтобы видеть первых подписчиков."
   },
-  "first_followers_followed_on": {
-    "message": "подписался"
-  },
   "first_followers_loading": {
     "message": "Загрузка…"
+  },
+  "first_followers_pending_background_fetch": {
+    "message": "Первые подписчики готовятся. Вернитесь на эту страницу примерно через {minutes} мин. и попробуйте снова."
   },
   "first_followers_error": {
     "message": "Не удалось загрузить. Повторите."
