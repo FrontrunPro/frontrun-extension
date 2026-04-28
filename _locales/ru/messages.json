@@ -87,10 +87,10 @@
     "message": "Убрать водяной знак «Powered by Frontrun» в X и торговых терминалах"
   },
   "disable_quickbuy_on_trenches": {
-    "message": "Отключить QuickBuy"
+    "message": "Отключить QuickBuy на Trenches"
   },
   "disable_quickbuy_on_trenches_desc": {
-    "message": "Скрыть кнопку QuickBuy на Axiom Pulse, GMGN Discover и Padre Trenches, чтобы избежать случайных покупок."
+    "message": "Отключить переключатель QuickBuy на Axiom Pulse, GMGN Trenches и Padre Trenches."
   },
   "badge_on_x": {
     "message": "Значок Frontrun в X"
@@ -1529,6 +1529,9 @@
   "share": {
     "message": "Поделиться"
   },
+  "share_pnl": {
+    "message": "Share PnL"
+  },
   "receive": {
     "message": "Получить"
   },
@@ -2798,6 +2801,12 @@
   "autotrade_preset_too_many_tiers": {
     "message": "Макс. {max} ордеров — удалите лишние"
   },
+  "autotrade_preset_duplicate_strategy": {
+    "message": "Уже сохранён как «{name}»"
+  },
+  "autotrade_preset_invalid_tiers": {
+    "message": "Заполните выделенные ордера"
+  },
   "autotrade_preset_not_applicable": {
     "message": "Нет поддерживаемых ордеров"
   },
@@ -4031,6 +4040,18 @@
   "auto_sort_wallets_by_balance_desc": {
     "message": "Вкл. — по балансу SOL/BNB. Выкл. — перетащите, чтобы задать порядок"
   },
+  "split_sell_amount_across_wallets": {
+    "message": "Делить сумму продажи поровну"
+  },
+  "split_sell_amount_across_wallets_desc": {
+    "message": "Сумма продажи делится поровну между выбранными кошельками."
+  },
+  "split_sell_insufficient_balance": {
+    "message": "Недостаточно баланса для разделённой продажи. Уменьшите сумму или выберите кошельки с большим балансом."
+  },
+  "split_sell_dropped_wallets": {
+    "message": "Пропущено {droppedCount} кошельков с недостаточным балансом — делим между {eligibleCount} кошельками."
+  },
   "custom_buy_amount": {
     "message": "Своя сумма"
   },
@@ -4622,8 +4643,20 @@
   "first_followers_loading": {
     "message": "Загрузка…"
   },
-  "first_followers_pending_background_fetch": {
-    "message": "Первые подписчики готовятся. Вернитесь на эту страницу примерно через {minutes} мин. и попробуйте снова."
+  "first_followers_pending_headline": {
+    "message": "Подбираем ваших первых подписчиков"
+  },
+  "first_followers_pending_subtitle": {
+    "message": "Извлекаем из свежего архива. Страница обновится автоматически."
+  },
+  "first_followers_pending_label_status": {
+    "message": "Статус"
+  },
+  "first_followers_pending_label_running": {
+    "message": "Идёт"
+  },
+  "first_followers_pending_label_next_sweep": {
+    "message": "Обновление"
   },
   "first_followers_error": {
     "message": "Не удалось загрузить. Повторите."

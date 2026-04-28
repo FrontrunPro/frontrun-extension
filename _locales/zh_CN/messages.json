@@ -81,10 +81,10 @@
     "message": "在 X 和交易终端上移除 \"Powered by Frontrun\" 水印"
   },
   "disable_quickbuy_on_trenches": {
-    "message": "禁用 QuickBuy"
+    "message": "在 Trenches 页面禁用 QuickBuy"
   },
   "disable_quickbuy_on_trenches_desc": {
-    "message": "在 Axiom Pulse、GMGN Discover 和 Padre Trenches 隐藏一键 QuickBuy 按钮，避免误买。"
+    "message": "在 Axiom Pulse、GMGN Trenches 和 Padre Trenches 禁用 QuickBuy 切换栏。"
   },
   "badge_on_x": {
     "message": "X 上的 Frontrun 徽章"
@@ -1538,6 +1538,9 @@
   "share": {
     "message": "分享"
   },
+  "share_pnl": {
+    "message": "分享 PnL"
+  },
   "receive_sol": {
     "message": "接收 SOL"
   },
@@ -2792,6 +2795,12 @@
   "autotrade_preset_too_many_tiers": {
     "message": "每个预设最多 {max} 条订单，请先删除多余的"
   },
+  "autotrade_preset_duplicate_strategy": {
+    "message": "已保存为「{name}」"
+  },
+  "autotrade_preset_invalid_tiers": {
+    "message": "请先补全标红的订单"
+  },
   "autotrade_preset_not_applicable": {
     "message": "此预设无适用订单"
   },
@@ -4022,6 +4031,18 @@
   "auto_sort_wallets_by_balance_desc": {
     "message": "开启时按 SOL/BNB 余额排序；关闭后可拖动钱包自定义顺序"
   },
+  "split_sell_amount_across_wallets": {
+    "message": "各钱包平分对应总额"
+  },
+  "split_sell_amount_across_wallets_desc": {
+    "message": "卖出金额会在所选钱包之间平均分配。"
+  },
+  "split_sell_insufficient_balance": {
+    "message": "所选钱包持仓不足以完成平分卖出。请减小金额或选择持仓更多的钱包。"
+  },
+  "split_sell_dropped_wallets": {
+    "message": "已跳过 {droppedCount} 个持仓不足的钱包，剩余 {eligibleCount} 个钱包平分。"
+  },
   "custom_buy_amount": {
     "message": "自定义买入金额"
   },
@@ -4613,8 +4634,20 @@
   "first_followers_loading": {
     "message": "正在加载最早粉丝…"
   },
-  "first_followers_pending_background_fetch": {
-    "message": "最早粉丝数据正在准备中，请约 {minutes} 分钟后回到此页面再试。"
+  "first_followers_pending_headline": {
+    "message": "正在为你精选最早的粉丝"
+  },
+  "first_followers_pending_subtitle": {
+    "message": "正从最新归档中抓取，准备好后页面将自动刷新。"
+  },
+  "first_followers_pending_label_status": {
+    "message": "状态"
+  },
+  "first_followers_pending_label_running": {
+    "message": "进行中"
+  },
+  "first_followers_pending_label_next_sweep": {
+    "message": "下次刷新"
   },
   "first_followers_error": {
     "message": "加载失败，请重试。"

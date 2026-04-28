@@ -84,10 +84,10 @@
     "message": "Remove the \"Powered by Frontrun\" watermark on X and trading terminals"
   },
   "disable_quickbuy_on_trenches": {
-    "message": "Disable QuickBuy on Discovery Pages"
+    "message": "Disable QuickBuy Toggle on Trenches Pages"
   },
   "disable_quickbuy_on_trenches_desc": {
-    "message": "Hide the one-click QuickBuy button on Axiom Pulse, GMGN Discover, and Padre Trenches to avoid accidental buys."
+    "message": "Disable the QuickBuy toggle on Axiom Pulse, GMGN Trenches, and Padre Trenches."
   },
   "badge_on_x": {
     "message": "Frontrun Badge on X"
@@ -1472,6 +1472,9 @@
   "share": {
     "message": "Share"
   },
+  "share_pnl": {
+    "message": "Share PnL"
+  },
   "receive_sol": {
     "message": "Receive SOL"
   },
@@ -2780,6 +2783,12 @@
   "autotrade_preset_too_many_tiers": {
     "message": "Max {max} orders per preset — remove some to save"
   },
+  "autotrade_preset_duplicate_strategy": {
+    "message": "Already saved as \"{name}\""
+  },
+  "autotrade_preset_invalid_tiers": {
+    "message": "Fix highlighted orders before saving"
+  },
   "autotrade_preset_not_applicable": {
     "message": "Preset has no orders supported here"
   },
@@ -4028,6 +4037,18 @@
   "auto_sort_wallets_by_balance_desc": {
     "message": "When on, wallets are ranked by SOL/BNB balance. When off, drag wallets to set a custom order"
   },
+  "split_sell_amount_across_wallets": {
+    "message": "Split Sell Amount Evenly across Wallets"
+  },
+  "split_sell_amount_across_wallets_desc": {
+    "message": "Split your sell amount evenly across selected wallets."
+  },
+  "split_sell_insufficient_balance": {
+    "message": "Not enough token balance in any selected wallet to fulfill the split sell. Lower the amount or select wallets with more holdings."
+  },
+  "split_sell_dropped_wallets": {
+    "message": "Skipped {droppedCount} wallet(s) without enough balance — splitting across {eligibleCount} eligible wallet(s)."
+  },
   "custom_buy_amount": {
     "message": "Custom Buy Amount"
   },
@@ -4619,8 +4640,20 @@
   "first_followers_loading": {
     "message": "Loading first followers…"
   },
-  "first_followers_pending_background_fetch": {
-    "message": "First followers are being prepared. Please come back to this page in about {minutes} min and try again."
+  "first_followers_pending_headline": {
+    "message": "We're hand-picking your earliest followers"
+  },
+  "first_followers_pending_subtitle": {
+    "message": "Pulling them from a fresh archive. This page auto-refreshes when they're ready."
+  },
+  "first_followers_pending_label_status": {
+    "message": "Status"
+  },
+  "first_followers_pending_label_running": {
+    "message": "Running"
+  },
+  "first_followers_pending_label_next_sweep": {
+    "message": "Next sweep"
   },
   "first_followers_error": {
     "message": "Failed to load followers. Please try again."
