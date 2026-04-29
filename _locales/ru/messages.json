@@ -284,6 +284,27 @@
   "show_less": {
     "message": "Свернуть"
   },
+  "add_a_note": {
+    "message": "Заметка"
+  },
+  "authors_note": {
+    "message": "Заметка автора"
+  },
+  "add_public_note": {
+    "message": "Заметка"
+  },
+  "author_clarification": {
+    "message": "Уточнение автора"
+  },
+  "ca_note_tooltip": {
+    "message": "Видно всем пользователям Frontrun. Поясните этот твит."
+  },
+  "ca_note_save_failed": {
+    "message": "Не удалось сохранить. Попробуйте снова."
+  },
+  "ca_note_delete_failed": {
+    "message": "Не удалось удалить. Попробуйте снова."
+  },
   "add_label": {
     "message": "Добавить метку"
   },
@@ -926,9 +947,6 @@
   "prioritize_frontrun_tip": {
     "message": "Оптимизировать опыт пользователя при одновременном использовании нескольких расширений"
   },
-  "please_enter_invite_code": {
-    "message": "Введите код приглашения"
-  },
   "something_went_wrong": {
     "message": "Что‑то пошло не так. Попробуйте позже"
   },
@@ -1090,27 +1108,6 @@
   },
   "or": {
     "message": "или"
-  },
-  "activate_account": {
-    "message": "Есть код приглашения?"
-  },
-  "enter_invite_code": {
-    "message": "Введите код приглашения"
-  },
-  "need_a_code": {
-    "message": "Нужен код?"
-  },
-  "join_telegram": {
-    "message": "Присоединиться к Telegram"
-  },
-  "activate": {
-    "message": "Активировать"
-  },
-  "trial": {
-    "message": "Пробный период 3 дня"
-  },
-  "ended_trial": {
-    "message": "3-дневный пробный период закончился, пожалуйста, получите код приглашения: "
   },
   "skip": {
     "message": "Пропустить"
@@ -4744,5 +4741,35 @@
   },
   "export_chain_evm": {
     "message": "EVM"
+  },
+  "referral_screen_title": {
+    "message": "Есть реф.код?"
+  },
+  "referral_screen_description": {
+    "message": "Введите ник друга, который рассказал о нас."
+  },
+  "referral_screen_input_placeholder": {
+    "message": "Ник друга"
+  },
+  "referral_screen_submit": {
+    "message": "Ввести"
+  },
+  "referral_screen_skip": {
+    "message": "Пропустить"
+  },
+  "referral_screen_error_not_found": {
+    "message": "Код не найден."
+  },
+  "referral_screen_error_self_referral": {
+    "message": "Это ваш код."
+  },
+  "referral_screen_error_empty_input": {
+    "message": "Введите код."
+  },
+  "referral_screen_error_invalid_format": {
+    "message": "3-64 буквы или цифры."
+  },
+  "referral_screen_error_generic": {
+    "message": "Ошибка. Попробуйте снова."
   }
 }

@@ -245,6 +245,27 @@
   "show_less": {
     "message": "收起"
   },
+  "add_a_note": {
+    "message": "添加备注"
+  },
+  "authors_note": {
+    "message": "作者备注"
+  },
+  "add_public_note": {
+    "message": "添加公开备注"
+  },
+  "author_clarification": {
+    "message": "作者说明"
+  },
+  "ca_note_tooltip": {
+    "message": "所有 Frontrun 用户可见。用于解释此推文。"
+  },
+  "ca_note_save_failed": {
+    "message": "保存备注失败，请重试。"
+  },
+  "ca_note_delete_failed": {
+    "message": "删除备注失败，请重试。"
+  },
   "deleted_CA_count": {
     "message": "{deletedCACount} 个已删除CA"
   },
@@ -908,9 +929,6 @@
   "prioritize_frontrun_tip": {
     "message": "当同时有多个扩展程序显示时，优化用户体验"
   },
-  "please_enter_invite_code": {
-    "message": "请输入邀请码"
-  },
   "something_went_wrong": {
     "message": "出现错误，请稍后再试"
   },
@@ -1096,27 +1114,6 @@
   },
   "or": {
     "message": "或"
-  },
-  "activate_account": {
-    "message": "有邀请码吗？"
-  },
-  "enter_invite_code": {
-    "message": "输入邀请码"
-  },
-  "need_a_code": {
-    "message": "需要邀请码？"
-  },
-  "join_telegram": {
-    "message": "加入 Telegram"
-  },
-  "activate": {
-    "message": "激活"
-  },
-  "trial": {
-    "message": "试用 3 天"
-  },
-  "ended_trial": {
-    "message": "3 天试用已结束，请获取邀请码："
   },
   "skip": {
     "message": "跳过"
@@ -4735,5 +4732,35 @@
   },
   "export_chain_evm": {
     "message": "EVM"
+  },
+  "referral_screen_title": {
+    "message": "有推荐码吗？"
+  },
+  "referral_screen_description": {
+    "message": "输入介绍你来的好友用户名。"
+  },
+  "referral_screen_input_placeholder": {
+    "message": "好友用户名"
+  },
+  "referral_screen_submit": {
+    "message": "提交"
+  },
+  "referral_screen_skip": {
+    "message": "暂时跳过"
+  },
+  "referral_screen_error_not_found": {
+    "message": "找不到推荐码。"
+  },
+  "referral_screen_error_self_referral": {
+    "message": "不能推荐自己。"
+  },
+  "referral_screen_error_empty_input": {
+    "message": "请输入推荐码。"
+  },
+  "referral_screen_error_invalid_format": {
+    "message": "请输入 3-64 位字母或数字。"
+  },
+  "referral_screen_error_generic": {
+    "message": "出错了，请重试。"
   }
 }

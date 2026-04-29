@@ -278,6 +278,27 @@
   "show_less": {
     "message": "Show less"
   },
+  "add_a_note": {
+    "message": "Add a note"
+  },
+  "authors_note": {
+    "message": "Author's note"
+  },
+  "add_public_note": {
+    "message": "Add Public Note"
+  },
+  "author_clarification": {
+    "message": "Author Clarification"
+  },
+  "ca_note_tooltip": {
+    "message": "Visible to all Frontrun users. Use to explain this tweet."
+  },
+  "ca_note_save_failed": {
+    "message": "Failed to save note. Please try again."
+  },
+  "ca_note_delete_failed": {
+    "message": "Failed to delete note. Please try again."
+  },
   "add_label": {
     "message": "Add Label"
   },
@@ -914,9 +935,6 @@
   "prioritize_frontrun_tip": {
     "message": "Optimize user experience when multiple extensions are displayed simultaneously"
   },
-  "please_enter_invite_code": {
-    "message": "Please enter an invite code"
-  },
   "something_went_wrong": {
     "message": "Something went wrong, please try again later"
   },
@@ -1030,27 +1048,6 @@
   },
   "or": {
     "message": "or"
-  },
-  "activate_account": {
-    "message": "Have an invite code?"
-  },
-  "enter_invite_code": {
-    "message": "Enter invite code"
-  },
-  "need_a_code": {
-    "message": "Need a code?"
-  },
-  "join_telegram": {
-    "message": "Join Telegram"
-  },
-  "activate": {
-    "message": "Activate"
-  },
-  "trial": {
-    "message": "Start 3-day trial"
-  },
-  "ended_trial": {
-    "message": "3-day trial has ended, please obtain an invite code: "
   },
   "skip": {
     "message": "Skip"
@@ -4741,5 +4738,35 @@
   },
   "export_chain_evm": {
     "message": "EVM"
+  },
+  "referral_screen_title": {
+    "message": "Got a referral code?"
+  },
+  "referral_screen_description": {
+    "message": "Enter the username of the friend who told you about us."
+  },
+  "referral_screen_input_placeholder": {
+    "message": "Their username"
+  },
+  "referral_screen_submit": {
+    "message": "Submit"
+  },
+  "referral_screen_skip": {
+    "message": "Skip for now"
+  },
+  "referral_screen_error_not_found": {
+    "message": "Referral code not found."
+  },
+  "referral_screen_error_self_referral": {
+    "message": "You can't refer yourself."
+  },
+  "referral_screen_error_empty_input": {
+    "message": "Enter a referral code."
+  },
+  "referral_screen_error_invalid_format": {
+    "message": "Use 3-64 letters or numbers."
+  },
+  "referral_screen_error_generic": {
+    "message": "Something went wrong. Please try again."
   }
 }
