@@ -164,6 +164,9 @@
   "smart_followers": {
     "message": "Умные подписчики"
   },
+  "smart_followers_locked_desc": {
+    "message": "Перейдите на Silver или выше, чтобы увидеть больше умных подписчиков."
+  },
   "sort_smart": {
     "message": "Топ"
   },
@@ -1751,6 +1754,12 @@
   "no_associated_wallets_found": {
     "message": "Связанные кошельки не найдены"
   },
+  "link_more_wallets": {
+    "message": "Привязать кошельки"
+  },
+  "link_wallets": {
+    "message": "Привязать"
+  },
   "no_wallet_mentions_found": {
     "message": "Упоминаний кошельков в твитах не найдено"
   },
@@ -2575,6 +2584,18 @@
   },
   "failed_to_cancel_limit_order": {
     "message": "Не удалось отменить лимитный ордер"
+  },
+  "cancelling_all_limit_orders": {
+    "message": "Отмена всех ордеров"
+  },
+  "all_limit_orders_canceled": {
+    "message": "Все ордеры отменены"
+  },
+  "failed_to_cancel_all_limit_orders": {
+    "message": "Не удалось отменить часть ордеров"
+  },
+  "cancel_all_orders_confirm": {
+    "message": "Нажмите снова"
   },
   "enable_turnkey_title": {
     "message": "Включите Turnkey для лимитных ордеров"
@@ -3552,7 +3573,7 @@
     "message": "Сохранять WSOL аккаунт"
   },
   "keep_wsol_open_desc": {
-    "message": "Сохранять токен-аккаунт WSOL после сделок. Избегает конвертации WSOL в SOL каждый раз."
+    "message": "Сохранять токен-аккаунт WSOL после сделок. Избегает конвертации WSOL в SOL каждый раз. Актуально только для трейдеров со специализированным ПО или ботами."
   },
   "consolidate_token_accounts": {
     "message": "Объединить токен-аккаунты"
@@ -4494,7 +4515,10 @@
     "message": "Популярные аккаунты"
   },
   "upgrade_to_unlock": {
-    "message": "Upgrade to Unlock"
+    "message": "Обновите тариф"
+  },
+  "upgrade": {
+    "message": "Обновить"
   },
   "rate_limit_reached": {
     "message": "Лимит достигнут"

@@ -158,6 +158,9 @@
   "smart_followers": {
     "message": "KOL关注"
   },
+  "smart_followers_locked_desc": {
+    "message": "升级到 Silver 或更高方案，可查看更多知名关注。"
+  },
   "sort_smart": {
     "message": "排名"
   },
@@ -2573,6 +2576,18 @@
   "failed_to_cancel_limit_order": {
     "message": "取消限价单失败"
   },
+  "cancelling_all_limit_orders": {
+    "message": "正在取消全部限价单"
+  },
+  "all_limit_orders_canceled": {
+    "message": "全部限价单已取消"
+  },
+  "failed_to_cancel_all_limit_orders": {
+    "message": "部分限价单取消失败"
+  },
+  "cancel_all_orders_confirm": {
+    "message": "再次点击以取消全部"
+  },
   "enable_turnkey_title": {
     "message": "启用 Turnkey 以使用限价单"
   },
@@ -3546,7 +3561,7 @@
     "message": "保留 WSOL 账户"
   },
   "keep_wsol_open_desc": {
-    "message": "交易后保留 WSOL 代币账户，不再自动解包为原生 SOL。适合频繁交易的用户。"
+    "message": "交易后保留 WSOL 代币账户，不再自动解包为原生 SOL。仅适用于使用专业软件或机器人的交易者。"
   },
   "consolidate_token_accounts": {
     "message": "合并代币账户"
@@ -4485,7 +4500,10 @@
     "message": "热门账号"
   },
   "upgrade_to_unlock": {
-    "message": "Upgrade to Unlock"
+    "message": "升级解锁"
+  },
+  "upgrade": {
+    "message": "升级"
   },
   "rate_limit_reached": {
     "message": "已达使用上限"
