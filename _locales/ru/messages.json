@@ -2789,6 +2789,12 @@
   "autotrade_preset_save": {
     "message": "Сохранить"
   },
+  "autotrade_preset_edit": {
+    "message": "Редактировать"
+  },
+  "autotrade_preset_duplicate": {
+    "message": "Совпадает с \"{name}\" — измените, чтобы сохранить"
+  },
   "autotrade_preset_apply": {
     "message": "Применить пресет"
   },
@@ -2852,11 +2858,125 @@
   "autotrade_preset_tier_count": {
     "message": "{count} ордеров"
   },
+  "autotrade_preset_wallet_pin_label": {
+    "message": "Привязать кошельки"
+  },
+  "autotrade_preset_wallet_pin_helper": {
+    "message": "Выбранные кошельки станут активными при загрузке пресета."
+  },
+  "autotrade_preset_wallet_pin_empty": {
+    "message": "Нет кошельков на этой сети"
+  },
+  "autotrade_preset_wallet_pin_count": {
+    "message": "Выбрано: {count}"
+  },
+  "autotrade_preset_wallet_pin_clear": {
+    "message": "Очистить"
+  },
+  "autotrade_preset_wallet_pin_done": {
+    "message": "Готово"
+  },
+  "autotrade_preset_wallet_pin_disabled_no_preset": {
+    "message": "Сначала выберите пресет"
+  },
+  "autotrade_preset_wallet_pin_modal_title": {
+    "message": "Закрепить кошельки за «{name}»"
+  },
   "autotrade_preset_delete_confirm_title": {
     "message": "Удалить пресет?"
   },
   "autotrade_preset_delete_confirm_description": {
     "message": "\"{name}\" будет удалён."
+  },
+  "autotrade_preset_modal_title": {
+    "message": "Пресеты Автоторговли"
+  },
+  "autotrade_preset_modal_new": {
+    "message": "Новый пресет"
+  },
+  "autotrade_preset_modal_name_label": {
+    "message": "Имя пресета"
+  },
+  "autotrade_preset_modal_wallets_label": {
+    "message": "Выбранные кошельки"
+  },
+  "autotrade_preset_modal_wallets_helper": {
+    "message": "После включения этот пресет авто-торговли будет применяться только к выбранным кошелькам. Оставьте поле пустым, чтобы использовать текущие активные кошельки."
+  },
+  "autotrade_preset_modal_wallets_add": {
+    "message": "+ Добавить кошельки"
+  },
+  "autotrade_preset_modal_wallets_add_more": {
+    "message": "+ Добавить ещё"
+  },
+  "autotrade_preset_modal_wallets_max": {
+    "message": "Макс. {max} кошельков"
+  },
+  "autotrade_preset_modal_wallets_unpin": {
+    "message": "Открепить {label}"
+  },
+  "autotrade_preset_modal_strategy_label": {
+    "message": "Стратегия"
+  },
+  "autotrade_preset_modal_strategy_placeholder": {
+    "message": "{count} ордер(ов). Редактируйте в панели."
+  },
+  "autotrade_preset_modal_tier_summary": {
+    "message": "{count} ордер(ов)"
+  },
+  "autotrade_preset_modal_pinned_summary": {
+    "message": "{count} закр."
+  },
+  "autotrade_preset_delete_confirm": {
+    "message": "Удалить"
+  },
+  "autotrade_preset_full": {
+    "message": "Лимит {max} пресетов"
+  },
+  "autotrade_preset_max_tiers": {
+    "message": "Макс {max} ордеров"
+  },
+  "limit_order_preset_save": {
+    "message": "Сохранить"
+  },
+  "limit_order_preset_no_amount": {
+    "message": "Введите сумму"
+  },
+  "limit_order_preset_limit_reached": {
+    "message": "Максимум {max} пресетов"
+  },
+  "limit_order_preset_duplicate": {
+    "message": "Уже сохранён как «{name}»"
+  },
+  "limit_order_preset_name_empty": {
+    "message": "Имя обязательно"
+  },
+  "limit_order_preset_name_placeholder": {
+    "message": "Имя пресета"
+  },
+  "limit_order_preset_limit_placeholder": {
+    "message": "Макс. {max} пресетов"
+  },
+  "limit_order_preset_overwrite_description": {
+    "message": "Заменить «{name}» текущими значениями?"
+  },
+  "limit_order_preset_overwrite_confirm": {
+    "message": "Перезаписать"
+  },
+  "limit_order_preset_delete": {
+    "message": "Удалить"
+  },
+  "limit_order_preset_delete_confirm_title": {
+    "message": "Удалить пресет?"
+  },
+  "limit_order_preset_delete_confirm_description": {
+    "message": "\"{name}\" будет удалён."
+  },
+  "limit_order_preset_save_failed": {
+    "message": "Не удалось сохранить пресет. Попробуйте снова."
+  },
+  "limit_order_preset_delete_failed": {
+    "message": "Не удалось удалить пресет. Попробуйте снова."
   },
   "autotrade_limit_orders_created": {
     "message": "TP/SL ордер создан"
@@ -4795,5 +4915,8 @@
   },
   "referral_screen_error_generic": {
     "message": "Ошибка. Попробуйте снова."
+  },
+  "token_migrating_to_dex": {
+    "message": "Токен мигрирует на DEX. Попробуйте позже."
   }
 }

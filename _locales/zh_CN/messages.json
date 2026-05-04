@@ -2775,7 +2775,13 @@
     "message": "止损/追踪止损百分比不能达到 100%"
   },
   "autotrade_preset_save": {
-    "message": "保存为预设"
+    "message": "编辑 / 新增预设"
+  },
+  "autotrade_preset_edit": {
+    "message": "编辑预设"
+  },
+  "autotrade_preset_duplicate": {
+    "message": "订单和钱包与 \"{name}\" 完全相同，请修改后保存"
   },
   "autotrade_preset_apply": {
     "message": "应用预设"
@@ -2840,11 +2846,125 @@
   "autotrade_preset_tier_count": {
     "message": "{count} 条订单"
   },
+  "autotrade_preset_wallet_pin_label": {
+    "message": "绑定钱包"
+  },
+  "autotrade_preset_wallet_pin_helper": {
+    "message": "应用此预设时会切换到已绑定钱包。留空则保持当前选择。"
+  },
+  "autotrade_preset_wallet_pin_empty": {
+    "message": "当前链没有可用钱包"
+  },
+  "autotrade_preset_wallet_pin_count": {
+    "message": "已选 {count} 个"
+  },
+  "autotrade_preset_wallet_pin_clear": {
+    "message": "清除"
+  },
+  "autotrade_preset_wallet_pin_done": {
+    "message": "完成"
+  },
+  "autotrade_preset_wallet_pin_disabled_no_preset": {
+    "message": "请先选择一个预设"
+  },
+  "autotrade_preset_wallet_pin_modal_title": {
+    "message": "为「{name}」固定钱包"
+  },
   "autotrade_preset_delete_confirm_title": {
     "message": "删除预设？"
   },
   "autotrade_preset_delete_confirm_description": {
     "message": "将永久删除 \"{name}\"。"
+  },
+  "autotrade_preset_modal_title": {
+    "message": "管理自动交易预设"
+  },
+  "autotrade_preset_modal_new": {
+    "message": "新建预设"
+  },
+  "autotrade_preset_modal_name_label": {
+    "message": "预设名称"
+  },
+  "autotrade_preset_modal_wallets_label": {
+    "message": "已选钱包"
+  },
+  "autotrade_preset_modal_wallets_helper": {
+    "message": "启用后，此自动交易预设仅适用于已选择的钱包。留空则使用当前活跃的钱包。"
+  },
+  "autotrade_preset_modal_wallets_add": {
+    "message": "+ 添加钱包"
+  },
+  "autotrade_preset_modal_wallets_add_more": {
+    "message": "+ 继续添加"
+  },
+  "autotrade_preset_modal_wallets_max": {
+    "message": "已达上限（{max} 个）"
+  },
+  "autotrade_preset_modal_wallets_unpin": {
+    "message": "取消绑定 {label}"
+  },
+  "autotrade_preset_modal_strategy_label": {
+    "message": "策略"
+  },
+  "autotrade_preset_modal_strategy_placeholder": {
+    "message": "{count} 个订单。暂请在交易面板中编辑。"
+  },
+  "autotrade_preset_modal_tier_summary": {
+    "message": "{count} 个订单"
+  },
+  "autotrade_preset_modal_pinned_summary": {
+    "message": "已绑定 {count}"
+  },
+  "autotrade_preset_delete_confirm": {
+    "message": "删除"
+  },
+  "autotrade_preset_full": {
+    "message": "已达上限 {max} 个预设"
+  },
+  "autotrade_preset_max_tiers": {
+    "message": "每个预设最多 {max} 条订单"
+  },
+  "limit_order_preset_save": {
+    "message": "保存为预设"
+  },
+  "limit_order_preset_no_amount": {
+    "message": "保存前请输入金额"
+  },
+  "limit_order_preset_limit_reached": {
+    "message": "最多保存 {max} 个预设"
+  },
+  "limit_order_preset_duplicate": {
+    "message": "已保存为「{name}」"
+  },
+  "limit_order_preset_name_empty": {
+    "message": "名称不能为空"
+  },
+  "limit_order_preset_name_placeholder": {
+    "message": "预设名称"
+  },
+  "limit_order_preset_limit_placeholder": {
+    "message": "上限 {max} 个预设"
+  },
+  "limit_order_preset_overwrite_description": {
+    "message": "用当前值替换「{name}」？"
+  },
+  "limit_order_preset_overwrite_confirm": {
+    "message": "覆盖"
+  },
+  "limit_order_preset_delete": {
+    "message": "删除"
+  },
+  "limit_order_preset_delete_confirm_title": {
+    "message": "删除预设？"
+  },
+  "limit_order_preset_delete_confirm_description": {
+    "message": "将永久删除 \"{name}\"。"
+  },
+  "limit_order_preset_save_failed": {
+    "message": "保存预设失败，请重试或删除已有预设。"
+  },
+  "limit_order_preset_delete_failed": {
+    "message": "删除预设失败，请重试。"
   },
   "autotrade_limit_orders_created": {
     "message": "TP/SL 订单已创建"
@@ -4780,5 +4900,8 @@
   },
   "referral_screen_error_generic": {
     "message": "出错了，请重试。"
+  },
+  "token_migrating_to_dex": {
+    "message": "代币正在迁移到DEX，请稍后重试。"
   }
 }

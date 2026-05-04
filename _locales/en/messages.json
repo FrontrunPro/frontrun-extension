@@ -2769,7 +2769,13 @@
     "message": "Stop Loss/TSL percentage must be less than 100%"
   },
   "autotrade_preset_save": {
-    "message": "Save as Preset"
+    "message": "Edit/Add new Preset"
+  },
+  "autotrade_preset_edit": {
+    "message": "Edit Presets"
+  },
+  "autotrade_preset_duplicate": {
+    "message": "Same orders and wallets as \"{name}\" — change one to save"
   },
   "autotrade_preset_apply": {
     "message": "Apply Preset"
@@ -2834,11 +2840,125 @@
   "autotrade_preset_tier_count": {
     "message": "{count} orders"
   },
+  "autotrade_preset_wallet_pin_label": {
+    "message": "Pin wallets"
+  },
+  "autotrade_preset_wallet_pin_helper": {
+    "message": "Pinned wallets are applied when this preset is applied. Leave empty to keep your current selection."
+  },
+  "autotrade_preset_wallet_pin_empty": {
+    "message": "No wallets available on this chain"
+  },
+  "autotrade_preset_wallet_pin_count": {
+    "message": "{count} selected"
+  },
+  "autotrade_preset_wallet_pin_clear": {
+    "message": "Clear"
+  },
+  "autotrade_preset_wallet_pin_done": {
+    "message": "Done"
+  },
+  "autotrade_preset_wallet_pin_disabled_no_preset": {
+    "message": "Select a preset to pin wallets"
+  },
+  "autotrade_preset_wallet_pin_modal_title": {
+    "message": "Pin wallets to \"{name}\""
+  },
   "autotrade_preset_delete_confirm_title": {
     "message": "Delete preset?"
   },
   "autotrade_preset_delete_confirm_description": {
     "message": "\"{name}\" will be permanently removed."
+  },
+  "autotrade_preset_modal_title": {
+    "message": "Manage Auto-Trade Presets"
+  },
+  "autotrade_preset_modal_new": {
+    "message": "New Preset"
+  },
+  "autotrade_preset_modal_name_label": {
+    "message": "Preset Name"
+  },
+  "autotrade_preset_modal_wallets_label": {
+    "message": "Selected Wallets"
+  },
+  "autotrade_preset_modal_wallets_helper": {
+    "message": "When enabled, the auto-trade preset will only apply to the selected wallets. Leave empty to use your currently active wallets."
+  },
+  "autotrade_preset_modal_wallets_add": {
+    "message": "+ Add wallets"
+  },
+  "autotrade_preset_modal_wallets_add_more": {
+    "message": "+ Add more"
+  },
+  "autotrade_preset_modal_wallets_max": {
+    "message": "Max {max} wallets selected"
+  },
+  "autotrade_preset_modal_wallets_unpin": {
+    "message": "Unpin {label}"
+  },
+  "autotrade_preset_modal_strategy_label": {
+    "message": "Strategy"
+  },
+  "autotrade_preset_modal_strategy_placeholder": {
+    "message": "{count} order(s). Edit in the trading panel for now."
+  },
+  "autotrade_preset_modal_tier_summary": {
+    "message": "{count} order(s)"
+  },
+  "autotrade_preset_modal_pinned_summary": {
+    "message": "{count} pinned"
+  },
+  "autotrade_preset_delete_confirm": {
+    "message": "Delete"
+  },
+  "autotrade_preset_full": {
+    "message": "Max {max} presets reached"
+  },
+  "autotrade_preset_max_tiers": {
+    "message": "Max {max} orders per preset"
+  },
+  "limit_order_preset_save": {
+    "message": "Save as Preset"
+  },
+  "limit_order_preset_no_amount": {
+    "message": "Enter an amount before saving"
+  },
+  "limit_order_preset_limit_reached": {
+    "message": "You can save up to {max} presets"
+  },
+  "limit_order_preset_duplicate": {
+    "message": "Already saved as \"{name}\""
+  },
+  "limit_order_preset_name_empty": {
+    "message": "Name cannot be empty"
+  },
+  "limit_order_preset_name_placeholder": {
+    "message": "Preset name"
+  },
+  "limit_order_preset_limit_placeholder": {
+    "message": "Max {max} presets"
+  },
+  "limit_order_preset_overwrite_description": {
+    "message": "Replace \"{name}\" with the current values?"
+  },
+  "limit_order_preset_overwrite_confirm": {
+    "message": "Overwrite"
+  },
+  "limit_order_preset_delete": {
+    "message": "Delete"
+  },
+  "limit_order_preset_delete_confirm_title": {
+    "message": "Delete preset?"
+  },
+  "limit_order_preset_delete_confirm_description": {
+    "message": "\"{name}\" will be permanently removed."
+  },
+  "limit_order_preset_save_failed": {
+    "message": "Could not save preset. Try again or remove an existing preset."
+  },
+  "limit_order_preset_delete_failed": {
+    "message": "Could not delete preset. Please try again."
   },
   "view_orders_in_trading_panel": {
     "message": "View orders in trading panel"
@@ -4792,5 +4912,8 @@
   },
   "referral_screen_error_generic": {
     "message": "Something went wrong. Please try again."
+  },
+  "token_migrating_to_dex": {
+    "message": "Token is migrating to DEX. Please try again shortly."
   }
 }
