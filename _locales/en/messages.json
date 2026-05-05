@@ -2883,7 +2883,7 @@
     "message": "Selected Wallets"
   },
   "autotrade_preset_modal_wallets_helper": {
-    "message": "When enabled, the auto-trade preset will only apply to the selected wallets. Leave empty to use your currently active wallets."
+    "message": "Pin wallets to scope this preset. Empty uses active wallets."
   },
   "autotrade_preset_modal_wallets_add": {
     "message": "+ Add wallets"
@@ -4129,6 +4129,80 @@
   },
   "wallet_group_created": {
     "message": "Wallet group created"
+  },
+  "create_group_partial_failure": {
+    "message": "Group created, but $COUNT$ wallet(s) failed to join",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "create_sol_wallet_modal_title": {
+    "message": "Create Solana Wallet"
+  },
+  "create_bsc_wallet_modal_title": {
+    "message": "Create BNB Wallet"
+  },
+  "create_group_modal_title": {
+    "message": "Create Wallet Group"
+  },
+  "create_wallet_modal_subtitle": {
+    "message": "Generated and saved to your account"
+  },
+  "create_group_modal_subtitle": {
+    "message": "Group wallets to apply actions together"
+  },
+  "create_wallet_address_label": {
+    "message": "Wallet Address"
+  },
+  "create_wallet_creating": {
+    "message": "Creating wallet..."
+  },
+  "create_wallet_failed": {
+    "message": "Creation failed"
+  },
+  "create_wallet_copy_address": {
+    "message": "Copy address"
+  },
+  "create_wallet_label_optional": {
+    "message": "Label (optional)"
+  },
+  "create_wallet_label_placeholder": {
+    "message": "e.g. Main Trading Wallet"
+  },
+  "create_wallet_inline_needs_sidepanel": {
+    "message": "Open the sidepanel to finish wallet setup"
+  },
+  "create_wallet_inline_open_sidepanel": {
+    "message": "Open Sidepanel"
+  },
+  "create_group_name_label": {
+    "message": "Group Name"
+  },
+  "create_group_name_placeholder": {
+    "message": "e.g. KOL Snipers"
+  },
+  "create_group_wallets_label": {
+    "message": "Add Wallets"
+  },
+  "create_group_wallets_helper": {
+    "message": "You can add or remove wallets later"
+  },
+  "create_group_wallets_empty": {
+    "message": "No wallets available yet"
+  },
+  "create_group_n_selected": {
+    "message": "{count} selected"
+  },
+  "create_group_no_wallets_selected": {
+    "message": "No wallets selected"
+  },
+  "failed_to_save": {
+    "message": "Failed to save"
+  },
+  "failed_to_copy": {
+    "message": "Failed to copy"
   },
   "group_name_placeholder": {
     "message": "Enter group name..."

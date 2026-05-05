@@ -2901,7 +2901,7 @@
     "message": "Выбранные кошельки"
   },
   "autotrade_preset_modal_wallets_helper": {
-    "message": "После включения этот пресет авто-торговли будет применяться только к выбранным кошелькам. Оставьте поле пустым, чтобы использовать текущие активные кошельки."
+    "message": "Закрепите кошельки для этого пресета. Пусто — активные."
   },
   "autotrade_preset_modal_wallets_add": {
     "message": "+ Добавить кошельки"
@@ -4132,6 +4132,80 @@
   },
   "wallet_group_created": {
     "message": "Группа создана"
+  },
+  "create_group_partial_failure": {
+    "message": "Группа создана, но $COUNT$ кошельк(ов) не добавлены",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "create_sol_wallet_modal_title": {
+    "message": "Создать Solana кошелёк"
+  },
+  "create_bsc_wallet_modal_title": {
+    "message": "Создать BNB кошелёк"
+  },
+  "create_group_modal_title": {
+    "message": "Создать группу"
+  },
+  "create_wallet_modal_subtitle": {
+    "message": "Создан и сохранён в аккаунте"
+  },
+  "create_group_modal_subtitle": {
+    "message": "Объедините кошельки для общих действий"
+  },
+  "create_wallet_address_label": {
+    "message": "Адрес кошелька"
+  },
+  "create_wallet_creating": {
+    "message": "Создание..."
+  },
+  "create_wallet_failed": {
+    "message": "Ошибка создания"
+  },
+  "create_wallet_copy_address": {
+    "message": "Копировать адрес"
+  },
+  "create_wallet_label_optional": {
+    "message": "Метка (необяз.)"
+  },
+  "create_wallet_label_placeholder": {
+    "message": "Напр. Основной кошелёк"
+  },
+  "create_wallet_inline_needs_sidepanel": {
+    "message": "Откройте боковую панель для настройки"
+  },
+  "create_wallet_inline_open_sidepanel": {
+    "message": "Открыть боковую панель"
+  },
+  "create_group_name_label": {
+    "message": "Имя группы"
+  },
+  "create_group_name_placeholder": {
+    "message": "Напр. KOL снайперы"
+  },
+  "create_group_wallets_label": {
+    "message": "Добавить кошельки"
+  },
+  "create_group_wallets_helper": {
+    "message": "Можно добавить или убрать позже"
+  },
+  "create_group_wallets_empty": {
+    "message": "Нет доступных кошельков"
+  },
+  "create_group_n_selected": {
+    "message": "Выбрано: {count}"
+  },
+  "create_group_no_wallets_selected": {
+    "message": "Нет выбранных"
+  },
+  "failed_to_save": {
+    "message": "Ошибка сохранения"
+  },
+  "failed_to_copy": {
+    "message": "Ошибка копирования"
   },
   "group_name_placeholder": {
     "message": "Имя группы..."

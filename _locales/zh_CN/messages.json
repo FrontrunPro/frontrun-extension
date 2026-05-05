@@ -2889,7 +2889,7 @@
     "message": "已选钱包"
   },
   "autotrade_preset_modal_wallets_helper": {
-    "message": "启用后，此自动交易预设仅适用于已选择的钱包。留空则使用当前活跃的钱包。"
+    "message": "锁定后只对所选钱包生效；留空则用当前活跃钱包。"
   },
   "autotrade_preset_modal_wallets_add": {
     "message": "+ 添加钱包"
@@ -4117,6 +4117,80 @@
   },
   "wallet_group_created": {
     "message": "分组已创建"
+  },
+  "create_group_partial_failure": {
+    "message": "分组已创建，但 $COUNT$ 个钱包未能加入",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "create_sol_wallet_modal_title": {
+    "message": "创建 Solana 钱包"
+  },
+  "create_bsc_wallet_modal_title": {
+    "message": "创建 BNB 钱包"
+  },
+  "create_group_modal_title": {
+    "message": "创建钱包分组"
+  },
+  "create_wallet_modal_subtitle": {
+    "message": "已生成并保存到你的账户"
+  },
+  "create_group_modal_subtitle": {
+    "message": "把钱包归组,统一执行操作"
+  },
+  "create_wallet_address_label": {
+    "message": "钱包地址"
+  },
+  "create_wallet_creating": {
+    "message": "创建中..."
+  },
+  "create_wallet_failed": {
+    "message": "创建失败"
+  },
+  "create_wallet_copy_address": {
+    "message": "复制地址"
+  },
+  "create_wallet_label_optional": {
+    "message": "标签(可选)"
+  },
+  "create_wallet_label_placeholder": {
+    "message": "如:主交易钱包"
+  },
+  "create_wallet_inline_needs_sidepanel": {
+    "message": "请打开侧栏完成钱包初始化"
+  },
+  "create_wallet_inline_open_sidepanel": {
+    "message": "打开侧栏"
+  },
+  "create_group_name_label": {
+    "message": "分组名称"
+  },
+  "create_group_name_placeholder": {
+    "message": "如:KOL 狙击组"
+  },
+  "create_group_wallets_label": {
+    "message": "添加钱包"
+  },
+  "create_group_wallets_helper": {
+    "message": "之后可随时添加或移除"
+  },
+  "create_group_wallets_empty": {
+    "message": "暂无可用钱包"
+  },
+  "create_group_n_selected": {
+    "message": "已选 {count} 个"
+  },
+  "create_group_no_wallets_selected": {
+    "message": "未选择钱包"
+  },
+  "failed_to_save": {
+    "message": "保存失败"
+  },
+  "failed_to_copy": {
+    "message": "复制失败"
   },
   "group_name_placeholder": {
     "message": "输入分组名称..."
