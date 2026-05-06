@@ -4112,6 +4112,9 @@
   "bsc_wallet": {
     "message": "BSC 钱包"
   },
+  "ton_wallet": {
+    "message": "TON 钱包"
+  },
   "wallet_group": {
     "message": "钱包分组"
   },
@@ -4977,5 +4980,26 @@
   },
   "token_migrating_to_dex": {
     "message": "代币正在迁移到DEX，请稍后重试。"
+  },
+  "chain_mode_default": {
+    "message": "SOL/BNB"
+  },
+  "chain_mode_ton": {
+    "message": "TON"
+  },
+  "ton_wallets_page_title": {
+    "message": "TON 钱包"
+  },
+  "ton_wallets_empty_cta": {
+    "message": "创建 TON 钱包"
+  },
+  "ton_wallets_empty_subtitle": {
+    "message": "还没有 TON 钱包。创建一个开始使用。"
+  },
+  "ton_wallets_balance_failed": {
+    "message": "余额无法获取，点击重试。"
+  },
+  "ton_wallets_retry": {
+    "message": "重试"
   }
 }

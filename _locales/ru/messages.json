@@ -4127,6 +4127,9 @@
   "bsc_wallet": {
     "message": "BSC"
   },
+  "ton_wallet": {
+    "message": "TON"
+  },
   "wallet_group": {
     "message": "Группа кошельков"
   },
@@ -4992,5 +4995,26 @@
   },
   "token_migrating_to_dex": {
     "message": "Токен мигрирует на DEX. Попробуйте позже."
+  },
+  "chain_mode_default": {
+    "message": "SOL/BNB"
+  },
+  "chain_mode_ton": {
+    "message": "TON"
+  },
+  "ton_wallets_page_title": {
+    "message": "TON-кошельки"
+  },
+  "ton_wallets_empty_cta": {
+    "message": "Создать"
+  },
+  "ton_wallets_empty_subtitle": {
+    "message": "Нет TON-кошельков. Создайте, чтобы начать."
+  },
+  "ton_wallets_balance_failed": {
+    "message": "Баланс недоступен. Повторить."
+  },
+  "ton_wallets_retry": {
+    "message": "Повтор"
   }
 }

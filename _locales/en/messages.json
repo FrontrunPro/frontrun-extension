@@ -4124,6 +4124,9 @@
   "bsc_wallet": {
     "message": "BSC Wallet"
   },
+  "ton_wallet": {
+    "message": "TON Wallet"
+  },
   "wallet_group": {
     "message": "Wallet Group"
   },
@@ -4989,5 +4992,26 @@
   },
   "token_migrating_to_dex": {
     "message": "Token is migrating to DEX. Please try again shortly."
+  },
+  "chain_mode_default": {
+    "message": "SOL/BNB"
+  },
+  "chain_mode_ton": {
+    "message": "TON"
+  },
+  "ton_wallets_page_title": {
+    "message": "TON Wallets"
+  },
+  "ton_wallets_empty_cta": {
+    "message": "Create TON Wallet"
+  },
+  "ton_wallets_empty_subtitle": {
+    "message": "No TON wallet yet. Create one to get started."
+  },
+  "ton_wallets_balance_failed": {
+    "message": "Balance unavailable. Click to retry."
+  },
+  "ton_wallets_retry": {
+    "message": "Retry"
   }
 }
