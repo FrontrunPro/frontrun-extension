@@ -1868,6 +1868,12 @@
   "sol_balance_not_enough_for_gas": {
     "message": "Insufficient SOL for fees & rent (paid in SOL even when trading USDC)"
   },
+  "bnb_balance_not_enough": {
+    "message": "Insufficient BNB balance. Need {needed} BNB, have {have} BNB"
+  },
+  "bnb_balance_not_enough_for_gas": {
+    "message": "Insufficient BNB for gas + tip. Need {needed} BNB, have {have} BNB"
+  },
   "usdc_balance_not_enough": {
     "message": "USDC balance is not enough"
   },
@@ -4999,6 +5005,12 @@
   "chain_mode_ton": {
     "message": "TON"
   },
+  "beta_label": {
+    "message": "beta"
+  },
+  "beta_feature_aria": {
+    "message": "Beta feature"
+  },
   "ton_wallets_page_title": {
     "message": "TON Wallets"
   },
@@ -5013,5 +5025,44 @@
   },
   "ton_wallets_retry": {
     "message": "Retry"
+  },
+  "ton_wallets_bridge_hint": {
+    "message": "Need TON to trade?"
+  },
+  "ton_wallets_bridge_cta": {
+    "message": "Bridge"
+  },
+  "view_on_tonviewer": {
+    "message": "View on Tonviewer"
+  },
+  "ton_slippage_label": {
+    "message": "Slippage"
+  },
+  "ton_auto_pill": {
+    "message": "Auto"
+  },
+  "ton_auto_fee_tooltip": {
+    "message": "TON sets gas centrally. There's no priority fee or tip to configure."
+  },
+  "ton_slippage_popover_title": {
+    "message": "Slippage tolerance"
+  },
+  "ton_slippage_custom_placeholder": {
+    "message": "Custom %"
+  },
+  "ton_slippage_save": {
+    "message": "Save"
+  },
+  "ton_slippage_warning_high": {
+    "message": "Very high — you may be sandwiched."
+  },
+  "ton_auto_fee_explainer_title": {
+    "message": "Fees on TON are automatic"
+  },
+  "ton_auto_fee_explainer_body": {
+    "message": "TON's protocol sets gas; no tips or priority fees to configure."
+  },
+  "ton_auto_fee_explainer_dismiss": {
+    "message": "Got it"
   }
 }

@@ -1934,6 +1934,12 @@
   "sol_balance_not_enough_for_gas": {
     "message": "Недостаточно SOL для комиссии и ренты (оплата в SOL даже при торговле USDC)"
   },
+  "bnb_balance_not_enough": {
+    "message": "Недостаточно BNB. Нужно {needed} BNB, есть {have} BNB"
+  },
+  "bnb_balance_not_enough_for_gas": {
+    "message": "Недостаточно BNB для газа + чаевых. Нужно {needed} BNB, есть {have} BNB"
+  },
   "usdc_balance_not_enough": {
     "message": "Недостаточно USDC"
   },
@@ -5002,6 +5008,12 @@
   "chain_mode_ton": {
     "message": "TON"
   },
+  "beta_label": {
+    "message": "бета"
+  },
+  "beta_feature_aria": {
+    "message": "Бета-функция"
+  },
   "ton_wallets_page_title": {
     "message": "TON-кошельки"
   },
@@ -5015,6 +5027,45 @@
     "message": "Баланс недоступен. Повторить."
   },
   "ton_wallets_retry": {
-    "message": "Повтор"
+    "message": "Повторить"
+  },
+  "ton_wallets_bridge_hint": {
+    "message": "Нужен TON для сделок?"
+  },
+  "ton_wallets_bridge_cta": {
+    "message": "Bridge"
+  },
+  "view_on_tonviewer": {
+    "message": "На Tonviewer"
+  },
+  "ton_slippage_label": {
+    "message": "Проскальз."
+  },
+  "ton_auto_pill": {
+    "message": "Авто"
+  },
+  "ton_auto_fee_tooltip": {
+    "message": "В TON газ — фиксированный. Чаевые и приоритет не нужны."
+  },
+  "ton_slippage_popover_title": {
+    "message": "Допуск проскальзывания"
+  },
+  "ton_slippage_custom_placeholder": {
+    "message": "Свой %"
+  },
+  "ton_slippage_save": {
+    "message": "Сохранить"
+  },
+  "ton_slippage_warning_high": {
+    "message": "Очень высокое — риск сэндвича."
+  },
+  "ton_auto_fee_explainer_title": {
+    "message": "Комиссии в TON — авто"
+  },
+  "ton_auto_fee_explainer_body": {
+    "message": "Протокол TON задаёт газ. Чаевых нет."
+  },
+  "ton_auto_fee_explainer_dismiss": {
+    "message": "Понятно"
   }
 }

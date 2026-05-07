@@ -1901,6 +1901,12 @@
   "sol_balance_not_enough_for_gas": {
     "message": "SOL 余额不足，无法支付手续费和租金（使用 USDC 交易时仍需 SOL 支付）"
   },
+  "bnb_balance_not_enough": {
+    "message": "BNB 余额不足，需要 {needed} BNB，当前 {have} BNB"
+  },
+  "bnb_balance_not_enough_for_gas": {
+    "message": "BNB 不足以支付 Gas + Tip，需要 {needed} BNB，当前 {have} BNB"
+  },
   "usdc_balance_not_enough": {
     "message": "USDC余额不足"
   },
@@ -4987,6 +4993,12 @@
   "chain_mode_ton": {
     "message": "TON"
   },
+  "beta_label": {
+    "message": "beta"
+  },
+  "beta_feature_aria": {
+    "message": "beta功能"
+  },
   "ton_wallets_page_title": {
     "message": "TON 钱包"
   },
@@ -5001,5 +5013,44 @@
   },
   "ton_wallets_retry": {
     "message": "重试"
+  },
+  "ton_wallets_bridge_hint": {
+    "message": "需要 TON 才能交易？"
+  },
+  "ton_wallets_bridge_cta": {
+    "message": "去 Bridge"
+  },
+  "view_on_tonviewer": {
+    "message": "在 Tonviewer 查看"
+  },
+  "ton_slippage_label": {
+    "message": "滑点"
+  },
+  "ton_auto_pill": {
+    "message": "自动"
+  },
+  "ton_auto_fee_tooltip": {
+    "message": "TON 由协议设定 Gas，无需小费或优先费。"
+  },
+  "ton_slippage_popover_title": {
+    "message": "滑点容忍度"
+  },
+  "ton_slippage_custom_placeholder": {
+    "message": "自定义 %"
+  },
+  "ton_slippage_save": {
+    "message": "保存"
+  },
+  "ton_slippage_warning_high": {
+    "message": "极高 — 可能被三明治攻击。"
+  },
+  "ton_auto_fee_explainer_title": {
+    "message": "TON 费用自动计算"
+  },
+  "ton_auto_fee_explainer_body": {
+    "message": "TON 协议自动设定 Gas，无需小费或优先费。"
+  },
+  "ton_auto_fee_explainer_dismiss": {
+    "message": "知道了"
   }
 }
