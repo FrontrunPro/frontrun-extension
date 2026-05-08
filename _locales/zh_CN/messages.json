@@ -11,6 +11,9 @@
   "add": {
     "message": "添加"
   },
+  "add_more": {
+    "message": "添加更多"
+  },
   "market_cap": {
     "message": "市值"
   },
@@ -1927,6 +1930,21 @@
   },
   "confirmed_sell": {
     "message": "确认卖出"
+  },
+  "preparing_order": {
+    "message": "准备订单"
+  },
+  "broadcasting_transaction": {
+    "message": "广播交易"
+  },
+  "submitted_buy": {
+    "message": "已提交买入"
+  },
+  "submitted_sell": {
+    "message": "已提交卖出"
+  },
+  "trade_did_not_reach_chain": {
+    "message": "交易未上链 — 资金未动"
   },
   "details": {
     "message": "详情"
@@ -4624,6 +4642,18 @@
   "chrome_update_required_button": {
     "message": "更新 Chrome"
   },
+  "extension_upgrade_banner_text": {
+    "message": "需要升级扩展程序"
+  },
+  "extension_upgrade_banner_dismiss": {
+    "message": "关闭"
+  },
+  "settings_version_update_pill": {
+    "message": "更新"
+  },
+  "settings_version_outdated_tooltip": {
+    "message": "版本过旧可能影响性能"
+  },
   "trending_now_title": {
     "message": "热门"
   },
@@ -4793,7 +4823,7 @@
     "message": "代币合并成功"
   },
   "consolidate_partial_success": {
-    "message": "已合并 {completed}/{total} 个钱包（{skipped} 个因无SOL跳过）"
+    "message": "已合并 {completed}/{total} 个钱包"
   },
   "split_success": {
     "message": "代币拆分成功"
@@ -4833,6 +4863,72 @@
   },
   "split_source_wallet_not_found": {
     "message": "未找到源钱包"
+  },
+  "consolidate_sol": {
+    "message": "归集 SOL"
+  },
+  "consolidate_sol_tooltip": {
+    "message": "把其他钱包里的 SOL 全部转到一个钱包"
+  },
+  "consolidate_sol_title": {
+    "message": "归集 SOL"
+  },
+  "consolidate_sol_description": {
+    "message": "将其他钱包的全部 SOL 转入目标钱包，源钱包余额变为 0。此操作无法撤销。"
+  },
+  "consolidate_sol_select_destination": {
+    "message": "选择目标钱包"
+  },
+  "consolidate_sol_summary": {
+    "message": "将从 {count} 个钱包转入约 {amount} SOL。"
+  },
+  "consolidate_sol_skipped": {
+    "message": "{count} 个钱包已跳过 — 余额低于安全保留额。"
+  },
+  "consolidate_sol_no_sources": {
+    "message": "其他钱包没有足够的 SOL 可归集。"
+  },
+  "consolidate_sol_confirm": {
+    "message": "归集"
+  },
+  "consolidating_sol_in_progress": {
+    "message": "正在归集 SOL..."
+  },
+  "consolidate_sol_success": {
+    "message": "已从 {count} 个钱包归集 SOL"
+  },
+  "error_consolidating_sol": {
+    "message": "归集 SOL 失败 ({completed}/{total})：{error}"
+  },
+  "consolidate_sol_partial": {
+    "message": "部分成功：{total} 个钱包中已归集 {succeeded} 个，{failed} 个失败 — 失败钱包的 SOL 未转出。"
+  },
+  "transactions_confirmed": {
+    "message": "交易已确认"
+  },
+  "consolidate_some_failed": {
+    "message": "{total} 笔中 {completed} 笔成功"
+  },
+  "consolidate_all_failed": {
+    "message": "归集失败"
+  },
+  "consolidate_no_assets": {
+    "message": "没有可归集的资产"
+  },
+  "from_one_wallet": {
+    "message": "来自 1 个钱包"
+  },
+  "from_n_wallets": {
+    "message": "来自 {count} 个钱包"
+  },
+  "n_wallets_selected": {
+    "message": "已选 {count} 个钱包"
+  },
+  "total_consolidated": {
+    "message": "归集总额"
+  },
+  "total_consolidating": {
+    "message": "归集总额"
   },
   "first_followers_pill": {
     "message": "最早的粉丝"
@@ -5019,6 +5115,258 @@
   },
   "ton_wallets_bridge_cta": {
     "message": "去 Bridge"
+  },
+  "ton_bridge_entry_cta": {
+    "message": "跨链至 TON"
+  },
+  "ton_bridge_entry_resume_cta": {
+    "message": "查看订单"
+  },
+  "ton_bridge_entry_hint": {
+    "message": "将 SOL 兑换为 TON"
+  },
+  "ton_bridge_wallet_pick_title": {
+    "message": "选择钱包"
+  },
+  "ton_bridge_wallet_pick_source_label": {
+    "message": "从 (SOL)"
+  },
+  "ton_bridge_wallet_pick_destination_label": {
+    "message": "到 (TON)"
+  },
+  "ton_bridge_wallet_pick_continue": {
+    "message": "继续"
+  },
+  "ton_bridge_wallet_pick_balance_suffix": {
+    "message": "余额"
+  },
+  "ton_bridge_amount_quote_title": {
+    "message": "金额"
+  },
+  "ton_bridge_amount_input_label": {
+    "message": "发送"
+  },
+  "ton_bridge_amount_receive_label": {
+    "message": "接收"
+  },
+  "ton_bridge_amount_min_max": {
+    "message": "最小 {min} SOL — 最大 {max} SOL"
+  },
+  "ton_bridge_amount_min_only": {
+    "message": "最小 {min} SOL"
+  },
+  "ton_bridge_amount_loading_range": {
+    "message": "正在加载限额…"
+  },
+  "ton_bridge_amount_below_min": {
+    "message": "低于最低限额。"
+  },
+  "ton_bridge_amount_above_max": {
+    "message": "高于最高限额。"
+  },
+  "ton_bridge_quote_loading": {
+    "message": "获取报价…"
+  },
+  "ton_bridge_quote_error": {
+    "message": "无法获取报价。"
+  },
+  "ton_bridge_flow_floating_label": {
+    "message": "浮动汇率"
+  },
+  "ton_bridge_flow_floating_help_off": {
+    "message": "锁定当前报价 — 实际到账与显示一致"
+  },
+  "ton_bridge_flow_floating_help_on": {
+    "message": "按交付时市价 — 最终金额可能浮动"
+  },
+  "ton_bridge_quote_expired": {
+    "message": "报价过期，正在刷新…"
+  },
+  "ton_bridge_quote_eta": {
+    "message": "约 {eta} 到账"
+  },
+  "ton_bridge_quote_network_fee": {
+    "message": "网络费: {fee} SOL"
+  },
+  "ton_bridge_quote_service_fee": {
+    "message": "服务费: {fee}"
+  },
+  "ton_bridge_send_cta": {
+    "message": "发送"
+  },
+  "ton_bridge_send_in_progress": {
+    "message": "发送中…"
+  },
+  "ton_bridge_back_aria": {
+    "message": "返回"
+  },
+  "ton_bridge_cancel_aria": {
+    "message": "取消"
+  },
+  "ton_bridge_step_submitted": {
+    "message": "已提交"
+  },
+  "ton_bridge_step_confirming": {
+    "message": "确认中"
+  },
+  "ton_bridge_step_exchanging": {
+    "message": "兑换中"
+  },
+  "ton_bridge_step_sending": {
+    "message": "发送中"
+  },
+  "ton_bridge_step_landed": {
+    "message": "已到账"
+  },
+  "ton_bridge_step_delivered": {
+    "message": "已送达"
+  },
+  "ton_bridge_use_max": {
+    "message": "全部"
+  },
+  "ton_bridge_reserve_buffer": {
+    "message": "请保留约 0.005 SOL 以备后续交易。"
+  },
+  "ton_bridge_balance_changed": {
+    "message": "余额已变化，请调整金额。"
+  },
+  "ton_bridge_waiting_title": {
+    "message": "跨链至 TON"
+  },
+  "ton_bridge_waiting_status_new": {
+    "message": "订单已创建"
+  },
+  "ton_bridge_waiting_status_waiting": {
+    "message": "等待 SOL 确认"
+  },
+  "ton_bridge_waiting_status_confirming": {
+    "message": "确认中"
+  },
+  "ton_bridge_waiting_status_exchanging": {
+    "message": "兑换中"
+  },
+  "ton_bridge_waiting_status_sending": {
+    "message": "发送 TON"
+  },
+  "ton_bridge_waiting_status_finished": {
+    "message": "完成"
+  },
+  "ton_bridge_waiting_status_refunded": {
+    "message": "已退款"
+  },
+  "ton_bridge_waiting_status_failed": {
+    "message": "失败"
+  },
+  "ton_bridge_waiting_status_expired": {
+    "message": "已过期"
+  },
+  "ton_bridge_waiting_status_verifying": {
+    "message": "需要验证"
+  },
+  "ton_bridge_waiting_order_id": {
+    "message": "订单 {id}"
+  },
+  "ton_bridge_waiting_payout_link": {
+    "message": "查看交易"
+  },
+  "ton_bridge_waiting_memo_warning": {
+    "message": "需要 memo: {memo}"
+  },
+  "ton_bridge_reconnecting_banner": {
+    "message": "重新连接…"
+  },
+  "ton_bridge_start_over_cta": {
+    "message": "重新开始"
+  },
+  "ton_bridge_done_cta": {
+    "message": "完成"
+  },
+  "ton_bridge_retry_broadcast_cta": {
+    "message": "重试 SOL"
+  },
+  "ton_bridge_kyc_cta": {
+    "message": "前往验证"
+  },
+  "ton_bridge_kyc_fallback": {
+    "message": "需要在网页 Bridge 完成验证。"
+  },
+  "ton_bridge_terminal_failed_body": {
+    "message": "Bridge 未能完成订单。"
+  },
+  "ton_bridge_terminal_refunded_body": {
+    "message": "已退款至来源钱包。"
+  },
+  "ton_bridge_terminal_expired_body": {
+    "message": "SOL 抵达前订单已过期。"
+  },
+  "ton_bridge_token_expired": {
+    "message": "订单凭证已过期 — 联系支持并提供订单号。"
+  },
+  "ton_bridge_error_disabled": {
+    "message": "Bridge 暂时不可用。"
+  },
+  "ton_bridge_error_not_configured": {
+    "message": "Bridge 未配置。"
+  },
+  "ton_bridge_error_invalid_request": {
+    "message": "请求无效，请检查金额。"
+  },
+  "ton_bridge_error_rate_limited": {
+    "message": "请求过多，请稍候。"
+  },
+  "ton_bridge_error_upstream": {
+    "message": "Bridge 服务异常，请重试。"
+  },
+  "ton_bridge_error_broadcast": {
+    "message": "无法广播 SOL 交易。"
+  },
+  "ton_bridge_powered_by_changenow": {
+    "message": "由 ChangeNow 提供"
+  },
+  "ton_bridge_no_sol_wallet_title": {
+    "message": "需要有余额的 SOL 钱包"
+  },
+  "ton_bridge_no_sol_wallet_body": {
+    "message": "请导入或充值 SOL 钱包。"
+  },
+  "ton_bridge_no_ton_wallet_title": {
+    "message": "请先创建 TON 钱包"
+  },
+  "ton_bridge_no_ton_wallet_body": {
+    "message": "需要 TON 接收地址。"
+  },
+  "ton_bridge_no_ton_wallet_cta": {
+    "message": "创建 TON"
+  },
+  "ton_wallets_import_cta": {
+    "message": "导入助记词"
+  },
+  "ton_wallets_import_title": {
+    "message": "导入 TON 钱包"
+  },
+  "ton_wallets_import_description": {
+    "message": "粘贴 12 或 24 个助记词以恢复你的 TON 钱包。"
+  },
+  "ton_wallets_import_word_count_error": {
+    "message": "请输入 12 或 24 个助记词。"
+  },
+  "ton_wallets_import_invalid_mnemonic": {
+    "message": "助记词无效"
+  },
+  "ton_wallets_import_success": {
+    "message": "TON 钱包已导入"
+  },
+  "ton_wallets_export_cta": {
+    "message": "导出助记词"
+  },
+  "ton_wallets_export_title": {
+    "message": "导出助记词"
+  },
+  "ton_wallets_export_warning": {
+    "message": "助记词可完全控制该钱包，请勿分享给任何人。"
+  },
+  "ton_wallets_export_failed": {
+    "message": "导出助记词失败"
   },
   "view_on_tonviewer": {
     "message": "在 Tonviewer 查看"

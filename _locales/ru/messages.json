@@ -11,6 +11,9 @@
   "add": {
     "message": "Добавить"
   },
+  "add_more": {
+    "message": "Ещё"
+  },
   "top_moves": {
     "message": "Крупные движения"
   },
@@ -960,7 +963,7 @@
     "message": "Нужна помощь?"
   },
   "docs": {
-    "message": "Документация"
+    "message": "Docs"
   },
   "community": {
     "message": "Сообщество"
@@ -1960,6 +1963,21 @@
   },
   "confirmed_sell": {
     "message": "Продано"
+  },
+  "preparing_order": {
+    "message": "Подготовка"
+  },
+  "broadcasting_transaction": {
+    "message": "Отправка"
+  },
+  "submitted_buy": {
+    "message": "Покупка отправлена"
+  },
+  "submitted_sell": {
+    "message": "Продажа отправлена"
+  },
+  "trade_did_not_reach_chain": {
+    "message": "Сделка не дошла до сети — средства не списаны"
   },
   "details": {
     "message": "Детали"
@@ -4639,6 +4657,18 @@
   "chrome_update_required_button": {
     "message": "Обновить Chrome"
   },
+  "extension_upgrade_banner_text": {
+    "message": "Требуется обновление"
+  },
+  "extension_upgrade_banner_dismiss": {
+    "message": "Скрыть"
+  },
+  "settings_version_update_pill": {
+    "message": "Обнов."
+  },
+  "settings_version_outdated_tooltip": {
+    "message": "Версия устарела"
+  },
   "trending_now_title": {
     "message": "В тренде"
   },
@@ -4808,7 +4838,7 @@
     "message": "Токены объединены"
   },
   "consolidate_partial_success": {
-    "message": "Объединено {completed}/{total} ({skipped} пропущено — нет SOL)"
+    "message": "Объединено {completed}/{total} кошельков"
   },
   "split_success": {
     "message": "Токены разделены"
@@ -4848,6 +4878,72 @@
   },
   "split_source_wallet_not_found": {
     "message": "Исходный кошелёк не найден"
+  },
+  "consolidate_sol": {
+    "message": "Объединить SOL"
+  },
+  "consolidate_sol_tooltip": {
+    "message": "Перевести SOL со всех кошельков в один"
+  },
+  "consolidate_sol_title": {
+    "message": "Объединить SOL"
+  },
+  "consolidate_sol_description": {
+    "message": "Переводит весь SOL с других кошельков на выбранный. Баланс источников становится 0. Действие необратимо."
+  },
+  "consolidate_sol_select_destination": {
+    "message": "Выберите целевой кошелёк"
+  },
+  "consolidate_sol_summary": {
+    "message": "Будет переведено ~{amount} SOL с {count} кошельков."
+  },
+  "consolidate_sol_skipped": {
+    "message": "Пропущено: {count} кошельков (недостаточно SOL)."
+  },
+  "consolidate_sol_no_sources": {
+    "message": "Нет других кошельков с достаточным SOL."
+  },
+  "consolidate_sol_confirm": {
+    "message": "Объединить"
+  },
+  "consolidating_sol_in_progress": {
+    "message": "Объединение SOL..."
+  },
+  "consolidate_sol_success": {
+    "message": "SOL объединён с {count} кошельков"
+  },
+  "error_consolidating_sol": {
+    "message": "Ошибка объединения SOL ({completed}/{total}): {error}"
+  },
+  "consolidate_sol_partial": {
+    "message": "Объединено {succeeded}/{total}. {failed} не удалось — SOL остался на месте."
+  },
+  "transactions_confirmed": {
+    "message": "Транзакции подтверждены"
+  },
+  "consolidate_some_failed": {
+    "message": "{completed} из {total} подтверждены"
+  },
+  "consolidate_all_failed": {
+    "message": "Объединение не удалось"
+  },
+  "consolidate_no_assets": {
+    "message": "Нет активов для объединения"
+  },
+  "from_one_wallet": {
+    "message": "Из 1 кошелька"
+  },
+  "from_n_wallets": {
+    "message": "Из {count} кошельков"
+  },
+  "n_wallets_selected": {
+    "message": "Выбрано: {count}"
+  },
+  "total_consolidated": {
+    "message": "Всего объединено"
+  },
+  "total_consolidating": {
+    "message": "К объединению"
   },
   "first_followers_pill": {
     "message": "Первые подписчики"
@@ -5034,6 +5130,267 @@
   },
   "ton_wallets_bridge_cta": {
     "message": "Bridge"
+  },
+  "ton_bridge_entry_cta": {
+    "message": "В TON"
+  },
+  "ton_bridge_entry_resume_cta": {
+    "message": "К заказу"
+  },
+  "ton_bridge_entry_hint": {
+    "message": "Обмен SOL → TON"
+  },
+  "ton_bridge_wallet_pick_title": {
+    "message": "Кошельки"
+  },
+  "ton_bridge_wallet_pick_source_label": {
+    "message": "С (SOL)"
+  },
+  "ton_bridge_wallet_pick_destination_label": {
+    "message": "В (TON)"
+  },
+  "ton_bridge_wallet_pick_continue": {
+    "message": "Далее"
+  },
+  "ton_bridge_wallet_pick_balance_suffix": {
+    "message": "баланс"
+  },
+  "ton_bridge_amount_quote_title": {
+    "message": "Сумма"
+  },
+  "ton_bridge_amount_input_label": {
+    "message": "Отправить"
+  },
+  "ton_bridge_amount_receive_label": {
+    "message": "Получить"
+  },
+  "ton_bridge_amount_min_max": {
+    "message": "Мин {min} SOL — Макс {max} SOL"
+  },
+  "ton_bridge_amount_min_only": {
+    "message": "Мин {min} SOL"
+  },
+  "ton_bridge_amount_loading_range": {
+    "message": "Загрузка лимитов…"
+  },
+  "ton_bridge_amount_below_min": {
+    "message": "Ниже минимума."
+  },
+  "ton_bridge_amount_above_max": {
+    "message": "Выше максимума."
+  },
+  "ton_bridge_quote_loading": {
+    "message": "Курс…"
+  },
+  "ton_bridge_quote_error": {
+    "message": "Не удалось получить курс."
+  },
+  "ton_bridge_flow_floating_label": {
+    "message": "Плавающий курс"
+  },
+  "ton_bridge_flow_floating_help_off": {
+    "message": "Курс зафиксирован — получите ровно как показано"
+  },
+  "ton_bridge_flow_floating_help_on": {
+    "message": "Курс на момент отправки — сумма может измениться"
+  },
+  "ton_bridge_quote_expired": {
+    "message": "Курс истёк. Обновляем…"
+  },
+  "ton_bridge_quote_eta": {
+    "message": "Поступит через {eta}"
+  },
+  "ton_bridge_quote_network_fee": {
+    "message": "Комиссия сети: {fee} SOL"
+  },
+  "ton_bridge_quote_service_fee": {
+    "message": "Сервисный сбор: {fee}"
+  },
+  "ton_bridge_send_cta": {
+    "message": "Отправить"
+  },
+  "ton_bridge_send_in_progress": {
+    "message": "Отправка…"
+  },
+  "ton_bridge_back_aria": {
+    "message": "Назад"
+  },
+  "ton_bridge_cancel_aria": {
+    "message": "Отмена"
+  },
+  "ton_bridge_step_submitted": {
+    "message": "Отправлено"
+  },
+  "ton_bridge_step_confirming": {
+    "message": "Подтверждение"
+  },
+  "ton_bridge_step_exchanging": {
+    "message": "Обмен"
+  },
+  "ton_bridge_step_sending": {
+    "message": "Отправка"
+  },
+  "ton_bridge_step_landed": {
+    "message": "Получено"
+  },
+  "ton_bridge_step_delivered": {
+    "message": "Доставлено"
+  },
+  "ton_bridge_use_max": {
+    "message": "Максимум"
+  },
+  "ton_bridge_reserve_buffer": {
+    "message": "Оставьте ~0.005 SOL про запас."
+  },
+  "ton_bridge_balance_changed": {
+    "message": "Баланс изменился. Скорректируйте сумму."
+  },
+  "ton_bridge_waiting_title": {
+    "message": "Бридж в TON"
+  },
+  "ton_bridge_waiting_status_new": {
+    "message": "Ордер создан"
+  },
+  "ton_bridge_waiting_status_waiting": {
+    "message": "Ждём SOL"
+  },
+  "ton_bridge_waiting_status_confirming": {
+    "message": "Подтверждаем"
+  },
+  "ton_bridge_waiting_status_exchanging": {
+    "message": "Обмен"
+  },
+  "ton_bridge_waiting_status_sending": {
+    "message": "Отправляем TON"
+  },
+  "ton_bridge_waiting_status_finished": {
+    "message": "Готово"
+  },
+  "ton_bridge_waiting_status_refunded": {
+    "message": "Возвращено"
+  },
+  "ton_bridge_waiting_status_failed": {
+    "message": "Ошибка"
+  },
+  "ton_bridge_waiting_status_expired": {
+    "message": "Истёк"
+  },
+  "ton_bridge_waiting_status_verifying": {
+    "message": "Проверка"
+  },
+  "ton_bridge_waiting_order_id": {
+    "message": "Ордер {id}"
+  },
+  "ton_bridge_waiting_payout_link": {
+    "message": "Транзакция"
+  },
+  "ton_bridge_waiting_memo_warning": {
+    "message": "Нужен memo: {memo}"
+  },
+  "ton_bridge_reconnecting_banner": {
+    "message": "Переподключение…"
+  },
+  "ton_bridge_start_over_cta": {
+    "message": "Заново"
+  },
+  "ton_bridge_done_cta": {
+    "message": "Готово"
+  },
+  "ton_bridge_retry_broadcast_cta": {
+    "message": "Повторить SOL"
+  },
+  "ton_bridge_kyc_cta": {
+    "message": "Проверка"
+  },
+  "ton_bridge_kyc_fallback": {
+    "message": "Откройте веб-бридж."
+  },
+  "ton_bridge_success_eyebrow": {
+    "message": "Бридж завершён"
+  },
+  "ton_bridge_success_subtitle": {
+    "message": "Из {amount} SOL."
+  },
+  "ton_bridge_success_to_label": {
+    "message": "Кому"
+  },
+  "ton_bridge_terminal_failed_body": {
+    "message": "Сервис не завершил ордер."
+  },
+  "ton_bridge_terminal_refunded_body": {
+    "message": "Средства возвращены."
+  },
+  "ton_bridge_terminal_expired_body": {
+    "message": "Ордер истёк до SOL."
+  },
+  "ton_bridge_token_expired": {
+    "message": "Токен истёк — поддержка."
+  },
+  "ton_bridge_error_disabled": {
+    "message": "Бридж недоступен."
+  },
+  "ton_bridge_error_not_configured": {
+    "message": "Бридж не настроен."
+  },
+  "ton_bridge_error_invalid_request": {
+    "message": "Проверьте сумму."
+  },
+  "ton_bridge_error_rate_limited": {
+    "message": "Подождите."
+  },
+  "ton_bridge_error_upstream": {
+    "message": "Сбой. Повторите."
+  },
+  "ton_bridge_error_broadcast": {
+    "message": "Не удалось отправить SOL."
+  },
+  "ton_bridge_powered_by_changenow": {
+    "message": "При поддержке ChangeNow"
+  },
+  "ton_bridge_no_sol_wallet_title": {
+    "message": "Нужен SOL-кошелёк"
+  },
+  "ton_bridge_no_sol_wallet_body": {
+    "message": "Импортируйте или пополните SOL."
+  },
+  "ton_bridge_no_ton_wallet_title": {
+    "message": "Создайте TON"
+  },
+  "ton_bridge_no_ton_wallet_body": {
+    "message": "Нужен адрес TON."
+  },
+  "ton_bridge_no_ton_wallet_cta": {
+    "message": "Создать TON"
+  },
+  "ton_wallets_import_cta": {
+    "message": "Импорт сид-фразы"
+  },
+  "ton_wallets_import_title": {
+    "message": "Импорт TON-кошелька"
+  },
+  "ton_wallets_import_description": {
+    "message": "Вставьте сид-фразу из 12 или 24 слов для восстановления TON-кошелька."
+  },
+  "ton_wallets_import_word_count_error": {
+    "message": "Введите 12 или 24 слова."
+  },
+  "ton_wallets_import_invalid_mnemonic": {
+    "message": "Неверная сид-фраза"
+  },
+  "ton_wallets_import_success": {
+    "message": "TON-кошелек импортирован"
+  },
+  "ton_wallets_export_cta": {
+    "message": "Экспорт сид-фразы"
+  },
+  "ton_wallets_export_title": {
+    "message": "Экспорт сид-фразы"
+  },
+  "ton_wallets_export_warning": {
+    "message": "Сид-фраза дает полный доступ к кошельку. Никому ее не показывайте."
+  },
+  "ton_wallets_export_failed": {
+    "message": "Не удалось экспортировать сид-фразу"
   },
   "view_on_tonviewer": {
     "message": "На Tonviewer"

@@ -11,6 +11,9 @@
   "add": {
     "message": "Add"
   },
+  "add_more": {
+    "message": "Add more"
+  },
   "appearance": {
     "message": "Appearance"
   },
@@ -1894,6 +1897,21 @@
   },
   "confirmed_sell": {
     "message": "Confirmed Sell"
+  },
+  "preparing_order": {
+    "message": "Preparing order"
+  },
+  "broadcasting_transaction": {
+    "message": "Broadcasting transaction"
+  },
+  "submitted_buy": {
+    "message": "Submitted Buy"
+  },
+  "submitted_sell": {
+    "message": "Submitted Sell"
+  },
+  "trade_did_not_reach_chain": {
+    "message": "Trade did not reach chain — funds untouched"
   },
   "details": {
     "message": "Details"
@@ -4636,6 +4654,18 @@
   "chrome_update_required_button": {
     "message": "Update Chrome"
   },
+  "extension_upgrade_banner_text": {
+    "message": "Extension upgrade required"
+  },
+  "extension_upgrade_banner_dismiss": {
+    "message": "Dismiss"
+  },
+  "settings_version_update_pill": {
+    "message": "Update"
+  },
+  "settings_version_outdated_tooltip": {
+    "message": "Outdated version may affect performance"
+  },
   "trending_now_title": {
     "message": "Trending Now"
   },
@@ -4805,7 +4835,7 @@
     "message": "Tokens consolidated successfully"
   },
   "consolidate_partial_success": {
-    "message": "Consolidated {completed}/{total} wallets ({skipped} skipped — no SOL for fees)"
+    "message": "Consolidated {completed}/{total} wallets"
   },
   "split_success": {
     "message": "Tokens split successfully"
@@ -4845,6 +4875,72 @@
   },
   "split_source_wallet_not_found": {
     "message": "Source wallet not found"
+  },
+  "consolidate_sol": {
+    "message": "Consolidate SOL"
+  },
+  "consolidate_sol_tooltip": {
+    "message": "Move SOL from all other wallets into one"
+  },
+  "consolidate_sol_title": {
+    "message": "Consolidate SOL"
+  },
+  "consolidate_sol_description": {
+    "message": "Moves all SOL from your other wallets into the destination. Each source wallet ends at 0 SOL. This action cannot be undone."
+  },
+  "consolidate_sol_select_destination": {
+    "message": "Select destination wallet"
+  },
+  "consolidate_sol_summary": {
+    "message": "Will move ~{amount} SOL from {count} wallet(s)."
+  },
+  "consolidate_sol_skipped": {
+    "message": "{count} wallet(s) skipped — balance below the safety reserve."
+  },
+  "consolidate_sol_no_sources": {
+    "message": "No other wallets have enough SOL to consolidate."
+  },
+  "consolidate_sol_confirm": {
+    "message": "Consolidate"
+  },
+  "consolidating_sol_in_progress": {
+    "message": "Consolidating SOL..."
+  },
+  "consolidate_sol_success": {
+    "message": "SOL consolidated from {count} wallet(s)"
+  },
+  "error_consolidating_sol": {
+    "message": "Error consolidating SOL ({completed}/{total}): {error}"
+  },
+  "consolidate_sol_partial": {
+    "message": "Partial success: {succeeded}/{total} wallets consolidated. {failed} failed — their SOL was not moved."
+  },
+  "transactions_confirmed": {
+    "message": "Transactions Confirmed"
+  },
+  "consolidate_some_failed": {
+    "message": "{completed} of {total} transactions confirmed"
+  },
+  "consolidate_all_failed": {
+    "message": "Consolidation Failed"
+  },
+  "consolidate_no_assets": {
+    "message": "No assets to consolidate"
+  },
+  "from_one_wallet": {
+    "message": "From 1 wallet"
+  },
+  "from_n_wallets": {
+    "message": "From {count} wallets"
+  },
+  "n_wallets_selected": {
+    "message": "{count} wallets selected"
+  },
+  "total_consolidated": {
+    "message": "Total Consolidated"
+  },
+  "total_consolidating": {
+    "message": "Total Consolidating"
   },
   "first_followers_pill": {
     "message": "First Followers"
@@ -5031,6 +5127,267 @@
   },
   "ton_wallets_bridge_cta": {
     "message": "Bridge"
+  },
+  "ton_bridge_entry_cta": {
+    "message": "Bridge to TON"
+  },
+  "ton_bridge_entry_resume_cta": {
+    "message": "View bridge order"
+  },
+  "ton_bridge_entry_hint": {
+    "message": "Swap SOL for TON"
+  },
+  "ton_bridge_wallet_pick_title": {
+    "message": "Pick wallets"
+  },
+  "ton_bridge_wallet_pick_source_label": {
+    "message": "Send from (SOL)"
+  },
+  "ton_bridge_wallet_pick_destination_label": {
+    "message": "Receive to (TON)"
+  },
+  "ton_bridge_wallet_pick_continue": {
+    "message": "Continue"
+  },
+  "ton_bridge_wallet_pick_balance_suffix": {
+    "message": "balance"
+  },
+  "ton_bridge_amount_quote_title": {
+    "message": "Bridge amount"
+  },
+  "ton_bridge_amount_input_label": {
+    "message": "You send"
+  },
+  "ton_bridge_amount_receive_label": {
+    "message": "You receive"
+  },
+  "ton_bridge_amount_min_max": {
+    "message": "Min {min} SOL — Max {max} SOL"
+  },
+  "ton_bridge_amount_min_only": {
+    "message": "Min {min} SOL"
+  },
+  "ton_bridge_amount_loading_range": {
+    "message": "Loading limits…"
+  },
+  "ton_bridge_amount_below_min": {
+    "message": "Amount is below the minimum."
+  },
+  "ton_bridge_amount_above_max": {
+    "message": "Amount is above the maximum."
+  },
+  "ton_bridge_quote_loading": {
+    "message": "Fetching quote…"
+  },
+  "ton_bridge_quote_error": {
+    "message": "Couldn't fetch a quote. Try again."
+  },
+  "ton_bridge_flow_floating_label": {
+    "message": "Floating rate"
+  },
+  "ton_bridge_flow_floating_help_off": {
+    "message": "Rate locked at quote — receive exactly what's shown"
+  },
+  "ton_bridge_flow_floating_help_on": {
+    "message": "Best rate at delivery — final amount may vary"
+  },
+  "ton_bridge_quote_expired": {
+    "message": "Quote expired. Refreshing…"
+  },
+  "ton_bridge_quote_eta": {
+    "message": "Arrives in {eta}"
+  },
+  "ton_bridge_quote_network_fee": {
+    "message": "Network fee: {fee} SOL"
+  },
+  "ton_bridge_quote_service_fee": {
+    "message": "Service fee: {fee}"
+  },
+  "ton_bridge_send_cta": {
+    "message": "Send"
+  },
+  "ton_bridge_send_in_progress": {
+    "message": "Sending…"
+  },
+  "ton_bridge_back_aria": {
+    "message": "Back"
+  },
+  "ton_bridge_cancel_aria": {
+    "message": "Cancel"
+  },
+  "ton_bridge_step_submitted": {
+    "message": "Submitted"
+  },
+  "ton_bridge_step_confirming": {
+    "message": "Confirming"
+  },
+  "ton_bridge_step_exchanging": {
+    "message": "Exchanging"
+  },
+  "ton_bridge_step_sending": {
+    "message": "Sending"
+  },
+  "ton_bridge_step_landed": {
+    "message": "Landed"
+  },
+  "ton_bridge_step_delivered": {
+    "message": "Delivered"
+  },
+  "ton_bridge_use_max": {
+    "message": "Use max sendable"
+  },
+  "ton_bridge_reserve_buffer": {
+    "message": "Keep ~0.005 SOL on hand for future trades."
+  },
+  "ton_bridge_balance_changed": {
+    "message": "Wallet balance changed. Adjust the amount and try again."
+  },
+  "ton_bridge_waiting_title": {
+    "message": "Bridging to TON"
+  },
+  "ton_bridge_waiting_status_new": {
+    "message": "Order created"
+  },
+  "ton_bridge_waiting_status_waiting": {
+    "message": "Waiting for SOL to confirm"
+  },
+  "ton_bridge_waiting_status_confirming": {
+    "message": "Confirming SOL deposit"
+  },
+  "ton_bridge_waiting_status_exchanging": {
+    "message": "Exchanging"
+  },
+  "ton_bridge_waiting_status_sending": {
+    "message": "Sending TON"
+  },
+  "ton_bridge_waiting_status_finished": {
+    "message": "Bridge complete"
+  },
+  "ton_bridge_waiting_status_refunded": {
+    "message": "Refunded to source"
+  },
+  "ton_bridge_waiting_status_failed": {
+    "message": "Bridge failed"
+  },
+  "ton_bridge_waiting_status_expired": {
+    "message": "Order expired"
+  },
+  "ton_bridge_waiting_status_verifying": {
+    "message": "Verification required"
+  },
+  "ton_bridge_waiting_order_id": {
+    "message": "Order {id}"
+  },
+  "ton_bridge_waiting_payout_link": {
+    "message": "View payout"
+  },
+  "ton_bridge_waiting_memo_warning": {
+    "message": "Destination memo required: {memo}"
+  },
+  "ton_bridge_reconnecting_banner": {
+    "message": "Reconnecting…"
+  },
+  "ton_bridge_start_over_cta": {
+    "message": "Start over"
+  },
+  "ton_bridge_done_cta": {
+    "message": "Done"
+  },
+  "ton_bridge_retry_broadcast_cta": {
+    "message": "Retry SOL transaction"
+  },
+  "ton_bridge_kyc_cta": {
+    "message": "Open verification"
+  },
+  "ton_bridge_kyc_fallback": {
+    "message": "Verification required. Open the web bridge to continue."
+  },
+  "ton_bridge_success_eyebrow": {
+    "message": "Bridge complete"
+  },
+  "ton_bridge_success_subtitle": {
+    "message": "Bridged from {amount} SOL."
+  },
+  "ton_bridge_success_to_label": {
+    "message": "To"
+  },
+  "ton_bridge_terminal_failed_body": {
+    "message": "The bridge service couldn't complete this order."
+  },
+  "ton_bridge_terminal_refunded_body": {
+    "message": "Funds were refunded to your source wallet."
+  },
+  "ton_bridge_terminal_expired_body": {
+    "message": "The order expired before SOL arrived."
+  },
+  "ton_bridge_token_expired": {
+    "message": "Order token expired — contact support with order id."
+  },
+  "ton_bridge_error_disabled": {
+    "message": "Bridge is temporarily unavailable."
+  },
+  "ton_bridge_error_not_configured": {
+    "message": "Bridge is not configured. Try again later."
+  },
+  "ton_bridge_error_invalid_request": {
+    "message": "Invalid request. Check the amount and try again."
+  },
+  "ton_bridge_error_rate_limited": {
+    "message": "Too many requests. Wait a moment and try again."
+  },
+  "ton_bridge_error_upstream": {
+    "message": "Bridge service is having trouble. Try again."
+  },
+  "ton_bridge_error_broadcast": {
+    "message": "Couldn't broadcast the SOL transaction."
+  },
+  "ton_bridge_powered_by_changenow": {
+    "message": "Powered by ChangeNow"
+  },
+  "ton_bridge_no_sol_wallet_title": {
+    "message": "You need a funded SOL wallet"
+  },
+  "ton_bridge_no_sol_wallet_body": {
+    "message": "Import or fund a SOL wallet to bridge to TON."
+  },
+  "ton_bridge_no_ton_wallet_title": {
+    "message": "Create a TON wallet first"
+  },
+  "ton_bridge_no_ton_wallet_body": {
+    "message": "We need a destination on TON to receive your bridge."
+  },
+  "ton_bridge_no_ton_wallet_cta": {
+    "message": "Create TON wallet"
+  },
+  "ton_wallets_import_cta": {
+    "message": "Import Seed Phrase"
+  },
+  "ton_wallets_import_title": {
+    "message": "Import TON Wallet"
+  },
+  "ton_wallets_import_description": {
+    "message": "Paste a 12 or 24-word seed phrase to restore your TON wallet."
+  },
+  "ton_wallets_import_word_count_error": {
+    "message": "Use a 12 or 24-word seed phrase."
+  },
+  "ton_wallets_import_invalid_mnemonic": {
+    "message": "Seed phrase is invalid"
+  },
+  "ton_wallets_import_success": {
+    "message": "TON wallet imported"
+  },
+  "ton_wallets_export_cta": {
+    "message": "Export Seed Phrase"
+  },
+  "ton_wallets_export_title": {
+    "message": "Export Seed Phrase"
+  },
+  "ton_wallets_export_warning": {
+    "message": "Your seed phrase gives full access to this wallet. Do not share it with anyone."
+  },
+  "ton_wallets_export_failed": {
+    "message": "Failed to export seed phrase"
   },
   "view_on_tonviewer": {
     "message": "View on Tonviewer"
