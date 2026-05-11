@@ -182,8 +182,23 @@
   "tags_from": {
     "message": "Теги из"
   },
-  "log_in_to_view_insights": {
-    "message": "Войдите, чтобы увидеть аналитику"
+  "smart_followers_session_expired_title": {
+    "message": "Сессия истекла"
+  },
+  "smart_followers_session_expired_desc": {
+    "message": "Войдите снова, чтобы видеть сигналы умных подписчиков."
+  },
+  "smart_followers_anonymous_title": {
+    "message": "Умные подписчики скрыты"
+  },
+  "smart_followers_anonymous_desc": {
+    "message": "Войдите, чтобы увидеть, кто на самом деле подписан."
+  },
+  "smart_followers_sign_in_cta": {
+    "message": "Войти"
+  },
+  "smart_followers_sign_back_in_cta": {
+    "message": "Войти снова"
   },
   "label_updated_successfully": {
     "message": "Метка успешно обновлена!"
@@ -232,6 +247,12 @@
   },
   "wallet_import_partial_due_to_batch_text": {
     "message": "Импортировано {imported} из {total} кошельков. Лимит пакетной загрузки составляет {batchLimit} кошельков."
+  },
+  "wallet_import_progress_text": {
+    "message": "Импортируется {imported} / {total} кошельков…"
+  },
+  "wallet_import_partial_due_to_error_text": {
+    "message": "Импортировано {imported} из {total} кошельков. Часть импортировать не удалось — повторите попытку."
   },
   "username_history": {
     "message": "История имён пользователя"
@@ -1088,6 +1109,18 @@
   "recently_logged_in_as": {
     "message": "Вход как"
   },
+  "sign_in_to_continue": {
+    "message": "Войти"
+  },
+  "choose_google_account_subtitle": {
+    "message": "Выберите Google-аккаунт для входа."
+  },
+  "sign_in_as_label": {
+    "message": "Войти как"
+  },
+  "not_you_use_different_account": {
+    "message": "Не вы? Другой аккаунт"
+  },
   "clear": {
     "message": "Очистить"
   },
@@ -1294,6 +1327,9 @@
   },
   "please_select_at_least_one_wallet": {
     "message": "Выберите хотя бы один кошелёк"
+  },
+  "please_select_wallet_to_trade": {
+    "message": "Выберите кошелёк для торговли"
   },
   "importing": {
     "message": "Импорт..."
@@ -5198,7 +5234,7 @@
     "message": "Курс истёк. Обновляем…"
   },
   "ton_bridge_quote_eta": {
-    "message": "Поступит через {eta}"
+    "message": "Поступит через {eta} сек"
   },
   "ton_bridge_quote_network_fee": {
     "message": "Комиссия сети: {fee} SOL"
@@ -5352,6 +5388,9 @@
   },
   "ton_bridge_no_sol_wallet_body": {
     "message": "Импортируйте или пополните SOL."
+  },
+  "ton_bridge_back": {
+    "message": "Назад"
   },
   "ton_bridge_no_ton_wallet_title": {
     "message": "Создайте TON"

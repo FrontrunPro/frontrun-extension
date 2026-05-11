@@ -179,8 +179,23 @@
   "tags_from": {
     "message": "Tags from"
   },
-  "log_in_to_view_insights": {
-    "message": "Log in to view insights"
+  "smart_followers_session_expired_title": {
+    "message": "Your session expired"
+  },
+  "smart_followers_session_expired_desc": {
+    "message": "Sign back in to keep seeing smart-follower signal."
+  },
+  "smart_followers_anonymous_title": {
+    "message": "Smart followers locked"
+  },
+  "smart_followers_anonymous_desc": {
+    "message": "Sign in to see who really follows this profile."
+  },
+  "smart_followers_sign_in_cta": {
+    "message": "Sign in"
+  },
+  "smart_followers_sign_back_in_cta": {
+    "message": "Sign back in"
   },
   "label_updated_successfully": {
     "message": "Label updated successfully!"
@@ -226,6 +241,12 @@
   },
   "wallet_import_partial_due_to_batch_text": {
     "message": "{imported} of {total} wallets imported. Batch limit is {batchLimit} wallets"
+  },
+  "wallet_import_progress_text": {
+    "message": "Importing {imported} / {total} wallets…"
+  },
+  "wallet_import_partial_due_to_error_text": {
+    "message": "{imported} of {total} wallets imported. Some wallets failed — please retry."
   },
   "username_history": {
     "message": "Username History"
@@ -1028,6 +1049,18 @@
   "recently_logged_in_as": {
     "message": "Recently logged in as"
   },
+  "sign_in_to_continue": {
+    "message": "Sign in to continue"
+  },
+  "choose_google_account_subtitle": {
+    "message": "Choose a Google account to sign in."
+  },
+  "sign_in_as_label": {
+    "message": "Sign in as"
+  },
+  "not_you_use_different_account": {
+    "message": "Not you? Use a different account"
+  },
   "clear": {
     "message": "Clear"
   },
@@ -1234,6 +1267,9 @@
   },
   "please_select_at_least_one_wallet": {
     "message": "Please select at least one wallet"
+  },
+  "please_select_wallet_to_trade": {
+    "message": "Please select a wallet to be able to trade"
   },
   "importing": {
     "message": "Importing..."
@@ -5195,7 +5231,7 @@
     "message": "Quote expired. Refreshing…"
   },
   "ton_bridge_quote_eta": {
-    "message": "Arrives in {eta}"
+    "message": "Arrives in {eta} sec"
   },
   "ton_bridge_quote_network_fee": {
     "message": "Network fee: {fee} SOL"
@@ -5349,6 +5385,9 @@
   },
   "ton_bridge_no_sol_wallet_body": {
     "message": "Import or fund a SOL wallet to bridge to TON."
+  },
+  "ton_bridge_back": {
+    "message": "Back"
   },
   "ton_bridge_no_ton_wallet_title": {
     "message": "Create a TON wallet first"

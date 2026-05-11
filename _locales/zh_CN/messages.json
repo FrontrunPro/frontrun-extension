@@ -176,8 +176,23 @@
   "tags_from": {
     "message": "标签来自"
   },
-  "log_in_to_view_insights": {
-    "message": "登录查看洞察"
+  "smart_followers_session_expired_title": {
+    "message": "登录已过期"
+  },
+  "smart_followers_session_expired_desc": {
+    "message": "重新登录以继续查看聪明粉丝信号。"
+  },
+  "smart_followers_anonymous_title": {
+    "message": "聪明粉丝已锁定"
+  },
+  "smart_followers_anonymous_desc": {
+    "message": "登录后查看谁在真正关注这个账号。"
+  },
+  "smart_followers_sign_in_cta": {
+    "message": "登录"
+  },
+  "smart_followers_sign_back_in_cta": {
+    "message": "重新登录"
   },
   "label_updated_successfully": {
     "message": "标签更新成功！"
@@ -226,6 +241,12 @@
   },
   "wallet_import_partial_due_to_batch_text": {
     "message": "已导入 {imported} 个，共 {total} 个钱包。单次批量限制为 {batchLimit} 个钱包。"
+  },
+  "wallet_import_progress_text": {
+    "message": "正在导入 {imported} / {total} 个钱包…"
+  },
+  "wallet_import_partial_due_to_error_text": {
+    "message": "已导入 {imported} 个，共 {total} 个钱包。部分钱包导入失败，请重试。"
   },
   "username_history": {
     "message": "用户名历史"
@@ -1094,6 +1115,18 @@
   "recently_logged_in_as": {
     "message": "最近登录账号"
   },
+  "sign_in_to_continue": {
+    "message": "登录以继续"
+  },
+  "choose_google_account_subtitle": {
+    "message": "请选择 Google 账号登录"
+  },
+  "sign_in_as_label": {
+    "message": "点此登录"
+  },
+  "not_you_use_different_account": {
+    "message": "不是你？使用其他账号登录"
+  },
   "clear": {
     "message": "清除"
   },
@@ -1300,6 +1333,9 @@
   },
   "please_select_at_least_one_wallet": {
     "message": "请至少选择一个钱包"
+  },
+  "please_select_wallet_to_trade": {
+    "message": "请选择钱包以进行交易"
   },
   "importing": {
     "message": "导入中..."
@@ -5183,7 +5219,7 @@
     "message": "报价过期，正在刷新…"
   },
   "ton_bridge_quote_eta": {
-    "message": "约 {eta} 到账"
+    "message": "约 {eta} 秒到账"
   },
   "ton_bridge_quote_network_fee": {
     "message": "网络费: {fee} SOL"
@@ -5328,6 +5364,9 @@
   },
   "ton_bridge_no_sol_wallet_body": {
     "message": "请导入或充值 SOL 钱包。"
+  },
+  "ton_bridge_back": {
+    "message": "返回"
   },
   "ton_bridge_no_ton_wallet_title": {
     "message": "请先创建 TON 钱包"
