@@ -1269,7 +1269,7 @@
     "message": "Please select at least one wallet"
   },
   "please_select_wallet_to_trade": {
-    "message": "Please select a wallet to be able to trade"
+    "message": "Please select a wallet to trade"
   },
   "importing": {
     "message": "Importing..."
@@ -3746,6 +3746,15 @@
   "pnl_include_fees_desc": {
     "message": "Subtract transaction fees (base, priority, tip, frontrun) from realized PNL"
   },
+  "pnl_show_total_across_wallets": {
+    "message": "Show total PNL across all wallets"
+  },
+  "pnl_show_total_across_wallets_desc": {
+    "message": "Aggregate PNL from every wallet you own on this token."
+  },
+  "pnl_all_wallets_badge": {
+    "message": "All wallets"
+  },
   "keep_wsol_open": {
     "message": "Keep WSOL Account Open"
   },
@@ -4192,6 +4201,9 @@
   },
   "wallet_group_created": {
     "message": "Wallet group created"
+  },
+  "wallet_groups_limit_reached": {
+    "message": "Max {count} wallet groups. Delete one to create a new one."
   },
   "create_group_partial_failure": {
     "message": "Group created, but $COUNT$ wallet(s) failed to join",

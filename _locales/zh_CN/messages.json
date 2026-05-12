@@ -3737,6 +3737,15 @@
   "pnl_include_fees_desc": {
     "message": "从已实现盈亏中扣除交易手续费（基础费、优先费、小费、前置费）"
   },
+  "pnl_show_total_across_wallets": {
+    "message": "显示所有钱包总盈亏"
+  },
+  "pnl_show_total_across_wallets_desc": {
+    "message": "汇总该代币在你所有钱包中的盈亏。"
+  },
+  "pnl_all_wallets_badge": {
+    "message": "全部钱包"
+  },
   "keep_wsol_open": {
     "message": "保留 WSOL 账户"
   },
@@ -4181,13 +4190,11 @@
   "wallet_group_created": {
     "message": "分组已创建"
   },
+  "wallet_groups_limit_reached": {
+    "message": "最多 {count} 个分组，请先删除一个再创建。"
+  },
   "create_group_partial_failure": {
-    "message": "分组已创建，但 $COUNT$ 个钱包未能加入",
-    "placeholders": {
-      "count": {
-        "content": "$1"
-      }
-    }
+    "message": "分组已创建，但 {count} 个钱包未能加入"
   },
   "create_sol_wallet_modal_title": {
     "message": "创建 Solana 钱包"

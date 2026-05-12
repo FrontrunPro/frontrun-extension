@@ -3749,6 +3749,15 @@
   "pnl_include_fees_desc": {
     "message": "Вычитает комиссии (базовая, приоритетная, чаевые, антифронтран) из PNL"
   },
+  "pnl_show_total_across_wallets": {
+    "message": "Общий PNL по всем кошелькам"
+  },
+  "pnl_show_total_across_wallets_desc": {
+    "message": "Суммирует PNL по этому токену во всех ваших кошельках."
+  },
+  "pnl_all_wallets_badge": {
+    "message": "Все кошельки"
+  },
   "keep_wsol_open": {
     "message": "Сохранять WSOL аккаунт"
   },
@@ -4196,13 +4205,11 @@
   "wallet_group_created": {
     "message": "Группа создана"
   },
+  "wallet_groups_limit_reached": {
+    "message": "Максимум {count} групп. Удалите одну, чтобы создать новую."
+  },
   "create_group_partial_failure": {
-    "message": "Группа создана, но $COUNT$ кошельк(ов) не добавлены",
-    "placeholders": {
-      "count": {
-        "content": "$1"
-      }
-    }
+    "message": "Группа создана, но не удалось добавить {count} кошельков"
   },
   "create_sol_wallet_modal_title": {
     "message": "Создать Solana кошелёк"
