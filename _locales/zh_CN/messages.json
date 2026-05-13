@@ -1335,7 +1335,7 @@
     "message": "请至少选择一个钱包"
   },
   "please_select_wallet_to_trade": {
-    "message": "请选择钱包以进行交易"
+    "message": "至少选择一个钱包进行交易"
   },
   "importing": {
     "message": "导入中..."
@@ -1759,6 +1759,9 @@
   },
   "username": {
     "message": "用户名"
+  },
+  "referral_code": {
+    "message": "邀请码"
   },
   "history": {
     "message": "历史"
@@ -2425,6 +2428,9 @@
   },
   "delay": {
     "message": "延迟"
+  },
+  "show_in_panel": {
+    "message": "面板内显示"
   },
   "variance_description": {
     "message": "所选钱包购买金额的变化幅度。0% 到 100% 随机分配。"
@@ -4372,6 +4378,12 @@
   },
   "single_group_select_desc": {
     "message": "同时只能激活一个钱包组"
+  },
+  "show_wallet_groups_on_axiom_pulse": {
+    "message": "在 Axiom Pulse 显示钱包组"
+  },
+  "show_wallet_groups_on_axiom_pulse_desc": {
+    "message": "在 Axiom 的 Pulse 显示钱包组"
   },
   "show_chart_order_lines": {
     "message": "显示图表订单线"

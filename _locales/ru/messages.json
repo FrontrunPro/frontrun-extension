@@ -1329,7 +1329,7 @@
     "message": "Выберите хотя бы один кошелёк"
   },
   "please_select_wallet_to_trade": {
-    "message": "Выберите кошелёк для торговли"
+    "message": "Выберите хотя бы один кошелёк"
   },
   "importing": {
     "message": "Импорт..."
@@ -1753,6 +1753,9 @@
   },
   "username": {
     "message": "Имя"
+  },
+  "referral_code": {
+    "message": "Реферальный код"
   },
   "history": {
     "message": "История"
@@ -2437,6 +2440,9 @@
   },
   "delay": {
     "message": "Задержка"
+  },
+  "show_in_panel": {
+    "message": "В панели"
   },
   "variance_description": {
     "message": "Вариация суммы покупки среди выбранных кошельков. Случайно от 0% до 100%."
@@ -4387,6 +4393,12 @@
   },
   "single_group_select_desc": {
     "message": "Только одна группа активна одновременно"
+  },
+  "show_wallet_groups_on_axiom_pulse": {
+    "message": "Группы кошельков на Axiom Pulse"
+  },
+  "show_wallet_groups_on_axiom_pulse_desc": {
+    "message": "Группы кошельков на Axiom Pulse"
   },
   "show_chart_order_lines": {
     "message": "Линии ордеров на графике"

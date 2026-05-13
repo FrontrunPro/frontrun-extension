@@ -549,7 +549,7 @@
     "message": "Adding..."
   },
   "choose_wallet": {
-    "message": "Choose Wallet"
+    "message": "Select wallet"
   },
   "wallets_failed_to_activate_retry": {
     "message": "Some wallets failed to activate. Please retry."
@@ -1269,7 +1269,7 @@
     "message": "Please select at least one wallet"
   },
   "please_select_wallet_to_trade": {
-    "message": "Please select a wallet to trade"
+    "message": "Select at least one wallet to trade"
   },
   "importing": {
     "message": "Importing..."
@@ -1696,6 +1696,9 @@
   },
   "username": {
     "message": "Username"
+  },
+  "referral_code": {
+    "message": "Referral Code"
   },
   "history": {
     "message": "History"
@@ -2389,6 +2392,9 @@
   },
   "delay": {
     "message": "Delay"
+  },
+  "show_in_panel": {
+    "message": "Show in panel"
   },
   "variance_description": {
     "message": "The variance of the buy amount across the selected wallets. 0% to 100% randomly."
@@ -4389,6 +4395,12 @@
   },
   "single_group_select_desc": {
     "message": "Only one group can be active at a time"
+  },
+  "show_wallet_groups_on_axiom_pulse": {
+    "message": "Show Wallet Groups on Axiom Pulse"
+  },
+  "show_wallet_groups_on_axiom_pulse_desc": {
+    "message": "Show wallet group on Axiom's Pulse"
   },
   "show_chart_order_lines": {
     "message": "Show Chart Order Lines"
