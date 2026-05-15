@@ -203,6 +203,9 @@
   "label_deleted_successfully": {
     "message": "Label deleted successfully!"
   },
+  "label_unverified_tooltip": {
+    "message": "Unverified: AI generated"
+  },
   "please_enter_twitter_usernames": {
     "message": "Please paste your exported Twitter usernames/notes first"
   },
@@ -240,13 +243,19 @@
     "message": "Import completed"
   },
   "wallet_import_partial_due_to_batch_text": {
-    "message": "{imported} of {total} wallets imported. Batch limit is {batchLimit} wallets"
+    "message": "{imported} of {total} wallets imported. {remaining} remaining wallets kept in the input — retry in ~1 minute."
   },
   "wallet_import_progress_text": {
     "message": "Importing {imported} / {total} wallets…"
   },
   "wallet_import_partial_due_to_error_text": {
     "message": "{imported} of {total} wallets imported. Some wallets failed — please retry."
+  },
+  "wallet_import_already_in_progress": {
+    "message": "Another import is still running. Please wait a moment and try again."
+  },
+  "wallet_import_no_new_wallets": {
+    "message": "No new wallets to import — these are already labeled."
   },
   "username_history": {
     "message": "Username History"
@@ -2364,7 +2373,7 @@
     "message": "Username must be at least 3 characters"
   },
   "username_too_long": {
-    "message": "Username must be at most 10 characters"
+    "message": "Username must be at most 20 characters"
   },
   "no_fee": {
     "message": "0 fee"
@@ -2390,11 +2399,14 @@
   "transaction_delay": {
     "message": "Transaction Delay"
   },
+  "tx_delay": {
+    "message": "Tx Delay"
+  },
   "delay": {
     "message": "Delay"
   },
   "show_in_panel": {
-    "message": "Show in panel"
+    "message": "Show in trading panel"
   },
   "variance_description": {
     "message": "The variance of the buy amount across the selected wallets. 0% to 100% randomly."
@@ -2422,6 +2434,12 @@
   },
   "preset": {
     "message": "Preset"
+  },
+  "buy_preset_selector": {
+    "message": "Buy preset"
+  },
+  "sell_preset_selector": {
+    "message": "Sell preset"
   },
   "buy_settings": {
     "message": "Buy Settings"
@@ -2656,6 +2674,15 @@
   },
   "turnkey_google_auth_failed": {
     "message": "Google authentication failed"
+  },
+  "embedded_key_invalidated_title": {
+    "message": "Wallet session expired — please re-authenticate"
+  },
+  "embedded_key_invalidated_message": {
+    "message": "Reconnect your wallet to continue trading."
+  },
+  "embedded_key_invalidated_action": {
+    "message": "Re-auth"
   },
   "limit_order_buy_active": {
     "message": "The buy order for ${tokenSymbol} has been created and is active."
@@ -3788,6 +3815,12 @@
   "hotkey_modifier_desc": {
     "message": "Key to hold when using Q/W/E/R (buy) and A/S/D/F (sell) hotkeys"
   },
+  "independent_buy_sell_preset_hotkeys": {
+    "message": "Independent Buy/Sell Preset"
+  },
+  "independent_buy_sell_preset_hotkeys_desc": {
+    "message": "Use presets independently for buy and sell"
+  },
   "modifier_none": {
     "message": "None (Direct)"
   },
@@ -4414,6 +4447,9 @@
   "usdc_not_available_for_token": {
     "message": "USDC trading is not available for this token yet"
   },
+  "sol_not_available_for_token": {
+    "message": "SOL trading is not available for this token"
+  },
   "quick_buy_sol_only_warning": {
     "message": "Quick Buy only supports SOL. Click to switch to SOL."
   },
@@ -4878,6 +4914,9 @@
   },
   "split_tokens": {
     "message": "Split"
+  },
+  "consolidate_split": {
+    "message": "Consolidate/Split"
   },
   "split_tooltip": {
     "message": "Split with other active wallets on 20% variance"

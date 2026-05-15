@@ -206,6 +206,9 @@
   "label_deleted_successfully": {
     "message": "Метка успешно удалена!"
   },
+  "label_unverified_tooltip": {
+    "message": "Не верифицировано: создано ИИ"
+  },
   "please_enter_twitter_usernames": {
     "message": "Пожалуйста, сначала вставьте экспортированные Twitter/X данные."
   },
@@ -246,13 +249,19 @@
     "message": "Импорт завершён"
   },
   "wallet_import_partial_due_to_batch_text": {
-    "message": "Импортировано {imported} из {total} кошельков. Лимит пакетной загрузки составляет {batchLimit} кошельков."
+    "message": "Импортировано {imported}/{total}. Оставшиеся {remaining} сохранены — повторите через ~1 мин."
   },
   "wallet_import_progress_text": {
     "message": "Импортируется {imported} / {total} кошельков…"
   },
   "wallet_import_partial_due_to_error_text": {
     "message": "Импортировано {imported} из {total} кошельков. Часть импортировать не удалось — повторите попытку."
+  },
+  "wallet_import_already_in_progress": {
+    "message": "Импорт ещё выполняется, подождите и попробуйте снова."
+  },
+  "wallet_import_no_new_wallets": {
+    "message": "Нет новых кошельков — все уже добавлены."
   },
   "username_history": {
     "message": "История имён пользователя"
@@ -2412,7 +2421,7 @@
     "message": "Минимум 3 символа"
   },
   "username_too_long": {
-    "message": "Максимум 10 символов"
+    "message": "Максимум 20 символов"
   },
   "no_fee": {
     "message": "Без комиссии"
@@ -2438,11 +2447,14 @@
   "transaction_delay": {
     "message": "Задержка транзакции"
   },
+  "tx_delay": {
+    "message": "Задержка"
+  },
   "delay": {
     "message": "Задержка"
   },
   "show_in_panel": {
-    "message": "В панели"
+    "message": "В торговой панели"
   },
   "variance_description": {
     "message": "Вариация суммы покупки среди выбранных кошельков. Случайно от 0% до 100%."
@@ -2470,6 +2482,12 @@
   },
   "preset": {
     "message": "Пресет"
+  },
+  "buy_preset_selector": {
+    "message": "Пресет покупки"
+  },
+  "sell_preset_selector": {
+    "message": "Пресет продажи"
   },
   "buy_settings": {
     "message": "Покупка"
@@ -2707,6 +2725,15 @@
   },
   "turnkey_google_auth_failed": {
     "message": "Ошибка аутентификации Google"
+  },
+  "embedded_key_invalidated_title": {
+    "message": "Сессия кошелька истекла — войдите заново"
+  },
+  "embedded_key_invalidated_message": {
+    "message": "Подключите кошелёк заново, чтобы продолжить."
+  },
+  "embedded_key_invalidated_action": {
+    "message": "Войти"
   },
   "limit_order_buy_active": {
     "message": "Ордер на покупку ${tokenSymbol} создан и активен."
@@ -3791,6 +3818,12 @@
   "hotkey_modifier_desc": {
     "message": "Клавиша для Q/W/E/R и A/S/D/F"
   },
+  "independent_buy_sell_preset_hotkeys": {
+    "message": "Отдельные пресеты покупки/продажи"
+  },
+  "independent_buy_sell_preset_hotkeys_desc": {
+    "message": "Использовать отдельные пресеты для покупки и продажи"
+  },
   "modifier_none": {
     "message": "Нет"
   },
@@ -4412,6 +4445,9 @@
   "usdc_not_available_for_token": {
     "message": "USDC пока недоступен для этого токена"
   },
+  "sol_not_available_for_token": {
+    "message": "SOL недоступен для этого токена"
+  },
   "quick_buy_sol_only_warning": {
     "message": "Быстрая покупка только в SOL. Переключитесь на SOL."
   },
@@ -4876,6 +4912,9 @@
   },
   "split_tokens": {
     "message": "Разделить"
+  },
+  "consolidate_split": {
+    "message": "Объединить/Разделить"
   },
   "split_tooltip": {
     "message": "Разделить между активными кошельками с отклонением 20%"

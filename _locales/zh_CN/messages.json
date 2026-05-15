@@ -200,6 +200,9 @@
   "label_deleted_successfully": {
     "message": "标签删除成功！"
   },
+  "label_unverified_tooltip": {
+    "message": "未验证：AI 生成"
+  },
   "please_enter_twitter_usernames": {
     "message": "请先粘贴导出的推特用户名/备注内容。"
   },
@@ -240,13 +243,19 @@
     "message": "导入完成"
   },
   "wallet_import_partial_due_to_batch_text": {
-    "message": "已导入 {imported} 个，共 {total} 个钱包。单次批量限制为 {batchLimit} 个钱包。"
+    "message": "已导入 {imported}/{total} 个钱包，剩余 {remaining} 个已保留在输入框，请约 1 分钟后重新提交。"
   },
   "wallet_import_progress_text": {
     "message": "正在导入 {imported} / {total} 个钱包…"
   },
   "wallet_import_partial_due_to_error_text": {
     "message": "已导入 {imported} 个，共 {total} 个钱包。部分钱包导入失败，请重试。"
+  },
+  "wallet_import_already_in_progress": {
+    "message": "上一次导入仍在进行中，请稍候再试。"
+  },
+  "wallet_import_no_new_wallets": {
+    "message": "没有新钱包可导入 — 这些钱包已存在标签。"
   },
   "username_history": {
     "message": "用户名历史"
@@ -2400,7 +2409,7 @@
     "message": "用户名至少3个字符"
   },
   "username_too_long": {
-    "message": "用户名最多10个字符"
+    "message": "用户名最多20个字符"
   },
   "no_fee": {
     "message": "无手续费"
@@ -2426,11 +2435,14 @@
   "transaction_delay": {
     "message": "交易延迟"
   },
+  "tx_delay": {
+    "message": "交易延迟"
+  },
   "delay": {
     "message": "延迟"
   },
   "show_in_panel": {
-    "message": "面板内显示"
+    "message": "在交易面板中显示"
   },
   "variance_description": {
     "message": "所选钱包购买金额的变化幅度。0% 到 100% 随机分配。"
@@ -2458,6 +2470,12 @@
   },
   "preset": {
     "message": "预设"
+  },
+  "buy_preset_selector": {
+    "message": "买入预设"
+  },
+  "sell_preset_selector": {
+    "message": "卖出预设"
   },
   "buy_settings": {
     "message": "买入设置"
@@ -3779,6 +3797,12 @@
   "hotkey_modifier_desc": {
     "message": "使用 Q/W/E/R（买入）和 A/S/D/F（卖出）快捷键时需要按住的键"
   },
+  "independent_buy_sell_preset_hotkeys": {
+    "message": "独立买卖预设"
+  },
+  "independent_buy_sell_preset_hotkeys_desc": {
+    "message": "分别为买入和卖出选择不同预设"
+  },
   "modifier_none": {
     "message": "无（直接触发）"
   },
@@ -4397,6 +4421,9 @@
   "usdc_not_available_for_token": {
     "message": "该代币暂不支持 USDC 交易"
   },
+  "sol_not_available_for_token": {
+    "message": "该代币暂不支持 SOL 交易"
+  },
   "quick_buy_sol_only_warning": {
     "message": "快速买入仅支持 SOL，点击切换"
   },
@@ -4861,6 +4888,9 @@
   },
   "split_tokens": {
     "message": "拆分"
+  },
+  "consolidate_split": {
+    "message": "合并/拆分"
   },
   "split_tooltip": {
     "message": "拆分给其他活跃钱包，20%随机偏差"
