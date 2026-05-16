@@ -4049,6 +4049,69 @@
   "time_year_month_ago": {
     "message": "{years} г. {months} мес. назад"
   },
+  "ai_tags_section_info": {
+    "message": "AI-теги. Проверяйте сами"
+  },
+  "ai_tag_actions_hint": {
+    "message": "Нажмите, чтобы пожаловаться"
+  },
+  "ai_tag_hover_report": {
+    "message": "Жалоба"
+  },
+  "ai_tag_report_action": {
+    "message": "Пожаловаться"
+  },
+  "ai_tag_report_reason_placeholder": {
+    "message": "Причина (необязательно)"
+  },
+  "ai_tag_send_report": {
+    "message": "Отправить"
+  },
+  "ai_tag_reporting": {
+    "message": "Отправка…"
+  },
+  "ai_tag_reported": {
+    "message": "Жалоба отправлена. Спасибо"
+  },
+  "ai_tag_report_failed": {
+    "message": "Не удалось отправить жалобу"
+  },
+  "ai_tag_auto_hidden": {
+    "message": "Скрыто после 3 жалоб"
+  },
+  "ai_tag_admin_edit_en": {
+    "message": "Изменить (EN)"
+  },
+  "ai_tag_admin_edit_en_hint": {
+    "message": "Переименовать тег. До 64 символов"
+  },
+  "ai_tag_admin_edit_zh": {
+    "message": "Перевод (ZH)"
+  },
+  "ai_tag_admin_edit_zh_hint": {
+    "message": "Перевод на китайский. Пусто = удалить"
+  },
+  "ai_tag_admin_hide": {
+    "message": "Скрыть тег"
+  },
+  "ai_tag_updated": {
+    "message": "Тег обновлён"
+  },
+  "ai_tag_update_failed": {
+    "message": "Не удалось обновить тег"
+  },
+  "ai_tag_name_conflict": {
+    "message": "Тег с таким именем уже есть"
+  },
+  "ai_tag_hidden": {
+    "message": "Тег скрыт"
+  },
+  "ai_tag_hide_failed": {
+    "message": "Не удалось скрыть тег"
+  },
+  "ai_tag_zh_placeholder": {
+    "message": "Китайский перевод"
+  },
   "empty_token_accounts": {
     "message": "Пустые аккаунты"
   },
@@ -4464,6 +4527,12 @@
     "message": "Frontrun быстрая покупка {amount} USDC"
   },
   "axiom_quick_buy_usdc_suffix": {
+    "message": "USDC"
+  },
+  "padre_quick_buy_usdc_title": {
+    "message": "Frontrun быстрая покупка {amount} USDC"
+  },
+  "padre_quick_buy_usdc_suffix": {
     "message": "USDC"
   },
   "sol_price_unavailable": {
@@ -5521,5 +5590,32 @@
   },
   "ton_auto_fee_explainer_dismiss": {
     "message": "Понятно"
+  },
+  "turbo_enable_title": {
+    "message": "Режим TURBO"
+  },
+  "turbo_enable_description": {
+    "message": "TURBO отправляет несколько конкурирующих транзакций через разные релеи для максимальной скорости."
+  },
+  "turbo_enable_cost": {
+    "message": "Нужны nonce-аккаунты (~0.0073 SOL аренда)."
+  },
+  "turbo_enable": {
+    "message": "Включить TURBO"
+  },
+  "turbo_disable": {
+    "message": "Выключить TURBO"
+  },
+  "turbo_enable_failed": {
+    "message": "Не удалось включить TURBO"
+  },
+  "turbo_disable_failed": {
+    "message": "Не удалось выключить TURBO"
+  },
+  "turbo_disable_description": {
+    "message": "TURBO будет выключен. Nonce-аккаунты останутся на блокчейне, повторное включение бесплатно."
+  },
+  "turbo_insufficient_balance": {
+    "message": "Недостаточно SOL. Для TURBO нужно ~0.0073 SOL."
   }
 }

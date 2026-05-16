@@ -4028,6 +4028,69 @@
   "time_year_month_ago": {
     "message": "{years} 年 {months} 个月前"
   },
+  "ai_tags_section_info": {
+    "message": "由 AI 生成的标签，请验证其准确性"
+  },
+  "ai_tag_actions_hint": {
+    "message": "点击举报或管理此 AI 标签"
+  },
+  "ai_tag_hover_report": {
+    "message": "举报"
+  },
+  "ai_tag_report_action": {
+    "message": "举报错误标签"
+  },
+  "ai_tag_report_reason_placeholder": {
+    "message": "原因（可选）"
+  },
+  "ai_tag_send_report": {
+    "message": "提交举报"
+  },
+  "ai_tag_reporting": {
+    "message": "提交中…"
+  },
+  "ai_tag_reported": {
+    "message": "已举报，感谢反馈"
+  },
+  "ai_tag_report_failed": {
+    "message": "举报失败,请重试"
+  },
+  "ai_tag_auto_hidden": {
+    "message": "已举报,达到 3 次后标签已隐藏"
+  },
+  "ai_tag_admin_edit_en": {
+    "message": "编辑英文名"
+  },
+  "ai_tag_admin_edit_en_hint": {
+    "message": "重命名 AI 标签英文名称,最多 64 字"
+  },
+  "ai_tag_admin_edit_zh": {
+    "message": "编辑中文翻译"
+  },
+  "ai_tag_admin_edit_zh_hint": {
+    "message": "设置中文翻译,留空则删除"
+  },
+  "ai_tag_admin_hide": {
+    "message": "隐藏标签"
+  },
+  "ai_tag_updated": {
+    "message": "标签已更新"
+  },
+  "ai_tag_update_failed": {
+    "message": "标签更新失败"
+  },
+  "ai_tag_name_conflict": {
+    "message": "此钱包已有同名标签"
+  },
+  "ai_tag_hidden": {
+    "message": "标签已隐藏"
+  },
+  "ai_tag_hide_failed": {
+    "message": "标签隐藏失败"
+  },
+  "ai_tag_zh_placeholder": {
+    "message": "中文翻译"
+  },
   "empty_token_accounts": {
     "message": "空代币账户"
   },
@@ -4440,6 +4503,12 @@
     "message": "Frontrun 快速买入 {amount} USDC"
   },
   "axiom_quick_buy_usdc_suffix": {
+    "message": "USDC"
+  },
+  "padre_quick_buy_usdc_title": {
+    "message": "Frontrun 快速买入 {amount} USDC"
+  },
+  "padre_quick_buy_usdc_suffix": {
     "message": "USDC"
   },
   "sol_price_unavailable": {
@@ -5488,5 +5557,32 @@
   },
   "ton_auto_fee_explainer_dismiss": {
     "message": "知道了"
+  },
+  "turbo_enable_title": {
+    "message": "TURBO 模式"
+  },
+  "turbo_enable_description": {
+    "message": "TURBO 模式通过多条中继通道同时发送竞速交易，以获得最快的执行速度。"
+  },
+  "turbo_enable_cost": {
+    "message": "启用需创建 Nonce 账户，费用约 0.0073 SOL 租金。"
+  },
+  "turbo_enable": {
+    "message": "启用 TURBO 模式"
+  },
+  "turbo_disable": {
+    "message": "停用 TURBO 模式"
+  },
+  "turbo_enable_failed": {
+    "message": "启用 TURBO 模式失败"
+  },
+  "turbo_disable_failed": {
+    "message": "停用 TURBO 模式失败"
+  },
+  "turbo_disable_description": {
+    "message": "将停用该钱包的 TURBO 模式。Nonce 账户保留在链上，随时可免费重新启用。"
+  },
+  "turbo_insufficient_balance": {
+    "message": "SOL 余额不足，启用 TURBO 模式需要约 0.0073 SOL"
   }
 }
