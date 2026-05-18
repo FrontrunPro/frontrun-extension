@@ -806,6 +806,9 @@
   "pump_cashback_label": {
     "message": "Pump Cashback"
   },
+  "frontrun_cashback_label": {
+    "message": "Frontrun Cashback"
+  },
   "claiming_cashback": {
     "message": "Claiming..."
   },
@@ -2354,6 +2357,36 @@
   "manage_plan": {
     "message": "Manage plan"
   },
+  "plan_weekly_usage_title": {
+    "message": "{plan} Plan Usage"
+  },
+  "plan_weekly_usage_aria_label": {
+    "message": "{plan} plan — {percent} of weekly limit used"
+  },
+  "plan_weekly_usage_of_weekly_limit_used": {
+    "message": "of weekly limit used"
+  },
+  "plan_weekly_usage_resets_in": {
+    "message": "Resets in {days} days"
+  },
+  "plan_weekly_usage_cover_target": {
+    "message": "Trade {amount} more to cover {plan}"
+  },
+  "plan_weekly_usage_interval_monthly": {
+    "message": "Monthly"
+  },
+  "plan_weekly_usage_interval_quarterly": {
+    "message": "Quarterly"
+  },
+  "plan_weekly_usage_interval_yearly": {
+    "message": "Yearly"
+  },
+  "plan_weekly_usage_or": {
+    "message": "or"
+  },
+  "plan_weekly_usage_upgrade_cta": {
+    "message": "Upgrade now"
+  },
   "set_username": {
     "message": "Set username"
   },
@@ -2542,6 +2575,18 @@
   },
   "fee_saved_trading_panel_tooltip": {
     "message": "You saved {amount} on fees"
+  },
+  "fee_saved_claim_cta_tooltip": {
+    "message": "Click to claim {amount} in cashback →",
+    "placeholders": {
+      "amount": { "content": "$1", "example": "$45.20" }
+    }
+  },
+  "fee_saved_bnb_info_tooltip": {
+    "message": "Every BNB trade earns 90% instant cashback"
+  },
+  "cashback_claim_announcement": {
+    "message": "Cashback is now manual."
   },
   "limit_orders": {
     "message": "Limit Orders"
@@ -3777,7 +3822,7 @@
     "message": "Include Fees in PNL"
   },
   "pnl_include_fees_desc": {
-    "message": "Subtract transaction fees (base, priority, tip, frontrun) from realized PNL"
+    "message": "Subtract transaction fees from PNL, net of any earned cashback"
   },
   "pnl_show_total_across_wallets": {
     "message": "Show total PNL across all wallets"
@@ -5597,10 +5642,10 @@
     "message": "TURBO Mode"
   },
   "turbo_enable_description": {
-    "message": "TURBO mode sends multiple competing transactions via different relay strategies to achieve the fastest execution speed."
+    "message": "TURBO Mode races multiple competing transactions across different relays to give you the fastest possible execution on Solana."
   },
   "turbo_enable_cost": {
-    "message": "This requires creating nonce accounts, costing approximately 0.0073 SOL in rent."
+    "message": "Enabling requires a one-time refundable deposit of ~0.0073 SOL to create nonce accounts on your wallet."
   },
   "turbo_enable": {
     "message": "Enable TURBO Mode"
@@ -5614,10 +5659,22 @@
   "turbo_disable_failed": {
     "message": "Failed to disable TURBO mode"
   },
-  "turbo_disable_description": {
-    "message": "TURBO mode will be disabled for this wallet. Nonce accounts remain on-chain and can be re-enabled at any time without additional cost."
-  },
   "turbo_insufficient_balance": {
     "message": "Insufficient SOL. Enabling TURBO requires ~0.0073 SOL."
+  },
+  "turbo_awareness_pill_eyebrow": {
+    "message": "New"
+  },
+  "turbo_awareness_pill_body": {
+    "message": "Tap ⚡ on any wallet for the fastest trade execution."
+  },
+  "turbo_awareness_pill_value_free": {
+    "message": "No extra fee"
+  },
+  "turbo_awareness_pill_value_recommended": {
+    "message": "Recommended for every wallet"
+  },
+  "turbo_awareness_pill_dismiss": {
+    "message": "Dismiss"
   }
 }

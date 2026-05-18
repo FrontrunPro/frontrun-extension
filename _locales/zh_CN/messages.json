@@ -800,6 +800,9 @@
   "pump_cashback_label": {
     "message": "Pump 返现"
   },
+  "frontrun_cashback_label": {
+    "message": "Frontrun 返现"
+  },
   "claiming_cashback": {
     "message": "领取中..."
   },
@@ -2177,6 +2180,18 @@
   "fee_saved_trading_panel_tooltip": {
     "message": "您节省了{amount}手续费"
   },
+  "fee_saved_claim_cta_tooltip": {
+    "message": "点击领取 {amount} 返现 →",
+    "placeholders": {
+      "amount": { "content": "$1", "example": "$45.20" }
+    }
+  },
+  "fee_saved_bnb_info_tooltip": {
+    "message": "每笔 BNB 交易享 90% 即时返现"
+  },
+  "cashback_claim_announcement": {
+    "message": "返现现已改为手动领取。"
+  },
   "more": {
     "message": "更多"
   },
@@ -2389,6 +2404,36 @@
   },
   "manage_plan": {
     "message": "管理套餐"
+  },
+  "plan_weekly_usage_title": {
+    "message": "{plan} 套餐用量"
+  },
+  "plan_weekly_usage_aria_label": {
+    "message": "{plan} 套餐 — 已用本周额度 {percent}"
+  },
+  "plan_weekly_usage_of_weekly_limit_used": {
+    "message": "本周额度已用"
+  },
+  "plan_weekly_usage_resets_in": {
+    "message": "{days} 天后重置"
+  },
+  "plan_weekly_usage_cover_target": {
+    "message": "再交易 {amount} 即可覆盖 {plan}"
+  },
+  "plan_weekly_usage_interval_monthly": {
+    "message": "月度"
+  },
+  "plan_weekly_usage_interval_quarterly": {
+    "message": "季度"
+  },
+  "plan_weekly_usage_interval_yearly": {
+    "message": "年度"
+  },
+  "plan_weekly_usage_or": {
+    "message": "或"
+  },
+  "plan_weekly_usage_upgrade_cta": {
+    "message": "立即升级"
   },
   "set_username": {
     "message": "设置用户名"
@@ -3759,7 +3804,7 @@
     "message": "盈亏扣除手续费"
   },
   "pnl_include_fees_desc": {
-    "message": "从已实现盈亏中扣除交易手续费（基础费、优先费、小费、前置费）"
+    "message": "从盈亏中扣除交易手续费（基础费、优先费、小费、前置费），并抵扣已获得的返现"
   },
   "pnl_show_total_across_wallets": {
     "message": "显示所有钱包总盈亏"
@@ -5562,10 +5607,10 @@
     "message": "TURBO 模式"
   },
   "turbo_enable_description": {
-    "message": "TURBO 模式通过多条中继通道同时发送竞速交易，以获得最快的执行速度。"
+    "message": "TURBO 模式通过多条中继通道同时发送竞速交易，为你带来 Solana 上最快的执行速度。"
   },
   "turbo_enable_cost": {
-    "message": "启用需创建 Nonce 账户，费用约 0.0073 SOL 租金。"
+    "message": "启用需为你的钱包创建 Nonce 账户，一次性可退还押金约 0.0073 SOL。"
   },
   "turbo_enable": {
     "message": "启用 TURBO 模式"
@@ -5579,10 +5624,22 @@
   "turbo_disable_failed": {
     "message": "停用 TURBO 模式失败"
   },
-  "turbo_disable_description": {
-    "message": "将停用该钱包的 TURBO 模式。Nonce 账户保留在链上，随时可免费重新启用。"
-  },
   "turbo_insufficient_balance": {
     "message": "SOL 余额不足，启用 TURBO 模式需要约 0.0073 SOL"
+  },
+  "turbo_awareness_pill_eyebrow": {
+    "message": "新"
+  },
+  "turbo_awareness_pill_body": {
+    "message": "点击任一钱包的 ⚡，获得最快的交易执行速度。"
+  },
+  "turbo_awareness_pill_value_free": {
+    "message": "无额外费用"
+  },
+  "turbo_awareness_pill_value_recommended": {
+    "message": "推荐所有钱包开启"
+  },
+  "turbo_awareness_pill_dismiss": {
+    "message": "关闭"
   }
 }

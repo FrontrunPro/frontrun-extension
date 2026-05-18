@@ -818,6 +818,9 @@
   "pump_cashback_label": {
     "message": "Pump кешбэк"
   },
+  "frontrun_cashback_label": {
+    "message": "Кешбэк Frontrun"
+  },
   "claiming_cashback": {
     "message": "Забираем..."
   },
@@ -2402,6 +2405,36 @@
   "manage_plan": {
     "message": "Управлять планом"
   },
+  "plan_weekly_usage_title": {
+    "message": "Тариф {plan} — лимит"
+  },
+  "plan_weekly_usage_aria_label": {
+    "message": "Тариф {plan} — использовано {percent} лимита за неделю"
+  },
+  "plan_weekly_usage_of_weekly_limit_used": {
+    "message": "недельного лимита"
+  },
+  "plan_weekly_usage_resets_in": {
+    "message": "Сброс через {days} дн."
+  },
+  "plan_weekly_usage_cover_target": {
+    "message": "Ещё {amount} оборота — {plan} покрыт"
+  },
+  "plan_weekly_usage_interval_monthly": {
+    "message": "месяц"
+  },
+  "plan_weekly_usage_interval_quarterly": {
+    "message": "квартал"
+  },
+  "plan_weekly_usage_interval_yearly": {
+    "message": "год"
+  },
+  "plan_weekly_usage_or": {
+    "message": "или"
+  },
+  "plan_weekly_usage_upgrade_cta": {
+    "message": "Улучшить"
+  },
   "set_username": {
     "message": "Задать имя"
   },
@@ -2593,6 +2626,18 @@
   },
   "fee_saved_trading_panel_tooltip": {
     "message": "Вы сэкономили {amount} на комиссиях"
+  },
+  "fee_saved_claim_cta_tooltip": {
+    "message": "Забрать кешбэк {amount} →",
+    "placeholders": {
+      "amount": { "content": "$1", "example": "$45.20" }
+    }
+  },
+  "fee_saved_bnb_info_tooltip": {
+    "message": "90% мгновенный кешбэк за каждую BNB сделку"
+  },
+  "cashback_claim_announcement": {
+    "message": "Кешбэк теперь вручную."
   },
   "limit_orders": {
     "message": "Лимиты"
@@ -3780,7 +3825,7 @@
     "message": "Учитывать комиссии в PNL"
   },
   "pnl_include_fees_desc": {
-    "message": "Вычитает комиссии (базовая, приоритетная, чаевые, антифронтран) из PNL"
+    "message": "Вычитает комиссии из PNL за вычетом полученного кешбэка"
   },
   "pnl_show_total_across_wallets": {
     "message": "Общий PNL по всем кошелькам"
@@ -5595,10 +5640,10 @@
     "message": "Режим TURBO"
   },
   "turbo_enable_description": {
-    "message": "TURBO отправляет несколько конкурирующих транзакций через разные релеи для максимальной скорости."
+    "message": "TURBO одновременно отправляет несколько транзакций через разные релеи — для максимальной скорости в Solana."
   },
   "turbo_enable_cost": {
-    "message": "Нужны nonce-аккаунты (~0.0073 SOL аренда)."
+    "message": "Для включения создаются nonce-аккаунты: разовый возвратный депозит ~0.0073 SOL."
   },
   "turbo_enable": {
     "message": "Включить TURBO"
@@ -5612,10 +5657,22 @@
   "turbo_disable_failed": {
     "message": "Не удалось выключить TURBO"
   },
-  "turbo_disable_description": {
-    "message": "TURBO будет выключен. Nonce-аккаунты останутся на блокчейне, повторное включение бесплатно."
-  },
   "turbo_insufficient_balance": {
     "message": "Недостаточно SOL. Для TURBO нужно ~0.0073 SOL."
+  },
+  "turbo_awareness_pill_eyebrow": {
+    "message": "Новое"
+  },
+  "turbo_awareness_pill_body": {
+    "message": "Нажмите ⚡ на любом кошельке — самое быстрое исполнение."
+  },
+  "turbo_awareness_pill_value_free": {
+    "message": "Без доп. комиссии"
+  },
+  "turbo_awareness_pill_value_recommended": {
+    "message": "Подходит для всех кошельков"
+  },
+  "turbo_awareness_pill_dismiss": {
+    "message": "Скрыть"
   }
 }
