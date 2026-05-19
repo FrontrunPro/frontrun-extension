@@ -2435,6 +2435,15 @@
   "plan_weekly_usage_upgrade_cta": {
     "message": "立即升级"
   },
+  "plan_usage_aria_label_daily": {
+    "message": "{plan} 套餐 — 已用今日额度 {percent}"
+  },
+  "plan_usage_of_daily_limit_used": {
+    "message": "今日额度已用"
+  },
+  "plan_usage_daily_resets_in_hours": {
+    "message": "{hours} 小时后重置"
+  },
   "set_username": {
     "message": "设置用户名"
   },

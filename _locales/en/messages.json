@@ -2387,6 +2387,15 @@
   "plan_weekly_usage_upgrade_cta": {
     "message": "Upgrade now"
   },
+  "plan_usage_aria_label_daily": {
+    "message": "{plan} plan — {percent} of daily limit used"
+  },
+  "plan_usage_of_daily_limit_used": {
+    "message": "of daily limit used"
+  },
+  "plan_usage_daily_resets_in_hours": {
+    "message": "Resets in {hours} hours"
+  },
   "set_username": {
     "message": "Set username"
   },

@@ -2435,6 +2435,15 @@
   "plan_weekly_usage_upgrade_cta": {
     "message": "Улучшить"
   },
+  "plan_usage_aria_label_daily": {
+    "message": "Тариф {plan} — использовано {percent} лимита за день"
+  },
+  "plan_usage_of_daily_limit_used": {
+    "message": "дневного лимита"
+  },
+  "plan_usage_daily_resets_in_hours": {
+    "message": "Сброс через {hours} ч."
+  },
   "set_username": {
     "message": "Задать имя"
   },
