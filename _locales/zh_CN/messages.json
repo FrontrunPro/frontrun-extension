@@ -1013,6 +1013,9 @@
   "tampermonkey_twitter_labels": {
     "message": "油猴脚本推特标签"
   },
+  "how_to_import_tampermonkey_labels": {
+    "message": "如何导入 TamperMonkey 标签？"
+  },
   "copied": {
     "message": "已复制"
   },
@@ -1075,6 +1078,12 @@
   },
   "wallet_tracker_quick_buy_description": {
     "message": "在 Axiom 钱包追踪内显示 Quick Buy 按钮"
+  },
+  "axiom_search_quick_buy": {
+    "message": "搜索结果内快速买入"
+  },
+  "axiom_search_quick_buy_description": {
+    "message": "在 Axiom 搜索内显示快速买入按钮"
   },
   "use_autotrade": {
     "message": "使用自动交易"
@@ -1296,7 +1305,7 @@
     "message": "钱包地址"
   },
   "format_placeholder": {
-    "message": "支持Axiom, GMGN, Raybot, BullX的导出格式。"
+    "message": "支持 Axiom、GMGN、Raybot、BullX、TamperMonkey 的导出格式"
   },
   "wallet_label_placeholder": {
     "message": "钱包地址: 标签"

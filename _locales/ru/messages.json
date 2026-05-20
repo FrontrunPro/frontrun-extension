@@ -1031,6 +1031,9 @@
   "tampermonkey_twitter_labels": {
     "message": "Метки Twitter из TamperMonkey"
   },
+  "how_to_import_tampermonkey_labels": {
+    "message": "Как импортировать метки TamperMonkey?"
+  },
   "copied": {
     "message": "Скопировано"
   },
@@ -1093,6 +1096,12 @@
   },
   "wallet_tracker_quick_buy_description": {
     "message": "Кнопки в трекере Axiom"
+  },
+  "axiom_search_quick_buy": {
+    "message": "Быстрая покупка (поиск)"
+  },
+  "axiom_search_quick_buy_description": {
+    "message": "Кнопки в поиске Axiom"
   },
   "use_autotrade": {
     "message": "Автоторговля"
@@ -1290,7 +1299,7 @@
     "message": "адрес кошелька"
   },
   "format_placeholder": {
-    "message": "Поддерживает Axiom, GMGN, Raybot, BullX."
+    "message": "Поддерживает Axiom, GMGN, Raybot, BullX, TamperMonkey"
   },
   "wallet_label_placeholder": {
     "message": "Адрес кошелька: метка"

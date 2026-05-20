@@ -1019,6 +1019,9 @@
   "tampermonkey_twitter_labels": {
     "message": "TamperMonkey Twitter Labels"
   },
+  "how_to_import_tampermonkey_labels": {
+    "message": "How to import TamperMonkey Labels?"
+  },
   "copied": {
     "message": "Copied"
   },
@@ -1230,7 +1233,7 @@
     "message": "wallet address"
   },
   "format_placeholder": {
-    "message": "Supports Axiom, GMGN, Raybot, BullX. "
+    "message": "Supports Axiom, GMGN, Raybot, BullX, TamperMonkey"
   },
   "wallet_label_placeholder": {
     "message": "Wallet address: Label"
@@ -3763,6 +3766,12 @@
   },
   "wallet_tracker_quick_buy_description": {
     "message": "Enable Quick Buy buttons in Axiom Wallet Tracker"
+  },
+  "axiom_search_quick_buy": {
+    "message": "Quick Buy in Search"
+  },
+  "axiom_search_quick_buy_description": {
+    "message": "Enable Quick Buy buttons in Axiom search"
   },
   "use_autotrade": {
     "message": "Use Autotrade"
