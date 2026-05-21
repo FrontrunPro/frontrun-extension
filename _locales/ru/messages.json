@@ -209,6 +209,15 @@
   "label_unverified_tooltip": {
     "message": "Не верифицировано: создано ИИ"
   },
+  "openbits_label_cta": {
+    "message": "Скрыть"
+  },
+  "hide_openbits_labels_title": {
+    "message": "Скрыть AI-метки на профиле X"
+  },
+  "hide_openbits_labels_desc": {
+    "message": "Скрывает неверифицированные AI-метки кошельков на профилях X."
+  },
   "please_enter_twitter_usernames": {
     "message": "Пожалуйста, сначала вставьте экспортированные Twitter/X данные."
   },
@@ -622,6 +631,9 @@
   },
   "wallets": {
     "message": "Кошельки"
+  },
+  "wallets_in_group": {
+    "message": "Кошельки в группе"
   },
   "wallet_name_cannot_be_empty": {
     "message": "Название кошелька не может быть пустым"
@@ -2488,6 +2500,12 @@
   },
   "remove_from_selection": {
     "message": "Убрать из активных"
+  },
+  "set_as_active": {
+    "message": "Сделать активным"
+  },
+  "set_as_inactive": {
+    "message": "Сделать неактивным"
   },
   "buy_variance": {
     "message": "Вариация покупки"
@@ -5339,6 +5357,12 @@
   "ton_wallets_page_title": {
     "message": "TON-кошельки"
   },
+  "ton_wallet_picker_title": {
+    "message": "Кошельки"
+  },
+  "ton_wallet_picker_empty": {
+    "message": "Нет средств"
+  },
   "ton_wallets_empty_cta": {
     "message": "Создать"
   },
@@ -5692,5 +5716,44 @@
   },
   "turbo_awareness_pill_dismiss": {
     "message": "Скрыть"
+  },
+  "wallet_groups": {
+    "message": "Группы кошельков"
+  },
+  "manage_wallet_groups": {
+    "message": "Управлять группами →"
+  },
+  "no_wallet_groups_yet": {
+    "message": "Групп пока нет. Создайте на странице управления."
+  },
+  "revert_changes": {
+    "message": "Отменить"
+  },
+  "auto_saved": {
+    "message": "Сохранено"
+  },
+  "auto_save_failed": {
+    "message": "Автосохранение не удалось — повторим при следующем изменении."
+  },
+  "chain_switch_waiting_for_autosave": {
+    "message": "Сохраняем изменения — попробуйте сменить сеть через секунду."
+  },
+  "more_settings": {
+    "message": "Ещё настройки"
+  },
+  "section_multi_wallets": {
+    "message": "Кошельки"
+  },
+  "trading_presets": {
+    "message": "Пресеты"
+  },
+  "trading_presets_subtitle": {
+    "message": "Пресеты P1–P3 для торговой панели."
+  },
+  "buy_amounts": {
+    "message": "Суммы покупки"
+  },
+  "sell_amounts": {
+    "message": "Доли продажи"
   }
 }

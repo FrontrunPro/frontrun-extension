@@ -203,6 +203,15 @@
   "label_unverified_tooltip": {
     "message": "未验证：AI 生成"
   },
+  "openbits_label_cta": {
+    "message": "隐藏"
+  },
+  "hide_openbits_labels_title": {
+    "message": "在 X 主页隐藏 AI 生成标签"
+  },
+  "hide_openbits_labels_desc": {
+    "message": "在 X 个人主页上隐藏未验证的 AI 生成钱包标签"
+  },
   "please_enter_twitter_usernames": {
     "message": "请先粘贴导出的推特用户名/备注内容。"
   },
@@ -604,6 +613,9 @@
   },
   "wallets": {
     "message": "钱包"
+  },
+  "wallets_in_group": {
+    "message": "组内钱包"
   },
   "wallet_name_cannot_be_empty": {
     "message": "钱包名称不能为空"
@@ -2488,6 +2500,12 @@
   },
   "remove_from_selection": {
     "message": "从选择中移除"
+  },
+  "set_as_active": {
+    "message": "设为激活"
+  },
+  "set_as_inactive": {
+    "message": "设为非激活"
   },
   "buy_variance": {
     "message": "购买变化幅度"
@@ -5659,5 +5677,44 @@
   },
   "turbo_awareness_pill_dismiss": {
     "message": "关闭"
+  },
+  "wallet_groups": {
+    "message": "钱包分组"
+  },
+  "manage_wallet_groups": {
+    "message": "管理分组 →"
+  },
+  "no_wallet_groups_yet": {
+    "message": "暂无钱包分组。请在管理分组页面中创建。"
+  },
+  "revert_changes": {
+    "message": "撤销更改"
+  },
+  "auto_saved": {
+    "message": "已自动保存"
+  },
+  "auto_save_failed": {
+    "message": "自动保存失败——下次编辑时将重试。"
+  },
+  "chain_switch_waiting_for_autosave": {
+    "message": "正在保存修改——请稍候再切换链。"
+  },
+  "more_settings": {
+    "message": "更多设置"
+  },
+  "section_multi_wallets": {
+    "message": "多钱包"
+  },
+  "trading_presets": {
+    "message": "交易预设"
+  },
+  "trading_presets_subtitle": {
+    "message": "这些预设用于交易面板的 P1–P3。"
+  },
+  "buy_amounts": {
+    "message": "买入金额"
+  },
+  "sell_amounts": {
+    "message": "卖出比例"
   }
 }

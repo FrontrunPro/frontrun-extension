@@ -206,6 +206,15 @@
   "label_unverified_tooltip": {
     "message": "Unverified: AI generated"
   },
+  "openbits_label_cta": {
+    "message": "Hide"
+  },
+  "hide_openbits_labels_title": {
+    "message": "Hide AI-Generated Labels on X Profile"
+  },
+  "hide_openbits_labels_desc": {
+    "message": "Hide unverified AI-generated wallet labels on X profile pages"
+  },
   "please_enter_twitter_usernames": {
     "message": "Please paste your exported Twitter usernames/notes first"
   },
@@ -610,6 +619,9 @@
   },
   "wallets": {
     "message": "Wallets"
+  },
+  "wallets_in_group": {
+    "message": "Wallets in group"
   },
   "wallet_name_cannot_be_empty": {
     "message": "Wallet name cannot be empty"
@@ -2434,6 +2446,12 @@
   },
   "remove_from_selection": {
     "message": "Remove from selection"
+  },
+  "set_as_active": {
+    "message": "Set as active"
+  },
+  "set_as_inactive": {
+    "message": "Set as inactive"
   },
   "buy_variance": {
     "message": "Buy Variance"
@@ -5341,6 +5359,12 @@
   "ton_wallets_page_title": {
     "message": "TON Wallets"
   },
+  "ton_wallet_picker_title": {
+    "message": "Active wallets"
+  },
+  "ton_wallet_picker_empty": {
+    "message": "No funded wallets"
+  },
   "ton_wallets_empty_cta": {
     "message": "Create TON Wallet"
   },
@@ -5694,5 +5718,44 @@
   },
   "turbo_awareness_pill_dismiss": {
     "message": "Dismiss"
+  },
+  "wallet_groups": {
+    "message": "Wallet Groups"
+  },
+  "manage_wallet_groups": {
+    "message": "Manage groups →"
+  },
+  "no_wallet_groups_yet": {
+    "message": "No wallet groups yet. Create one from the Manage groups page."
+  },
+  "revert_changes": {
+    "message": "Revert changes"
+  },
+  "auto_saved": {
+    "message": "Auto-saved"
+  },
+  "auto_save_failed": {
+    "message": "Auto-save failed — your latest change will retry on next edit."
+  },
+  "chain_switch_waiting_for_autosave": {
+    "message": "Saving your changes — try the chain switch again in a moment."
+  },
+  "more_settings": {
+    "message": "More Settings"
+  },
+  "section_multi_wallets": {
+    "message": "Multi Wallets"
+  },
+  "trading_presets": {
+    "message": "Trading Presets"
+  },
+  "trading_presets_subtitle": {
+    "message": "These presets power P1–P3 in the trading panel."
+  },
+  "buy_amounts": {
+    "message": "Buy Amounts"
+  },
+  "sell_amounts": {
+    "message": "Sell Amounts"
   }
 }
