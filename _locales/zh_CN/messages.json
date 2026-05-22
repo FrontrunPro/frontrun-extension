@@ -2609,6 +2609,12 @@
   "edit": {
     "message": "编辑"
   },
+  "edit_label": {
+    "message": "编辑标签"
+  },
+  "edit_groups": {
+    "message": "编辑分组"
+  },
   "edit_preset_value_tooltip": {
     "message": "编辑预设值"
   },
@@ -4235,6 +4241,189 @@
   "no_groups": {
     "message": "暂无分组"
   },
+  "shared_tab": {
+    "message": "共享"
+  },
+  "shared_x_accounts_tab": {
+    "message": "X 账户"
+  },
+  "shared_wallet_tab": {
+    "message": "钱包"
+  },
+  "shared_settings_tab": {
+    "message": "设置"
+  },
+  "shared_spaces": {
+    "message": "共享分组"
+  },
+  "shared_space": {
+    "message": "共享分组"
+  },
+  "add_shared_space": {
+    "message": "添加共享分组"
+  },
+  "no_shared_spaces": {
+    "message": "暂无共享分组"
+  },
+  "shared_space_name": {
+    "message": "分组名称"
+  },
+  "shared_basic_settings": {
+    "message": "基础设置"
+  },
+  "shared_settings_saved": {
+    "message": "设置已保存"
+  },
+  "shared_settings_save_failed": {
+    "message": "保存设置失败"
+  },
+  "enter_shared_space_name": {
+    "message": "输入共享分组名称"
+  },
+  "shared_space_permission": {
+    "message": "权限设置"
+  },
+  "shared_mode_collaborative": {
+    "message": "协作"
+  },
+  "shared_mode_collaborative_desc": {
+    "message": "成员可按角色编辑标签"
+  },
+  "shared_mode_broadcast": {
+    "message": "只读同步"
+  },
+  "shared_mode_broadcast_desc": {
+    "message": "只有你可以修改标签"
+  },
+  "shared_default_member_role": {
+    "message": "新成员权限"
+  },
+  "shared_role_owner": {
+    "message": "所有者"
+  },
+  "shared_role_editor": {
+    "message": "可编辑"
+  },
+  "shared_role_editor_desc": {
+    "message": "可新增和修改共享标签"
+  },
+  "shared_role_viewer": {
+    "message": "只读"
+  },
+  "shared_role_viewer_desc": {
+    "message": "只能查看共享标签"
+  },
+  "shared_import_my_labels": {
+    "message": "导入我当前的标签"
+  },
+  "shared_import_my_labels_desc": {
+    "message": "创建时复制你的钱包和 Twitter 标签，避免新分组一开始是空的。"
+  },
+  "shared_import_source": {
+    "message": "导入来源"
+  },
+  "shared_import_all_labels": {
+    "message": "我的全部标签"
+  },
+  "shared_import_source_desc": {
+    "message": "选择钱包分组后，只导入该分组内钱包对应的标签；Twitter 标签会一起导入。"
+  },
+  "shared_space_name_required": {
+    "message": "请输入共享分组名称"
+  },
+  "successfully_created_shared_space": {
+    "message": "共享分组已创建"
+  },
+  "failed_to_create_shared_space": {
+    "message": "创建共享分组失败"
+  },
+  "members": {
+    "message": "成员"
+  },
+  "shared_invite_link": {
+    "message": "邀请链接"
+  },
+  "shared_invite_link_copied": {
+    "message": "邀请链接已复制"
+  },
+  "shared_invite_link_reset": {
+    "message": "邀请链接已重置"
+  },
+  "shared_invite_link_reset_failed": {
+    "message": "重置邀请链接失败"
+  },
+  "reset_invite": {
+    "message": "重置邀请"
+  },
+  "sync_my_labels": {
+    "message": "同步我的标签"
+  },
+  "shared_synced_my_labels": {
+    "message": "已同步你的标签"
+  },
+  "shared_sync_failed": {
+    "message": "同步失败"
+  },
+  "shared_sync_preview": {
+    "message": "同步预览：钱包新增 {walletCreate}/更新 {walletUpdate}，Twitter 新增 {twitterCreate}/更新 {twitterUpdate}"
+  },
+  "shared_wallet_labels": {
+    "message": "钱包标签"
+  },
+  "shared_twitter_labels": {
+    "message": "Twitter 标签"
+  },
+  "shared_wallet_label_saved": {
+    "message": "钱包标签已保存"
+  },
+  "shared_wallet_label_save_failed": {
+    "message": "保存钱包标签失败"
+  },
+  "shared_twitter_label_saved": {
+    "message": "Twitter 标签已保存"
+  },
+  "shared_twitter_label_save_failed": {
+    "message": "保存 Twitter 标签失败"
+  },
+  "shared_label_name": {
+    "message": "标签名称"
+  },
+  "shared_label_required": {
+    "message": "请输入标签名称"
+  },
+  "shared_twitter_username_required": {
+    "message": "请输入 X 用户名"
+  },
+  "shared_twitter_username_placeholder": {
+    "message": "X 用户名"
+  },
+  "shared_label_delete_failed": {
+    "message": "删除标签失败"
+  },
+  "no_shared_wallet_labels": {
+    "message": "暂无共享钱包标签"
+  },
+  "no_shared_twitter_labels": {
+    "message": "暂无共享 Twitter 标签"
+  },
+  "system_label": {
+    "message": "系统标签"
+  },
+  "shared_space_not_found": {
+    "message": "共享分组不存在"
+  },
+  "shared_space_deleted": {
+    "message": "共享分组已删除"
+  },
+  "shared_space_delete_failed": {
+    "message": "删除共享分组失败"
+  },
+  "delete_shared_space": {
+    "message": "删除共享分组"
+  },
+  "delete_shared_space_message": {
+    "message": "这会删除所有成员的共享标签，确定继续吗？"
+  },
   "no_profiles": {
     "message": "暂无档案"
   },
@@ -5314,6 +5503,87 @@
   },
   "referral_screen_error_generic": {
     "message": "出错了，请重试。"
+  },
+  "shared_label_badge_edit": {
+    "message": "编辑"
+  },
+  "shared_label_badge_view": {
+    "message": "只读"
+  },
+  "shared_label_add": {
+    "message": "添加"
+  },
+  "shared_label_empty": {
+    "message": "暂无标签"
+  },
+  "shared_label_cluster": {
+    "message": "共享 {count}"
+  },
+  "shared_label_add_to_spaces": {
+    "message": "添加共享 {count}"
+  },
+  "shared_label_batch_placeholder": {
+    "message": "统一标签名"
+  },
+  "shared_label_apply_all": {
+    "message": "全部应用"
+  },
+  "shared_label_details": {
+    "message": "详情"
+  },
+  "shared_label_group": {
+    "message": "分组"
+  },
+  "shared_label_permission": {
+    "message": "权限"
+  },
+  "shared_label_permission_edit": {
+    "message": "可编辑"
+  },
+  "shared_label_permission_readonly": {
+    "message": "只读"
+  },
+  "shared_label_source": {
+    "message": "来源"
+  },
+  "shared_label_system_label": {
+    "message": "系统标签"
+  },
+  "shared_label_updated": {
+    "message": "更新"
+  },
+  "shared_label_created": {
+    "message": "创建"
+  },
+  "shared_label_more_title": {
+    "message": "还有 {count} 个共享标签"
+  },
+  "twitter_label_personal": {
+    "message": "个人标签"
+  },
+  "twitter_label_personal_source": {
+    "message": "个人标签 · 仅自己可见"
+  },
+  "twitter_label_shared_source": {
+    "message": "共享标签 · {group}"
+  },
+  "twitter_label_add_title": {
+    "message": "添加标签"
+  },
+  "twitter_label_clear_to_delete": {
+    "message": "清空并保存即可删除这个标签。"
+  },
+  "twitter_label_kind_personal": {
+    "message": "个人"
+  },
+  "twitter_label_kind_shared": {
+    "message": "共享分组"
+  },
+  "twitter_label_same_more": {
+    "message": "还有 {count} 个同名标签"
+  },
+  "twitter_label_more_items": {
+    "message": "还有 {count} 个标签"
   },
   "token_migrating_to_dex": {
     "message": "代币正在迁移到DEX，请稍后重试。"

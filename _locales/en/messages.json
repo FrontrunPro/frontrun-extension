@@ -2555,6 +2555,12 @@
   "edit": {
     "message": "Edit"
   },
+  "edit_label": {
+    "message": "Edit label"
+  },
+  "edit_groups": {
+    "message": "Edit groups"
+  },
   "edit_preset_value_tooltip": {
     "message": "Edit preset value"
   },
@@ -4256,6 +4262,189 @@
   "no_groups": {
     "message": "No groups yet"
   },
+  "shared_tab": {
+    "message": "Shared"
+  },
+  "shared_x_accounts_tab": {
+    "message": "X Accounts"
+  },
+  "shared_wallet_tab": {
+    "message": "Wallets"
+  },
+  "shared_settings_tab": {
+    "message": "Settings"
+  },
+  "shared_spaces": {
+    "message": "Shared Groups"
+  },
+  "shared_space": {
+    "message": "Shared Group"
+  },
+  "add_shared_space": {
+    "message": "Add Shared Group"
+  },
+  "no_shared_spaces": {
+    "message": "No shared groups yet"
+  },
+  "shared_space_name": {
+    "message": "Group Name"
+  },
+  "shared_basic_settings": {
+    "message": "Basic Settings"
+  },
+  "shared_settings_saved": {
+    "message": "Settings saved"
+  },
+  "shared_settings_save_failed": {
+    "message": "Failed to save settings"
+  },
+  "enter_shared_space_name": {
+    "message": "Enter shared group name"
+  },
+  "shared_space_permission": {
+    "message": "Permissions"
+  },
+  "shared_mode_collaborative": {
+    "message": "Collaborative"
+  },
+  "shared_mode_collaborative_desc": {
+    "message": "Members can edit by role"
+  },
+  "shared_mode_broadcast": {
+    "message": "Read-only Sync"
+  },
+  "shared_mode_broadcast_desc": {
+    "message": "Only you can edit labels"
+  },
+  "shared_default_member_role": {
+    "message": "New Member Role"
+  },
+  "shared_role_owner": {
+    "message": "Owner"
+  },
+  "shared_role_editor": {
+    "message": "Editor"
+  },
+  "shared_role_editor_desc": {
+    "message": "Can add and edit shared labels"
+  },
+  "shared_role_viewer": {
+    "message": "Viewer"
+  },
+  "shared_role_viewer_desc": {
+    "message": "Can only view shared labels"
+  },
+  "shared_import_my_labels": {
+    "message": "Import my current labels"
+  },
+  "shared_import_my_labels_desc": {
+    "message": "Copy your wallet and Twitter labels on create so the group is not empty."
+  },
+  "shared_import_source": {
+    "message": "Import source"
+  },
+  "shared_import_all_labels": {
+    "message": "All my labels"
+  },
+  "shared_import_source_desc": {
+    "message": "Choose a wallet group to import only labels for wallets in that group. Twitter labels are imported together."
+  },
+  "shared_space_name_required": {
+    "message": "Enter a shared group name"
+  },
+  "successfully_created_shared_space": {
+    "message": "Shared group created"
+  },
+  "failed_to_create_shared_space": {
+    "message": "Failed to create shared group"
+  },
+  "members": {
+    "message": "Members"
+  },
+  "shared_invite_link": {
+    "message": "Invite Link"
+  },
+  "shared_invite_link_copied": {
+    "message": "Invite link copied"
+  },
+  "shared_invite_link_reset": {
+    "message": "Invite link reset"
+  },
+  "shared_invite_link_reset_failed": {
+    "message": "Failed to reset invite link"
+  },
+  "reset_invite": {
+    "message": "Reset Invite"
+  },
+  "sync_my_labels": {
+    "message": "Sync My Labels"
+  },
+  "shared_synced_my_labels": {
+    "message": "Synced your labels"
+  },
+  "shared_sync_failed": {
+    "message": "Sync failed"
+  },
+  "shared_sync_preview": {
+    "message": "Sync preview: wallets +{walletCreate}/update {walletUpdate}, Twitter +{twitterCreate}/update {twitterUpdate}"
+  },
+  "shared_wallet_labels": {
+    "message": "Wallet Labels"
+  },
+  "shared_twitter_labels": {
+    "message": "Twitter Labels"
+  },
+  "shared_wallet_label_saved": {
+    "message": "Wallet label saved"
+  },
+  "shared_wallet_label_save_failed": {
+    "message": "Failed to save wallet label"
+  },
+  "shared_twitter_label_saved": {
+    "message": "Twitter label saved"
+  },
+  "shared_twitter_label_save_failed": {
+    "message": "Failed to save Twitter label"
+  },
+  "shared_label_name": {
+    "message": "Label name"
+  },
+  "shared_label_required": {
+    "message": "Enter a label name"
+  },
+  "shared_twitter_username_required": {
+    "message": "Enter an X username"
+  },
+  "shared_twitter_username_placeholder": {
+    "message": "X username"
+  },
+  "shared_label_delete_failed": {
+    "message": "Failed to delete label"
+  },
+  "no_shared_wallet_labels": {
+    "message": "No shared wallet labels yet"
+  },
+  "no_shared_twitter_labels": {
+    "message": "No shared Twitter labels yet"
+  },
+  "system_label": {
+    "message": "System label"
+  },
+  "shared_space_not_found": {
+    "message": "Shared group not found"
+  },
+  "shared_space_deleted": {
+    "message": "Shared group deleted"
+  },
+  "shared_space_delete_failed": {
+    "message": "Failed to delete shared group"
+  },
+  "delete_shared_space": {
+    "message": "Delete Shared Group"
+  },
+  "delete_shared_space_message": {
+    "message": "This deletes shared labels for every member. Continue?"
+  },
   "no_profiles": {
     "message": "No profiles yet"
   },
@@ -5340,6 +5529,87 @@
   },
   "referral_screen_error_generic": {
     "message": "Something went wrong. Please try again."
+  },
+  "shared_label_badge_edit": {
+    "message": "Edit"
+  },
+  "shared_label_badge_view": {
+    "message": "View"
+  },
+  "shared_label_add": {
+    "message": "Add"
+  },
+  "shared_label_empty": {
+    "message": "No label"
+  },
+  "shared_label_cluster": {
+    "message": "Shared {count}"
+  },
+  "shared_label_add_to_spaces": {
+    "message": "Add shared {count}"
+  },
+  "shared_label_batch_placeholder": {
+    "message": "Use one label"
+  },
+  "shared_label_apply_all": {
+    "message": "Apply all"
+  },
+  "shared_label_details": {
+    "message": "Details"
+  },
+  "shared_label_group": {
+    "message": "Group"
+  },
+  "shared_label_permission": {
+    "message": "Access"
+  },
+  "shared_label_permission_edit": {
+    "message": "Can edit"
+  },
+  "shared_label_permission_readonly": {
+    "message": "Read only"
+  },
+  "shared_label_source": {
+    "message": "Source"
+  },
+  "shared_label_system_label": {
+    "message": "System"
+  },
+  "shared_label_updated": {
+    "message": "Updated"
+  },
+  "shared_label_created": {
+    "message": "Created"
+  },
+  "shared_label_more_title": {
+    "message": "{count} more shared labels"
+  },
+  "twitter_label_personal": {
+    "message": "Personal label"
+  },
+  "twitter_label_personal_source": {
+    "message": "Personal label · Only visible to you"
+  },
+  "twitter_label_shared_source": {
+    "message": "Shared label · {group}"
+  },
+  "twitter_label_add_title": {
+    "message": "Add labels"
+  },
+  "twitter_label_clear_to_delete": {
+    "message": "Clear and save to delete this label."
+  },
+  "twitter_label_kind_personal": {
+    "message": "Personal"
+  },
+  "twitter_label_kind_shared": {
+    "message": "Shared group"
+  },
+  "twitter_label_same_more": {
+    "message": "{count} more same-label groups"
+  },
+  "twitter_label_more_items": {
+    "message": "{count} more labels"
   },
   "token_migrating_to_dex": {
     "message": "Token is migrating to DEX. Please try again shortly."

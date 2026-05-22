@@ -2609,6 +2609,12 @@
   "edit": {
     "message": "Редактировать"
   },
+  "edit_label": {
+    "message": "Изменить метку"
+  },
+  "edit_groups": {
+    "message": "Изменить группы"
+  },
   "edit_preset_value_tooltip": {
     "message": "Редактировать значение пресета"
   },
@@ -4259,6 +4265,189 @@
   "no_groups": {
     "message": "Групп пока нет"
   },
+  "shared_tab": {
+    "message": "Общие"
+  },
+  "shared_x_accounts_tab": {
+    "message": "X"
+  },
+  "shared_wallet_tab": {
+    "message": "Кошельки"
+  },
+  "shared_settings_tab": {
+    "message": "Настройки"
+  },
+  "shared_spaces": {
+    "message": "Общие группы"
+  },
+  "shared_space": {
+    "message": "Общая группа"
+  },
+  "add_shared_space": {
+    "message": "Добавить общую"
+  },
+  "no_shared_spaces": {
+    "message": "Общих групп нет"
+  },
+  "shared_space_name": {
+    "message": "Название"
+  },
+  "shared_basic_settings": {
+    "message": "Основное"
+  },
+  "shared_settings_saved": {
+    "message": "Сохранено"
+  },
+  "shared_settings_save_failed": {
+    "message": "Ошибка сохранения"
+  },
+  "enter_shared_space_name": {
+    "message": "Название группы"
+  },
+  "shared_space_permission": {
+    "message": "Права"
+  },
+  "shared_mode_collaborative": {
+    "message": "Совместно"
+  },
+  "shared_mode_collaborative_desc": {
+    "message": "Редактирование по роли"
+  },
+  "shared_mode_broadcast": {
+    "message": "Только чтение"
+  },
+  "shared_mode_broadcast_desc": {
+    "message": "Меняете только вы"
+  },
+  "shared_default_member_role": {
+    "message": "Роль новых"
+  },
+  "shared_role_owner": {
+    "message": "Владелец"
+  },
+  "shared_role_editor": {
+    "message": "Редактор"
+  },
+  "shared_role_editor_desc": {
+    "message": "Может менять метки"
+  },
+  "shared_role_viewer": {
+    "message": "Просмотр"
+  },
+  "shared_role_viewer_desc": {
+    "message": "Только просмотр"
+  },
+  "shared_import_my_labels": {
+    "message": "Импорт моих меток"
+  },
+  "shared_import_my_labels_desc": {
+    "message": "Скопировать кошельки и Twitter при создании."
+  },
+  "shared_import_source": {
+    "message": "Источник"
+  },
+  "shared_import_all_labels": {
+    "message": "Все метки"
+  },
+  "shared_import_source_desc": {
+    "message": "Выберите группу кошельков, чтобы импортировать только ее метки. Twitter тоже импортируется."
+  },
+  "shared_space_name_required": {
+    "message": "Введите название"
+  },
+  "successfully_created_shared_space": {
+    "message": "Группа создана"
+  },
+  "failed_to_create_shared_space": {
+    "message": "Ошибка создания"
+  },
+  "members": {
+    "message": "Участники"
+  },
+  "shared_invite_link": {
+    "message": "Ссылка"
+  },
+  "shared_invite_link_copied": {
+    "message": "Ссылка скопирована"
+  },
+  "shared_invite_link_reset": {
+    "message": "Ссылка сброшена"
+  },
+  "shared_invite_link_reset_failed": {
+    "message": "Ошибка сброса"
+  },
+  "reset_invite": {
+    "message": "Сбросить"
+  },
+  "sync_my_labels": {
+    "message": "Синхронизировать"
+  },
+  "shared_synced_my_labels": {
+    "message": "Метки синхронизированы"
+  },
+  "shared_sync_failed": {
+    "message": "Ошибка синхронизации"
+  },
+  "shared_sync_preview": {
+    "message": "Превью: кош. +{walletCreate}/обн. {walletUpdate}, Twitter +{twitterCreate}/обн. {twitterUpdate}"
+  },
+  "shared_wallet_labels": {
+    "message": "Метки кошельков"
+  },
+  "shared_twitter_labels": {
+    "message": "Метки Twitter"
+  },
+  "shared_wallet_label_saved": {
+    "message": "Метка сохранена"
+  },
+  "shared_wallet_label_save_failed": {
+    "message": "Ошибка сохранения"
+  },
+  "shared_twitter_label_saved": {
+    "message": "Метка сохранена"
+  },
+  "shared_twitter_label_save_failed": {
+    "message": "Ошибка сохранения"
+  },
+  "shared_label_name": {
+    "message": "Метка"
+  },
+  "shared_label_required": {
+    "message": "Введите метку"
+  },
+  "shared_twitter_username_required": {
+    "message": "Введите X"
+  },
+  "shared_twitter_username_placeholder": {
+    "message": "Имя в X"
+  },
+  "shared_label_delete_failed": {
+    "message": "Ошибка удаления"
+  },
+  "no_shared_wallet_labels": {
+    "message": "Меток кошельков нет"
+  },
+  "no_shared_twitter_labels": {
+    "message": "Меток Twitter нет"
+  },
+  "system_label": {
+    "message": "Системная метка"
+  },
+  "shared_space_not_found": {
+    "message": "Группа не найдена"
+  },
+  "shared_space_deleted": {
+    "message": "Группа удалена"
+  },
+  "shared_space_delete_failed": {
+    "message": "Ошибка удаления"
+  },
+  "delete_shared_space": {
+    "message": "Удалить группу"
+  },
+  "delete_shared_space_message": {
+    "message": "Общие метки будут удалены для всех. Продолжить?"
+  },
   "no_profiles": {
     "message": "Профилей пока нет"
   },
@@ -5338,6 +5527,87 @@
   },
   "referral_screen_error_generic": {
     "message": "Ошибка. Попробуйте снова."
+  },
+  "shared_label_badge_edit": {
+    "message": "Правка"
+  },
+  "shared_label_badge_view": {
+    "message": "Чтение"
+  },
+  "shared_label_add": {
+    "message": "Добавить"
+  },
+  "shared_label_empty": {
+    "message": "Нет метки"
+  },
+  "shared_label_cluster": {
+    "message": "Общие {count}"
+  },
+  "shared_label_add_to_spaces": {
+    "message": "Добавить {count}"
+  },
+  "shared_label_batch_placeholder": {
+    "message": "Одна метка"
+  },
+  "shared_label_apply_all": {
+    "message": "Для всех"
+  },
+  "shared_label_details": {
+    "message": "Детали"
+  },
+  "shared_label_group": {
+    "message": "Группа"
+  },
+  "shared_label_permission": {
+    "message": "Доступ"
+  },
+  "shared_label_permission_edit": {
+    "message": "Можно править"
+  },
+  "shared_label_permission_readonly": {
+    "message": "Только чтение"
+  },
+  "shared_label_source": {
+    "message": "Источник"
+  },
+  "shared_label_system_label": {
+    "message": "Системный"
+  },
+  "shared_label_updated": {
+    "message": "Обновлено"
+  },
+  "shared_label_created": {
+    "message": "Создано"
+  },
+  "shared_label_more_title": {
+    "message": "Еще {count} меток"
+  },
+  "twitter_label_personal": {
+    "message": "Личная метка"
+  },
+  "twitter_label_personal_source": {
+    "message": "Личная метка · видна только вам"
+  },
+  "twitter_label_shared_source": {
+    "message": "Общая метка · {group}"
+  },
+  "twitter_label_add_title": {
+    "message": "Добавить метки"
+  },
+  "twitter_label_clear_to_delete": {
+    "message": "Очистите и сохраните, чтобы удалить."
+  },
+  "twitter_label_kind_personal": {
+    "message": "Личная"
+  },
+  "twitter_label_kind_shared": {
+    "message": "Общая группа"
+  },
+  "twitter_label_same_more": {
+    "message": "Еще {count} с той же меткой"
+  },
+  "twitter_label_more_items": {
+    "message": "Еще {count} меток"
   },
   "token_migrating_to_dex": {
     "message": "Токен мигрирует на DEX. Попробуйте позже."
