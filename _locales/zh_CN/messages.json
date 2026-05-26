@@ -1089,7 +1089,7 @@
     "message": "钱包追踪内快速买入"
   },
   "wallet_tracker_quick_buy_description": {
-    "message": "在 Axiom 钱包追踪内显示 Quick Buy 按钮"
+    "message": "在 Axiom 钱包追踪内启用 Frontrun 快速买入，需要开启快速买入原生模式"
   },
   "axiom_search_quick_buy": {
     "message": "搜索结果内快速买入"
@@ -1120,6 +1120,12 @@
   },
   "instant_trade": {
     "message": "闪电交易"
+  },
+  "open_panel_hotkey": {
+    "message": "快捷键开关闪电交易面板"
+  },
+  "open_panel_hotkey_desc": {
+    "message": "在代币页面按「热键修饰键 + I」开关闪电交易面板"
   },
   "sell": {
     "message": "卖出"
@@ -1790,6 +1796,12 @@
   "no_results_found": {
     "message": "没有结果"
   },
+  "limit_orders_load_failed": {
+    "message": "无法加载订单"
+  },
+  "limit_orders_load_failed_rate_limited": {
+    "message": "请求过多，请稍后重试"
+  },
   "username": {
     "message": "用户名"
   },
@@ -2149,6 +2161,15 @@
   },
   "all": {
     "message": "全部"
+  },
+  "private": {
+    "message": "私有"
+  },
+  "private_group": {
+    "message": "私有分组"
+  },
+  "public_group": {
+    "message": "公开分组"
   },
   "token": {
     "message": "代币"
@@ -4245,7 +4266,7 @@
     "message": "共享"
   },
   "shared_x_accounts_tab": {
-    "message": "X 账户"
+    "message": "X 资料"
   },
   "shared_wallet_tab": {
     "message": "钱包"
@@ -4264,6 +4285,9 @@
   },
   "no_shared_spaces": {
     "message": "暂无共享分组"
+  },
+  "no_personal_groups": {
+    "message": "暂无私有分组"
   },
   "shared_space_name": {
     "message": "分组名称"
@@ -5222,6 +5246,81 @@
   "credit_limit_tooltip_understood": {
     "message": "我知道了"
   },
+  "credit_limit_banner_warning_title": {
+    "message": "您即将达到 {plan} 套餐上限"
+  },
+  "credit_limit_banner_warning_desc_upgrade": {
+    "message": "{reset}重置。升级以获得更高额度。"
+  },
+  "credit_limit_banner_warning_desc": {
+    "message": "{reset}重置。"
+  },
+  "credit_limit_banner_expiring_title": {
+    "message": "您的 {plan} 套餐即将到期"
+  },
+  "credit_limit_banner_expiring_desc": {
+    "message": "立即升级以保持访问。"
+  },
+  "credit_limit_banner_expired_title": {
+    "message": "您的 {plan} 套餐已到期"
+  },
+  "credit_limit_banner_expired_desc_grace": {
+    "message": "续费以恢复访问。宽限期{reset}结束。"
+  },
+  "credit_limit_banner_expired_desc": {
+    "message": "宽限期已结束。请续费以恢复访问。"
+  },
+  "credit_limit_banner_exhausted_desc_upgrade": {
+    "message": "您的 {plan} 套餐{reset}重置。升级以获得更高额度。"
+  },
+  "credit_limit_banner_exhausted_desc": {
+    "message": "您的 {plan} 套餐{reset}重置。"
+  },
+  "credit_limit_banner_cta_upgrade_now": {
+    "message": "立即升级"
+  },
+  "credit_limit_banner_cta_renew_now": {
+    "message": "立即续费"
+  },
+  "credit_limit_banner_credits_left": {
+    "message": "您还有 {amount} 积分"
+  },
+  "credit_limit_reset_soon": {
+    "message": "即将"
+  },
+  "credit_limit_reset_any_moment": {
+    "message": "随时"
+  },
+  "credit_limit_reset_in_minute": {
+    "message": "1 分钟后"
+  },
+  "credit_limit_reset_in_minutes": {
+    "message": "{count} 分钟后"
+  },
+  "credit_limit_reset_in_hour": {
+    "message": "1 小时后"
+  },
+  "credit_limit_reset_in_hours": {
+    "message": "{count} 小时后"
+  },
+  "credit_limit_reset_in_day": {
+    "message": "1 天后"
+  },
+  "credit_limit_reset_in_days": {
+    "message": "{count} 天后"
+  },
+  "credit_limit_inline_banner_expired_desc": {
+    "message": "续费以继续查看完整信号。"
+  },
+  "credit_limit_inline_banner_desc_upgrade": {
+    "message": "{reset}重置。升级以解锁完整访问。"
+  },
+  "credit_limit_inline_banner_cta_restore_access": {
+    "message": "恢复访问"
+  },
+  "credit_limit_inline_banner_cta_restore_full_access": {
+    "message": "恢复完整访问"
+  },
   "consolidate": {
     "message": "合并"
   },
@@ -5915,9 +6014,6 @@
   "turbo_enable_description": {
     "message": "TURBO 模式通过多条中继通道同时发送竞速交易，为你带来 Solana 上最快的执行速度。"
   },
-  "turbo_enable_cost": {
-    "message": "启用需为你的钱包创建 Nonce 账户，一次性可退还押金约 0.0073 SOL。"
-  },
   "turbo_enable": {
     "message": "启用 TURBO 模式"
   },
@@ -5986,5 +6082,11 @@
   },
   "sell_amounts": {
     "message": "卖出比例"
+  },
+  "context_invalidated_toast_message": {
+    "message": "Frontrun 已更新，请刷新页面以继续交易。"
+  },
+  "context_invalidated_toast_confirm": {
+    "message": "立即刷新"
   }
 }

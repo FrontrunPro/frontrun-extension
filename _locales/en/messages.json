@@ -1073,6 +1073,12 @@
   "instant_trade": {
     "message": "Instant Trade"
   },
+  "open_panel_hotkey": {
+    "message": "Open Instant Trade Panel with Hotkey"
+  },
+  "open_panel_hotkey_desc": {
+    "message": "Press your Hotkey Modifier + I on a token page to toggle the Instant Trade panel open/closed"
+  },
   "recently_logged_in_as": {
     "message": "Recently logged in as"
   },
@@ -1664,6 +1670,15 @@
   "all": {
     "message": "All"
   },
+  "private": {
+    "message": "Private"
+  },
+  "private_group": {
+    "message": "Private group"
+  },
+  "public_group": {
+    "message": "Public group"
+  },
   "fail": {
     "message": "Fail"
   },
@@ -1720,6 +1735,12 @@
   },
   "no_results_found": {
     "message": "No results found"
+  },
+  "limit_orders_load_failed": {
+    "message": "Couldn't load orders"
+  },
+  "limit_orders_load_failed_rate_limited": {
+    "message": "Too many requests — please retry in a moment"
   },
   "username": {
     "message": "Username"
@@ -3789,7 +3810,7 @@
     "message": "Quick Buy in Wallet Tracker"
   },
   "wallet_tracker_quick_buy_description": {
-    "message": "Enable Quick Buy buttons in Axiom Wallet Tracker"
+    "message": "Enable Frontrun Quick Buy in Axiom Wallet Tracker, requires Quick Buy Native mode"
   },
   "axiom_search_quick_buy": {
     "message": "Quick Buy in Search"
@@ -4266,7 +4287,7 @@
     "message": "Shared"
   },
   "shared_x_accounts_tab": {
-    "message": "X Accounts"
+    "message": "X Profiles"
   },
   "shared_wallet_tab": {
     "message": "Wallets"
@@ -4285,6 +4306,9 @@
   },
   "no_shared_spaces": {
     "message": "No shared groups yet"
+  },
+  "no_personal_groups": {
+    "message": "No private groups yet"
   },
   "shared_space_name": {
     "message": "Group Name"
@@ -5248,6 +5272,81 @@
   "credit_limit_tooltip_understood": {
     "message": "Understood"
   },
+  "credit_limit_banner_warning_title": {
+    "message": "You're approaching your {plan} limit"
+  },
+  "credit_limit_banner_warning_desc_upgrade": {
+    "message": "Resets {reset}. Upgrade for higher limits."
+  },
+  "credit_limit_banner_warning_desc": {
+    "message": "Resets {reset}."
+  },
+  "credit_limit_banner_expiring_title": {
+    "message": "Your {plan} plan is about to expire"
+  },
+  "credit_limit_banner_expiring_desc": {
+    "message": "Upgrade now to keep access."
+  },
+  "credit_limit_banner_expired_title": {
+    "message": "Your {plan} plan expired"
+  },
+  "credit_limit_banner_expired_desc_grace": {
+    "message": "Renew to restore access. Grace ends {reset}."
+  },
+  "credit_limit_banner_expired_desc": {
+    "message": "Your grace period has ended. Renew to restore access."
+  },
+  "credit_limit_banner_exhausted_desc_upgrade": {
+    "message": "Your {plan} plan resets {reset}. Upgrade for higher limits."
+  },
+  "credit_limit_banner_exhausted_desc": {
+    "message": "Your {plan} plan resets {reset}."
+  },
+  "credit_limit_banner_cta_upgrade_now": {
+    "message": "Upgrade now"
+  },
+  "credit_limit_banner_cta_renew_now": {
+    "message": "Renew now"
+  },
+  "credit_limit_banner_credits_left": {
+    "message": "You have {amount} credits left"
+  },
+  "credit_limit_reset_soon": {
+    "message": "soon"
+  },
+  "credit_limit_reset_any_moment": {
+    "message": "any moment"
+  },
+  "credit_limit_reset_in_minute": {
+    "message": "in 1 minute"
+  },
+  "credit_limit_reset_in_minutes": {
+    "message": "in {count} minutes"
+  },
+  "credit_limit_reset_in_hour": {
+    "message": "in 1 hour"
+  },
+  "credit_limit_reset_in_hours": {
+    "message": "in {count} hours"
+  },
+  "credit_limit_reset_in_day": {
+    "message": "in 1 day"
+  },
+  "credit_limit_reset_in_days": {
+    "message": "in {count} days"
+  },
+  "credit_limit_inline_banner_expired_desc": {
+    "message": "Renew to continue seeing full signal."
+  },
+  "credit_limit_inline_banner_desc_upgrade": {
+    "message": "Resets {reset}. Upgrade for full access."
+  },
+  "credit_limit_inline_banner_cta_restore_access": {
+    "message": "Restore access"
+  },
+  "credit_limit_inline_banner_cta_restore_full_access": {
+    "message": "Restore full access"
+  },
   "consolidate": {
     "message": "Consolidate"
   },
@@ -5956,9 +6055,6 @@
   "turbo_enable_description": {
     "message": "TURBO Mode races multiple competing transactions across different relays to give you the fastest possible execution on Solana."
   },
-  "turbo_enable_cost": {
-    "message": "Enabling requires a one-time refundable deposit of ~0.0073 SOL to create nonce accounts on your wallet."
-  },
   "turbo_enable": {
     "message": "Enable TURBO Mode"
   },
@@ -6027,5 +6123,11 @@
   },
   "sell_amounts": {
     "message": "Sell Amounts"
+  },
+  "context_invalidated_toast_message": {
+    "message": "Frontrun was updated. Please refresh this page to continue trading."
+  },
+  "context_invalidated_toast_confirm": {
+    "message": "Refresh now"
   }
 }

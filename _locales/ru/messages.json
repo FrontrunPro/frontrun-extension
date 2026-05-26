@@ -26,6 +26,15 @@
   "all": {
     "message": "Все"
   },
+  "private": {
+    "message": "Личные"
+  },
+  "private_group": {
+    "message": "Личная группа"
+  },
+  "public_group": {
+    "message": "Публичная группа"
+  },
   "appearance": {
     "message": "Внешний вид"
   },
@@ -1107,7 +1116,7 @@
     "message": "Быстрая покупка (трекер)"
   },
   "wallet_tracker_quick_buy_description": {
-    "message": "Кнопки в трекере Axiom"
+    "message": "Включить Frontrun Quick Buy в трекере Axiom, требуется режим Quick Buy Native"
   },
   "axiom_search_quick_buy": {
     "message": "Быстрая покупка (поиск)"
@@ -1138,6 +1147,12 @@
   },
   "instant_trade": {
     "message": "Быстрая торговля"
+  },
+  "open_panel_hotkey": {
+    "message": "Открыть панель Instant Trade клавишей"
+  },
+  "open_panel_hotkey_desc": {
+    "message": "Модификатор + I на странице токена переключает панель Instant Trade"
   },
   "recently_logged_in_as": {
     "message": "Вход как"
@@ -1783,6 +1798,12 @@
   },
   "no_results_found": {
     "message": "Ничего не найдено"
+  },
+  "limit_orders_load_failed": {
+    "message": "Не удалось загрузить ордера"
+  },
+  "limit_orders_load_failed_rate_limited": {
+    "message": "Слишком много запросов — повторите попытку"
   },
   "username": {
     "message": "Имя"
@@ -4269,7 +4290,7 @@
     "message": "Общие"
   },
   "shared_x_accounts_tab": {
-    "message": "X"
+    "message": "X профили"
   },
   "shared_wallet_tab": {
     "message": "Кошельки"
@@ -4288,6 +4309,9 @@
   },
   "no_shared_spaces": {
     "message": "Общих групп нет"
+  },
+  "no_personal_groups": {
+    "message": "Личных групп нет"
   },
   "shared_space_name": {
     "message": "Название"
@@ -5246,6 +5270,81 @@
   "credit_limit_tooltip_understood": {
     "message": "Понятно"
   },
+  "credit_limit_banner_warning_title": {
+    "message": "Вы приближаетесь к лимиту тарифа {plan}"
+  },
+  "credit_limit_banner_warning_desc_upgrade": {
+    "message": "Сброс {reset}. Улучшите план, чтобы поднять лимиты."
+  },
+  "credit_limit_banner_warning_desc": {
+    "message": "Сброс {reset}."
+  },
+  "credit_limit_banner_expiring_title": {
+    "message": "Тариф {plan} скоро истечёт"
+  },
+  "credit_limit_banner_expiring_desc": {
+    "message": "Улучшите план, чтобы сохранить доступ."
+  },
+  "credit_limit_banner_expired_title": {
+    "message": "Тариф {plan} истёк"
+  },
+  "credit_limit_banner_expired_desc_grace": {
+    "message": "Продлите, чтобы восстановить доступ. Льготный период истекает {reset}."
+  },
+  "credit_limit_banner_expired_desc": {
+    "message": "Льготный период истёк. Продлите, чтобы восстановить доступ."
+  },
+  "credit_limit_banner_exhausted_desc_upgrade": {
+    "message": "Тариф {plan} сбросится {reset}. Улучшите план, чтобы поднять лимиты."
+  },
+  "credit_limit_banner_exhausted_desc": {
+    "message": "Тариф {plan} сбросится {reset}."
+  },
+  "credit_limit_banner_cta_upgrade_now": {
+    "message": "Улучшить"
+  },
+  "credit_limit_banner_cta_renew_now": {
+    "message": "Продлить"
+  },
+  "credit_limit_banner_credits_left": {
+    "message": "Остаток кредитов: {amount}"
+  },
+  "credit_limit_reset_soon": {
+    "message": "скоро"
+  },
+  "credit_limit_reset_any_moment": {
+    "message": "вот-вот"
+  },
+  "credit_limit_reset_in_minute": {
+    "message": "через 1 мин."
+  },
+  "credit_limit_reset_in_minutes": {
+    "message": "через {count} мин."
+  },
+  "credit_limit_reset_in_hour": {
+    "message": "через 1 ч."
+  },
+  "credit_limit_reset_in_hours": {
+    "message": "через {count} ч."
+  },
+  "credit_limit_reset_in_day": {
+    "message": "через 1 д."
+  },
+  "credit_limit_reset_in_days": {
+    "message": "через {count} д."
+  },
+  "credit_limit_inline_banner_expired_desc": {
+    "message": "Продлите, чтобы видеть полные сигналы."
+  },
+  "credit_limit_inline_banner_desc_upgrade": {
+    "message": "Сброс {reset}. Улучшите план для полного доступа."
+  },
+  "credit_limit_inline_banner_cta_restore_access": {
+    "message": "Восстановить"
+  },
+  "credit_limit_inline_banner_cta_restore_full_access": {
+    "message": "Полный доступ"
+  },
   "consolidate": {
     "message": "Объединить"
   },
@@ -5954,9 +6053,6 @@
   "turbo_enable_description": {
     "message": "TURBO одновременно отправляет несколько транзакций через разные релеи — для максимальной скорости в Solana."
   },
-  "turbo_enable_cost": {
-    "message": "Для включения создаются nonce-аккаунты: разовый возвратный депозит ~0.0073 SOL."
-  },
   "turbo_enable": {
     "message": "Включить TURBO"
   },
@@ -6025,5 +6121,11 @@
   },
   "sell_amounts": {
     "message": "Доли продажи"
+  },
+  "context_invalidated_toast_message": {
+    "message": "Frontrun обновлён. Обновите страницу для продолжения торговли."
+  },
+  "context_invalidated_toast_confirm": {
+    "message": "Обновить"
   }
 }
