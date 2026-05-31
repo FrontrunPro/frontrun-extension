@@ -1,4 +1,13 @@
 {
+  "coin_communities": {
+    "message": "Коин-сообщества"
+  },
+  "coin_communities_in": {
+    "message": "В коин-сообществах:"
+  },
+  "coin_communities_more": {
+    "message": "+{count} ещё"
+  },
   "labels": {
     "message": "Метки"
   },
@@ -28,6 +37,21 @@
   },
   "private": {
     "message": "Личные"
+  },
+  "public": {
+    "message": "Публичные"
+  },
+  "private_label": {
+    "message": "Личная метка"
+  },
+  "public_label": {
+    "message": "Публичная метка"
+  },
+  "shared_label": {
+    "message": "Общая метка"
+  },
+  "manage_shared": {
+    "message": "Управление"
   },
   "private_group": {
     "message": "Личная группа"
@@ -137,6 +161,9 @@
   "trading_settings": {
     "message": "Торговля"
   },
+  "label_settings": {
+    "message": "Метки"
+  },
   "execution_settings": {
     "message": "Исполнение"
   },
@@ -176,6 +203,15 @@
   "smart_followers": {
     "message": "Умные подписчики"
   },
+  "smart_members": {
+    "message": "Умные участники"
+  },
+  "top_trader_tooltip": {
+    "message": "Топ-трейдер этого токена"
+  },
+  "top_holder_tooltip": {
+    "message": "Топ-холдер этого токена"
+  },
   "smart_followers_locked_desc": {
     "message": "Перейдите на Silver или выше, чтобы увидеть больше умных подписчиков."
   },
@@ -214,6 +250,9 @@
   },
   "label_deleted_successfully": {
     "message": "Метка успешно удалена!"
+  },
+  "label_will_be_removed": {
+    "message": "Метка будет удалена"
   },
   "label_unverified_tooltip": {
     "message": "Не верифицировано: создано ИИ"
@@ -361,6 +400,48 @@
   },
   "add_label": {
     "message": "Добавить метку"
+  },
+  "add_labels": {
+    "message": "Добавить метки"
+  },
+  "add_new_label": {
+    "message": "Добавить метку"
+  },
+  "new_label": {
+    "message": "Новая метка"
+  },
+  "add_to_labels": {
+    "message": "В метки"
+  },
+  "apply_to": {
+    "message": "Применить к"
+  },
+  "only_you": {
+    "message": "только вы"
+  },
+  "personal": {
+    "message": "Личные"
+  },
+  "no_private_label": {
+    "message": "Нет приватной метки"
+  },
+  "use_one_label": {
+    "message": "Одна метка"
+  },
+  "admin_clearing": {
+    "message": "Очистка…"
+  },
+  "admin_clear_field_title": {
+    "message": "Очистить поле"
+  },
+  "admin_clear_field_message": {
+    "message": "Очистить это поле? Действие необратимо."
+  },
+  "admin_clear_all_title": {
+    "message": "Очистить все поля"
+  },
+  "admin_clear_all_message": {
+    "message": "Очистить все поля метаданных профиля? Действие необратимо."
   },
   "successfully_created_group": {
     "message": "Группа успешно создана"
@@ -599,8 +680,17 @@
   "select_wallet": {
     "message": "Выбрать"
   },
+  "recent": {
+    "message": "Недавние"
+  },
   "select_all": {
     "message": "Выбрать все"
+  },
+  "select_groups": {
+    "message": "Выбрать группы"
+  },
+  "add_to_group_optional": {
+    "message": "В группу (необязательно)"
   },
   "select_wallets": {
     "message": "Выбрать кошельки"
@@ -610,6 +700,12 @@
   },
   "deselect_all": {
     "message": "Снять выделение"
+  },
+  "too_many_deselected_after_select_all": {
+    "message": "Слишком много снято — нажмите Выбрать все заново или выберите вручную."
+  },
+  "too_many_deselected_profiles": {
+    "message": "Слишком много снято — нажмите Выбрать все или выберите профили вручную."
   },
   "explore_universal_labels": {
     "message": "Исследовать универсальные метки"
@@ -1184,6 +1280,9 @@
   "loading": {
     "message": "Загрузка..."
   },
+  "loading_all_groups": {
+    "message": "Загрузка групп"
+  },
   "continue_with_google": {
     "message": "Продолжить с Google"
   },
@@ -1270,6 +1369,12 @@
   },
   "delete_label": {
     "message": "Удалить"
+  },
+  "delete_label_select_targets_message": {
+    "message": "Метка есть в нескольких местах. Выберите, откуда удалить. Ничего не удалится до подтверждения."
+  },
+  "remove_from": {
+    "message": "Удалить из"
   },
   "of": {
     "message": "из"
@@ -1375,6 +1480,9 @@
   },
   "please_select_at_least_one_wallet": {
     "message": "Выберите хотя бы один кошелёк"
+  },
+  "please_select_at_least_one_profile": {
+    "message": "Выберите хотя бы один профиль"
   },
   "please_select_wallet_to_trade": {
     "message": "Выберите хотя бы один кошелёк"
@@ -1546,6 +1654,12 @@
   },
   "partial_success": {
     "message": "Частичный успех"
+  },
+  "transaction_unconfirmed_title": {
+    "message": "Не подтверждено"
+  },
+  "transaction_unconfirmed_subtitle": {
+    "message": "Не удалось подтвердить перевод в сети. Проверьте в эксплорере перед повторной отправкой — средства могли уже уйти."
   },
   "succeeded": {
     "message": "успешно"
@@ -1769,6 +1883,12 @@
   "failed_to_delete_wallet": {
     "message": "Не удалось удалить кошелёк"
   },
+  "successfully_deleted_profiles": {
+    "message": "Профили успешно удалены"
+  },
+  "failed_to_delete_profile": {
+    "message": "Не удалось удалить профиль"
+  },
   "link_to_google_account": {
     "message": "К Google"
   },
@@ -1870,6 +1990,9 @@
   },
   "followers": {
     "message": "подписчиков"
+  },
+  "following": {
+    "message": "подписок"
   },
   "active": {
     "message": "Активные"
@@ -2528,6 +2651,9 @@
   "set_as_inactive": {
     "message": "Сделать неактивным"
   },
+  "inactive": {
+    "message": "Неактивен"
+  },
   "buy_variance": {
     "message": "Вариация покупки"
   },
@@ -2899,6 +3025,9 @@
   },
   "autotrade_strategy": {
     "message": "Автоторговля"
+  },
+  "autotrade_strategy_pill": {
+    "message": "Авто"
   },
   "add_order": {
     "message": "+ Ордер"
@@ -3905,6 +4034,18 @@
   "keep_wsol_open_desc": {
     "message": "Сохранять токен-аккаунт WSOL после сделок. Избегает конвертации WSOL в SOL каждый раз. Актуально только для трейдеров со специализированным ПО или ботами."
   },
+  "keep_wsol_open_apply_to": {
+    "message": "Применять к"
+  },
+  "keep_wsol_open_scope_all": {
+    "message": "Всем кошелькам"
+  },
+  "keep_wsol_open_scope_specific": {
+    "message": "Выбранным кошелькам"
+  },
+  "keep_wsol_open_no_solana_wallets": {
+    "message": "Нет активных Solana-кошельков."
+  },
   "consolidate_token_accounts": {
     "message": "Объединить токен-аккаунты"
   },
@@ -4471,6 +4612,15 @@
   },
   "delete_shared_space_message": {
     "message": "Общие метки будут удалены для всех. Продолжить?"
+  },
+  "delete_shared_labels": {
+    "message": "Удалить общие метки"
+  },
+  "delete_shared_labels_confirm_message": {
+    "message": "Удалить {count} меток из \"{spaceName}\" для всех участников. Продолжить?"
+  },
+  "delete_wallet_labels_confirm_message": {
+    "message": "{count} меток кошельков будет удалено без возможности восстановления. Продолжить?"
   },
   "no_profiles": {
     "message": "Профилей пока нет"
@@ -5411,6 +5561,9 @@
   "split_source_wallet_not_found": {
     "message": "Исходный кошелёк не найден"
   },
+  "signing_wallet_not_found": {
+    "message": "Кошелёк недоступен для подписи — обновите страницу и попробуйте снова"
+  },
   "consolidate_sol": {
     "message": "Объединить SOL"
   },
@@ -5470,6 +5623,15 @@
   },
   "n_wallets_selected": {
     "message": "Выбрано: {count}"
+  },
+  "n_profiles_selected": {
+    "message": "Выбрано профилей: {count}"
+  },
+  "enter_select_mode_aria": {
+    "message": "Войти в режим выбора"
+  },
+  "exit_select_mode_aria": {
+    "message": "Выйти из режима выбора"
   },
   "total_consolidated": {
     "message": "Всего объединено"
@@ -6121,6 +6283,66 @@
   },
   "sell_amounts": {
     "message": "Доли продажи"
+  },
+  "label_visibility_shown_inline": {
+    "message": "Метки в строке"
+  },
+  "label_visibility_shown_inline_hint": {
+    "message": "Сколько меток показывать в строке."
+  },
+  "label_visibility_priority_title": {
+    "message": "Приоритет и видимость меток"
+  },
+  "label_visibility_priority_desc": {
+    "message": "Перетащите для порядка. Первая видимая метка показывается в строке. Скрытие убирает её только из строки — в подсказке остаётся."
+  },
+  "label_visibility_reset_default": {
+    "message": "Сбросить"
+  },
+  "label_visibility_col_label_type": {
+    "message": "Тип метки"
+  },
+  "label_visibility_col_color": {
+    "message": "Цвет"
+  },
+  "label_visibility_show_inline": {
+    "message": "В строке"
+  },
+  "label_visibility_no_spaces": {
+    "message": "Нет общих папок"
+  },
+  "label_visibility_shared_label_preview": {
+    "message": "общая метка"
+  },
+  "label_visibility_all_hidden_warning": {
+    "message": "Все типы меток скрыты. В строках кошельков не будут показаны метки. Включите хотя бы один тип, чтобы восстановить."
+  },
+  "label_visibility_class_private": {
+    "message": "Личная"
+  },
+  "label_visibility_class_shared_with_me": {
+    "message": "Со мной поделились"
+  },
+  "label_visibility_class_shared_by_me": {
+    "message": "Я поделился"
+  },
+  "label_visibility_class_frontrun": {
+    "message": "Frontrun"
+  },
+  "label_visibility_class_ai_generated": {
+    "message": "Сгенерировано ИИ"
+  },
+  "about": {
+    "message": "О расширении"
+  },
+  "version": {
+    "message": "Версия"
+  },
+  "last_commit": {
+    "message": "Коммит"
+  },
+  "branch": {
+    "message": "Ветка"
   },
   "context_invalidated_toast_message": {
     "message": "Frontrun обновлён. Обновите страницу для продолжения торговли."

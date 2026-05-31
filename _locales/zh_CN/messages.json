@@ -1,4 +1,13 @@
 {
+  "coin_communities": {
+    "message": "代币社区"
+  },
+  "coin_communities_in": {
+    "message": "该用户所在的代币社区："
+  },
+  "coin_communities_more": {
+    "message": "还有 {count} 个"
+  },
   "labels": {
     "message": "标签"
   },
@@ -122,6 +131,9 @@
   "trading_settings": {
     "message": "交易设置"
   },
+  "label_settings": {
+    "message": "标签设置"
+  },
   "execution_settings": {
     "message": "执行设置"
   },
@@ -161,6 +173,15 @@
   "smart_followers": {
     "message": "KOL关注"
   },
+  "smart_members": {
+    "message": "KOL成员"
+  },
+  "top_trader_tooltip": {
+    "message": "该用户是该代币的前排交易者"
+  },
+  "top_holder_tooltip": {
+    "message": "该用户是该代币的前排持有者"
+  },
   "smart_followers_locked_desc": {
     "message": "升级到 Silver 或更高方案，可查看更多知名关注。"
   },
@@ -199,6 +220,9 @@
   },
   "label_deleted_successfully": {
     "message": "标签删除成功！"
+  },
+  "label_will_be_removed": {
+    "message": "标签将被移除"
   },
   "label_unverified_tooltip": {
     "message": "未验证：AI 生成"
@@ -343,6 +367,48 @@
   },
   "add_label": {
     "message": "添加标签"
+  },
+  "add_labels": {
+    "message": "添加标签"
+  },
+  "add_new_label": {
+    "message": "添加标签"
+  },
+  "new_label": {
+    "message": "新标签"
+  },
+  "add_to_labels": {
+    "message": "添加到标签"
+  },
+  "apply_to": {
+    "message": "应用到"
+  },
+  "only_you": {
+    "message": "仅自己"
+  },
+  "personal": {
+    "message": "个人"
+  },
+  "no_private_label": {
+    "message": "无私有标签"
+  },
+  "use_one_label": {
+    "message": "使用一个标签"
+  },
+  "admin_clearing": {
+    "message": "清除中…"
+  },
+  "admin_clear_field_title": {
+    "message": "清除字段"
+  },
+  "admin_clear_field_message": {
+    "message": "确定清除此字段？此操作无法撤销。"
+  },
+  "admin_clear_all_title": {
+    "message": "清除全部字段"
+  },
+  "admin_clear_all_message": {
+    "message": "确定清除此用户的所有元数据字段？此操作无法撤销。"
   },
   "successfully_created_group": {
     "message": "创建分组成功"
@@ -572,8 +638,17 @@
   "select_wallet": {
     "message": "选择钱包"
   },
+  "recent": {
+    "message": "最近"
+  },
   "select_all": {
     "message": "全选"
+  },
+  "select_groups": {
+    "message": "选择分组"
+  },
+  "add_to_group_optional": {
+    "message": "添加到分组(可选)"
   },
   "select_wallets": {
     "message": "选择钱包"
@@ -583,6 +658,12 @@
   },
   "deselect_all": {
     "message": "取消全选"
+  },
+  "too_many_deselected_after_select_all": {
+    "message": "取消选择过多。请重新点击全选,或逐个选择。"
+  },
+  "too_many_deselected_profiles": {
+    "message": "取消选择过多。请重新点击全选,或逐个选择推特账户。"
   },
   "explore_universal_labels": {
     "message": "逛逛跨平台标签"
@@ -1181,6 +1262,9 @@
   "loading": {
     "message": "加载中..."
   },
+  "loading_all_groups": {
+    "message": "正在加载所有分组"
+  },
   "continue_with_google": {
     "message": "使用 Google 登录"
   },
@@ -1267,6 +1351,12 @@
   },
   "delete_label": {
     "message": "删除标签"
+  },
+  "delete_label_select_targets_message": {
+    "message": "该标签存在于多个位置。选择要删除的位置。确认前不会执行任何删除。"
+  },
+  "remove_from": {
+    "message": "从以下位置删除"
   },
   "of": {
     "message": "/"
@@ -1372,6 +1462,9 @@
   },
   "please_select_at_least_one_wallet": {
     "message": "请至少选择一个钱包"
+  },
+  "please_select_at_least_one_profile": {
+    "message": "请至少选择一个推特账户"
   },
   "please_select_wallet_to_trade": {
     "message": "至少选择一个钱包进行交易"
@@ -1543,6 +1636,12 @@
   },
   "partial_success": {
     "message": "部分成功"
+  },
+  "transaction_unconfirmed_title": {
+    "message": "未确认"
+  },
+  "transaction_unconfirmed_subtitle": {
+    "message": "无法在链上确认此转账。请先在区块浏览器中核实再重新发送，以免资金已转出而重复转账。"
   },
   "succeeded": {
     "message": "成功"
@@ -1766,6 +1865,12 @@
   "failed_to_delete_wallet": {
     "message": "钱包删除失败"
   },
+  "successfully_deleted_profiles": {
+    "message": "推特账户删除成功"
+  },
+  "failed_to_delete_profile": {
+    "message": "推特账户删除失败"
+  },
   "link_to_google_account": {
     "message": "绑定 Google 账号"
   },
@@ -1861,6 +1966,9 @@
   },
   "followers": {
     "message": "关注者"
+  },
+  "following": {
+    "message": "正在关注"
   },
   "active": {
     "message": "活跃"
@@ -1962,7 +2070,7 @@
     "message": "查看所有持仓"
   },
   "top_mentions": {
-    "message": "顶级提及"
+    "message": "热门提及"
   },
   "buy": {
     "message": "买入"
@@ -2148,7 +2256,7 @@
     "message": "刷新持仓失败"
   },
   "top_positions": {
-    "message": "顶级位置"
+    "message": "顶尖持仓"
   },
   "top_moves": {
     "message": "成就"
@@ -2164,6 +2272,21 @@
   },
   "private": {
     "message": "私有"
+  },
+  "public": {
+    "message": "公开"
+  },
+  "private_label": {
+    "message": "私有标签"
+  },
+  "public_label": {
+    "message": "公开标签"
+  },
+  "shared_label": {
+    "message": "共享标签"
+  },
+  "manage_shared": {
+    "message": "管理共享"
   },
   "private_group": {
     "message": "私有分组"
@@ -2196,10 +2319,10 @@
     "message": "仅显示高于 $30k 的 PnL。"
   },
   "top_trader": {
-    "message": "顶级交易者"
+    "message": "前排交易者"
   },
   "top_holder": {
-    "message": "顶级持有者"
+    "message": "前排持有者"
   },
   "top_holder_setting": {
     "message": "前排持有者"
@@ -2528,6 +2651,9 @@
   "set_as_inactive": {
     "message": "设为非激活"
   },
+  "inactive": {
+    "message": "非激活"
+  },
   "buy_variance": {
     "message": "购买变化幅度"
   },
@@ -2825,6 +2951,15 @@
   "turnkey_google_auth_failed": {
     "message": "Google 身份验证失败"
   },
+  "embedded_key_invalidated_title": {
+    "message": "钱包会话已过期 — 请重新登录"
+  },
+  "embedded_key_invalidated_message": {
+    "message": "请重新连接钱包以继续交易。"
+  },
+  "embedded_key_invalidated_action": {
+    "message": "重新登录"
+  },
   "limit_order_buy_active": {
     "message": "${tokenSymbol} 的买入订单已创建并激活。"
   },
@@ -2878,6 +3013,9 @@
   },
   "autotrade_strategy": {
     "message": "自动交易策略"
+  },
+  "autotrade_strategy_pill": {
+    "message": "自动策略"
   },
   "add_order": {
     "message": "添加订单"
@@ -3884,6 +4022,18 @@
   "keep_wsol_open_desc": {
     "message": "交易后保留 WSOL 代币账户，不再自动解包为原生 SOL。仅适用于使用专业软件或机器人的交易者。"
   },
+  "keep_wsol_open_apply_to": {
+    "message": "应用于"
+  },
+  "keep_wsol_open_scope_all": {
+    "message": "全部钱包"
+  },
+  "keep_wsol_open_scope_specific": {
+    "message": "指定钱包"
+  },
+  "keep_wsol_open_no_solana_wallets": {
+    "message": "没有可用的 Solana 钱包。"
+  },
   "consolidate_token_accounts": {
     "message": "合并代币账户"
   },
@@ -4447,6 +4597,15 @@
   },
   "delete_shared_space_message": {
     "message": "这会删除所有成员的共享标签，确定继续吗？"
+  },
+  "delete_shared_labels": {
+    "message": "删除共享标签"
+  },
+  "delete_shared_labels_confirm_message": {
+    "message": "这将从\"{spaceName}\"删除{count}条标签（对所有成员生效）。是否继续？"
+  },
+  "delete_wallet_labels_confirm_message": {
+    "message": "将永久删除{count}条钱包标签。是否继续？"
   },
   "no_profiles": {
     "message": "暂无档案"
@@ -5387,6 +5546,9 @@
   "split_source_wallet_not_found": {
     "message": "未找到源钱包"
   },
+  "signing_wallet_not_found": {
+    "message": "钱包暂不可用于签名 — 请刷新页面后重试"
+  },
   "consolidate_sol": {
     "message": "归集 SOL"
   },
@@ -5446,6 +5608,15 @@
   },
   "n_wallets_selected": {
     "message": "已选 {count} 个钱包"
+  },
+  "n_profiles_selected": {
+    "message": "已选 {count} 个推特账户"
+  },
+  "enter_select_mode_aria": {
+    "message": "进入选择模式"
+  },
+  "exit_select_mode_aria": {
+    "message": "退出选择模式"
   },
   "total_consolidated": {
     "message": "归集总额"
@@ -6082,6 +6253,66 @@
   },
   "sell_amounts": {
     "message": "卖出比例"
+  },
+  "label_visibility_shown_inline": {
+    "message": "行内标签"
+  },
+  "label_visibility_shown_inline_hint": {
+    "message": "每行显示的标签数量。"
+  },
+  "label_visibility_priority_title": {
+    "message": "标签优先级与可见性"
+  },
+  "label_visibility_priority_desc": {
+    "message": "拖动以重新排序。第一个可见标签会显示在行内。隐藏某类仅会从行内显示中移除 — 提示框中仍可见。"
+  },
+  "label_visibility_reset_default": {
+    "message": "重置为默认"
+  },
+  "label_visibility_col_label_type": {
+    "message": "标签类型"
+  },
+  "label_visibility_col_color": {
+    "message": "颜色"
+  },
+  "label_visibility_show_inline": {
+    "message": "行内显示"
+  },
+  "label_visibility_no_spaces": {
+    "message": "暂无共享空间"
+  },
+  "label_visibility_shared_label_preview": {
+    "message": "共享标签"
+  },
+  "label_visibility_all_hidden_warning": {
+    "message": "所有标签类别均已隐藏。钱包行将不显示任何行内标签。请至少启用一类以恢复行内显示。"
+  },
+  "label_visibility_class_private": {
+    "message": "私有"
+  },
+  "label_visibility_class_shared_with_me": {
+    "message": "共享给我的"
+  },
+  "label_visibility_class_shared_by_me": {
+    "message": "我共享的"
+  },
+  "label_visibility_class_frontrun": {
+    "message": "Frontrun"
+  },
+  "label_visibility_class_ai_generated": {
+    "message": "AI 生成"
+  },
+  "about": {
+    "message": "关于"
+  },
+  "version": {
+    "message": "版本"
+  },
+  "last_commit": {
+    "message": "最近提交"
+  },
+  "branch": {
+    "message": "分支"
   },
   "context_invalidated_toast_message": {
     "message": "Frontrun 已更新，请刷新页面以继续交易。"

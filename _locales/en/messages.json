@@ -1,4 +1,13 @@
 {
+  "coin_communities": {
+    "message": "Coin Communities"
+  },
+  "coin_communities_in": {
+    "message": "User is in the following coin communities:"
+  },
+  "coin_communities_more": {
+    "message": "+{count} more"
+  },
   "labels": {
     "message": "Labels"
   },
@@ -125,6 +134,9 @@
   "trading_settings": {
     "message": "Trading Settings"
   },
+  "label_settings": {
+    "message": "Label Settings"
+  },
   "execution_settings": {
     "message": "Execution Settings"
   },
@@ -164,6 +176,15 @@
   "smart_followers": {
     "message": "Smart Followers"
   },
+  "smart_members": {
+    "message": "Smart Members"
+  },
+  "top_trader_tooltip": {
+    "message": "This user is a top trader of this token"
+  },
+  "top_holder_tooltip": {
+    "message": "This user is a top holder of this token"
+  },
   "smart_followers_locked_desc": {
     "message": "Upgrade to Silver or higher to view more smart followers."
   },
@@ -202,6 +223,9 @@
   },
   "label_deleted_successfully": {
     "message": "Label deleted successfully!"
+  },
+  "label_will_be_removed": {
+    "message": "Label will be removed"
   },
   "label_unverified_tooltip": {
     "message": "Unverified: AI generated"
@@ -346,6 +370,48 @@
   },
   "add_label": {
     "message": "Add Label"
+  },
+  "add_labels": {
+    "message": "Add labels"
+  },
+  "add_new_label": {
+    "message": "Add label"
+  },
+  "new_label": {
+    "message": "New label"
+  },
+  "add_to_labels": {
+    "message": "Add to Labels"
+  },
+  "apply_to": {
+    "message": "Apply to"
+  },
+  "only_you": {
+    "message": "only you"
+  },
+  "personal": {
+    "message": "Personal"
+  },
+  "no_private_label": {
+    "message": "No private label"
+  },
+  "use_one_label": {
+    "message": "Use one label"
+  },
+  "admin_clearing": {
+    "message": "Clearing…"
+  },
+  "admin_clear_field_title": {
+    "message": "Clear field"
+  },
+  "admin_clear_field_message": {
+    "message": "Clear this metadata field? This action cannot be undone."
+  },
+  "admin_clear_all_title": {
+    "message": "Clear all fields"
+  },
+  "admin_clear_all_message": {
+    "message": "Clear every metadata field for this profile? This action cannot be undone."
   },
   "successfully_created_group": {
     "message": "Successfully created group"
@@ -578,8 +644,17 @@
   "select_wallet": {
     "message": "Select Wallet"
   },
+  "recent": {
+    "message": "Recent"
+  },
   "select_all": {
     "message": "Select All"
+  },
+  "select_groups": {
+    "message": "Select groups"
+  },
+  "add_to_group_optional": {
+    "message": "Add to group (optional)"
   },
   "select_wallets": {
     "message": "Select Wallets"
@@ -589,6 +664,12 @@
   },
   "deselect_all": {
     "message": "Deselect All"
+  },
+  "too_many_deselected_after_select_all": {
+    "message": "Too many deselections — click Select All again or pick wallets individually."
+  },
+  "too_many_deselected_profiles": {
+    "message": "Too many deselections — click Select All again or pick profiles individually."
   },
   "explore_universal_labels": {
     "message": "Explore Universal Labels"
@@ -1109,6 +1190,9 @@
   "loading": {
     "message": "Loading..."
   },
+  "loading_all_groups": {
+    "message": "Loading all groups"
+  },
   "continue_with_google": {
     "message": "Continue with Google"
   },
@@ -1195,6 +1279,12 @@
   },
   "delete_label": {
     "message": "Delete Label"
+  },
+  "delete_label_select_targets_message": {
+    "message": "This label exists in multiple locations. Choose where to delete it from. Nothing will be removed until you confirm."
+  },
+  "remove_from": {
+    "message": "Remove from"
   },
   "of": {
     "message": "of"
@@ -1300,6 +1390,9 @@
   },
   "please_select_at_least_one_wallet": {
     "message": "Please select at least one wallet"
+  },
+  "please_select_at_least_one_profile": {
+    "message": "Please select at least one profile"
   },
   "please_select_wallet_to_trade": {
     "message": "Select at least one wallet to trade"
@@ -1487,6 +1580,12 @@
   "partial_success": {
     "message": "Partial success"
   },
+  "transaction_unconfirmed_title": {
+    "message": "Not confirmed"
+  },
+  "transaction_unconfirmed_subtitle": {
+    "message": "We couldn't confirm this transfer on-chain. Check the explorer before sending again — your funds may have already moved."
+  },
   "succeeded": {
     "message": "succeeded"
   },
@@ -1673,6 +1772,21 @@
   "private": {
     "message": "Private"
   },
+  "public": {
+    "message": "Public"
+  },
+  "private_label": {
+    "message": "Private label"
+  },
+  "public_label": {
+    "message": "Public label"
+  },
+  "shared_label": {
+    "message": "Shared label"
+  },
+  "manage_shared": {
+    "message": "Manage shared"
+  },
   "private_group": {
     "message": "Private group"
   },
@@ -1705,6 +1819,12 @@
   },
   "failed_to_delete_wallet": {
     "message": "Failed to delete wallet"
+  },
+  "successfully_deleted_profiles": {
+    "message": "Successfully deleted profiles"
+  },
+  "failed_to_delete_profile": {
+    "message": "Failed to delete profile"
   },
   "link_to_google_account": {
     "message": "Link to Google account"
@@ -1807,6 +1927,9 @@
   },
   "followers": {
     "message": "followers"
+  },
+  "following": {
+    "message": "following"
   },
   "active": {
     "message": "Active"
@@ -2474,6 +2597,9 @@
   "set_as_inactive": {
     "message": "Set as inactive"
   },
+  "inactive": {
+    "message": "Inactive"
+  },
   "buy_variance": {
     "message": "Buy Variance"
   },
@@ -2842,6 +2968,9 @@
   },
   "autotrade_strategy": {
     "message": "Autotrade Strategy"
+  },
+  "autotrade_strategy_pill": {
+    "message": "Auto"
   },
   "add_order": {
     "message": "Add Order"
@@ -3902,6 +4031,18 @@
   "keep_wsol_open_desc": {
     "message": "Keep your WSOL token account open after trades. Avoids unwrapping WSOL to native SOL each time. Only relevant for traders who use specialized software/bots."
   },
+  "keep_wsol_open_apply_to": {
+    "message": "Apply to"
+  },
+  "keep_wsol_open_scope_all": {
+    "message": "All wallets"
+  },
+  "keep_wsol_open_scope_specific": {
+    "message": "Specific wallets"
+  },
+  "keep_wsol_open_no_solana_wallets": {
+    "message": "No active Solana wallets available."
+  },
   "consolidate_token_accounts": {
     "message": "Consolidate Token Accounts"
   },
@@ -4468,6 +4609,15 @@
   },
   "delete_shared_space_message": {
     "message": "This deletes shared labels for every member. Continue?"
+  },
+  "delete_shared_labels": {
+    "message": "Delete shared labels"
+  },
+  "delete_shared_labels_confirm_message": {
+    "message": "This deletes {count} labels from \"{spaceName}\" for every member of the shared group. Continue?"
+  },
+  "delete_wallet_labels_confirm_message": {
+    "message": "This will permanently delete {count} labels from your wallet labels. Continue?"
   },
   "no_profiles": {
     "message": "No profiles yet"
@@ -5413,6 +5563,9 @@
   "split_source_wallet_not_found": {
     "message": "Source wallet not found"
   },
+  "signing_wallet_not_found": {
+    "message": "Wallet unavailable for signing — please reload the page and try again"
+  },
   "consolidate_sol": {
     "message": "Consolidate SOL"
   },
@@ -5472,6 +5625,15 @@
   },
   "n_wallets_selected": {
     "message": "{count} wallets selected"
+  },
+  "n_profiles_selected": {
+    "message": "{count} profiles selected"
+  },
+  "enter_select_mode_aria": {
+    "message": "Enter select mode"
+  },
+  "exit_select_mode_aria": {
+    "message": "Exit select mode"
   },
   "total_consolidated": {
     "message": "Total Consolidated"
@@ -6123,6 +6285,66 @@
   },
   "sell_amounts": {
     "message": "Sell Amounts"
+  },
+  "label_visibility_shown_inline": {
+    "message": "Labels shown inline"
+  },
+  "label_visibility_shown_inline_hint": {
+    "message": "How many label chips show on each row."
+  },
+  "label_visibility_priority_title": {
+    "message": "Label priority and visibility"
+  },
+  "label_visibility_priority_desc": {
+    "message": "Drag to reorder. First visible label shows inline. Hiding a class removes it from inline display only — still visible in tooltip."
+  },
+  "label_visibility_reset_default": {
+    "message": "Reset to default"
+  },
+  "label_visibility_col_label_type": {
+    "message": "Label type"
+  },
+  "label_visibility_col_color": {
+    "message": "Color"
+  },
+  "label_visibility_show_inline": {
+    "message": "Show inline"
+  },
+  "label_visibility_no_spaces": {
+    "message": "No shared spaces yet"
+  },
+  "label_visibility_shared_label_preview": {
+    "message": "shared label"
+  },
+  "label_visibility_all_hidden_warning": {
+    "message": "All label classes are hidden. Wallet rows will show no labels inline. Toggle at least one class on to restore inline chips."
+  },
+  "label_visibility_class_private": {
+    "message": "Private"
+  },
+  "label_visibility_class_shared_with_me": {
+    "message": "Shared with me"
+  },
+  "label_visibility_class_shared_by_me": {
+    "message": "Shared by me"
+  },
+  "label_visibility_class_frontrun": {
+    "message": "Frontrun"
+  },
+  "label_visibility_class_ai_generated": {
+    "message": "AI generated"
+  },
+  "about": {
+    "message": "About"
+  },
+  "version": {
+    "message": "Version"
+  },
+  "last_commit": {
+    "message": "Last commit"
+  },
+  "branch": {
+    "message": "Branch"
   },
   "context_invalidated_toast_message": {
     "message": "Frontrun was updated. Please refresh this page to continue trading."
