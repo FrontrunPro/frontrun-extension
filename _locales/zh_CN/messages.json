@@ -3,7 +3,7 @@
     "message": "代币社区"
   },
   "coin_communities_in": {
-    "message": "该用户所在的代币社区："
+    "message": "关联代币社区："
   },
   "coin_communities_more": {
     "message": "还有 {count} 个"
@@ -2225,9 +2225,6 @@
   "executing_order": {
     "message": "正在执行订单"
   },
-  "token_creator_label_gmgn": {
-    "message": "代币创建者标签"
-  },
   "token_creator_label_axiom": {
     "message": "DA标签"
   },
@@ -2251,6 +2248,18 @@
   },
   "refresh_all_positions": {
     "message": "刷新所有持仓"
+  },
+  "pnl_calendar_tooltip": {
+    "message": "盈亏日历"
+  },
+  "pnl_24h_change_tooltip": {
+    "message": "24小时已实现盈亏占成交量比例"
+  },
+  "cashback_earned": {
+    "message": "已赚返现"
+  },
+  "view_rewards": {
+    "message": "查看奖励"
   },
   "failed_to_refresh_positions": {
     "message": "刷新持仓失败"
@@ -2500,15 +2509,6 @@
   },
   "holding_value": {
     "message": "余额"
-  },
-  "show_translate": {
-    "message": "显示翻译"
-  },
-  "show_translate_tip": {
-    "message": "在 GMGN 中显示翻译(中文->英文)"
-  },
-  "translate_size": {
-    "message": "翻译文本样式"
   },
   "label_tool": {
     "message": "编辑标签按钮"
@@ -4253,38 +4253,8 @@
   "time_yesterday": {
     "message": "昨天"
   },
-  "time_days_ago": {
+  "time_days": {
     "message": "{count} 天前"
-  },
-  "time_week_ago": {
-    "message": "{count} 周前"
-  },
-  "time_weeks_ago": {
-    "message": "{count} 周前"
-  },
-  "time_month_ago": {
-    "message": "{count} 个月前"
-  },
-  "time_months_ago": {
-    "message": "{count} 个月前"
-  },
-  "time_year_ago": {
-    "message": "{count} 年前"
-  },
-  "time_years_ago": {
-    "message": "{count} 年前"
-  },
-  "time_years_months_ago": {
-    "message": "{years} 年 {months} 个月前"
-  },
-  "time_year_months_ago": {
-    "message": "{years} 年 {months} 个月前"
-  },
-  "time_years_month_ago": {
-    "message": "{years} 年 {months} 个月前"
-  },
-  "time_year_month_ago": {
-    "message": "{years} 年 {months} 个月前"
   },
   "ai_tags_section_info": {
     "message": "由 AI 生成的标签，请验证其准确性"
@@ -4631,6 +4601,12 @@
   "ai_tags": {
     "message": "AI 标签"
   },
+  "show_ai_wallet_tags": {
+    "message": "AI 生成标签"
+  },
+  "show_ai_wallet_tags_desc": {
+    "message": "我们聚合多个数据源中高频出现的钱包标签，用 AI 为每个钱包筛选出至多三个高置信度标签。标签仍可能有误，请自行核实（DYOR）。"
+  },
   "admin_section": {
     "message": "管理员"
   },
@@ -4642,6 +4618,9 @@
   },
   "remove_from_kol": {
     "message": "从 KOL 移除"
+  },
+  "kol_status_not_verified": {
+    "message": "KOL 身份未经验证"
   },
   "yes": {
     "message": "是"
@@ -5879,6 +5858,81 @@
   "ton_wallets_empty_subtitle": {
     "message": "还没有 TON 钱包。创建一个开始使用。"
   },
+  "base_wallets_page_title": {
+    "message": "Base 钱包"
+  },
+  "base_wallets_empty_subtitle": {
+    "message": "还没有 Base 钱包。创建一个开始使用。"
+  },
+  "base_wallets_empty_title": {
+    "message": "还没有 Base 钱包"
+  },
+  "base_wallets_create_cta": {
+    "message": "创建 Base 钱包"
+  },
+  "base_wallets_import_cta": {
+    "message": "导入助记词"
+  },
+  "base_wallets_refresh": {
+    "message": "刷新余额"
+  },
+  "base_wallets_import_title": {
+    "message": "导入 Base 钱包"
+  },
+  "base_wallets_import_subtitle": {
+    "message": "粘贴 12 个助记词以恢复你的 Base 钱包。"
+  },
+  "base_wallets_import_mnemonic_placeholder": {
+    "message": "单词"
+  },
+  "base_wallets_import_submit": {
+    "message": "导入钱包"
+  },
+  "base_wallets_export_title": {
+    "message": "导出私钥"
+  },
+  "base_wallets_export_private_key": {
+    "message": "导出私钥"
+  },
+  "base_wallets_export_mnemonic": {
+    "message": "导出助记词"
+  },
+  "base_wallets_name_placeholder": {
+    "message": "钱包名称"
+  },
+  "base_wallets_delete_confirm": {
+    "message": "删除此钱包？"
+  },
+  "ton_wallets_empty_title": {
+    "message": "还没有 TON 钱包"
+  },
+  "ton_wallets_create_cta": {
+    "message": "创建 TON 钱包"
+  },
+  "ton_wallets_refresh": {
+    "message": "刷新余额"
+  },
+  "ton_wallets_import_subtitle": {
+    "message": "粘贴 12 或 24 个助记词以恢复你的 TON 钱包。"
+  },
+  "ton_wallets_import_mnemonic_placeholder": {
+    "message": "单词"
+  },
+  "ton_wallets_import_submit": {
+    "message": "导入钱包"
+  },
+  "ton_wallets_export_private_key": {
+    "message": "导出私钥"
+  },
+  "ton_wallets_export_mnemonic": {
+    "message": "导出助记词"
+  },
+  "ton_wallets_name_placeholder": {
+    "message": "钱包名称"
+  },
+  "ton_wallets_delete_confirm": {
+    "message": "删除此钱包？"
+  },
   "ton_wallets_balance_failed": {
     "message": "余额无法获取，点击重试。"
   },
@@ -5886,28 +5940,28 @@
     "message": "重试"
   },
   "ton_wallets_bridge_hint": {
-    "message": "需要 TON 才能交易？"
+    "message": "需要 {to} 才能交易？"
   },
   "ton_wallets_bridge_cta": {
     "message": "去 Bridge"
   },
   "ton_bridge_entry_cta": {
-    "message": "跨链至 TON"
+    "message": "跨链至 {to}"
   },
   "ton_bridge_entry_resume_cta": {
     "message": "查看订单"
   },
   "ton_bridge_entry_hint": {
-    "message": "将 SOL 兑换为 TON"
+    "message": "将 {from} 兑换为 {to}"
   },
   "ton_bridge_wallet_pick_title": {
     "message": "选择钱包"
   },
   "ton_bridge_wallet_pick_source_label": {
-    "message": "从 (SOL)"
+    "message": "从"
   },
   "ton_bridge_wallet_pick_destination_label": {
-    "message": "到 (TON)"
+    "message": "到"
   },
   "ton_bridge_wallet_pick_continue": {
     "message": "继续"
@@ -6006,13 +6060,13 @@
     "message": "余额已变化，请调整金额。"
   },
   "ton_bridge_waiting_title": {
-    "message": "跨链至 TON"
+    "message": "跨链至 {to}"
   },
   "ton_bridge_waiting_status_new": {
     "message": "订单已创建"
   },
   "ton_bridge_waiting_status_waiting": {
-    "message": "等待 SOL 确认"
+    "message": "等待 {from} 确认"
   },
   "ton_bridge_waiting_status_confirming": {
     "message": "确认中"
@@ -6021,7 +6075,7 @@
     "message": "兑换中"
   },
   "ton_bridge_waiting_status_sending": {
-    "message": "发送 TON"
+    "message": "发送 {to}"
   },
   "ton_bridge_waiting_status_finished": {
     "message": "完成"
@@ -6057,7 +6111,7 @@
     "message": "完成"
   },
   "ton_bridge_retry_broadcast_cta": {
-    "message": "重试 SOL"
+    "message": "重试 {from}"
   },
   "ton_bridge_kyc_cta": {
     "message": "前往验证"
@@ -6072,7 +6126,7 @@
     "message": "已退款至来源钱包。"
   },
   "ton_bridge_terminal_expired_body": {
-    "message": "SOL 抵达前订单已过期。"
+    "message": "{from} 抵达前订单已过期。"
   },
   "ton_bridge_token_expired": {
     "message": "订单凭证已过期 — 联系支持并提供订单号。"
@@ -6097,6 +6151,9 @@
   },
   "ton_bridge_powered_by_changenow": {
     "message": "由 ChangeNow 提供"
+  },
+  "ton_bridge_powered_by_relay": {
+    "message": "由 Relay 路由"
   },
   "ton_bridge_no_sol_wallet_title": {
     "message": "需要有余额的 SOL 钱包"

@@ -3,7 +3,7 @@
     "message": "Коин-сообщества"
   },
   "coin_communities_in": {
-    "message": "В коин-сообществах:"
+    "message": "Связанные коин-сообщества:"
   },
   "coin_communities_more": {
     "message": "+{count} ещё"
@@ -2282,9 +2282,6 @@
   "executing_order": {
     "message": "Выполнение заказа"
   },
-  "token_creator_label_gmgn": {
-    "message": "Метка Создателя Токена"
-  },
   "token_creator_label_axiom": {
     "message": "Метка DA"
   },
@@ -2298,7 +2295,7 @@
     "message": "Изменение имени"
   },
   "profile_change": {
-    "message": "Изменение биографии"
+    "message": "Био"
   },
   "no_bio_changes": {
     "message": "Без изменений в биографии"
@@ -2308,6 +2305,18 @@
   },
   "refresh_all_positions": {
     "message": "Обновить все"
+  },
+  "pnl_calendar_tooltip": {
+    "message": "Календарь PnL"
+  },
+  "pnl_24h_change_tooltip": {
+    "message": "PnL за 24ч к объёму"
+  },
+  "cashback_earned": {
+    "message": "Кэшбэк"
+  },
+  "view_rewards": {
+    "message": "Награды"
   },
   "failed_to_refresh_positions": {
     "message": "Не удалось обновить позиции"
@@ -2500,15 +2509,6 @@
   },
   "holding_value": {
     "message": "Баланс"
-  },
-  "show_translate": {
-    "message": "Перевод"
-  },
-  "show_translate_tip": {
-    "message": "Показать перевод для имени и символа в GMGN"
-  },
-  "translate_size": {
-    "message": "Размер"
   },
   "label_tool": {
     "message": "Кнопка метки"
@@ -4265,38 +4265,8 @@
   "time_yesterday": {
     "message": "Вчера"
   },
-  "time_days_ago": {
+  "time_days": {
     "message": "{count} дн. назад"
-  },
-  "time_week_ago": {
-    "message": "{count} нед. назад"
-  },
-  "time_weeks_ago": {
-    "message": "{count} нед. назад"
-  },
-  "time_month_ago": {
-    "message": "{count} мес. назад"
-  },
-  "time_months_ago": {
-    "message": "{count} мес. назад"
-  },
-  "time_year_ago": {
-    "message": "{count} г. назад"
-  },
-  "time_years_ago": {
-    "message": "{count} г. назад"
-  },
-  "time_years_months_ago": {
-    "message": "{years} г. {months} мес. назад"
-  },
-  "time_year_months_ago": {
-    "message": "{years} г. {months} мес. назад"
-  },
-  "time_years_month_ago": {
-    "message": "{years} г. {months} мес. назад"
-  },
-  "time_year_month_ago": {
-    "message": "{years} г. {months} мес. назад"
   },
   "ai_tags_section_info": {
     "message": "AI-теги. Проверяйте сами"
@@ -4646,6 +4616,12 @@
   "ai_tags": {
     "message": "AI-теги"
   },
+  "show_ai_wallet_tags": {
+    "message": "AI-метки"
+  },
+  "show_ai_wallet_tags_desc": {
+    "message": "Мы агрегируем часто встречающиеся метки кошельков из разных источников и с помощью ИИ показываем до трёх надёжных меток на кошелёк. Метки могут содержать ошибки — DYOR."
+  },
   "admin_section": {
     "message": "Админ"
   },
@@ -4657,6 +4633,9 @@
   },
   "remove_from_kol": {
     "message": "Убрать из KOL"
+  },
+  "kol_status_not_verified": {
+    "message": "Статус KOL не подтверждён"
   },
   "yes": {
     "message": "Да"
@@ -5900,6 +5879,81 @@
   "ton_wallets_empty_subtitle": {
     "message": "Нет TON-кошельков. Создайте, чтобы начать."
   },
+  "base_wallets_page_title": {
+    "message": "Base-кошельки"
+  },
+  "base_wallets_empty_subtitle": {
+    "message": "Нет Base-кошельков. Создайте, чтобы начать."
+  },
+  "base_wallets_empty_title": {
+    "message": "Нет Base-кошельков"
+  },
+  "base_wallets_create_cta": {
+    "message": "Создать Base-кошелек"
+  },
+  "base_wallets_import_cta": {
+    "message": "Импорт сид-фразы"
+  },
+  "base_wallets_refresh": {
+    "message": "Обновить балансы"
+  },
+  "base_wallets_import_title": {
+    "message": "Импорт Base-кошелька"
+  },
+  "base_wallets_import_subtitle": {
+    "message": "Вставьте сид-фразу из 12 слов для восстановления Base-кошелька."
+  },
+  "base_wallets_import_mnemonic_placeholder": {
+    "message": "слово"
+  },
+  "base_wallets_import_submit": {
+    "message": "Импортировать"
+  },
+  "base_wallets_export_title": {
+    "message": "Экспорт приватного ключа"
+  },
+  "base_wallets_export_private_key": {
+    "message": "Экспорт приватного ключа"
+  },
+  "base_wallets_export_mnemonic": {
+    "message": "Экспорт сид-фразы"
+  },
+  "base_wallets_name_placeholder": {
+    "message": "Название кошелька"
+  },
+  "base_wallets_delete_confirm": {
+    "message": "Удалить этот кошелек?"
+  },
+  "ton_wallets_empty_title": {
+    "message": "Нет TON-кошельков"
+  },
+  "ton_wallets_create_cta": {
+    "message": "Создать TON-кошелек"
+  },
+  "ton_wallets_refresh": {
+    "message": "Обновить балансы"
+  },
+  "ton_wallets_import_subtitle": {
+    "message": "Вставьте сид-фразу из 12 или 24 слов для восстановления TON-кошелька."
+  },
+  "ton_wallets_import_mnemonic_placeholder": {
+    "message": "слово"
+  },
+  "ton_wallets_import_submit": {
+    "message": "Импортировать"
+  },
+  "ton_wallets_export_private_key": {
+    "message": "Экспорт приватного ключа"
+  },
+  "ton_wallets_export_mnemonic": {
+    "message": "Экспорт сид-фразы"
+  },
+  "ton_wallets_name_placeholder": {
+    "message": "Название кошелька"
+  },
+  "ton_wallets_delete_confirm": {
+    "message": "Удалить этот кошелек?"
+  },
   "ton_wallets_balance_failed": {
     "message": "Баланс недоступен. Повторить."
   },
@@ -5907,28 +5961,28 @@
     "message": "Повторить"
   },
   "ton_wallets_bridge_hint": {
-    "message": "Нужен TON для сделок?"
+    "message": "Нужен {to} для сделок?"
   },
   "ton_wallets_bridge_cta": {
     "message": "Bridge"
   },
   "ton_bridge_entry_cta": {
-    "message": "В TON"
+    "message": "В {to}"
   },
   "ton_bridge_entry_resume_cta": {
     "message": "К заказу"
   },
   "ton_bridge_entry_hint": {
-    "message": "Обмен SOL → TON"
+    "message": "Обмен {from} → {to}"
   },
   "ton_bridge_wallet_pick_title": {
     "message": "Кошельки"
   },
   "ton_bridge_wallet_pick_source_label": {
-    "message": "С (SOL)"
+    "message": "С"
   },
   "ton_bridge_wallet_pick_destination_label": {
-    "message": "В (TON)"
+    "message": "В"
   },
   "ton_bridge_wallet_pick_continue": {
     "message": "Далее"
@@ -6027,13 +6081,13 @@
     "message": "Баланс изменился. Скорректируйте сумму."
   },
   "ton_bridge_waiting_title": {
-    "message": "Бридж в TON"
+    "message": "Бридж в {to}"
   },
   "ton_bridge_waiting_status_new": {
     "message": "Ордер создан"
   },
   "ton_bridge_waiting_status_waiting": {
-    "message": "Ждём SOL"
+    "message": "Ждём {from}"
   },
   "ton_bridge_waiting_status_confirming": {
     "message": "Подтверждаем"
@@ -6042,7 +6096,7 @@
     "message": "Обмен"
   },
   "ton_bridge_waiting_status_sending": {
-    "message": "Отправляем TON"
+    "message": "Отправляем {to}"
   },
   "ton_bridge_waiting_status_finished": {
     "message": "Готово"
@@ -6078,7 +6132,7 @@
     "message": "Готово"
   },
   "ton_bridge_retry_broadcast_cta": {
-    "message": "Повторить SOL"
+    "message": "Повторить {from}"
   },
   "ton_bridge_kyc_cta": {
     "message": "Проверка"
@@ -6090,7 +6144,7 @@
     "message": "Бридж завершён"
   },
   "ton_bridge_success_subtitle": {
-    "message": "Из {amount} SOL."
+    "message": "Из {amount} {from}."
   },
   "ton_bridge_success_to_label": {
     "message": "Кому"
@@ -6102,7 +6156,7 @@
     "message": "Средства возвращены."
   },
   "ton_bridge_terminal_expired_body": {
-    "message": "Ордер истёк до SOL."
+    "message": "Ордер истёк до {from}."
   },
   "ton_bridge_token_expired": {
     "message": "Токен истёк — поддержка."
@@ -6127,6 +6181,9 @@
   },
   "ton_bridge_powered_by_changenow": {
     "message": "При поддержке ChangeNow"
+  },
+  "ton_bridge_powered_by_relay": {
+    "message": "Маршрут через Relay"
   },
   "ton_bridge_no_sol_wallet_title": {
     "message": "Нужен SOL-кошелёк"
