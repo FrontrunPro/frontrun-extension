@@ -2531,6 +2531,12 @@
   "twitter_follower_label_tip": {
     "message": "在关注和粉丝列表中用户名旁显示标签"
   },
+  "twitter_username_history_inline": {
+    "message": "主页显示曾用名"
+  },
+  "twitter_username_history_inline_tip": {
+    "message": "在用户名下方内联显示该账号的历史曾用名"
+  },
   "inline_pnl": {
     "message": "推文 PnL 标记"
   },
@@ -4256,6 +4262,12 @@
   "time_days": {
     "message": "{count} 天前"
   },
+  "prev_username_label": {
+    "message": "曾用名："
+  },
+  "prev_username_more": {
+    "message": "+{count} 个"
+  },
   "ai_tags_section_info": {
     "message": "由 AI 生成的标签，请验证其准确性"
   },
@@ -4602,7 +4614,7 @@
     "message": "AI 标签"
   },
   "show_ai_wallet_tags": {
-    "message": "AI 生成标签"
+    "message": "AI 生成钱包标签"
   },
   "show_ai_wallet_tags_desc": {
     "message": "我们聚合多个数据源中高频出现的钱包标签，用 AI 为每个钱包筛选出至多三个高置信度标签。标签仍可能有误，请自行核实（DYOR）。"

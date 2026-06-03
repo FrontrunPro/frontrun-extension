@@ -2531,6 +2531,12 @@
   "twitter_follower_label_tip": {
     "message": "Метки рядом с именем в списках подписчиков и подписок"
   },
+  "twitter_username_history_inline": {
+    "message": "История имён"
+  },
+  "twitter_username_history_inline_tip": {
+    "message": "Показывать прежние имена под именем профиля"
+  },
   "inline_pnl": {
     "message": "PNL-бейджи в постах"
   },
@@ -4268,6 +4274,12 @@
   "time_days": {
     "message": "{count} дн. назад"
   },
+  "prev_username_label": {
+    "message": "Ранее:"
+  },
+  "prev_username_more": {
+    "message": "+{count} ещё"
+  },
   "ai_tags_section_info": {
     "message": "AI-теги. Проверяйте сами"
   },
@@ -4617,7 +4629,7 @@
     "message": "AI-теги"
   },
   "show_ai_wallet_tags": {
-    "message": "AI-метки"
+    "message": "AI-метки кошельков"
   },
   "show_ai_wallet_tags_desc": {
     "message": "Мы агрегируем часто встречающиеся метки кошельков из разных источников и с помощью ИИ показываем до трёх надёжных меток на кошелёк. Метки могут содержать ошибки — DYOR."
