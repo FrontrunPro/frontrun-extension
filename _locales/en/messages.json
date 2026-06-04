@@ -176,6 +176,27 @@
   "smart_followers": {
     "message": "Smart Followers"
   },
+  "refresh_smart_followers": {
+    "message": "Refresh smart followers"
+  },
+  "smart_followers_refresh_rate_limited": {
+    "message": "Refresh limit reached — try again later"
+  },
+  "smart_followers_refreshing": {
+    "message": "Refreshing…"
+  },
+  "smart_followers_already_refreshed": {
+    "message": "Already refreshed"
+  },
+  "smart_followers_updated": {
+    "message": "Updated"
+  },
+  "smart_followers_refresh_credit_limited": {
+    "message": "Out of credits"
+  },
+  "smart_followers_refresh_failed": {
+    "message": "Couldn't refresh"
+  },
   "smart_members": {
     "message": "Smart Members"
   },
@@ -634,6 +655,9 @@
   },
   "choose_wallet": {
     "message": "Select wallet"
+  },
+  "create_wallet": {
+    "message": "Create Wallet"
   },
   "wallets_failed_to_activate_retry": {
     "message": "Some wallets failed to activate. Please retry."
@@ -1634,6 +1658,9 @@
   "no_holdings": {
     "message": "No Positions"
   },
+  "no_closed_positions": {
+    "message": "No closed positions"
+  },
   "hide_low": {
     "message": "Hide low"
   },
@@ -2006,6 +2033,27 @@
   "wallet_deleted_failed": {
     "message": "Wallet deleted failed"
   },
+  "archive_wallet_action": {
+    "message": "Archive"
+  },
+  "restore_wallet": {
+    "message": "Restore"
+  },
+  "wallet_archived_successfully": {
+    "message": "Wallet archived"
+  },
+  "wallet_archive_failed": {
+    "message": "Failed to archive wallet"
+  },
+  "wallet_restored_successfully": {
+    "message": "Wallet restored"
+  },
+  "wallet_restore_failed": {
+    "message": "Failed to restore wallet"
+  },
+  "no_archived_wallets": {
+    "message": "No archived wallets"
+  },
   "alias": {
     "message": "Alias"
   },
@@ -2233,6 +2281,9 @@
   },
   "refresh_all_positions": {
     "message": "Refresh all positions"
+  },
+  "refresh_positions": {
+    "message": "Refresh positions"
   },
   "pnl_calendar_tooltip": {
     "message": "PnL calendar"
@@ -2768,7 +2819,10 @@
   "fee_saved_claim_cta_tooltip": {
     "message": "Click to claim {amount} in cashback →",
     "placeholders": {
-      "amount": { "content": "$1", "example": "$45.20" }
+      "amount": {
+        "content": "$1",
+        "example": "$45.20"
+      }
     }
   },
   "fee_saved_bnb_info_tooltip": {
@@ -3005,6 +3059,21 @@
   "dev_sell_amt": {
     "message": "Dev sell amt"
   },
+  "dev_sell_buy": {
+    "message": "Buy on Dev Sell"
+  },
+  "dev_sell_buy_amt": {
+    "message": "Buy"
+  },
+  "autotrade_dev_sell_buy_created": {
+    "message": "Buy on Dev Sell: {count} created"
+  },
+  "autotrade_dev_sell_buy_failed": {
+    "message": "Buy on Dev Sell: {count} failed"
+  },
+  "autotrade_dev_sell_buy_failed_with_reason": {
+    "message": "Buy on Dev Sell: {count} failed: {reason}"
+  },
   "sell_amt_on_migration": {
     "message": "Sell amt on migration"
   },
@@ -3051,13 +3120,13 @@
     "message": "TP/SL: {count} failed: {reason}"
   },
   "autotrade_dev_sell_created": {
-    "message": "Dev Sell: {count} created"
+    "message": "Sell on Dev Sell: {count} created"
   },
   "autotrade_dev_sell_failed": {
-    "message": "Dev Sell: {count} failed"
+    "message": "Sell on Dev Sell: {count} failed"
   },
   "autotrade_dev_sell_failed_with_reason": {
-    "message": "Dev Sell: {count} failed: {reason}"
+    "message": "Sell on Dev Sell: {count} failed: {reason}"
   },
   "autotrade_migrate_sell_created": {
     "message": "Migrate Sell: {count} created"
@@ -4686,13 +4755,13 @@
     "message": "Unlink Twitter/X?"
   },
   "connect_twitter_prompt": {
-    "message": "Connect \ud835\udd4f to Frontrun"
+    "message": "Connect 𝕏 to Frontrun"
   },
   "connect_twitter_benefit_smart_followers": {
     "message": "Unlock top 100 smart followers on your profile"
   },
   "connect_twitter_benefit_wallet": {
-    "message": "Show your public wallets on your \ud835\udd4f profile (Soon)"
+    "message": "Show your public wallets on your 𝕏 profile (Soon)"
   },
   "connect_twitter_benefit_label": {
     "message": "Get discovered and labeled by other traders (Soon)"
@@ -4932,6 +5001,21 @@
   },
   "show_wallet_groups_on_axiom_pulse_desc": {
     "message": "Show wallet group on Axiom's Pulse"
+  },
+  "show_axiom_favorite_coins": {
+    "message": "Show Favorite Coins on Axiom Pulse"
+  },
+  "show_axiom_favorite_coins_desc": {
+    "message": "Show your favorited tokens in a row above Axiom's trending ticker."
+  },
+  "favorites_quick_buy_amount": {
+    "message": "Favorites Quick Buy Amount"
+  },
+  "favorites_quick_buy_amount_desc": {
+    "message": "Amount each ⚡ button on a favorite chip buys (SOL on Solana, BNB on BSC)."
+  },
+  "favorite_limit_reached": {
+    "message": "You can favorite up to {max} coins per chain."
   },
   "show_chart_order_lines": {
     "message": "Show Chart Order Lines"
@@ -5975,7 +6059,7 @@
     "message": "Retry"
   },
   "ton_wallets_bridge_hint": {
-    "message": "Need {to} to trade?"
+    "message": "Need to fund your {to} wallet?"
   },
   "ton_wallets_bridge_cta": {
     "message": "Bridge"
@@ -5987,7 +6071,7 @@
     "message": "View bridge order"
   },
   "ton_bridge_entry_hint": {
-    "message": "Swap {from} for {to}"
+    "message": "Bridge {from} to {to}"
   },
   "ton_bridge_wallet_pick_title": {
     "message": "Pick wallets"
@@ -6034,26 +6118,11 @@
   "ton_bridge_quote_error": {
     "message": "Couldn't fetch a quote. Try again."
   },
-  "ton_bridge_flow_floating_label": {
-    "message": "Floating rate"
-  },
-  "ton_bridge_flow_floating_help_off": {
-    "message": "Rate locked at quote — receive exactly what's shown"
-  },
-  "ton_bridge_flow_floating_help_on": {
-    "message": "Best rate at delivery — final amount may vary"
-  },
   "ton_bridge_quote_expired": {
     "message": "Quote expired. Refreshing…"
   },
   "ton_bridge_quote_eta": {
     "message": "Arrives in {eta} sec"
-  },
-  "ton_bridge_quote_network_fee": {
-    "message": "Network fee: {fee} SOL"
-  },
-  "ton_bridge_quote_service_fee": {
-    "message": "Service fee: {fee}"
   },
   "ton_bridge_send_cta": {
     "message": "Send"
@@ -6280,6 +6349,15 @@
   "ton_auto_fee_explainer_dismiss": {
     "message": "Got it"
   },
+  "base_auto_fee_explainer_title": {
+    "message": "Fees on Base are automatic"
+  },
+  "base_auto_fee_explainer_body": {
+    "message": "Base handles gas automatically — usually a few cents in ETH per swap. Nothing to configure."
+  },
+  "base_auto_fee_explainer_dismiss": {
+    "message": "Got it"
+  },
   "turbo_enable_title": {
     "message": "TURBO Mode"
   },
@@ -6420,5 +6498,14 @@
   },
   "context_invalidated_toast_confirm": {
     "message": "Refresh now"
+  },
+  "wallet_common_secured_by": {
+    "message": "Secured by"
+  },
+  "base_wallets_import_success": {
+    "message": "Base wallet imported"
+  },
+  "eth_wallets_import_success": {
+    "message": "ETH wallet imported"
   }
 }

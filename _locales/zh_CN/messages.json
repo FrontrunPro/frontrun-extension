@@ -173,6 +173,27 @@
   "smart_followers": {
     "message": "KOL关注"
   },
+  "refresh_smart_followers": {
+    "message": "刷新 KOL 关注"
+  },
+  "smart_followers_refresh_rate_limited": {
+    "message": "刷新次数已达上限，请稍后再试"
+  },
+  "smart_followers_refreshing": {
+    "message": "刷新中…"
+  },
+  "smart_followers_already_refreshed": {
+    "message": "已刷新过"
+  },
+  "smart_followers_updated": {
+    "message": "已更新"
+  },
+  "smart_followers_refresh_credit_limited": {
+    "message": "额度已用尽"
+  },
+  "smart_followers_refresh_failed": {
+    "message": "刷新失败"
+  },
   "smart_members": {
     "message": "KOL成员"
   },
@@ -628,6 +649,9 @@
   },
   "choose_wallet": {
     "message": "选择钱包"
+  },
+  "create_wallet": {
+    "message": "创建钱包"
   },
   "wallets_failed_to_activate_retry": {
     "message": "部分钱包激活失败，请重试。"
@@ -2249,6 +2273,9 @@
   "refresh_all_positions": {
     "message": "刷新所有持仓"
   },
+  "refresh_positions": {
+    "message": "刷新持仓"
+  },
   "pnl_calendar_tooltip": {
     "message": "盈亏日历"
   },
@@ -2357,7 +2384,10 @@
   "fee_saved_claim_cta_tooltip": {
     "message": "点击领取 {amount} 返现 →",
     "placeholders": {
-      "amount": { "content": "$1", "example": "$45.20" }
+      "amount": {
+        "content": "$1",
+        "example": "$45.20"
+      }
     }
   },
   "fee_saved_bnb_info_tooltip": {
@@ -2807,6 +2837,9 @@
   "no_holdings": {
     "message": "暂无持仓"
   },
+  "no_closed_positions": {
+    "message": "暂无已关闭持仓"
+  },
   "manage_portfolio": {
     "message": "管理投资组合"
   },
@@ -3049,6 +3082,21 @@
   },
   "dev_sell_amt": {
     "message": "Dev sell 数量"
+  },
+  "dev_sell_buy": {
+    "message": "Dev 卖出→买"
+  },
+  "dev_sell_buy_amt": {
+    "message": "买入"
+  },
+  "autotrade_dev_sell_buy_created": {
+    "message": "Dev 卖出→买：已创建 {count} 个"
+  },
+  "autotrade_dev_sell_buy_failed": {
+    "message": "Dev 卖出→买：{count} 个失败"
+  },
+  "autotrade_dev_sell_buy_failed_with_reason": {
+    "message": "Dev 卖出→买：{count} 个失败：{reason}"
   },
   "sell_amt_on_migration": {
     "message": "迁移时卖出数量"
@@ -3315,13 +3363,13 @@
     "message": "TP/SL：{count} 失败：{reason}"
   },
   "autotrade_dev_sell_created": {
-    "message": "Dev Sell：{count} 已创建"
+    "message": "Dev 卖出→卖：{count} 已创建"
   },
   "autotrade_dev_sell_failed": {
-    "message": "Dev Sell：{count} 失败"
+    "message": "Dev 卖出→卖：{count} 失败"
   },
   "autotrade_dev_sell_failed_with_reason": {
-    "message": "Dev Sell：{count} 失败：{reason}"
+    "message": "Dev 卖出→卖：{count} 失败：{reason}"
   },
   "autotrade_migrate_sell_created": {
     "message": "迁移卖出：{count} 已创建"
@@ -4674,13 +4722,13 @@
     "message": "解绑 Twitter/X？"
   },
   "connect_twitter_prompt": {
-    "message": "连接 \ud835\udd4f 到 Frontrun"
+    "message": "连接 𝕏 到 Frontrun"
   },
   "connect_twitter_benefit_smart_followers": {
     "message": "解锁你主页 Top 100 聪明关注者"
   },
   "connect_twitter_benefit_wallet": {
-    "message": "在 \ud835\udd4f 主页展示你的公开钱包 (即将上线)"
+    "message": "在 𝕏 主页展示你的公开钱包 (即将上线)"
   },
   "connect_twitter_benefit_label": {
     "message": "让交易者标记和发现你 (即将上线)"
@@ -4915,6 +4963,21 @@
   },
   "show_wallet_groups_on_axiom_pulse_desc": {
     "message": "在 Axiom 的 Pulse 显示钱包组"
+  },
+  "show_axiom_favorite_coins": {
+    "message": "在 Axiom Pulse 显示收藏代币"
+  },
+  "show_axiom_favorite_coins_desc": {
+    "message": "在 Axiom 趋势行情栏上方显示你收藏的代币。"
+  },
+  "favorites_quick_buy_amount": {
+    "message": "收藏快捷买入金额"
+  },
+  "favorites_quick_buy_amount_desc": {
+    "message": "收藏 chip 上 ⚡ 按钮每次买入的金额(Solana 用 SOL,BSC 用 BNB)。"
+  },
+  "favorite_limit_reached": {
+    "message": "每条链最多收藏 {max} 个币种。"
   },
   "show_chart_order_lines": {
     "message": "显示图表订单线"
@@ -5952,7 +6015,7 @@
     "message": "重试"
   },
   "ton_wallets_bridge_hint": {
-    "message": "需要 {to} 才能交易？"
+    "message": "需要为你的 {to} 钱包充值吗？"
   },
   "ton_wallets_bridge_cta": {
     "message": "去 Bridge"
@@ -5964,7 +6027,7 @@
     "message": "查看订单"
   },
   "ton_bridge_entry_hint": {
-    "message": "将 {from} 兑换为 {to}"
+    "message": "将 {from} 跨链到 {to}"
   },
   "ton_bridge_wallet_pick_title": {
     "message": "选择钱包"
@@ -6011,26 +6074,11 @@
   "ton_bridge_quote_error": {
     "message": "无法获取报价。"
   },
-  "ton_bridge_flow_floating_label": {
-    "message": "浮动汇率"
-  },
-  "ton_bridge_flow_floating_help_off": {
-    "message": "锁定当前报价 — 实际到账与显示一致"
-  },
-  "ton_bridge_flow_floating_help_on": {
-    "message": "按交付时市价 — 最终金额可能浮动"
-  },
   "ton_bridge_quote_expired": {
     "message": "报价过期，正在刷新…"
   },
   "ton_bridge_quote_eta": {
     "message": "约 {eta} 秒到账"
-  },
-  "ton_bridge_quote_network_fee": {
-    "message": "网络费: {fee} SOL"
-  },
-  "ton_bridge_quote_service_fee": {
-    "message": "服务费: {fee}"
   },
   "ton_bridge_send_cta": {
     "message": "发送"
@@ -6248,6 +6296,15 @@
   "ton_auto_fee_explainer_dismiss": {
     "message": "知道了"
   },
+  "base_auto_fee_explainer_title": {
+    "message": "Base 费用自动计算"
+  },
+  "base_auto_fee_explainer_body": {
+    "message": "Base 自动处理 Gas——每笔交易通常只需几美分（以 ETH 计），无需手动设置。"
+  },
+  "base_auto_fee_explainer_dismiss": {
+    "message": "知道了"
+  },
   "turbo_enable_title": {
     "message": "TURBO 模式"
   },
@@ -6388,5 +6445,35 @@
   },
   "context_invalidated_toast_confirm": {
     "message": "立即刷新"
+  },
+  "archive_wallet_action": {
+    "message": "归档"
+  },
+  "restore_wallet": {
+    "message": "恢复"
+  },
+  "wallet_archived_successfully": {
+    "message": "钱包已归档"
+  },
+  "wallet_archive_failed": {
+    "message": "归档钱包失败"
+  },
+  "wallet_restored_successfully": {
+    "message": "钱包已恢复"
+  },
+  "wallet_restore_failed": {
+    "message": "恢复钱包失败"
+  },
+  "no_archived_wallets": {
+    "message": "没有已归档的钱包"
+  },
+  "wallet_common_secured_by": {
+    "message": "安全保障"
+  },
+  "base_wallets_import_success": {
+    "message": "Base 钱包已导入"
+  },
+  "eth_wallets_import_success": {
+    "message": "ETH 钱包已导入"
   }
 }

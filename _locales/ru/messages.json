@@ -203,6 +203,27 @@
   "smart_followers": {
     "message": "Умные подписчики"
   },
+  "refresh_smart_followers": {
+    "message": "Обновить"
+  },
+  "smart_followers_refresh_rate_limited": {
+    "message": "Достигнут лимит обновлений, попробуйте позже"
+  },
+  "smart_followers_refreshing": {
+    "message": "Обновляем…"
+  },
+  "smart_followers_already_refreshed": {
+    "message": "Уже обновлено"
+  },
+  "smart_followers_updated": {
+    "message": "Обновлено"
+  },
+  "smart_followers_refresh_credit_limited": {
+    "message": "Кредиты исчерпаны"
+  },
+  "smart_followers_refresh_failed": {
+    "message": "Ошибка обновления"
+  },
   "smart_members": {
     "message": "Умные участники"
   },
@@ -670,6 +691,9 @@
   },
   "choose_wallet": {
     "message": "Выбрать кошелек"
+  },
+  "create_wallet": {
+    "message": "Создать кошелек"
   },
   "wallets_failed_to_activate_retry": {
     "message": "Не удалось активировать некоторые кошельки. Повторите попытку."
@@ -2306,6 +2330,9 @@
   "refresh_all_positions": {
     "message": "Обновить все"
   },
+  "refresh_positions": {
+    "message": "Обновить позиции"
+  },
   "pnl_calendar_tooltip": {
     "message": "Календарь PnL"
   },
@@ -2801,6 +2828,9 @@
   "no_holdings": {
     "message": "Нет позиций"
   },
+  "no_closed_positions": {
+    "message": "Нет закрытых позиций"
+  },
   "collapse": {
     "message": "Свернуть"
   },
@@ -2825,7 +2855,10 @@
   "fee_saved_claim_cta_tooltip": {
     "message": "Забрать кешбэк {amount} →",
     "placeholders": {
-      "amount": { "content": "$1", "example": "$45.20" }
+      "amount": {
+        "content": "$1",
+        "example": "$45.20"
+      }
     }
   },
   "fee_saved_bnb_info_tooltip": {
@@ -3061,6 +3094,21 @@
   },
   "dev_sell_amt": {
     "message": "Dev sell сумма"
+  },
+  "dev_sell_buy": {
+    "message": "Dev sell → покупка"
+  },
+  "dev_sell_buy_amt": {
+    "message": "Сумма"
+  },
+  "autotrade_dev_sell_buy_created": {
+    "message": "Dev sell → покупка: {count} создано"
+  },
+  "autotrade_dev_sell_buy_failed": {
+    "message": "Dev sell → покупка: {count} не удалось создать"
+  },
+  "autotrade_dev_sell_buy_failed_with_reason": {
+    "message": "Dev sell → покупка: {count} не удалось создать: {reason}"
   },
   "sell_amt_on_migration": {
     "message": "Продажа при миграции"
@@ -3327,13 +3375,13 @@
     "message": "TP/SL: {count} не удалось создать: {reason}"
   },
   "autotrade_dev_sell_created": {
-    "message": "Dev Sell: {count} создано"
+    "message": "Dev sell → продажа: {count} создано"
   },
   "autotrade_dev_sell_failed": {
-    "message": "Dev Sell: {count} не удалось создать"
+    "message": "Dev sell → продажа: {count} не удалось создать"
   },
   "autotrade_dev_sell_failed_with_reason": {
-    "message": "Dev Sell: {count} не удалось создать: {reason}"
+    "message": "Dev sell → продажа: {count} не удалось создать: {reason}"
   },
   "autotrade_migrate_sell_created": {
     "message": "Migrate Sell: {count} создано"
@@ -4689,13 +4737,13 @@
     "message": "Отвязать Twitter/X?"
   },
   "connect_twitter_prompt": {
-    "message": "Связать \ud835\udd4f с Frontrun"
+    "message": "Связать 𝕏 с Frontrun"
   },
   "connect_twitter_benefit_smart_followers": {
     "message": "Топ-100 умных подписчиков в профиле"
   },
   "connect_twitter_benefit_wallet": {
-    "message": "Публичные кошельки в \ud835\udd4f профиле (Скоро)"
+    "message": "Публичные кошельки в 𝕏 профиле (Скоро)"
   },
   "connect_twitter_benefit_label": {
     "message": "Трейдеры найдут и отметят вас (Скоро)"
@@ -4930,6 +4978,21 @@
   },
   "show_wallet_groups_on_axiom_pulse_desc": {
     "message": "Группы кошельков на Axiom Pulse"
+  },
+  "show_axiom_favorite_coins": {
+    "message": "Избранные монеты на Axiom Pulse"
+  },
+  "show_axiom_favorite_coins_desc": {
+    "message": "Избранные токены над лентой трендов Axiom."
+  },
+  "favorites_quick_buy_amount": {
+    "message": "Сумма быстрой покупки"
+  },
+  "favorites_quick_buy_amount_desc": {
+    "message": "Сколько покупает ⚡ на избранном (SOL для Solana, BNB для BSC)."
+  },
+  "favorite_limit_reached": {
+    "message": "Не более {max} монет в избранном на сеть."
   },
   "show_chart_order_lines": {
     "message": "Линии ордеров на графике"
@@ -5973,7 +6036,7 @@
     "message": "Повторить"
   },
   "ton_wallets_bridge_hint": {
-    "message": "Нужен {to} для сделок?"
+    "message": "Пополнить кошелёк {to}?"
   },
   "ton_wallets_bridge_cta": {
     "message": "Bridge"
@@ -5985,7 +6048,7 @@
     "message": "К заказу"
   },
   "ton_bridge_entry_hint": {
-    "message": "Обмен {from} → {to}"
+    "message": "Перевести {from} → {to}"
   },
   "ton_bridge_wallet_pick_title": {
     "message": "Кошельки"
@@ -6032,26 +6095,11 @@
   "ton_bridge_quote_error": {
     "message": "Не удалось получить курс."
   },
-  "ton_bridge_flow_floating_label": {
-    "message": "Плавающий курс"
-  },
-  "ton_bridge_flow_floating_help_off": {
-    "message": "Курс зафиксирован — получите ровно как показано"
-  },
-  "ton_bridge_flow_floating_help_on": {
-    "message": "Курс на момент отправки — сумма может измениться"
-  },
   "ton_bridge_quote_expired": {
     "message": "Курс истёк. Обновляем…"
   },
   "ton_bridge_quote_eta": {
     "message": "Поступит через {eta} сек"
-  },
-  "ton_bridge_quote_network_fee": {
-    "message": "Комиссия сети: {fee} SOL"
-  },
-  "ton_bridge_quote_service_fee": {
-    "message": "Сервисный сбор: {fee}"
   },
   "ton_bridge_send_cta": {
     "message": "Отправить"
@@ -6278,6 +6326,15 @@
   "ton_auto_fee_explainer_dismiss": {
     "message": "Понятно"
   },
+  "base_auto_fee_explainer_title": {
+    "message": "Комиссии на Base — авто"
+  },
+  "base_auto_fee_explainer_body": {
+    "message": "Base сам задаёт газ — обычно несколько центов в ETH за своп. Настраивать нечего."
+  },
+  "base_auto_fee_explainer_dismiss": {
+    "message": "Понятно"
+  },
   "turbo_enable_title": {
     "message": "Режим TURBO"
   },
@@ -6418,5 +6475,35 @@
   },
   "context_invalidated_toast_confirm": {
     "message": "Обновить"
+  },
+  "archive_wallet_action": {
+    "message": "Архив"
+  },
+  "restore_wallet": {
+    "message": "Восстановить"
+  },
+  "wallet_archived_successfully": {
+    "message": "Кошелёк архивирован"
+  },
+  "wallet_archive_failed": {
+    "message": "Не удалось архивировать"
+  },
+  "wallet_restored_successfully": {
+    "message": "Кошелёк восстановлен"
+  },
+  "wallet_restore_failed": {
+    "message": "Не удалось восстановить"
+  },
+  "no_archived_wallets": {
+    "message": "Нет архивных кошельков"
+  },
+  "wallet_common_secured_by": {
+    "message": "Защищено"
+  },
+  "base_wallets_import_success": {
+    "message": "Кошелёк Base импортирован"
+  },
+  "eth_wallets_import_success": {
+    "message": "Кошелёк ETH импортирован"
   }
 }
