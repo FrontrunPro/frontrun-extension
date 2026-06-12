@@ -1,4 +1,7 @@
 {
+  "credit_limit_reached_toast": {
+    "message": "You've reached your plan's usage limit. Upgrade for a higher limit, or wait for it to reset."
+  },
   "coin_communities": {
     "message": "Coin Communities"
   },
@@ -1184,6 +1187,12 @@
   "open_panel_hotkey_desc": {
     "message": "Press your Hotkey Modifier + I on a token page to toggle the Instant Trade panel open/closed"
   },
+  "wallet_quick_select": {
+    "message": "Quick-Select Wallets with Hotkey"
+  },
+  "wallet_quick_select_desc": {
+    "message": "Press your Hotkey Modifier + 1-9 to toggle a wallet by its position in the list"
+  },
   "recently_logged_in_as": {
     "message": "Recently logged in as"
   },
@@ -1525,6 +1534,9 @@
   },
   "verify_with_google": {
     "message": "Verify with Google"
+  },
+  "verify_with_email": {
+    "message": "Verify with email"
   },
   "from": {
     "message": "From"
@@ -2231,6 +2243,18 @@
   "trade_failed": {
     "message": "Trade Failed"
   },
+  "base_swap_no_route": {
+    "message": "No route available for this token (liquidity too low or pool too new)."
+  },
+  "base_swap_out_of_gas": {
+    "message": "Swap ran out of gas — try again."
+  },
+  "base_swap_network_rejected": {
+    "message": "Transaction rejected by the network — try again."
+  },
+  "base_swap_reverted": {
+    "message": "Swap reverted on-chain — the token may not be tradable yet. Try again or raise slippage."
+  },
   "transactions_failed": {
     "message": "transactions failed"
   },
@@ -2533,6 +2557,12 @@
   },
   "twitter_username_history_inline_tip": {
     "message": "Show a profile's previous usernames inline below user's handle"
+  },
+  "twitter_hover_card_details": {
+    "message": "Hover Card Details"
+  },
+  "twitter_hover_card_details_tip": {
+    "message": "Show Smart Followers, CA history, and name changes on X profile hover cards"
   },
   "inline_pnl": {
     "message": "PnL Badges on Tweets"
@@ -2893,6 +2923,9 @@
   },
   "sell_order": {
     "message": "Sell Order"
+  },
+  "sell_live_balance_is_on": {
+    "message": "Sell % of live balance is on"
   },
   "cancel_order": {
     "message": "Cancel Order"
@@ -4304,6 +4337,9 @@
   "please_select_at_least_one_asset": {
     "message": "Please select at least one asset"
   },
+  "multi_asset_send_not_supported_on_chain": {
+    "message": "Sending multiple assets at once isn't supported on this chain — send one asset at a time"
+  },
   "addresses": {
     "message": "Addresses"
   },
@@ -4930,6 +4966,9 @@
   "auto_sort_wallets_by_balance_desc": {
     "message": "When on, wallets are ranked by SOL/BNB balance. When off, drag wallets to set a custom order"
   },
+  "auto_sort_disabled_quick_select": {
+    "message": "Disabled while Quick-Select Wallets with Hotkey is on — it uses a fixed wallet order"
+  },
   "split_sell_amount_across_wallets": {
     "message": "Split Sell Amount Evenly across Wallets"
   },
@@ -5002,6 +5041,12 @@
   "show_wallet_groups_on_axiom_pulse_desc": {
     "message": "Show wallet group on Axiom's Pulse"
   },
+  "usol_setting_title": {
+    "message": "Enable uSOL"
+  },
+  "usol_setting_desc": {
+    "message": "Adds a uSOL option to the trade panel: trade with USDC using SOL settings"
+  },
   "show_axiom_favorite_coins": {
     "message": "Show Favorite Coins on Axiom Pulse"
   },
@@ -5022,6 +5067,12 @@
   },
   "show_chart_order_lines_desc": {
     "message": "Display limit order and auto-trade lines on the chart"
+  },
+  "sell_limit_order_track_live_position": {
+    "message": "Sell % of Live Balance"
+  },
+  "sell_limit_order_track_live_position_desc": {
+    "message": "Limit orders and auto-trades execute as the entered % of your live balance"
   },
   "autotrade_not_supported_usdc": {
     "message": "Auto-Trade is not supported in USDC mode"
@@ -6092,10 +6143,22 @@
     "message": "Bridge amount"
   },
   "ton_bridge_amount_input_label": {
-    "message": "You send"
+    "message": "From"
   },
   "ton_bridge_amount_receive_label": {
-    "message": "You receive"
+    "message": "To"
+  },
+  "ton_bridge_header_indicator_label": {
+    "message": "Convert status"
+  },
+  "ton_bridge_progress_title": {
+    "message": "Convert in progress"
+  },
+  "ton_bridge_step_sending_to_wallet": {
+    "message": "Sending {symbol} to receiving wallet"
+  },
+  "ton_bridge_landed_toast_view_details": {
+    "message": "View details"
   },
   "ton_bridge_amount_min_max": {
     "message": "Min {min} SOL — Max {max} SOL"
@@ -6130,6 +6193,84 @@
   "ton_bridge_send_in_progress": {
     "message": "Sending…"
   },
+  "ton_bridge_convert_title": {
+    "message": "Convert"
+  },
+  "ton_bridge_convert_cta": {
+    "message": "Convert now"
+  },
+  "ton_bridge_unsupported_pair": {
+    "message": "This pair isn't supported yet — convert from a Solana wallet."
+  },
+  "ton_bridge_balance_label": {
+    "message": "Balance: {balance}"
+  },
+  "ton_bridge_balance_empty": {
+    "message": "Balance: --"
+  },
+  "ton_bridge_select_wallet": {
+    "message": "Select wallet"
+  },
+  "ton_bridge_select_source_wallet": {
+    "message": "Select source wallet"
+  },
+  "ton_bridge_select_destination_wallet": {
+    "message": "Select destination wallet"
+  },
+  "ton_bridge_floating_rate_label": {
+    "message": "Floating rate"
+  },
+  "ton_bridge_floating_rate_hint": {
+    "message": "Best rate at delivery - final amount may vary."
+  },
+  "ton_bridge_estimated_time_label": {
+    "message": "Estimated time"
+  },
+  "ton_bridge_banner_title": {
+    "message": "Converting {from} → {to}"
+  },
+  "ton_bridge_detail_success_title": {
+    "message": "Converted successfully"
+  },
+  "ton_bridge_detail_failed_title": {
+    "message": "Convert failed"
+  },
+  "ton_bridge_detail_order": {
+    "message": "Order"
+  },
+  "ton_bridge_detail_landed": {
+    "message": "{amount} {symbol} landed"
+  },
+  "ton_bridge_detail_rate": {
+    "message": "Rate"
+  },
+  "ton_bridge_detail_gas": {
+    "message": "Gas fee"
+  },
+  "ton_bridge_detail_total_time": {
+    "message": "Total time"
+  },
+  "ton_bridge_seconds": {
+    "message": "{n} sec"
+  },
+  "ton_bridge_detail_view_tx": {
+    "message": "View Tx"
+  },
+  "ton_bridge_detail_view_wallet": {
+    "message": "View receiving wallet"
+  },
+  "ton_bridge_detail_failed_step": {
+    "message": "Failed at exchange step."
+  },
+  "ton_bridge_detail_failed_reason": {
+    "message": "Your funds were returned to {addr}."
+  },
+  "ton_bridge_detail_close": {
+    "message": "Close"
+  },
+  "ton_bridge_detail_retry": {
+    "message": "Retry"
+  },
   "ton_bridge_back_aria": {
     "message": "Back"
   },
@@ -6158,7 +6299,16 @@
     "message": "Use max sendable"
   },
   "ton_bridge_reserve_buffer": {
-    "message": "Keep ~0.005 SOL on hand for future trades."
+    "message": "Keep a little for network fees."
+  },
+  "ton_bridge_insufficient_funds": {
+    "message": "Insufficient funds"
+  },
+  "ton_bridge_need_source_wallet": {
+    "message": "No funded wallet to send from — add funds in Wallets"
+  },
+  "ton_bridge_need_destination_wallet": {
+    "message": "No wallet to receive into — create one in Wallets"
   },
   "ton_bridge_balance_changed": {
     "message": "Wallet balance changed. Adjust the amount and try again."
@@ -6260,7 +6410,10 @@
     "message": "Bridge service is having trouble. Try again."
   },
   "ton_bridge_error_broadcast": {
-    "message": "Couldn't broadcast the SOL transaction."
+    "message": "Couldn't broadcast the transaction. Please try again."
+  },
+  "ton_bridge_error_relogin": {
+    "message": "Session expired — please log in again and retry."
   },
   "ton_bridge_powered_by_changenow": {
     "message": "Powered by ChangeNow"
@@ -6461,7 +6614,7 @@
     "message": "No shared spaces yet"
   },
   "label_visibility_shared_label_preview": {
-    "message": "shared label"
+    "message": "Shared"
   },
   "label_visibility_all_hidden_warning": {
     "message": "All label classes are hidden. Wallet rows will show no labels inline. Toggle at least one class on to restore inline chips."
@@ -6498,6 +6651,96 @@
   },
   "context_invalidated_toast_confirm": {
     "message": "Refresh now"
+  },
+  "continue_with_email": {
+    "message": "Continue with email"
+  },
+  "email_login_title": {
+    "message": "Sign in with email"
+  },
+  "email_login_subtitle": {
+    "message": "We'll email you a one-time code. No password needed."
+  },
+  "email_login_input_placeholder": {
+    "message": "you@example.com"
+  },
+  "email_login_send_code": {
+    "message": "Send code"
+  },
+  "email_login_code_title": {
+    "message": "Enter your code"
+  },
+  "email_login_code_subtitle": {
+    "message": "We sent a code to {email}. Check your inbox."
+  },
+  "email_login_code_placeholder": {
+    "message": "Enter code"
+  },
+  "email_login_verify": {
+    "message": "Verify"
+  },
+  "email_login_resend": {
+    "message": "Resend code"
+  },
+  "email_login_resend_in": {
+    "message": "Resend in {seconds}s"
+  },
+  "email_login_back": {
+    "message": "Back"
+  },
+  "email_login_error_invalid_email": {
+    "message": "Please enter a valid email address."
+  },
+  "email_login_error_disposable": {
+    "message": "Please use a permanent email address."
+  },
+  "email_login_error_rate_limited": {
+    "message": "Too many attempts. Please try again later."
+  },
+  "email_login_error_code_required": {
+    "message": "Please enter the code."
+  },
+  "email_login_error_code_invalid": {
+    "message": "Incorrect or expired code. Please try again."
+  },
+  "email_login_error_generic": {
+    "message": "Couldn't send the code. Please try again."
+  },
+  "email_login_error_otp_locked": {
+    "message": "Too many attempts. Please request a new code."
+  },
+  "email_login_error_session_expired": {
+    "message": "This code expired. Please request a new one."
+  },
+  "email_login_error_retry": {
+    "message": "Something went wrong. Please try again."
+  },
+  "social_binding_title": {
+    "message": "One more step"
+  },
+  "social_binding_description": {
+    "message": "Link your Telegram or X account to finish setting up. Either one works."
+  },
+  "social_binding_link_telegram": {
+    "message": "Link Telegram"
+  },
+  "social_binding_link_twitter": {
+    "message": "Link X / Twitter"
+  },
+  "social_binding_finalizing": {
+    "message": "Finishing up…"
+  },
+  "social_binding_use_another": {
+    "message": "Use a different account"
+  },
+  "social_binding_already_claimed": {
+    "message": "That account is already linked to another user. Try a different one."
+  },
+  "social_binding_cancelled": {
+    "message": "Linking was cancelled. Please try again."
+  },
+  "social_binding_finalize_failed": {
+    "message": "Couldn't complete sign-in. Please try linking again."
   },
   "wallet_common_secured_by": {
     "message": "Secured by"

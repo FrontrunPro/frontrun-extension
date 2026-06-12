@@ -1,0 +1,1 @@
+import{t as e}from"./messaging-C6wP78Y3.js";var t=async(...e)=>i(`initHybridWallets`,e),n=async(...e)=>i(`refreshHybridWallets`,e),r=async(...e)=>i(`reconcileEvmWallets`,e),i=async(t,n)=>{let{success:r,data:i,error:a}=await e({name:`wallets/hybrid`,body:{action:t,params:n}});if(!r||a)throw Error(a||`Failed to call hybrid wallets action: ${t}`);return i};export{r as n,n as r,t};

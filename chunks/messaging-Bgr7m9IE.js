@@ -1,0 +1,1 @@
+import{t as e}from"./messaging-C6wP78Y3.js";export{e as sendToBackground};

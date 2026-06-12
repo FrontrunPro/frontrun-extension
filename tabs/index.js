@@ -1,0 +1,1 @@
+location.replace("../tabs.html" + location.search + location.hash);

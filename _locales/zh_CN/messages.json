@@ -1,4 +1,7 @@
 {
+  "credit_limit_reached_toast": {
+    "message": "已达到套餐用量上限。升级以获得更高额度，或等待额度重置。"
+  },
   "coin_communities": {
     "message": "代币社区"
   },
@@ -1232,6 +1235,12 @@
   "open_panel_hotkey_desc": {
     "message": "在代币页面按「热键修饰键 + I」开关闪电交易面板"
   },
+  "wallet_quick_select": {
+    "message": "快捷键快速选择钱包"
+  },
+  "wallet_quick_select_desc": {
+    "message": "按「热键修饰键 + 1-9」按列表位置切换对应钱包的选中状态"
+  },
   "sell": {
     "message": "卖出"
   },
@@ -1597,6 +1606,9 @@
   },
   "verify_with_google": {
     "message": "使用 Google 验证"
+  },
+  "verify_with_email": {
+    "message": "使用邮箱验证"
   },
   "from": {
     "message": "从"
@@ -2222,6 +2234,18 @@
   "trade_failed": {
     "message": "交易失败"
   },
+  "base_swap_no_route": {
+    "message": "该代币暂无可用路由（流动性过低或交易池过新）。"
+  },
+  "base_swap_out_of_gas": {
+    "message": "兑换 Gas 不足，请重试。"
+  },
+  "base_swap_network_rejected": {
+    "message": "交易被网络拒绝，请重试。"
+  },
+  "base_swap_reverted": {
+    "message": "兑换在链上被回滚——该代币可能暂时无法交易，可重试或提高滑点。"
+  },
   "transactions_failed": {
     "message": "笔交易失败"
   },
@@ -2566,6 +2590,12 @@
   },
   "twitter_username_history_inline_tip": {
     "message": "在用户名下方内联显示该账号的历史曾用名"
+  },
+  "twitter_hover_card_details": {
+    "message": "悬浮卡详情"
+  },
+  "twitter_hover_card_details_tip": {
+    "message": "在 X 悬浮资料卡上显示 Smart Followers、CA 历史和曾用名"
   },
   "inline_pnl": {
     "message": "推文 PnL 标记"
@@ -2920,6 +2950,9 @@
   },
   "sell_order": {
     "message": "卖出订单"
+  },
+  "sell_live_balance_is_on": {
+    "message": "已开启:按实时余额%卖出"
   },
   "cancel_order": {
     "message": "取消订单"
@@ -4274,6 +4307,9 @@
   "please_select_at_least_one_asset": {
     "message": "请至少选择一个资产"
   },
+  "multi_asset_send_not_supported_on_chain": {
+    "message": "该链暂不支持一次发送多个资产 —— 请逐个发送"
+  },
   "addresses": {
     "message": "地址"
   },
@@ -4892,6 +4928,9 @@
   "auto_sort_wallets_by_balance_desc": {
     "message": "开启时按 SOL/BNB 余额排序；关闭后可拖动钱包自定义顺序"
   },
+  "auto_sort_disabled_quick_select": {
+    "message": "「快捷键快速选择钱包」开启时不可用 —— 它使用固定的钱包顺序"
+  },
   "split_sell_amount_across_wallets": {
     "message": "各钱包平分对应总额"
   },
@@ -4964,6 +5003,12 @@
   "show_wallet_groups_on_axiom_pulse_desc": {
     "message": "在 Axiom 的 Pulse 显示钱包组"
   },
+  "usol_setting_title": {
+    "message": "启用 uSOL"
+  },
+  "usol_setting_desc": {
+    "message": "在交易面板增加 uSOL 选项:用 USDC 成交,以 SOL 单位设置"
+  },
   "show_axiom_favorite_coins": {
     "message": "在 Axiom Pulse 显示收藏代币"
   },
@@ -4984,6 +5029,12 @@
   },
   "show_chart_order_lines_desc": {
     "message": "在图表上显示限价单和自动交易线"
+  },
+  "sell_limit_order_track_live_position": {
+    "message": "按实时余额百分比卖出"
+  },
+  "sell_limit_order_track_live_position_desc": {
+    "message": "限价单和自动交易按你所填的百分比、以实时余额执行"
   },
   "autotrade_not_supported_usdc": {
     "message": "USDC 模式暂不支持自动交易"
@@ -6048,10 +6099,22 @@
     "message": "金额"
   },
   "ton_bridge_amount_input_label": {
-    "message": "发送"
+    "message": "从"
   },
   "ton_bridge_amount_receive_label": {
-    "message": "接收"
+    "message": "至"
+  },
+  "ton_bridge_header_indicator_label": {
+    "message": "转换状态"
+  },
+  "ton_bridge_progress_title": {
+    "message": "转换进行中"
+  },
+  "ton_bridge_step_sending_to_wallet": {
+    "message": "正在发送 {symbol} 至接收钱包"
+  },
+  "ton_bridge_landed_toast_view_details": {
+    "message": "查看详情"
   },
   "ton_bridge_amount_min_max": {
     "message": "最小 {min} SOL — 最大 {max} SOL"
@@ -6086,6 +6149,84 @@
   "ton_bridge_send_in_progress": {
     "message": "发送中…"
   },
+  "ton_bridge_convert_title": {
+    "message": "兑换"
+  },
+  "ton_bridge_convert_cta": {
+    "message": "立即兑换"
+  },
+  "ton_bridge_unsupported_pair": {
+    "message": "暂不支持该方向，来源需为 Solana 钱包。"
+  },
+  "ton_bridge_balance_label": {
+    "message": "余额：{balance}"
+  },
+  "ton_bridge_balance_empty": {
+    "message": "余额：--"
+  },
+  "ton_bridge_select_wallet": {
+    "message": "选择钱包"
+  },
+  "ton_bridge_select_source_wallet": {
+    "message": "选择来源钱包"
+  },
+  "ton_bridge_select_destination_wallet": {
+    "message": "选择目标钱包"
+  },
+  "ton_bridge_floating_rate_label": {
+    "message": "浮动汇率"
+  },
+  "ton_bridge_floating_rate_hint": {
+    "message": "按到账时最优汇率结算，最终到账可能浮动。"
+  },
+  "ton_bridge_estimated_time_label": {
+    "message": "预计时间"
+  },
+  "ton_bridge_banner_title": {
+    "message": "兑换中 {from} → {to}"
+  },
+  "ton_bridge_detail_success_title": {
+    "message": "兑换成功"
+  },
+  "ton_bridge_detail_failed_title": {
+    "message": "兑换失败"
+  },
+  "ton_bridge_detail_order": {
+    "message": "订单"
+  },
+  "ton_bridge_detail_landed": {
+    "message": "{amount} {symbol} 已到账"
+  },
+  "ton_bridge_detail_rate": {
+    "message": "汇率"
+  },
+  "ton_bridge_detail_gas": {
+    "message": "手续费"
+  },
+  "ton_bridge_detail_total_time": {
+    "message": "总耗时"
+  },
+  "ton_bridge_seconds": {
+    "message": "{n} 秒"
+  },
+  "ton_bridge_detail_view_tx": {
+    "message": "查看交易"
+  },
+  "ton_bridge_detail_view_wallet": {
+    "message": "查看到账钱包"
+  },
+  "ton_bridge_detail_failed_step": {
+    "message": "兑换环节失败。"
+  },
+  "ton_bridge_detail_failed_reason": {
+    "message": "资金已退回到 {addr}。"
+  },
+  "ton_bridge_detail_close": {
+    "message": "关闭"
+  },
+  "ton_bridge_detail_retry": {
+    "message": "重试"
+  },
   "ton_bridge_back_aria": {
     "message": "返回"
   },
@@ -6114,7 +6255,16 @@
     "message": "全部"
   },
   "ton_bridge_reserve_buffer": {
-    "message": "请保留约 0.005 SOL 以备后续交易。"
+    "message": "请留一点余额支付网络费。"
+  },
+  "ton_bridge_insufficient_funds": {
+    "message": "余额不足"
+  },
+  "ton_bridge_need_source_wallet": {
+    "message": "没有可转出的钱包，请先在钱包页充值"
+  },
+  "ton_bridge_need_destination_wallet": {
+    "message": "没有可接收的钱包，请先在钱包页创建"
   },
   "ton_bridge_balance_changed": {
     "message": "余额已变化，请调整金额。"
@@ -6207,7 +6357,10 @@
     "message": "Bridge 服务异常，请重试。"
   },
   "ton_bridge_error_broadcast": {
-    "message": "无法广播 SOL 交易。"
+    "message": "交易广播失败，请重试。"
+  },
+  "ton_bridge_error_relogin": {
+    "message": "登录状态已过期，请重新登录后重试。"
   },
   "ton_bridge_powered_by_changenow": {
     "message": "由 ChangeNow 提供"
@@ -6408,7 +6561,7 @@
     "message": "暂无共享空间"
   },
   "label_visibility_shared_label_preview": {
-    "message": "共享标签"
+    "message": "共享"
   },
   "label_visibility_all_hidden_warning": {
     "message": "所有标签类别均已隐藏。钱包行将不显示任何行内标签。请至少启用一类以恢复行内显示。"
@@ -6445,6 +6598,96 @@
   },
   "context_invalidated_toast_confirm": {
     "message": "立即刷新"
+  },
+  "continue_with_email": {
+    "message": "使用邮箱登录"
+  },
+  "email_login_title": {
+    "message": "邮箱登录"
+  },
+  "email_login_subtitle": {
+    "message": "我们会向你的邮箱发送一次性验证码，无需密码。"
+  },
+  "email_login_input_placeholder": {
+    "message": "you@example.com"
+  },
+  "email_login_send_code": {
+    "message": "发送验证码"
+  },
+  "email_login_code_title": {
+    "message": "输入验证码"
+  },
+  "email_login_code_subtitle": {
+    "message": "验证码已发送至 {email}，请查收邮件。"
+  },
+  "email_login_code_placeholder": {
+    "message": "输入验证码"
+  },
+  "email_login_verify": {
+    "message": "验证"
+  },
+  "email_login_resend": {
+    "message": "重新发送"
+  },
+  "email_login_resend_in": {
+    "message": "{seconds} 秒后重发"
+  },
+  "email_login_back": {
+    "message": "返回"
+  },
+  "email_login_error_invalid_email": {
+    "message": "请输入有效的邮箱地址。"
+  },
+  "email_login_error_disposable": {
+    "message": "请使用长期有效的邮箱地址。"
+  },
+  "email_login_error_rate_limited": {
+    "message": "尝试次数过多，请稍后再试。"
+  },
+  "email_login_error_code_required": {
+    "message": "请输入验证码。"
+  },
+  "email_login_error_code_invalid": {
+    "message": "验证码错误或已过期，请重试。"
+  },
+  "email_login_error_generic": {
+    "message": "验证码发送失败，请重试。"
+  },
+  "email_login_error_otp_locked": {
+    "message": "尝试次数过多，请重新获取验证码。"
+  },
+  "email_login_error_session_expired": {
+    "message": "验证码已失效，请重新获取。"
+  },
+  "email_login_error_retry": {
+    "message": "出了点问题，请重试。"
+  },
+  "social_binding_title": {
+    "message": "还差一步"
+  },
+  "social_binding_description": {
+    "message": "绑定 Telegram 或 X 账号即可完成设置，二选一即可。"
+  },
+  "social_binding_link_telegram": {
+    "message": "绑定 Telegram"
+  },
+  "social_binding_link_twitter": {
+    "message": "绑定 X / Twitter"
+  },
+  "social_binding_finalizing": {
+    "message": "正在完成…"
+  },
+  "social_binding_use_another": {
+    "message": "更换账号"
+  },
+  "social_binding_already_claimed": {
+    "message": "该账号已绑定其他用户，请更换。"
+  },
+  "social_binding_cancelled": {
+    "message": "绑定已取消，请重试。"
+  },
+  "social_binding_finalize_failed": {
+    "message": "登录未能完成，请重新绑定。"
   },
   "archive_wallet_action": {
     "message": "归档"

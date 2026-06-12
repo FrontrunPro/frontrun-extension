@@ -1,1 +1,191 @@
-<!DOCTYPE html><html><head><link rel="stylesheet" href="/tabs/index.8b4ab78b.css"><link rel="stylesheet" href="/popup.c5380c60.css"><script type="module" src="/secp256k1.18453ec5.js"></script><title>Frontrun</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"></head><body> <div id="__plasmo"></div> <script src="/popup.dfa8f547.js" type="module"></script> </body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontrun</title>
+    <!-- Boot skeleton: painted before the JS bundle is fetched/parsed so the
+         popup never opens as a blank box. Mirrors src/components/BootSkeleton.tsx
+         (which takes over from React's first commit until rehydration) — keep
+         markup/classes in sync with that file and with the sidepanel HTML. -->
+    <style>
+      html,
+      body {
+        width: 360px;
+        height: 600px;
+        margin: 0;
+        overflow: hidden;
+        background: #111;
+      }
+      #__plasmo {
+        width: 100%;
+        height: 100%;
+      }
+      .fr-bskel {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        background: #111;
+        overflow: hidden;
+      }
+      .fr-bskel * {
+        box-sizing: border-box;
+      }
+      .fr-bskel-row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .fr-bskel-grow {
+        flex: 1;
+      }
+      .fr-bskel-b {
+        background: #1e2126;
+        border-radius: 8px;
+        animation: fr-bskel-pulse 1.2s ease-in-out infinite;
+      }
+      .fr-bskel-avatar {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        flex: none;
+      }
+      .fr-bskel-title {
+        width: 96px;
+        height: 14px;
+      }
+      .fr-bskel-pill {
+        width: 64px;
+        height: 24px;
+        border-radius: 12px;
+      }
+      .fr-bskel-balance {
+        width: 150px;
+        height: 32px;
+        margin-top: 8px;
+      }
+      .fr-bskel-sub {
+        width: 210px;
+        height: 12px;
+      }
+      .fr-bskel-btnrow {
+        margin-top: 8px;
+      }
+      .fr-bskel-btn {
+        flex: 1;
+        height: 36px;
+      }
+      .fr-bskel-wallets {
+        margin-top: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+      }
+      .fr-bskel-line-lg {
+        width: 110px;
+        height: 12px;
+      }
+      .fr-bskel-line-sm {
+        width: 70px;
+        height: 10px;
+        margin-top: 6px;
+      }
+      .fr-bskel-amount {
+        width: 64px;
+        height: 12px;
+        margin-left: auto;
+      }
+      @keyframes fr-bskel-pulse {
+        0%,
+        100% {
+          opacity: 0.5;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/chunks/popup-0cs7aXA1.js"></script>
+    <link rel="modulepreload" crossorigin href="/chunks/messaging-C6wP78Y3.js">
+    <link rel="modulepreload" crossorigin href="/chunks/utils-De7E53Fk.js">
+    <link rel="modulepreload" crossorigin href="/chunks/isAddress-CAIuZsVV.js">
+    <link rel="modulepreload" crossorigin href="/chunks/translation-BSPM9k4L.js">
+    <link rel="modulepreload" crossorigin href="/chunks/react-dom-BOpDppl6.js">
+    <link rel="modulepreload" crossorigin href="/chunks/TailwindStyle-DbkGkrpI.js">
+    <link rel="modulepreload" crossorigin href="/chunks/_frontrun-plasmo-react-svg_L2hvbWUvcnVubmVyL3dvcmsvY29waWxvdC9jb3BpbG90L2FwcHMvZXh0ZW5zaW9uL2Fzc2V0cy90cmFkaW5nL3NvbGFuYS1ncmV5LnN2Zw-CbhqWx9Z.js">
+    <link rel="modulepreload" crossorigin href="/chunks/classnames-0RBTAKmY.js">
+    <link rel="modulepreload" crossorigin href="/chunks/link-pVHo_q47.js">
+    <link rel="modulepreload" crossorigin href="/chunks/AmplitudeProvider-D5ba17-Z.js">
+    <link rel="modulepreload" crossorigin href="/chunks/amplitude-BNsQLg6l.js">
+    <link rel="modulepreload" crossorigin href="/chunks/dist-CtUIx0Ok.js">
+    <link rel="modulepreload" crossorigin href="/chunks/sha2-CUtEXGH-.js">
+    <link rel="modulepreload" crossorigin href="/chunks/sidepanel-C9zY96Vi.js">
+    <link rel="modulepreload" crossorigin href="/chunks/unit-BK8Tfg52.js">
+    <link rel="modulepreload" crossorigin href="/chunks/shared-Bg290RJk.js">
+    <link rel="modulepreload" crossorigin href="/chunks/bridge-chain-icons-Smksu1BX.js">
+    <link rel="modulepreload" crossorigin href="/chunks/hybrid-HqCfPAii.js">
+    <link rel="modulepreload" crossorigin href="/chunks/localBatchGatewayRequest-CoirHSPP.js">
+    <link rel="modulepreload" crossorigin href="/chunks/secp256k1-C7TDK2sy.js">
+    <link rel="modulepreload" crossorigin href="/chunks/bsc-BbDDJBBH.js">
+    <link rel="modulepreload" crossorigin href="/chunks/Password-Cy3r9aSG.js">
+    <link rel="stylesheet" crossorigin href="/assets/sidepanel-DObthe1q.css">
+    <link rel="stylesheet" crossorigin href="/assets/popup-CGaU6NCx.css">
+  </head>
+  <body>
+    <div id="__plasmo">
+      <div class="fr-bskel" aria-hidden="true">
+        <div class="fr-bskel-row">
+          <div class="fr-bskel-b fr-bskel-avatar"></div>
+          <div class="fr-bskel-b fr-bskel-title"></div>
+          <div class="fr-bskel-grow"></div>
+          <div class="fr-bskel-b fr-bskel-pill"></div>
+        </div>
+        <div class="fr-bskel-b fr-bskel-balance"></div>
+        <div class="fr-bskel-b fr-bskel-sub"></div>
+        <div class="fr-bskel-row fr-bskel-btnrow">
+          <div class="fr-bskel-b fr-bskel-btn"></div>
+          <div class="fr-bskel-b fr-bskel-btn"></div>
+          <div class="fr-bskel-b fr-bskel-btn"></div>
+        </div>
+        <div class="fr-bskel-wallets">
+          <div class="fr-bskel-row">
+            <div class="fr-bskel-b fr-bskel-avatar"></div>
+            <div>
+              <div class="fr-bskel-b fr-bskel-line-lg"></div>
+              <div class="fr-bskel-b fr-bskel-line-sm"></div>
+            </div>
+            <div class="fr-bskel-b fr-bskel-amount"></div>
+          </div>
+          <div class="fr-bskel-row">
+            <div class="fr-bskel-b fr-bskel-avatar"></div>
+            <div>
+              <div class="fr-bskel-b fr-bskel-line-lg"></div>
+              <div class="fr-bskel-b fr-bskel-line-sm"></div>
+            </div>
+            <div class="fr-bskel-b fr-bskel-amount"></div>
+          </div>
+          <div class="fr-bskel-row">
+            <div class="fr-bskel-b fr-bskel-avatar"></div>
+            <div>
+              <div class="fr-bskel-b fr-bskel-line-lg"></div>
+              <div class="fr-bskel-b fr-bskel-line-sm"></div>
+            </div>
+            <div class="fr-bskel-b fr-bskel-amount"></div>
+          </div>
+          <div class="fr-bskel-row">
+            <div class="fr-bskel-b fr-bskel-avatar"></div>
+            <div>
+              <div class="fr-bskel-b fr-bskel-line-lg"></div>
+              <div class="fr-bskel-b fr-bskel-line-sm"></div>
+            </div>
+            <div class="fr-bskel-b fr-bskel-amount"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

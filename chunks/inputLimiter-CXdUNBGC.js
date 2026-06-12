@@ -1,0 +1,1 @@
+var e=(e,t,n=33)=>{let r=e.target.value;r.length<=n&&t(r)};export{e as t};

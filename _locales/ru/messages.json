@@ -1,4 +1,7 @@
 {
+  "credit_limit_reached_toast": {
+    "message": "Достигнут лимит вашего тарифа. Повысьте тариф или дождитесь сброса."
+  },
   "coin_communities": {
     "message": "Коин-сообщества"
   },
@@ -1274,6 +1277,12 @@
   "open_panel_hotkey_desc": {
     "message": "Модификатор + I на странице токена переключает панель Instant Trade"
   },
+  "wallet_quick_select": {
+    "message": "Быстрый выбор кошельков клавишей"
+  },
+  "wallet_quick_select_desc": {
+    "message": "Модификатор + 1-9 переключает кошелёк по его позиции в списке"
+  },
   "recently_logged_in_as": {
     "message": "Вход как"
   },
@@ -1615,6 +1624,9 @@
   },
   "verify_with_google": {
     "message": "Подтвердить через Google"
+  },
+  "verify_with_email": {
+    "message": "Подтвердить по почте"
   },
   "from": {
     "message": "От"
@@ -2279,6 +2291,18 @@
   "trade_failed": {
     "message": "Сделка не выполнена"
   },
+  "base_swap_no_route": {
+    "message": "Нет маршрута для токена (мало ликвидности или новый пул)."
+  },
+  "base_swap_out_of_gas": {
+    "message": "Не хватило газа на своп — попробуйте снова."
+  },
+  "base_swap_network_rejected": {
+    "message": "Сеть отклонила транзакцию — попробуйте снова."
+  },
+  "base_swap_reverted": {
+    "message": "Своп откатан в сети — токен пока нельзя торговать. Повторите или повысьте слиппедж."
+  },
   "transactions_failed": {
     "message": "транзакций не выполнено"
   },
@@ -2563,6 +2587,12 @@
   },
   "twitter_username_history_inline_tip": {
     "message": "Показывать прежние имена под именем профиля"
+  },
+  "twitter_hover_card_details": {
+    "message": "Детали в карточке"
+  },
+  "twitter_hover_card_details_tip": {
+    "message": "Smart Followers, история CA и смена имени в карточках профиля X"
   },
   "inline_pnl": {
     "message": "PNL-бейджи в постах"
@@ -2929,6 +2959,9 @@
   },
   "sell_order": {
     "message": "Продажа"
+  },
+  "sell_live_balance_is_on": {
+    "message": "Продажа % от баланса включена"
   },
   "cancel_order": {
     "message": "Отменить"
@@ -4286,6 +4319,9 @@
   "please_select_at_least_one_asset": {
     "message": "Выберите хотя бы один актив"
   },
+  "multi_asset_send_not_supported_on_chain": {
+    "message": "Отправка нескольких активов сразу не поддерживается в этой сети — отправляйте по одному"
+  },
   "addresses": {
     "message": "Адреса"
   },
@@ -4907,6 +4943,9 @@
   "auto_sort_wallets_by_balance_desc": {
     "message": "Вкл. — по балансу SOL/BNB. Выкл. — перетащите, чтобы задать порядок"
   },
+  "auto_sort_disabled_quick_select": {
+    "message": "Недоступно при включённом быстром выборе кошельков (Space+N) — он использует фиксированный порядок"
+  },
   "split_sell_amount_across_wallets": {
     "message": "Делить сумму продажи поровну"
   },
@@ -4979,6 +5018,12 @@
   "show_wallet_groups_on_axiom_pulse_desc": {
     "message": "Группы кошельков на Axiom Pulse"
   },
+  "usol_setting_title": {
+    "message": "Включить uSOL"
+  },
+  "usol_setting_desc": {
+    "message": "Добавляет uSOL: торговля в USDC с настройками в SOL."
+  },
   "show_axiom_favorite_coins": {
     "message": "Избранные монеты на Axiom Pulse"
   },
@@ -4999,6 +5044,12 @@
   },
   "show_chart_order_lines_desc": {
     "message": "Показывать на графике линии ордеров и автоторговли"
+  },
+  "sell_limit_order_track_live_position": {
+    "message": "Продажа % от баланса"
+  },
+  "sell_limit_order_track_live_position_desc": {
+    "message": "Лимитные ордера и автоторговля исполняются как указанный % от текущего баланса"
   },
   "autotrade_not_supported_usdc": {
     "message": "Автоторговля недоступна в USDC"
@@ -6069,10 +6120,22 @@
     "message": "Сумма"
   },
   "ton_bridge_amount_input_label": {
-    "message": "Отправить"
+    "message": "Откуда"
   },
   "ton_bridge_amount_receive_label": {
-    "message": "Получить"
+    "message": "Куда"
+  },
+  "ton_bridge_header_indicator_label": {
+    "message": "Статус конвертации"
+  },
+  "ton_bridge_progress_title": {
+    "message": "Конвертация выполняется"
+  },
+  "ton_bridge_step_sending_to_wallet": {
+    "message": "Отправка {symbol} в кошелёк"
+  },
+  "ton_bridge_landed_toast_view_details": {
+    "message": "Подробнее"
   },
   "ton_bridge_amount_min_max": {
     "message": "Мин {min} SOL — Макс {max} SOL"
@@ -6107,6 +6170,84 @@
   "ton_bridge_send_in_progress": {
     "message": "Отправка…"
   },
+  "ton_bridge_convert_title": {
+    "message": "Обмен"
+  },
+  "ton_bridge_convert_cta": {
+    "message": "Обменять"
+  },
+  "ton_bridge_unsupported_pair": {
+    "message": "Направление пока не поддерживается — источник должен быть Solana."
+  },
+  "ton_bridge_balance_label": {
+    "message": "Баланс: {balance}"
+  },
+  "ton_bridge_balance_empty": {
+    "message": "Баланс: --"
+  },
+  "ton_bridge_select_wallet": {
+    "message": "Выбрать кошелёк"
+  },
+  "ton_bridge_select_source_wallet": {
+    "message": "Кошелёк-источник"
+  },
+  "ton_bridge_select_destination_wallet": {
+    "message": "Кошелёк-получатель"
+  },
+  "ton_bridge_floating_rate_label": {
+    "message": "Плавающий курс"
+  },
+  "ton_bridge_floating_rate_hint": {
+    "message": "Лучший курс при доставке — сумма может измениться."
+  },
+  "ton_bridge_estimated_time_label": {
+    "message": "Время"
+  },
+  "ton_bridge_banner_title": {
+    "message": "Обмен {from} → {to}"
+  },
+  "ton_bridge_detail_success_title": {
+    "message": "Обмен выполнен"
+  },
+  "ton_bridge_detail_failed_title": {
+    "message": "Обмен не удался"
+  },
+  "ton_bridge_detail_order": {
+    "message": "Ордер"
+  },
+  "ton_bridge_detail_landed": {
+    "message": "{amount} {symbol} получено"
+  },
+  "ton_bridge_detail_rate": {
+    "message": "Курс"
+  },
+  "ton_bridge_detail_gas": {
+    "message": "Комиссия"
+  },
+  "ton_bridge_detail_total_time": {
+    "message": "Всего времени"
+  },
+  "ton_bridge_seconds": {
+    "message": "{n} с"
+  },
+  "ton_bridge_detail_view_tx": {
+    "message": "Транзакция"
+  },
+  "ton_bridge_detail_view_wallet": {
+    "message": "Открыть кошелёк"
+  },
+  "ton_bridge_detail_failed_step": {
+    "message": "Сбой на этапе обмена."
+  },
+  "ton_bridge_detail_failed_reason": {
+    "message": "Средства возвращены на {addr}."
+  },
+  "ton_bridge_detail_close": {
+    "message": "Закрыть"
+  },
+  "ton_bridge_detail_retry": {
+    "message": "Повторить"
+  },
   "ton_bridge_back_aria": {
     "message": "Назад"
   },
@@ -6135,7 +6276,16 @@
     "message": "Максимум"
   },
   "ton_bridge_reserve_buffer": {
-    "message": "Оставьте ~0.005 SOL про запас."
+    "message": "Оставьте немного на комиссию сети."
+  },
+  "ton_bridge_insufficient_funds": {
+    "message": "Недостаточно средств"
+  },
+  "ton_bridge_need_source_wallet": {
+    "message": "Нет кошелька для отправки — пополните его в кошельках"
+  },
+  "ton_bridge_need_destination_wallet": {
+    "message": "Нет кошелька для получения — создайте его в кошельках"
   },
   "ton_bridge_balance_changed": {
     "message": "Баланс изменился. Скорректируйте сумму."
@@ -6237,7 +6387,10 @@
     "message": "Сбой. Повторите."
   },
   "ton_bridge_error_broadcast": {
-    "message": "Не удалось отправить SOL."
+    "message": "Не удалось отправить транзакцию. Повторите попытку."
+  },
+  "ton_bridge_error_relogin": {
+    "message": "Сессия истекла — войдите снова и повторите."
   },
   "ton_bridge_powered_by_changenow": {
     "message": "При поддержке ChangeNow"
@@ -6438,7 +6591,7 @@
     "message": "Нет общих папок"
   },
   "label_visibility_shared_label_preview": {
-    "message": "общая метка"
+    "message": "Общая"
   },
   "label_visibility_all_hidden_warning": {
     "message": "Все типы меток скрыты. В строках кошельков не будут показаны метки. Включите хотя бы один тип, чтобы восстановить."
@@ -6475,6 +6628,96 @@
   },
   "context_invalidated_toast_confirm": {
     "message": "Обновить"
+  },
+  "continue_with_email": {
+    "message": "Продолжить с Email"
+  },
+  "email_login_title": {
+    "message": "Вход по почте"
+  },
+  "email_login_subtitle": {
+    "message": "Мы вышлем одноразовый код. Пароль не нужен."
+  },
+  "email_login_input_placeholder": {
+    "message": "you@example.com"
+  },
+  "email_login_send_code": {
+    "message": "Отправить код"
+  },
+  "email_login_code_title": {
+    "message": "Введите код"
+  },
+  "email_login_code_subtitle": {
+    "message": "Код отправлен на {email}. Проверьте почту."
+  },
+  "email_login_code_placeholder": {
+    "message": "Введите код"
+  },
+  "email_login_verify": {
+    "message": "Подтвердить"
+  },
+  "email_login_resend": {
+    "message": "Отправить ещё раз"
+  },
+  "email_login_resend_in": {
+    "message": "Повтор через {seconds} с"
+  },
+  "email_login_back": {
+    "message": "Назад"
+  },
+  "email_login_error_invalid_email": {
+    "message": "Введите корректный адрес почты."
+  },
+  "email_login_error_disposable": {
+    "message": "Используйте постоянный адрес почты."
+  },
+  "email_login_error_rate_limited": {
+    "message": "Слишком много попыток. Повторите позже."
+  },
+  "email_login_error_code_required": {
+    "message": "Введите код."
+  },
+  "email_login_error_code_invalid": {
+    "message": "Неверный или просроченный код. Повторите."
+  },
+  "email_login_error_generic": {
+    "message": "Не удалось отправить код. Повторите."
+  },
+  "email_login_error_otp_locked": {
+    "message": "Слишком много попыток. Запросите новый код."
+  },
+  "email_login_error_session_expired": {
+    "message": "Код истёк. Запросите новый."
+  },
+  "email_login_error_retry": {
+    "message": "Что-то пошло не так. Повторите."
+  },
+  "social_binding_title": {
+    "message": "Ещё один шаг"
+  },
+  "social_binding_description": {
+    "message": "Привяжите Telegram или X, чтобы завершить. Достаточно одного."
+  },
+  "social_binding_link_telegram": {
+    "message": "Привязать Telegram"
+  },
+  "social_binding_link_twitter": {
+    "message": "Привязать X / Twitter"
+  },
+  "social_binding_finalizing": {
+    "message": "Завершаем…"
+  },
+  "social_binding_use_another": {
+    "message": "Другой аккаунт"
+  },
+  "social_binding_already_claimed": {
+    "message": "Аккаунт уже привязан к другому пользователю. Выберите другой."
+  },
+  "social_binding_cancelled": {
+    "message": "Привязка отменена. Повторите."
+  },
+  "social_binding_finalize_failed": {
+    "message": "Не удалось войти. Привяжите ещё раз."
   },
   "archive_wallet_action": {
     "message": "Архив"
