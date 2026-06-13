@@ -1094,12 +1094,6 @@
   "deposit": {
     "message": "Депозит"
   },
-  "empty_wallets_cta_title": {
-    "message": "Пополните кошельки"
-  },
-  "empty_wallets_cta_description": {
-    "message": "Торгуйте на тех же терминалах с быстрым исполнением и кешбэком до 10x."
-  },
   "get_started_trading_title": {
     "message": "Начать торговлю"
   },
@@ -1111,9 +1105,6 @@
   },
   "create_wallet_label": {
     "message": "Создать"
-  },
-  "empty_wallets_cta_learn_more": {
-    "message": "Подробнее"
   },
   "withdraw": {
     "message": "Вывод"

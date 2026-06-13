@@ -1058,12 +1058,6 @@
   "deposit": {
     "message": "Deposit"
   },
-  "empty_wallets_cta_title": {
-    "message": "Fund Your Wallets"
-  },
-  "empty_wallets_cta_description": {
-    "message": "Trade on the same terminals with faster fills and up to 10x higher cashback."
-  },
   "get_started_trading_title": {
     "message": "Get Started with Trading"
   },
@@ -1075,9 +1069,6 @@
   },
   "create_wallet_label": {
     "message": "Create Wallet"
-  },
-  "empty_wallets_cta_learn_more": {
-    "message": "Learn more"
   },
   "withdraw": {
     "message": "Withdraw"

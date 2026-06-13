@@ -1052,12 +1052,6 @@
   "deposit": {
     "message": "存款"
   },
-  "empty_wallets_cta_title": {
-    "message": "为钱包充值"
-  },
-  "empty_wallets_cta_description": {
-    "message": "在同一终端交易，享受更快成交和高达 10 倍返现。"
-  },
   "get_started_trading_title": {
     "message": "开始交易"
   },
@@ -1069,9 +1063,6 @@
   },
   "create_wallet_label": {
     "message": "创建钱包"
-  },
-  "empty_wallets_cta_learn_more": {
-    "message": "了解更多"
   },
   "withdraw": {
     "message": "提款"
