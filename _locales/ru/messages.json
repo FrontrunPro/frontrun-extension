@@ -1139,6 +1139,12 @@
   "search_placeholder": {
     "message": "Поиск по метке, адресу, ключевому слову или имени"
   },
+  "search_local_only_hint": {
+    "message": "Только ваши метки — продолжайте ввод"
+  },
+  "search_backend_quota_reached": {
+    "message": "Дневной лимит поиска исчерпан — показаны ваши метки"
+  },
   "import_from_gmgn": {
     "message": "Импорт из GMGN"
   },

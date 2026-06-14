@@ -1097,6 +1097,12 @@
   "search_placeholder": {
     "message": "按标签、地址、关键词或名称搜索"
   },
+  "search_local_only_hint": {
+    "message": "仅显示你的标签 —— 继续输入以获取更多结果"
+  },
+  "search_backend_quota_reached": {
+    "message": "已达每日搜索上限 —— 仅显示你已保存的标签"
+  },
   "import_from_gmgn": {
     "message": "从 GMGN 导入"
   },

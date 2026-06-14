@@ -1103,6 +1103,12 @@
   "search_placeholder": {
     "message": "Search by label, address, keyword, or name"
   },
+  "search_local_only_hint": {
+    "message": "Showing your labels only — keep typing for more results"
+  },
+  "search_backend_quota_reached": {
+    "message": "Daily search limit reached — showing your saved labels"
+  },
   "import_from_gmgn": {
     "message": "Import from GMGN"
   },
