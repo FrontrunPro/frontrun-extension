@@ -101,6 +101,12 @@
   "disable_quickbuy_on_trenches_desc": {
     "message": "在 Axiom Pulse、GMGN Trenches 和 Padre Trenches 禁用 QuickBuy 切换栏。"
   },
+  "default_tab_on_open": {
+    "message": "打开时的默认标签页"
+  },
+  "default_tab_on_open_desc": {
+    "message": "选择打开 Frontrun 时默认进入的标签页。"
+  },
   "badge_on_x": {
     "message": "X 上的 Frontrun 徽章"
   },
@@ -2140,6 +2146,9 @@
   },
   "token_balance_not_enough": {
     "message": "余额不足"
+  },
+  "sell_amount_below_minimum": {
+    "message": "剩余代币余额过小，无法卖出"
   },
   "token_balance_less_than_amount": {
     "message": "余额为{tokenBalance}，少于{amount}"

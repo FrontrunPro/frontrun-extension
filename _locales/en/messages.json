@@ -104,6 +104,12 @@
   "disable_quickbuy_on_trenches_desc": {
     "message": "Disable the QuickBuy toggle on Axiom Pulse, GMGN Trenches, and Padre Trenches."
   },
+  "default_tab_on_open": {
+    "message": "Default tab on open"
+  },
+  "default_tab_on_open_desc": {
+    "message": "Choose which tab opens when you open Frontrun."
+  },
   "badge_on_x": {
     "message": "Frontrun Badge on X"
   },
@@ -2149,6 +2155,9 @@
   },
   "token_balance_not_enough": {
     "message": "Balance is not enough"
+  },
+  "sell_amount_below_minimum": {
+    "message": "Remaining token balance is too small to sell"
   },
   "token_balance_less_than_amount": {
     "message": "Balance is {tokenBalance}, less than {amount}"
