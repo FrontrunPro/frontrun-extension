@@ -60,7 +60,7 @@
     "message": "Upgrade to Premium"
   },
   "premium_upgrade_cta_body": {
-    "message": "Upgrade to unlock earlier trending signals, label exports, higher rate limits, and more."
+    "message": "Upgrade to unlock earlier trending signals, label exports, higher rate limits, and more"
   },
   "premium_features_title": {
     "message": "Premium Member features"
@@ -90,7 +90,7 @@
     "message": "Trading"
   },
   "trading_toggle_desc": {
-    "message": "Master switch for Buy/Sell on Axiom, GMGN, Padre, and every other platform. Turn off to disable trading everywhere."
+    "message": "Master switch for Buy/Sell on Axiom, GMGN, Padre, and every other platform. Turn off to disable trading everywhere"
   },
   "hide_powered_by_on_twitter": {
     "message": "Hide Frontrun Watermark"
@@ -102,19 +102,19 @@
     "message": "Disable QuickBuy Toggle on Trenches Pages"
   },
   "disable_quickbuy_on_trenches_desc": {
-    "message": "Disable the QuickBuy toggle on Axiom Pulse, GMGN Trenches, and Padre Trenches."
+    "message": "Disable the QuickBuy toggle on Axiom Pulse, GMGN Trenches, and Padre Trenches"
   },
   "default_tab_on_open": {
-    "message": "Default tab on open"
+    "message": "Default Tab on Open"
   },
   "default_tab_on_open_desc": {
-    "message": "Choose which tab opens when you open Frontrun."
+    "message": "Choose which tab opens when you open Frontrun"
   },
   "badge_on_x": {
     "message": "Frontrun Badge on X"
   },
   "badge_on_x_desc": {
-    "message": "Show your Gold Frontrun badge next to your handle on X. Visible to other Frontrun users."
+    "message": "Show your Gold Frontrun badge next to your handle on X. Visible to other Frontrun users"
   },
   "badge_tooltip_team": {
     "message": "Official Frontrun team account"
@@ -159,7 +159,7 @@
     "message": "Show Changelog on Update"
   },
   "show_changelog_on_update_tip": {
-    "message": "Automatically open the changelog when the extension updates."
+    "message": "Automatically open the changelog when the extension updates"
   },
   "click_to_see_updates": {
     "message": "👈 Click here to see updates"
@@ -2933,6 +2933,15 @@
   "sell_live_balance_is_on": {
     "message": "Sell % of live balance is on"
   },
+  "limit_buy_total_split_setting": {
+    "message": "Apply Total Split on Limit Buy"
+  },
+  "limit_buy_total_split_setting_desc": {
+    "message": "Split the buy amount across active wallets when placing limit buy orders"
+  },
+  "limit_buy_split_share_too_low": {
+    "message": "Each split order must be at least $1. Increase the amount or select fewer wallets."
+  },
   "cancel_order": {
     "message": "Cancel Order"
   },
@@ -4116,7 +4125,7 @@
     "message": "Mini Trading Panel"
   },
   "compact_trading_panel_desc": {
-    "message": "Shrink the trading panel to a smaller size."
+    "message": "Shrink the trading panel to a smaller size"
   },
   "reset_pnl": {
     "message": "Reset PNL"
@@ -4134,7 +4143,7 @@
     "message": "Show total PNL across all wallets"
   },
   "pnl_show_total_across_wallets_desc": {
-    "message": "Aggregate PNL from every wallet you own on this token."
+    "message": "Aggregate PNL from every wallet you own on this token"
   },
   "pnl_all_wallets_badge": {
     "message": "All wallets"
@@ -4143,7 +4152,7 @@
     "message": "Keep WSOL Account Open"
   },
   "keep_wsol_open_desc": {
-    "message": "Keep your WSOL token account open after trades. Avoids unwrapping WSOL to native SOL each time. Only relevant for traders who use specialized software/bots."
+    "message": "Keep your WSOL token account open after trades. Avoids unwrapping WSOL to native SOL each time. Only relevant for traders who use specialized software/bots"
   },
   "keep_wsol_open_apply_to": {
     "message": "Apply to"
@@ -4161,7 +4170,7 @@
     "message": "Consolidate Token Accounts"
   },
   "consolidate_token_accounts_desc": {
-    "message": "Auto-merge non-ATA token accounts when selling. Supports selling tokens from bots like AKBot, TradeWiz."
+    "message": "Auto-merge non-ATA token accounts when selling. Supports selling tokens from bots like AKBot, TradeWiz"
   },
   "consolidate_token_accounts_button": {
     "message": "Consolidate"
@@ -4740,7 +4749,7 @@
     "message": "AI Generated Wallet Labels"
   },
   "show_ai_wallet_tags_desc": {
-    "message": "We aggregate frequently labeled wallet labels from multiple data sources and use AI to surface up to three high-confidence labels per wallet. Labels may still contain errors, so please DYOR."
+    "message": "We aggregate frequently labeled wallet labels from multiple data sources and use AI to surface up to three high-confidence labels per wallet. Labels may still contain errors, so please DYOR"
   },
   "admin_section": {
     "message": "Admin"
@@ -4979,7 +4988,7 @@
     "message": "Split Sell Amount Evenly across Wallets"
   },
   "split_sell_amount_across_wallets_desc": {
-    "message": "Split your sell amount evenly across selected wallets."
+    "message": "Split your sell amount evenly across selected wallets"
   },
   "split_sell_insufficient_balance": {
     "message": "Not enough token balance in any selected wallet to fulfill the split sell. Lower the amount or select wallets with more holdings."
@@ -5057,13 +5066,13 @@
     "message": "Show Favorite Coins on Axiom Pulse"
   },
   "show_axiom_favorite_coins_desc": {
-    "message": "Show your favorited tokens in a row above Axiom's trending ticker."
+    "message": "Show your favorited tokens in a row above Axiom's trending ticker"
   },
   "favorites_quick_buy_amount": {
     "message": "Favorites Quick Buy Amount"
   },
   "favorites_quick_buy_amount_desc": {
-    "message": "Amount each ⚡ button on a favorite chip buys (SOL on Solana, BNB on BSC)."
+    "message": "Amount each ⚡ button on a favorite chip buys (SOL on Solana, BNB on BSC)"
   },
   "favorite_limit_reached": {
     "message": "You can favorite up to {max} coins per chain."
@@ -5267,7 +5276,7 @@
     "message": "Telegram Share"
   },
   "telegram_share_button_desc": {
-    "message": "Show a share button on trading platforms to quickly share token CA to Telegram groups."
+    "message": "Show a share button on trading platforms to quickly share token CA to Telegram groups"
   },
   "account_suspended_title": {
     "message": "Account Suspended"
@@ -6584,7 +6593,7 @@
     "message": "Trading Presets"
   },
   "trading_presets_subtitle": {
-    "message": "These presets power P1–P3 in the trading panel."
+    "message": "These presets power P1–P3 in the trading panel"
   },
   "buy_amounts": {
     "message": "Buy Amounts"

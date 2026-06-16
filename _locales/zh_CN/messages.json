@@ -57,7 +57,7 @@
     "message": "升级为高级会员"
   },
   "premium_upgrade_cta_body": {
-    "message": "升级解锁更早的热门信号、标签导出、更高请求上限以及更多功能。"
+    "message": "升级解锁更早的热门信号、标签导出、更高请求上限以及更多功能"
   },
   "premium_features_title": {
     "message": "高级会员功能"
@@ -87,7 +87,7 @@
     "message": "交易"
   },
   "trading_toggle_desc": {
-    "message": "Axiom、GMGN、Padre 及其他所有平台的 Buy/Sell 总开关。关闭后将禁用所有平台的交易。"
+    "message": "Axiom、GMGN、Padre 及其他所有平台的 Buy/Sell 总开关。关闭后将禁用所有平台的交易"
   },
   "hide_powered_by_on_twitter": {
     "message": "隐藏 Frontrun 水印"
@@ -99,19 +99,19 @@
     "message": "在 Trenches 页面禁用 QuickBuy"
   },
   "disable_quickbuy_on_trenches_desc": {
-    "message": "在 Axiom Pulse、GMGN Trenches 和 Padre Trenches 禁用 QuickBuy 切换栏。"
+    "message": "在 Axiom Pulse、GMGN Trenches 和 Padre Trenches 禁用 QuickBuy 切换栏"
   },
   "default_tab_on_open": {
     "message": "打开时的默认标签页"
   },
   "default_tab_on_open_desc": {
-    "message": "选择打开 Frontrun 时默认进入的标签页。"
+    "message": "选择打开 Frontrun 时默认进入的标签页"
   },
   "badge_on_x": {
     "message": "X 上的 Frontrun 徽章"
   },
   "badge_on_x_desc": {
-    "message": "在你的 X 个人主页名字旁显示 Gold 级 Frontrun 徽章，其他 Frontrun 用户可见。"
+    "message": "在你的 X 个人主页名字旁显示 Gold 级 Frontrun 徽章，其他 Frontrun 用户可见"
   },
   "badge_tooltip_team": {
     "message": "Frontrun 团队官方账号"
@@ -156,7 +156,7 @@
     "message": "更新时显示更新日志"
   },
   "show_changelog_on_update_tip": {
-    "message": "当扩展有重大更新时，自动打开更新日志页面。"
+    "message": "当扩展有重大更新时，自动打开更新日志页面"
   },
   "click_to_see_updates": {
     "message": "👈 点击查看更新"
@@ -2960,6 +2960,15 @@
   "sell_live_balance_is_on": {
     "message": "已开启:按实时余额%卖出"
   },
+  "limit_buy_total_split_setting": {
+    "message": "对限价买入应用总额平分"
+  },
+  "limit_buy_total_split_setting_desc": {
+    "message": "下限价买单时，将买入总额分配到所有活跃钱包。"
+  },
+  "limit_buy_split_share_too_low": {
+    "message": "拆分后每单至少需 $1。请增加金额或减少钱包数量。"
+  },
   "cancel_order": {
     "message": "取消订单"
   },
@@ -4086,7 +4095,7 @@
     "message": "迷你交易面板"
   },
   "compact_trading_panel_desc": {
-    "message": "将交易面板缩小为更小的尺寸。"
+    "message": "将交易面板缩小为更小的尺寸"
   },
   "reset_pnl": {
     "message": "重置盈亏"
@@ -4104,7 +4113,7 @@
     "message": "显示所有钱包总盈亏"
   },
   "pnl_show_total_across_wallets_desc": {
-    "message": "汇总该代币在你所有钱包中的盈亏。"
+    "message": "汇总该代币在你所有钱包中的盈亏"
   },
   "pnl_all_wallets_badge": {
     "message": "全部钱包"
@@ -4113,7 +4122,7 @@
     "message": "保留 WSOL 账户"
   },
   "keep_wsol_open_desc": {
-    "message": "交易后保留 WSOL 代币账户，不再自动解包为原生 SOL。仅适用于使用专业软件或机器人的交易者。"
+    "message": "交易后保留 WSOL 代币账户，不再自动解包为原生 SOL。仅适用于使用专业软件或机器人的交易者"
   },
   "keep_wsol_open_apply_to": {
     "message": "应用于"
@@ -4131,7 +4140,7 @@
     "message": "合并代币账户"
   },
   "consolidate_token_accounts_desc": {
-    "message": "卖出时自动合并非ATA代币账户。支持从 AKBot、TradeWiz 等机器人卖出代币。"
+    "message": "卖出时自动合并非ATA代币账户。支持从 AKBot、TradeWiz 等机器人卖出代币"
   },
   "consolidate_token_accounts_button": {
     "message": "合并"
@@ -4707,7 +4716,7 @@
     "message": "AI 生成钱包标签"
   },
   "show_ai_wallet_tags_desc": {
-    "message": "我们聚合多个数据源中高频出现的钱包标签，用 AI 为每个钱包筛选出至多三个高置信度标签。标签仍可能有误，请自行核实（DYOR）。"
+    "message": "我们聚合多个数据源中高频出现的钱包标签，用 AI 为每个钱包筛选出至多三个高置信度标签。标签仍可能有误，请自行核实（DYOR）"
   },
   "admin_section": {
     "message": "管理员"
@@ -4941,7 +4950,7 @@
     "message": "各钱包平分对应总额"
   },
   "split_sell_amount_across_wallets_desc": {
-    "message": "卖出金额会在所选钱包之间平均分配。"
+    "message": "卖出金额会在所选钱包之间平均分配"
   },
   "split_sell_insufficient_balance": {
     "message": "所选钱包持仓不足以完成平分卖出。请减小金额或选择持仓更多的钱包。"
@@ -5019,13 +5028,13 @@
     "message": "在 Axiom Pulse 显示收藏代币"
   },
   "show_axiom_favorite_coins_desc": {
-    "message": "在 Axiom 趋势行情栏上方显示你收藏的代币。"
+    "message": "在 Axiom 趋势行情栏上方显示你收藏的代币"
   },
   "favorites_quick_buy_amount": {
     "message": "收藏快捷买入金额"
   },
   "favorites_quick_buy_amount_desc": {
-    "message": "收藏 chip 上 ⚡ 按钮每次买入的金额(Solana 用 SOL,BSC 用 BNB)。"
+    "message": "收藏 chip 上 ⚡ 按钮每次买入的金额(Solana 用 SOL,BSC 用 BNB)"
   },
   "favorite_limit_reached": {
     "message": "每条链最多收藏 {max} 个币种。"
@@ -5229,7 +5238,7 @@
     "message": "Telegram 分享"
   },
   "telegram_share_button_desc": {
-    "message": "在交易平台上显示分享按钮，快速将代币 CA 分享到 Telegram 群组。"
+    "message": "在交易平台上显示分享按钮，快速将代币 CA 分享到 Telegram 群组"
   },
   "account_suspended_title": {
     "message": "账户已暂停"
@@ -6531,7 +6540,7 @@
     "message": "交易预设"
   },
   "trading_presets_subtitle": {
-    "message": "这些预设用于交易面板的 P1–P3。"
+    "message": "这些预设用于交易面板的 P1–P3"
   },
   "buy_amounts": {
     "message": "买入金额"

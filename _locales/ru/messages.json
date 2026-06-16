@@ -87,7 +87,7 @@
     "message": "Обновить план"
   },
   "premium_upgrade_cta_body": {
-    "message": "Перейдите на Premium: тренды раньше, экспорт меток, выше лимиты и не только."
+    "message": "Перейдите на Premium: тренды раньше, экспорт меток, выше лимиты и не только"
   },
   "premium_features_title": {
     "message": "Функции Premium"
@@ -117,7 +117,7 @@
     "message": "Торговля"
   },
   "trading_toggle_desc": {
-    "message": "Общий переключатель Buy/Sell на Axiom, GMGN, Padre и всех остальных платформах."
+    "message": "Общий переключатель Buy/Sell на Axiom, GMGN, Padre и всех остальных платформах"
   },
   "hide_powered_by_on_twitter": {
     "message": "Скрыть водяной знак Frontrun"
@@ -129,19 +129,19 @@
     "message": "Отключить QuickBuy на Trenches"
   },
   "disable_quickbuy_on_trenches_desc": {
-    "message": "Отключить переключатель QuickBuy на Axiom Pulse, GMGN Trenches и Padre Trenches."
+    "message": "Отключить переключатель QuickBuy на Axiom Pulse, GMGN Trenches и Padre Trenches"
   },
   "default_tab_on_open": {
     "message": "Вкладка по умолчанию"
   },
   "default_tab_on_open_desc": {
-    "message": "Выберите, какая вкладка открывается при запуске Frontrun."
+    "message": "Выберите, какая вкладка открывается при запуске Frontrun"
   },
   "badge_on_x": {
     "message": "Значок Frontrun в X"
   },
   "badge_on_x_desc": {
-    "message": "Показывать ваш Gold-значок Frontrun рядом с ником в X. Видно другим пользователям Frontrun."
+    "message": "Показывать ваш Gold-значок Frontrun рядом с ником в X. Видно другим пользователям Frontrun"
   },
   "badge_tooltip_team": {
     "message": "Официальный аккаунт команды Frontrun"
@@ -186,7 +186,7 @@
     "message": "Журнал обновлений"
   },
   "show_changelog_on_update_tip": {
-    "message": "Открывать журнал при крупном обновлении."
+    "message": "Открывать журнал при крупном обновлении"
   },
   "click_to_see_updates": {
     "message": "👈 Нажмите для обновлений"
@@ -2969,6 +2969,15 @@
   "sell_live_balance_is_on": {
     "message": "Продажа % от баланса включена"
   },
+  "limit_buy_total_split_setting": {
+    "message": "Применять деление суммы к лимит-покупкам"
+  },
+  "limit_buy_total_split_setting_desc": {
+    "message": "Делить сумму покупки между активными кошельками в лимит-ордерах."
+  },
+  "limit_buy_split_share_too_low": {
+    "message": "Каждый ордер после деления — минимум $1. Увеличьте сумму или выберите меньше кошельков."
+  },
   "cancel_order": {
     "message": "Отменить"
   },
@@ -4098,7 +4107,7 @@
     "message": "Мини-панель торговли"
   },
   "compact_trading_panel_desc": {
-    "message": "Уменьшить панель торговли."
+    "message": "Уменьшить панель торговли"
   },
   "reset_pnl": {
     "message": "Сброс PNL"
@@ -4116,7 +4125,7 @@
     "message": "Общий PNL по всем кошелькам"
   },
   "pnl_show_total_across_wallets_desc": {
-    "message": "Суммирует PNL по этому токену во всех ваших кошельках."
+    "message": "Суммирует PNL по этому токену во всех ваших кошельках"
   },
   "pnl_all_wallets_badge": {
     "message": "Все кошельки"
@@ -4125,7 +4134,7 @@
     "message": "Сохранять WSOL аккаунт"
   },
   "keep_wsol_open_desc": {
-    "message": "Сохранять токен-аккаунт WSOL после сделок. Избегает конвертации WSOL в SOL каждый раз. Актуально только для трейдеров со специализированным ПО или ботами."
+    "message": "Сохранять токен-аккаунт WSOL после сделок. Избегает конвертации WSOL в SOL каждый раз. Актуально только для трейдеров со специализированным ПО или ботами"
   },
   "keep_wsol_open_apply_to": {
     "message": "Применять к"
@@ -4143,7 +4152,7 @@
     "message": "Объединить токен-аккаунты"
   },
   "consolidate_token_accounts_desc": {
-    "message": "Авто-объединение не-ATA аккаунтов при продаже. Поддержка продажи токенов из ботов AKBot, TradeWiz."
+    "message": "Авто-объединение не-ATA аккаунтов при продаже. Поддержка продажи токенов из ботов AKBot, TradeWiz"
   },
   "consolidate_token_accounts_button": {
     "message": "Объединить"
@@ -4722,7 +4731,7 @@
     "message": "AI-метки кошельков"
   },
   "show_ai_wallet_tags_desc": {
-    "message": "Мы агрегируем часто встречающиеся метки кошельков из разных источников и с помощью ИИ показываем до трёх надёжных меток на кошелёк. Метки могут содержать ошибки — DYOR."
+    "message": "Мы агрегируем часто встречающиеся метки кошельков из разных источников и с помощью ИИ показываем до трёх надёжных меток на кошелёк. Метки могут содержать ошибки — DYOR"
   },
   "admin_section": {
     "message": "Админ"
@@ -4956,7 +4965,7 @@
     "message": "Делить сумму продажи поровну"
   },
   "split_sell_amount_across_wallets_desc": {
-    "message": "Сумма продажи делится поровну между выбранными кошельками."
+    "message": "Сумма продажи делится поровну между выбранными кошельками"
   },
   "split_sell_insufficient_balance": {
     "message": "Недостаточно баланса для разделённой продажи. Уменьшите сумму или выберите кошельки с большим балансом."
@@ -5034,13 +5043,13 @@
     "message": "Избранные монеты на Axiom Pulse"
   },
   "show_axiom_favorite_coins_desc": {
-    "message": "Избранные токены над лентой трендов Axiom."
+    "message": "Избранные токены над лентой трендов Axiom"
   },
   "favorites_quick_buy_amount": {
     "message": "Сумма быстрой покупки"
   },
   "favorites_quick_buy_amount_desc": {
-    "message": "Сколько покупает ⚡ на избранном (SOL для Solana, BNB для BSC)."
+    "message": "Сколько покупает ⚡ на избранном (SOL для Solana, BNB для BSC)"
   },
   "favorite_limit_reached": {
     "message": "Не более {max} монет в избранном на сеть."
@@ -5244,7 +5253,7 @@
     "message": "Поделиться в Telegram"
   },
   "telegram_share_button_desc": {
-    "message": "Кнопка для быстрой отправки CA токена в Telegram-группу."
+    "message": "Кнопка для быстрой отправки CA токена в Telegram-группу"
   },
   "account_suspended_title": {
     "message": "Аккаунт заблокирован"
@@ -6561,7 +6570,7 @@
     "message": "Пресеты"
   },
   "trading_presets_subtitle": {
-    "message": "Пресеты P1–P3 для торговой панели."
+    "message": "Пресеты P1–P3 для торговой панели"
   },
   "buy_amounts": {
     "message": "Суммы покупки"
