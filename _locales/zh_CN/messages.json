@@ -140,6 +140,9 @@
   "trading_settings": {
     "message": "交易设置"
   },
+  "axiom_favorites_settings": {
+    "message": "收藏币设置"
+  },
   "label_settings": {
     "message": "标签设置"
   },
@@ -1754,6 +1757,9 @@
   "share": {
     "message": "分享"
   },
+  "share_group": {
+    "message": "分享分组"
+  },
   "share_pnl": {
     "message": "分享 PnL"
   },
@@ -2296,6 +2302,12 @@
   },
   "no_bio_changes": {
     "message": "没有简介变更"
+  },
+  "bio_under_maintenance": {
+    "message": "维护中"
+  },
+  "bio_under_maintenance_desc": {
+    "message": "该功能暂时不可用，请稍后再试。"
   },
   "refresh": {
     "message": "刷新"
@@ -3857,11 +3869,14 @@
   "trading_panel_tap_up_wallet": {
     "message": "充值您的钱包"
   },
+  "fund_your_wallet": {
+    "message": "为钱包注资"
+  },
   "trading_panel_add_funds_description": {
-    "message": "存入 SOL 以开始交易，节省高达 90% 的费用。"
+    "message": "存入 SOL 以开始交易，获得 90% 现金返还。"
   },
   "trading_panel_add_funds_description_bsc": {
-    "message": "存入 BNB 以开始交易，节省高达 90% 的费用。"
+    "message": "存入 BNB 以开始交易，获得 90% 现金返还。"
   },
   "trading_panel_receive_funds": {
     "message": "接收资金"
@@ -4481,6 +4496,33 @@
   "add_group": {
     "message": "添加分组"
   },
+  "group_type": {
+    "message": "类型"
+  },
+  "group_type_profile_desc": {
+    "message": "X / Twitter 账号"
+  },
+  "group_type_wallet_desc": {
+    "message": "钱包地址"
+  },
+  "group_visibility": {
+    "message": "可见性"
+  },
+  "visibility_private": {
+    "message": "私有"
+  },
+  "visibility_private_desc": {
+    "message": "仅你可见"
+  },
+  "visibility_shared": {
+    "message": "共享"
+  },
+  "visibility_shared_desc": {
+    "message": "邀请他人协作"
+  },
+  "add_twitter_group": {
+    "message": "添加 Twitter 分组"
+  },
   "add_wallet_label": {
     "message": "添加钱包标签"
   },
@@ -4519,6 +4561,12 @@
   },
   "no_personal_groups": {
     "message": "暂无私有分组"
+  },
+  "no_wallet_groups": {
+    "message": "暂无钱包分组"
+  },
+  "no_twitter_groups": {
+    "message": "暂无 Twitter 分组"
   },
   "shared_space_name": {
     "message": "分组名称"
@@ -6613,6 +6661,78 @@
   },
   "context_invalidated_toast_confirm": {
     "message": "立即刷新"
+  },
+  "twitter_group": {
+    "message": "Twitter 分组"
+  },
+  "are_you_sure_you_want_to_remove_this_profile_from_group": {
+    "message": "确定要将该账户从分组中移除吗？"
+  },
+  "success_profiles_removed": {
+    "message": "已移除账户"
+  },
+  "error_profiles_remove": {
+    "message": "移除账户失败"
+  },
+  "please_enter_twitter_handles": {
+    "message": "请输入 Twitter 用户名"
+  },
+  "no_valid_twitter_handles_found": {
+    "message": "未找到有效的 Twitter 用户名"
+  },
+  "successfully_added_profiles_to_group": {
+    "message": "已成功将账户添加到分组"
+  },
+  "failed_to_add_profiles_to_groups": {
+    "message": "添加账户到分组失败"
+  },
+  "added_profiles_with_skipped": {
+    "message": "已添加账户。{skipped} 个账户被跳过——请先给它们打标签再重新添加。"
+  },
+  "error_load_more_members": {
+    "message": "加载更多成员失败"
+  },
+  "failed_to_add_profiles_to_group": {
+    "message": "添加账户到分组失败"
+  },
+  "enter_multiple_twitter_handles": {
+    "message": "输入多个 Twitter 用户名"
+  },
+  "enter_twitter_handles_one_per_line": {
+    "message": "每行输入一个 Twitter 用户名。"
+  },
+  "twitter_handle_placeholder": {
+    "message": "@用户名"
+  },
+  "twitter_handle_format_placeholder": {
+    "message": "@用户名:标签"
+  },
+  "add_profiles": {
+    "message": "添加账户"
+  },
+  "add_from_saved_labels": {
+    "message": "从已保存的标签添加"
+  },
+  "search_saved_labels": {
+    "message": "搜索你的标签"
+  },
+  "no_saved_labels_found": {
+    "message": "未找到已保存的标签"
+  },
+  "load_more": {
+    "message": "加载更多"
+  },
+  "n_selected": {
+    "message": "已选 {count} 个"
+  },
+  "shared_import_twitter_source": {
+    "message": "Twitter 导入来源"
+  },
+  "shared_import_all_twitter_labels": {
+    "message": "全部 Twitter 标签"
+  },
+  "shared_import_twitter_source_desc": {
+    "message": "选择一个 Twitter 分组以导入其标签，或导入全部 Twitter 标签。"
   },
   "continue_with_email": {
     "message": "使用邮箱登录"

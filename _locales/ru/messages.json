@@ -170,6 +170,9 @@
   "trading_settings": {
     "message": "Торговля"
   },
+  "axiom_favorites_settings": {
+    "message": "Настроить избранное"
+  },
   "label_settings": {
     "message": "Метки"
   },
@@ -1769,6 +1772,9 @@
   "share": {
     "message": "Поделиться"
   },
+  "share_group": {
+    "message": "Поделиться"
+  },
   "share_pnl": {
     "message": "Share PnL"
   },
@@ -2353,6 +2359,12 @@
   },
   "no_bio_changes": {
     "message": "Без изменений в биографии"
+  },
+  "bio_under_maintenance": {
+    "message": "На обслуживании"
+  },
+  "bio_under_maintenance_desc": {
+    "message": "Функция временно недоступна, загляните позже."
   },
   "refresh": {
     "message": "Обновить"
@@ -3866,11 +3878,14 @@
   "trading_panel_tap_up_wallet": {
     "message": "Пополните кошелёк"
   },
+  "fund_your_wallet": {
+    "message": "Пополните кошелёк"
+  },
   "trading_panel_add_funds_description": {
-    "message": "Пополните SOL, чтобы начать торговать и сэкономить до 90% на комиссиях."
+    "message": "Пополните SOL, чтобы начать торговать и получить 90% кешбэка."
   },
   "trading_panel_add_funds_description_bsc": {
-    "message": "Пополните BNB, чтобы начать торговать и сэкономить до 90% на комиссиях."
+    "message": "Пополните BNB, чтобы начать торговать и получить 90% кешбэка."
   },
   "trading_panel_receive_funds": {
     "message": "Получить средства"
@@ -4496,6 +4511,33 @@
   "add_group": {
     "message": "Добавить группу"
   },
+  "group_type": {
+    "message": "Тип"
+  },
+  "group_type_profile_desc": {
+    "message": "Аккаунты X / Twitter"
+  },
+  "group_type_wallet_desc": {
+    "message": "Адреса кошельков"
+  },
+  "group_visibility": {
+    "message": "Видимость"
+  },
+  "visibility_private": {
+    "message": "Личная"
+  },
+  "visibility_private_desc": {
+    "message": "Видно только вам"
+  },
+  "visibility_shared": {
+    "message": "Общая"
+  },
+  "visibility_shared_desc": {
+    "message": "Пригласите других"
+  },
+  "add_twitter_group": {
+    "message": "Twitter-группа"
+  },
   "add_wallet_label": {
     "message": "Добавить метку"
   },
@@ -4534,6 +4576,12 @@
   },
   "no_personal_groups": {
     "message": "Личных групп нет"
+  },
+  "no_wallet_groups": {
+    "message": "Групп кошельков нет"
+  },
+  "no_twitter_groups": {
+    "message": "Групп Twitter нет"
   },
   "shared_space_name": {
     "message": "Название"
@@ -6643,6 +6691,78 @@
   },
   "context_invalidated_toast_confirm": {
     "message": "Обновить"
+  },
+  "twitter_group": {
+    "message": "Twitter-группа"
+  },
+  "are_you_sure_you_want_to_remove_this_profile_from_group": {
+    "message": "Удалить этот профиль из группы?"
+  },
+  "success_profiles_removed": {
+    "message": "Профили удалены"
+  },
+  "error_profiles_remove": {
+    "message": "Не удалось удалить профили"
+  },
+  "please_enter_twitter_handles": {
+    "message": "Введите ники Twitter"
+  },
+  "no_valid_twitter_handles_found": {
+    "message": "Ники Twitter не найдены"
+  },
+  "successfully_added_profiles_to_group": {
+    "message": "Профили добавлены в группу"
+  },
+  "failed_to_add_profiles_to_groups": {
+    "message": "Не удалось добавить профили в группы"
+  },
+  "added_profiles_with_skipped": {
+    "message": "Добавлено. Пропущено: {skipped}. Сначала добавьте им метку."
+  },
+  "error_load_more_members": {
+    "message": "Не удалось загрузить ещё"
+  },
+  "failed_to_add_profiles_to_group": {
+    "message": "Не удалось добавить профили"
+  },
+  "enter_multiple_twitter_handles": {
+    "message": "Введите несколько ников Twitter"
+  },
+  "enter_twitter_handles_one_per_line": {
+    "message": "Введите ники Twitter, по одному в строке."
+  },
+  "twitter_handle_placeholder": {
+    "message": "@username"
+  },
+  "twitter_handle_format_placeholder": {
+    "message": "@username:метка"
+  },
+  "add_profiles": {
+    "message": "Добавить профили"
+  },
+  "add_from_saved_labels": {
+    "message": "Из сохранённых меток"
+  },
+  "search_saved_labels": {
+    "message": "Поиск по меткам"
+  },
+  "no_saved_labels_found": {
+    "message": "Метки не найдены"
+  },
+  "load_more": {
+    "message": "Показать ещё"
+  },
+  "n_selected": {
+    "message": "Выбрано: {count}"
+  },
+  "shared_import_twitter_source": {
+    "message": "Источник Twitter"
+  },
+  "shared_import_all_twitter_labels": {
+    "message": "Все метки Twitter"
+  },
+  "shared_import_twitter_source_desc": {
+    "message": "Выберите Twitter-группу для импорта меток или импортируйте все."
   },
   "continue_with_email": {
     "message": "Продолжить с Email"

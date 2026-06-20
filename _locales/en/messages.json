@@ -143,6 +143,9 @@
   "trading_settings": {
     "message": "Trading Settings"
   },
+  "axiom_favorites_settings": {
+    "message": "Favorite coins settings"
+  },
   "label_settings": {
     "message": "Label Settings"
   },
@@ -1685,6 +1688,9 @@
   "share": {
     "message": "Share"
   },
+  "share_group": {
+    "message": "Share group"
+  },
   "share_pnl": {
     "message": "Share PnL"
   },
@@ -2305,6 +2311,12 @@
   },
   "no_bio_changes": {
     "message": "No bio changes"
+  },
+  "bio_under_maintenance": {
+    "message": "Under Maintenance"
+  },
+  "bio_under_maintenance_desc": {
+    "message": "This feature is temporarily unavailable. Please check back later."
   },
   "refresh": {
     "message": "Refresh"
@@ -3830,11 +3842,14 @@
   "trading_panel_tap_up_wallet": {
     "message": "Top Up Your Wallet"
   },
+  "fund_your_wallet": {
+    "message": "Fund Your Wallet"
+  },
   "trading_panel_add_funds_description": {
-    "message": "Deposit SOL to start trading and save up to 90% in fees."
+    "message": "Deposit SOL to start trading and get 90% cashback."
   },
   "trading_panel_add_funds_description_bsc": {
-    "message": "Deposit BNB to start trading and save up to 90% in fees."
+    "message": "Deposit BNB to start trading and get 90% cashback."
   },
   "trading_panel_receive_funds": {
     "message": "Receive Funds"
@@ -4514,6 +4529,33 @@
   "add_group": {
     "message": "Add Group"
   },
+  "group_type": {
+    "message": "Type"
+  },
+  "group_type_profile_desc": {
+    "message": "X / Twitter accounts"
+  },
+  "group_type_wallet_desc": {
+    "message": "Wallet addresses"
+  },
+  "group_visibility": {
+    "message": "Visibility"
+  },
+  "visibility_private": {
+    "message": "Private"
+  },
+  "visibility_private_desc": {
+    "message": "Only visible to you"
+  },
+  "visibility_shared": {
+    "message": "Shared"
+  },
+  "visibility_shared_desc": {
+    "message": "Invite others to collaborate"
+  },
+  "add_twitter_group": {
+    "message": "Add Twitter Group"
+  },
   "add_wallet_label": {
     "message": "Add Wallet Label"
   },
@@ -4552,6 +4594,12 @@
   },
   "no_personal_groups": {
     "message": "No private groups yet"
+  },
+  "no_wallet_groups": {
+    "message": "No wallet groups yet"
+  },
+  "no_twitter_groups": {
+    "message": "No Twitter groups yet"
   },
   "shared_space_name": {
     "message": "Group Name"
@@ -6666,6 +6714,78 @@
   },
   "context_invalidated_toast_confirm": {
     "message": "Refresh now"
+  },
+  "twitter_group": {
+    "message": "Twitter Group"
+  },
+  "are_you_sure_you_want_to_remove_this_profile_from_group": {
+    "message": "Are you sure you want to remove this profile from the group?"
+  },
+  "success_profiles_removed": {
+    "message": "Profiles removed"
+  },
+  "error_profiles_remove": {
+    "message": "Failed to remove profiles"
+  },
+  "please_enter_twitter_handles": {
+    "message": "Please enter Twitter handles"
+  },
+  "no_valid_twitter_handles_found": {
+    "message": "No valid Twitter handles found"
+  },
+  "successfully_added_profiles_to_group": {
+    "message": "Successfully added profiles to the group"
+  },
+  "failed_to_add_profiles_to_groups": {
+    "message": "Failed to add profiles to groups"
+  },
+  "added_profiles_with_skipped": {
+    "message": "Added profiles. {skipped} handle(s) skipped — label them first, then re-add."
+  },
+  "error_load_more_members": {
+    "message": "Failed to load more members"
+  },
+  "failed_to_add_profiles_to_group": {
+    "message": "Failed to add profiles to the group"
+  },
+  "enter_multiple_twitter_handles": {
+    "message": "Enter Multiple Twitter Handles"
+  },
+  "enter_twitter_handles_one_per_line": {
+    "message": "Enter Twitter handles, one per line."
+  },
+  "twitter_handle_placeholder": {
+    "message": "@username"
+  },
+  "twitter_handle_format_placeholder": {
+    "message": "@username:label"
+  },
+  "add_profiles": {
+    "message": "Add Profiles"
+  },
+  "add_from_saved_labels": {
+    "message": "Add from your saved labels"
+  },
+  "search_saved_labels": {
+    "message": "Search your labels"
+  },
+  "no_saved_labels_found": {
+    "message": "No saved labels found"
+  },
+  "load_more": {
+    "message": "Load more"
+  },
+  "n_selected": {
+    "message": "{count} selected"
+  },
+  "shared_import_twitter_source": {
+    "message": "Twitter import source"
+  },
+  "shared_import_all_twitter_labels": {
+    "message": "All Twitter labels"
+  },
+  "shared_import_twitter_source_desc": {
+    "message": "Choose a Twitter group to import its labels, or import all your Twitter labels."
   },
   "continue_with_email": {
     "message": "Continue with email"
