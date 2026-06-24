@@ -143,6 +143,9 @@
   "badge_on_x_desc": {
     "message": "Показывать ваш Gold-значок Frontrun рядом с ником в X. Видно другим пользователям Frontrun"
   },
+  "badge_connect_x_cta": {
+    "message": "Привязать X"
+  },
   "badge_tooltip_team": {
     "message": "Официальный аккаунт команды Frontrun"
   },
@@ -2306,6 +2309,18 @@
   "base_swap_no_route": {
     "message": "Нет маршрута для токена (мало ликвидности или новый пул)."
   },
+  "base_swap_token_not_ready": {
+    "message": "Токен ещё не торгуется — новым токенам нужно несколько минут для индексации. Повторите позже."
+  },
+  "base_swap_price_impact": {
+    "message": "Слишком большое влияние на цену — ликвидность токена слишком мала."
+  },
+  "pair_info_load_failed": {
+    "message": "Не удалось загрузить данные токена — попробуйте снова."
+  },
+  "positions_refresh_failed": {
+    "message": "Не удалось обновить часть позиций — нажмите обновить."
+  },
   "base_swap_out_of_gas": {
     "message": "Не хватило газа на своп — попробуйте снова."
   },
@@ -2350,6 +2365,12 @@
   },
   "profile_history": {
     "message": "История профиля"
+  },
+  "profile_history_date_full": {
+    "message": "Дата"
+  },
+  "profile_history_date_relative": {
+    "message": "Назад"
   },
   "name_change": {
     "message": "Изменение имени"
@@ -3443,6 +3464,9 @@
   "autotrade_dev_sell_failed_with_reason": {
     "message": "Dev sell → продажа: {count} не удалось создать: {reason}"
   },
+  "autotrade_dev_already_sold": {
+    "message": "Dev Sell не создан — не удалось подтвердить наличие у дева"
+  },
   "autotrade_migrate_sell_created": {
     "message": "Migrate Sell: {count} создано"
   },
@@ -4215,7 +4239,7 @@
     "message": "Звуки"
   },
   "enable_sound": {
-    "message": "Звук"
+    "message": "Звуковые уведомления"
   },
   "sound_volume": {
     "message": "Громкость"
@@ -4296,10 +4320,40 @@
     "message": "Изменения сохранены!"
   },
   "panel_background": {
-    "message": "Фон"
+    "message": "Фон панели"
   },
   "custom_image": {
     "message": "Изображение"
+  },
+  "color": {
+    "message": "Цвет"
+  },
+  "swatch_default": {
+    "message": "Стандарт"
+  },
+  "swatch_dark": {
+    "message": "Тёмный"
+  },
+  "swatch_indigo": {
+    "message": "Индиго"
+  },
+  "swatch_black": {
+    "message": "Чёрный"
+  },
+  "drag_to_move": {
+    "message": "Перетащите"
+  },
+  "reset": {
+    "message": "Сброс"
+  },
+  "image_too_large": {
+    "message": "Файл слишком большой."
+  },
+  "image_unsupported_type": {
+    "message": "Неподдерживаемый тип."
+  },
+  "image_read_failed": {
+    "message": "Не удалось прочитать файл."
   },
   "max_file_size_2mb": {
     "message": "Максимальный размер файла: 2МБ"
@@ -4335,7 +4389,7 @@
     "message": "Не удалось получить/проверить изображение по URL. Проверьте URL и попробуйте снова"
   },
   "preview": {
-    "message": "Предпросмотр"
+    "message": "Превью"
   },
   "background_file_too_large": {
     "message": "Файл слишком большой. Пожалуйста, выберите файл изображения меньше 2МБ"
@@ -4521,7 +4575,7 @@
     "message": "Адреса кошельков"
   },
   "group_visibility": {
-    "message": "Видимость"
+    "message": "Тип доступа"
   },
   "visibility_private": {
     "message": "Личная"
@@ -4635,13 +4689,31 @@
     "message": "Импорт моих меток"
   },
   "shared_import_my_labels_desc": {
-    "message": "Скопировать кошельки и Twitter при создании."
+    "message": "Выберите группу для копирования меток."
   },
   "shared_import_source": {
     "message": "Источник"
   },
   "shared_import_all_labels": {
     "message": "Все метки"
+  },
+  "shared_import_wallet_source": {
+    "message": "Источник меток кошельков"
+  },
+  "shared_import_no_wallet_labels": {
+    "message": "Не импортировать метки кошельков"
+  },
+  "shared_import_all_wallet_labels": {
+    "message": "Все метки кошельков"
+  },
+  "shared_import_from_private_groups": {
+    "message": "Личные группы"
+  },
+  "shared_import_from_shared_spaces": {
+    "message": "Ваши общие группы"
+  },
+  "shared_import_wallet_source_desc": {
+    "message": "Выберите группу кошельков, импортируйте все метки кошельков или пропустите их."
   },
   "shared_import_source_desc": {
     "message": "Выберите группу кошельков, чтобы импортировать только ее метки. Twitter тоже импортируется."
@@ -5852,6 +5924,12 @@
   "first_followers_stat_smart": {
     "message": "Smart"
   },
+  "first_followers_under_maintenance": {
+    "message": "На обслуживании"
+  },
+  "first_followers_under_maintenance_desc": {
+    "message": "Функция временно недоступна, загляните позже."
+  },
   "export_labels": {
     "message": "Экспорт меток"
   },
@@ -6557,6 +6635,12 @@
   "turbo_enable_description": {
     "message": "TURBO одновременно отправляет несколько транзакций через разные релеи — для максимальной скорости в Solana."
   },
+  "turbo_includes_mev": {
+    "message": "Режим TURBO включает защиту от MEV."
+  },
+  "mev_in_turbo_hint": {
+    "message": "Защита от MEV включается автоматически в режиме TURBO"
+  },
   "turbo_enable": {
     "message": "Включить TURBO"
   },
@@ -6693,7 +6777,7 @@
     "message": "Обновить"
   },
   "twitter_group": {
-    "message": "Twitter-группа"
+    "message": "Личная Twitter-группа"
   },
   "are_you_sure_you_want_to_remove_this_profile_from_group": {
     "message": "Удалить этот профиль из группы?"
@@ -6756,13 +6840,34 @@
     "message": "Выбрано: {count}"
   },
   "shared_import_twitter_source": {
-    "message": "Источник Twitter"
+    "message": "Источник меток Twitter"
   },
   "shared_import_all_twitter_labels": {
     "message": "Все метки Twitter"
   },
+  "shared_import_no_twitter_labels": {
+    "message": "Не импортировать метки Twitter"
+  },
   "shared_import_twitter_source_desc": {
-    "message": "Выберите Twitter-группу для импорта меток или импортируйте все."
+    "message": "Выберите Twitter-группу, импортируйте все или пропустите метки Twitter."
+  },
+  "shared_import_source_section": {
+    "message": "Источник импорта"
+  },
+  "shared_import_source_combined_desc": {
+    "message": "Выберите группу или своё общее пространство, импортируйте все метки или пропустите."
+  },
+  "shared_import_none": {
+    "message": "Не импортировать метки"
+  },
+  "shared_import_all_labels": {
+    "message": "Все метки"
+  },
+  "shared_import_wallet_groups": {
+    "message": "Группы кошельков"
+  },
+  "shared_import_profile_groups": {
+    "message": "Группы профилей"
   },
   "continue_with_email": {
     "message": "Продолжить с Email"

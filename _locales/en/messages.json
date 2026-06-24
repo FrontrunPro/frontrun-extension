@@ -116,6 +116,9 @@
   "badge_on_x_desc": {
     "message": "Show your Gold Frontrun badge next to your handle on X. Visible to other Frontrun users"
   },
+  "badge_connect_x_cta": {
+    "message": "Connect X"
+  },
   "badge_tooltip_team": {
     "message": "Official Frontrun team account"
   },
@@ -2258,6 +2261,18 @@
   "base_swap_no_route": {
     "message": "No route available for this token (liquidity too low or pool too new)."
   },
+  "base_swap_token_not_ready": {
+    "message": "Token not tradable yet — newly launched tokens can take a few minutes to be indexed. Try again shortly."
+  },
+  "base_swap_price_impact": {
+    "message": "Price impact too high — this token's liquidity is too thin to trade safely."
+  },
+  "pair_info_load_failed": {
+    "message": "Couldn't load token info — please try again."
+  },
+  "positions_refresh_failed": {
+    "message": "Couldn't refresh some positions — tap refresh to retry."
+  },
   "base_swap_out_of_gas": {
     "message": "Swap ran out of gas — try again."
   },
@@ -2302,6 +2317,12 @@
   },
   "profile_history": {
     "message": "Profile History"
+  },
+  "profile_history_date_full": {
+    "message": "Date"
+  },
+  "profile_history_date_relative": {
+    "message": "Ago"
   },
   "name_change": {
     "message": "Name Change"
@@ -3187,6 +3208,9 @@
   },
   "autotrade_dev_sell_failed_with_reason": {
     "message": "Sell on Dev Sell: {count} failed: {reason}"
+  },
+  "autotrade_dev_already_sold": {
+    "message": "Dev Sell not armed — couldn't confirm the dev still holds this token"
   },
   "autotrade_migrate_sell_created": {
     "message": "Migrate Sell: {count} created"
@@ -4319,6 +4343,36 @@
   "custom_image": {
     "message": "Custom Image"
   },
+  "color": {
+    "message": "Color"
+  },
+  "swatch_default": {
+    "message": "Default"
+  },
+  "swatch_dark": {
+    "message": "Dark"
+  },
+  "swatch_indigo": {
+    "message": "Indigo"
+  },
+  "swatch_black": {
+    "message": "Black"
+  },
+  "drag_to_move": {
+    "message": "Drag to move"
+  },
+  "reset": {
+    "message": "Reset"
+  },
+  "image_too_large": {
+    "message": "File is too large."
+  },
+  "image_unsupported_type": {
+    "message": "Unsupported file type."
+  },
+  "image_read_failed": {
+    "message": "Couldn't read file."
+  },
   "max_file_size_2mb": {
     "message": "Max file size: 2MB"
   },
@@ -4539,7 +4593,7 @@
     "message": "Wallet addresses"
   },
   "group_visibility": {
-    "message": "Visibility"
+    "message": "Access type"
   },
   "visibility_private": {
     "message": "Private"
@@ -4653,13 +4707,31 @@
     "message": "Import my current labels"
   },
   "shared_import_my_labels_desc": {
-    "message": "Copy your wallet and Twitter labels on create so the group is not empty."
+    "message": "Choose a group to copy labels from."
   },
   "shared_import_source": {
     "message": "Import source"
   },
   "shared_import_all_labels": {
     "message": "All my labels"
+  },
+  "shared_import_wallet_source": {
+    "message": "Wallet labels import source"
+  },
+  "shared_import_no_wallet_labels": {
+    "message": "Do not import wallet labels"
+  },
+  "shared_import_all_wallet_labels": {
+    "message": "All wallet labels"
+  },
+  "shared_import_from_private_groups": {
+    "message": "Private groups"
+  },
+  "shared_import_from_shared_spaces": {
+    "message": "Shared groups you own"
+  },
+  "shared_import_wallet_source_desc": {
+    "message": "Choose a wallet group to import its labels, import all wallet labels, or skip wallet labels."
   },
   "shared_import_source_desc": {
     "message": "Choose a wallet group to import only labels for wallets in that group. Twitter labels are imported together."
@@ -5875,6 +5947,12 @@
   "first_followers_stat_smart": {
     "message": "Smart"
   },
+  "first_followers_under_maintenance": {
+    "message": "Under Maintenance"
+  },
+  "first_followers_under_maintenance_desc": {
+    "message": "This feature is temporarily unavailable. Please check back later."
+  },
   "export_labels": {
     "message": "Export Labels"
   },
@@ -6580,6 +6658,12 @@
   "turbo_enable_description": {
     "message": "TURBO Mode races multiple competing transactions across different relays to give you the fastest possible execution on Solana."
   },
+  "turbo_includes_mev": {
+    "message": "TURBO Mode includes MEV protection — your trades route through protected relays."
+  },
+  "mev_in_turbo_hint": {
+    "message": "MEV protection is included automatically when you enable TURBO Mode"
+  },
   "turbo_enable": {
     "message": "Enable TURBO Mode"
   },
@@ -6716,7 +6800,7 @@
     "message": "Refresh now"
   },
   "twitter_group": {
-    "message": "Twitter Group"
+    "message": "Twitter Private Group"
   },
   "are_you_sure_you_want_to_remove_this_profile_from_group": {
     "message": "Are you sure you want to remove this profile from the group?"
@@ -6779,13 +6863,34 @@
     "message": "{count} selected"
   },
   "shared_import_twitter_source": {
-    "message": "Twitter import source"
+    "message": "Twitter labels import source"
   },
   "shared_import_all_twitter_labels": {
     "message": "All Twitter labels"
   },
+  "shared_import_no_twitter_labels": {
+    "message": "Do not import Twitter labels"
+  },
   "shared_import_twitter_source_desc": {
-    "message": "Choose a Twitter group to import its labels, or import all your Twitter labels."
+    "message": "Choose a Twitter group to import its labels, import all your Twitter labels, or skip Twitter labels."
+  },
+  "shared_import_source_section": {
+    "message": "Import source"
+  },
+  "shared_import_source_combined_desc": {
+    "message": "Pick a group or a shared group you own to copy its labels, import all your labels, or skip importing."
+  },
+  "shared_import_none": {
+    "message": "Do not import labels"
+  },
+  "shared_import_all_labels": {
+    "message": "All labels"
+  },
+  "shared_import_wallet_groups": {
+    "message": "Wallet groups"
+  },
+  "shared_import_profile_groups": {
+    "message": "Profile groups"
   },
   "continue_with_email": {
     "message": "Continue with email"

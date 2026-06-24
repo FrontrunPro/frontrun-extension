@@ -113,6 +113,9 @@
   "badge_on_x_desc": {
     "message": "在你的 X 个人主页名字旁显示 Gold 级 Frontrun 徽章，其他 Frontrun 用户可见"
   },
+  "badge_connect_x_cta": {
+    "message": "绑定 X"
+  },
   "badge_tooltip_team": {
     "message": "Frontrun 团队官方账号"
   },
@@ -2249,6 +2252,18 @@
   "base_swap_no_route": {
     "message": "该代币暂无可用路由（流动性过低或交易池过新）。"
   },
+  "base_swap_token_not_ready": {
+    "message": "该代币暂时无法交易——新发行代币需要几分钟被聚合器收录，请稍后重试。"
+  },
+  "base_swap_price_impact": {
+    "message": "价格冲击过高——该代币流动性太薄，无法安全交易。"
+  },
+  "pair_info_load_failed": {
+    "message": "无法加载代币信息，请重试。"
+  },
+  "positions_refresh_failed": {
+    "message": "部分持仓刷新失败，点击刷新重试。"
+  },
   "base_swap_out_of_gas": {
     "message": "兑换 Gas 不足，请重试。"
   },
@@ -2293,6 +2308,12 @@
   },
   "profile_history": {
     "message": "个人资料历史"
+  },
+  "profile_history_date_full": {
+    "message": "日期"
+  },
+  "profile_history_date_relative": {
+    "message": "天前"
   },
   "name_change": {
     "message": "改名"
@@ -3431,6 +3452,9 @@
   "autotrade_dev_sell_failed_with_reason": {
     "message": "Dev 卖出→卖：{count} 失败：{reason}"
   },
+  "autotrade_dev_already_sold": {
+    "message": "Dev Sell 未创建 — 无法确认开发者仍持有该代币"
+  },
   "autotrade_migrate_sell_created": {
     "message": "迁移卖出：{count} 已创建"
   },
@@ -4289,6 +4313,36 @@
   "custom_image": {
     "message": "自定义图片"
   },
+  "color": {
+    "message": "颜色"
+  },
+  "swatch_default": {
+    "message": "默认"
+  },
+  "swatch_dark": {
+    "message": "深色"
+  },
+  "swatch_indigo": {
+    "message": "靛蓝"
+  },
+  "swatch_black": {
+    "message": "黑色"
+  },
+  "drag_to_move": {
+    "message": "拖动移动"
+  },
+  "reset": {
+    "message": "重置"
+  },
+  "image_too_large": {
+    "message": "文件过大。"
+  },
+  "image_unsupported_type": {
+    "message": "不支持的文件类型。"
+  },
+  "image_read_failed": {
+    "message": "无法读取文件。"
+  },
   "max_file_size_2mb": {
     "message": "最大文件大小：2MB"
   },
@@ -4506,7 +4560,7 @@
     "message": "钱包地址"
   },
   "group_visibility": {
-    "message": "可见性"
+    "message": "访问类型"
   },
   "visibility_private": {
     "message": "私有"
@@ -4620,13 +4674,31 @@
     "message": "导入我当前的标签"
   },
   "shared_import_my_labels_desc": {
-    "message": "创建时复制你的钱包和 Twitter 标签，避免新分组一开始是空的。"
+    "message": "选择要从中复制标签的分组。"
   },
   "shared_import_source": {
     "message": "导入来源"
   },
   "shared_import_all_labels": {
     "message": "我的全部标签"
+  },
+  "shared_import_wallet_source": {
+    "message": "钱包标签导入来源"
+  },
+  "shared_import_no_wallet_labels": {
+    "message": "不导入钱包标签"
+  },
+  "shared_import_all_wallet_labels": {
+    "message": "全部钱包标签"
+  },
+  "shared_import_from_private_groups": {
+    "message": "私有分组"
+  },
+  "shared_import_from_shared_spaces": {
+    "message": "你拥有的共享群组"
+  },
+  "shared_import_wallet_source_desc": {
+    "message": "选择一个钱包分组导入其标签，也可以导入全部钱包标签或跳过钱包标签。"
   },
   "shared_import_source_desc": {
     "message": "选择钱包分组后，只导入该分组内钱包对应的标签；Twitter 标签会一起导入。"
@@ -5837,6 +5909,12 @@
   "first_followers_stat_smart": {
     "message": "聪明钱"
   },
+  "first_followers_under_maintenance": {
+    "message": "维护中"
+  },
+  "first_followers_under_maintenance_desc": {
+    "message": "该功能暂时不可用，请稍后再试。"
+  },
   "export_labels": {
     "message": "导出标签"
   },
@@ -6527,6 +6605,12 @@
   "turbo_enable_description": {
     "message": "TURBO 模式通过多条中继通道同时发送竞速交易，为你带来 Solana 上最快的执行速度。"
   },
+  "turbo_includes_mev": {
+    "message": "TURBO 模式已包含 MEV 保护，交易通过受保护的中继通道发送。"
+  },
+  "mev_in_turbo_hint": {
+    "message": "开启 TURBO（极速）模式即自动包含 MEV 保护功能"
+  },
   "turbo_enable": {
     "message": "启用 TURBO 模式"
   },
@@ -6663,7 +6747,7 @@
     "message": "立即刷新"
   },
   "twitter_group": {
-    "message": "Twitter 分组"
+    "message": "推特私有分组"
   },
   "are_you_sure_you_want_to_remove_this_profile_from_group": {
     "message": "确定要将该账户从分组中移除吗？"
@@ -6726,13 +6810,34 @@
     "message": "已选 {count} 个"
   },
   "shared_import_twitter_source": {
-    "message": "Twitter 导入来源"
+    "message": "Twitter 标签导入来源"
   },
   "shared_import_all_twitter_labels": {
     "message": "全部 Twitter 标签"
   },
+  "shared_import_no_twitter_labels": {
+    "message": "不导入 Twitter 标签"
+  },
   "shared_import_twitter_source_desc": {
-    "message": "选择一个 Twitter 分组以导入其标签，或导入全部 Twitter 标签。"
+    "message": "选择一个 Twitter 分组以导入其标签，导入全部 Twitter 标签，或跳过 Twitter 标签。"
+  },
+  "shared_import_source_section": {
+    "message": "导入来源"
+  },
+  "shared_import_source_combined_desc": {
+    "message": "选择一个分组或你拥有的共享群组以复制其标签、导入全部标签，或跳过导入。"
+  },
+  "shared_import_none": {
+    "message": "不导入标签"
+  },
+  "shared_import_all_labels": {
+    "message": "全部标签"
+  },
+  "shared_import_wallet_groups": {
+    "message": "钱包分组"
+  },
+  "shared_import_profile_groups": {
+    "message": "账户分组"
   },
   "continue_with_email": {
     "message": "使用邮箱登录"
