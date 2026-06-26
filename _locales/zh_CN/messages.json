@@ -32,6 +32,9 @@
   "avg_buying_mc": {
     "message": "平均购买市值"
   },
+  "avg_buying_mc_short": {
+    "message": "买入市值"
+  },
   "appearance": {
     "message": "主题"
   },
@@ -538,6 +541,15 @@
   },
   "close": {
     "message": "关闭"
+  },
+  "auto_renew_banner_title": {
+    "message": "自动续订高级版"
+  },
+  "auto_renew_banner_subtext": {
+    "message": "自动续订套餐，随时可关闭。"
+  },
+  "auto_renew_banner_cta": {
+    "message": "开启自动续订"
   },
   "signer": {
     "message": "签署者"
@@ -2713,6 +2725,186 @@
   },
   "plan_usage_daily_resets_in_hours": {
     "message": "{hours} 小时后重置"
+  },
+  "plan_renewal_daily": {
+    "message": "每日"
+  },
+  "plan_renewal_weekly": {
+    "message": "每周"
+  },
+  "plan_renewal_resets_in": {
+    "message": "{time}后重置"
+  },
+  "plan_renewal_off_title": {
+    "message": "自动续订您的套餐"
+  },
+  "plan_renewal_off_subtitle": {
+    "message": "保持高级版有效。可在套餐设置中随时关闭。"
+  },
+  "plan_renewal_auto_renew_on": {
+    "message": "自动续订已开"
+  },
+  "plan_renewal_just_renewed": {
+    "message": "刚刚续订"
+  },
+  "plan_renewal_low_balance_title": {
+    "message": "余额不足，无法续订"
+  },
+  "plan_renewal_failed_title": {
+    "message": "自动续订失败"
+  },
+  "plan_renewal_next": {
+    "message": "下次"
+  },
+  "plan_renewal_next_in": {
+    "message": "{time}后"
+  },
+  "plan_renewal_plan_row": {
+    "message": "套餐"
+  },
+  "plan_renewal_credits_row": {
+    "message": "积分"
+  },
+  "plan_renewal_wallet_row": {
+    "message": "钱包"
+  },
+  "plan_renewal_available_row": {
+    "message": "可用"
+  },
+  "plan_renewal_missing_row": {
+    "message": "缺口"
+  },
+  "plan_renewal_credits_used_row": {
+    "message": "已用积分"
+  },
+  "plan_renewal_remaining_row": {
+    "message": "剩余"
+  },
+  "plan_renewal_grace_period_label": {
+    "message": "剩余宽限期"
+  },
+  "plan_renewal_cover_next_renewal": {
+    "message": "再 {amount} 交易额即可覆盖下次续订"
+  },
+  "plan_renewal_enable_cta_label": {
+    "message": "开启自动续订"
+  },
+  "plan_renewal_enable_cta_save": {
+    "message": "省 {percent}%"
+  },
+  "plan_renewal_manage_cta": {
+    "message": "管理套餐"
+  },
+  "plan_renewal_retry_cta": {
+    "message": "重试"
+  },
+  "plan_renewal_copy_address_cta": {
+    "message": "复制充值地址"
+  },
+  "plan_renewal_address_copied": {
+    "message": "地址已复制"
+  },
+  "enable_auto_renew_title": {
+    "message": "开启自动续订"
+  },
+  "enable_auto_renew_heading": {
+    "message": "自动续订您的 {plan} 套餐"
+  },
+  "enable_auto_renew_bullet_save": {
+    "message": "未来续订可省 {percent}%。"
+  },
+  "enable_auto_renew_bullet_credits": {
+    "message": "优先使用可用积分抵扣续订。"
+  },
+  "enable_auto_renew_bullet_wallet": {
+    "message": "余额从所选钱包扣除。"
+  },
+  "enable_auto_renew_bullet_cancel": {
+    "message": "可随时在套餐设置中关闭自动续订。"
+  },
+  "enable_auto_renew_wallet_label": {
+    "message": "选择备用钱包"
+  },
+  "enable_auto_renew_no_wallet": {
+    "message": "没有有余额的钱包"
+  },
+  "enable_auto_renew_cancel": {
+    "message": "取消"
+  },
+  "enable_auto_renew_confirm": {
+    "message": "确认自动续订"
+  },
+  "confirm_payment_title": {
+    "message": "{plan} 套餐支付"
+  },
+  "confirm_payment_heading": {
+    "message": "支付您的 {plan} 套餐"
+  },
+  "confirm_payment_plan_row": {
+    "message": "套餐"
+  },
+  "confirm_payment_amount_row": {
+    "message": "金额"
+  },
+  "confirm_payment_net_row": {
+    "message": "应付（USD）"
+  },
+  "confirm_payment_sticker_row": {
+    "message": "标价"
+  },
+  "confirm_payment_credit_row": {
+    "message": "账户积分抵扣"
+  },
+  "confirm_payment_live_quote": {
+    "message": "实时报价"
+  },
+  "confirm_payment_refresh": {
+    "message": "刷新"
+  },
+  "confirm_payment_pay_from": {
+    "message": "支付钱包"
+  },
+  "confirm_payment_auto_renew": {
+    "message": "开启自动续订"
+  },
+  "confirm_payment_auto_renew_desc": {
+    "message": "每个周期自动续订，可随时关闭。"
+  },
+  "confirm_payment_auto_renew_failed": {
+    "message": "套餐已激活，但自动续订未能开启，可稍后在套餐页重试。"
+  },
+  "confirm_payment_save": {
+    "message": "立省 {percent}%"
+  },
+  "confirm_payment_confirm": {
+    "message": "确认并支付"
+  },
+  "confirm_payment_paying": {
+    "message": "支付中…"
+  },
+  "confirm_payment_success": {
+    "message": "支付成功 —— 套餐已激活。"
+  },
+  "confirm_payment_failed": {
+    "message": "支付失败，请重试。"
+  },
+  "confirm_payment_usdc_unsupported": {
+    "message": "暂不支持从扩展用 USDC 支付 —— 请用 SOL，或在网页结账。"
+  },
+  "confirm_payment_quote_failed": {
+    "message": "无法加载最新报价。"
+  },
+  "confirm_payment_quote_loading": {
+    "message": "报价加载中…"
+  },
+  "confirm_payment_pending_timeout": {
+    "message": "已发送支付，等待网络确认后激活。"
+  },
+  "confirm_payment_done": {
+    "message": "完成"
+  },
+  "confirm_payment_cancel": {
+    "message": "取消"
   },
   "set_username": {
     "message": "设置用户名"

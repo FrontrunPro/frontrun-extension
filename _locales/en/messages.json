@@ -542,6 +542,15 @@
   "close": {
     "message": "Close"
   },
+  "auto_renew_banner_title": {
+    "message": "Auto-renew your premium"
+  },
+  "auto_renew_banner_subtext": {
+    "message": "Renew plan automatically. Disable anytime."
+  },
+  "auto_renew_banner_cta": {
+    "message": "Enable auto-renew"
+  },
   "signer": {
     "message": "Signer"
   },
@@ -2429,6 +2438,9 @@
   "avg_buying_mc": {
     "message": "Average Buying Market Cap"
   },
+  "avg_buying_mc_short": {
+    "message": "AMC"
+  },
   "market": {
     "message": "Market"
   },
@@ -2680,6 +2692,186 @@
   },
   "plan_usage_daily_resets_in_hours": {
     "message": "Resets in {hours} hours"
+  },
+  "plan_renewal_daily": {
+    "message": "Daily"
+  },
+  "plan_renewal_weekly": {
+    "message": "Weekly"
+  },
+  "plan_renewal_resets_in": {
+    "message": "Resets in {time}"
+  },
+  "plan_renewal_off_title": {
+    "message": "Auto-renew your plan"
+  },
+  "plan_renewal_off_subtitle": {
+    "message": "Keep premium active. Disable anytime in Plan Settings."
+  },
+  "plan_renewal_auto_renew_on": {
+    "message": "Auto-renew ON"
+  },
+  "plan_renewal_just_renewed": {
+    "message": "Just renewed"
+  },
+  "plan_renewal_low_balance_title": {
+    "message": "Low balance to renew"
+  },
+  "plan_renewal_failed_title": {
+    "message": "Failed to auto-renew"
+  },
+  "plan_renewal_next": {
+    "message": "Next"
+  },
+  "plan_renewal_next_in": {
+    "message": "Next in {time}"
+  },
+  "plan_renewal_plan_row": {
+    "message": "Plan"
+  },
+  "plan_renewal_credits_row": {
+    "message": "Credits"
+  },
+  "plan_renewal_wallet_row": {
+    "message": "Wallet"
+  },
+  "plan_renewal_available_row": {
+    "message": "Available"
+  },
+  "plan_renewal_missing_row": {
+    "message": "Missing"
+  },
+  "plan_renewal_credits_used_row": {
+    "message": "Credits used"
+  },
+  "plan_renewal_remaining_row": {
+    "message": "Remaining"
+  },
+  "plan_renewal_grace_period_label": {
+    "message": "Remaining grace period"
+  },
+  "plan_renewal_cover_next_renewal": {
+    "message": "+{amount} volume covers next renewal"
+  },
+  "plan_renewal_enable_cta_label": {
+    "message": "Enable auto-renew"
+  },
+  "plan_renewal_enable_cta_save": {
+    "message": "Save {percent}%"
+  },
+  "plan_renewal_manage_cta": {
+    "message": "Manage plan"
+  },
+  "plan_renewal_retry_cta": {
+    "message": "Retry"
+  },
+  "plan_renewal_copy_address_cta": {
+    "message": "Copy address to fund"
+  },
+  "plan_renewal_address_copied": {
+    "message": "Address copied"
+  },
+  "enable_auto_renew_title": {
+    "message": "Enable auto-renew"
+  },
+  "enable_auto_renew_heading": {
+    "message": "Auto-renew your {plan} plan"
+  },
+  "enable_auto_renew_bullet_save": {
+    "message": "Save {percent}% on future renewals."
+  },
+  "enable_auto_renew_bullet_credits": {
+    "message": "Available credits are applied first toward your renewal."
+  },
+  "enable_auto_renew_bullet_wallet": {
+    "message": "Remaining balance is charged to your selected wallet."
+  },
+  "enable_auto_renew_bullet_cancel": {
+    "message": "You can disable auto-renew anytime in Plan Settings."
+  },
+  "enable_auto_renew_wallet_label": {
+    "message": "Select backup wallet"
+  },
+  "enable_auto_renew_no_wallet": {
+    "message": "No funded wallet"
+  },
+  "enable_auto_renew_cancel": {
+    "message": "Cancel"
+  },
+  "enable_auto_renew_confirm": {
+    "message": "Confirm auto-renew"
+  },
+  "confirm_payment_title": {
+    "message": "{plan} plan payment"
+  },
+  "confirm_payment_heading": {
+    "message": "Pay for your {plan} plan"
+  },
+  "confirm_payment_plan_row": {
+    "message": "Plan"
+  },
+  "confirm_payment_amount_row": {
+    "message": "Amount"
+  },
+  "confirm_payment_net_row": {
+    "message": "Net USD due"
+  },
+  "confirm_payment_sticker_row": {
+    "message": "Sticker price"
+  },
+  "confirm_payment_credit_row": {
+    "message": "Account credit applied"
+  },
+  "confirm_payment_live_quote": {
+    "message": "Live quote"
+  },
+  "confirm_payment_refresh": {
+    "message": "Refresh"
+  },
+  "confirm_payment_pay_from": {
+    "message": "Pay from"
+  },
+  "confirm_payment_auto_renew": {
+    "message": "Enable auto-renew"
+  },
+  "confirm_payment_auto_renew_desc": {
+    "message": "Renew automatically each cycle. Disable anytime."
+  },
+  "confirm_payment_auto_renew_failed": {
+    "message": "Plan activated, but auto-renew couldn't be turned on — enable it later from the plan page."
+  },
+  "confirm_payment_save": {
+    "message": "Save {percent}%"
+  },
+  "confirm_payment_confirm": {
+    "message": "Confirm & pay"
+  },
+  "confirm_payment_paying": {
+    "message": "Paying…"
+  },
+  "confirm_payment_success": {
+    "message": "Payment confirmed — your plan is active."
+  },
+  "confirm_payment_failed": {
+    "message": "Payment failed. Please try again."
+  },
+  "confirm_payment_usdc_unsupported": {
+    "message": "USDC payment from the extension is coming soon — pay with SOL or use the web checkout."
+  },
+  "confirm_payment_quote_failed": {
+    "message": "Couldn't load the latest quote."
+  },
+  "confirm_payment_quote_loading": {
+    "message": "Loading quote…"
+  },
+  "confirm_payment_pending_timeout": {
+    "message": "Payment sent but not confirmed yet. It will activate once the network confirms."
+  },
+  "confirm_payment_done": {
+    "message": "Done"
+  },
+  "confirm_payment_cancel": {
+    "message": "Cancel"
   },
   "set_username": {
     "message": "Set username"

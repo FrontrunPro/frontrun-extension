@@ -572,6 +572,15 @@
   "close": {
     "message": "Закрыть"
   },
+  "auto_renew_banner_title": {
+    "message": "Автопродление премиума"
+  },
+  "auto_renew_banner_subtext": {
+    "message": "Продлевайте план автоматически. Отключите в любой момент."
+  },
+  "auto_renew_banner_cta": {
+    "message": "Включить автопродление"
+  },
   "signer": {
     "message": "Подписант"
   },
@@ -589,6 +598,9 @@
   },
   "avg_buying_mc": {
     "message": "Средняя кап. покупки"
+  },
+  "avg_buying_mc_short": {
+    "message": "AMC"
   },
   "jito_bundle": {
     "message": "Пакет Jito"
@@ -2710,6 +2722,186 @@
   },
   "plan_usage_daily_resets_in_hours": {
     "message": "Сброс через {hours} ч."
+  },
+  "plan_renewal_daily": {
+    "message": "День"
+  },
+  "plan_renewal_weekly": {
+    "message": "Неделя"
+  },
+  "plan_renewal_resets_in": {
+    "message": "Сброс через {time}"
+  },
+  "plan_renewal_off_title": {
+    "message": "Автопродление вашего плана"
+  },
+  "plan_renewal_off_subtitle": {
+    "message": "Премиум остаётся активным. Отключить можно в настройках плана."
+  },
+  "plan_renewal_auto_renew_on": {
+    "message": "Автопродление ВКЛ"
+  },
+  "plan_renewal_just_renewed": {
+    "message": "Только что продлено"
+  },
+  "plan_renewal_low_balance_title": {
+    "message": "Мало средств для продления"
+  },
+  "plan_renewal_failed_title": {
+    "message": "Не удалось продлить"
+  },
+  "plan_renewal_next": {
+    "message": "След."
+  },
+  "plan_renewal_next_in": {
+    "message": "Через {time}"
+  },
+  "plan_renewal_plan_row": {
+    "message": "План"
+  },
+  "plan_renewal_credits_row": {
+    "message": "Кредиты"
+  },
+  "plan_renewal_wallet_row": {
+    "message": "Кошелёк"
+  },
+  "plan_renewal_available_row": {
+    "message": "Доступно"
+  },
+  "plan_renewal_missing_row": {
+    "message": "Не хватает"
+  },
+  "plan_renewal_credits_used_row": {
+    "message": "Использовано кредитов"
+  },
+  "plan_renewal_remaining_row": {
+    "message": "Остаток"
+  },
+  "plan_renewal_grace_period_label": {
+    "message": "Льготный период"
+  },
+  "plan_renewal_cover_next_renewal": {
+    "message": "+{amount} объёма покроют следующее продление"
+  },
+  "plan_renewal_enable_cta_label": {
+    "message": "Включить автопродление"
+  },
+  "plan_renewal_enable_cta_save": {
+    "message": "−{percent}%"
+  },
+  "plan_renewal_manage_cta": {
+    "message": "Управление"
+  },
+  "plan_renewal_retry_cta": {
+    "message": "Повторить"
+  },
+  "plan_renewal_copy_address_cta": {
+    "message": "Скопировать адрес"
+  },
+  "plan_renewal_address_copied": {
+    "message": "Адрес скопирован"
+  },
+  "enable_auto_renew_title": {
+    "message": "Включить автопродление"
+  },
+  "enable_auto_renew_heading": {
+    "message": "Автопродление плана {plan}"
+  },
+  "enable_auto_renew_bullet_save": {
+    "message": "Скидка {percent}% на будущие продления."
+  },
+  "enable_auto_renew_bullet_credits": {
+    "message": "Сначала используются доступные кредиты."
+  },
+  "enable_auto_renew_bullet_wallet": {
+    "message": "Остаток списывается с выбранного кошелька."
+  },
+  "enable_auto_renew_bullet_cancel": {
+    "message": "Отключить автопродление можно в настройках плана."
+  },
+  "enable_auto_renew_wallet_label": {
+    "message": "Выберите резервный кошелёк"
+  },
+  "enable_auto_renew_no_wallet": {
+    "message": "Нет кошелька с балансом"
+  },
+  "enable_auto_renew_cancel": {
+    "message": "Отмена"
+  },
+  "enable_auto_renew_confirm": {
+    "message": "Подтвердить"
+  },
+  "confirm_payment_title": {
+    "message": "Оплата плана {plan}"
+  },
+  "confirm_payment_heading": {
+    "message": "Оплата плана {plan}"
+  },
+  "confirm_payment_plan_row": {
+    "message": "План"
+  },
+  "confirm_payment_amount_row": {
+    "message": "Сумма"
+  },
+  "confirm_payment_net_row": {
+    "message": "К оплате, USD"
+  },
+  "confirm_payment_sticker_row": {
+    "message": "Базовая цена"
+  },
+  "confirm_payment_credit_row": {
+    "message": "Зачёт кредитов"
+  },
+  "confirm_payment_live_quote": {
+    "message": "Текущая цена"
+  },
+  "confirm_payment_refresh": {
+    "message": "Обновить"
+  },
+  "confirm_payment_pay_from": {
+    "message": "Кошелёк для оплаты"
+  },
+  "confirm_payment_auto_renew": {
+    "message": "Включить автопродление"
+  },
+  "confirm_payment_auto_renew_desc": {
+    "message": "Автопродление каждый период. Отключить можно в любой момент."
+  },
+  "confirm_payment_auto_renew_failed": {
+    "message": "План активирован, но автопродление не включилось — включите его позже на странице плана."
+  },
+  "confirm_payment_save": {
+    "message": "Экономия {percent}%"
+  },
+  "confirm_payment_confirm": {
+    "message": "Подтвердить и оплатить"
+  },
+  "confirm_payment_paying": {
+    "message": "Оплата…"
+  },
+  "confirm_payment_success": {
+    "message": "Платёж подтверждён — план активен."
+  },
+  "confirm_payment_failed": {
+    "message": "Платёж не прошёл. Попробуйте ещё раз."
+  },
+  "confirm_payment_usdc_unsupported": {
+    "message": "Оплата USDC из расширения скоро появится — используйте SOL или оплату на сайте."
+  },
+  "confirm_payment_quote_failed": {
+    "message": "Не удалось загрузить котировку."
+  },
+  "confirm_payment_quote_loading": {
+    "message": "Загрузка котировки…"
+  },
+  "confirm_payment_pending_timeout": {
+    "message": "Платёж отправлен, ожидает подтверждения сети."
+  },
+  "confirm_payment_done": {
+    "message": "Готово"
+  },
+  "confirm_payment_cancel": {
+    "message": "Отмена"
   },
   "set_username": {
     "message": "Задать имя"
