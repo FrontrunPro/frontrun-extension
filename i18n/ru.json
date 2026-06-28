@@ -359,6 +359,9 @@
   "username_history": {
     "message": "История имён пользователя"
   },
+  "ca_verifying_deletion": {
+    "message": "Проверка…"
+  },
   "get_ca_history": {
     "message": "Получить историю CA"
   },

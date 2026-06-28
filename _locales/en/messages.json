@@ -329,6 +329,9 @@
   "username_history": {
     "message": "Username History"
   },
+  "ca_verifying_deletion": {
+    "message": "Verifying on X…"
+  },
   "get_ca_history": {
     "message": "Get CA History"
   },

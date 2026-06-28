@@ -332,6 +332,9 @@
   "username_history": {
     "message": "用户名历史"
   },
+  "ca_verifying_deletion": {
+    "message": "核实中…"
+  },
   "get_ca_history": {
     "message": "获取发盘历史"
   },
@@ -4226,6 +4229,9 @@
   "bug_report_send": {
     "message": "报告"
   },
+  "bug_report_send_telegram": {
+    "message": "联系客服"
+  },
   "bug_report_sending": {
     "message": "发送中..."
   },
@@ -4785,7 +4791,7 @@
     "message": "共享"
   },
   "shared_x_accounts_tab": {
-    "message": "X 资料"
+    "message": "推特账户"
   },
   "shared_wallet_tab": {
     "message": "钱包"
