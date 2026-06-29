@@ -2708,6 +2708,9 @@
   "plan_renewal_off_title": {
     "message": "Auto-renew your plan"
   },
+  "plan_renewal_keep_premium_title": {
+    "message": "Keep premium active"
+  },
   "plan_renewal_off_subtitle": {
     "message": "Keep premium active. Disable anytime in Plan Settings."
   },
@@ -2796,7 +2799,16 @@
     "message": "Select backup wallet"
   },
   "enable_auto_renew_no_wallet": {
-    "message": "No funded wallet"
+    "message": "Select wallet"
+  },
+  "enable_auto_renew_no_wallet_title": {
+    "message": "No Solana wallet yet"
+  },
+  "enable_auto_renew_no_wallet_desc": {
+    "message": "Add a Solana wallet to charge for auto-renew."
+  },
+  "enable_auto_renew_deposit_sol": {
+    "message": "Deposit SOL"
   },
   "enable_auto_renew_cancel": {
     "message": "Cancel"
@@ -2834,6 +2846,15 @@
   "confirm_payment_pay_from": {
     "message": "Pay from"
   },
+  "confirm_payment_no_balance_title": {
+    "message": "No wallet with a balance"
+  },
+  "confirm_payment_no_balance_desc": {
+    "message": "This payment is charged now, so you need a funded wallet. Deposit SOL to the address below, then try again."
+  },
+  "confirm_payment_credit_covers": {
+    "message": "Covered by your account credit — no payment needed."
+  },
   "confirm_payment_auto_renew": {
     "message": "Enable auto-renew"
   },
@@ -2852,6 +2873,9 @@
   "confirm_payment_paying": {
     "message": "Paying…"
   },
+  "confirm_payment_paying_hint": {
+    "message": "Confirming on-chain — this can take a moment, please wait."
+  },
   "confirm_payment_success": {
     "message": "Payment confirmed — your plan is active."
   },
@@ -2869,6 +2893,15 @@
   },
   "confirm_payment_pending_timeout": {
     "message": "Payment sent but not confirmed yet. It will activate once the network confirms."
+  },
+  "confirm_payment_pending_recheck": {
+    "message": "Payment sent — we're confirming it on-chain. Tap Check again; it will activate automatically once confirmed."
+  },
+  "confirm_payment_recheck": {
+    "message": "Check again"
+  },
+  "confirm_payment_deposit_wallet": {
+    "message": "Add a wallet"
   },
   "confirm_payment_done": {
     "message": "Done"

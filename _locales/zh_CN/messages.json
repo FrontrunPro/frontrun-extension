@@ -2741,6 +2741,9 @@
   "plan_renewal_off_title": {
     "message": "自动续订您的套餐"
   },
+  "plan_renewal_keep_premium_title": {
+    "message": "保持高级版有效"
+  },
   "plan_renewal_off_subtitle": {
     "message": "保持高级版有效。可在套餐设置中随时关闭。"
   },
@@ -2831,6 +2834,15 @@
   "enable_auto_renew_no_wallet": {
     "message": "没有有余额的钱包"
   },
+  "enable_auto_renew_no_wallet_title": {
+    "message": "还没有 Solana 钱包"
+  },
+  "enable_auto_renew_no_wallet_desc": {
+    "message": "添加 Solana 钱包以用于自动续费扣款。"
+  },
+  "enable_auto_renew_deposit_sol": {
+    "message": "充值 SOL"
+  },
   "enable_auto_renew_cancel": {
     "message": "取消"
   },
@@ -2867,6 +2879,15 @@
   "confirm_payment_pay_from": {
     "message": "支付钱包"
   },
+  "confirm_payment_no_balance_title": {
+    "message": "没有有余额的钱包"
+  },
+  "confirm_payment_no_balance_desc": {
+    "message": "本次支付会立即扣款,需要一个有余额的钱包。请向下方地址充值 SOL 后重试。"
+  },
+  "confirm_payment_credit_covers": {
+    "message": "已由账户积分全额抵扣 —— 无需付款。"
+  },
   "confirm_payment_auto_renew": {
     "message": "开启自动续订"
   },
@@ -2885,6 +2906,9 @@
   "confirm_payment_paying": {
     "message": "支付中…"
   },
+  "confirm_payment_paying_hint": {
+    "message": "正在链上确认,可能需要一会儿,请耐心等待…"
+  },
   "confirm_payment_success": {
     "message": "支付成功 —— 套餐已激活。"
   },
@@ -2902,6 +2926,15 @@
   },
   "confirm_payment_pending_timeout": {
     "message": "已发送支付，等待网络确认后激活。"
+  },
+  "confirm_payment_pending_recheck": {
+    "message": "支付已发送，正在链上确认。请点击「再次检查」，确认后会自动激活。"
+  },
+  "confirm_payment_recheck": {
+    "message": "再次检查"
+  },
+  "confirm_payment_deposit_wallet": {
+    "message": "添加钱包"
   },
   "confirm_payment_done": {
     "message": "完成"

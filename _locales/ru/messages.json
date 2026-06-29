@@ -2738,6 +2738,9 @@
   "plan_renewal_off_title": {
     "message": "Автопродление вашего плана"
   },
+  "plan_renewal_keep_premium_title": {
+    "message": "Сохраните премиум"
+  },
   "plan_renewal_off_subtitle": {
     "message": "Премиум остаётся активным. Отключить можно в настройках плана."
   },
@@ -2828,6 +2831,15 @@
   "enable_auto_renew_no_wallet": {
     "message": "Нет кошелька с балансом"
   },
+  "enable_auto_renew_no_wallet_title": {
+    "message": "Нет кошелька Solana"
+  },
+  "enable_auto_renew_no_wallet_desc": {
+    "message": "Добавьте кошелёк Solana для списаний при автопродлении."
+  },
+  "enable_auto_renew_deposit_sol": {
+    "message": "Пополнить SOL"
+  },
   "enable_auto_renew_cancel": {
     "message": "Отмена"
   },
@@ -2864,6 +2876,15 @@
   "confirm_payment_pay_from": {
     "message": "Кошелёк для оплаты"
   },
+  "confirm_payment_no_balance_title": {
+    "message": "Нет кошелька с балансом"
+  },
+  "confirm_payment_no_balance_desc": {
+    "message": "Этот платёж списывается сразу, поэтому нужен кошелёк с балансом. Пополните SOL на адрес ниже и повторите."
+  },
+  "confirm_payment_credit_covers": {
+    "message": "Покрыто кредитом аккаунта — оплата не нужна."
+  },
   "confirm_payment_auto_renew": {
     "message": "Включить автопродление"
   },
@@ -2882,6 +2903,9 @@
   "confirm_payment_paying": {
     "message": "Оплата…"
   },
+  "confirm_payment_paying_hint": {
+    "message": "Подтверждаем в сети — это может занять немного времени."
+  },
   "confirm_payment_success": {
     "message": "Платёж подтверждён — план активен."
   },
@@ -2899,6 +2923,15 @@
   },
   "confirm_payment_pending_timeout": {
     "message": "Платёж отправлен, ожидает подтверждения сети."
+  },
+  "confirm_payment_pending_recheck": {
+    "message": "Платёж отправлен, подтверждаем в сети. Нажмите «Проверить снова» — активируется автоматически."
+  },
+  "confirm_payment_recheck": {
+    "message": "Проверить снова"
+  },
+  "confirm_payment_deposit_wallet": {
+    "message": "Добавить кошелёк"
   },
   "confirm_payment_done": {
     "message": "Готово"
