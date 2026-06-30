@@ -6862,6 +6862,15 @@
   "ton_slippage_warning_high": {
     "message": "Very high — you may be sandwiched."
   },
+  "base_max_fee_auto": {
+    "message": "Auto"
+  },
+  "base_max_fee_auto_tooltip": {
+    "message": "Max gas fee: Auto (safe default cap)"
+  },
+  "base_max_fee_value_tooltip": {
+    "message": "Max gas fee per trade: {fee}"
+  },
   "ton_auto_fee_explainer_title": {
     "message": "Fees on TON are automatic"
   },

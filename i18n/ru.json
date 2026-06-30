@@ -6839,6 +6839,15 @@
   "ton_slippage_warning_high": {
     "message": "Очень высокое — риск сэндвича."
   },
+  "base_max_fee_auto": {
+    "message": "Авто"
+  },
+  "base_max_fee_auto_tooltip": {
+    "message": "Макс. комиссия: Авто (безопасный лимит)"
+  },
+  "base_max_fee_value_tooltip": {
+    "message": "Макс. комиссия за сделку: {fee}"
+  },
   "ton_auto_fee_explainer_title": {
     "message": "Комиссии в TON — авто"
   },

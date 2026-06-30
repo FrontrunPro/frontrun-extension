@@ -6812,6 +6812,15 @@
   "ton_slippage_warning_high": {
     "message": "极高 — 可能被三明治攻击。"
   },
+  "base_max_fee_auto": {
+    "message": "自动"
+  },
+  "base_max_fee_auto_tooltip": {
+    "message": "最高 Gas 费用：自动（安全默认上限）"
+  },
+  "base_max_fee_value_tooltip": {
+    "message": "每笔交易最高 Gas 费用：{fee}"
+  },
   "ton_auto_fee_explainer_title": {
     "message": "TON 费用自动计算"
   },
