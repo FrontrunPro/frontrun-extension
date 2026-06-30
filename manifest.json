@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Frontrun",
   "description": "Frontrun is your AI co-pilot, empowering crypto traders to stay ahead of the market",
-  "version": "0.0.312",
+  "version": "0.0.313",
   "icons": {
     "16": "icon-16.png",
     "32": "icon-32.png",
