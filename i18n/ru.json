@@ -6650,6 +6650,15 @@
   "ton_bridge_insufficient_funds": {
     "message": "Недостаточно средств"
   },
+  "ton_bridge_wsol_need_sol_for_fee": {
+    "message": "Добавьте немного SOL на комиссию сети."
+  },
+  "ton_bridge_wsol_none": {
+    "message": "В кошельке нет wSOL для конвертации."
+  },
+  "ton_bridge_amount_too_small": {
+    "message": "Сумма слишком мала для конвертации."
+  },
   "ton_bridge_need_source_wallet": {
     "message": "Нет кошелька для отправки — пополните его в кошельках"
   },

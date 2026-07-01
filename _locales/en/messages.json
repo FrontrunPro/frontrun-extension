@@ -6673,6 +6673,15 @@
   "ton_bridge_insufficient_funds": {
     "message": "Insufficient funds"
   },
+  "ton_bridge_wsol_need_sol_for_fee": {
+    "message": "Add a little SOL to cover the network fee."
+  },
+  "ton_bridge_wsol_none": {
+    "message": "No wSOL to unwrap in this wallet."
+  },
+  "ton_bridge_amount_too_small": {
+    "message": "Amount is too small to convert."
+  },
   "ton_bridge_need_source_wallet": {
     "message": "No funded wallet to send from — add funds in Wallets"
   },
