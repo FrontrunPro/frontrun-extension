@@ -4241,6 +4241,12 @@
   "chat_on_telegram": {
     "message": "在 Telegram 上聊天"
   },
+  "vip_support": {
+    "message": "VIP 支持"
+  },
+  "vip_support_description": {
+    "message": "快速获得帮助。通过 Telegram 联系我们。"
+  },
   "feedback": {
     "message": "反馈"
   },
@@ -6739,6 +6745,9 @@
   },
   "ton_bridge_powered_by_relay": {
     "message": "由 Relay 路由"
+  },
+  "ton_bridge_powered_by_jupiter": {
+    "message": "由 Jupiter 路由"
   },
   "ton_bridge_no_sol_wallet_title": {
     "message": "需要有余额的 SOL 钱包"

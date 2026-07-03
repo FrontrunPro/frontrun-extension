@@ -4250,6 +4250,12 @@
   "chat_on_telegram": {
     "message": "Чат в Telegram"
   },
+  "vip_support": {
+    "message": "VIP-поддержка"
+  },
+  "vip_support_description": {
+    "message": "Получите помощь быстро. Напишите нам в Telegram."
+  },
   "feedback": {
     "message": "Отзыв"
   },
@@ -6775,6 +6781,9 @@
   },
   "ton_bridge_powered_by_relay": {
     "message": "Маршрут через Relay"
+  },
+  "ton_bridge_powered_by_jupiter": {
+    "message": "Маршрут через Jupiter"
   },
   "ton_bridge_no_sol_wallet_title": {
     "message": "Нужен SOL-кошелёк"

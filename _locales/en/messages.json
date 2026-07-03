@@ -4214,6 +4214,12 @@
   "chat_on_telegram": {
     "message": "Chat on Telegram"
   },
+  "vip_support": {
+    "message": "VIP Support"
+  },
+  "vip_support_description": {
+    "message": "Get help fast. Contact us on Telegram."
+  },
   "feedback": {
     "message": "Feedback"
   },
@@ -6798,6 +6804,9 @@
   },
   "ton_bridge_powered_by_relay": {
     "message": "Routed via Relay"
+  },
+  "ton_bridge_powered_by_jupiter": {
+    "message": "Routed via Jupiter"
   },
   "ton_bridge_no_sol_wallet_title": {
     "message": "You need a funded SOL wallet"
