@@ -6911,13 +6911,22 @@
     "message": "TURBO Mode"
   },
   "turbo_enable_description": {
-    "message": "TURBO Mode races multiple competing transactions across different relays to give you the fastest possible execution on Solana."
+    "message": "TURBO Mode races competing transactions across protected relays for the fastest, MEV-protected execution on Solana."
   },
   "turbo_includes_mev": {
     "message": "TURBO Mode includes MEV protection — your trades route through protected relays."
   },
   "mev_in_turbo_hint": {
     "message": "MEV protection is included automatically when you enable TURBO Mode"
+  },
+  "turbo": {
+    "message": "Turbo"
+  },
+  "turbo_on_tooltip": {
+    "message": "TURBO on - faster, MEV-protected trades for funded wallets."
+  },
+  "turbo_applies_to_all_active_wallets": {
+    "message": "Turbo will be enabled for all {count} active wallet(s) with a minimum {min} SOL balance."
   },
   "turbo_enable": {
     "message": "Enable TURBO Mode"

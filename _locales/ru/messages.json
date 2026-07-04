@@ -6888,7 +6888,16 @@
     "message": "Режим TURBO"
   },
   "turbo_enable_description": {
-    "message": "TURBO одновременно отправляет несколько транзакций через разные релеи — для максимальной скорости в Solana."
+    "message": "TURBO рассылает конкурирующие транзакции через защищённые релеи — максимально быстрое исполнение с защитой от MEV в Solana."
+  },
+  "turbo": {
+    "message": "Turbo"
+  },
+  "turbo_on_tooltip": {
+    "message": "TURBO включён — быстрые сделки с защитой от MEV для профинансированных кошельков."
+  },
+  "turbo_applies_to_all_active_wallets": {
+    "message": "Turbo включится для всех активных кошельков ({count}) с балансом не менее {min} SOL."
   },
   "turbo_includes_mev": {
     "message": "Режим TURBO включает защиту от MEV."
