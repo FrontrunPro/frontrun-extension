@@ -1097,6 +1097,9 @@
   "trading_feature_coming_soon": {
     "message": "该功能即将上线。如需抢先体验，请联系我们。"
   },
+  "trading_toggle_premium_only_cta": {
+    "message": "升级高级会员以关闭交易"
+  },
   "feature_temporarily_disabled": {
     "message": "该功能暂时停用，将在恢复后自动开启。"
   },
@@ -3422,6 +3425,12 @@
   "slippage_correction": {
     "message": "滑点修正"
   },
+  "anti_wick_trigger": {
+    "message": "防插针"
+  },
+  "anti_wick_trigger_tooltip": {
+    "message": "启用后使用 1 秒内的中间价格作为触发价，尽可能减少插针误触发，但无法 100% 保证。"
+  },
   "cancel_all": {
     "message": "取消全部"
   },
@@ -5402,6 +5411,12 @@
   "show_chart_order_lines_desc": {
     "message": "在图表上显示限价单和自动交易线"
   },
+  "anti_wick_limit_order_setting": {
+    "message": "防插针"
+  },
+  "anti_wick_limit_order_setting_desc": {
+    "message": "使用 1 秒中位价判断触发，减少插针误触发"
+  },
   "sell_limit_order_track_live_position": {
     "message": "按实时余额百分比卖出"
   },
@@ -6858,7 +6873,7 @@
     "message": "Turbo"
   },
   "turbo_on_tooltip": {
-    "message": "TURBO 已开启 — 为有余额的钱包提供更快、抗 MEV 的交易。"
+    "message": "TURBO 已开启 — 更快、抗 MEV 的交易，无额外费用。"
   },
   "turbo_applies_to_all_active_wallets": {
     "message": "将为全部 {count} 个活跃钱包（余额不低于 {min} SOL）启用 Turbo。"

@@ -1139,6 +1139,9 @@
   "trading_feature_coming_soon": {
     "message": "Эта функция скоро появится. Свяжитесь с нами для раннего доступа."
   },
+  "trading_toggle_premium_only_cta": {
+    "message": "Оформите Premium, чтобы отключить торговлю"
+  },
   "feature_temporarily_disabled": {
     "message": "Эта функция временно отключена и будет восстановлена автоматически."
   },
@@ -3434,6 +3437,12 @@
   "slippage_correction": {
     "message": "Коррекция слипажа"
   },
+  "anti_wick_trigger": {
+    "message": "Антишпиль"
+  },
+  "anti_wick_trigger_tooltip": {
+    "message": "Триггер по медиане цены за 1 с. Снижает ложные срабатывания, но не гарантирует защиту."
+  },
   "cancel_all": {
     "message": "Отменить всё"
   },
@@ -5414,6 +5423,12 @@
   "show_chart_order_lines_desc": {
     "message": "Показывать на графике линии ордеров и автоторговли"
   },
+  "anti_wick_limit_order_setting": {
+    "message": "Антишпиль триггер"
+  },
+  "anti_wick_limit_order_setting_desc": {
+    "message": "Триггер по медиане цены за 1 с, чтобы снизить ложные срабатывания"
+  },
   "sell_limit_order_track_live_position": {
     "message": "Продажа % от баланса"
   },
@@ -6894,7 +6909,7 @@
     "message": "Turbo"
   },
   "turbo_on_tooltip": {
-    "message": "TURBO включён — быстрые сделки с защитой от MEV для профинансированных кошельков."
+    "message": "TURBO включён — быстрые сделки с защитой от MEV без дополнительной комиссии."
   },
   "turbo_applies_to_all_active_wallets": {
     "message": "Turbo включится для всех активных кошельков ({count}) с балансом не менее {min} SOL."

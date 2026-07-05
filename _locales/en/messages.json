@@ -1100,6 +1100,9 @@
   "trading_feature_coming_soon": {
     "message": "This feature is coming soon. Reach out to us if you're interested in early access."
   },
+  "trading_toggle_premium_only_cta": {
+    "message": "Upgrade to premium plan to disable trading"
+  },
   "feature_temporarily_disabled": {
     "message": "This feature is temporarily disabled and will be restored automatically."
   },
@@ -3398,6 +3401,12 @@
   "slippage_correction": {
     "message": "Slippage correction"
   },
+  "anti_wick_trigger": {
+    "message": "Anti-wick"
+  },
+  "anti_wick_trigger_tooltip": {
+    "message": "Uses the 1s median price as the trigger price. Helps reduce wick-trigger false positives, but cannot guarantee full protection."
+  },
   "cancel_all": {
     "message": "Cancel All"
   },
@@ -5437,6 +5446,12 @@
   "show_chart_order_lines_desc": {
     "message": "Display limit order and auto-trade lines on the chart"
   },
+  "anti_wick_limit_order_setting": {
+    "message": "Anti-Wick Trigger"
+  },
+  "anti_wick_limit_order_setting_desc": {
+    "message": "when activated, use the 1s median price to trigger limit orders."
+  },
   "sell_limit_order_track_live_position": {
     "message": "Sell % of Live Balance"
   },
@@ -6923,7 +6938,7 @@
     "message": "Turbo"
   },
   "turbo_on_tooltip": {
-    "message": "TURBO on - faster, MEV-protected trades for funded wallets."
+    "message": "TURBO on — faster, MEV-protected trades with no extra fee."
   },
   "turbo_applies_to_all_active_wallets": {
     "message": "Turbo will be enabled for all {count} active wallet(s) with a minimum {min} SOL balance."
