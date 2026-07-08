@@ -1928,6 +1928,9 @@
   "limit_orders_load_failed_rate_limited": {
     "message": "Too many requests — please retry in a moment"
   },
+  "limit_orders_unsupported_protocol": {
+    "message": "Limit orders are not supported for this token's protocol"
+  },
   "username": {
     "message": "Username"
   },
@@ -3428,6 +3431,9 @@
   "autotrade_limit_orders_created": {
     "message": "TP/SL order created"
   },
+  "creating_autotrade_orders": {
+    "message": "Creating auto-trade orders"
+  },
   "autotrade_tpsl_created": {
     "message": "TP/SL: {count} created"
   },
@@ -3466,6 +3472,9 @@
   },
   "autotrade_apply_failed": {
     "message": "Failed to apply auto-trade strategy"
+  },
+  "autotrade_failed": {
+    "message": "Auto-trade failed"
   },
   "autotrade_no_holder_wallet": {
     "message": "No active wallet holds this token. Switch to a wallet that owns it before applying."
@@ -4344,7 +4353,7 @@
     "message": "Quick Buy in Wallet Tracker"
   },
   "wallet_tracker_quick_buy_description": {
-    "message": "Enable Frontrun Quick Buy in Axiom Wallet Tracker, requires Quick Buy Native mode"
+    "message": "Enable Frontrun Quick Buy for Axiom Wallet Tracker Monitor and Trades. Transfers use Axiom's native quick buy."
   },
   "axiom_search_quick_buy": {
     "message": "Quick Buy in Search"
@@ -4956,7 +4965,7 @@
     "message": "Import source"
   },
   "shared_import_all_labels": {
-    "message": "All my labels"
+    "message": "All labels"
   },
   "shared_import_wallet_source": {
     "message": "Wallet labels import source"
@@ -5263,6 +5272,9 @@
   "create_wallet_label_optional": {
     "message": "Label (optional)"
   },
+  "create_wallet_bridge_from_sol_cta": {
+    "message": "Convert SOL to fund this wallet"
+  },
   "create_wallet_label_placeholder": {
     "message": "e.g. Main Trading Wallet"
   },
@@ -5450,7 +5462,7 @@
     "message": "Anti-Wick Trigger"
   },
   "anti_wick_limit_order_setting_desc": {
-    "message": "when activated, use the 1s median price to trigger limit orders."
+    "message": "Use the 1s median price to trigger limit orders"
   },
   "sell_limit_order_track_live_position": {
     "message": "Sell % of Live Balance"
@@ -6569,7 +6581,10 @@
     "message": "Fetching quote…"
   },
   "ton_bridge_quote_error": {
-    "message": "Couldn't fetch a quote. Try again."
+    "message": "Couldn't fetch a quote."
+  },
+  "ton_bridge_try_again": {
+    "message": "Try again"
   },
   "ton_bridge_quote_expired": {
     "message": "Quote expired. Refreshing…"
@@ -6589,6 +6604,9 @@
   "ton_bridge_convert_cta": {
     "message": "Convert now"
   },
+  "ton_bridge_no_fees": {
+    "message": "Frontrun charges no fees."
+  },
   "ton_bridge_unsupported_pair": {
     "message": "This pair isn't supported yet — convert from a Solana wallet."
   },
@@ -6600,6 +6618,15 @@
   },
   "ton_bridge_select_wallet": {
     "message": "Select wallet"
+  },
+  "ton_bridge_select_token": {
+    "message": "Select token"
+  },
+  "ton_bridge_min_tooltip": {
+    "message": "Lowest amount you can\ntrade right now."
+  },
+  "ton_bridge_max_tooltip": {
+    "message": "Maximum spendable amount.\nNetwork fees are reserved."
   },
   "ton_bridge_select_source_wallet": {
     "message": "Select source wallet"
@@ -6620,7 +6647,7 @@
     "message": "Converting {from} → {to}"
   },
   "ton_bridge_detail_success_title": {
-    "message": "Converted successfully"
+    "message": "Converted"
   },
   "ton_bridge_detail_failed_title": {
     "message": "Convert failed"
@@ -6647,7 +6674,7 @@
     "message": "View Tx"
   },
   "ton_bridge_detail_view_wallet": {
-    "message": "View receiving wallet"
+    "message": "Go to Wallets"
   },
   "ton_bridge_detail_failed_step": {
     "message": "Failed at exchange step."
@@ -6688,14 +6715,20 @@
   "ton_bridge_use_max": {
     "message": "Use max sendable"
   },
+  "ton_bridge_balance_below_minimum": {
+    "message": "Available balance is below the minimum trade amount."
+  },
   "ton_bridge_reserve_buffer": {
-    "message": "Keep a little for network fees."
+    "message": "Max amount includes network fees."
   },
   "ton_bridge_insufficient_funds": {
     "message": "Insufficient funds"
   },
   "ton_bridge_wsol_need_sol_for_fee": {
     "message": "Add a little SOL to cover the network fee."
+  },
+  "ton_bridge_need_gas": {
+    "message": "Add a little {symbol} to cover the network fee."
   },
   "ton_bridge_wsol_none": {
     "message": "No wSOL to unwrap in this wallet."
@@ -6704,7 +6737,7 @@
     "message": "Amount is too small to convert."
   },
   "ton_bridge_need_source_wallet": {
-    "message": "No funded wallet to send from — add funds in Wallets"
+    "message": "No funded wallet to send from – add funds in Wallets."
   },
   "ton_bridge_need_destination_wallet": {
     "message": "No wallet to receive into — create one in Wallets"
@@ -6806,7 +6839,7 @@
     "message": "Too many requests. Wait a moment and try again."
   },
   "ton_bridge_error_upstream": {
-    "message": "Bridge service is having trouble. Try again."
+    "message": "Bridge service is having trouble."
   },
   "ton_bridge_error_broadcast": {
     "message": "Couldn't broadcast the transaction. Please try again."
@@ -6815,7 +6848,7 @@
     "message": "Session expired — please log in again and retry."
   },
   "ton_bridge_powered_by_changenow": {
-    "message": "Powered by ChangeNow"
+    "message": "Routed via ChangeNow"
   },
   "ton_bridge_powered_by_relay": {
     "message": "Routed via Relay"
@@ -7161,9 +7194,6 @@
   },
   "shared_import_none": {
     "message": "Do not import labels"
-  },
-  "shared_import_all_labels": {
-    "message": "All labels"
   },
   "shared_import_wallet_groups": {
     "message": "Wallet groups"

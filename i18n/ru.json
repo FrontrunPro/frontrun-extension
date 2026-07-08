@@ -1266,7 +1266,7 @@
     "message": "Быстрая покупка (трекер)"
   },
   "wallet_tracker_quick_buy_description": {
-    "message": "Включить Frontrun Quick Buy в трекере Axiom, требуется режим Quick Buy Native"
+    "message": "Frontrun Quick Buy для Monitor и Trades в Axiom. Transfers используют Axiom."
   },
   "axiom_search_quick_buy": {
     "message": "Быстрая покупка (поиск)"
@@ -1990,6 +1990,9 @@
   },
   "limit_orders_load_failed_rate_limited": {
     "message": "Слишком много запросов — повторите попытку"
+  },
+  "limit_orders_unsupported_protocol": {
+    "message": "Лимитные ордера не поддерживаются для этого протокола"
   },
   "username": {
     "message": "Имя"
@@ -3467,6 +3470,9 @@
   "autotrade_apply_failed": {
     "message": "Ошибка применения"
   },
+  "autotrade_failed": {
+    "message": "Ошибка автотрейда"
+  },
   "autotrade_no_holder_wallet": {
     "message": "Активный кошелёк не держит этот токен. Переключитесь на кошелёк-владелец."
   },
@@ -3682,6 +3688,9 @@
   },
   "autotrade_limit_orders_created": {
     "message": "TP/SL ордер создан"
+  },
+  "creating_autotrade_orders": {
+    "message": "Создание автоордеров"
   },
   "autotrade_tpsl_created": {
     "message": "TP/SL: {count} создано"
@@ -5240,6 +5249,9 @@
   "create_wallet_label_optional": {
     "message": "Метка (необяз.)"
   },
+  "create_wallet_bridge_from_sol_cta": {
+    "message": "Пополнить через SOL"
+  },
   "create_wallet_label_placeholder": {
     "message": "Напр. Основной кошелёк"
   },
@@ -6548,6 +6560,9 @@
   "ton_bridge_quote_error": {
     "message": "Не удалось получить курс."
   },
+  "ton_bridge_try_again": {
+    "message": "Повторить"
+  },
   "ton_bridge_quote_expired": {
     "message": "Курс истёк. Обновляем…"
   },
@@ -6566,6 +6581,9 @@
   "ton_bridge_convert_cta": {
     "message": "Обменять"
   },
+  "ton_bridge_no_fees": {
+    "message": "Frontrun не берёт комиссию."
+  },
   "ton_bridge_unsupported_pair": {
     "message": "Направление пока не поддерживается — источник должен быть Solana."
   },
@@ -6577,6 +6595,15 @@
   },
   "ton_bridge_select_wallet": {
     "message": "Выбрать кошелёк"
+  },
+  "ton_bridge_select_token": {
+    "message": "Выбрать токен"
+  },
+  "ton_bridge_min_tooltip": {
+    "message": "Минимальная сумма\nдля обмена сейчас."
+  },
+  "ton_bridge_max_tooltip": {
+    "message": "Максимум к обмену. Комиссия\nсети зарезервирована."
   },
   "ton_bridge_select_source_wallet": {
     "message": "Кошелёк-источник"
@@ -6624,7 +6651,7 @@
     "message": "Транзакция"
   },
   "ton_bridge_detail_view_wallet": {
-    "message": "Открыть кошелёк"
+    "message": "К кошелькам"
   },
   "ton_bridge_detail_failed_step": {
     "message": "Сбой на этапе обмена."
@@ -6665,14 +6692,20 @@
   "ton_bridge_use_max": {
     "message": "Максимум"
   },
+  "ton_bridge_balance_below_minimum": {
+    "message": "Баланс ниже минимальной суммы сделки."
+  },
   "ton_bridge_reserve_buffer": {
-    "message": "Оставьте немного на комиссию сети."
+    "message": "Макс. сумма включает комиссию сети."
   },
   "ton_bridge_insufficient_funds": {
     "message": "Недостаточно средств"
   },
   "ton_bridge_wsol_need_sol_for_fee": {
     "message": "Добавьте немного SOL на комиссию сети."
+  },
+  "ton_bridge_need_gas": {
+    "message": "Добавьте немного {symbol} на комиссию сети."
   },
   "ton_bridge_wsol_none": {
     "message": "В кошельке нет wSOL для конвертации."
@@ -6681,7 +6714,7 @@
     "message": "Сумма слишком мала для конвертации."
   },
   "ton_bridge_need_source_wallet": {
-    "message": "Нет кошелька для отправки — пополните его в кошельках"
+    "message": "Нет кошелька для отправки – пополните его в кошельках."
   },
   "ton_bridge_need_destination_wallet": {
     "message": "Нет кошелька для получения — создайте его в кошельках"
@@ -6783,7 +6816,7 @@
     "message": "Подождите."
   },
   "ton_bridge_error_upstream": {
-    "message": "Сбой. Повторите."
+    "message": "Сбой."
   },
   "ton_bridge_error_broadcast": {
     "message": "Не удалось отправить транзакцию. Повторите попытку."
@@ -6792,7 +6825,7 @@
     "message": "Сессия истекла — войдите снова и повторите."
   },
   "ton_bridge_powered_by_changenow": {
-    "message": "При поддержке ChangeNow"
+    "message": "Маршрут через ChangeNow"
   },
   "ton_bridge_powered_by_relay": {
     "message": "Маршрут через Relay"
@@ -7138,9 +7171,6 @@
   },
   "shared_import_none": {
     "message": "Не импортировать метки"
-  },
-  "shared_import_all_labels": {
-    "message": "Все метки"
   },
   "shared_import_wallet_groups": {
     "message": "Группы кошельков"

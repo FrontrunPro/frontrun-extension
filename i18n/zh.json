@@ -1224,7 +1224,7 @@
     "message": "钱包追踪内快速买入"
   },
   "wallet_tracker_quick_buy_description": {
-    "message": "在 Axiom 钱包追踪内启用 Frontrun 快速买入，需要开启快速买入原生模式"
+    "message": "在 Axiom 钱包追踪的 Monitor 和 Trades 中启用 Frontrun 快速买入。Transfers 使用 Axiom 原生快速买入。"
   },
   "axiom_search_quick_buy": {
     "message": "搜索结果内快速买入"
@@ -1972,6 +1972,9 @@
   },
   "limit_orders_load_failed_rate_limited": {
     "message": "请求过多，请稍后重试"
+  },
+  "limit_orders_unsupported_protocol": {
+    "message": "该代币协议暂不支持限价单"
   },
   "username": {
     "message": "用户名"
@@ -3455,6 +3458,9 @@
   "autotrade_apply_failed": {
     "message": "应用自动交易策略失败"
   },
+  "autotrade_failed": {
+    "message": "自动交易失败"
+  },
   "autotrade_no_holder_wallet": {
     "message": "当前活跃钱包未持有该代币，请切换到持有该代币的钱包后重试"
   },
@@ -3670,6 +3676,9 @@
   },
   "autotrade_limit_orders_created": {
     "message": "TP/SL 订单已创建"
+  },
+  "creating_autotrade_orders": {
+    "message": "正在创建自动交易订单"
   },
   "autotrade_tpsl_created": {
     "message": "TP/SL：{count} 已创建"
@@ -4926,7 +4935,7 @@
     "message": "导入来源"
   },
   "shared_import_all_labels": {
-    "message": "我的全部标签"
+    "message": "全部标签"
   },
   "shared_import_wallet_source": {
     "message": "钱包标签导入来源"
@@ -5227,6 +5236,9 @@
   },
   "create_wallet_label_optional": {
     "message": "标签(可选)"
+  },
+  "create_wallet_bridge_from_sol_cta": {
+    "message": "用 SOL 兑换充值"
   },
   "create_wallet_label_placeholder": {
     "message": "如:主交易钱包"
@@ -6530,6 +6542,9 @@
   "ton_bridge_quote_error": {
     "message": "无法获取报价。"
   },
+  "ton_bridge_try_again": {
+    "message": "重试"
+  },
   "ton_bridge_quote_expired": {
     "message": "报价过期，正在刷新…"
   },
@@ -6548,6 +6563,9 @@
   "ton_bridge_convert_cta": {
     "message": "立即兑换"
   },
+  "ton_bridge_no_fees": {
+    "message": "Frontrun 不收取任何费用。"
+  },
   "ton_bridge_unsupported_pair": {
     "message": "暂不支持该方向，来源需为 Solana 钱包。"
   },
@@ -6559,6 +6577,15 @@
   },
   "ton_bridge_select_wallet": {
     "message": "选择钱包"
+  },
+  "ton_bridge_select_token": {
+    "message": "选择代币"
+  },
+  "ton_bridge_min_tooltip": {
+    "message": "当前可交易的最小金额。"
+  },
+  "ton_bridge_max_tooltip": {
+    "message": "可用最大金额，已预留网络费。"
   },
   "ton_bridge_select_source_wallet": {
     "message": "选择来源钱包"
@@ -6579,7 +6606,7 @@
     "message": "兑换中 {from} → {to}"
   },
   "ton_bridge_detail_success_title": {
-    "message": "兑换成功"
+    "message": "兑换完成"
   },
   "ton_bridge_detail_failed_title": {
     "message": "兑换失败"
@@ -6606,7 +6633,7 @@
     "message": "查看交易"
   },
   "ton_bridge_detail_view_wallet": {
-    "message": "查看到账钱包"
+    "message": "前往钱包"
   },
   "ton_bridge_detail_failed_step": {
     "message": "兑换环节失败。"
@@ -6647,14 +6674,20 @@
   "ton_bridge_use_max": {
     "message": "全部"
   },
+  "ton_bridge_balance_below_minimum": {
+    "message": "可用余额低于最低交易金额。"
+  },
   "ton_bridge_reserve_buffer": {
-    "message": "请留一点余额支付网络费。"
+    "message": "最大金额已包含网络费。"
+  },
+  "ton_bridge_need_gas": {
+    "message": "请添加少量 {symbol} 以支付网络费。"
   },
   "ton_bridge_insufficient_funds": {
     "message": "余额不足"
   },
   "ton_bridge_need_source_wallet": {
-    "message": "没有可转出的钱包，请先在钱包页充值"
+    "message": "没有可转出的钱包，请先在钱包页充值。"
   },
   "ton_bridge_need_destination_wallet": {
     "message": "没有可接收的钱包，请先在钱包页创建"
@@ -6747,7 +6780,7 @@
     "message": "请求过多，请稍候。"
   },
   "ton_bridge_error_upstream": {
-    "message": "Bridge 服务异常，请重试。"
+    "message": "Bridge 服务异常。"
   },
   "ton_bridge_error_broadcast": {
     "message": "交易广播失败，请重试。"
@@ -6756,7 +6789,7 @@
     "message": "登录状态已过期，请重新登录后重试。"
   },
   "ton_bridge_powered_by_changenow": {
-    "message": "由 ChangeNow 提供"
+    "message": "由 ChangeNow 路由"
   },
   "ton_bridge_powered_by_relay": {
     "message": "由 Relay 路由"
@@ -7102,9 +7135,6 @@
   },
   "shared_import_none": {
     "message": "不导入标签"
-  },
-  "shared_import_all_labels": {
-    "message": "全部标签"
   },
   "shared_import_wallet_groups": {
     "message": "钱包分组"
