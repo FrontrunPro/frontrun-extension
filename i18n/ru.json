@@ -6770,6 +6770,18 @@
   "ton_bridge_start_over_cta": {
     "message": "Заново"
   },
+  "ton_bridge_source_not_confirmed": {
+    "message": "Исходная транзакция не подтверждена. Средства не переведены."
+  },
+  "ton_bridge_source_reverted": {
+    "message": "Исходная транзакция отклонена. Средства не переведены."
+  },
+  "ton_bridge_source_confirmed_relay_delayed": {
+    "message": "Исходная транзакция подтверждена, но мост ещё не обновился."
+  },
+  "ton_bridge_view_source_tx": {
+    "message": "Исходная транзакция"
+  },
   "ton_bridge_done_cta": {
     "message": "Готово"
   },

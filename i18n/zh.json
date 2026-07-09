@@ -6743,6 +6743,18 @@
   "ton_bridge_start_over_cta": {
     "message": "重新开始"
   },
+  "ton_bridge_source_not_confirmed": {
+    "message": "源链交易未确认，资金未进入跨链桥。"
+  },
+  "ton_bridge_source_reverted": {
+    "message": "源链交易已回滚，资金未进入跨链桥。"
+  },
+  "ton_bridge_source_confirmed_relay_delayed": {
+    "message": "源链交易已确认，但跨链桥尚未更新。"
+  },
+  "ton_bridge_view_source_tx": {
+    "message": "查看源链交易"
+  },
   "ton_bridge_done_cta": {
     "message": "完成"
   },
