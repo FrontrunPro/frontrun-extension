@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Frontrun",
   "description": "Frontrun is your AI co-pilot, empowering crypto traders to stay ahead of the market",
-  "version": "0.0.321",
+  "version": "0.0.322",
   "icons": {
     "16": "icon-16.png",
     "32": "icon-32.png",
@@ -101,6 +101,7 @@
       ],
       "js": [
         "vendor.js",
+        "trading-vendor.js",
         "content-scripts/axiom.js"
       ]
     },
@@ -167,6 +168,7 @@
       ],
       "js": [
         "vendor.js",
+        "trading-vendor.js",
         "content-scripts/dexscreener.js"
       ]
     },
@@ -208,6 +210,7 @@
       ],
       "js": [
         "vendor.js",
+        "trading-vendor.js",
         "content-scripts/fomo.js"
       ]
     },
@@ -237,6 +240,7 @@
       ],
       "js": [
         "vendor.js",
+        "trading-vendor.js",
         "content-scripts/gmgn.js"
       ]
     },
@@ -256,6 +260,7 @@
       ],
       "js": [
         "vendor.js",
+        "trading-vendor.js",
         "content-scripts/padre.js"
       ]
     },
@@ -326,6 +331,7 @@
       ],
       "js": [
         "vendor.js",
+        "trading-vendor.js",
         "content-scripts/pump.js"
       ]
     },

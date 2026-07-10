@@ -5435,6 +5435,33 @@
   "show_chart_order_lines_desc": {
     "message": "Показывать на графике линии ордеров и автоторговли"
   },
+  "edge_node": {
+    "message": "Ускорение Edge-узлом"
+  },
+  "edge_node_desc": {
+    "message": "При включении использует азиатский edge-узел, пока он быстрее — лучше всего для Азии и Океании."
+  },
+  "test_latency": {
+    "message": "Тест задержки"
+  },
+  "node_default": {
+    "message": "Глобальный"
+  },
+  "node_edge": {
+    "message": "Азия"
+  },
+  "edge_recommend_on": {
+    "message": "Рекомендуется включить"
+  },
+  "edge_recommend_off": {
+    "message": "Не рекомендуется"
+  },
+  "edge_auto_active": {
+    "message": "Авто: активно — маршрут через Азию"
+  },
+  "edge_auto_standby": {
+    "message": "Авто: ожидание — Азия не быстрее"
+  },
   "anti_wick_limit_order_setting": {
     "message": "Антишпиль триггер"
   },

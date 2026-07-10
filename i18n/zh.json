@@ -5423,6 +5423,33 @@
   "show_chart_order_lines_desc": {
     "message": "在图表上显示限价单和自动交易线"
   },
+  "edge_node": {
+    "message": "边缘节点加速"
+  },
+  "edge_node_desc": {
+    "message": "开启后，会在亚洲节点对你更快时自动路由——最适合亚洲和大洋洲。"
+  },
+  "test_latency": {
+    "message": "测试延迟"
+  },
+  "node_default": {
+    "message": "全球"
+  },
+  "node_edge": {
+    "message": "亚洲"
+  },
+  "edge_recommend_on": {
+    "message": "建议开启"
+  },
+  "edge_recommend_off": {
+    "message": "不推荐开启"
+  },
+  "edge_auto_active": {
+    "message": "自动：已启用 — 通过亚洲路由"
+  },
+  "edge_auto_standby": {
+    "message": "自动：待命 — 亚洲未更快"
+  },
   "anti_wick_limit_order_setting": {
     "message": "防插针"
   },
