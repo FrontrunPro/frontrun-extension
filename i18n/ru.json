@@ -680,6 +680,9 @@
   "please_enter_a_valid_bsc_address": {
     "message": "Введите действительный адрес BSC"
   },
+  "please_enter_a_valid_evm_address": {
+    "message": "Введите действительный адрес EVM"
+  },
   "primary_label_is_required": {
     "message": "Основная метка обязательна"
   },
@@ -1219,6 +1222,9 @@
   },
   "import_to_frontrun_tip": {
     "message": "Импортируйте свои метки во Frontrun для удобного просмотра на Solscan, Axiom, GMGN и других платформах. Метки останутся приватными — их никто не увидит."
+  },
+  "import_evm_wallets_as": {
+    "message": "Импорт EVM-кошельков как"
   },
   "never_show_this_again": {
     "message": "Больше не показывать."

@@ -638,6 +638,9 @@
   "please_enter_a_valid_bsc_address": {
     "message": "请输入有效的 BSC 地址"
   },
+  "please_enter_a_valid_evm_address": {
+    "message": "请输入有效的 EVM 地址"
+  },
   "primary_label_is_required": {
     "message": "主要标签为必填项"
   },
@@ -1177,6 +1180,9 @@
   },
   "import_to_frontrun_tip": {
     "message": "将标签导入 Frontrun，便可在 Solscan、Axiom、GMGN 等平台无缝显示。所有标签仅您可见，绝不会与其他用户共享。"
+  },
+  "import_evm_wallets_as": {
+    "message": "将 EVM 钱包导入为"
   },
   "never_show_this_again": {
     "message": "不再显示此提示。"
