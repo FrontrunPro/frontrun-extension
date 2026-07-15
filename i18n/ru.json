@@ -2357,6 +2357,9 @@
   "base_swap_reverted": {
     "message": "Своп откатан в сети — токен пока нельзя торговать. Повторите или повысьте слиппедж."
   },
+  "base_swap_insufficient_balance": {
+    "message": "Недостаточно токенов для продажи. Обновите позицию и повторите."
+  },
   "transactions_failed": {
     "message": "транзакций не выполнено"
   },
@@ -3172,6 +3175,9 @@
   },
   "fee_saved_bnb_info_tooltip": {
     "message": "90% мгновенный кешбэк за каждую BNB сделку"
+  },
+  "fee_saved_robinhood_info_tooltip": {
+    "message": "90% мгновенный кешбэк за каждую сделку Robinhood"
   },
   "cashback_claim_announcement": {
     "message": "Кешбэк теперь вручную."
@@ -5474,6 +5480,9 @@
   "anti_wick_limit_order_setting_desc": {
     "message": "Триггер по медиане цены за 1 с, чтобы снизить ложные срабатывания"
   },
+  "anti_wick_limit_order_setting_tooltip": {
+    "message": "Активирует лимитные ордера по медиане цены за 1 с, а не по последнему тику, поэтому кратковременный всплеск или провал реже срабатывает преждевременно. Снижает ложные срабатывания по шпилю, но не гарантирует полной защиты."
+  },
   "sell_limit_order_track_live_position": {
     "message": "Продажа % от баланса"
   },
@@ -7342,5 +7351,53 @@
   },
   "eth_wallets_import_success": {
     "message": "Кошелёк ETH импортирован"
+  },
+  "RBH_wallets_page_title": {
+    "message": "Robinhood-кошельки"
+  },
+  "RBH_wallets_empty_title": {
+    "message": "Нет Robinhood-кошельков"
+  },
+  "RBH_wallets_empty_subtitle": {
+    "message": "Нет Robinhood-кошельков. Создайте, чтобы начать."
+  },
+  "RBH_wallets_create_cta": {
+    "message": "Создать Robinhood-кошелек"
+  },
+  "RBH_wallets_import_cta": {
+    "message": "Импорт сид-фразы"
+  },
+  "RBH_wallets_refresh": {
+    "message": "Обновить балансы"
+  },
+  "RBH_wallets_import_title": {
+    "message": "Импорт Robinhood-кошелька"
+  },
+  "RBH_wallets_import_subtitle": {
+    "message": "Вставьте сид-фразу из 12 слов для восстановления Robinhood-кошелька."
+  },
+  "RBH_wallets_import_mnemonic_placeholder": {
+    "message": "слово"
+  },
+  "RBH_wallets_import_submit": {
+    "message": "Импортировать"
+  },
+  "RBH_wallets_import_success": {
+    "message": "Кошелёк Robinhood импортирован"
+  },
+  "RBH_wallets_export_title": {
+    "message": "Экспорт приватного ключа"
+  },
+  "RBH_wallets_export_private_key": {
+    "message": "Экспорт приватного ключа"
+  },
+  "RBH_wallets_export_mnemonic": {
+    "message": "Экспорт сид-фразы"
+  },
+  "RBH_wallets_name_placeholder": {
+    "message": "Название кошелька"
+  },
+  "RBH_wallets_delete_confirm": {
+    "message": "Удалить этот кошелек?"
   }
 }

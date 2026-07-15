@@ -2,13 +2,14 @@
   "manifest_version": 3,
   "name": "Frontrun",
   "description": "Frontrun is your AI co-pilot, empowering crypto traders to stay ahead of the market",
-  "version": "0.0.324",
+  "version": "0.0.325",
   "icons": {
     "16": "icon-16.png",
     "32": "icon-32.png",
     "48": "icon-48.png",
     "128": "icon-128.png"
   },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAscPePi8NdgZPF02saswnOj3GoIo12zgbT5nOLuE17fkrk+TjxaFU7TMVbNo9u/9jWGIwIeGyTbF6d4LfdbFxrvfS2mQCOFKgFRCnr9s8KI6uOKCAbVcsIivGxyfrGcsi2Z8JNRRIaucN8npIF78fUvwxkcv1av6yIcWVb05uwMQIFINxW9jVuonG5JEcrSd/61hWdTBJxlrrWjwAGdxUODwe64PW/gQ2g5otpOYctWVHVv2ivqCtwQ4Mw2nL8SbvctzeU/v+toPbqHIo5fhv+C38VxPCnhBn5gto+mKlSdT3ODl3mQJTaLJnjKn6f7zyJTOftaB4VYT69/+Z6quJMQIDAQAB",
   "default_locale": "en",
   "host_permissions": [
     "<all_urls>"

@@ -2183,6 +2183,9 @@
   "token_balance_not_enough": {
     "message": "余额不足"
   },
+  "token_not_supported": {
+    "message": "不支持此代币"
+  },
   "sell_amount_below_minimum": {
     "message": "剩余代币余额过小，无法卖出"
   },
@@ -2299,6 +2302,9 @@
   },
   "base_swap_reverted": {
     "message": "兑换在链上被回滚——该代币可能暂时无法交易，可重试或提高滑点。"
+  },
+  "base_swap_insufficient_balance": {
+    "message": "代币余额不足，无法完成卖出。请刷新持仓后重试。"
   },
   "transactions_failed": {
     "message": "笔交易失败"
@@ -2482,6 +2488,9 @@
   },
   "fee_saved_bnb_info_tooltip": {
     "message": "每笔 BNB 交易享 90% 即时返现"
+  },
+  "fee_saved_robinhood_info_tooltip": {
+    "message": "每笔 Robinhood 交易享 90% 即时返现"
   },
   "cashback_claim_announcement": {
     "message": "返现现已改为手动领取。"
@@ -5462,6 +5471,9 @@
   "anti_wick_limit_order_setting_desc": {
     "message": "使用 1 秒中位价判断触发，减少插针误触发"
   },
+  "anti_wick_limit_order_setting_tooltip": {
+    "message": "根据 1 秒中位价（而非最新一跳）触发限价单，瞬时的插针拉升或下插更不容易过早触发订单。可减少插针误触发，但无法 100% 保证。"
+  },
   "sell_limit_order_track_live_position": {
     "message": "按实时余额百分比卖出"
   },
@@ -7306,5 +7318,53 @@
   },
   "eth_wallets_import_success": {
     "message": "ETH 钱包已导入"
+  },
+  "RBH_wallets_page_title": {
+    "message": "Robinhood 钱包"
+  },
+  "RBH_wallets_empty_title": {
+    "message": "还没有 Robinhood 钱包"
+  },
+  "RBH_wallets_empty_subtitle": {
+    "message": "还没有 Robinhood 钱包。创建一个开始使用。"
+  },
+  "RBH_wallets_create_cta": {
+    "message": "创建 Robinhood 钱包"
+  },
+  "RBH_wallets_import_cta": {
+    "message": "导入助记词"
+  },
+  "RBH_wallets_refresh": {
+    "message": "刷新余额"
+  },
+  "RBH_wallets_import_title": {
+    "message": "导入 Robinhood 钱包"
+  },
+  "RBH_wallets_import_subtitle": {
+    "message": "粘贴 12 个助记词以恢复你的 Robinhood 钱包。"
+  },
+  "RBH_wallets_import_mnemonic_placeholder": {
+    "message": "单词"
+  },
+  "RBH_wallets_import_submit": {
+    "message": "导入钱包"
+  },
+  "RBH_wallets_import_success": {
+    "message": "Robinhood 钱包已导入"
+  },
+  "RBH_wallets_export_title": {
+    "message": "导出私钥"
+  },
+  "RBH_wallets_export_private_key": {
+    "message": "导出私钥"
+  },
+  "RBH_wallets_export_mnemonic": {
+    "message": "导出助记词"
+  },
+  "RBH_wallets_name_placeholder": {
+    "message": "钱包名称"
+  },
+  "RBH_wallets_delete_confirm": {
+    "message": "删除此钱包？"
   }
 }
