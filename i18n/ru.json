@@ -239,6 +239,9 @@
   "smart_followers_refresh_failed": {
     "message": "Ошибка обновления"
   },
+  "smart_followers_view_more_failed": {
+    "message": "Не удалось загрузить"
+  },
   "smart_members": {
     "message": "Умные участники"
   },
@@ -1303,6 +1306,9 @@
   },
   "instant_trade": {
     "message": "Быстрая торговля"
+  },
+  "frontrun_trading_panel": {
+    "message": "Панель Frontrun"
   },
   "open_panel_hotkey": {
     "message": "Открыть панель Instant Trade клавишей"

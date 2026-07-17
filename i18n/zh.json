@@ -212,6 +212,9 @@
   "smart_followers_refresh_failed": {
     "message": "刷新失败"
   },
+  "smart_followers_view_more_failed": {
+    "message": "加载失败"
+  },
   "smart_members": {
     "message": "KOL成员"
   },
@@ -1261,6 +1264,9 @@
   },
   "instant_trade": {
     "message": "闪电交易"
+  },
+  "frontrun_trading_panel": {
+    "message": "Frontrun 交易面板"
   },
   "open_panel_hotkey": {
     "message": "快捷键开关闪电交易面板"
