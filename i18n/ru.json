@@ -5982,7 +5982,7 @@
     "message": "Тариф {plan} скоро истечёт"
   },
   "credit_limit_banner_expiring_desc": {
-    "message": "Улучшите план, чтобы сохранить доступ."
+    "message": "Продлите план, чтобы сохранить доступ."
   },
   "credit_limit_banner_expired_title": {
     "message": "Тариф {plan} истёк"

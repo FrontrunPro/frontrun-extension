@@ -5973,7 +5973,7 @@
     "message": "您的 {plan} 套餐即将到期"
   },
   "credit_limit_banner_expiring_desc": {
-    "message": "立即升级以保持访问。"
+    "message": "立即续费以保持访问。"
   },
   "credit_limit_banner_expired_title": {
     "message": "您的 {plan} 套餐已到期"
