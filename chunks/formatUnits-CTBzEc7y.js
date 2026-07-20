@@ -1,0 +1,1 @@
+function e(e,t){let n=e.toString(),r=n.startsWith(`-`);r&&(n=n.slice(1)),n=n.padStart(t,`0`);let[i,a]=[n.slice(0,n.length-t),n.slice(n.length-t)];return a=a.replace(/(0+)$/,``),`${r?`-`:``}${i||`0`}${a?`.${a}`:``}`}export{e as t};
