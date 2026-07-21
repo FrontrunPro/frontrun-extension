@@ -1127,6 +1127,9 @@
   "docs": {
     "message": "文档"
   },
+  "guides": {
+    "message": "指南"
+  },
   "community": {
     "message": "社区"
   },
@@ -6965,11 +6968,14 @@
   "turbo_enable_description": {
     "message": "TURBO 模式通过多条受保护的中继通道并发竞速交易，在 Solana 上实现最快、抗 MEV 的执行。"
   },
+  "turbo_tip_minimum_notice": {
+    "message": "TURBO 最低 Tip：0.0001 SOL"
+  },
   "turbo": {
     "message": "Turbo"
   },
   "turbo_on_tooltip": {
-    "message": "TURBO 已开启 — 更快、抗 MEV 的交易，无额外费用。"
+    "message": "TURBO 已开启 — 更快、抗 MEV，Tip 最低为 0.0001 SOL。"
   },
   "turbo_applies_to_all_active_wallets": {
     "message": "将为全部 {count} 个活跃钱包（余额不低于 {min} SOL）启用 Turbo。"
@@ -6989,6 +6995,9 @@
   "turbo_enable_failed": {
     "message": "启用 TURBO 模式失败"
   },
+  "turbo_tip_too_low": {
+    "message": "TURBO 要求 Tip 不低于 0.0001 SOL。请提高 Tip 或关闭 TURBO。"
+  },
   "turbo_disable_failed": {
     "message": "停用 TURBO 模式失败"
   },
@@ -7002,7 +7011,7 @@
     "message": "点击任一钱包的 ⚡，获得最快的交易执行速度。"
   },
   "turbo_awareness_pill_value_free": {
-    "message": "无额外费用"
+    "message": "最低 Tip 0.0001 SOL"
   },
   "turbo_awareness_pill_value_recommended": {
     "message": "推荐所有钱包开启"
@@ -7372,5 +7381,143 @@
   },
   "RBH_wallets_delete_confirm": {
     "message": "删除此钱包？"
+  },
+  "onboarding_step_pin_title": {
+    "message": "把 Frontrun 固定到工具栏,方便随时使用"
+  },
+  "onboarding_step_open_extension_title": {
+    "message": "登录以解锁 Frontrun"
+  },
+  "onboarding_step_open_account_title": {
+    "message": "看看热门账号"
+  },
+  "onboarding_step_open_account_body": {
+    "message": "聪明钱正在关注哪些账号。"
+  },
+  "onboarding_step_profile_insights_title": {
+    "message": "查看他们的钱包、交易和聪明粉丝"
+  },
+  "onboarding_step_profile_insights_body": {
+    "message": "把任意 X 主页变成可操作的交易情报。"
+  },
+  "onboarding_step_mentioned_cas_title": {
+    "message": "点击 History 查看他们喊的单"
+  },
+  "onboarding_step_mentioned_cas_body": {
+    "message": "打开他们提到的合约,查看每次喊单背后的数据。"
+  },
+  "onboarding_step_trade_ca_axiom_title": {
+    "message": "选择一个平台打开代币"
+  },
+  "onboarding_step_trade_ca_axiom_body": {
+    "message": "选择 Axiom、GMGN 或 Padre 继续。"
+  },
+  "onboarding_step_open_token_title": {
+    "message": "看看他们刚买了什么"
+  },
+  "onboarding_step_open_token_body": {
+    "message": "这是他们刚进的代币。"
+  },
+  "onboarding_step_holders_title": {
+    "message": "打开 Holders 标签页查看钱包标签"
+  },
+  "onboarding_step_holders_body": {
+    "message": "打开 Holders 标签页 —— 我们给钱包打好标签,方便你交易前先做功课。"
+  },
+  "onboarding_step_holders_targeted_title": {
+    "message": "查看每个已标注钱包的洞察"
+  },
+  "onboarding_step_holders_targeted_body": {
+    "message": "悬停标签查看完整详情。"
+  },
+  "onboarding_step_trade_panel_title": {
+    "message": "点击探索交易面板"
+  },
+  "onboarding_step_trade_panel_body": {
+    "message": "体验高级交易控制、多钱包设置和订单选项。"
+  },
+  "onboarding_step_first_trade_title": {
+    "message": "开始交易,享 90% 返现"
+  },
+  "onboarding_step_first_trade_body": {
+    "message": "充值以完成你的第一笔交易。"
+  },
+  "onboarding_next": {
+    "message": "下一步"
+  },
+  "onboarding_skip_tour": {
+    "message": "跳过引导"
+  },
+  "onboarding_finish_tour": {
+    "message": "完成引导"
+  },
+  "onboarding_pinned_it": {
+    "message": "我已固定"
+  },
+  "onboarding_take_quick_tour": {
+    "message": "快速了解一下"
+  },
+  "onboarding_head_to_x": {
+    "message": "前往 X"
+  },
+  "onboarding_browse_guides": {
+    "message": "浏览指南"
+  },
+  "onboarding_reopen_token": {
+    "message": "重新打开代币"
+  },
+  "onboarding_reload_page": {
+    "message": "刷新页面"
+  },
+  "onboarding_continue": {
+    "message": "继续"
+  },
+  "onboarding_close": {
+    "message": "关闭"
+  },
+  "onboarding_loading_next_step": {
+    "message": "正在加载下一步"
+  },
+  "onboarding_tour_start_body": {
+    "message": "了解如何在 X 上发现代币,并在几秒内完成交易。前往 X 开始引导。"
+  },
+  "onboarding_outro_completed_title": {
+    "message": "全部搞定!"
+  },
+  "onboarding_outro_skipped_title": {
+    "message": "已跳过引导"
+  },
+  "onboarding_outro_completed_body": {
+    "message": "引导到此结束。想了解更多?浏览我们的指南,获取教程和技巧。"
+  },
+  "onboarding_outro_skipped_body": {
+    "message": "你可以随时在 设置 → 通用 里重新播放,或浏览指南了解更多技巧。"
+  },
+  "onboarding_rescue_title": {
+    "message": "无法加载此步骤"
+  },
+  "onboarding_rescue_body_reopen": {
+    "message": "请确认你已登录该平台,然后重新打开代币以继续。"
+  },
+  "onboarding_rescue_body_reload": {
+    "message": "请确认你已登录该平台,然后刷新重试。"
+  },
+  "onboarding_settings_title": {
+    "message": "新手引导"
+  },
+  "onboarding_settings_cta": {
+    "message": "开始引导"
+  },
+  "onboarding_settings_body": {
+    "message": "重新播放引导,了解 Frontrun 的核心功能。"
+  },
+  "onboarding_no_ca_bridge_title": {
+    "message": "这个账号还没喊过单"
+  },
+  "onboarding_no_ca_bridge_body": {
+    "message": "我们打开一个示例代币,带你看看交易工具。"
+  },
+  "onboarding_open_token_on_axiom": {
+    "message": "在 Axiom 上打开代币"
   }
 }

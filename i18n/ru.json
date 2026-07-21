@@ -1169,6 +1169,9 @@
   "docs": {
     "message": "Docs"
   },
+  "guides": {
+    "message": "Guides"
+  },
   "community": {
     "message": "Сообщество"
   },
@@ -6998,11 +7001,14 @@
   "turbo_enable_description": {
     "message": "TURBO рассылает конкурирующие транзакции через защищённые релеи — максимально быстрое исполнение с защитой от MEV в Solana."
   },
+  "turbo_tip_minimum_notice": {
+    "message": "Минимум TURBO: 0,0001 SOL"
+  },
   "turbo": {
     "message": "Turbo"
   },
   "turbo_on_tooltip": {
-    "message": "TURBO включён — быстрые сделки с защитой от MEV без дополнительной комиссии."
+    "message": "TURBO включён — быстрые сделки с защитой от MEV требуют чаевых не менее 0,0001 SOL."
   },
   "turbo_applies_to_all_active_wallets": {
     "message": "Turbo включится для всех активных кошельков ({count}) с балансом не менее {min} SOL."
@@ -7022,6 +7028,9 @@
   "turbo_enable_failed": {
     "message": "Не удалось включить TURBO"
   },
+  "turbo_tip_too_low": {
+    "message": "Для TURBO нужны чаевые не менее 0,0001 SOL. Увеличьте их или выключите TURBO."
+  },
   "turbo_disable_failed": {
     "message": "Не удалось выключить TURBO"
   },
@@ -7035,7 +7044,7 @@
     "message": "Нажмите ⚡ на любом кошельке — самое быстрое исполнение."
   },
   "turbo_awareness_pill_value_free": {
-    "message": "Без доп. комиссии"
+    "message": "Минимум 0,0001 SOL"
   },
   "turbo_awareness_pill_value_recommended": {
     "message": "Подходит для всех кошельков"
@@ -7405,5 +7414,143 @@
   },
   "RBH_wallets_delete_confirm": {
     "message": "Удалить этот кошелек?"
+  },
+  "onboarding_step_pin_title": {
+    "message": "Закрепите Frontrun для быстрого доступа"
+  },
+  "onboarding_step_open_extension_title": {
+    "message": "Войдите, чтобы открыть Frontrun"
+  },
+  "onboarding_step_open_account_title": {
+    "message": "Популярные аккаунты"
+  },
+  "onboarding_step_open_account_body": {
+    "message": "За кем следят умные деньги."
+  },
+  "onboarding_step_profile_insights_title": {
+    "message": "Кошельки, сделки и умные подписчики"
+  },
+  "onboarding_step_profile_insights_body": {
+    "message": "Превратите профиль X в торговую аналитику."
+  },
+  "onboarding_step_mentioned_cas_title": {
+    "message": "Откройте History, чтобы увидеть их коллы"
+  },
+  "onboarding_step_mentioned_cas_body": {
+    "message": "Откройте упомянутые контракты и данные по каждому коллу."
+  },
+  "onboarding_step_trade_ca_axiom_title": {
+    "message": "Выберите платформу для токена"
+  },
+  "onboarding_step_trade_ca_axiom_body": {
+    "message": "Выберите Axiom, GMGN или Padre, чтобы продолжить."
+  },
+  "onboarding_step_open_token_title": {
+    "message": "Что они только что купили"
+  },
+  "onboarding_step_open_token_body": {
+    "message": "Вот токен, в который они вошли."
+  },
+  "onboarding_step_holders_title": {
+    "message": "Откройте вкладку Holders для меток"
+  },
+  "onboarding_step_holders_body": {
+    "message": "Откройте вкладку Holders — мы помечаем кошельки для анализа перед сделкой."
+  },
+  "onboarding_step_holders_targeted_title": {
+    "message": "Аналитика по каждому помеченному кошельку"
+  },
+  "onboarding_step_holders_targeted_body": {
+    "message": "Наведите на метку для деталей."
+  },
+  "onboarding_step_trade_panel_title": {
+    "message": "Откройте торговую панель"
+  },
+  "onboarding_step_trade_panel_body": {
+    "message": "Расширенное управление, мульти-кошельки и настройки ордеров."
+  },
+  "onboarding_step_first_trade_title": {
+    "message": "Торгуйте с кэшбэком 90%"
+  },
+  "onboarding_step_first_trade_body": {
+    "message": "Пополните счёт для первой сделки."
+  },
+  "onboarding_next": {
+    "message": "Далее"
+  },
+  "onboarding_skip_tour": {
+    "message": "Пропустить"
+  },
+  "onboarding_finish_tour": {
+    "message": "Завершить"
+  },
+  "onboarding_pinned_it": {
+    "message": "Готово"
+  },
+  "onboarding_take_quick_tour": {
+    "message": "Пройти обучение"
+  },
+  "onboarding_head_to_x": {
+    "message": "Перейти в X"
+  },
+  "onboarding_browse_guides": {
+    "message": "Открыть гайды"
+  },
+  "onboarding_reopen_token": {
+    "message": "Открыть токен заново"
+  },
+  "onboarding_reload_page": {
+    "message": "Обновить страницу"
+  },
+  "onboarding_continue": {
+    "message": "Продолжить"
+  },
+  "onboarding_close": {
+    "message": "Закрыть"
+  },
+  "onboarding_loading_next_step": {
+    "message": "Загрузка следующего шага"
+  },
+  "onboarding_tour_start_body": {
+    "message": "Узнайте, как находить токены в X и торговать ими за секунды. Перейдите в X, чтобы начать обучение."
+  },
+  "onboarding_outro_completed_title": {
+    "message": "Всё готово!"
+  },
+  "onboarding_outro_skipped_title": {
+    "message": "Обучение пропущено"
+  },
+  "onboarding_outro_completed_body": {
+    "message": "Обучение завершено. Откройте гайды с инструкциями и советами."
+  },
+  "onboarding_outro_skipped_body": {
+    "message": "Повторите его в Настройки → Общие или откройте гайды."
+  },
+  "onboarding_rescue_title": {
+    "message": "Не удалось загрузить шаг"
+  },
+  "onboarding_rescue_body_reopen": {
+    "message": "Войдите в аккаунт платформы и снова откройте токен."
+  },
+  "onboarding_rescue_body_reload": {
+    "message": "Войдите в аккаунт платформы и обновите страницу."
+  },
+  "onboarding_settings_title": {
+    "message": "Обучение"
+  },
+  "onboarding_settings_cta": {
+    "message": "Начать"
+  },
+  "onboarding_settings_body": {
+    "message": "Повторите обучение и изучите основные инструменты Frontrun."
+  },
+  "onboarding_no_ca_bridge_title": {
+    "message": "У этого аккаунта пока нет коллов"
+  },
+  "onboarding_no_ca_bridge_body": {
+    "message": "Откроем пример токена, чтобы показать инструменты."
+  },
+  "onboarding_open_token_on_axiom": {
+    "message": "Открыть токен в Axiom"
   }
 }
