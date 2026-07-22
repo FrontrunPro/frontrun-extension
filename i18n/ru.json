@@ -1328,6 +1328,9 @@
   "recently_logged_in_as": {
     "message": "Вход как"
   },
+  "finishing_sign_in": {
+    "message": "Завершаем вход…"
+  },
   "sign_in_to_continue": {
     "message": "Войти"
   },
@@ -2365,6 +2368,9 @@
   },
   "base_swap_reverted": {
     "message": "Своп откатан в сети — токен пока нельзя торговать. Повторите или повысьте слиппедж."
+  },
+  "robinhood_launch_block_buy_blocked": {
+    "message": "Защита запуска ещё действует. Подождите и повторите."
   },
   "base_swap_insufficient_balance": {
     "message": "Недостаточно токенов для продажи. Обновите позицию и повторите."

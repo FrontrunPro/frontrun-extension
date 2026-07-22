@@ -1310,6 +1310,9 @@
   "recently_logged_in_as": {
     "message": "最近登录账号"
   },
+  "finishing_sign_in": {
+    "message": "正在完成登录…"
+  },
   "sign_in_to_continue": {
     "message": "登录以继续"
   },
@@ -2311,6 +2314,9 @@
   },
   "base_swap_reverted": {
     "message": "兑换在链上被回滚——该代币可能暂时无法交易，可重试或提高滑点。"
+  },
+  "robinhood_launch_block_buy_blocked": {
+    "message": "该代币的发射保护仍在生效，请稍候片刻后重试。"
   },
   "base_swap_insufficient_balance": {
     "message": "代币余额不足，无法完成卖出。请刷新持仓后重试。"
