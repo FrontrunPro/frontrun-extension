@@ -1286,6 +1286,12 @@
   "axiom_search_quick_buy_description": {
     "message": "Кнопки в поиске Axiom"
   },
+  "social_monitor_quick_buy": {
+    "message": "Включить быструю покупку в GMGN Social Monitor"
+  },
+  "social_monitor_quick_buy_description": {
+    "message": "Показывать кнопки быстрой покупки рядом с токенами в GMGN Social Monitor для всех поддерживаемых сетей"
+  },
   "use_autotrade": {
     "message": "Автоторговля"
   },
@@ -6369,7 +6375,7 @@
     "message": "Общие {count}"
   },
   "shared_label_add_to_spaces": {
-    "message": "Добавить {count}"
+    "message": "Добавить метки"
   },
   "shared_label_batch_placeholder": {
     "message": "Одна метка"

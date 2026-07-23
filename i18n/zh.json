@@ -1244,6 +1244,12 @@
   "axiom_search_quick_buy_description": {
     "message": "在 Axiom 搜索内显示快速买入按钮"
   },
+  "social_monitor_quick_buy": {
+    "message": "启用 GMGN 社媒监控快买"
+  },
+  "social_monitor_quick_buy_description": {
+    "message": "在 GMGN 社媒监控的代币卡片旁显示快速买入按钮，适用于全部支持的链"
+  },
   "use_autotrade": {
     "message": "使用自动交易"
   },
@@ -6360,7 +6366,7 @@
     "message": "共享 {count}"
   },
   "shared_label_add_to_spaces": {
-    "message": "添加共享 {count}"
+    "message": "添加标签"
   },
   "shared_label_batch_placeholder": {
     "message": "统一标签名"
