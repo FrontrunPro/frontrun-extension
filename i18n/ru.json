@@ -4325,6 +4325,9 @@
   "no_pool_found": {
     "message": "Пул не найден. Торговля недоступна."
   },
+  "trading_route_unavailable": {
+    "message": "Торговый маршрут временно недоступен. Попробуйте позже."
+  },
   "bug_report_send": {
     "message": "Сообщить"
   },
@@ -5236,6 +5239,9 @@
   },
   "bsc_wallet": {
     "message": "BSC"
+  },
+  "robinhood_wallet": {
+    "message": "Кошелёк Robinhood"
   },
   "ton_wallet": {
     "message": "TON"

@@ -4319,6 +4319,9 @@
   "no_pool_found": {
     "message": "未找到有效池，无法交易。"
   },
+  "trading_route_unavailable": {
+    "message": "交易路由暂时不可用，请稍后重试。"
+  },
   "bug_report_send": {
     "message": "报告"
   },
@@ -5227,6 +5230,9 @@
   },
   "bsc_wallet": {
     "message": "BSC 钱包"
+  },
+  "robinhood_wallet": {
+    "message": "Robinhood 钱包"
   },
   "ton_wallet": {
     "message": "TON 钱包"
