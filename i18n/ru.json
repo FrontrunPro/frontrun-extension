@@ -6801,7 +6801,7 @@
     "message": "Ждём {from}"
   },
   "ton_bridge_waiting_status_confirming": {
-    "message": "Подтверждаем"
+    "message": "Подтверждаем депозит {from}"
   },
   "ton_bridge_waiting_status_exchanging": {
     "message": "Обмен"
@@ -7570,5 +7570,59 @@
   },
   "onboarding_open_token_on_axiom": {
     "message": "Открыть токен в Axiom"
+  },
+  "wallet_common_seed_phrase_12_words": {
+    "message": "12 слов"
+  },
+  "wallet_common_seed_phrase_24_words": {
+    "message": "24 слова"
+  },
+  "token_not_supported": {
+    "message": "Этот токен не поддерживается"
+  },
+  "failed_to_copy_to_clipboard": {
+    "message": "Не удалось скопировать"
+  },
+  "RBH_swap_out_of_gas": {
+    "message": "Свапу не хватило газа — попробуйте снова."
+  },
+  "RBH_swap_network_rejected": {
+    "message": "Сеть отклонила транзакцию — попробуйте снова."
+  },
+  "RBH_swap_reverted": {
+    "message": "Свап откатился в сети — токен может быть недоступен. Попробуйте снова или увеличьте slippage."
+  },
+  "hide_token": {
+    "message": "Скрыть токен"
+  },
+  "pair_info_not_loaded": {
+    "message": "Данные токена не загружены. Обновите и попробуйте снова."
+  },
+  "limit_orders_solana_only": {
+    "message": "Лимитные ордера доступны только в Solana."
+  },
+  "policy_not_ready": {
+    "message": "Политика кошелька не готова. Повторите чуть позже."
+  },
+  "position_data_not_loaded": {
+    "message": "Данные позиции не загружены. Обновите и попробуйте снова."
+  },
+  "invalid_market_cap": {
+    "message": "Введите корректную капитализацию."
+  },
+  "sell_percentage_max_100": {
+    "message": "Процент продажи не может превышать 100%"
+  },
+  "confirmed": {
+    "message": "подтверждено"
+  },
+  "failed": {
+    "message": "не удалось"
+  },
+  "pending": {
+    "message": "Ожидает"
+  },
+  "play": {
+    "message": "Воспроизвести"
   }
 }

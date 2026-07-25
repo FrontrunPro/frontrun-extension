@@ -5973,10 +5973,10 @@
     "message": "今日已达上限"
   },
   "credit_limit_tooltip_subtitle": {
-    "message": "您的额度将在 {reset} 后重置。"
+    "message": "您的 {planName} 套餐额度将在 {reset} 后重置。"
   },
   "credit_limit_tooltip_subtitle_generic": {
-    "message": "您的额度即将重置。"
+    "message": "您的 {planName} 套餐额度即将重置。"
   },
   "credit_limit_tooltip_understood": {
     "message": "我知道了"
@@ -6777,7 +6777,7 @@
     "message": "等待 {from} 确认"
   },
   "ton_bridge_waiting_status_confirming": {
-    "message": "确认中"
+    "message": "正在确认 {from} 入账"
   },
   "ton_bridge_waiting_status_exchanging": {
     "message": "兑换中"
@@ -7537,5 +7537,92 @@
   },
   "onboarding_open_token_on_axiom": {
     "message": "在 Axiom 上打开代币"
+  },
+  "active_tweets": {
+    "message": "活跃推文"
+  },
+  "link_more_wallets": {
+    "message": "关联更多钱包"
+  },
+  "link_wallets": {
+    "message": "关联钱包"
+  },
+  "password_dialog_reset_confirm_description_secondary_secondary": {
+    "message": "此操作无法撤销。"
+  },
+  "primary_label": {
+    "message": "主标签"
+  },
+  "ton_bridge_amount_too_small": {
+    "message": "金额太小，无法兑换。"
+  },
+  "ton_bridge_success_eyebrow": {
+    "message": "跨链完成"
+  },
+  "ton_bridge_success_subtitle": {
+    "message": "已从 {amount} {from} 跨链。"
+  },
+  "ton_bridge_success_to_label": {
+    "message": "到"
+  },
+  "ton_bridge_wsol_need_sol_for_fee": {
+    "message": "添加少量 SOL 用于支付网络费。"
+  },
+  "ton_bridge_wsol_none": {
+    "message": "此钱包没有可解包的 wSOL。"
+  },
+  "ton_wallet_picker_empty": {
+    "message": "暂无有余额的钱包"
+  },
+  "ton_wallet_picker_title": {
+    "message": "活跃钱包"
+  },
+  "zero_balance_warning": {
+    "message": "该钱包 SOL 余额为 0。关闭账户前请至少转入 0.001 SOL 支付交易费。"
+  },
+  "failed_to_copy_to_clipboard": {
+    "message": "复制到剪贴板失败"
+  },
+  "RBH_swap_out_of_gas": {
+    "message": "Swap gas 不足，请重试。"
+  },
+  "RBH_swap_network_rejected": {
+    "message": "网络拒绝了交易，请重试。"
+  },
+  "RBH_swap_reverted": {
+    "message": "Swap 在链上回滚，该代币可能暂不可交易。请重试或提高滑点。"
+  },
+  "hide_token": {
+    "message": "隐藏代币"
+  },
+  "pair_info_not_loaded": {
+    "message": "代币信息未加载，请刷新后重试。"
+  },
+  "limit_orders_solana_only": {
+    "message": "限价单仅支持 Solana。"
+  },
+  "policy_not_ready": {
+    "message": "钱包策略尚未就绪，请稍后重试。"
+  },
+  "position_data_not_loaded": {
+    "message": "持仓数据未加载，请刷新后重试。"
+  },
+  "invalid_market_cap": {
+    "message": "请输入有效市值。"
+  },
+  "sell_percentage_max_100": {
+    "message": "卖出比例不能超过 100%"
+  },
+  "confirmed": {
+    "message": "已确认"
+  },
+  "failed": {
+    "message": "失败"
+  },
+  "pending": {
+    "message": "待处理"
+  },
+  "play": {
+    "message": "播放"
   }
 }
