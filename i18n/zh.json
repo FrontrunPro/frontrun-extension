@@ -1805,6 +1805,57 @@
   "share_group": {
     "message": "分享分组"
   },
+  "pnl_share_gif_too_large": {
+    "message": "GIF 需小于 5 MB"
+  },
+  "pnl_share_custom_background_alt": {
+    "message": "自定义背景"
+  },
+  "pnl_share_update_image": {
+    "message": "更换图片"
+  },
+  "pnl_share_custom_image": {
+    "message": "自定义图片"
+  },
+  "pnl_share_update": {
+    "message": "更换"
+  },
+  "pnl_share_download": {
+    "message": "下载"
+  },
+  "pnl_share_create_code": {
+    "message": "创建代码"
+  },
+  "pnl_share_add_referral": {
+    "message": "添加推荐码/用户名"
+  },
+  "pnl_share_show_cashback": {
+    "message": "显示返现"
+  },
+  "pnl_share_rendering_frame": {
+    "message": "正在渲染帧 {current}/{total}..."
+  },
+  "pnl_share_gif_link_copied": {
+    "message": "GIF 链接已复制到剪贴板"
+  },
+  "pnl_share_image_copied": {
+    "message": "图片已复制到剪贴板"
+  },
+  "pnl_share_copy_failed": {
+    "message": "复制失败"
+  },
+  "pnl_share_download_failed": {
+    "message": "下载失败"
+  },
+  "pnl_share_gif_link_copied_tweet": {
+    "message": "GIF 链接已复制！粘贴到你的推文中"
+  },
+  "pnl_share_image_copied_tweet": {
+    "message": "图片已复制！在推文中粘贴 (Ctrl+V)"
+  },
+  "pnl_share_share_failed": {
+    "message": "分享失败"
+  },
   "share_pnl": {
     "message": "分享 PnL"
   },
@@ -2219,6 +2270,9 @@
   "confirmed_buy": {
     "message": "确认购买"
   },
+  "confirmed_buy_batch": {
+    "message": "{confirmedCount}/{totalCount} 确认购买"
+  },
   "confirmed_sell": {
     "message": "确认卖出"
   },
@@ -2600,6 +2654,12 @@
   "bsc_tip_label": {
     "message": "小费 (BNB)"
   },
+  "robinhood_gas_price_label_with_min": {
+    "message": "燃料费 (Gwei)，最小 {min}"
+  },
+  "robinhood_tip_label": {
+    "message": "小费 (ETH)"
+  },
   "bsc_tip_too_low": {
     "message": "小费不足，当前燃料费下最低需 {minTip} BNB"
   },
@@ -2725,6 +2785,9 @@
   },
   "user_id": {
     "message": "用户 ID"
+  },
+  "manage_public_wallets": {
+    "message": "管理公开钱包"
   },
   "plan": {
     "message": "套餐"
@@ -4612,6 +4675,15 @@
   },
   "swatch_default": {
     "message": "默认"
+  },
+  "color_light": {
+    "message": "浅色模式颜色"
+  },
+  "swatch_pink": {
+    "message": "粉色"
+  },
+  "swatch_green": {
+    "message": "绿色"
   },
   "swatch_dark": {
     "message": "深色"
@@ -6749,6 +6821,9 @@
   "ton_bridge_balance_below_minimum": {
     "message": "可用余额低于最低交易金额。"
   },
+  "ton_bridge_balance_unavailable": {
+    "message": "无法获取余额。请输入金额后继续。"
+  },
   "ton_bridge_reserve_buffer": {
     "message": "最大金额已包含网络费。"
   },
@@ -6862,6 +6937,9 @@
   },
   "ton_bridge_error_rate_limited": {
     "message": "请求过多，请稍候。"
+  },
+  "ton_bridge_no_route_for_amount": {
+    "message": "当前金额暂无可用路线，请提高金额后重试。"
   },
   "ton_bridge_error_upstream": {
     "message": "Bridge 服务异常。"
@@ -7352,14 +7430,14 @@
   "eth_wallets_import_success": {
     "message": "ETH 钱包已导入"
   },
-  "RBH_wallets_page_title": {
-    "message": "Robinhood 钱包"
-  },
   "RBH_wallets_empty_title": {
     "message": "还没有 Robinhood 钱包"
   },
   "RBH_wallets_empty_subtitle": {
     "message": "还没有 Robinhood 钱包。创建一个开始使用。"
+  },
+  "RBH_drag_here_to_ungroup": {
+    "message": "拖动钱包到这里可移出分组"
   },
   "RBH_wallets_create_cta": {
     "message": "创建 Robinhood 钱包"

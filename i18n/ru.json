@@ -1820,6 +1820,57 @@
   "share_group": {
     "message": "Поделиться"
   },
+  "pnl_share_gif_too_large": {
+    "message": "GIF должен быть меньше 5 МБ"
+  },
+  "pnl_share_custom_background_alt": {
+    "message": "Свой фон"
+  },
+  "pnl_share_update_image": {
+    "message": "Обновить фото"
+  },
+  "pnl_share_custom_image": {
+    "message": "Своё фото"
+  },
+  "pnl_share_update": {
+    "message": "Обновить"
+  },
+  "pnl_share_download": {
+    "message": "Скачать"
+  },
+  "pnl_share_create_code": {
+    "message": "Создать код"
+  },
+  "pnl_share_add_referral": {
+    "message": "Добавить реферальный код/имя"
+  },
+  "pnl_share_show_cashback": {
+    "message": "Показать кэшбэк"
+  },
+  "pnl_share_rendering_frame": {
+    "message": "Рендеринг кадра {current}/{total}..."
+  },
+  "pnl_share_gif_link_copied": {
+    "message": "Ссылка на GIF скопирована"
+  },
+  "pnl_share_image_copied": {
+    "message": "Изображение скопировано"
+  },
+  "pnl_share_copy_failed": {
+    "message": "Не удалось скопировать"
+  },
+  "pnl_share_download_failed": {
+    "message": "Не удалось скачать"
+  },
+  "pnl_share_gif_link_copied_tweet": {
+    "message": "Ссылка на GIF скопирована! Вставьте в твит"
+  },
+  "pnl_share_image_copied_tweet": {
+    "message": "Изображение скопировано! Вставьте (Ctrl+V) в твит"
+  },
+  "pnl_share_share_failed": {
+    "message": "Не удалось поделиться"
+  },
   "share_pnl": {
     "message": "Share PnL"
   },
@@ -2273,6 +2324,9 @@
   "confirmed_buy": {
     "message": "Куплено"
   },
+  "confirmed_buy_batch": {
+    "message": "{confirmedCount}/{totalCount} куплено"
+  },
   "confirmed_sell": {
     "message": "Продано"
   },
@@ -2594,6 +2648,12 @@
   "bsc_tip_label": {
     "message": "Чаевые (BNB)"
   },
+  "robinhood_gas_price_label_with_min": {
+    "message": "Цена газа (Gwei), минимум {min}"
+  },
+  "robinhood_tip_label": {
+    "message": "Чаевые (ETH)"
+  },
   "bsc_tip_too_low": {
     "message": "Чаевые слишком малы, минимум {minTip} BNB для текущей цены газа"
   },
@@ -2716,6 +2776,9 @@
   },
   "user_id": {
     "message": "ID пользователя"
+  },
+  "manage_public_wallets": {
+    "message": "Публичные кошельки"
   },
   "plan": {
     "message": "План"
@@ -4618,6 +4681,15 @@
   },
   "swatch_default": {
     "message": "Стандарт"
+  },
+  "color_light": {
+    "message": "Цвет светлой темы"
+  },
+  "swatch_pink": {
+    "message": "Розовый"
+  },
+  "swatch_green": {
+    "message": "Зелёный"
   },
   "swatch_dark": {
     "message": "Тёмный"
@@ -6764,6 +6836,9 @@
   "ton_bridge_balance_below_minimum": {
     "message": "Баланс ниже минимальной суммы сделки."
   },
+  "ton_bridge_balance_unavailable": {
+    "message": "Не удалось получить баланс. Введите сумму, чтобы продолжить."
+  },
   "ton_bridge_reserve_buffer": {
     "message": "Макс. сумма включает комиссию сети."
   },
@@ -6895,6 +6970,9 @@
   },
   "ton_bridge_error_rate_limited": {
     "message": "Подождите."
+  },
+  "ton_bridge_no_route_for_amount": {
+    "message": "Для этой суммы нет маршрута. Увеличьте сумму и повторите."
   },
   "ton_bridge_error_upstream": {
     "message": "Сбой."
@@ -7385,14 +7463,14 @@
   "eth_wallets_import_success": {
     "message": "Кошелёк ETH импортирован"
   },
-  "RBH_wallets_page_title": {
-    "message": "Robinhood-кошельки"
-  },
   "RBH_wallets_empty_title": {
     "message": "Нет Robinhood-кошельков"
   },
   "RBH_wallets_empty_subtitle": {
     "message": "Нет Robinhood-кошельков. Создайте, чтобы начать."
+  },
+  "RBH_drag_here_to_ungroup": {
+    "message": "Перетащите кошелёк сюда, чтобы убрать из группы"
   },
   "RBH_wallets_create_cta": {
     "message": "Создать Robinhood-кошелек"

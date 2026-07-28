@@ -1,0 +1,1 @@
+import{t as e}from"./messaging-C6wP78Y3.js";var t=`robinhood_wallets_page`;function n(t,n={},r=e){r({name:`trackAmplitudeEvent`,body:{eventName:t,eventProperties:{chain:`ROBINHOOD`,...n}}}).catch(()=>void 0)}export{n,t};
