@@ -2,11 +2,10 @@ var fomo=(function(e,t,n,r,i,a,o,s,c,l,u,d,f,p,m,h,g,_,v,y,b,x,S,ee,C,w,te,T,E,D
  * fomo-specific CSUI overrides.
  *
  * fomo reuses pump-style.css for the [data-theme] block-reset, which pins the
- * shadow container to \`z-index: 1\`. The view-only links sit at the shared 49
- * tier (below fomo's instant-trade modal). The floating trade panel is pinned
- * to 39 — intentionally BELOW the 49 link tier and fomo's page chrome — so the
- * guest panel always fits under the host's own headers/modals/dialogs. Do NOT
- * use MAX_Z_INDEX: the panel is a guest and must fit under the host's modals.
+ * shadow container to \`z-index: 1\`. View-only token-header links sit at 39,
+ * below FOMO's holder-detail popup, so they never appear to belong to the
+ * holder. The floating trade panel keeps its dedicated layer. Do NOT use
+ * MAX_Z_INDEX: the panel is a guest and must fit under the host's modals.
  */
 
 :host(plasmo-csui) {
@@ -22,7 +21,7 @@ var fomo=(function(e,t,n,r,i,a,o,s,c,l,u,d,f,p,m,h,g,_,v,y,b,x,S,ee,C,w,te,T,E,D
 
 #frontrun-shadow-container {
   position: relative;
-  z-index: 49 !important;
+  z-index: 39 !important;
 }
 
 #frontrun-shadow-container:has(.frontrun-trading-panel) {

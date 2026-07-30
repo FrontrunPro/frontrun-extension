@@ -1160,6 +1160,9 @@
   "x_post_warm_links_supported_platforms": {
     "message": "Работает на Axiom, GMGN, Padre, DexScreener, Debot и Trojan"
   },
+  "x_post_warm_links_guide": {
+    "message": "Узнать больше"
+  },
   "x_post_warm_links_disabled_by_flag": {
     "message": "Отключено фиче-флагом"
   },
@@ -1884,7 +1887,7 @@
     "message": "Не удалось поделиться"
   },
   "share_pnl": {
-    "message": "Share PnL"
+    "message": "Поделиться PnL"
   },
   "receive": {
     "message": "Получить"
@@ -2368,6 +2371,9 @@
   },
   "program_error_code": {
     "message": "Ошибка транзакции (код {errorCode})"
+  },
+  "transaction_failed_onchain": {
+    "message": "Транзакция не выполнена в сети. Попробуйте снова или сообщите команде"
   },
   "rpc_rate_limited": {
     "message": "RPC перегружен. Ваши чаевые {currentTip} SOL — нужно минимум 0.00001 SOL"

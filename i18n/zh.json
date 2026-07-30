@@ -1118,6 +1118,9 @@
   "x_post_warm_links_supported_platforms": {
     "message": "支持 Axiom、GMGN、Padre、DexScreener、Debot、Trojan"
   },
+  "x_post_warm_links_guide": {
+    "message": "查看使用指南"
+  },
   "x_post_warm_links_disabled_by_flag": {
     "message": "已被功能开关停用"
   },
@@ -2314,6 +2317,9 @@
   },
   "program_error_code": {
     "message": "交易失败（错误 {errorCode}）"
+  },
+  "transaction_failed_onchain": {
+    "message": "交易在链上执行失败，请重试。如果持续失败，请联系团队"
   },
   "rpc_rate_limited": {
     "message": "RPC 请求过多。当前小费 {currentTip} SOL，请提高到至少 0.00001 SOL 以使用更快的发送策略"
