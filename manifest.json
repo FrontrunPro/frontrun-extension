@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Frontrun",
   "description": "Frontrun is your AI co-pilot, empowering crypto traders to stay ahead of the market",
-  "version": "0.0.336",
+  "version": "0.0.337",
   "icons": {
     "16": "icon-16.png",
     "32": "icon-32.png",
@@ -278,21 +278,13 @@
     {
       "matches": [
         "https://*.arkm.com/*",
-        "https://*.asterdex.com/*",
-        "https://*.betmoar.fun/*",
-        "https://*.bullx.io/*",
         "https://*.geckoterminal.com/*",
         "https://*.meteora.ag/*",
-        "https://*.stand.trade/*",
-        "https://*.vyper.trade/*",
         "https://*.xxyy.io/*",
         "https://akbot.pro/*",
-        "https://app.based.one/*",
+        "https://app.cielo.finance/*",
         "https://app.hyperliquid.xyz/*",
-        "https://app.legend.trade/*",
-        "https://app.liquid.trade/*",
         "https://app.trade.xyz/*",
-        "https://app.tread.fi/*",
         "https://basedbot.app/*",
         "https://coincommunities.org/*",
         "https://dexscreener.com/*",
@@ -301,17 +293,15 @@
         "https://hyperdash.com/*",
         "https://jup.ag/*",
         "https://kalshi.com/*",
-        "https://letsbonk.fun/*",
+        "https://nansen.ai/*",
         "https://polymarket.com/*",
         "https://pro.x.com/*",
-        "https://raydium.io/*",
         "https://robinhood.com/*",
         "https://universalx.app/*",
         "https://web.telegram.org/*",
         "https://web3.okx.com/*",
         "https://www.fomo.family/*",
-        "https://x-trader.ai/*",
-        "https://x1000.finance/*"
+        "https://x-trader.ai/*"
       ],
       "js": [
         "content-scripts/platform-visit.js"

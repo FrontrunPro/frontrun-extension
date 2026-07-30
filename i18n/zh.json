@@ -1109,6 +1109,18 @@
   "feature_temporarily_disabled": {
     "message": "该功能暂时停用，将在恢复后自动开启。"
   },
+  "x_post_warm_links_title": {
+    "message": "快速打开 X 帖子"
+  },
+  "x_post_warm_links_description": {
+    "message": "在代币页点击任意 X 帖子链接，即可在预加载的标签页中瞬间打开。"
+  },
+  "x_post_warm_links_supported_platforms": {
+    "message": "支持 Axiom、GMGN、Padre、DexScreener、Debot、Trojan"
+  },
+  "x_post_warm_links_disabled_by_flag": {
+    "message": "已被功能开关停用"
+  },
   "prioritize_frontrun": {
     "message": "优先显示 Frontrun"
   },
@@ -5433,7 +5445,7 @@
     "message": "按余额自动排序钱包"
   },
   "auto_sort_wallets_by_balance_desc": {
-    "message": "开启时按 SOL/BNB 余额排序；关闭后可拖动钱包自定义顺序"
+    "message": "开启时按 {symbol} 余额排序；关闭后可拖动钱包自定义顺序"
   },
   "auto_sort_disabled_quick_select": {
     "message": "「快捷键快速选择钱包」开启时不可用 —— 它使用固定的钱包顺序"

@@ -1151,6 +1151,18 @@
   "feature_temporarily_disabled": {
     "message": "Эта функция временно отключена и будет восстановлена автоматически."
   },
+  "x_post_warm_links_title": {
+    "message": "Быстрое открытие постов X"
+  },
+  "x_post_warm_links_description": {
+    "message": "Нажмите ссылку поста X на странице токена — он мгновенно откроется в предзагруженной вкладке."
+  },
+  "x_post_warm_links_supported_platforms": {
+    "message": "Работает на Axiom, GMGN, Padre, DexScreener, Debot и Trojan"
+  },
+  "x_post_warm_links_disabled_by_flag": {
+    "message": "Отключено фиче-флагом"
+  },
   "prioritize_frontrun": {
     "message": "Приоритетный Frontrun"
   },
@@ -5442,7 +5454,7 @@
     "message": "Сортировать по балансу"
   },
   "auto_sort_wallets_by_balance_desc": {
-    "message": "Вкл. — по балансу SOL/BNB. Выкл. — перетащите, чтобы задать порядок"
+    "message": "Вкл. — по балансу {symbol}. Выкл. — перетащите, чтобы задать порядок"
   },
   "auto_sort_disabled_quick_select": {
     "message": "Недоступно при включённом быстром выборе кошельков (Space+N) — он использует фиксированный порядок"
