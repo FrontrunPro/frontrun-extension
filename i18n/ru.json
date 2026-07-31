@@ -821,6 +821,21 @@
   "total_assets": {
     "message": "Активы"
   },
+  "show_native_assets": {
+    "message": "Показать активы {symbol}"
+  },
+  "show_total_in_usd": {
+    "message": "Показать сумму в USD"
+  },
+  "show_in_native": {
+    "message": "Показать в {symbol}"
+  },
+  "show_in_usd": {
+    "message": "Показать в USD"
+  },
+  "assets_in_native": {
+    "message": "Активы {symbol}"
+  },
   "group_view": {
     "message": "Просмотр по группам"
   },

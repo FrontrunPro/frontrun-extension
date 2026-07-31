@@ -779,6 +779,21 @@
   "total_assets": {
     "message": "总资产"
   },
+  "show_native_assets": {
+    "message": "显示 {symbol} 资产"
+  },
+  "show_total_in_usd": {
+    "message": "显示 USD 总额"
+  },
+  "show_in_native": {
+    "message": "以 {symbol} 显示"
+  },
+  "show_in_usd": {
+    "message": "以 USD 显示"
+  },
+  "assets_in_native": {
+    "message": "{symbol} 资产"
+  },
   "group_view": {
     "message": "分组视图"
   },
