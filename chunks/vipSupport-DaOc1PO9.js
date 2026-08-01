@@ -1,1 +1,0 @@
-var e=`https://t.me/frontrun_community`;function t(t){let n=t?.trim();if(!n||!n.toLowerCase().startsWith(`https://`))return e;try{if(new URL(n).protocol===`https:`)return n}catch{}return e}export{t};

@@ -1808,6 +1808,9 @@
   "view_on_bscscan": {
     "message": "На BscScan"
   },
+  "view_on_blockscout": {
+    "message": "На Blockscout"
+  },
   "view_private_key": {
     "message": "Показать ключ"
   },
@@ -4402,6 +4405,15 @@
   },
   "vip_support_description": {
     "message": "Получите помощь быстро. Напишите нам в Telegram."
+  },
+  "vip_banner_title": {
+    "message": "Прямая связь с командой"
+  },
+  "vip_banner_message": {
+    "message": "Вы один из наших активных трейдеров и мы создали для вас личный канал 1:1."
+  },
+  "vip_banner_cta": {
+    "message": "Войти в канал"
   },
   "feedback": {
     "message": "Отзыв"
