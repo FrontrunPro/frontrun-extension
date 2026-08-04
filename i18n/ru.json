@@ -1697,6 +1697,15 @@
   "amount": {
     "message": "Сумма"
   },
+  "gmgn_sell_quantity": {
+    "message": "Количество"
+  },
+  "gmgn_sell_percentage_input": {
+    "message": "Процент продажи"
+  },
+  "gmgn_sell_percentage_preset": {
+    "message": "Продать {percentage}%"
+  },
   "balance": {
     "message": "Баланс"
   },
@@ -2386,6 +2395,9 @@
   },
   "transaction_expired": {
     "message": "Транзакция истекла — попробуйте снова."
+  },
+  "turnkey_clock_skew_error": {
+    "message": "Turnkey: часы устройства спешат. Включите автоматическую настройку даты и времени и повторите попытку."
   },
   "program_error_code": {
     "message": "Ошибка транзакции (код {errorCode})"
@@ -3416,6 +3428,9 @@
   "enable_turnkey_button": {
     "message": "Продолжить через Google"
   },
+  "turnkey_reauth_sign_out": {
+    "message": "Выйти и сменить аккаунт"
+  },
   "turnkey_initializing": {
     "message": "Инициализация Turnkey..."
   },
@@ -4009,6 +4024,21 @@
   },
   "wallet_import_bsc_not_supported": {
     "message": "Импорт BSC кошелька недоступен"
+  },
+  "wallet_import_account_mismatch_description": {
+    "message": "Веб-аккаунт изменился. Подтвердите аккаунт расширения."
+  },
+  "wallet_import_account_reauth_cta": {
+    "message": "Подтвердить аккаунт"
+  },
+  "wallet_import_account_reauthenticating": {
+    "message": "Проверяем..."
+  },
+  "wallet_import_account_reauth_failed": {
+    "message": "Не удалось подтвердить аккаунт. Выберите тот же аккаунт Google."
+  },
+  "wallet_export_account_reauth_failed": {
+    "message": "Не удалось подтвердить аккаунт для экспорта. Выберите тот же аккаунт Google."
   },
   "wallet_common_action_import_seed_phrase": {
     "message": "Импортировать сид-фразу"

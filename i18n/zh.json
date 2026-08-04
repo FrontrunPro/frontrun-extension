@@ -1679,6 +1679,15 @@
   "amount": {
     "message": "金额"
   },
+  "gmgn_sell_quantity": {
+    "message": "数量"
+  },
+  "gmgn_sell_percentage_input": {
+    "message": "卖出比例"
+  },
+  "gmgn_sell_percentage_preset": {
+    "message": "卖出 {percentage}%"
+  },
   "balance": {
     "message": "余额"
   },
@@ -2332,6 +2341,9 @@
   },
   "transaction_expired": {
     "message": "交易已过期，请重试。"
+  },
+  "turnkey_clock_skew_error": {
+    "message": "Turnkey 签名失败：本机时间快于服务器。请开启自动日期与时间后重试。"
   },
   "program_error_code": {
     "message": "交易失败（错误 {errorCode}）"
@@ -3410,6 +3422,9 @@
   "enable_turnkey_button": {
     "message": "使用 Google 继续"
   },
+  "turnkey_reauth_sign_out": {
+    "message": "退出并更换账号"
+  },
   "turnkey_initializing": {
     "message": "正在初始化 Turnkey..."
   },
@@ -4006,6 +4021,21 @@
   },
   "wallet_import_bsc_not_supported": {
     "message": "暂不支持导入 BSC 钱包"
+  },
+  "wallet_import_account_mismatch_description": {
+    "message": "网页登录账号已变化，请验证当前插件账号。"
+  },
+  "wallet_import_account_reauth_cta": {
+    "message": "验证账号"
+  },
+  "wallet_import_account_reauthenticating": {
+    "message": "正在验证..."
+  },
+  "wallet_import_account_reauth_failed": {
+    "message": "无法验证插件账号，请选择与插件相同的 Google 账号后重试。"
+  },
+  "wallet_export_account_reauth_failed": {
+    "message": "无法验证导出账号，请选择与插件相同的 Google 账号后重试。"
   },
   "wallet_common_action_import_seed_phrase": {
     "message": "导入助记词"
