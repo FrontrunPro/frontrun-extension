@@ -1173,7 +1173,7 @@
     "message": "Нажмите ссылку поста X на странице токена — он мгновенно откроется в предзагруженной вкладке."
   },
   "x_post_warm_links_supported_platforms": {
-    "message": "Работает на Axiom, GMGN, Padre, DexScreener, Debot и Trojan"
+    "message": "Работает на Axiom, GMGN, Padre, DexScreener, Debot, Trojan, Photon, XXYY, BasedBot и fomo"
   },
   "x_post_warm_links_guide": {
     "message": "Узнать больше"
@@ -2689,9 +2689,6 @@
   },
   "robinhood_tip_label": {
     "message": "Чаевые (ETH)"
-  },
-  "bsc_tip_too_low": {
-    "message": "Чаевые слишком малы, минимум {minTip} BNB для текущей цены газа"
   },
   "tip_below_recommended_may_slow": {
     "message": "Ниже рекомендуемой комиссии ({fee}).\nВыполнение может задержаться."

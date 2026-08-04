@@ -1131,7 +1131,7 @@
     "message": "在代币页点击任意 X 帖子链接，即可在预加载的标签页中瞬间打开。"
   },
   "x_post_warm_links_supported_platforms": {
-    "message": "支持 Axiom、GMGN、Padre、DexScreener、Debot、Trojan"
+    "message": "支持 Axiom、GMGN、Padre、DexScreener、Debot、Trojan、Photon、XXYY、BasedBot、fomo"
   },
   "x_post_warm_links_guide": {
     "message": "查看使用指南"
@@ -2695,9 +2695,6 @@
   },
   "robinhood_tip_label": {
     "message": "小费 (ETH)"
-  },
-  "bsc_tip_too_low": {
-    "message": "小费不足，当前燃料费下最低需 {minTip} BNB"
   },
   "tip_below_recommended_may_slow": {
     "message": "费用低于推荐值 ({fee})\n执行可能延迟"
