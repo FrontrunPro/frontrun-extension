@@ -1250,6 +1250,9 @@
   "copy": {
     "message": "Копировать"
   },
+  "copy_user_id": {
+    "message": "Копировать ID"
+  },
   "custom_labels_detected": {
     "message": "Обнаружены пользовательские метки"
   },
@@ -1349,6 +1352,9 @@
   "frontrun_trading_panel": {
     "message": "Панель Frontrun"
   },
+  "frontrun_quick_buy_settings": {
+    "message": "Настройки Quick Buy"
+  },
   "open_panel_hotkey": {
     "message": "Открыть панель Instant Trade клавишей"
   },
@@ -1363,6 +1369,9 @@
   },
   "recently_logged_in_as": {
     "message": "Вход как"
+  },
+  "signin_prompt_cta": {
+    "message": "Войти в Frontrun"
   },
   "finishing_sign_in": {
     "message": "Завершаем вход…"
@@ -2117,6 +2126,15 @@
   "referral_code": {
     "message": "Реферальный код"
   },
+  "referrals": {
+    "message": "Рефералы"
+  },
+  "rewards": {
+    "message": "Награды"
+  },
+  "rewards_earned": {
+    "message": "Заработано наград"
+  },
   "history": {
     "message": "История"
   },
@@ -2203,6 +2221,9 @@
   },
   "view": {
     "message": "Просмотр"
+  },
+  "view_pnl_calendar": {
+    "message": "Открыть календарь PnL"
   },
   "wallet_not_verified": {
     "message": "Этот кошелек не был верифицирован."
@@ -2555,11 +2576,32 @@
   "pnl_24h_change_tooltip": {
     "message": "PnL за 24ч к объёму"
   },
+  "cashback": {
+    "message": "Кэшбэк"
+  },
   "cashback_earned": {
     "message": "Кэшбэк"
   },
   "view_rewards": {
     "message": "Награды"
+  },
+  "view_referrals": {
+    "message": "Рефералы"
+  },
+  "pnl_calendar": {
+    "message": "PNL"
+  },
+  "uid": {
+    "message": "UID"
+  },
+  "unlink": {
+    "message": "Отвязать"
+  },
+  "connect": {
+    "message": "Привязать"
+  },
+  "public_wallets": {
+    "message": "Публичные кошельки"
   },
   "failed_to_refresh_positions": {
     "message": "Не удалось обновить позиции"
@@ -7163,62 +7205,14 @@
   "base_auto_fee_explainer_dismiss": {
     "message": "Понятно"
   },
-  "turbo_enable_title": {
-    "message": "Режим TURBO"
-  },
-  "turbo_enable_description": {
-    "message": "TURBO рассылает конкурирующие транзакции через защищённые релеи — максимально быстрое исполнение с защитой от MEV в Solana."
-  },
   "turbo_tip_minimum_notice": {
-    "message": "Минимум TURBO: 0,0001 SOL"
-  },
-  "turbo": {
-    "message": "Turbo"
+    "message": "Минимальный Tip: 0,00001 SOL"
   },
   "turbo_on_tooltip": {
-    "message": "TURBO включён — быстрые сделки с защитой от MEV требуют чаевых не менее 0,0001 SOL."
+    "message": "TURBO включён — используются более быстрые реле с защитой от MEV."
   },
-  "turbo_applies_to_all_active_wallets": {
-    "message": "Turbo включится для всех активных кошельков ({count}) с балансом не менее {min} SOL."
-  },
-  "turbo_includes_mev": {
-    "message": "Режим TURBO включает защиту от MEV."
-  },
-  "mev_in_turbo_hint": {
-    "message": "Защита от MEV включается автоматически в режиме TURBO"
-  },
-  "turbo_enable": {
-    "message": "Включить TURBO"
-  },
-  "turbo_disable": {
-    "message": "Выключить TURBO"
-  },
-  "turbo_enable_failed": {
-    "message": "Не удалось включить TURBO"
-  },
-  "turbo_tip_too_low": {
-    "message": "Для TURBO нужны чаевые не менее 0,0001 SOL. Увеличьте их или выключите TURBO."
-  },
-  "turbo_disable_failed": {
-    "message": "Не удалось выключить TURBO"
-  },
-  "turbo_insufficient_balance": {
-    "message": "Недостаточно SOL. Для TURBO нужно ~0.0073 SOL."
-  },
-  "turbo_awareness_pill_eyebrow": {
-    "message": "Новое"
-  },
-  "turbo_awareness_pill_body": {
-    "message": "Нажмите ⚡ на любом кошельке — самое быстрое исполнение."
-  },
-  "turbo_awareness_pill_value_free": {
-    "message": "Минимум 0,0001 SOL"
-  },
-  "turbo_awareness_pill_value_recommended": {
-    "message": "Подходит для всех кошельков"
-  },
-  "turbo_awareness_pill_dismiss": {
-    "message": "Скрыть"
+  "turbo_off_tooltip": {
+    "message": "TURBO выключен — установите чаевые не менее 0,0001 SOL для более быстрых исполнений с защитой от MEV."
   },
   "wallet_groups": {
     "message": "Группы кошельков"
@@ -7771,6 +7765,9 @@
   },
   "pending": {
     "message": "Ожидает"
+  },
+  "minimum_tip_fill_notice": {
+    "message": "To avoid delayed fills, the minimum tip is 0.00001 SOL. We recommend setting it to be 0.001 or higher for faster fills"
   },
   "play": {
     "message": "Воспроизвести"
