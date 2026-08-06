@@ -1688,14 +1688,14 @@
   "amount": {
     "message": "金额"
   },
-  "gmgn_sell_quantity": {
-    "message": "数量"
-  },
   "gmgn_sell_percentage_input": {
     "message": "卖出比例"
   },
   "gmgn_sell_percentage_preset": {
     "message": "卖出 {percentage}%"
+  },
+  "gmgn_sell_percentage_placeholder": {
+    "message": "输入 %（0~100）"
   },
   "balance": {
     "message": "余额"
@@ -2269,6 +2269,9 @@
   },
   "view_pnl_calendar": {
     "message": "查看 PnL 日历"
+  },
+  "last_7d": {
+    "message": "7天"
   },
   "view_all": {
     "message": "查看所有"
@@ -7061,6 +7064,9 @@
   "ton_bridge_error_broadcast": {
     "message": "交易广播失败，请重试。"
   },
+  "ton_bridge_error_insufficient_gas": {
+    "message": "余额不足以支付网络手续费，请减少跨链金额后重试。"
+  },
   "ton_bridge_error_relogin": {
     "message": "登录状态已过期，请重新登录后重试。"
   },
@@ -7438,6 +7444,9 @@
   },
   "email_login_error_retry": {
     "message": "出了点问题，请重试。"
+  },
+  "email_login_error_needs_review": {
+    "message": "该邮箱注册需要审核，通过后即可登录。"
   },
   "social_binding_title": {
     "message": "还差一步"

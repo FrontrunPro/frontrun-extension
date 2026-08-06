@@ -1706,14 +1706,14 @@
   "amount": {
     "message": "Сумма"
   },
-  "gmgn_sell_quantity": {
-    "message": "Количество"
-  },
   "gmgn_sell_percentage_input": {
     "message": "Процент продажи"
   },
   "gmgn_sell_percentage_preset": {
     "message": "Продать {percentage}%"
+  },
+  "gmgn_sell_percentage_placeholder": {
+    "message": "Введите % (0~100)"
   },
   "balance": {
     "message": "Баланс"
@@ -2224,6 +2224,9 @@
   },
   "view_pnl_calendar": {
     "message": "Открыть календарь PnL"
+  },
+  "last_7d": {
+    "message": "7д"
   },
   "wallet_not_verified": {
     "message": "Этот кошелек не был верифицирован."
@@ -7094,6 +7097,9 @@
   "ton_bridge_error_broadcast": {
     "message": "Не удалось отправить транзакцию. Повторите попытку."
   },
+  "ton_bridge_error_insufficient_gas": {
+    "message": "Недостаточно средств на комиссию. Уменьшите сумму и повторите."
+  },
   "ton_bridge_error_relogin": {
     "message": "Сессия истекла — войдите снова и повторите."
   },
@@ -7471,6 +7477,9 @@
   },
   "email_login_error_retry": {
     "message": "Что-то пошло не так. Повторите."
+  },
+  "email_login_error_needs_review": {
+    "message": "Этот адрес почты требует проверки перед регистрацией. Скоро одобрим."
   },
   "social_binding_title": {
     "message": "Ещё один шаг"
