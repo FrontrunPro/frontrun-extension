@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Frontrun",
   "description": "Frontrun is your AI co-pilot, empowering crypto traders to stay ahead of the market",
-  "version": "0.0.345",
+  "version": "0.0.346",
   "icons": {
     "16": "icon-16.png",
     "32": "icon-32.png",
@@ -147,15 +147,6 @@
     },
     {
       "matches": [
-        "https://coincommunities.org/*"
-      ],
-      "js": [
-        "vendor.js",
-        "content-scripts/coincommunities.js"
-      ]
-    },
-    {
-      "matches": [
         "https://debot.ai/*"
       ],
       "js": [
@@ -220,7 +211,7 @@
         "https://frontrun.pro/*",
         "https://www.frontrun.pro/*"
       ],
-      "run_at": "document_idle",
+      "run_at": "document_start",
       "js": [
         "content-scripts/frontrun-web.js"
       ]
@@ -286,7 +277,6 @@
         "https://app.hyperliquid.xyz/*",
         "https://app.trade.xyz/*",
         "https://basedbot.app/*",
-        "https://coincommunities.org/*",
         "https://dexscreener.com/*",
         "https://etherscan.io/*",
         "https://fomo.family/*",

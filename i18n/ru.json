@@ -2,15 +2,6 @@
   "credit_limit_reached_toast": {
     "message": "Достигнут лимит вашего тарифа. Повысьте тариф или дождитесь сброса."
   },
-  "coin_communities": {
-    "message": "Коин-сообщества"
-  },
-  "coin_communities_in": {
-    "message": "Связанные коин-сообщества:"
-  },
-  "coin_communities_more": {
-    "message": "+{count} ещё"
-  },
   "labels": {
     "message": "Метки"
   },
@@ -215,6 +206,42 @@
   "language": {
     "message": "Язык"
   },
+  "extension_settings_storage_location": {
+    "message": "Хранение настроек"
+  },
+  "extension_settings_local_mode": {
+    "message": "Локальный режим"
+  },
+  "extension_settings_local_mode_description": {
+    "message": "Настройки хранятся только в этом расширении."
+  },
+  "extension_settings_cloud_mode": {
+    "message": "Облачный режим"
+  },
+  "extension_settings_cloud_mode_description": {
+    "message": "Настройки синхронизируются между устройствами."
+  },
+  "extension_settings_cloud_sign_in_required": {
+    "message": "Войдите, чтобы синхронизировать настройки"
+  },
+  "extension_settings_cloud_not_synced": {
+    "message": "Облачные настройки ещё не загружены"
+  },
+  "extension_settings_last_cloud_fetch": {
+    "message": "Последняя загрузка из облака: {time}"
+  },
+  "extension_settings_manage_on_web": {
+    "message": "Управлять в Web-настройках"
+  },
+  "extension_settings_refresh_cloud": {
+    "message": "Загрузить настройки из облака"
+  },
+  "extension_settings_refreshing_cloud": {
+    "message": "Загрузка..."
+  },
+  "extension_settings_refresh_cloud_failed": {
+    "message": "Не удалось загрузить настройки из облака"
+  },
   "smart_followers": {
     "message": "Умные подписчики"
   },
@@ -241,15 +268,6 @@
   },
   "smart_followers_view_more_failed": {
     "message": "Не удалось загрузить"
-  },
-  "smart_members": {
-    "message": "Умные участники"
-  },
-  "top_trader_tooltip": {
-    "message": "Топ-трейдер этого токена"
-  },
-  "top_holder_tooltip": {
-    "message": "Топ-холдер этого токена"
   },
   "smart_followers_locked_desc": {
     "message": "Перейдите на Silver или выше, чтобы увидеть больше умных подписчиков."
@@ -322,6 +340,18 @@
   },
   "twitter_import_started": {
     "message": "Импорт {count} меток Twitter. Это может занять до 30 минут."
+  },
+  "twitter_import_progress": {
+    "message": "Отправка {done} / {total} меток Twitter…"
+  },
+  "twitter_import_completed": {
+    "message": "Все {count} меток Twitter в очереди; импорт в фоне."
+  },
+  "twitter_import_rate_limited": {
+    "message": "{done} из {total} отправлено. Лимит запросов — откройте страницу позже."
+  },
+  "twitter_import_partial_failed": {
+    "message": "{done} из {total} отправлено. Импорт прерван — повторите позже."
   },
   "twitter_import_failed": {
     "message": "Не удалось импортировать метки Twitter. Пожалуйста, попробуйте снова."
@@ -7585,6 +7615,66 @@
   },
   "RBH_wallets_delete_confirm": {
     "message": "Удалить этот кошелек?"
+  },
+  "settings_sync_toggle_title": {
+    "message": "Синхронизация настроек между устройствами"
+  },
+  "settings_sync_enable_title": {
+    "message": "Выберите настройки для синхронизации"
+  },
+  "settings_sync_enable_body": {
+    "message": "Выберите настройки для этого браузера и аккаунта."
+  },
+  "settings_sync_enable_new_account_body": {
+    "message": "Настройки этого браузера будут сохранены в аккаунте."
+  },
+  "settings_sync_enable_action": {
+    "message": "Включить синхронизацию"
+  },
+  "settings_sync_state_off_description": {
+    "message": "Только этот браузер"
+  },
+  "settings_sync_state_on_description": {
+    "message": "Следует за аккаунтом"
+  },
+  "settings_sync_conflict_title": {
+    "message": "Настройки уже существуют"
+  },
+  "settings_sync_conflict_body": {
+    "message": "В этом браузере и в вашем аккаунте разные настройки. Какие оставить?"
+  },
+  "settings_sync_conflict_keep_browser_title": {
+    "message": "Оставить настройки браузера"
+  },
+  "settings_sync_conflict_keep_browser_description": {
+    "message": "Заменить настройки, сохранённые в аккаунте."
+  },
+  "settings_sync_conflict_use_account_title": {
+    "message": "Использовать настройки аккаунта"
+  },
+  "settings_sync_conflict_use_account_description": {
+    "message": "Заменить настройки в этом браузере."
+  },
+  "settings_sync_off_confirm_title": {
+    "message": "Отключить синхронизацию?"
+  },
+  "settings_sync_off_confirm_body": {
+    "message": "Этот браузер сохранит текущие настройки. Будущие изменения не будут синхронизироваться с другими браузерами и устройствами."
+  },
+  "settings_sync_off_confirm_action": {
+    "message": "Отключить"
+  },
+  "settings_sync_error": {
+    "message": "Не удалось обновить синхронизацию."
+  },
+  "settings_sync_error_retry": {
+    "message": "Повторить"
+  },
+  "settings_sync_state_off_label": {
+    "message": "Выкл"
+  },
+  "settings_sync_state_on_label": {
+    "message": "Вкл"
   },
   "onboarding_step_pin_title": {
     "message": "Закрепите Frontrun для быстрого доступа"

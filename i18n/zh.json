@@ -2,15 +2,6 @@
   "credit_limit_reached_toast": {
     "message": "已达到套餐用量上限。升级以获得更高额度，或等待额度重置。"
   },
-  "coin_communities": {
-    "message": "代币社区"
-  },
-  "coin_communities_in": {
-    "message": "关联代币社区："
-  },
-  "coin_communities_more": {
-    "message": "还有 {count} 个"
-  },
   "labels": {
     "message": "标签"
   },
@@ -188,6 +179,42 @@
   "language": {
     "message": "语言"
   },
+  "extension_settings_storage_location": {
+    "message": "设置保存位置"
+  },
+  "extension_settings_local_mode": {
+    "message": "本地模式"
+  },
+  "extension_settings_local_mode_description": {
+    "message": "设置只保存在当前浏览器插件中。"
+  },
+  "extension_settings_cloud_mode": {
+    "message": "云端模式"
+  },
+  "extension_settings_cloud_mode_description": {
+    "message": "设置会同步到其他设备。"
+  },
+  "extension_settings_cloud_sign_in_required": {
+    "message": "登录后才能同步设置"
+  },
+  "extension_settings_cloud_not_synced": {
+    "message": "云端设置尚未拉取"
+  },
+  "extension_settings_last_cloud_fetch": {
+    "message": "最近拉取云端设置：{time}"
+  },
+  "extension_settings_manage_on_web": {
+    "message": "在 Web 设置中管理"
+  },
+  "extension_settings_refresh_cloud": {
+    "message": "拉取最新云端设置"
+  },
+  "extension_settings_refreshing_cloud": {
+    "message": "拉取中..."
+  },
+  "extension_settings_refresh_cloud_failed": {
+    "message": "拉取云端设置失败"
+  },
   "smart_followers": {
     "message": "KOL关注"
   },
@@ -214,15 +241,6 @@
   },
   "smart_followers_view_more_failed": {
     "message": "加载失败"
-  },
-  "smart_members": {
-    "message": "KOL成员"
-  },
-  "top_trader_tooltip": {
-    "message": "该用户是该代币的前排交易者"
-  },
-  "top_holder_tooltip": {
-    "message": "该用户是该代币的前排持有者"
   },
   "smart_followers_locked_desc": {
     "message": "升级到 Silver 或更高方案，可查看更多知名关注。"
@@ -295,6 +313,18 @@
   },
   "twitter_import_started": {
     "message": "正在导入 {count} 个推特标签, 整个过程可最多花费30分钟。"
+  },
+  "twitter_import_progress": {
+    "message": "正在提交推特标签 {done} / {total}…"
+  },
+  "twitter_import_completed": {
+    "message": "已提交全部 {count} 个推特标签，正在后台导入。"
+  },
+  "twitter_import_rate_limited": {
+    "message": "已提交 {done}/{total} 个。操作过于频繁，请稍后重新打开此页面继续提交剩余部分。"
+  },
+  "twitter_import_partial_failed": {
+    "message": "已提交 {done}/{total} 个。导入中断，请稍后重试剩余部分。"
   },
   "twitter_import_failed": {
     "message": "导入推特标签失败，请重试。"
@@ -7552,6 +7582,66 @@
   },
   "RBH_wallets_delete_confirm": {
     "message": "删除此钱包？"
+  },
+  "settings_sync_toggle_title": {
+    "message": "跨设备同步设置"
+  },
+  "settings_sync_enable_title": {
+    "message": "选择要同步的设置"
+  },
+  "settings_sync_enable_body": {
+    "message": "选择要在此浏览器和你的账户中使用的设置。"
+  },
+  "settings_sync_enable_new_account_body": {
+    "message": "此浏览器的设置将保存到你的账户。"
+  },
+  "settings_sync_enable_action": {
+    "message": "开启同步"
+  },
+  "settings_sync_state_off_description": {
+    "message": "仅此浏览器"
+  },
+  "settings_sync_state_on_description": {
+    "message": "跟随你的账户"
+  },
+  "settings_sync_conflict_title": {
+    "message": "设置已存在"
+  },
+  "settings_sync_conflict_body": {
+    "message": "此浏览器与你的账户存在不同的设置。你想保留哪一个？"
+  },
+  "settings_sync_conflict_keep_browser_title": {
+    "message": "保留此浏览器的设置"
+  },
+  "settings_sync_conflict_keep_browser_description": {
+    "message": "替换保存到你账户的设置。"
+  },
+  "settings_sync_conflict_use_account_title": {
+    "message": "使用账户设置"
+  },
+  "settings_sync_conflict_use_account_description": {
+    "message": "替换此浏览器中的设置。"
+  },
+  "settings_sync_off_confirm_title": {
+    "message": "关闭设置同步？"
+  },
+  "settings_sync_off_confirm_body": {
+    "message": "此浏览器将保留当前设置。今后的更改不会同步到其他浏览器或设备。"
+  },
+  "settings_sync_off_confirm_action": {
+    "message": "关闭同步"
+  },
+  "settings_sync_error": {
+    "message": "无法更新同步。"
+  },
+  "settings_sync_error_retry": {
+    "message": "重试"
+  },
+  "settings_sync_state_off_label": {
+    "message": "关闭"
+  },
+  "settings_sync_state_on_label": {
+    "message": "开启"
   },
   "onboarding_step_pin_title": {
     "message": "把 Frontrun 固定到工具栏,方便随时使用"
