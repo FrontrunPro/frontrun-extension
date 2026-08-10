@@ -4508,6 +4508,9 @@
   "vip_banner_message": {
     "message": "你是我们的活跃交易者，我们为你开设了这个专属 1:1 频道。"
   },
+  "vip_banner_yearly_gold_message": {
+    "message": "作为 Gold 年费会员，你可获得与团队 1:1 沟通的专属频道。"
+  },
   "vip_banner_cta": {
     "message": "加入专属频道"
   },
