@@ -5613,10 +5613,7 @@
     "message": "Своя сумма"
   },
   "custom_buy_amount_placeholder": {
-    "message": "Сумма SOL"
-  },
-  "custom_buy_amount_placeholder_usdc": {
-    "message": "Сумма USDC"
+    "message": "Сумма {symbol}"
   },
   "enable_buy_by_percent": {
     "message": "Покупка в %"
@@ -7679,6 +7676,12 @@
   "settings_sync_state_on_label": {
     "message": "Вкл"
   },
+  "settings_sync_dismiss": {
+    "message": "Скрыть"
+  },
+  "settings_sync_expand": {
+    "message": "Синхронизация"
+  },
   "onboarding_step_pin_title": {
     "message": "Закрепите Frontrun для быстрого доступа"
   },
@@ -7873,5 +7876,185 @@
   },
   "play": {
     "message": "Воспроизвести"
+  },
+  "trench_wallets": {
+    "message": "Кошельки Trench"
+  },
+  "trench_curve_required": {
+    "message": "Обязательно для этого токена кривой"
+  },
+  "trench_wallet_connected": {
+    "message": "Подключён к Tren.ch"
+  },
+  "trench_activate_connected_wallet": {
+    "message": "Выберите кошелёк, подключённый к Tren.ch, для этого токена."
+  },
+  "trench_connect_wallet_first": {
+    "message": "Подключите кошелёк к Tren.ch, чтобы торговать этим токеном."
+  },
+  "trench_connected_count": {
+    "message": "Подключено {count} из 3"
+  },
+  "trench_connect": {
+    "message": "Подключить"
+  },
+  "trench_connect_account_cta": {
+    "message": "Подключиться к Tren.ch"
+  },
+  "trench_account_limit": {
+    "message": "Подключено 3"
+  },
+  "trench_disconnect": {
+    "message": "Отключить"
+  },
+  "trench_disconnect_confirm": {
+    "message": "Отключить этот кошелек Trench?"
+  },
+  "trench_disconnected": {
+    "message": "Кошелек Trench отключен"
+  },
+  "trench_disconnect_failed": {
+    "message": "Не удалось отключить кошелек Trench"
+  },
+  "trench_auth_required": {
+    "message": "Перед торговлей повторно подключите этот аккаунт Trench."
+  },
+  "trench_delegation_required": {
+    "message": "Включите торговлю в 1 клик в Trench и переподключите аккаунт."
+  },
+  "trench_rate_limited": {
+    "message": "Лимит Trench. Повторите через {seconds} с."
+  },
+  "trench_daily_cap_exceeded": {
+    "message": "Дневной лимит Trench исчерпан. Повторите после 00:00 UTC."
+  },
+  "trench_trade_cap_exceeded": {
+    "message": "Сумма выше лимита Trench. Уменьшите её."
+  },
+  "trench_migration_pending": {
+    "message": "Токен меняет площадку. Повторите через {seconds} с."
+  },
+  "trench_provider_unavailable": {
+    "message": "Интеграция Trench недоступна. Повторите позже."
+  },
+  "trench_order_not_fillable": {
+    "message": "Trench не может исполнить этот объём. Уменьшите сумму."
+  },
+  "trench_temporarily_unavailable": {
+    "message": "Trench временно недоступен. Повторите позже."
+  },
+  "trench_token_units_invalid": {
+    "message": "Единицы токена не соответствуют контракту Trench."
+  },
+  "trench_submission_uncertain": {
+    "message": "Результат отправки неизвестен. Проверьте позицию и историю сделок в сети."
+  },
+  "trench_confirmation_timeout": {
+    "message": "Время ожидания подтверждения истекло. Проверьте позицию и историю сделок в сети."
+  },
+  "trench_trade_rejected": {
+    "message": "Trench отклонил эту сделку."
+  },
+  "trench_sol_buy_only": {
+    "message": "Покупки через управляемый кошелек Trench сейчас поддерживают только SOL."
+  },
+  "trench_route_resolving": {
+    "message": "Маршрут Trench еще определяется. Повторите чуть позже."
+  },
+  "trench_open_trading_panel": {
+    "message": "Открыть торговую панель Frontrun"
+  },
+  "trench_trade_with_frontrun": {
+    "message": "Торговать через Frontrun"
+  },
+  "trench_import_and_trade_with_frontrun": {
+    "message": "Импортировать и торговать через Frontrun"
+  },
+  "trench_connect_step_import": {
+    "message": "Шаг 1 из 2 · Импорт кошелька"
+  },
+  "trench_connect_step_choose": {
+    "message": "Шаг 1 из 2 · Выбор кошелька"
+  },
+  "trench_connect_step_authorize": {
+    "message": "Шаг 2 из 2 · Подключение аккаунта"
+  },
+  "trench_connect_step_success": {
+    "message": "Подключено"
+  },
+  "trench_connect_title": {
+    "message": "Подключить Tren.ch"
+  },
+  "trench_connect_success_title": {
+    "message": "Tren.ch подключён"
+  },
+  "trench_import_instructions": {
+    "message": "На tren.ch откройте меню справа вверху и выберите Export Private Key. Сначала импортируйте этот ключ Solana здесь, затем подключите OAuth."
+  },
+  "trench_reconnect_wallets": {
+    "message": "Ранее подключённые"
+  },
+  "trench_reconnect_wallet_description": {
+    "message": "Повторный импорт ключа не нужен."
+  },
+  "trench_reconnect_wallet": {
+    "message": "Переподключить {name}"
+  },
+  "trench_or_import_wallet": {
+    "message": "Или импортировать другой"
+  },
+  "trench_open_site": {
+    "message": "Открыть Tren.ch"
+  },
+  "trench_private_key": {
+    "message": "Приватный ключ Tren.ch"
+  },
+  "trench_show_private_key": {
+    "message": "Показать приватный ключ"
+  },
+  "trench_hide_private_key": {
+    "message": "Скрыть приватный ключ"
+  },
+  "trench_show": {
+    "message": "Показать"
+  },
+  "trench_hide": {
+    "message": "Скрыть"
+  },
+  "trench_private_key_security_notice": {
+    "message": "Frontrun хранит ключ локально для подписи обычных транзакций Solana. Никому не передавайте его."
+  },
+  "trench_import_wallet": {
+    "message": "Импортировать кошелёк"
+  },
+  "trench_authorize_instructions": {
+    "message": "Перейдите в Tren.ch и разрешите торговлю для того же аккаунта, что и импортированный кошелёк."
+  },
+  "trench_imported_wallet": {
+    "message": "Импортированный кошелёк"
+  },
+  "trench_continue_oauth": {
+    "message": "Продолжить в Tren.ch"
+  },
+  "trench_import_different_wallet": {
+    "message": "Импортировать другой кошелёк"
+  },
+  "trench_connect_success_description": {
+    "message": "Кошелёк {address} активен, выбран и готов к торговле на кривой Tren.ch."
+  },
+  "trench_wallet_address_mismatch": {
+    "message": "Импортированный кошелёк ({address}) не совпадает с кошельком текущего аккаунта Tren.ch. Смените аккаунт Tren.ch или импортируйте его ключ и повторите попытку."
+  },
+  "trench_oauth_not_approved": {
+    "message": "Авторизация Tren.ch отменена или не подтверждена. Повторный импорт кошелька не требуется."
+  },
+  "trench_connect_failed_detailed": {
+    "message": "Не удалось подключить Tren.ch. Проверьте статус аккаунта и включите торговлю в один клик."
+  },
+  "trench_reconnect": {
+    "message": "Переподключить Tren.ch"
+  },
+  "trench_trade_error_with_code": {
+    "message": "{message} Код ошибки: {errorCode}"
   }
 }

@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Frontrun",
   "description": "Frontrun is your AI co-pilot, empowering crypto traders to stay ahead of the market",
-  "version": "0.0.349",
+  "version": "0.0.350",
   "icons": {
     "16": "icon-16.png",
     "32": "icon-32.png",
@@ -280,6 +280,7 @@
         "https://app.cielo.finance/*",
         "https://app.hyperliquid.xyz/*",
         "https://app.trade.xyz/*",
+        "https://app.tren.ch/*",
         "https://basedbot.app/*",
         "https://dexscreener.com/*",
         "https://etherscan.io/*",
@@ -292,10 +293,12 @@
         "https://pro.x.com/*",
         "https://re.defined.fi/*",
         "https://robinhood.com/*",
+        "https://tren.ch/*",
         "https://universalx.app/*",
         "https://web.telegram.org/*",
         "https://web3.okx.com/*",
         "https://www.fomo.family/*",
+        "https://www.tren.ch/*",
         "https://x-trader.ai/*"
       ],
       "js": [
@@ -339,6 +342,18 @@
       "js": [
         "vendor.js",
         "content-scripts/solscan.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://t9629362786bdisb.vercel.app/*",
+        "https://tren.ch/*",
+        "https://www.tren.ch/*"
+      ],
+      "js": [
+        "vendor.js",
+        "trading-vendor.js",
+        "content-scripts/trench-partner.js"
       ]
     },
     {

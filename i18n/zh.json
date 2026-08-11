@@ -5604,10 +5604,7 @@
     "message": "自定义买入金额"
   },
   "custom_buy_amount_placeholder": {
-    "message": "输入 SOL 数量"
-  },
-  "custom_buy_amount_placeholder_usdc": {
-    "message": "输入 USDC 数量"
+    "message": "输入 {symbol} 数量"
   },
   "enable_buy_by_percent": {
     "message": "按百分比买入"
@@ -7646,6 +7643,12 @@
   "settings_sync_state_on_label": {
     "message": "开启"
   },
+  "settings_sync_dismiss": {
+    "message": "收起"
+  },
+  "settings_sync_expand": {
+    "message": "同步设置"
+  },
   "onboarding_step_pin_title": {
     "message": "把 Frontrun 固定到工具栏,方便随时使用"
   },
@@ -7873,5 +7876,185 @@
   },
   "play": {
     "message": "播放"
+  },
+  "trench_wallets": {
+    "message": "Trench 钱包"
+  },
+  "trench_curve_required": {
+    "message": "该曲线代币必须使用"
+  },
+  "trench_wallet_connected": {
+    "message": "已连接 Tren.ch"
+  },
+  "trench_activate_connected_wallet": {
+    "message": "请选中已连接 Tren.ch 的钱包，才能交易该曲线代币。"
+  },
+  "trench_connect_wallet_first": {
+    "message": "请先把钱包连接到 Tren.ch，才能交易该曲线代币。"
+  },
+  "trench_connected_count": {
+    "message": "已连接 {count} / 3"
+  },
+  "trench_connect": {
+    "message": "连接"
+  },
+  "trench_connect_account_cta": {
+    "message": "连接 Tren.ch"
+  },
+  "trench_account_limit": {
+    "message": "已连接 3 个"
+  },
+  "trench_disconnect": {
+    "message": "断开"
+  },
+  "trench_disconnect_confirm": {
+    "message": "确定断开这个 Trench 钱包？"
+  },
+  "trench_disconnected": {
+    "message": "Trench 钱包已断开"
+  },
+  "trench_disconnect_failed": {
+    "message": "无法断开 Trench 钱包"
+  },
+  "trench_auth_required": {
+    "message": "交易前请重新连接此 Trench 账户。"
+  },
+  "trench_delegation_required": {
+    "message": "请先在 Trench 开启一键交易，然后重新连接此账户。"
+  },
+  "trench_rate_limited": {
+    "message": "Trench 当前限流，请在 {seconds} 秒后重试。"
+  },
+  "trench_daily_cap_exceeded": {
+    "message": "该 Trench 账户已达到今日交易上限，请在 UTC 00:00 后重试。"
+  },
+  "trench_trade_cap_exceeded": {
+    "message": "本次金额超过 Trench 单笔上限，请减小金额。"
+  },
+  "trench_migration_pending": {
+    "message": "代币正在迁移交易场所，请在 {seconds} 秒后重试。"
+  },
+  "trench_provider_unavailable": {
+    "message": "Trench 集成暂不可用，请稍后重试。"
+  },
+  "trench_order_not_fillable": {
+    "message": "Trench 无法成交该金额，请减小订单后重试。"
+  },
+  "trench_temporarily_unavailable": {
+    "message": "Trench 暂时不可用，请稍后重试。"
+  },
+  "trench_token_units_invalid": {
+    "message": "代币单位与 Trench 交易契约不一致。"
+  },
+  "trench_submission_uncertain": {
+    "message": "提交结果不确定，请查看链上仓位和交易记录。"
+  },
+  "trench_confirmation_timeout": {
+    "message": "确认超时，请查看链上仓位和交易记录。"
+  },
+  "trench_trade_rejected": {
+    "message": "Trench 拒绝了此交易。"
+  },
+  "trench_sol_buy_only": {
+    "message": "Trench 托管钱包买入目前仅支持 SOL。"
+  },
+  "trench_route_resolving": {
+    "message": "Trench 路由仍在解析，请稍后重试。"
+  },
+  "trench_open_trading_panel": {
+    "message": "打开 Frontrun 交易面板"
+  },
+  "trench_trade_with_frontrun": {
+    "message": "使用 Frontrun 交易"
+  },
+  "trench_import_and_trade_with_frontrun": {
+    "message": "导入并使用 Frontrun 交易"
+  },
+  "trench_connect_step_import": {
+    "message": "第 1 步（共 2 步）· 导入钱包"
+  },
+  "trench_connect_step_choose": {
+    "message": "第 1 步（共 2 步）· 选择钱包"
+  },
+  "trench_connect_step_authorize": {
+    "message": "第 2 步（共 2 步）· 连接账户"
+  },
+  "trench_connect_step_success": {
+    "message": "已连接"
+  },
+  "trench_connect_title": {
+    "message": "连接 Tren.ch"
+  },
+  "trench_connect_success_title": {
+    "message": "Tren.ch 已连接"
+  },
+  "trench_import_instructions": {
+    "message": "在 tren.ch 打开右上角菜单，选择 Export Private Key。请先在这里导入该 Solana 私钥，再连接 OAuth。"
+  },
+  "trench_reconnect_wallets": {
+    "message": "之前连接过的钱包"
+  },
+  "trench_reconnect_wallet_description": {
+    "message": "无需重新导入私钥，直接重新连接。"
+  },
+  "trench_reconnect_wallet": {
+    "message": "重新连接 {name}"
+  },
+  "trench_or_import_wallet": {
+    "message": "或导入其他钱包"
+  },
+  "trench_open_site": {
+    "message": "打开 Tren.ch"
+  },
+  "trench_private_key": {
+    "message": "Tren.ch 私钥"
+  },
+  "trench_show_private_key": {
+    "message": "显示私钥"
+  },
+  "trench_hide_private_key": {
+    "message": "隐藏私钥"
+  },
+  "trench_show": {
+    "message": "显示"
+  },
+  "trench_hide": {
+    "message": "隐藏"
+  },
+  "trench_private_key_security_notice": {
+    "message": "Frontrun 会在本地保存此私钥，用于签署普通 Solana 交易。切勿向任何人泄露。"
+  },
+  "trench_import_wallet": {
+    "message": "导入钱包"
+  },
+  "trench_authorize_instructions": {
+    "message": "继续前往 Tren.ch，并为与已导入钱包相同的账户授权交易权限。"
+  },
+  "trench_imported_wallet": {
+    "message": "已导入的钱包"
+  },
+  "trench_continue_oauth": {
+    "message": "继续前往 Tren.ch"
+  },
+  "trench_import_different_wallet": {
+    "message": "导入其他钱包"
+  },
+  "trench_connect_success_description": {
+    "message": "钱包 {address} 已激活并选中，可以交易 Tren.ch 内盘。"
+  },
+  "trench_wallet_address_mismatch": {
+    "message": "已导入的钱包（{address}）与当前 Tren.ch 账户中的钱包不一致。请切换 Tren.ch 账户，或导入该账户的私钥后重试。"
+  },
+  "trench_oauth_not_approved": {
+    "message": "Tren.ch 授权已取消或未批准。无需重新导入钱包，可以直接重试。"
+  },
+  "trench_connect_failed_detailed": {
+    "message": "无法连接 Tren.ch。请确认账户状态正常且已启用一键交易，然后重试。"
+  },
+  "trench_reconnect": {
+    "message": "重新连接 Tren.ch"
+  },
+  "trench_trade_error_with_code": {
+    "message": "{message} 错误代码：{errorCode}"
   }
 }
