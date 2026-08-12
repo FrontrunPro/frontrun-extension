@@ -786,7 +786,7 @@
     "message": "Выбрать кошельки"
   },
   "select_all_with_balance": {
-    "message": "Выбрать все с балансом"
+    "message": "Все с балансом"
   },
   "deselect_all": {
     "message": "Снять выделение"
@@ -2447,6 +2447,9 @@
   "order_execution_failed": {
     "message": "Ошибка выполнения ордера"
   },
+  "trade_amount_too_small": {
+    "message": "Вы продаёте слишком мало токенов."
+  },
   "transaction_expired": {
     "message": "Транзакция истекла — попробуйте снова."
   },
@@ -3226,6 +3229,12 @@
   },
   "delay_description": {
     "message": "Задержка между каждой транзакцией в миллисекундах. 0ms означает отсутствие задержки."
+  },
+  "delay_buy": {
+    "message": "К"
+  },
+  "delay_sell": {
+    "message": "П"
   },
   "back": {
     "message": "Назад"
