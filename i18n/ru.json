@@ -7893,7 +7893,7 @@
     "message": "Подключите кошелёк к Tren.ch, чтобы торговать этим токеном."
   },
   "trench_connected_count": {
-    "message": "Подключено {count} из 3"
+    "message": "Подключено: {count} · лимит: {limit}"
   },
   "trench_connect": {
     "message": "Подключить"
@@ -7901,8 +7901,14 @@
   "trench_connect_account_cta": {
     "message": "Подключиться к Tren.ch"
   },
+  "trench_manage_connections": {
+    "message": "Подключения Tren.ch"
+  },
+  "trench_connect_another": {
+    "message": "Подключить ещё"
+  },
   "trench_account_limit": {
-    "message": "Подключено 3"
+    "message": "Достигнут лимит подключений ({limit})"
   },
   "trench_disconnect": {
     "message": "Отключить"

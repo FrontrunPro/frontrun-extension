@@ -7893,7 +7893,7 @@
     "message": "请先把钱包连接到 Tren.ch，才能交易该曲线代币。"
   },
   "trench_connected_count": {
-    "message": "已连接 {count} / 3"
+    "message": "已连接 {count} 个 · 上限 {limit} 个"
   },
   "trench_connect": {
     "message": "连接"
@@ -7901,8 +7901,14 @@
   "trench_connect_account_cta": {
     "message": "连接 Tren.ch"
   },
+  "trench_manage_connections": {
+    "message": "管理 Tren.ch 连接"
+  },
+  "trench_connect_another": {
+    "message": "连接其他账户"
+  },
   "trench_account_limit": {
-    "message": "已连接 3 个"
+    "message": "已达连接上限（{limit}）"
   },
   "trench_disconnect": {
     "message": "断开"
