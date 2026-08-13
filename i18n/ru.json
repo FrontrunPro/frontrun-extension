@@ -2447,6 +2447,9 @@
   "order_execution_failed": {
     "message": "Ошибка выполнения ордера"
   },
+  "route_quote_warning": {
+    "message": "Frontrun выявил риск значительной потери средств в текущем пуле. Торгуйте по своему усмотрению."
+  },
   "trade_amount_too_small": {
     "message": "Вы продаёте слишком мало токенов."
   },
