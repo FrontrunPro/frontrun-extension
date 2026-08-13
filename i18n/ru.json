@@ -225,22 +225,22 @@
     "message": "Войдите, чтобы синхронизировать настройки"
   },
   "extension_settings_cloud_not_synced": {
-    "message": "Облачные настройки ещё не загружены"
+    "message": "Ещё не синхронизировано"
   },
   "extension_settings_last_cloud_fetch": {
-    "message": "Последняя загрузка из облака: {time}"
+    "message": "Посл. {time}"
   },
   "extension_settings_manage_on_web": {
     "message": "Управлять в Web-настройках"
   },
   "extension_settings_refresh_cloud": {
-    "message": "Загрузить настройки из облака"
+    "message": "Синхронизировать"
   },
   "extension_settings_refreshing_cloud": {
-    "message": "Загрузка..."
+    "message": "Синхронизация..."
   },
   "extension_settings_refresh_cloud_failed": {
-    "message": "Не удалось загрузить настройки из облака"
+    "message": "Ошибка синхронизации"
   },
   "smart_followers": {
     "message": "Умные подписчики"
@@ -1309,6 +1309,18 @@
   },
   "quick_buy": {
     "message": "Купить"
+  },
+  "fomo_robinhood_invalid_usd_amount": {
+    "message": "Введите корректную сумму FOMO в USD"
+  },
+  "fomo_robinhood_buying": {
+    "message": "Покупка…"
+  },
+  "fomo_robinhood_eth_usd_conversion_unavailable": {
+    "message": "Конвертация ETH/USD недоступна"
+  },
+  "fomo_robinhood_buy_with_frontrun": {
+    "message": "Купить {amount} с Frontrun"
   },
   "quick_buy_label": {
     "message": "Быстрая покупка"

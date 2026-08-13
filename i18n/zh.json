@@ -1268,6 +1268,18 @@
   "quick_buy": {
     "message": "买入"
   },
+  "fomo_robinhood_invalid_usd_amount": {
+    "message": "请输入有效的 FOMO USD 金额"
+  },
+  "fomo_robinhood_buying": {
+    "message": "买入中…"
+  },
+  "fomo_robinhood_eth_usd_conversion_unavailable": {
+    "message": "ETH/USD 换算不可用"
+  },
+  "fomo_robinhood_buy_with_frontrun": {
+    "message": "使用 Frontrun 买入 {amount}"
+  },
   "quick_buy_label": {
     "message": "快速买入"
   },
