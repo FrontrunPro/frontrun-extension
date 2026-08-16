@@ -7535,6 +7535,9 @@
   "email_login_error_needs_review": {
     "message": "Этот адрес почты требует проверки перед регистрацией. Скоро одобрим."
   },
+  "email_registration_error_local_part": {
+    "message": "Для регистрации используйте почту без «.» и «+» перед @."
+  },
   "social_binding_title": {
     "message": "Ещё один шаг"
   },

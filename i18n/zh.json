@@ -7502,6 +7502,9 @@
   "email_login_error_needs_review": {
     "message": "该邮箱注册需要审核，通过后即可登录。"
   },
+  "email_registration_error_local_part": {
+    "message": "暂不支持使用 @ 前含“+”或“.”的邮箱注册，请换一个邮箱地址。"
+  },
   "social_binding_title": {
     "message": "还差一步"
   },
