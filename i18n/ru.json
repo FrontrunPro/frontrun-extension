@@ -3452,6 +3452,15 @@
   "limit_order_price_not_available": {
     "message": "Цена токена ещё не загружена. Подождите и попробуйте снова."
   },
+  "limit_order_chart_preset_mismatch": {
+    "message": "Пресет не подходит для этого BSC-ордера"
+  },
+  "limit_order_chart_preset_not_found": {
+    "message": "Пресет не найден"
+  },
+  "limit_order_creation_timed_out": {
+    "message": "Результат создания ордера неизвестен. Проверьте список лимитных ордеров перед повторной отправкой."
+  },
   "wallet_position_not_found": {
     "message": "Позиция кошелька не найдена: {address}"
   },

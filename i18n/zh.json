@@ -3446,6 +3446,15 @@
   "limit_order_price_not_available": {
     "message": "代币价格尚未加载，请稍后再试。"
   },
+  "limit_order_chart_preset_mismatch": {
+    "message": "预设与此 BSC 订单不匹配"
+  },
+  "limit_order_chart_preset_not_found": {
+    "message": "未找到预设"
+  },
+  "limit_order_creation_timed_out": {
+    "message": "限价单结果尚不确定，请先在限价单列表中确认后再提交。"
+  },
   "wallet_position_not_found": {
     "message": "未找到钱包持仓：{address}"
   },
