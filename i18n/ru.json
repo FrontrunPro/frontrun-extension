@@ -1868,8 +1868,8 @@
   "view_on_bscscan": {
     "message": "На BscScan"
   },
-  "view_on_blockscout": {
-    "message": "На Blockscout"
+  "view_on_rh_scan": {
+    "message": "Открыть в RH-scan"
   },
   "view_private_key": {
     "message": "Показать ключ"
@@ -2476,6 +2476,9 @@
   },
   "transaction_failed_onchain": {
     "message": "Транзакция не выполнена в сети. Попробуйте снова или сообщите команде"
+  },
+  "transaction_reverted_due_to_slippage_exceeded": {
+    "message": "Транзакция отменена из-за превышения слипажа"
   },
   "rpc_rate_limited": {
     "message": "RPC перегружен. Ваши чаевые {currentTip} SOL — нужно минимум 0.00001 SOL"

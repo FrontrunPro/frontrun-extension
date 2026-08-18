@@ -1853,8 +1853,8 @@
   "view_on_bscscan": {
     "message": "在 BscScan 上查看"
   },
-  "view_on_blockscout": {
-    "message": "在 Blockscout 上查看"
+  "view_on_rh_scan": {
+    "message": "在 RH-scan 上查看"
   },
   "view_private_key": {
     "message": "查看私钥"
@@ -2422,6 +2422,9 @@
   },
   "transaction_failed_onchain": {
     "message": "交易在链上执行失败，请重试。如果持续失败，请联系团队"
+  },
+  "transaction_reverted_due_to_slippage_exceeded": {
+    "message": "交易因滑点超限而回滚"
   },
   "rpc_rate_limited": {
     "message": "RPC 请求过多。当前小费 {currentTip} SOL，请提高到至少 0.00001 SOL 以使用更快的发送策略"

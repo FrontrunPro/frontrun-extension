@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Frontrun",
   "description": "Frontrun is your AI co-pilot, empowering crypto traders to stay ahead of the market",
-  "version": "0.0.361",
+  "version": "0.0.362",
   "icons": {
     "16": "icon-16.png",
     "32": "icon-32.png",
@@ -299,7 +299,7 @@
         "https://polymarket.com/*",
         "https://pro.x.com/*",
         "https://re.defined.fi/*",
-        "https://rh-scan.xyz/*",
+        "https://rh-scan.com/*",
         "https://robinhood.com/*",
         "https://robinhoodchain.blockscout.com/*",
         "https://robinscan.io/*",
