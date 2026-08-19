@@ -518,6 +518,18 @@
   "x_profile": {
     "message": "X 账户"
   },
+  "wallet_marketplace_marker_label": {
+    "message": "曾出现在钱包市场。"
+  },
+  "wallet_marketplace_inline_label": {
+    "message": "钱包市场"
+  },
+  "wallet_marketplace_marker_disclaimer": {
+    "message": "这类钱包可被批量购买并由单一实体控制，因此表面上的持有者多样性和交易活动可能具有误导性。"
+  },
+  "wallet_marketplace_marker_intro": {
+    "message": "此钱包曾在钱包市场上架。"
+  },
   "net_worth": {
     "message": "净资产"
   },
@@ -3445,15 +3457,6 @@
   },
   "limit_order_price_not_available": {
     "message": "代币价格尚未加载，请稍后再试。"
-  },
-  "limit_order_chart_preset_mismatch": {
-    "message": "预设与此 BSC 订单不匹配"
-  },
-  "limit_order_chart_preset_not_found": {
-    "message": "未找到预设"
-  },
-  "limit_order_creation_timed_out": {
-    "message": "限价单结果尚不确定，请先在限价单列表中确认后再提交。"
   },
   "wallet_position_not_found": {
     "message": "未找到钱包持仓：{address}"

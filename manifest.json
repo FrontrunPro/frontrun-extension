@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Frontrun",
   "description": "Frontrun is your AI co-pilot, empowering crypto traders to stay ahead of the market",
-  "version": "0.0.363",
+  "version": "0.0.364",
   "icons": {
     "16": "icon-16.png",
     "32": "icon-32.png",
@@ -33,6 +33,15 @@
     }
   },
   "web_accessible_resources": [
+    {
+      "resources": [
+        "tracker-quick-buy-runtime.html"
+      ],
+      "matches": [
+        "https://frontrun.pro/*",
+        "https://www.frontrun.pro/*"
+      ]
+    },
     {
       "resources": [
         "*.mp4",
@@ -350,6 +359,16 @@
       "js": [
         "vendor.js",
         "content-scripts/solscan.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://frontrun.pro/dashboard/tracker*",
+        "https://www.frontrun.pro/dashboard/tracker*"
+      ],
+      "run_at": "document_start",
+      "js": [
+        "content-scripts/tracker-quick-buy.js"
       ]
     },
     {
