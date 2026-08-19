@@ -5027,6 +5027,21 @@
   "ai_tag_auto_hidden": {
     "message": "Скрыто после 3 жалоб"
   },
+  "ai_twitter_label_report_action": {
+    "message": "Пожаловаться на AI-метку Twitter для @{screenName}"
+  },
+  "ai_twitter_label_report_title": {
+    "message": "Пожаловаться на AI-метку Twitter"
+  },
+  "ai_twitter_label_reported_title": {
+    "message": "Жалоба отправлена"
+  },
+  "ai_twitter_label_reported": {
+    "message": "Жалоба отправлена. Спасибо за отзыв"
+  },
+  "ai_twitter_label_report_failed": {
+    "message": "Не удалось пожаловаться на AI-метку Twitter. Повторите попытку"
+  },
   "ai_tag_admin_edit_en": {
     "message": "Изменить (EN)"
   },
@@ -5449,6 +5464,9 @@
   },
   "twitter_account_restricted": {
     "message": "Аккаунт X ограничен. Разблокируйте на x.com и повторите."
+  },
+  "twitter_bot_detected": {
+    "message": "У аккаунта X нет твитов и подписчиков — он помечен как бот. Привяжите другой аккаунт."
   },
   "twitter_unlink_failed": {
     "message": "Не удалось отвязать"

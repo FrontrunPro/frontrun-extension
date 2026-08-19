@@ -1,0 +1,1 @@
+import{O as e,h as t,u as n}from"./isAddress-CAIuZsVV.js";import{t as r}from"./sha256-BXRMY_xt.js";function i(i,a){let o=a||`hex`,s=r(e(i,{strict:!1})?n(i):i);return o===`bytes`?s:t(s)}export{i as t};

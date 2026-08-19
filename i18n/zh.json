@@ -5021,6 +5021,21 @@
   "ai_tag_auto_hidden": {
     "message": "已举报,达到 3 次后标签已隐藏"
   },
+  "ai_twitter_label_report_action": {
+    "message": "举报 @{screenName} 的 AI Twitter 标签"
+  },
+  "ai_twitter_label_report_title": {
+    "message": "举报 AI Twitter 标签"
+  },
+  "ai_twitter_label_reported_title": {
+    "message": "已举报"
+  },
+  "ai_twitter_label_reported": {
+    "message": "举报成功，感谢你的反馈"
+  },
+  "ai_twitter_label_report_failed": {
+    "message": "AI Twitter 标签举报失败，请重试"
+  },
   "ai_tag_admin_edit_en": {
     "message": "编辑英文名"
   },
@@ -5440,6 +5455,9 @@
   },
   "twitter_account_restricted": {
     "message": "你的 X 账号被 Twitter 限制，请先在 x.com 处理后重试。"
+  },
+  "twitter_bot_detected": {
+    "message": "该 X 账号没有推文也没有粉丝，被判定为 BOT 账号。请更换一个账号绑定。"
   },
   "twitter_unlink_failed": {
     "message": "解绑失败"
