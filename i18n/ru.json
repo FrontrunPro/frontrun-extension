@@ -2021,6 +2021,9 @@
   "enter_private_key": {
     "message": "Введите ключ"
   },
+  "private_key": {
+    "message": "Приватный ключ"
+  },
   "send_failed": {
     "message": "Не удалось отправить"
   },
@@ -2347,6 +2350,9 @@
   },
   "alias": {
     "message": "Псевдоним"
+  },
+  "alias_optional": {
+    "message": "Псевдоним (необязательно)"
   },
   "edit_alias": {
     "message": "Изменить"
@@ -3463,6 +3469,15 @@
   },
   "limit_order_price_not_available": {
     "message": "Цена токена ещё не загружена. Подождите и попробуйте снова."
+  },
+  "limit_order_chart_preset_mismatch": {
+    "message": "Пресет не подходит для этого BSC-ордера"
+  },
+  "limit_order_chart_preset_not_found": {
+    "message": "Пресет не найден"
+  },
+  "limit_order_creation_timed_out": {
+    "message": "Результат создания ордера неизвестен. Проверьте список лимитных ордеров перед повторной отправкой."
   },
   "wallet_position_not_found": {
     "message": "Позиция кошелька не найдена: {address}"
@@ -5519,6 +5534,9 @@
   "bsc_wallet": {
     "message": "BSC"
   },
+  "evm_wallet": {
+    "message": "EVM"
+  },
   "robinhood_wallet": {
     "message": "Кошелёк Robinhood"
   },
@@ -5541,7 +5559,7 @@
     "message": "Создать Solana кошелёк"
   },
   "create_bsc_wallet_modal_title": {
-    "message": "Создать BNB кошелёк"
+    "message": "Создать EVM кошелёк"
   },
   "create_group_modal_title": {
     "message": "Создать группу"
@@ -7542,7 +7560,7 @@
     "message": "Введите корректный адрес почты."
   },
   "email_login_error_disposable": {
-    "message": "Используйте постоянный адрес почты."
+    "message": "Этот почтовый домен не поддерживается. Используйте другой адрес."
   },
   "email_login_error_rate_limited": {
     "message": "Слишком много попыток. Повторите позже."

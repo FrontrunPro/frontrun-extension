@@ -2003,6 +2003,9 @@
   "enter_private_key": {
     "message": "输入私钥"
   },
+  "private_key": {
+    "message": "私钥"
+  },
   "send_failed": {
     "message": "发送失败"
   },
@@ -2305,6 +2308,9 @@
   },
   "alias": {
     "message": "别名"
+  },
+  "alias_optional": {
+    "message": "别名（可选）"
   },
   "edit_alias": {
     "message": "编辑别名"
@@ -3457,6 +3463,15 @@
   },
   "limit_order_price_not_available": {
     "message": "代币价格尚未加载，请稍后再试。"
+  },
+  "limit_order_chart_preset_mismatch": {
+    "message": "预设与此 BSC 订单不匹配"
+  },
+  "limit_order_chart_preset_not_found": {
+    "message": "未找到预设"
+  },
+  "limit_order_creation_timed_out": {
+    "message": "限价单结果尚不确定，请先在限价单列表中确认后再提交。"
   },
   "wallet_position_not_found": {
     "message": "未找到钱包持仓：{address}"
@@ -5510,6 +5525,9 @@
   "bsc_wallet": {
     "message": "BSC 钱包"
   },
+  "evm_wallet": {
+    "message": "EVM 钱包"
+  },
   "robinhood_wallet": {
     "message": "Robinhood 钱包"
   },
@@ -5532,7 +5550,7 @@
     "message": "创建 Solana 钱包"
   },
   "create_bsc_wallet_modal_title": {
-    "message": "创建 BNB 钱包"
+    "message": "创建 EVM 钱包"
   },
   "create_group_modal_title": {
     "message": "创建钱包分组"
@@ -7509,7 +7527,7 @@
     "message": "请输入有效的邮箱地址。"
   },
   "email_login_error_disposable": {
-    "message": "请使用长期有效的邮箱地址。"
+    "message": "该邮箱域名不支持注册，请使用其他邮箱地址。"
   },
   "email_login_error_rate_limited": {
     "message": "尝试次数过多，请稍后再试。"
