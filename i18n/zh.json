@@ -290,6 +290,9 @@
   "openbits_label_cta": {
     "message": "隐藏"
   },
+  "openbits_label_report_cta": {
+    "message": "举报"
+  },
   "hide_openbits_labels_title": {
     "message": "在 X 主页隐藏 AI 生成标签"
   },
@@ -1223,6 +1226,9 @@
   "import_from_axiom": {
     "message": "从 Axiom 导入"
   },
+  "import_from_padre": {
+    "message": "从 Padre 导入"
+  },
   "import_from_photon": {
     "message": "从 Photon 导入"
   },
@@ -1260,7 +1266,7 @@
     "message": "稍后提醒"
   },
   "import_to_frontrun_tip": {
-    "message": "将标签导入 Frontrun，便可在 Solscan、Axiom、GMGN 等平台无缝显示。所有标签仅您可见，绝不会与其他用户共享。"
+    "message": "将标签导入 Frontrun，便可在 Solscan、Axiom、GMGN、Terminal 等平台无缝显示。所有标签仅您可见，绝不会与其他用户共享。"
   },
   "import_evm_wallets_as": {
     "message": "将 EVM 钱包导入为"
@@ -2345,6 +2351,12 @@
   "buy": {
     "message": "买入"
   },
+  "above": {
+    "message": "高于"
+  },
+  "below": {
+    "message": "低于"
+  },
   "fee": {
     "message": "手续费"
   },
@@ -2884,6 +2896,12 @@
   },
   "label_tool_description": {
     "message": "在地址旁显示一个小笔图标，直接新增或编辑标签"
+  },
+  "label_visibility_show": {
+    "message": "显示"
+  },
+  "label_visibility_hide": {
+    "message": "隐藏"
   },
   "primary_domain": {
     "message": "主要域名"
@@ -3428,8 +3446,44 @@
   "limit_orders": {
     "message": "限价单"
   },
+  "limit_order_set_target_percent": {
+    "message": "将限价单目标设为 {percent}%",
+    "placeholders": {
+      "percent": {
+        "content": "$1",
+        "example": "100"
+      }
+    }
+  },
+  "limit_order_reset_target_percent": {
+    "message": "将限价单目标重置为 {percent}%",
+    "placeholders": {
+      "percent": {
+        "content": "$1",
+        "example": "0"
+      }
+    }
+  },
+  "limit_order_target_percentage_slider": {
+    "message": "限价单目标百分比滑块"
+  },
+  "limit_order_target_percentage_input": {
+    "message": "限价单目标百分比"
+  },
   "limit": {
     "message": "限价"
+  },
+  "robinhood_limit_buy_amount": {
+    "message": "买入金额（ETH）"
+  },
+  "robinhood_limit_update_target": {
+    "message": "更新目标价格"
+  },
+  "robinhood_limit_target_updated": {
+    "message": "目标价格已更新"
+  },
+  "robinhood_limit_edit_target": {
+    "message": "修改价格"
   },
   "creating_limit_order": {
     "message": "正在创建限价单"
