@@ -8008,5 +8008,58 @@
   },
   "play": {
     "message": "播放"
-  }
+  },
+  "fomo_tracker_title": { "message": "FOMO 追踪器" },
+  "fomo_tracker_brand_name": { "message": "FOMO" },
+  "fomo_tracker_short_title": { "message": "TRACKER" },
+  "fomo_tracker_live_activity": { "message": "FOMO 追踪器实时动态" },
+  "fomo_tracker_live_label": { "message": "实时" },
+  "fomo_tracker_status_connecting": { "message": "连接中" },
+  "fomo_tracker_status_unavailable": { "message": "离线" },
+  "fomo_tracker_feed": { "message": "FOMO 追踪器动态" },
+  "fomo_tracker_column_time": { "message": "时间" },
+  "fomo_tracker_column_trader": { "message": "交易者" },
+  "fomo_tracker_column_token": { "message": "代币" },
+  "fomo_tracker_column_amount": { "message": "金额" },
+  "fomo_tracker_featured": { "message": "精选" },
+  "fomo_tracker_followed": { "message": "个人监控" },
+  "fomo_tracker_open_full": { "message": "打开完整 FOMO 追踪器" },
+  "fomo_tracker_user_fallback": { "message": "FOMO 用户" },
+  "fomo_tracker_open_move": {
+    "message": "打开 FOMO 追踪器。按住并拖动可调整位置。"
+  },
+  "fomo_tracker_move": { "message": "移动 FOMO 追踪器" },
+  "fomo_tracker_collapse": { "message": "收起 FOMO 追踪器" },
+  "fomo_tracker_resize": { "message": "调整 FOMO 追踪器大小" },
+  "fomo_tracker_quick_buy_toggle": {
+    "message": "开启或关闭 FOMO 追踪器快捷买入"
+  },
+  "fomo_tracker_quick_buy_amount": {
+    "message": "FOMO 追踪器快捷买入 SOL 数量"
+  },
+  "fomo_tracker_quick_buy_preset": { "message": "快捷买入预设" },
+  "fomo_tracker_use_preset": { "message": "使用快捷买入预设 {preset}" },
+  "fomo_tracker_sol_only": { "message": "仅支持 SOL" },
+  "fomo_tracker_unavailable": { "message": "追踪器暂不可用" },
+  "fomo_tracker_connecting": { "message": "正在连接…" },
+  "fomo_tracker_waiting": { "message": "正在等待 SOL 交易…" },
+  "fomo_tracker_open_token": { "message": "在 {platform} 打开 {token}" },
+  "fomo_tracker_quick_buy": { "message": "用 {amount} SOL 快捷买入 {token}" },
+  "fomo_tracker_wallet_required": {
+    "message": "请先启用一个 Solana 钱包以使用快捷买入。"
+  },
+  "fomo_tracker_buying": { "message": "正在买入…" },
+  "fomo_tracker_bought": { "message": "买入成功" },
+  "fomo_tracker_partially_bought": { "message": "部分买入成功" },
+  "fomo_tracker_buy_failed": { "message": "买入失败" },
+  "fomo_tracker_seconds_ago": { "message": "{count}秒前" },
+  "fomo_tracker_minutes_ago": { "message": "{count}分钟前" },
+  "fomo_tracker_hours_ago": { "message": "{count}小时前" },
+  "fomo_tracker_days_ago": { "message": "{count}天前" },
+  "fomo_tracker_token_age_seconds": { "message": "{count}秒" },
+  "fomo_tracker_token_age_minutes": { "message": "{count}分" },
+  "fomo_tracker_token_age_hours": { "message": "{count}时" },
+  "fomo_tracker_token_age_days": { "message": "{count}天" },
+  "fomo_tracker_token_age_months": { "message": "{count}月" },
+  "fomo_tracker_token_age_years": { "message": "{count}年" }
 }
