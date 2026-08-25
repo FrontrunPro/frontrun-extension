@@ -1232,6 +1232,9 @@
   "import_from_photon": {
     "message": "从 Photon 导入"
   },
+  "import_from_arkham": {
+    "message": "从 Arkham 导入"
+  },
   "import_privacy_message": {
     "message": "您导入的标签始终对您保持私密，不会与其他用户共享。"
   },
@@ -1324,6 +1327,12 @@
   },
   "quick_buy_mode_legacy_desc": {
     "message": "在平台按钮旁显示 Frontrun 按钮"
+  },
+  "quick_buy_press_trigger": {
+    "message": "快捷买入按下触发"
+  },
+  "quick_buy_press_trigger_desc": {
+    "message": "在快捷买入界面按下 Frontrun 快捷买入按钮时立即交易，无需等待释放鼠标"
   },
   "wallet_tracker_quick_buy": {
     "message": "钱包追踪内快速买入"
@@ -1706,11 +1715,47 @@
   "private_key_imported_successfully": {
     "message": "私钥导入成功"
   },
+  "private_keys_imported_successfully": {
+    "message": "已成功导入 {count} 个钱包"
+  },
   "failed_to_import_private_key": {
     "message": "私钥导入失败"
   },
   "import_wallet": {
     "message": "导入钱包"
+  },
+  "private_keys": {
+    "message": "私钥"
+  },
+  "wallet_import_private_keys_count": {
+    "message": "{count} / {max}"
+  },
+  "wallet_import_private_keys_hint": {
+    "message": "最多 {max} 个钱包；在私钥框粘贴多个私钥可自动生成对应行。"
+  },
+  "wallet_import_private_keys_limit": {
+    "message": "每次最多可导入 {max} 个私钥。"
+  },
+  "wallet_import_private_keys_duplicate": {
+    "message": "请移除重复的私钥后再导入。"
+  },
+  "wallet_import_private_keys_action": {
+    "message": "导入 {count} 个钱包"
+  },
+  "wallet_import_private_keys_progress": {
+    "message": "正在导入 {completed} / {total}"
+  },
+  "wallet_import_private_keys_partial_error": {
+    "message": "{total} 个钱包中有 {failed} 个导入失败。失败的私钥已保留，可直接重试。{reason}"
+  },
+  "wallet_import_private_key_alias_warning": {
+    "message": "钱包已导入，但以下别名保存失败：{wallets}。请在钱包列表中重新命名。"
+  },
+  "wallet_import_show_private_keys": {
+    "message": "显示私钥"
+  },
+  "wallet_import_hide_private_keys": {
+    "message": "隐藏私钥"
   },
   "do_not_share_your_private_key_with_anyone_frontrun_never_sees_or_stores_your_key": {
     "message": "不要与任何人分享您的私钥。Frontrun 永远不会看到或存储您的私钥。"
@@ -1919,14 +1964,146 @@
   "pnl_share_gif_too_large": {
     "message": "GIF 需小于 5 MB"
   },
+  "pnl_share_gif_unsupported": {
+    "message": "此处不支持 GIF 动图"
+  },
   "pnl_share_custom_background_alt": {
     "message": "自定义背景"
   },
   "pnl_share_update_image": {
     "message": "更换图片"
   },
+  "customize": {
+    "message": "自定义"
+  },
+  "show": {
+    "message": "显示"
+  },
+  "cash_back": {
+    "message": "返现"
+  },
+  "pnl_card_7_days": {
+    "message": "7 天"
+  },
+  "pnl_card_address": {
+    "message": "地址"
+  },
+  "pnl_card_volume": {
+    "message": "7D 交易量"
+  },
+  "pnl_card_x_handle": {
+    "message": "X 用户名"
+  },
+  "pnl_card_ath": {
+    "message": "历史最高"
+  },
+  "pnl_card_balance": {
+    "message": "余额"
+  },
+  "pnl_card_cashback_promo": {
+    "message": "用代码获得 90% 返现"
+  },
+  "pnl_card_cashback_promo_short": {
+    "message": "获得 90% 返现"
+  },
+  "pnl_card_invested": {
+    "message": "投入"
+  },
+  "pnl_card_language": {
+    "message": "卡片语言"
+  },
+  "pnl_card_mc_at_call": {
+    "message": "喊单时 MC"
+  },
+  "pnl_card_mc_now": {
+    "message": "当前 MC"
+  },
+  "pnl_card_my_wallet": {
+    "message": "我的钱包"
+  },
+  "pnl_card_pnl": {
+    "message": "PNL"
+  },
+  "pnl_card_position": {
+    "message": "持仓"
+  },
+  "pnl_card_top_holdings": {
+    "message": "主要持仓"
+  },
+  "pnl_card_total_cashback": {
+    "message": "总返现"
+  },
+  "pnl_card_volume_7d": {
+    "message": "7D 交易量 - {count} Tx"
+  },
+  "pnl_card_wallet": {
+    "message": "钱包"
+  },
+  "pnl_card_win_rate": {
+    "message": "胜率"
+  },
+  "pnl_customize_align": {
+    "message": "对齐"
+  },
+  "pnl_customize_align_center": {
+    "message": "居中"
+  },
+  "pnl_customize_align_left": {
+    "message": "左"
+  },
+  "pnl_customize_align_right": {
+    "message": "右"
+  },
+  "pnl_customize_apply_to_totals": {
+    "message": "应用于汇总"
+  },
+  "pnl_customize_background": {
+    "message": "背景"
+  },
+  "pnl_customize_blur": {
+    "message": "模糊"
+  },
+  "pnl_customize_bold_values": {
+    "message": "加粗数值"
+  },
+  "pnl_customize_colors": {
+    "message": "颜色"
+  },
+  "pnl_customize_font_default": {
+    "message": "默认"
+  },
+  "pnl_customize_layout": {
+    "message": "布局"
+  },
+  "pnl_customize_loss": {
+    "message": "亏损"
+  },
+  "pnl_customize_low_contrast": {
+    "message": "对比度过低 — 主文本在统计区块上难以阅读。"
+  },
+  "pnl_customize_main_text": {
+    "message": "主文本"
+  },
+  "pnl_customize_opacity": {
+    "message": "不透明度"
+  },
+  "pnl_customize_profit": {
+    "message": "盈利"
+  },
+  "pnl_customize_reset_all": {
+    "message": "全部重置"
+  },
+  "pnl_customize_stats_block": {
+    "message": "统计区块"
+  },
+  "pnl_customize_typography": {
+    "message": "字体"
+  },
   "pnl_share_custom_image": {
-    "message": "自定义图片"
+    "message": "自定义"
+  },
+  "pnl_share_drop_image": {
+    "message": "拖放图片"
   },
   "pnl_share_update": {
     "message": "更换"
@@ -1966,6 +2143,18 @@
   },
   "pnl_share_share_failed": {
     "message": "分享失败"
+  },
+  "set_referral_code": {
+    "message": "设置推荐码"
+  },
+  "share_call_pnl": {
+    "message": "分享喊单 PnL"
+  },
+  "share_position_pnl": {
+    "message": "分享持仓 PnL"
+  },
+  "share_wallet_pnl": {
+    "message": "分享钱包 PnL"
   },
   "share_pnl": {
     "message": "分享 PnL"
@@ -7607,6 +7796,18 @@
   "email_login_error_needs_review": {
     "message": "该邮箱注册需要审核，通过后即可登录。"
   },
+  "account_review_title": {
+    "message": "账号正在审核"
+  },
+  "account_review_description": {
+    "message": "检测到异常注册行为，管理员审核通过后即可继续使用。"
+  },
+  "account_review_check_status": {
+    "message": "检查审核状态"
+  },
+  "account_review_checking_status": {
+    "message": "正在检查..."
+  },
   "email_registration_error_local_part": {
     "message": "暂不支持使用 @ 前含“+”或“.”的邮箱注册，请换一个邮箱地址。"
   },
@@ -8052,10 +8253,10 @@
   "fomo_tracker_bought": { "message": "买入成功" },
   "fomo_tracker_partially_bought": { "message": "部分买入成功" },
   "fomo_tracker_buy_failed": { "message": "买入失败" },
-  "fomo_tracker_seconds_ago": { "message": "{count}秒前" },
-  "fomo_tracker_minutes_ago": { "message": "{count}分钟前" },
-  "fomo_tracker_hours_ago": { "message": "{count}小时前" },
-  "fomo_tracker_days_ago": { "message": "{count}天前" },
+  "fomo_tracker_seconds_ago": { "message": "{count}秒" },
+  "fomo_tracker_minutes_ago": { "message": "{count}分钟" },
+  "fomo_tracker_hours_ago": { "message": "{count}小时" },
+  "fomo_tracker_days_ago": { "message": "{count}天" },
   "fomo_tracker_token_age_seconds": { "message": "{count}秒" },
   "fomo_tracker_token_age_minutes": { "message": "{count}分" },
   "fomo_tracker_token_age_hours": { "message": "{count}时" },

@@ -1274,6 +1274,9 @@
   "import_from_photon": {
     "message": "Импорт из Photon"
   },
+  "import_from_arkham": {
+    "message": "Импорт из Arkham"
+  },
   "import_privacy_message": {
     "message": "Ваши импортированные метки всегда останутся приватными и не будут доступны другим пользователям."
   },
@@ -1366,6 +1369,12 @@
   },
   "quick_buy_mode_legacy_desc": {
     "message": "кнопка Frontrun рядом с кнопкой платформы"
+  },
+  "quick_buy_press_trigger": {
+    "message": "Quick Buy по нажатию"
+  },
+  "quick_buy_press_trigger_desc": {
+    "message": "В Quick Buy покупать при нажатии кнопки Frontrun Quick Buy, не дожидаясь отпускания мыши"
   },
   "wallet_tracker_quick_buy": {
     "message": "Быстрая покупка (трекер)"
@@ -1724,11 +1733,47 @@
   "private_key_imported_successfully": {
     "message": "Приватный ключ успешно импортирован"
   },
+  "private_keys_imported_successfully": {
+    "message": "Успешно импортировано кошельков: {count}"
+  },
   "failed_to_import_private_key": {
     "message": "Не удалось импортировать приватный ключ"
   },
   "import_wallet": {
     "message": "Импорт"
+  },
+  "private_keys": {
+    "message": "Приватные ключи"
+  },
+  "wallet_import_private_keys_count": {
+    "message": "{count} / {max}"
+  },
+  "wallet_import_private_keys_hint": {
+    "message": "До {max} кошельков. Вставьте несколько ключей в поле, чтобы создать отдельную строку для каждого кошелька."
+  },
+  "wallet_import_private_keys_limit": {
+    "message": "За один раз можно импортировать не более {max} приватных ключей."
+  },
+  "wallet_import_private_keys_duplicate": {
+    "message": "Удалите повторяющиеся ключи перед импортом."
+  },
+  "wallet_import_private_keys_action": {
+    "message": "Импортировать кошельки: {count}"
+  },
+  "wallet_import_private_keys_progress": {
+    "message": "Импорт {completed} / {total}"
+  },
+  "wallet_import_private_keys_partial_error": {
+    "message": "Не импортировано кошельков: {failed} из {total}. Неудачные ключи оставлены для повторной попытки. {reason}"
+  },
+  "wallet_import_private_key_alias_warning": {
+    "message": "Кошельки импортированы, но псевдонимы не сохранены: {wallets}. Переименуйте их в списке."
+  },
+  "wallet_import_show_private_keys": {
+    "message": "Показать приватные ключи"
+  },
+  "wallet_import_hide_private_keys": {
+    "message": "Скрыть приватные ключи"
   },
   "do_not_share_your_private_key_with_anyone_frontrun_never_sees_or_stores_your_key": {
     "message": "Не делитесь приватным ключом ни с кем. Frontrun не видит и не хранит ваши ключи."
@@ -1934,14 +1979,146 @@
   "pnl_share_gif_too_large": {
     "message": "GIF должен быть меньше 5 МБ"
   },
+  "pnl_share_gif_unsupported": {
+    "message": "GIF здесь не поддерживаются"
+  },
   "pnl_share_custom_background_alt": {
     "message": "Свой фон"
   },
   "pnl_share_update_image": {
     "message": "Обновить фото"
   },
+  "customize": {
+    "message": "Оформление"
+  },
+  "show": {
+    "message": "Показать"
+  },
+  "cash_back": {
+    "message": "Кешбэк"
+  },
+  "pnl_card_7_days": {
+    "message": "7 дней"
+  },
+  "pnl_card_address": {
+    "message": "Адрес"
+  },
+  "pnl_card_volume": {
+    "message": "Объём 7D"
+  },
+  "pnl_card_x_handle": {
+    "message": "Ник X"
+  },
+  "pnl_card_ath": {
+    "message": "Ист. максимум"
+  },
+  "pnl_card_balance": {
+    "message": "Баланс"
+  },
+  "pnl_card_cashback_promo": {
+    "message": "90% кешбэка по коду"
+  },
+  "pnl_card_cashback_promo_short": {
+    "message": "90% кешбэка"
+  },
+  "pnl_card_invested": {
+    "message": "Вложено"
+  },
+  "pnl_card_language": {
+    "message": "Язык карточки"
+  },
+  "pnl_card_mc_at_call": {
+    "message": "MC при коле"
+  },
+  "pnl_card_mc_now": {
+    "message": "MC сейчас"
+  },
+  "pnl_card_my_wallet": {
+    "message": "МОЙ КОШЕЛЁК"
+  },
+  "pnl_card_pnl": {
+    "message": "PNL"
+  },
+  "pnl_card_position": {
+    "message": "Позиция"
+  },
+  "pnl_card_top_holdings": {
+    "message": "Топ активы"
+  },
+  "pnl_card_total_cashback": {
+    "message": "Всего кешбэк"
+  },
+  "pnl_card_volume_7d": {
+    "message": "Объём 7D - {count} Tx"
+  },
+  "pnl_card_wallet": {
+    "message": "КОШЕЛЁК"
+  },
+  "pnl_card_win_rate": {
+    "message": "Винрейт"
+  },
+  "pnl_customize_align": {
+    "message": "Выравнивание"
+  },
+  "pnl_customize_align_center": {
+    "message": "Центр"
+  },
+  "pnl_customize_align_left": {
+    "message": "Слева"
+  },
+  "pnl_customize_align_right": {
+    "message": "Справа"
+  },
+  "pnl_customize_apply_to_totals": {
+    "message": "Применить к итогам"
+  },
+  "pnl_customize_background": {
+    "message": "Фон"
+  },
+  "pnl_customize_blur": {
+    "message": "Размытие"
+  },
+  "pnl_customize_bold_values": {
+    "message": "Жирные цифры"
+  },
+  "pnl_customize_colors": {
+    "message": "Текст"
+  },
+  "pnl_customize_font_default": {
+    "message": "Системный"
+  },
+  "pnl_customize_layout": {
+    "message": "Макет"
+  },
+  "pnl_customize_loss": {
+    "message": "Убыток"
+  },
+  "pnl_customize_low_contrast": {
+    "message": "Низкий контраст — основной текст плохо читается на блоке статистики."
+  },
+  "pnl_customize_main_text": {
+    "message": "Основной текст"
+  },
+  "pnl_customize_opacity": {
+    "message": "Непрозрачность"
+  },
+  "pnl_customize_profit": {
+    "message": "Прибыль"
+  },
+  "pnl_customize_reset_all": {
+    "message": "Сбросить всё"
+  },
+  "pnl_customize_stats_block": {
+    "message": "Статистика"
+  },
+  "pnl_customize_typography": {
+    "message": "Типографика"
+  },
   "pnl_share_custom_image": {
-    "message": "Своё фото"
+    "message": "Своё"
+  },
+  "pnl_share_drop_image": {
+    "message": "Перетащите"
   },
   "pnl_share_update": {
     "message": "Обновить"
@@ -1981,6 +2158,18 @@
   },
   "pnl_share_share_failed": {
     "message": "Не удалось поделиться"
+  },
+  "set_referral_code": {
+    "message": "Задать реф-код"
+  },
+  "share_call_pnl": {
+    "message": "Поделиться PnL колла"
+  },
+  "share_position_pnl": {
+    "message": "Поделиться PnL позиции"
+  },
+  "share_wallet_pnl": {
+    "message": "Поделиться PnL кошелька"
   },
   "share_pnl": {
     "message": "Поделиться PnL"
@@ -7640,6 +7829,18 @@
   "email_login_error_needs_review": {
     "message": "Этот адрес почты требует проверки перед регистрацией. Скоро одобрим."
   },
+  "account_review_title": {
+    "message": "Аккаунт проверяется"
+  },
+  "account_review_description": {
+    "message": "Мы обнаружили необычную регистрацию. Аккаунт станет доступен после проверки администратором."
+  },
+  "account_review_check_status": {
+    "message": "Проверить статус"
+  },
+  "account_review_checking_status": {
+    "message": "Проверяем..."
+  },
   "email_registration_error_local_part": {
     "message": "Для регистрации используйте почту без «.» и «+» перед @."
   },
@@ -8056,10 +8257,10 @@
   "fomo_tracker_bought": { "message": "Куплено" },
   "fomo_tracker_partially_bought": { "message": "Куплено частично" },
   "fomo_tracker_buy_failed": { "message": "Ошибка покупки" },
-  "fomo_tracker_seconds_ago": { "message": "{count} с назад" },
-  "fomo_tracker_minutes_ago": { "message": "{count} мин назад" },
-  "fomo_tracker_hours_ago": { "message": "{count} ч назад" },
-  "fomo_tracker_days_ago": { "message": "{count} дн назад" },
+  "fomo_tracker_seconds_ago": { "message": "{count} с" },
+  "fomo_tracker_minutes_ago": { "message": "{count} мин" },
+  "fomo_tracker_hours_ago": { "message": "{count} ч" },
+  "fomo_tracker_days_ago": { "message": "{count} дн" },
   "fomo_tracker_token_age_seconds": { "message": "{count} с" },
   "fomo_tracker_token_age_minutes": { "message": "{count} мин" },
   "fomo_tracker_token_age_hours": { "message": "{count} ч" },
