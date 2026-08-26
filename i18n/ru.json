@@ -842,6 +842,54 @@
   "wallets": {
     "message": "Кошельки"
   },
+  "fomo_profile_tracker_add": {
+    "message": "Трек"
+  },
+  "fomo_profile_tracker_remove": {
+    "message": "Убрать"
+  },
+  "fomo_profile_tracker_adding": {
+    "message": "Трек..."
+  },
+  "fomo_profile_tracker_removing": {
+    "message": "Удаляем..."
+  },
+  "fomo_profile_tracker_tracked": {
+    "message": "В треке"
+  },
+  "fomo_profile_tracker_requested": {
+    "message": "Запрос"
+  },
+  "fomo_profile_tracker_cancel_request": {
+    "message": "Отмена"
+  },
+  "fomo_profile_tracker_canceling_request": {
+    "message": "Отмена..."
+  },
+  "fomo_profile_tracker_upgrade": {
+    "message": "Обновить для Tracker"
+  },
+  "fomo_profile_tracker_premium_required": {
+    "message": "Нужен Premium"
+  },
+  "fomo_profile_tracker_upgrade_tooltip": {
+    "message": "Перейдите на Premium, чтобы отслеживать в Frontrun и получать обновления сделок в реальном времени."
+  },
+  "fomo_profile_tracker_track_tooltip": {
+    "message": "Следите за сделками этого кошелька в реальном времени в своей ленте Fomo Tracker."
+  },
+  "fomo_profile_tracker_tracked_tooltip": {
+    "message": "Откройте Frontrun Tracker, чтобы управлять обновлениями сделок в реальном времени."
+  },
+  "fomo_profile_tracker_limit_error": {
+    "message": "Лимит Tracker достигнут"
+  },
+  "fomo_profile_tracker_unavailable": {
+    "message": "Профиля ещё нет в Tracker"
+  },
+  "fomo_profile_tracker_error": {
+    "message": "Не удалось обновить Tracker"
+  },
   "wallets_in_group": {
     "message": "Кошельки в группе"
   },

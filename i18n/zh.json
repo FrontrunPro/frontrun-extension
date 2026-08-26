@@ -800,6 +800,54 @@
   "wallets": {
     "message": "钱包"
   },
+  "fomo_profile_tracker_add": {
+    "message": "追踪"
+  },
+  "fomo_profile_tracker_remove": {
+    "message": "取消追踪"
+  },
+  "fomo_profile_tracker_adding": {
+    "message": "正在追踪..."
+  },
+  "fomo_profile_tracker_removing": {
+    "message": "正在移除..."
+  },
+  "fomo_profile_tracker_tracked": {
+    "message": "已追踪"
+  },
+  "fomo_profile_tracker_requested": {
+    "message": "已提交请求"
+  },
+  "fomo_profile_tracker_cancel_request": {
+    "message": "取消请求"
+  },
+  "fomo_profile_tracker_canceling_request": {
+    "message": "正在取消..."
+  },
+  "fomo_profile_tracker_upgrade": {
+    "message": "升级后追踪"
+  },
+  "fomo_profile_tracker_premium_required": {
+    "message": "需要 Premium"
+  },
+  "fomo_profile_tracker_upgrade_tooltip": {
+    "message": "升级到 Premium，即可在 Frontrun 追踪并接收实时交易更新。"
+  },
+  "fomo_profile_tracker_track_tooltip": {
+    "message": "在你的 Fomo Tracker 动态中实时查看这个钱包的交易。"
+  },
+  "fomo_profile_tracker_tracked_tooltip": {
+    "message": "打开 Frontrun Tracker 管理实时交易更新。"
+  },
+  "fomo_profile_tracker_limit_error": {
+    "message": "Tracker 人数已达上限"
+  },
+  "fomo_profile_tracker_unavailable": {
+    "message": "该资料暂未加入 Tracker"
+  },
+  "fomo_profile_tracker_error": {
+    "message": "Tracker 更新失败"
+  },
   "wallets_in_group": {
     "message": "组内钱包"
   },
