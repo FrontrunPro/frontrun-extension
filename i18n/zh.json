@@ -593,6 +593,9 @@
   "close": {
     "message": "关闭"
   },
+  "fomo_tracker_hide": {
+    "message": "隐藏 FOMO Tracker 悬浮球"
+  },
   "auto_renew_banner_title": {
     "message": "自动续订高级版"
   },
@@ -2830,6 +2833,9 @@
   },
   "refresh": {
     "message": "刷新"
+  },
+  "refresh_balances": {
+    "message": "刷新余额"
   },
   "refresh_all_positions": {
     "message": "刷新所有持仓"

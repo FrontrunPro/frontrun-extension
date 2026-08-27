@@ -623,6 +623,9 @@
   "close": {
     "message": "Закрыть"
   },
+  "fomo_tracker_hide": {
+    "message": "Скрыть плавающую кнопку FOMO Tracker"
+  },
   "auto_renew_banner_title": {
     "message": "Автопродление премиума"
   },
@@ -2884,6 +2887,9 @@
   },
   "refresh": {
     "message": "Обновить"
+  },
+  "refresh_balances": {
+    "message": "Обновить балансы"
   },
   "refresh_all_positions": {
     "message": "Обновить все"
