@@ -626,6 +626,18 @@
   "fomo_tracker_hide": {
     "message": "Скрыть плавающую кнопку FOMO Tracker"
   },
+  "fomo_tracker_hide_confirmation_title": {
+    "message": "Скрыть кнопку FOMO Tracker?"
+  },
+  "fomo_tracker_hide_confirmation_body": {
+    "message": "Кнопка исчезнет с торговых сайтов. Вернуть её можно в Premium Settings на сайте."
+  },
+  "fomo_tracker_hide_confirmation_cancel": {
+    "message": "Оставить кнопку"
+  },
+  "fomo_tracker_hide_confirmation_confirm": {
+    "message": "Скрыть кнопку"
+  },
   "auto_renew_banner_title": {
     "message": "Автопродление премиума"
   },

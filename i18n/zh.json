@@ -596,6 +596,18 @@
   "fomo_tracker_hide": {
     "message": "隐藏 FOMO Tracker 悬浮球"
   },
+  "fomo_tracker_hide_confirmation_title": {
+    "message": "要隐藏 FOMO Tracker 悬浮球吗？"
+  },
+  "fomo_tracker_hide_confirmation_body": {
+    "message": "隐藏后，支持的交易网站将不再显示此悬浮球。你可以随时在网页端 Premium 设置中重新开启。"
+  },
+  "fomo_tracker_hide_confirmation_cancel": {
+    "message": "保留悬浮球"
+  },
+  "fomo_tracker_hide_confirmation_confirm": {
+    "message": "隐藏悬浮球"
+  },
   "auto_renew_banner_title": {
     "message": "自动续订高级版"
   },
