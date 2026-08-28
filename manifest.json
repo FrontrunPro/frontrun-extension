@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Frontrun",
   "description": "Frontrun is your AI co-pilot, empowering crypto traders to stay ahead of the market",
-  "version": "0.0.376",
+  "version": "0.0.378",
   "icons": {
     "16": "icon-16.png",
     "32": "icon-32.png",
@@ -328,6 +328,7 @@
         "https://robinhoodchain.blockscout.com/*",
         "https://robinscan.io/*",
         "https://universalx.app/*",
+        "https://veloxbot.ai/*",
         "https://web.telegram.org/*",
         "https://web3.okx.com/*",
         "https://www.fomo.family/*",

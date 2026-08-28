@@ -4293,7 +4293,7 @@
     "message": "Dev sell → продажа: {count} не удалось создать: {reason}"
   },
   "autotrade_dev_already_sold": {
-    "message": "Dev Sell не создан — не удалось подтвердить наличие у дева"
+    "message": "Dev Sell не создан — текущий баланс токена у дева равен нулю"
   },
   "autotrade_migrate_sell_created": {
     "message": "Migrate Sell: {count} создано"

@@ -4284,7 +4284,7 @@
     "message": "Dev 卖出→卖：{count} 失败：{reason}"
   },
   "autotrade_dev_already_sold": {
-    "message": "Dev Sell 未创建 — 无法确认开发者仍持有该代币"
+    "message": "Dev Sell 未创建 — 开发者当前持仓为 0"
   },
   "autotrade_migrate_sell_created": {
     "message": "迁移卖出：{count} 已创建"
