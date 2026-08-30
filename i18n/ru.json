@@ -2381,6 +2381,9 @@
   "insufficient_balance": {
     "message": "Недостаточно средств для выполнения этой транзакции."
   },
+  "robinhood_eth_balance_not_enough_for_trade_and_gas": {
+    "message": "Недостаточно ETH для покупки и газа. Пополните ETH или уменьшите сумму."
+  },
   "failed_to_send": {
     "message": "Не удалось отправить"
   },
