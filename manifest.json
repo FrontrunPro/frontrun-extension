@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Frontrun",
   "description": "Frontrun is your AI co-pilot, empowering crypto traders to stay ahead of the market",
-  "version": "0.0.380",
+  "version": "0.0.381",
   "icons": {
     "16": "icon-16.png",
     "32": "icon-32.png",
@@ -117,6 +117,16 @@
         "extended-chain-trading-vendor.js",
         "content-scripts/axiom.js"
       ]
+    },
+    {
+      "matches": [
+        "https://basedbot.app/*"
+      ],
+      "run_at": "document_start",
+      "js": [
+        "content-scripts/basedbot-main.js"
+      ],
+      "world": "MAIN"
     },
     {
       "matches": [
