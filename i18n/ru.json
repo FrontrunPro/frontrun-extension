@@ -2966,6 +2966,15 @@
   "position": {
     "message": "Позиция"
   },
+  "toggle_position_currency": {
+    "message": "Сменить валюту"
+  },
+  "collapse_position": {
+    "message": "Свернуть позицию"
+  },
+  "expand_position": {
+    "message": "Развернуть позицию"
+  },
   "positions": {
     "message": "Позиции"
   },
@@ -3829,6 +3838,12 @@
   },
   "cancel_order": {
     "message": "Отменить"
+  },
+  "chart_order_cancel_confirmation": {
+    "message": "Отменить лимитные ордера: {count}?"
+  },
+  "chart_order_drag_confirmation": {
+    "message": "Переместить лимитный ордер на капитализацию {marketCap}?"
   },
   "cancelling_limit_order": {
     "message": "Отмена лимитного ордера"
