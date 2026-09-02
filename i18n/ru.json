@@ -1811,14 +1811,20 @@
   "wallet_import_private_keys_count": {
     "message": "{count} / {max}"
   },
-  "wallet_import_private_keys_hint": {
-    "message": "До {max} кошельков. Вставьте несколько ключей в поле, чтобы создать отдельную строку для каждого кошелька."
-  },
   "wallet_import_private_keys_limit": {
     "message": "За один раз можно импортировать не более {max} приватных ключей."
   },
-  "wallet_import_private_keys_duplicate": {
-    "message": "Удалите повторяющиеся ключи перед импортом."
+  "wallet_import_duplicate_removed": {
+    "message": "Пропущен {count} дубликат — уже в списке."
+  },
+  "wallet_import_duplicates_removed": {
+    "message": "Пропущено {count} дубликатов — уже в списке."
+  },
+  "wallet_import_add_alias": {
+    "message": "Добавить псевдоним"
+  },
+  "wallet_import_save_alias": {
+    "message": "Сохранить псевдоним"
   },
   "wallet_import_private_keys_action": {
     "message": "Импортировать кошельки: {count}"
@@ -1832,11 +1838,8 @@
   "wallet_import_private_key_alias_warning": {
     "message": "Кошельки импортированы, но псевдонимы не сохранены: {wallets}. Переименуйте их в списке."
   },
-  "wallet_import_show_private_keys": {
-    "message": "Показать приватные ключи"
-  },
-  "wallet_import_hide_private_keys": {
-    "message": "Скрыть приватные ключи"
+  "wallet_import_paste_placeholder": {
+    "message": "Вставьте один или несколько приватных ключей"
   },
   "do_not_share_your_private_key_with_anyone_frontrun_never_sees_or_stores_your_key": {
     "message": "Не делитесь приватным ключом ни с кем. Frontrun не видит и не хранит ваши ключи."
@@ -3090,10 +3093,22 @@
     "message": "Чаевые (BNB)"
   },
   "robinhood_gas_price_label_with_min": {
-    "message": "Цена газа (Gwei), минимум {min}"
+    "message": "Цена газа (Gwei), мин. {min}"
+  },
+  "robinhood_minimum_gas_fee_notice": {
+    "message": "Gas повышен до минимума {min} Gwei; ниже возможен сбой."
+  },
+  "robinhood_gas_below_recommended_warning": {
+    "message": "Рекомендуется Gas ≥{min} Gwei; ниже возможен сбой."
+  },
+  "robinhood_gas_price_warning_exceeds": {
+    "message": "Внимание: Gas Price превышает {threshold} Gwei"
   },
   "robinhood_tip_label": {
     "message": "Чаевые (ETH)"
+  },
+  "robinhood_trench_sell_tip_unavailable": {
+    "message": "Tip недоступен для продаж Trench"
   },
   "tip_below_recommended_may_slow": {
     "message": "Ниже рекомендуемой комиссии ({fee}).\nВыполнение может задержаться."

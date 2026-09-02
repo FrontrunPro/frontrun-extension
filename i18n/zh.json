@@ -1793,14 +1793,20 @@
   "wallet_import_private_keys_count": {
     "message": "{count} / {max}"
   },
-  "wallet_import_private_keys_hint": {
-    "message": "最多 {max} 个钱包；在私钥框粘贴多个私钥可自动生成对应行。"
-  },
   "wallet_import_private_keys_limit": {
     "message": "每次最多可导入 {max} 个私钥。"
   },
-  "wallet_import_private_keys_duplicate": {
-    "message": "请移除重复的私钥后再导入。"
+  "wallet_import_duplicate_removed": {
+    "message": "已跳过 {count} 个重复项——已在列表中。"
+  },
+  "wallet_import_duplicates_removed": {
+    "message": "已跳过 {count} 个重复项——已在列表中。"
+  },
+  "wallet_import_add_alias": {
+    "message": "添加别名"
+  },
+  "wallet_import_save_alias": {
+    "message": "保存别名"
   },
   "wallet_import_private_keys_action": {
     "message": "导入 {count} 个钱包"
@@ -1814,11 +1820,8 @@
   "wallet_import_private_key_alias_warning": {
     "message": "钱包已导入，但以下别名保存失败：{wallets}。请在钱包列表中重新命名。"
   },
-  "wallet_import_show_private_keys": {
-    "message": "显示私钥"
-  },
-  "wallet_import_hide_private_keys": {
-    "message": "隐藏私钥"
+  "wallet_import_paste_placeholder": {
+    "message": "粘贴一个或多个私钥"
   },
   "do_not_share_your_private_key_with_anyone_frontrun_never_sees_or_stores_your_key": {
     "message": "不要与任何人分享您的私钥。Frontrun 永远不会看到或存储您的私钥。"
@@ -3096,10 +3099,22 @@
     "message": "小费 (BNB)"
   },
   "robinhood_gas_price_label_with_min": {
-    "message": "燃料费 (Gwei)，最小 {min}"
+    "message": "燃料费 (Gwei)，最低 {min}"
+  },
+  "robinhood_minimum_gas_fee_notice": {
+    "message": "Gas 已调整为当前最低 {min} Gwei，低于该值可能失败。"
+  },
+  "robinhood_gas_below_recommended_warning": {
+    "message": "Gas 建议 ≥{min} Gwei，低于该值可能失败。"
+  },
+  "robinhood_gas_price_warning_exceeds": {
+    "message": "警告：燃料费超过了 {threshold} Gwei"
   },
   "robinhood_tip_label": {
     "message": "小费 (ETH)"
+  },
+  "robinhood_trench_sell_tip_unavailable": {
+    "message": "Trench 卖出不支持 Tip"
   },
   "tip_below_recommended_may_slow": {
     "message": "费用低于推荐值 ({fee})\n执行可能延迟"
