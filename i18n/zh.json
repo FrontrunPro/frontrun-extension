@@ -1208,6 +1208,9 @@
   "try_again": {
     "message": "重试"
   },
+  "wallets_load_failed": {
+    "message": "无法加载钱包"
+  },
   "deposit": {
     "message": "存款"
   },
@@ -5817,7 +5820,7 @@
     "message": "你的 X 账号被 Twitter 限制，请先在 x.com 处理后重试。"
   },
   "twitter_bot_detected": {
-    "message": "该 X 账号没有推文也没有粉丝，被判定为 BOT 账号。请更换一个账号绑定。"
+    "message": "该 X 账号无法用于验证，请更换其他账号。"
   },
   "twitter_unlink_failed": {
     "message": "解绑失败"
