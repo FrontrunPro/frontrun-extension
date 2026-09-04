@@ -752,6 +752,9 @@
   "wallets_failed_to_activate_retry": {
     "message": "部分钱包激活失败，请重试。"
   },
+  "wallets_no_balance_to_select": {
+    "message": "没有有余额的钱包可选择"
+  },
   "wallets_failed_to_clear_retry": {
     "message": "部分钱包清除失败，请重试。"
   },
@@ -3099,13 +3102,13 @@
     "message": "小费 (BNB)"
   },
   "robinhood_gas_price_label_with_min": {
-    "message": "燃料费 (Gwei)，最低 {min}"
+    "message": "Gas (Gwei)，执行最低 {min}"
   },
   "robinhood_minimum_gas_fee_notice": {
-    "message": "Gas 已调整为当前最低 {min} Gwei，低于该值可能失败。"
+    "message": "执行至少使用 {min} Gwei，保存值受输入上限限制。"
   },
   "robinhood_gas_below_recommended_warning": {
-    "message": "Gas 建议 ≥{min} Gwei，低于该值可能失败。"
+    "message": "交易执行至少使用 {min} Gwei，即使保存值低于该值。"
   },
   "robinhood_gas_price_warning_exceeds": {
     "message": "警告：燃料费超过了 {threshold} Gwei"

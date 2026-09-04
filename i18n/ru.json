@@ -794,6 +794,9 @@
   "wallets_failed_to_activate_retry": {
     "message": "Не удалось активировать некоторые кошельки. Повторите попытку."
   },
+  "wallets_no_balance_to_select": {
+    "message": "Нет кошельков с балансом для выбора"
+  },
   "wallets_failed_to_clear_retry": {
     "message": "Не удалось очистить некоторые кошельки. Повторите попытку."
   },
@@ -3093,13 +3096,13 @@
     "message": "Чаевые (BNB)"
   },
   "robinhood_gas_price_label_with_min": {
-    "message": "Цена газа (Gwei), мин. {min}"
+    "message": "Gas (Gwei), мин. для отправки {min}"
   },
   "robinhood_minimum_gas_fee_notice": {
-    "message": "Gas повышен до минимума {min} Gwei; ниже возможен сбой."
+    "message": "При отправке будет использовано не менее {min} Gwei; сохранённое значение ограничено лимитом ввода."
   },
   "robinhood_gas_below_recommended_warning": {
-    "message": "Рекомендуется Gas ≥{min} Gwei; ниже возможен сбой."
+    "message": "При отправке используется не менее {min} Gwei, даже если сохранённое значение ниже."
   },
   "robinhood_gas_price_warning_exceeds": {
     "message": "Внимание: Gas Price превышает {threshold} Gwei"
