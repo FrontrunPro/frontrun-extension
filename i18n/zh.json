@@ -2700,7 +2700,7 @@
     "message": "订单执行失败"
   },
   "route_quote_warning": {
-    "message": "Frontrun 检测到当前资金池存在重大资金损失风险，请自行谨慎决定是否交易。"
+    "message": "当前报价预计损失超过保护阈值，已阻止主交易发送。"
   },
   "trade_amount_too_small": {
     "message": "本次卖出的代币数量太少"
@@ -3868,6 +3868,12 @@
   },
   "failed_to_cancel_limit_order": {
     "message": "取消限价单失败"
+  },
+  "robinhood_cancel_order_not_found": {
+    "message": "该订单已不存在，请刷新后重试。"
+  },
+  "robinhood_cancel_order_changed": {
+    "message": "该订单状态已变化或已不可编辑，请刷新后重试。"
   },
   "cancelling_all_limit_orders": {
     "message": "正在取消全部限价单"

@@ -2754,7 +2754,7 @@
     "message": "Ошибка выполнения ордера"
   },
   "route_quote_warning": {
-    "message": "Frontrun выявил риск значительной потери средств в текущем пуле. Торгуйте по своему усмотрению."
+    "message": "Расчётный убыток по текущей котировке превышает порог защиты. Основная транзакция не была отправлена."
   },
   "trade_amount_too_small": {
     "message": "Вы продаёте слишком мало токенов."
@@ -3874,6 +3874,12 @@
   },
   "failed_to_cancel_limit_order": {
     "message": "Не удалось отменить лимитный ордер"
+  },
+  "robinhood_cancel_order_not_found": {
+    "message": "Ордер не найден. Обновите страницу."
+  },
+  "robinhood_cancel_order_changed": {
+    "message": "Ордер изменился. Обновите страницу."
   },
   "cancelling_all_limit_orders": {
     "message": "Отмена всех ордеров"
