@@ -24,6 +24,19 @@ input[type="number"]::-webkit-outer-spin-button {
   width: 100%;
 }
 
+/*
+ * The Instant Trade portal is inserted inside fomo's native filter flex row.
+ * Fomo applies important block sizing to direct div children there, which made
+ * this host consume the row's spare width and squeeze the two native filters
+ * into narrow, multi-line columns. Keep only this portal content-sized; the
+ * body CSUI and full-width CTA still need their existing width rules.
+ */
+:host([data-frontrun-portal="fomo-instant-trade"]) {
+  display: inline-flex !important;
+  flex: 0 0 auto !important;
+  width: fit-content !important;
+}
+
 [data-theme] {
   --root-bg: transparent;
 }
