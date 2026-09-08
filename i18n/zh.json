@@ -3119,12 +3119,6 @@
   "robinhood_tip_label": {
     "message": "小费 (ETH)"
   },
-  "robinhood_estimated_fee_details": {
-    "message": "预计 Gas 费用说明"
-  },
-  "robinhood_estimated_fee_high": {
-    "message": "预计 Gas 费用超过 ${threshold}"
-  },
   "robinhood_trench_sell_tip_unavailable": {
     "message": "Trench 卖出不支持 Tip"
   },
