@@ -3113,6 +3113,12 @@
   "robinhood_tip_label": {
     "message": "Чаевые (ETH)"
   },
+  "robinhood_estimated_fee_details": {
+    "message": "Оценка платы за Gas"
+  },
+  "robinhood_estimated_fee_high": {
+    "message": "Плата за Gas выше ${threshold}"
+  },
   "robinhood_trench_sell_tip_unavailable": {
     "message": "Tip недоступен для продаж Trench"
   },
