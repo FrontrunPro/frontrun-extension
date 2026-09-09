@@ -3,7 +3,7 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/FrontrunPro/frontrun-extension)
 
 <p align="center">
-  <img src="icon128.plasmo.f86e3ae6.png" alt="Frontrun Logo" width="128" height="128">
+  <img src="assets/branding/logo.png" alt="Frontrun Logo" width="128" height="128">
 </p>
 
 <p align="center">
