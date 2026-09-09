@@ -1,4 +1,15 @@
 {
+  "fomo_tracker_quick_buy_chain": {
+    "message": "Сеть быстрой покупки: {chain}. Сменить сеть"
+  },
+  "fomo_tracker_quick_buy_amount_bnb": {
+    "message": "Сумма быстрой покупки FOMO Tracker в BNB"
+  },
+  "fomo_tracker_quick_buy_bnb": { "message": "Купить {token} за {amount} BNB" },
+  "fomo_tracker_wallet_required_bnb": {
+    "message": "Активируйте кошелёк BSC для быстрой покупки."
+  },
+  "fomo_tracker_waiting_multichain": { "message": "Ожидание активности…" },
   "credit_limit_reached_toast": {
     "message": "Достигнут лимит вашего тарифа. Повысьте тариф или дождитесь сброса."
   },
@@ -3112,6 +3123,9 @@
   },
   "robinhood_tip_label": {
     "message": "Чаевые (ETH)"
+  },
+  "robinhood_estimated_fee_description": {
+    "message": "Ориентировочная стоимость газа транзакции: {fee}"
   },
   "robinhood_trench_sell_tip_unavailable": {
     "message": "Tip недоступен для продаж Trench"

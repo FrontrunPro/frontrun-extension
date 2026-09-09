@@ -1,4 +1,15 @@
 {
+  "fomo_tracker_quick_buy_chain": { "message": "快捷买入链：{chain}。切换链" },
+  "fomo_tracker_quick_buy_amount_bnb": {
+    "message": "FOMO Tracker 快捷买入金额（BNB）"
+  },
+  "fomo_tracker_quick_buy_bnb": {
+    "message": "使用 {amount} BNB 快捷买入 {token}"
+  },
+  "fomo_tracker_wallet_required_bnb": {
+    "message": "请先激活 BSC 钱包以使用快捷买入。"
+  },
+  "fomo_tracker_waiting_multichain": { "message": "等待交易动态…" },
   "credit_limit_reached_toast": {
     "message": "已达到套餐用量上限。升级以获得更高额度，或等待额度重置。"
   },
@@ -3118,6 +3129,9 @@
   },
   "robinhood_tip_label": {
     "message": "小费 (ETH)"
+  },
+  "robinhood_estimated_fee_description": {
+    "message": "预计交易 Gas 费用：{fee}"
   },
   "robinhood_trench_sell_tip_unavailable": {
     "message": "Trench 卖出不支持 Tip"
