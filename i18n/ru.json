@@ -8484,5 +8484,8 @@
   },
   "fomo_tracker_token_age_years": {
     "message": "{count} г"
+  },
+  "solana_price_impact_blocked": {
+    "message": "Влияние на цену выше {percent}% — сделка отменена"
   }
 }
