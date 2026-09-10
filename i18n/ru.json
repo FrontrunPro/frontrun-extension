@@ -5068,6 +5068,21 @@
   "compact_trading_panel": {
     "message": "Мини-панель торговли"
   },
+  "panel_font_setting": {
+    "message": "Шрифт панели"
+  },
+  "panel_font_setting_desc": {
+    "message": "Шрифт торговой панели"
+  },
+  "panel_font_default": {
+    "message": "Обычный"
+  },
+  "panel_font_custom": {
+    "message": "Свой"
+  },
+  "panel_font_custom_error": {
+    "message": "Не удалось загрузить шрифт по этой ссылке. Используйте embed-ссылку с fonts.google.com."
+  },
   "compact_trading_panel_desc": {
     "message": "Уменьшить панель торговли"
   },
@@ -8335,61 +8350,139 @@
   "play": {
     "message": "Воспроизвести"
   },
-  "fomo_tracker_title": { "message": "FOMO Tracker" },
-  "fomo_tracker_brand_name": { "message": "FOMO" },
-  "fomo_tracker_short_title": { "message": "TRACKER" },
-  "fomo_tracker_live_activity": { "message": "Активность FOMO Tracker" },
-  "fomo_tracker_live_label": { "message": "LIVE" },
-  "fomo_tracker_status_connecting": { "message": "СИНХР." },
-  "fomo_tracker_status_unavailable": { "message": "ОФЛАЙН" },
-  "fomo_tracker_feed": { "message": "Лента FOMO Tracker" },
-  "fomo_tracker_column_time": { "message": "Время" },
-  "fomo_tracker_column_trader": { "message": "Трейдер" },
-  "fomo_tracker_column_token": { "message": "Токен" },
-  "fomo_tracker_column_amount": { "message": "Сумма" },
-  "fomo_tracker_featured": { "message": "Избранное" },
-  "fomo_tracker_followed": { "message": "Моя лента" },
-  "fomo_tracker_open_full": { "message": "Открыть полный FOMO Tracker" },
-  "fomo_tracker_user_fallback": { "message": "Пользователь FOMO" },
+  "fomo_tracker_title": {
+    "message": "FOMO Tracker"
+  },
+  "fomo_tracker_brand_name": {
+    "message": "FOMO"
+  },
+  "fomo_tracker_short_title": {
+    "message": "TRACKER"
+  },
+  "fomo_tracker_live_activity": {
+    "message": "Активность FOMO Tracker"
+  },
+  "fomo_tracker_live_label": {
+    "message": "LIVE"
+  },
+  "fomo_tracker_status_connecting": {
+    "message": "СИНХР."
+  },
+  "fomo_tracker_status_unavailable": {
+    "message": "ОФЛАЙН"
+  },
+  "fomo_tracker_feed": {
+    "message": "Лента FOMO Tracker"
+  },
+  "fomo_tracker_column_time": {
+    "message": "Время"
+  },
+  "fomo_tracker_column_trader": {
+    "message": "Трейдер"
+  },
+  "fomo_tracker_column_token": {
+    "message": "Токен"
+  },
+  "fomo_tracker_column_amount": {
+    "message": "Сумма"
+  },
+  "fomo_tracker_featured": {
+    "message": "Избранное"
+  },
+  "fomo_tracker_followed": {
+    "message": "Моя лента"
+  },
+  "fomo_tracker_open_full": {
+    "message": "Открыть полный FOMO Tracker"
+  },
+  "fomo_tracker_user_fallback": {
+    "message": "Пользователь FOMO"
+  },
   "fomo_tracker_open_move": {
     "message": "Открыть FOMO Tracker. Нажмите и перетащите, чтобы переместить."
   },
-  "fomo_tracker_move": { "message": "Переместить FOMO Tracker" },
-  "fomo_tracker_collapse": { "message": "Свернуть FOMO Tracker" },
-  "fomo_tracker_resize": { "message": "Изменить размер FOMO Tracker" },
+  "fomo_tracker_move": {
+    "message": "Переместить FOMO Tracker"
+  },
+  "fomo_tracker_collapse": {
+    "message": "Свернуть FOMO Tracker"
+  },
+  "fomo_tracker_resize": {
+    "message": "Изменить размер FOMO Tracker"
+  },
   "fomo_tracker_quick_buy_toggle": {
     "message": "Включить или выключить быструю покупку FOMO Tracker"
   },
   "fomo_tracker_quick_buy_amount": {
     "message": "Сумма быстрой покупки FOMO Tracker в SOL"
   },
-  "fomo_tracker_quick_buy_preset": { "message": "Пресет быстрой покупки" },
+  "fomo_tracker_quick_buy_preset": {
+    "message": "Пресет быстрой покупки"
+  },
   "fomo_tracker_use_preset": {
     "message": "Использовать пресет быстрой покупки {preset}"
   },
-  "fomo_tracker_sol_only": { "message": "Только SOL" },
-  "fomo_tracker_unavailable": { "message": "Трекер недоступен" },
-  "fomo_tracker_connecting": { "message": "Подключение…" },
-  "fomo_tracker_waiting": { "message": "Ожидание активности SOL…" },
-  "fomo_tracker_open_token": { "message": "Открыть {token} на {platform}" },
+  "fomo_tracker_sol_only": {
+    "message": "Только SOL"
+  },
+  "fomo_tracker_unavailable": {
+    "message": "Трекер недоступен"
+  },
+  "fomo_tracker_connecting": {
+    "message": "Подключение…"
+  },
+  "fomo_tracker_waiting": {
+    "message": "Ожидание активности SOL…"
+  },
+  "fomo_tracker_open_token": {
+    "message": "Открыть {token} на {platform}"
+  },
   "fomo_tracker_quick_buy": {
     "message": "Быстро купить {token} на {amount} SOL"
   },
   "fomo_tracker_wallet_required": {
     "message": "Активируйте кошелёк Solana для быстрой покупки."
   },
-  "fomo_tracker_buying": { "message": "Покупка…" },
-  "fomo_tracker_bought": { "message": "Куплено" },
-  "fomo_tracker_partially_bought": { "message": "Куплено частично" },
-  "fomo_tracker_buy_failed": { "message": "Ошибка покупки" },
-  "fomo_tracker_seconds_ago": { "message": "{count} с" },
-  "fomo_tracker_minutes_ago": { "message": "{count} мин" },
-  "fomo_tracker_hours_ago": { "message": "{count} ч" },
-  "fomo_tracker_days_ago": { "message": "{count} дн" },
-  "fomo_tracker_token_age_seconds": { "message": "{count} с" },
-  "fomo_tracker_token_age_minutes": { "message": "{count} мин" },
-  "fomo_tracker_token_age_hours": { "message": "{count} ч" },
-  "fomo_tracker_token_age_days": { "message": "{count} дн" },
-  "fomo_tracker_token_age_months": { "message": "{count} мес" },
-  "fomo_tracker_token_age_years": { "message": "{count} г" }
+  "fomo_tracker_buying": {
+    "message": "Покупка…"
+  },
+  "fomo_tracker_bought": {
+    "message": "Куплено"
+  },
+  "fomo_tracker_partially_bought": {
+    "message": "Куплено частично"
+  },
+  "fomo_tracker_buy_failed": {
+    "message": "Ошибка покупки"
+  },
+  "fomo_tracker_seconds_ago": {
+    "message": "{count} с"
+  },
+  "fomo_tracker_minutes_ago": {
+    "message": "{count} мин"
+  },
+  "fomo_tracker_hours_ago": {
+    "message": "{count} ч"
+  },
+  "fomo_tracker_days_ago": {
+    "message": "{count} дн"
+  },
+  "fomo_tracker_token_age_seconds": {
+    "message": "{count} с"
+  },
+  "fomo_tracker_token_age_minutes": {
+    "message": "{count} мин"
+  },
+  "fomo_tracker_token_age_hours": {
+    "message": "{count} ч"
+  },
+  "fomo_tracker_token_age_days": {
+    "message": "{count} дн"
+  },
+  "fomo_tracker_token_age_months": {
+    "message": "{count} мес"
+  },
+  "fomo_tracker_token_age_years": {
+    "message": "{count} г"
+  }
 }
