@@ -8485,7 +8485,13 @@
   "fomo_tracker_token_age_years": {
     "message": "{count}年"
   },
+  "solana_source_account_unsupported": {
+    "message": "当前路由无法安全使用你的代币账户，请尝试其他路由。"
+  },
   "solana_price_impact_blocked": {
     "message": "价格冲击超过 {percent}%，已取消交易"
+  },
+  "solana_price_impact_unavailable": {
+    "message": "无法验证价格冲击，已取消交易"
   }
 }

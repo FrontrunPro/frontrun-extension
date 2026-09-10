@@ -8485,7 +8485,13 @@
   "fomo_tracker_token_age_years": {
     "message": "{count} г"
   },
+  "solana_source_account_unsupported": {
+    "message": "Этот маршрут не может безопасно использовать ваш токен-аккаунт. Попробуйте другой маршрут."
+  },
   "solana_price_impact_blocked": {
     "message": "Влияние на цену выше {percent}% — сделка отменена"
+  },
+  "solana_price_impact_unavailable": {
+    "message": "Не удалось проверить влияние на цену — сделка отменена"
   }
 }
