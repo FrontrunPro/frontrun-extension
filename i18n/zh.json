@@ -1,5 +1,7 @@
 {
-  "fomo_tracker_quick_buy_chain": { "message": "快捷买入链：{chain}。切换链" },
+  "fomo_tracker_quick_buy_chain": {
+    "message": "快捷买入链：{chain}。切换链"
+  },
   "fomo_tracker_quick_buy_amount_bnb": {
     "message": "FOMO Tracker 快捷买入金额（BNB）"
   },
@@ -9,7 +11,9 @@
   "fomo_tracker_wallet_required_bnb": {
     "message": "请先激活 BSC 钱包以使用快捷买入。"
   },
-  "fomo_tracker_waiting_multichain": { "message": "等待交易动态…" },
+  "fomo_tracker_waiting_multichain": {
+    "message": "等待交易动态…"
+  },
   "credit_limit_reached_toast": {
     "message": "已达到套餐用量上限。升级以获得更高额度，或等待额度重置。"
   },
@@ -2720,7 +2724,7 @@
     "message": "交易已过期，请重试。"
   },
   "turnkey_clock_skew_error": {
-    "message": "Turnkey 签名失败：本机时间快于服务器。请开启自动日期与时间后重试。"
+    "message": "设备日期和时间可能未同步。请开启自动设置日期和时间后重试。"
   },
   "program_error_code": {
     "message": "交易失败（错误 {errorCode}）"
@@ -6061,6 +6065,9 @@
   "custom_buy_amount": {
     "message": "自定义买入金额"
   },
+  "custom_sell_amount": {
+    "message": "自定义卖出金额"
+  },
   "custom_buy_amount_placeholder": {
     "message": "输入 {symbol} 数量"
   },
@@ -8485,11 +8492,62 @@
   "fomo_tracker_token_age_years": {
     "message": "{count}年"
   },
+  "autotrade_off": {
+    "message": "自动交易：关闭"
+  },
+  "wallets_settings": {
+    "message": "钱包设置"
+  },
+  "buy_currency_selector_label": {
+    "message": "买入币种"
+  },
+  "active_wallets_positions": {
+    "message": "活跃钱包持仓"
+  },
+  "all_wallets_positions": {
+    "message": "全部持仓"
+  },
+  "bought_sold_short": {
+    "message": "买入/卖出"
+  },
+  "holding_sort_asc_aria": {
+    "message": "余额:从小到大"
+  },
+  "holding_sort_desc_aria": {
+    "message": "余额:从大到小"
+  },
+  "holding_sort_none_aria": {
+    "message": "按余额排序"
+  },
+  "low": {
+    "message": "低余额"
+  },
+  "pnl_show_amount_aria": {
+    "message": "显示盈亏金额"
+  },
+  "pnl_show_percentage_aria": {
+    "message": "显示盈亏百分比"
+  },
+  "show_low": {
+    "message": "显示低余额"
+  },
   "solana_source_account_unsupported": {
     "message": "当前路由无法安全使用你的代币账户，请尝试其他路由。"
   },
   "solana_price_impact_blocked": {
     "message": "价格冲击超过 {percent}%，已取消交易"
+  },
+  "search_trading_settings": {
+    "message": "搜索交易设置"
+  },
+  "clear_search": {
+    "message": "清除"
+  },
+  "no_settings_found": {
+    "message": "未找到设置"
+  },
+  "solana_stock_trade_limit_exceeded": {
+    "message": "股票配对池单笔交易金额超过 1000U，已禁止发送。"
   },
   "solana_price_impact_unavailable": {
     "message": "无法验证价格冲击，已取消交易"

@@ -5,11 +5,15 @@
   "fomo_tracker_quick_buy_amount_bnb": {
     "message": "Сумма быстрой покупки FOMO Tracker в BNB"
   },
-  "fomo_tracker_quick_buy_bnb": { "message": "Купить {token} за {amount} BNB" },
+  "fomo_tracker_quick_buy_bnb": {
+    "message": "Купить {token} за {amount} BNB"
+  },
   "fomo_tracker_wallet_required_bnb": {
     "message": "Активируйте кошелёк BSC для быстрой покупки."
   },
-  "fomo_tracker_waiting_multichain": { "message": "Ожидание активности…" },
+  "fomo_tracker_waiting_multichain": {
+    "message": "Ожидание активности…"
+  },
   "credit_limit_reached_toast": {
     "message": "Достигнут лимит вашего тарифа. Повысьте тариф или дождитесь сброса."
   },
@@ -2774,7 +2778,7 @@
     "message": "Транзакция истекла — попробуйте снова."
   },
   "turnkey_clock_skew_error": {
-    "message": "Turnkey: часы устройства спешат. Включите автоматическую настройку даты и времени и повторите попытку."
+    "message": "Дата и время на устройстве могут быть не синхронизированы. Включите автонастройку и повторите попытку."
   },
   "program_error_code": {
     "message": "Ошибка транзакции (код {errorCode})"
@@ -6070,6 +6074,9 @@
   "custom_buy_amount": {
     "message": "Своя сумма"
   },
+  "custom_sell_amount": {
+    "message": "Своя сумма продажи"
+  },
   "custom_buy_amount_placeholder": {
     "message": "Сумма {symbol}"
   },
@@ -8485,11 +8492,62 @@
   "fomo_tracker_token_age_years": {
     "message": "{count} г"
   },
+  "autotrade_off": {
+    "message": "Автоторговля: выкл."
+  },
+  "wallets_settings": {
+    "message": "Настройки кошелька"
+  },
+  "buy_currency_selector_label": {
+    "message": "Валюта покупки"
+  },
+  "active_wallets_positions": {
+    "message": "Позиции активных кошельков"
+  },
+  "all_wallets_positions": {
+    "message": "Все позиции"
+  },
+  "bought_sold_short": {
+    "message": "Куп/Прод"
+  },
+  "holding_sort_asc_aria": {
+    "message": "Баланс: сначала малые"
+  },
+  "holding_sort_desc_aria": {
+    "message": "Баланс: сначала большие"
+  },
+  "holding_sort_none_aria": {
+    "message": "Сортировать по балансу"
+  },
+  "low": {
+    "message": "Мелкие"
+  },
+  "pnl_show_amount_aria": {
+    "message": "Показать PnL в $"
+  },
+  "pnl_show_percentage_aria": {
+    "message": "Показать PnL в %"
+  },
+  "show_low": {
+    "message": "Показать мелкие"
+  },
   "solana_source_account_unsupported": {
     "message": "Этот маршрут не может безопасно использовать ваш токен-аккаунт. Попробуйте другой маршрут."
   },
   "solana_price_impact_blocked": {
     "message": "Влияние на цену выше {percent}% — сделка отменена"
+  },
+  "search_trading_settings": {
+    "message": "Поиск торговых настроек"
+  },
+  "clear_search": {
+    "message": "Очистить"
+  },
+  "no_settings_found": {
+    "message": "Настройки не найдены"
+  },
+  "solana_stock_trade_limit_exceeded": {
+    "message": "Сделки свыше $1 000 в пулах с акциями заблокированы."
   },
   "solana_price_impact_unavailable": {
     "message": "Не удалось проверить влияние на цену — сделка отменена"
