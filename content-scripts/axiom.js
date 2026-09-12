@@ -38,6 +38,32 @@ input[type="number"]::-webkit-outer-spin-button {
   z-index: 3000 !important;
 }
 
+/* The native toolbar reserves 570px and gives its filter scroller flex: 1.
+ * Our extra Instant Trade pill can collapse that scroller to 0px. Let the
+ * toolbar fit all actions; Axiom's outer scroller handles narrow windows.
+ * Scope to our mounted portal so disabling it restores the native layout.
+ * Both selectors are independent of the host's display language. */
+#platform-layout-container
+  .flex:has(
+    > :is(
+        [data-frontrun-portal="instant-trade"],
+        [data-frontrun-portal="instant-trade-signin"]
+      )
+  ) {
+  width: auto;
+}
+
+#platform-layout-container
+  .flex:has(
+    > :is(
+        [data-frontrun-portal="instant-trade"],
+        [data-frontrun-portal="instant-trade-signin"]
+      )
+  )
+  > .overflow-x-auto {
+  flex: none;
+}
+
 /* Funding column - target by content (explorer tx links OR N/A placeholder) */
 /* 48px rows: token detail table; 28px rows: other tables (e.g. live trades) */
 /* Exclude Wallet Tracker (data-live-trades-content) from 28px width override */
@@ -51,7 +77,8 @@ input[type="number"]::-webkit-outer-spin-button {
 [data-live-trades-content="true"] div[class*="min-h-[28px]"][class*="max-h-[28px]"][class*="flex-row"] > div:has(a[href^="https://solscan.io/tx/"], a[href*="bscscan.com/tx/"], a[href^="https://basescan.org/tx/"]),
 [data-live-trades-content="true"] div[class*="min-h-[28px]"][class*="max-h-[28px]"][class*="flex-row"] > div[class*="min-w-[136px]"]:has(span[class*="text-textTertiary"]) {
   width: auto;
-}`})),Y_,X_=Z((()=>{Y_=`:host(plasmo-csui) {
+}
+`})),Y_,X_=Z((()=>{Y_=`:host(plasmo-csui) {
   /* prevent x-alpha from hiding the element */
   display: block !important;
   --root-bg: transparent;
