@@ -1,4 +1,28 @@
 {
+  "switch_buy_mode": {
+    "message": "Сменить режим покупки (сейчас: {mode})"
+  },
+  "trade_mode_percentage": {
+    "message": "процент"
+  },
+  "trade_mode_amount": {
+    "message": "сумма"
+  },
+  "switch_to_buy_amount": {
+    "message": "Покупка на сумму"
+  },
+  "switch_to_buy_percentage": {
+    "message": "Покупка на %"
+  },
+  "switch_sell_mode": {
+    "message": "Сменить режим продажи (сейчас: {mode})"
+  },
+  "switch_to_sell_amount": {
+    "message": "Продажа на сумму"
+  },
+  "switch_to_sell_percentage": {
+    "message": "Продажа на %"
+  },
   "fomo_tracker_quick_buy_chain": {
     "message": "Сеть быстрой покупки: {chain}. Сменить сеть"
   },
@@ -6078,7 +6102,7 @@
     "message": "Своя сумма продажи"
   },
   "custom_buy_amount_placeholder": {
-    "message": "Сумма {symbol}"
+    "message": "Введите сумму"
   },
   "enable_buy_by_percent": {
     "message": "Покупка в %"
@@ -8551,5 +8575,35 @@
   },
   "solana_price_impact_unavailable": {
     "message": "Не удалось проверить влияние на цену — сделка отменена"
+  },
+  "show_delay_in_panel": {
+    "message": "Показать задержку"
+  },
+  "hide_delay_in_panel": {
+    "message": "Скрыть задержку"
+  },
+  "buy_with_currency": {
+    "message": "Купить за {currency}"
+  },
+  "enable_custom_sell": {
+    "message": "Своя сумма продажи"
+  },
+  "enable_custom_sell_description": {
+    "message": "Поле ввода количества токенов для продажи"
+  },
+  "enable_initials_sell_button": {
+    "message": "Инициалы вместо кнопки продажи"
+  },
+  "enable_initials_sell_button_description": {
+    "message": "Последняя кнопка продажи продаёт вложенное"
+  },
+  "enable_supply_percent": {
+    "message": "Доля от общего объёма"
+  },
+  "enable_supply_percent_description": {
+    "message": "Показывать долю позиции от общего количества токенов в секции продажи"
+  },
+  "sell_initials_tooltip": {
+    "message": "Продать вложенное"
   }
 }

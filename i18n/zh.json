@@ -1,4 +1,28 @@
 {
+  "switch_buy_mode": {
+    "message": "切换买入模式（当前：{mode}）"
+  },
+  "trade_mode_percentage": {
+    "message": "百分比"
+  },
+  "trade_mode_amount": {
+    "message": "金额"
+  },
+  "switch_to_buy_amount": {
+    "message": "切换为按金额买入"
+  },
+  "switch_to_buy_percentage": {
+    "message": "切换为按百分比买入"
+  },
+  "switch_sell_mode": {
+    "message": "切换卖出模式（当前：{mode}）"
+  },
+  "switch_to_sell_amount": {
+    "message": "切换为按金额卖出"
+  },
+  "switch_to_sell_percentage": {
+    "message": "切换为按百分比卖出"
+  },
   "fomo_tracker_quick_buy_chain": {
     "message": "快捷买入链：{chain}。切换链"
   },
@@ -6069,7 +6093,7 @@
     "message": "自定义卖出金额"
   },
   "custom_buy_amount_placeholder": {
-    "message": "输入 {symbol} 数量"
+    "message": "输入数量"
   },
   "enable_buy_by_percent": {
     "message": "按百分比买入"
@@ -8551,5 +8575,35 @@
   },
   "solana_price_impact_unavailable": {
     "message": "无法验证价格冲击，已取消交易"
+  },
+  "show_delay_in_panel": {
+    "message": "显示延迟"
+  },
+  "hide_delay_in_panel": {
+    "message": "隐藏延迟"
+  },
+  "buy_with_currency": {
+    "message": "使用 {currency} 买入"
+  },
+  "enable_custom_sell": {
+    "message": "自定义卖出数量"
+  },
+  "enable_custom_sell_description": {
+    "message": "在交易面板显示按代币数量卖出的输入框"
+  },
+  "enable_initials_sell_button": {
+    "message": "卖出按钮改为回本卖出"
+  },
+  "enable_initials_sell_button_description": {
+    "message": "最后一个卖出按钮将改为卖出初始投入"
+  },
+  "enable_supply_percent": {
+    "message": "持仓供应占比"
+  },
+  "enable_supply_percent_description": {
+    "message": "在卖出区域显示持仓占总供应量的百分比"
+  },
+  "sell_initials_tooltip": {
+    "message": "卖出本金"
   }
 }
