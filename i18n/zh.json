@@ -3054,7 +3054,7 @@
     "message": "每笔 BNB 交易享 90% 即时返现"
   },
   "fee_saved_robinhood_info_tooltip": {
-    "message": "每笔 Robinhood 交易享 90% 即时返现"
+    "message": "点击领取 Robinhood 返现 →"
   },
   "cashback_claim_announcement": {
     "message": "返现现已改为手动领取。"
@@ -3598,6 +3598,10 @@
   },
   "inactive": {
     "message": "非激活"
+  },
+  "buy_amount_per_wallet": { "message": "每个钱包按输入金额买入" },
+  "buy_amount_per_wallet_desc": {
+    "message": "输入 100，选中 2 个钱包，每个买 100，总计 200，不应用买入差异。"
   },
   "buy_variance": {
     "message": "购买变化幅度"

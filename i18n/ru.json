@@ -3590,6 +3590,10 @@
   "inactive": {
     "message": "Неактивен"
   },
+  "buy_amount_per_wallet": { "message": "Покупать на указанную сумму с каждого кошелька" },
+  "buy_amount_per_wallet_desc": {
+    "message": "Сумма 100 и 2 кошелька — по 100 с каждого, всего 200, без разброса."
+  },
   "buy_variance": {
     "message": "Вариация покупки"
   },
@@ -3774,7 +3778,7 @@
     "message": "90% мгновенный кешбэк за каждую BNB сделку"
   },
   "fee_saved_robinhood_info_tooltip": {
-    "message": "90% мгновенный кешбэк за каждую сделку Robinhood"
+    "message": "Получить кешбэк Robinhood →"
   },
   "cashback_claim_announcement": {
     "message": "Кешбэк теперь вручную."
