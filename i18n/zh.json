@@ -1,4 +1,19 @@
 {
+  "wallet_dev_load_more": {
+    "message": "加载更多"
+  },
+  "wallet_dev_retry": {
+    "message": "重试"
+  },
+  "wallet_dev_load_error": {
+    "message": "发币记录加载失败。"
+  },
+  "wallet_dev_recorded_count": {
+    "message": "发币 {count} 个"
+  },
+  "wallet_dev_coverage_hint": {
+    "message": "仅统计已获取的发币记录。"
+  },
   "switch_buy_mode": {
     "message": "切换买入模式（当前：{mode}）"
   },
@@ -1411,6 +1426,9 @@
   },
   "quick_buy_label": {
     "message": "快速买入"
+  },
+  "social_monitor_quick_buy_amount": {
+    "message": "快速购买"
   },
   "quick_buy_amount": {
     "message": "快速买入金额"

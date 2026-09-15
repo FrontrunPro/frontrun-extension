@@ -1,4 +1,19 @@
 {
+  "wallet_dev_load_more": {
+    "message": "Загрузить ещё"
+  },
+  "wallet_dev_retry": {
+    "message": "Повторить"
+  },
+  "wallet_dev_load_error": {
+    "message": "Не удалось загрузить записи."
+  },
+  "wallet_dev_recorded_count": {
+    "message": "Выпущено токенов: {count}"
+  },
+  "wallet_dev_coverage_hint": {
+    "message": "По доступным записям о выпуске токенов."
+  },
   "switch_buy_mode": {
     "message": "Сменить режим покупки (сейчас: {mode})"
   },
@@ -1453,6 +1468,9 @@
   },
   "quick_buy_label": {
     "message": "Быстрая покупка"
+  },
+  "social_monitor_quick_buy_amount": {
+    "message": "Сумма"
   },
   "quick_buy_amount": {
     "message": "Сумма"
