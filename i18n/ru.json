@@ -1,4 +1,10 @@
 {
+  "pump_dev_address_failed": {
+    "message": "Не удалось загрузить"
+  },
+  "pump_dev_address_unavailable": {
+    "message": "Нет данных"
+  },
   "wallet_dev_load_more": {
     "message": "Загрузить ещё"
   },

@@ -1,4 +1,10 @@
 {
+  "pump_dev_address_failed": {
+    "message": "加载失败"
+  },
+  "pump_dev_address_unavailable": {
+    "message": "暂无数据"
+  },
   "wallet_dev_load_more": {
     "message": "加载更多"
   },
