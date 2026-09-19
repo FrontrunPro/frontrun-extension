@@ -8599,7 +8599,7 @@
     "message": "未找到设置"
   },
   "solana_stock_trade_limit_exceeded": {
-    "message": "股票配对池单笔交易金额超过 1000U，已禁止发送。"
+    "message": "股票配对池单笔交易金额超过 {limit}U，已禁止发送。"
   },
   "solana_price_impact_unavailable": {
     "message": "无法验证价格冲击，已取消交易"
