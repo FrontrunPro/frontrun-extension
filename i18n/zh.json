@@ -770,6 +770,9 @@
   "alt_wallets_saved_successfully": {
     "message": "成功保存关联钱包！"
   },
+  "wallet_created_not_selected": {
+    "message": "钱包已创建，但未自动选中。请手动选中后交易。"
+  },
   "wallet_created_successfully": {
     "message": "创建钱包成功！"
   },
@@ -796,6 +799,9 @@
   },
   "search_for_alt_wallets": {
     "message": "搜索关联钱包"
+  },
+  "add_this_wallet_to": {
+    "message": "将此钱包添加到"
   },
   "add_to_group": {
     "message": "添加到分组"
@@ -967,6 +973,9 @@
   },
   "group_view": {
     "message": "分组视图"
+  },
+  "wallet_flat_view": {
+    "message": "平铺视图"
   },
   "sol": {
     "message": "SOL"
@@ -1798,6 +1807,9 @@
   },
   "delete_wallet": {
     "message": "删除钱包"
+  },
+  "delete_evm_wallet_confirm_message": {
+    "message": "同时删除 BNB Chain 和 Robinhood 钱包吗？"
   },
   "deleting": {
     "message": "删除中..."
@@ -7737,6 +7749,9 @@
   "wallet_groups": {
     "message": "钱包分组"
   },
+  "add_to_wallet_group": {
+    "message": "添加到钱包组"
+  },
   "manage_wallet_groups": {
     "message": "管理分组 →"
   },
@@ -8603,6 +8618,42 @@
   },
   "solana_price_impact_unavailable": {
     "message": "无法验证价格冲击，已取消交易"
+  },
+  "wallet_archive_orders_blocked": {
+    "message": "请先取消或完成 BSC、Robinhood 上的有效订单与策略。下方取消待生成策略不会取消已生成的订单。"
+  },
+  "wallet_cancel_pending_auto_trade": {
+    "message": "取消待生成策略"
+  },
+  "top_up": {
+    "message": "充值"
+  },
+  "consolidate_here": {
+    "message": "归集到此钱包"
+  },
+  "wallet_order": {
+    "message": "排序"
+  },
+  "wallet_layout": {
+    "message": "布局"
+  },
+  "wallet_recent": {
+    "message": "最近更新"
+  },
+  "wallet_custom": {
+    "message": "自定义"
+  },
+  "wallet_no_balances": {
+    "message": "暂无余额"
+  },
+  "wallet_chains": {
+    "message": "链"
+  },
+  "wallet_show_chains": {
+    "message": "显示哪些链"
+  },
+  "wallet_valuation_unavailable": {
+    "message": "USD 估值暂不可用：部分余额或代币价格尚未加载，不代表余额为零。"
   },
   "show_delay_in_panel": {
     "message": "显示延迟"

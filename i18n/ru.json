@@ -812,6 +812,9 @@
   "alt_wallets_saved_successfully": {
     "message": "Альт‑кошельки успешно сохранены!"
   },
+  "wallet_created_not_selected": {
+    "message": "Кошелёк создан, но не выбран. Выберите его вручную."
+  },
   "wallet_created_successfully": {
     "message": "Кошелёк успешно создан!"
   },
@@ -838,6 +841,9 @@
   },
   "search_for_alt_wallets": {
     "message": "Связанные кошельки"
+  },
+  "add_this_wallet_to": {
+    "message": "Добавить кошелёк в"
   },
   "add_to_group": {
     "message": "Добавить в группу"
@@ -1009,6 +1015,9 @@
   },
   "group_view": {
     "message": "Просмотр по группам"
+  },
+  "wallet_flat_view": {
+    "message": "Список"
   },
   "sol": {
     "message": "SOL"
@@ -1816,6 +1825,9 @@
   },
   "delete_wallet": {
     "message": "Удалить"
+  },
+  "delete_evm_wallet_confirm_message": {
+    "message": "Удалить кошельки BNB и Robinhood?"
   },
   "deleting": {
     "message": "Удаление..."
@@ -7770,6 +7782,9 @@
   "wallet_groups": {
     "message": "Группы кошельков"
   },
+  "add_to_wallet_group": {
+    "message": "Добавить в группу"
+  },
   "manage_wallet_groups": {
     "message": "Управлять группами →"
   },
@@ -8603,6 +8618,42 @@
   },
   "solana_price_impact_unavailable": {
     "message": "Не удалось проверить влияние на цену — сделка отменена"
+  },
+  "wallet_archive_orders_blocked": {
+    "message": "Сначала отмените или завершите активные ордера и стратегии BSC и Robinhood. Отмена ожидающей стратегии ниже не отменяет созданные ордера."
+  },
+  "wallet_cancel_pending_auto_trade": {
+    "message": "Отменить стратегию"
+  },
+  "top_up": {
+    "message": "Внести"
+  },
+  "consolidate_here": {
+    "message": "Собрать сюда"
+  },
+  "wallet_order": {
+    "message": "Порядок"
+  },
+  "wallet_layout": {
+    "message": "Макет"
+  },
+  "wallet_recent": {
+    "message": "Обновлённые"
+  },
+  "wallet_custom": {
+    "message": "Вручн."
+  },
+  "wallet_no_balances": {
+    "message": "Пока нет средств"
+  },
+  "wallet_chains": {
+    "message": "Сети"
+  },
+  "wallet_show_chains": {
+    "message": "Показать сети"
+  },
+  "wallet_valuation_unavailable": {
+    "message": "Оценка в USD недоступна: часть балансов или цен токенов не загружена. Это не означает нулевой баланс."
   },
   "show_delay_in_panel": {
     "message": "Показать задержку"

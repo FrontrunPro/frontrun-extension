@@ -1,0 +1,1 @@
+var e={};function t(t,n){e[t]=n}function n(t){let n=e[t];if(!n)throw Error(`chainAdapterRegistry: no adapter for "${t}" — import "~chains/${t.toLowerCase()}/register" from this entry point's root (content script / popup / sidepanel) before any code path that needs the adapter`);return n}function r(t){return e[t]!==void 0}export{r as n,t as r,n as t};
