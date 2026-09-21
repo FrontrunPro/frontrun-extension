@@ -2079,7 +2079,7 @@
     "message": "На BscScan"
   },
   "view_on_rh_scan": {
-    "message": "Открыть в RH-scan"
+    "message": "Открыть в RobinScan"
   },
   "view_private_key": {
     "message": "Показать ключ"

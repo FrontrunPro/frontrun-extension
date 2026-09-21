@@ -2064,7 +2064,7 @@
     "message": "在 BscScan 上查看"
   },
   "view_on_rh_scan": {
-    "message": "在 RH-scan 上查看"
+    "message": "在 RobinScan 上查看"
   },
   "view_private_key": {
     "message": "查看私钥"
@@ -7186,7 +7186,7 @@
     "message": "还有 {count} 个标签"
   },
   "token_migrating_to_dex": {
-    "message": "代币正在迁移到DEX，请稍后重试。"
+    "message": "代币正在迁移中，请稍后重试"
   },
   "chain_mode_default": {
     "message": "SOL/BNB"

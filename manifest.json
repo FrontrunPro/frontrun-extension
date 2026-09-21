@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Frontrun",
   "description": "Frontrun is your AI co-pilot, empowering crypto traders to stay ahead of the market",
-  "version": "0.0.409",
+  "version": "0.0.410",
   "icons": {
     "16": "icon-16.png",
     "32": "icon-32.png",
@@ -344,6 +344,7 @@
         "https://pro.x.com/*",
         "https://re.defined.fi/*",
         "https://rh-scan.com/*",
+        "https://robin.etherscan.io/*",
         "https://robinhood.com/*",
         "https://robinhoodchain.blockscout.com/*",
         "https://robinscan.io/*",
@@ -380,8 +381,10 @@
     },
     {
       "matches": [
-        "https://rh-scan.com/*"
+        "https://rh-scan.com/*",
+        "https://robin.etherscan.io/*"
       ],
+      "all_frames": true,
       "js": [
         "vendor.js",
         "content-scripts/rhscan.js"
