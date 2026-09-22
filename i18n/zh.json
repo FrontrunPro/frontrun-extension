@@ -6816,6 +6816,18 @@
   "split_tooltip": {
     "message": "拆分给其他活跃钱包，20%随机偏差"
   },
+  "token_transfer_fee_warning": {
+    "message": "该代币包含转账税。每笔转账都会独立扣税，实际到账将低于计划金额。"
+  },
+  "token_transfer_fee_confirmation_title": {
+    "message": "转账税提示"
+  },
+  "token_transfer_fee_never_remind": {
+    "message": "不再提醒"
+  },
+  "token_transfer_fee_check_failed": {
+    "message": "无法确认该代币的转账税，本次未发送交易。请重试。"
+  },
   "unselect_all": {
     "message": "取消全选"
   },
@@ -7788,6 +7800,18 @@
   "sell_amounts": {
     "message": "卖出比例"
   },
+  "sell_native_amounts": {
+    "message": "卖出原生币金额"
+  },
+  "sell_percentages": {
+    "message": "卖出百分比"
+  },
+  "sell_quick_preset_mode": {
+    "message": "卖出快捷预设模式"
+  },
+  "sell_combined_mode": {
+    "message": "同时使用卖出金额和百分比"
+  },
   "label_visibility_shown_inline": {
     "message": "行内标签"
   },
@@ -8651,6 +8675,18 @@
   },
   "wallet_show_chains": {
     "message": "显示哪些链"
+  },
+  "wallet_chain_only": {
+    "message": "仅此"
+  },
+  "wallet_chain_all": {
+    "message": "全部"
+  },
+  "wallet_chain_show_only": {
+    "message": "仅显示 {chain}"
+  },
+  "wallet_chain_show_all": {
+    "message": "显示全部组合链"
   },
   "wallet_valuation_unavailable": {
     "message": "USD 估值暂不可用：部分余额或代币价格尚未加载，不代表余额为零。"

@@ -3626,7 +3626,9 @@
   "inactive": {
     "message": "Неактивен"
   },
-  "buy_amount_per_wallet": { "message": "Покупать на указанную сумму с каждого кошелька" },
+  "buy_amount_per_wallet": {
+    "message": "Покупать на указанную сумму с каждого кошелька"
+  },
   "buy_amount_per_wallet_desc": {
     "message": "Сумма 100 и 2 кошелька — по 100 с каждого, всего 200, без разброса."
   },
@@ -6825,6 +6827,18 @@
   "split_tooltip": {
     "message": "Разделить между активными кошельками с отклонением 20%"
   },
+  "token_transfer_fee_warning": {
+    "message": "Этот токен взимает комиссию за перевод. Каждый перевод облагается отдельно, поэтому кошельки получат меньше запланированной суммы."
+  },
+  "token_transfer_fee_confirmation_title": {
+    "message": "Комиссия за перевод"
+  },
+  "token_transfer_fee_never_remind": {
+    "message": "Больше не напоминать"
+  },
+  "token_transfer_fee_check_failed": {
+    "message": "Не удалось проверить комиссию токена. Транзакция не отправлена. Повторите попытку."
+  },
   "unselect_all": {
     "message": "Снять все"
   },
@@ -7821,6 +7835,18 @@
   "sell_amounts": {
     "message": "Доли продажи"
   },
+  "sell_native_amounts": {
+    "message": "Суммы продажи в нативной валюте"
+  },
+  "sell_percentages": {
+    "message": "Проценты продажи"
+  },
+  "sell_quick_preset_mode": {
+    "message": "Режим быстрых пресетов продажи"
+  },
+  "sell_combined_mode": {
+    "message": "Суммы и проценты продажи"
+  },
   "label_visibility_shown_inline": {
     "message": "Метки в строке"
   },
@@ -8651,6 +8677,18 @@
   },
   "wallet_show_chains": {
     "message": "Показать сети"
+  },
+  "wallet_chain_only": {
+    "message": "Только"
+  },
+  "wallet_chain_all": {
+    "message": "Все"
+  },
+  "wallet_chain_show_only": {
+    "message": "Только {chain}"
+  },
+  "wallet_chain_show_all": {
+    "message": "Показать все сети"
   },
   "wallet_valuation_unavailable": {
     "message": "Оценка в USD недоступна: часть балансов или цен токенов не загружена. Это не означает нулевой баланс."
