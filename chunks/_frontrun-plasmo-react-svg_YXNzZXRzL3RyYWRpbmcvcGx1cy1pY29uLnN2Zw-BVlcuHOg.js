@@ -1,0 +1,1 @@
+import{p as e}from"./translation-B9u_jwT2.js";var t=e(),n=e=>(0,t.jsx)(`svg`,{xmlns:`http://www.w3.org/2000/svg`,width:14,height:14,fill:`none`,viewBox:`0 0 14 14`,...e,children:(0,t.jsx)(`path`,{stroke:`currentColor`,strokeLinecap:`round`,d:`M2.333 7.048h9.334M6.98 11.667V2.334`})});export{n as t};

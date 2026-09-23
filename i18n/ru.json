@@ -1,4 +1,16 @@
 {
+  "gmgn_holdings_toggle": {
+    "message": "Использовать Frontrun для сделок с позициями"
+  },
+  "gmgn_holdings_help_label": {
+    "message": "О торговле позициями"
+  },
+  "gmgn_holdings_help": {
+    "message": "При включении покупка, продажа и быстрая продажа позиций выполняются через Frontrun с кошельками, пресетами, проскальзыванием и комиссиями из торговой панели. Суммы и проценты берутся с кнопок GMGN. Выключите, чтобы торговать через GMGN."
+  },
+  "gmgn_holdings_unavailable": {
+    "message": "Сделка недоступна. Проверьте токен и кошельки Frontrun и повторите попытку."
+  },
   "pump_dev_address_failed": {
     "message": "Не удалось загрузить"
   },
@@ -2804,6 +2816,9 @@
   "confirmed_buy_batch": {
     "message": "{confirmedCount}/{totalCount} куплено"
   },
+  "confirmed_sell_batch": {
+    "message": "{confirmedCount}/{totalCount} продано"
+  },
   "confirmed_sell": {
     "message": "Продано"
   },
@@ -3304,6 +3319,12 @@
   },
   "gmgn_x_tracker_labels_tip": {
     "message": "Показывать метки профилей в X Tracker GMGN (только Mine и Featured)"
+  },
+  "gmgn_holdings_trading_setting": {
+    "message": "Торговля в позициях GMGN"
+  },
+  "gmgn_holdings_trading_setting_tip": {
+    "message": "Разрешить покупки и продажи через Frontrun во всплывающем окне и боковой панели позиций GMGN. Включите переключатель в панели позиций; используются настройки быстрой торговли."
   },
   "axiom_x_tracker_labels": {
     "message": "Метки X Tracker Axiom"

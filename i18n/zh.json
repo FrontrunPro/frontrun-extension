@@ -1,4 +1,16 @@
 {
+  "gmgn_holdings_toggle": {
+    "message": "使用 Frontrun 执行持仓交易"
+  },
+  "gmgn_holdings_help_label": {
+    "message": "持仓交易开关说明"
+  },
+  "gmgn_holdings_help": {
+    "message": "开启后，持仓买入、卖出和列表快捷卖出按钮均由 Frontrun 执行，沿用闪电交易中当前选择的钱包、预设、滑点及费用。金额和比例以 GMGN 按钮显示值为准。关闭后恢复 GMGN 原生交易。"
+  },
+  "gmgn_holdings_unavailable": {
+    "message": "暂时无法交易，请检查代币和 Frontrun 钱包后重试。"
+  },
   "pump_dev_address_failed": {
     "message": "加载失败"
   },
@@ -2750,6 +2762,9 @@
   "confirmed_buy_batch": {
     "message": "{confirmedCount}/{totalCount} 确认购买"
   },
+  "confirmed_sell_batch": {
+    "message": "{confirmedCount}/{totalCount} 确认卖出"
+  },
   "confirmed_sell": {
     "message": "确认卖出"
   },
@@ -3313,6 +3328,12 @@
   },
   "gmgn_x_tracker_labels_tip": {
     "message": "在 GMGN X Tracker 中显示推特标签（仅 Mine 和 Featured）"
+  },
+  "gmgn_holdings_trading_setting": {
+    "message": "GMGN 持仓交易"
+  },
+  "gmgn_holdings_trading_setting_tip": {
+    "message": "允许在 GMGN 持仓浮窗和侧栏使用 Frontrun 买卖；还需在持仓面板开启开关，交易沿用闪电交易设置。"
   },
   "axiom_x_tracker_labels": {
     "message": "Axiom Twitter 提醒标签"
