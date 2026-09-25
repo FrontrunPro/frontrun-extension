@@ -5177,6 +5177,12 @@
   "compact_trading_panel_desc": {
     "message": "Уменьшить панель торговли"
   },
+  "keep_trading_panel_in_viewport": {
+    "message": "Не выводить панель за пределы окна"
+  },
+  "keep_trading_panel_in_viewport_desc": {
+    "message": "Удерживать плавающую торговую панель полностью на экране"
+  },
   "reset_pnl": {
     "message": "Сброс PNL"
   },
@@ -8068,6 +8074,9 @@
   },
   "email_login_error_rate_limited": {
     "message": "Слишком много попыток. Повторите позже."
+  },
+  "email_login_error_delivery_unavailable": {
+    "message": "Доставка кода по почте временно недоступна. Повторите позже."
   },
   "email_login_error_code_required": {
     "message": "Введите код."

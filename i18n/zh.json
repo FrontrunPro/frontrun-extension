@@ -5169,6 +5169,12 @@
   "compact_trading_panel_desc": {
     "message": "将交易面板缩小为更小的尺寸"
   },
+  "keep_trading_panel_in_viewport": {
+    "message": "保持交易面板在窗口内"
+  },
+  "keep_trading_panel_in_viewport_desc": {
+    "message": "防止浮动交易面板移出屏幕"
+  },
   "reset_pnl": {
     "message": "重置盈亏"
   },
@@ -8033,6 +8039,9 @@
   },
   "email_login_error_rate_limited": {
     "message": "尝试次数过多，请稍后再试。"
+  },
+  "email_login_error_delivery_unavailable": {
+    "message": "邮件验证码服务暂时不可用，请稍后再试。"
   },
   "email_login_error_code_required": {
     "message": "请输入验证码。"
