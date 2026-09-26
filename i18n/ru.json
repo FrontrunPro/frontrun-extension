@@ -4899,10 +4899,7 @@
     "message": "Пополните кошелёк"
   },
   "trading_panel_add_funds_description": {
-    "message": "Пополните SOL, чтобы начать торговать и получить 90% кешбэка."
-  },
-  "trading_panel_add_funds_description_bsc": {
-    "message": "Пополните BNB, чтобы начать торговать и получить 90% кешбэка."
+    "message": "Пополните {symbol}, чтобы начать торговать и получить 90% кешбэка."
   },
   "trading_panel_receive_funds": {
     "message": "Получить средства"

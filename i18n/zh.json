@@ -4891,10 +4891,7 @@
     "message": "为钱包注资"
   },
   "trading_panel_add_funds_description": {
-    "message": "存入 SOL 以开始交易，获得 90% 现金返还。"
-  },
-  "trading_panel_add_funds_description_bsc": {
-    "message": "存入 BNB 以开始交易，获得 90% 现金返还。"
+    "message": "存入 {symbol} 以开始交易，获得 90% 现金返还。"
   },
   "trading_panel_receive_funds": {
     "message": "接收资金"
