@@ -1,4 +1,103 @@
 {
+  "token_consolidate_skipped_gas": {
+    "message": "合并部分完成：已完成 {completed} 笔，{skipped} 个来源钱包因 gas 不足被跳过。"
+  },
+  "token_split_insufficient_gas": {
+    "message": "原生币不足，无法支付转账 gas。"
+  },
+  "token_split_balance_changed": {
+    "message": "代币余额已变化，请根据最新余额重新分配。"
+  },
+  "token_split_login_required": {
+    "message": "请重新登录后再操作。"
+  },
+  "token_split_wallet_unavailable": {
+    "message": "选中的钱包不可用，请检查钱包权限。"
+  },
+  "token_consolidate_no_sources": {
+    "message": "其他钱包没有可归集的代币。"
+  },
+  "token_consolidate_running": {
+    "message": "合并中"
+  },
+  "token_consolidate_tax_risk_warning": {
+    "message": "平台数据显示该代币具有税费机制。钱包间转账也可能扣费，目标钱包实际收到的代币可能少于来源钱包转出的数量。是否继续合并？"
+  },
+  "token_split_action": {
+    "message": "分配筹码"
+  },
+  "token_split_hint": {
+    "message": "随机近似均分，以实际到账为准。"
+  },
+  "token_split_failed": {
+    "message": "分配已停止。请检查钱包权限、余额和 gas，并查看逐笔结果。"
+  },
+  "token_split_other_pending": {
+    "message": "其他代币有未确认转账，请先查询结果。"
+  },
+  "token_split_preparing": {
+    "message": "准备中"
+  },
+  "token_split_running": {
+    "message": "分配中"
+  },
+  "token_split_completed": {
+    "message": "已完成"
+  },
+  "token_split_stopped": {
+    "message": "已停止"
+  },
+  "token_split_unsent": {
+    "message": "未发送"
+  },
+  "token_split_pending": {
+    "message": "待确认"
+  },
+  "token_split_confirmed": {
+    "message": "已确认"
+  },
+  "token_split_reverted": {
+    "message": "已回滚"
+  },
+  "token_split_mismatch": {
+    "message": "到账金额不符"
+  },
+  "token_split_amount_mismatch_warning": {
+    "message": "拆分转账已上链，到账金额与计划不符（可能扣税）。已停止后续转账，请核对余额后再操作。"
+  },
+  "token_consolidate_amount_mismatch_warning": {
+    "message": "合并转账已上链，到账金额与计划不符（可能扣税）。已停止后续转账，请核对余额后再操作。"
+  },
+  "token_split_replaced": {
+    "message": "已替换"
+  },
+  "token_split_amount": {
+    "message": "计划 / 到账"
+  },
+  "token_split_check": {
+    "message": "查询交易状态"
+  },
+  "token_split_tax_risk_title": {
+    "message": "代币税费风险"
+  },
+  "token_split_tax_risk_warning": {
+    "message": "平台数据显示该代币具有税费机制。钱包间转账也可能扣费，实际到账可能少于计划，最终分配不保证精确均等。是否继续？"
+  },
+  "token_split_tax_risk_unavailable": {
+    "message": "无法检查该代币的平台税费信息，请重试。"
+  },
+  "token_split_tax_gap": {
+    "message": "累计转账扣费"
+  },
+  "token_split_received_gap": {
+    "message": "实际到账比计划少 {amount} 个代币，可能包含转账扣税。"
+  },
+  "token_split_partial_received": {
+    "message": "拆分部分完成（{completed}/{total}）。因到账金额差异，剩余转账已停止，请核对余额后再操作。"
+  },
+  "token_consolidate_partial_received": {
+    "message": "合并部分完成（{completed}/{total}）。因到账金额差异，剩余转账已停止，请核对余额后再操作。"
+  },
   "gmgn_holdings_toggle": {
     "message": "使用 Frontrun 执行持仓交易"
   },
@@ -985,9 +1084,6 @@
   },
   "group_view": {
     "message": "分组视图"
-  },
-  "wallet_flat_view": {
-    "message": "平铺视图"
   },
   "sol": {
     "message": "SOL"
@@ -8687,6 +8783,18 @@
   },
   "wallet_layout": {
     "message": "布局"
+  },
+  "wallet_layout_list": {
+    "message": "列表"
+  },
+  "wallet_layout_groups": {
+    "message": "分组"
+  },
+  "wallet_split_by_chain": {
+    "message": "按链拆分"
+  },
+  "wallet_chain_group_empty": {
+    "message": "该链暂无钱包"
   },
   "wallet_recent": {
     "message": "最近更新"

@@ -1,4 +1,103 @@
 {
+  "token_consolidate_skipped_gas": {
+    "message": "Объединение выполнено частично: завершено переводов — {completed}; пропущено кошельков-источников из-за нехватки газа — {skipped}."
+  },
+  "token_split_insufficient_gas": {
+    "message": "Недостаточно средств на газ."
+  },
+  "token_split_balance_changed": {
+    "message": "Баланс изменился. Обновите и повторите."
+  },
+  "token_split_login_required": {
+    "message": "Войдите снова."
+  },
+  "token_split_wallet_unavailable": {
+    "message": "Выбранный кошелёк недоступен."
+  },
+  "token_consolidate_no_sources": {
+    "message": "В других кошельках нет токенов для объединения."
+  },
+  "token_consolidate_running": {
+    "message": "Объединение"
+  },
+  "token_consolidate_tax_risk_warning": {
+    "message": "По данным платформы у токена есть механизм налога. Переводы между кошельками также могут облагаться комиссией, поэтому целевой кошелёк может получить меньше токенов, чем отправлено. Продолжить объединение?"
+  },
+  "token_split_action": {
+    "message": "Распределить токены"
+  },
+  "token_split_hint": {
+    "message": "Примерно поровну, со случайным отклонением. Итог может отличаться."
+  },
+  "token_split_failed": {
+    "message": "Остановлено. Проверьте доступ, баланс, газ и результаты."
+  },
+  "token_split_other_pending": {
+    "message": "Есть незавершённый перевод другого токена. Проверьте его статус."
+  },
+  "token_split_preparing": {
+    "message": "Подготовка"
+  },
+  "token_split_running": {
+    "message": "Распределение"
+  },
+  "token_split_completed": {
+    "message": "Готово"
+  },
+  "token_split_stopped": {
+    "message": "Остановлено"
+  },
+  "token_split_unsent": {
+    "message": "Не отправлено"
+  },
+  "token_split_pending": {
+    "message": "Ожидается"
+  },
+  "token_split_confirmed": {
+    "message": "Подтверждено"
+  },
+  "token_split_reverted": {
+    "message": "Откат"
+  },
+  "token_split_mismatch": {
+    "message": "Сумма отличается"
+  },
+  "token_split_amount_mismatch_warning": {
+    "message": "Перевод при разделении подтверждён в сети, но полученная сумма отличается от плана (возможно, удержан налог). Дальнейшие переводы остановлены. Проверьте балансы перед повтором."
+  },
+  "token_consolidate_amount_mismatch_warning": {
+    "message": "Перевод при объединении подтверждён в сети, но полученная сумма отличается от плана (возможно, удержан налог). Дальнейшие переводы остановлены. Проверьте балансы перед повтором."
+  },
+  "token_split_replaced": {
+    "message": "Заменено"
+  },
+  "token_split_amount": {
+    "message": "План / получено"
+  },
+  "token_split_check": {
+    "message": "Проверить статус"
+  },
+  "token_split_tax_risk_title": {
+    "message": "Риск налога на токен"
+  },
+  "token_split_tax_risk_warning": {
+    "message": "По данным платформы у токена есть механизм налога. Переводы между кошельками также могут облагаться комиссией. Получатель может получить меньше запланированного, поэтому итоговые балансы могут различаться. Продолжить?"
+  },
+  "token_split_tax_risk_unavailable": {
+    "message": "Не удалось проверить налоговые данные токена. Повторите попытку."
+  },
+  "token_split_tax_gap": {
+    "message": "Суммарная комиссия за перевод"
+  },
+  "token_split_received_gap": {
+    "message": "Получено на {amount} токенов меньше плана, возможно, из-за налога на перевод."
+  },
+  "token_split_partial_received": {
+    "message": "Разделение выполнено частично ({completed}/{total}). Остальные переводы остановлены из-за разницы сумм. Проверьте балансы перед повтором."
+  },
+  "token_consolidate_partial_received": {
+    "message": "Объединение выполнено частично ({completed}/{total}). Остальные переводы остановлены из-за разницы сумм. Проверьте балансы перед повтором."
+  },
   "gmgn_holdings_toggle": {
     "message": "Использовать Frontrun для сделок с позициями"
   },
@@ -1027,9 +1126,6 @@
   },
   "group_view": {
     "message": "Просмотр по группам"
-  },
-  "wallet_flat_view": {
-    "message": "Список"
   },
   "sol": {
     "message": "SOL"
@@ -8689,6 +8785,18 @@
   },
   "wallet_layout": {
     "message": "Макет"
+  },
+  "wallet_layout_list": {
+    "message": "Список"
+  },
+  "wallet_layout_groups": {
+    "message": "Группы"
+  },
+  "wallet_split_by_chain": {
+    "message": "Разбить по сетям"
+  },
+  "wallet_chain_group_empty": {
+    "message": "Нет кошельков в этой сети"
   },
   "wallet_recent": {
     "message": "Обновлённые"
