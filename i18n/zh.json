@@ -161,11 +161,20 @@
   "fomo_tracker_quick_buy_amount_bnb": {
     "message": "FOMO Tracker 快捷买入金额（BNB）"
   },
+  "fomo_tracker_quick_buy_amount_eth": {
+    "message": "FOMO Tracker 快捷买入金额（ETH）"
+  },
   "fomo_tracker_quick_buy_bnb": {
     "message": "使用 {amount} BNB 快捷买入 {token}"
   },
+  "fomo_tracker_quick_buy_eth": {
+    "message": "使用 {amount} ETH 快捷买入 {token}"
+  },
   "fomo_tracker_wallet_required_bnb": {
     "message": "请先激活 BSC 钱包以使用快捷买入。"
+  },
+  "fomo_tracker_wallet_required_eth": {
+    "message": "请先激活 Robinhood 钱包以使用快捷买入。"
   },
   "fomo_tracker_waiting_multichain": {
     "message": "等待交易动态…"
@@ -189,6 +198,9 @@
     "message": "添加更多"
   },
   "market_cap": {
+    "message": "市值"
+  },
+  "market_cap_short": {
     "message": "市值"
   },
   "avg_buying_mc": {
@@ -8705,6 +8717,27 @@
   },
   "fomo_tracker_token_age_years": {
     "message": "{count}年"
+  },
+  "sell_live_balance_pill": {
+    "message": "实时%"
+  },
+  "status": {
+    "message": "状态"
+  },
+  "target_action": {
+    "message": "目标 / 操作"
+  },
+  "order_status_filled_short": {
+    "message": "已成交"
+  },
+  "order_status_cancelled_short": {
+    "message": "已取消"
+  },
+  "order_status_failed_short": {
+    "message": "失败"
+  },
+  "order_status_expired_short": {
+    "message": "已过期"
   },
   "autotrade_off": {
     "message": "自动交易：关闭"

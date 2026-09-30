@@ -161,11 +161,20 @@
   "fomo_tracker_quick_buy_amount_bnb": {
     "message": "Сумма быстрой покупки FOMO Tracker в BNB"
   },
+  "fomo_tracker_quick_buy_amount_eth": {
+    "message": "Сумма быстрой покупки FOMO Tracker в ETH"
+  },
   "fomo_tracker_quick_buy_bnb": {
     "message": "Купить {token} за {amount} BNB"
   },
+  "fomo_tracker_quick_buy_eth": {
+    "message": "Купить {token} за {amount} ETH"
+  },
   "fomo_tracker_wallet_required_bnb": {
     "message": "Активируйте кошелёк BSC для быстрой покупки."
+  },
+  "fomo_tracker_wallet_required_eth": {
+    "message": "Активируйте кошелёк Robinhood для быстрой покупки."
   },
   "fomo_tracker_waiting_multichain": {
     "message": "Ожидание активности…"
@@ -832,6 +841,9 @@
   },
   "market_cap": {
     "message": "Капитализация"
+  },
+  "market_cap_short": {
+    "message": "Кап."
   },
   "avg_buying_mc": {
     "message": "Средняя кап. покупки"
@@ -8707,6 +8719,27 @@
   },
   "fomo_tracker_token_age_years": {
     "message": "{count} г"
+  },
+  "sell_live_balance_pill": {
+    "message": "Жив. %"
+  },
+  "status": {
+    "message": "Статус"
+  },
+  "target_action": {
+    "message": "Цель / Действие"
+  },
+  "order_status_filled_short": {
+    "message": "исполн."
+  },
+  "order_status_cancelled_short": {
+    "message": "отмен."
+  },
+  "order_status_failed_short": {
+    "message": "ошибка"
+  },
+  "order_status_expired_short": {
+    "message": "истёк"
   },
   "autotrade_off": {
     "message": "Автоторговля: выкл."
