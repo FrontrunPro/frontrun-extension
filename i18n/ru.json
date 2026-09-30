@@ -8741,6 +8741,9 @@
   "order_status_expired_short": {
     "message": "истёк"
   },
+  "order_status_terminated_short": {
+    "message": "прекр."
+  },
   "autotrade_off": {
     "message": "Автоторговля: выкл."
   },
