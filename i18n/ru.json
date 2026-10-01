@@ -818,6 +818,45 @@
   "fomo_tracker_hide_confirmation_confirm": {
     "message": "Скрыть кнопку"
   },
+  "fomo_tracker_following_import_title": {
+    "message": "Импортировать подписки FOMO?"
+  },
+  "fomo_tracker_following_import_summary": {
+    "message": "Найдено {total}: {existing} доступны в Tracker, {missing} пока недоступны."
+  },
+  "fomo_tracker_following_import_action": {
+    "message": "В My Feed попадёт {follow}, в Requested — {request}."
+  },
+  "fomo_tracker_following_import_truncated": {
+    "message": "FOMO вернул {count}. Сравним первые 500."
+  },
+  "fomo_tracker_following_import_error": {
+    "message": "Не удалось импортировать. Проверьте лимиты Tracker и повторите."
+  },
+  "fomo_tracker_following_import_preview_error": {
+    "message": "Не удалось сравнить эти подписки. Повторите попытку."
+  },
+  "fomo_tracker_following_import_dismiss": {
+    "message": "Пропустить"
+  },
+  "fomo_tracker_following_import_confirm": {
+    "message": "Импортировать"
+  },
+  "fomo_tracker_following_import_importing": {
+    "message": "Импорт..."
+  },
+  "fomo_tracker_following_sync": {
+    "message": "Обновить"
+  },
+  "fomo_tracker_following_sync_checking": {
+    "message": "Проверка..."
+  },
+  "fomo_tracker_following_sync_unavailable": {
+    "message": "Обновите FOMO, чтобы получить свежие подписки."
+  },
+  "fomo_tracker_following_sync_up_to_date": {
+    "message": "Подписки FOMO уже синхронизированы."
+  },
   "auto_renew_banner_title": {
     "message": "Автопродление премиума"
   },
@@ -1096,6 +1135,123 @@
   },
   "fomo_profile_tracker_error": {
     "message": "Не удалось обновить Tracker"
+  },
+  "fomo_copy_trade_cta": {
+    "message": "Копитрейд"
+  },
+  "fomo_copy_trade_open": {
+    "message": "Открыть прототип копитрейдинга"
+  },
+  "fomo_copy_trade_title": {
+    "message": "Включить копитрейдинг"
+  },
+  "fomo_copy_trade_mock_data": {
+    "message": "Прототип · тестовые данные"
+  },
+  "fomo_copy_trade_wallet": {
+    "message": "Кошелёк исполнения"
+  },
+  "fomo_copy_trade_mock_wallet_name": {
+    "message": "Торговый кошелёк 1"
+  },
+  "fomo_copy_trade_ready": {
+    "message": "Готово"
+  },
+  "fomo_copy_trade_buy_strategy": {
+    "message": "Стратегия покупки"
+  },
+  "fomo_copy_trade_sell_strategy": {
+    "message": "Стратегия продажи"
+  },
+  "fomo_copy_trade_exact": {
+    "message": "Точная сумма"
+  },
+  "fomo_copy_trade_ratio": {
+    "message": "По доле"
+  },
+  "fomo_copy_trade_fixed": {
+    "message": "Фиксированная"
+  },
+  "fomo_copy_trade_exact_description": {
+    "message": "Повторять фактическую сумму покупки целевого кошелька. Лимиты сделки и позиции сохраняются."
+  },
+  "fomo_copy_trade_buy_amount": {
+    "message": "Сумма покупки"
+  },
+  "fomo_copy_trade_invalid_amount": {
+    "message": "Введите сумму больше 0."
+  },
+  "fomo_copy_trade_auto_sell": {
+    "message": "Автопродажа"
+  },
+  "fomo_copy_trade_no_sell": {
+    "message": "Не продавать"
+  },
+  "fomo_copy_trade_group_sell": {
+    "message": "Групповая продажа"
+  },
+  "fomo_copy_trade_tp_sl": {
+    "message": "Тейк-профит и стоп-лосс"
+  },
+  "fomo_copy_trade_tp_sl_description": {
+    "message": "По умолчанию тейк-профит +80% и стоп-лосс -35%."
+  },
+  "fomo_copy_trade_no_sell_description": {
+    "message": "Копировать только покупки. Все выходы выполняются вручную."
+  },
+  "fomo_copy_trade_advanced": {
+    "message": "Расширенные настройки"
+  },
+  "fomo_copy_trade_advanced_description": {
+    "message": "Фильтры сигналов, протоколы, риск и исполнение"
+  },
+  "fomo_copy_trade_first_buy": {
+    "message": "Только первая покупка"
+  },
+  "fomo_copy_trade_first_buy_description": {
+    "message": "Следовать только первой покупке токена целевым кошельком."
+  },
+  "fomo_copy_trade_token_limit": {
+    "message": "Лимит токена"
+  },
+  "fomo_copy_trade_token_limit_description": {
+    "message": "Не покупать токен повторно после первой успешной покупки этой задачей."
+  },
+  "fomo_copy_trade_skip_deploy": {
+    "message": "Пропуск деплоя"
+  },
+  "fomo_copy_trade_skip_deploy_description": {
+    "message": "Игнорировать самопокупку, если целевой адрес является деплоером токена."
+  },
+  "fomo_copy_trade_anti_rug": {
+    "message": "Проверка anti-rug"
+  },
+  "fomo_copy_trade_anti_rug_description": {
+    "message": "После срабатывания приостановить новые покупки для цели. Выходы остаются доступны."
+  },
+  "fomo_copy_trade_anti_rug_group_description": {
+    "message": "Срабатывание любого связанного адреса приостанавливает новые покупки группы. Выходы остаются доступны."
+  },
+  "fomo_copy_trade_protocols": {
+    "message": "Поддерживаемые протоколы"
+  },
+  "fomo_copy_trade_execution_note": {
+    "message": "Проскальзывание покупки 8% · продажи 12% · лимит комиссии 0.004 ETH"
+  },
+  "fomo_copy_trade_future_only": {
+    "message": "Обрабатываются только новые сделки после включения — без погони и истории."
+  },
+  "fomo_copy_trade_enable": {
+    "message": "Включить копитрейдинг"
+  },
+  "fomo_copy_trade_enabled": {
+    "message": "Копитрейдинг включён"
+  },
+  "fomo_copy_trade_enabled_description": {
+    "message": "Этот прототип меняет только локальное состояние интерфейса. Настройки и транзакции не отправляются."
+  },
+  "fomo_copy_trade_done": {
+    "message": "Готово"
   },
   "wallets_in_group": {
     "message": "Кошельки в группе"
@@ -2038,6 +2194,9 @@
   },
   "wallet_import_private_key_alias_warning": {
     "message": "Кошельки импортированы, но псевдонимы не сохранены: {wallets}. Переименуйте их в списке."
+  },
+  "wallet_import_already_imported_warning": {
+    "message": "Уже в аккаунте: {count}. Дубликаты не добавлены."
   },
   "wallet_import_paste_placeholder": {
     "message": "Вставьте один или несколько приватных ключей"
@@ -8747,6 +8906,18 @@
   "autotrade_off": {
     "message": "Автоторговля: выкл."
   },
+  "detach_trades": {
+    "message": "Открепить в окно"
+  },
+  "dock_trades": {
+    "message": "Прикрепить к панели"
+  },
+  "resize": {
+    "message": "Размер"
+  },
+  "switch_to": {
+    "message": "Переключить на"
+  },
   "wallets_settings": {
     "message": "Настройки кошелька"
   },
@@ -8893,5 +9064,74 @@
   },
   "sell_initials_tooltip": {
     "message": "Продать вложенное"
+  },
+  "button_shape": {
+    "message": "Форма кнопок покупки/продажи"
+  },
+  "button_shape_rounded": {
+    "message": "Круглые"
+  },
+  "button_shape_square": {
+    "message": "Прямые"
+  },
+  "buy_alert": {
+    "message": "Сигнал покупки"
+  },
+  "close_all_toasts_on_dismiss": {
+    "message": "Закрывать все тосты разом"
+  },
+  "hide_info_tooltips": {
+    "message": "Скрыть подсказки"
+  },
+  "hide_info_tooltips_desc": {
+    "message": "Скрывать подсказки на элементах управления (статусы и данные остаются)"
+  },
+  "max_short": {
+    "message": "Макс."
+  },
+  "sell_alert": {
+    "message": "Сигнал продажи"
+  },
+  "show_buy_toasts": {
+    "message": "Тосты покупки"
+  },
+  "show_sell_toasts": {
+    "message": "Тосты продажи"
+  },
+  "toast_behavior": {
+    "message": "Поведение тостов"
+  },
+  "toast_duration": {
+    "message": "Длительность"
+  },
+  "toast_duration_desc": {
+    "message": "Тосты об ошибках всегда 10 с."
+  },
+  "toast_placement": {
+    "message": "Расположение тостов"
+  },
+  "toast_placement_desc": {
+    "message": "Где показывать уведомления о сделках"
+  },
+  "toast_pos_bottom_center": {
+    "message": "Снизу по центру"
+  },
+  "toast_pos_bottom_left": {
+    "message": "Снизу слева"
+  },
+  "toast_pos_bottom_right": {
+    "message": "Снизу справа"
+  },
+  "toast_pos_top_center": {
+    "message": "Сверху по центру"
+  },
+  "toast_pos_top_left": {
+    "message": "Сверху слева"
+  },
+  "toast_pos_top_right": {
+    "message": "Сверху справа"
+  },
+  "toast_position_updated": {
+    "message": "Уведомления будут появляться здесь"
   }
 }

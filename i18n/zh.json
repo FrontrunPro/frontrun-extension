@@ -791,6 +791,45 @@
   "fomo_tracker_hide_confirmation_confirm": {
     "message": "隐藏悬浮球"
   },
+  "fomo_tracker_following_import_title": {
+    "message": "导入你在 FOMO 关注的人？"
+  },
+  "fomo_tracker_following_import_summary": {
+    "message": "发现 {total} 个关注对象，其中 {existing} 个已可在 Tracker 使用，{missing} 个尚不可用。"
+  },
+  "fomo_tracker_following_import_action": {
+    "message": "将把 {follow} 个对象加入 My Feed，并把 {request} 个对象加入 Requested。"
+  },
+  "fomo_tracker_following_import_truncated": {
+    "message": "FOMO 返回了 {count} 个关注对象，本次将比对前 500 个。"
+  },
+  "fomo_tracker_following_import_error": {
+    "message": "导入失败，请检查 Tracker 上限后重试。"
+  },
+  "fomo_tracker_following_import_preview_error": {
+    "message": "无法比对这些关注对象，请重试。"
+  },
+  "fomo_tracker_following_import_dismiss": {
+    "message": "不导入"
+  },
+  "fomo_tracker_following_import_confirm": {
+    "message": "导入关注"
+  },
+  "fomo_tracker_following_import_importing": {
+    "message": "正在导入..."
+  },
+  "fomo_tracker_following_sync": {
+    "message": "同步关注"
+  },
+  "fomo_tracker_following_sync_checking": {
+    "message": "正在检查..."
+  },
+  "fomo_tracker_following_sync_unavailable": {
+    "message": "请刷新 FOMO 以获取最新关注列表。"
+  },
+  "fomo_tracker_following_sync_up_to_date": {
+    "message": "你的 FOMO 关注已同步。"
+  },
   "auto_renew_banner_title": {
     "message": "自动续订高级版"
   },
@@ -1054,6 +1093,123 @@
   },
   "fomo_profile_tracker_error": {
     "message": "Tracker 更新失败"
+  },
+  "fomo_copy_trade_cta": {
+    "message": "跟单"
+  },
+  "fomo_copy_trade_open": {
+    "message": "打开跟单原型"
+  },
+  "fomo_copy_trade_title": {
+    "message": "开启跟单"
+  },
+  "fomo_copy_trade_mock_data": {
+    "message": "原型 · 假数据"
+  },
+  "fomo_copy_trade_wallet": {
+    "message": "执行钱包"
+  },
+  "fomo_copy_trade_mock_wallet_name": {
+    "message": "交易钱包 1"
+  },
+  "fomo_copy_trade_ready": {
+    "message": "已就绪"
+  },
+  "fomo_copy_trade_buy_strategy": {
+    "message": "买入策略"
+  },
+  "fomo_copy_trade_sell_strategy": {
+    "message": "卖出策略"
+  },
+  "fomo_copy_trade_exact": {
+    "message": "精确金额"
+  },
+  "fomo_copy_trade_ratio": {
+    "message": "按比例"
+  },
+  "fomo_copy_trade_fixed": {
+    "message": "固定金额"
+  },
+  "fomo_copy_trade_exact_description": {
+    "message": "跟随目标钱包本次实际买入金额；单笔与整体仓位上限仍会生效。"
+  },
+  "fomo_copy_trade_buy_amount": {
+    "message": "买入金额"
+  },
+  "fomo_copy_trade_invalid_amount": {
+    "message": "请输入大于 0 的金额。"
+  },
+  "fomo_copy_trade_auto_sell": {
+    "message": "自动跟卖"
+  },
+  "fomo_copy_trade_no_sell": {
+    "message": "不跟卖"
+  },
+  "fomo_copy_trade_group_sell": {
+    "message": "集团跟卖"
+  },
+  "fomo_copy_trade_tp_sl": {
+    "message": "止盈与止损"
+  },
+  "fomo_copy_trade_tp_sl_description": {
+    "message": "默认止盈 +80%，止损 -35%。"
+  },
+  "fomo_copy_trade_no_sell_description": {
+    "message": "只复制买入；所有卖出由你手动处理。"
+  },
+  "fomo_copy_trade_advanced": {
+    "message": "高级设置"
+  },
+  "fomo_copy_trade_advanced_description": {
+    "message": "信号过滤、支持协议、风险与执行"
+  },
+  "fomo_copy_trade_first_buy": {
+    "message": "仅首购"
+  },
+  "fomo_copy_trade_first_buy_description": {
+    "message": "只跟随目标钱包对某个代币的第一次买入。"
+  },
+  "fomo_copy_trade_token_limit": {
+    "message": "代币限购"
+  },
+  "fomo_copy_trade_token_limit_description": {
+    "message": "本任务成功买过该代币后，不再重复买入。"
+  },
+  "fomo_copy_trade_skip_deploy": {
+    "message": "跳过部署"
+  },
+  "fomo_copy_trade_skip_deploy_description": {
+    "message": "目标是代币部署者时，忽略其自买信号。"
+  },
+  "fomo_copy_trade_anti_rug": {
+    "message": "防割检测"
+  },
+  "fomo_copy_trade_anti_rug_description": {
+    "message": "触发后暂停该目标的新买入；卖出与退出仍可用。"
+  },
+  "fomo_copy_trade_anti_rug_group_description": {
+    "message": "任一关联地址触发后，整组暂停新买入；卖出与退出仍可用。"
+  },
+  "fomo_copy_trade_protocols": {
+    "message": "支持的协议"
+  },
+  "fomo_copy_trade_execution_note": {
+    "message": "买入滑点 8% · 卖出滑点 12% · 单笔网络费上限 0.004 ETH"
+  },
+  "fomo_copy_trade_future_only": {
+    "message": "只处理开启后的新交易，不追单，也不补历史交易。"
+  },
+  "fomo_copy_trade_enable": {
+    "message": "开启跟单"
+  },
+  "fomo_copy_trade_enabled": {
+    "message": "跟单已开启"
+  },
+  "fomo_copy_trade_enabled_description": {
+    "message": "此原型只更新本地界面状态，不保存设置，也不会发送交易。"
+  },
+  "fomo_copy_trade_done": {
+    "message": "完成"
   },
   "wallets_in_group": {
     "message": "组内钱包"
@@ -2020,6 +2176,9 @@
   },
   "wallet_import_private_key_alias_warning": {
     "message": "钱包已导入，但以下别名保存失败：{wallets}。请在钱包列表中重新命名。"
+  },
+  "wallet_import_already_imported_warning": {
+    "message": "有 {count} 个钱包已在当前账号中，未新增重复钱包。"
   },
   "wallet_import_paste_placeholder": {
     "message": "粘贴一个或多个私钥"
@@ -8745,6 +8904,18 @@
   "autotrade_off": {
     "message": "自动交易：关闭"
   },
+  "detach_trades": {
+    "message": "分离为浮动窗口"
+  },
+  "dock_trades": {
+    "message": "吸附到交易面板"
+  },
+  "resize": {
+    "message": "调整大小"
+  },
+  "switch_to": {
+    "message": "切换到"
+  },
   "wallets_settings": {
     "message": "钱包设置"
   },
@@ -8891,5 +9062,74 @@
   },
   "sell_initials_tooltip": {
     "message": "卖出本金"
+  },
+  "button_shape": {
+    "message": "买卖按钮形状"
+  },
+  "button_shape_rounded": {
+    "message": "圆角"
+  },
+  "button_shape_square": {
+    "message": "方角"
+  },
+  "buy_alert": {
+    "message": "买入提醒"
+  },
+  "close_all_toasts_on_dismiss": {
+    "message": "关闭一条时清除全部通知"
+  },
+  "hide_info_tooltips": {
+    "message": "隐藏提示气泡"
+  },
+  "hide_info_tooltips_desc": {
+    "message": "隐藏控件的帮助提示（状态与数据提示不受影响）"
+  },
+  "max_short": {
+    "message": "最大"
+  },
+  "sell_alert": {
+    "message": "卖出提醒"
+  },
+  "show_buy_toasts": {
+    "message": "显示买入通知"
+  },
+  "show_sell_toasts": {
+    "message": "显示卖出通知"
+  },
+  "toast_behavior": {
+    "message": "通知行为"
+  },
+  "toast_duration": {
+    "message": "通知时长"
+  },
+  "toast_duration_desc": {
+    "message": "错误通知固定 10 秒。"
+  },
+  "toast_placement": {
+    "message": "通知位置"
+  },
+  "toast_placement_desc": {
+    "message": "交易通知在屏幕上的显示位置"
+  },
+  "toast_pos_bottom_center": {
+    "message": "底部居中"
+  },
+  "toast_pos_bottom_left": {
+    "message": "左下"
+  },
+  "toast_pos_bottom_right": {
+    "message": "右下"
+  },
+  "toast_pos_top_center": {
+    "message": "顶部居中"
+  },
+  "toast_pos_top_left": {
+    "message": "左上"
+  },
+  "toast_pos_top_right": {
+    "message": "右上"
+  },
+  "toast_position_updated": {
+    "message": "通知将显示在这里"
   }
 }
