@@ -1005,7 +1005,7 @@
     "message": "选择钱包"
   },
   "select_all_with_balance": {
-    "message": "选择有余额的钱包"
+    "message": "有余额的钱包"
   },
   "deselect_all": {
     "message": "取消全选"
@@ -1749,7 +1749,7 @@
     "message": "快捷买入按下触发"
   },
   "quick_buy_press_trigger_desc": {
-    "message": "在快捷买入界面按下 Frontrun 快捷买入按钮时立即交易，无需等待释放鼠标"
+    "message": "按下 Frontrun 快捷买入按钮时立即交易，无需等待释放鼠标"
   },
   "wallet_tracker_quick_buy": {
     "message": "钱包追踪内快速买入"
@@ -3501,7 +3501,7 @@
     "message": "当前持仓"
   },
   "all_positions": {
-    "message": "所有持仓"
+    "message": "持仓"
   },
   "all_wallets": {
     "message": "所有钱包"
@@ -3923,7 +3923,9 @@
   "inactive": {
     "message": "非激活"
   },
-  "buy_amount_per_wallet": { "message": "每个钱包按输入金额买入" },
+  "buy_amount_per_wallet": {
+    "message": "每个钱包按输入金额买入"
+  },
   "buy_amount_per_wallet_desc": {
     "message": "输入 100，选中 2 个钱包，每个买 100，总计 200，不应用买入差异。"
   },
@@ -4102,7 +4104,7 @@
     "message": "已节省！"
   },
   "limit_orders": {
-    "message": "限价单"
+    "message": "订单"
   },
   "limit_order_set_target_percent": {
     "message": "将限价单目标设为 {percent}%",
@@ -5397,11 +5399,8 @@
   "section_advanced": {
     "message": "高级"
   },
-  "trading_panel_transparency": {
-    "message": "交易面板透明度"
-  },
-  "trading_panel_transparency_description": {
-    "message": "调整交易面板在页面上的可见度"
+  "transparency": {
+    "message": "透明度"
   },
   "preview_panel": {
     "message": "预览面板"
@@ -5533,7 +5532,7 @@
     "message": "启用声音"
   },
   "sound_volume": {
-    "message": "提示音量"
+    "message": "音量"
   },
   "buy_sound_effect": {
     "message": "购买音效"
@@ -5665,7 +5664,7 @@
     "message": "上传中..."
   },
   "gif_url": {
-    "message": "GIF 链接"
+    "message": "背景 GIF 链接"
   },
   "reset_to_default": {
     "message": "恢复默认"
@@ -8041,7 +8040,7 @@
     "message": "知道了"
   },
   "turbo_tip_minimum_notice": {
-    "message": "最低 Tip：0.00001 SOL"
+    "message": "最低：0.00001 SOL"
   },
   "turbo_on_tooltip": {
     "message": "TURBO 已开启 — 正在使用更快、抗 MEV 的 relay。"
@@ -8997,6 +8996,9 @@
   "wallet_layout_groups": {
     "message": "分组"
   },
+  "wallet_split_all_by_chain": {
+    "message": "全部按链拆分"
+  },
   "wallet_split_by_chain": {
     "message": "按链拆分"
   },
@@ -9062,6 +9064,9 @@
   },
   "sell_initials_tooltip": {
     "message": "卖出本金"
+  },
+  "cashback_short": {
+    "message": "返现"
   },
   "button_shape": {
     "message": "买卖按钮形状"

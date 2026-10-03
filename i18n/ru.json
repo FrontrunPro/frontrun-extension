@@ -1791,7 +1791,7 @@
     "message": "Quick Buy по нажатию"
   },
   "quick_buy_press_trigger_desc": {
-    "message": "В Quick Buy покупать при нажатии кнопки Frontrun Quick Buy, не дожидаясь отпускания мыши"
+    "message": "Покупать при нажатии кнопки Frontrun Quick Buy, не дожидаясь отпускания мыши"
   },
   "wallet_tracker_quick_buy": {
     "message": "Быстрая покупка (трекер)"
@@ -3501,7 +3501,7 @@
     "message": "Позиция"
   },
   "all_positions": {
-    "message": "Все позиции"
+    "message": "Позиции"
   },
   "all_wallets": {
     "message": "Все кошельки"
@@ -3516,7 +3516,7 @@
     "message": "Баланс"
   },
   "position_pnl_percentage": {
-    "message": "П&У"
+    "message": "Pnl"
   },
   "platform_integrations": {
     "message": "Платформы"
@@ -4110,7 +4110,7 @@
     "message": "Кешбэк теперь вручную."
   },
   "limit_orders": {
-    "message": "Лимиты"
+    "message": "Ордера"
   },
   "limit_order_set_target_percent": {
     "message": "Установить цель лимитного ордера на {percent}%",
@@ -5405,11 +5405,8 @@
   "section_advanced": {
     "message": "Дополнительно"
   },
-  "trading_panel_transparency": {
+  "transparency": {
     "message": "Прозрачность"
-  },
-  "trading_panel_transparency_description": {
-    "message": "Настройте видимость торговой панели на странице"
   },
   "preview_panel": {
     "message": "Панель предпросмотра"
@@ -5673,7 +5670,7 @@
     "message": "Загрузка..."
   },
   "gif_url": {
-    "message": "GIF URL"
+    "message": "URL фонового GIF"
   },
   "reset_to_default": {
     "message": "Сбросить"
@@ -6444,7 +6441,7 @@
     "message": "Кнопка % для покупки долей баланса"
   },
   "enable_custom_buy": {
-    "message": "Своя сумма"
+    "message": "Своя сумма покупки"
   },
   "enable_custom_buy_description": {
     "message": "Поле ввода суммы в панели"
@@ -8076,7 +8073,7 @@
     "message": "Понятно"
   },
   "turbo_tip_minimum_notice": {
-    "message": "Минимальный Tip: 0,00001 SOL"
+    "message": "Мин.: 0,00001 SOL"
   },
   "turbo_on_tooltip": {
     "message": "TURBO включён — используются более быстрые реле с защитой от MEV."
@@ -8999,6 +8996,9 @@
   "wallet_layout_groups": {
     "message": "Группы"
   },
+  "wallet_split_all_by_chain": {
+    "message": "Разбить все по сетям"
+  },
   "wallet_split_by_chain": {
     "message": "Разбить по сетям"
   },
@@ -9064,6 +9064,9 @@
   },
   "sell_initials_tooltip": {
     "message": "Продать вложенное"
+  },
+  "cashback_short": {
+    "message": "кэшбэк"
   },
   "button_shape": {
     "message": "Форма кнопок покупки/продажи"
