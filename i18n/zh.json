@@ -98,6 +98,13 @@
   "token_consolidate_partial_received": {
     "message": "合并部分完成（{completed}/{total}）。因到账金额差异，剩余转账已停止，请核对余额后再操作。"
   },
+  "gmgn_inline_setting": { "message": "GMGN 内嵌交易面板" },
+  "gmgn_inline_setting_tip": {
+    "message": "在 GMGN 交易 CTA 下方显示面板，钱包选择和实时持仓可独立向下展开。"
+  },
+  "gmgn_inline_wallets": { "message": "钱包选择" },
+  "gmgn_inline_positions": { "message": "实时持仓" },
+  "gmgn_inline_expand": { "message": "展开交易面板" },
   "gmgn_holdings_toggle": {
     "message": "使用 Frontrun 执行持仓交易"
   },
@@ -8847,34 +8854,34 @@
     "message": "买入失败"
   },
   "fomo_tracker_seconds_ago": {
-    "message": "{count}秒"
+    "message": "{count}s"
   },
   "fomo_tracker_minutes_ago": {
-    "message": "{count}分钟"
+    "message": "{count}m"
   },
   "fomo_tracker_hours_ago": {
-    "message": "{count}小时"
+    "message": "{count}h"
   },
   "fomo_tracker_days_ago": {
-    "message": "{count}天"
+    "message": "{count}d"
   },
   "fomo_tracker_token_age_seconds": {
-    "message": "{count}秒"
+    "message": "{count}s"
   },
   "fomo_tracker_token_age_minutes": {
-    "message": "{count}分"
+    "message": "{count}m"
   },
   "fomo_tracker_token_age_hours": {
-    "message": "{count}时"
+    "message": "{count}h"
   },
   "fomo_tracker_token_age_days": {
-    "message": "{count}天"
+    "message": "{count}d"
   },
   "fomo_tracker_token_age_months": {
-    "message": "{count}月"
+    "message": "{count}mo"
   },
   "fomo_tracker_token_age_years": {
-    "message": "{count}年"
+    "message": "{count}y"
   },
   "sell_live_balance_pill": {
     "message": "实时%"
@@ -9136,5 +9143,8 @@
   },
   "toast_position_updated": {
     "message": "通知将显示在这里"
+  },
+  "fomo_tracker_toggle_filters": {
+    "message": "展开或收起筛选和列头"
   }
 }

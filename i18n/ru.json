@@ -98,6 +98,13 @@
   "token_consolidate_partial_received": {
     "message": "Объединение выполнено частично ({completed}/{total}). Остальные переводы остановлены из-за разницы сумм. Проверьте балансы перед повтором."
   },
+  "gmgn_inline_setting": { "message": "Торговая панель в GMGN" },
+  "gmgn_inline_setting_tip": {
+    "message": "Панель под кнопкой сделки GMGN. Выбор кошельков и текущие позиции можно раскрыть отдельно под ней."
+  },
+  "gmgn_inline_wallets": { "message": "Выбор кошельков" },
+  "gmgn_inline_positions": { "message": "Текущие позиции" },
+  "gmgn_inline_expand": { "message": "Развернуть торговую панель" },
   "gmgn_holdings_toggle": {
     "message": "Использовать Frontrun для сделок с позициями"
   },
@@ -8847,34 +8854,34 @@
     "message": "Ошибка покупки"
   },
   "fomo_tracker_seconds_ago": {
-    "message": "{count} с"
+    "message": "{count}s"
   },
   "fomo_tracker_minutes_ago": {
-    "message": "{count} мин"
+    "message": "{count}m"
   },
   "fomo_tracker_hours_ago": {
-    "message": "{count} ч"
+    "message": "{count}h"
   },
   "fomo_tracker_days_ago": {
-    "message": "{count} дн"
+    "message": "{count}d"
   },
   "fomo_tracker_token_age_seconds": {
-    "message": "{count} с"
+    "message": "{count}s"
   },
   "fomo_tracker_token_age_minutes": {
-    "message": "{count} мин"
+    "message": "{count}m"
   },
   "fomo_tracker_token_age_hours": {
-    "message": "{count} ч"
+    "message": "{count}h"
   },
   "fomo_tracker_token_age_days": {
-    "message": "{count} дн"
+    "message": "{count}d"
   },
   "fomo_tracker_token_age_months": {
-    "message": "{count} мес"
+    "message": "{count}mo"
   },
   "fomo_tracker_token_age_years": {
-    "message": "{count} г"
+    "message": "{count}y"
   },
   "sell_live_balance_pill": {
     "message": "Жив. %"
@@ -9136,5 +9143,8 @@
   },
   "toast_position_updated": {
     "message": "Уведомления будут появляться здесь"
+  },
+  "fomo_tracker_toggle_filters": {
+    "message": "Показать или скрыть фильтры и заголовки"
   }
 }
