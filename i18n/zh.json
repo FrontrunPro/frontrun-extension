@@ -8718,6 +8718,12 @@
   "pair_info_not_loaded": {
     "message": "代币信息未加载，请刷新后重试。"
   },
+  "limit_orders_current_token": {
+    "message": "仅当前代币"
+  },
+  "limit_orders_select_token": {
+    "message": "打开代币页面以查看该代币的订单"
+  },
   "limit_orders_solana_only": {
     "message": "限价单仅支持 Solana。"
   },

@@ -8718,6 +8718,12 @@
   "pair_info_not_loaded": {
     "message": "Данные токена не загружены. Обновите и попробуйте снова."
   },
+  "limit_orders_current_token": {
+    "message": "Только этот токен"
+  },
+  "limit_orders_select_token": {
+    "message": "Откройте страницу токена для просмотра его ордеров"
+  },
   "limit_orders_solana_only": {
     "message": "Лимитные ордера доступны только в Solana."
   },
