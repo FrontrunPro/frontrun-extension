@@ -144,6 +144,9 @@
   "trade_mode_percentage": {
     "message": "процент"
   },
+  "trade_mode_both": {
+    "message": "сумма + %"
+  },
   "trade_mode_amount": {
     "message": "сумма"
   },
@@ -161,6 +164,9 @@
   },
   "switch_to_sell_percentage": {
     "message": "Продажа на %"
+  },
+  "switch_to_sell_both": {
+    "message": "Продажа: сумма + %"
   },
   "fomo_tracker_quick_buy_chain": {
     "message": "Сеть быстрой покупки: {chain}. Сменить сеть"
@@ -1142,123 +1148,6 @@
   },
   "fomo_profile_tracker_error": {
     "message": "Не удалось обновить Tracker"
-  },
-  "fomo_copy_trade_cta": {
-    "message": "Копитрейд"
-  },
-  "fomo_copy_trade_open": {
-    "message": "Открыть прототип копитрейдинга"
-  },
-  "fomo_copy_trade_title": {
-    "message": "Включить копитрейдинг"
-  },
-  "fomo_copy_trade_mock_data": {
-    "message": "Прототип · тестовые данные"
-  },
-  "fomo_copy_trade_wallet": {
-    "message": "Кошелёк исполнения"
-  },
-  "fomo_copy_trade_mock_wallet_name": {
-    "message": "Торговый кошелёк 1"
-  },
-  "fomo_copy_trade_ready": {
-    "message": "Готово"
-  },
-  "fomo_copy_trade_buy_strategy": {
-    "message": "Стратегия покупки"
-  },
-  "fomo_copy_trade_sell_strategy": {
-    "message": "Стратегия продажи"
-  },
-  "fomo_copy_trade_exact": {
-    "message": "Точная сумма"
-  },
-  "fomo_copy_trade_ratio": {
-    "message": "По доле"
-  },
-  "fomo_copy_trade_fixed": {
-    "message": "Фиксированная"
-  },
-  "fomo_copy_trade_exact_description": {
-    "message": "Повторять фактическую сумму покупки целевого кошелька. Лимиты сделки и позиции сохраняются."
-  },
-  "fomo_copy_trade_buy_amount": {
-    "message": "Сумма покупки"
-  },
-  "fomo_copy_trade_invalid_amount": {
-    "message": "Введите сумму больше 0."
-  },
-  "fomo_copy_trade_auto_sell": {
-    "message": "Автопродажа"
-  },
-  "fomo_copy_trade_no_sell": {
-    "message": "Не продавать"
-  },
-  "fomo_copy_trade_group_sell": {
-    "message": "Групповая продажа"
-  },
-  "fomo_copy_trade_tp_sl": {
-    "message": "Тейк-профит и стоп-лосс"
-  },
-  "fomo_copy_trade_tp_sl_description": {
-    "message": "По умолчанию тейк-профит +80% и стоп-лосс -35%."
-  },
-  "fomo_copy_trade_no_sell_description": {
-    "message": "Копировать только покупки. Все выходы выполняются вручную."
-  },
-  "fomo_copy_trade_advanced": {
-    "message": "Расширенные настройки"
-  },
-  "fomo_copy_trade_advanced_description": {
-    "message": "Фильтры сигналов, протоколы, риск и исполнение"
-  },
-  "fomo_copy_trade_first_buy": {
-    "message": "Только первая покупка"
-  },
-  "fomo_copy_trade_first_buy_description": {
-    "message": "Следовать только первой покупке токена целевым кошельком."
-  },
-  "fomo_copy_trade_token_limit": {
-    "message": "Лимит токена"
-  },
-  "fomo_copy_trade_token_limit_description": {
-    "message": "Не покупать токен повторно после первой успешной покупки этой задачей."
-  },
-  "fomo_copy_trade_skip_deploy": {
-    "message": "Пропуск деплоя"
-  },
-  "fomo_copy_trade_skip_deploy_description": {
-    "message": "Игнорировать самопокупку, если целевой адрес является деплоером токена."
-  },
-  "fomo_copy_trade_anti_rug": {
-    "message": "Проверка anti-rug"
-  },
-  "fomo_copy_trade_anti_rug_description": {
-    "message": "После срабатывания приостановить новые покупки для цели. Выходы остаются доступны."
-  },
-  "fomo_copy_trade_anti_rug_group_description": {
-    "message": "Срабатывание любого связанного адреса приостанавливает новые покупки группы. Выходы остаются доступны."
-  },
-  "fomo_copy_trade_protocols": {
-    "message": "Поддерживаемые протоколы"
-  },
-  "fomo_copy_trade_execution_note": {
-    "message": "Проскальзывание покупки 8% · продажи 12% · лимит комиссии 0.004 ETH"
-  },
-  "fomo_copy_trade_future_only": {
-    "message": "Обрабатываются только новые сделки после включения — без погони и истории."
-  },
-  "fomo_copy_trade_enable": {
-    "message": "Включить копитрейдинг"
-  },
-  "fomo_copy_trade_enabled": {
-    "message": "Копитрейдинг включён"
-  },
-  "fomo_copy_trade_enabled_description": {
-    "message": "Этот прототип меняет только локальное состояние интерфейса. Настройки и транзакции не отправляются."
-  },
-  "fomo_copy_trade_done": {
-    "message": "Готово"
   },
   "wallets_in_group": {
     "message": "Кошельки в группе"
@@ -7118,9 +7007,6 @@
   },
   "consolidate_split": {
     "message": "Объединить/Разделить"
-  },
-  "split_tooltip": {
-    "message": "Разделить между активными кошельками с отклонением 20%"
   },
   "token_transfer_fee_warning": {
     "message": "Этот токен взимает комиссию за перевод. Каждый перевод облагается отдельно, поэтому кошельки получат меньше запланированной суммы."

@@ -144,6 +144,9 @@
   "trade_mode_percentage": {
     "message": "百分比"
   },
+  "trade_mode_both": {
+    "message": "金额 + %"
+  },
   "trade_mode_amount": {
     "message": "金额"
   },
@@ -161,6 +164,9 @@
   },
   "switch_to_sell_percentage": {
     "message": "切换为按百分比卖出"
+  },
+  "switch_to_sell_both": {
+    "message": "切换为按金额+百分比卖出"
   },
   "fomo_tracker_quick_buy_chain": {
     "message": "快捷买入链：{chain}。切换链"
@@ -1100,123 +1106,6 @@
   },
   "fomo_profile_tracker_error": {
     "message": "Tracker 更新失败"
-  },
-  "fomo_copy_trade_cta": {
-    "message": "跟单"
-  },
-  "fomo_copy_trade_open": {
-    "message": "打开跟单原型"
-  },
-  "fomo_copy_trade_title": {
-    "message": "开启跟单"
-  },
-  "fomo_copy_trade_mock_data": {
-    "message": "原型 · 假数据"
-  },
-  "fomo_copy_trade_wallet": {
-    "message": "执行钱包"
-  },
-  "fomo_copy_trade_mock_wallet_name": {
-    "message": "交易钱包 1"
-  },
-  "fomo_copy_trade_ready": {
-    "message": "已就绪"
-  },
-  "fomo_copy_trade_buy_strategy": {
-    "message": "买入策略"
-  },
-  "fomo_copy_trade_sell_strategy": {
-    "message": "卖出策略"
-  },
-  "fomo_copy_trade_exact": {
-    "message": "精确金额"
-  },
-  "fomo_copy_trade_ratio": {
-    "message": "按比例"
-  },
-  "fomo_copy_trade_fixed": {
-    "message": "固定金额"
-  },
-  "fomo_copy_trade_exact_description": {
-    "message": "跟随目标钱包本次实际买入金额；单笔与整体仓位上限仍会生效。"
-  },
-  "fomo_copy_trade_buy_amount": {
-    "message": "买入金额"
-  },
-  "fomo_copy_trade_invalid_amount": {
-    "message": "请输入大于 0 的金额。"
-  },
-  "fomo_copy_trade_auto_sell": {
-    "message": "自动跟卖"
-  },
-  "fomo_copy_trade_no_sell": {
-    "message": "不跟卖"
-  },
-  "fomo_copy_trade_group_sell": {
-    "message": "集团跟卖"
-  },
-  "fomo_copy_trade_tp_sl": {
-    "message": "止盈与止损"
-  },
-  "fomo_copy_trade_tp_sl_description": {
-    "message": "默认止盈 +80%，止损 -35%。"
-  },
-  "fomo_copy_trade_no_sell_description": {
-    "message": "只复制买入；所有卖出由你手动处理。"
-  },
-  "fomo_copy_trade_advanced": {
-    "message": "高级设置"
-  },
-  "fomo_copy_trade_advanced_description": {
-    "message": "信号过滤、支持协议、风险与执行"
-  },
-  "fomo_copy_trade_first_buy": {
-    "message": "仅首购"
-  },
-  "fomo_copy_trade_first_buy_description": {
-    "message": "只跟随目标钱包对某个代币的第一次买入。"
-  },
-  "fomo_copy_trade_token_limit": {
-    "message": "代币限购"
-  },
-  "fomo_copy_trade_token_limit_description": {
-    "message": "本任务成功买过该代币后，不再重复买入。"
-  },
-  "fomo_copy_trade_skip_deploy": {
-    "message": "跳过部署"
-  },
-  "fomo_copy_trade_skip_deploy_description": {
-    "message": "目标是代币部署者时，忽略其自买信号。"
-  },
-  "fomo_copy_trade_anti_rug": {
-    "message": "防割检测"
-  },
-  "fomo_copy_trade_anti_rug_description": {
-    "message": "触发后暂停该目标的新买入；卖出与退出仍可用。"
-  },
-  "fomo_copy_trade_anti_rug_group_description": {
-    "message": "任一关联地址触发后，整组暂停新买入；卖出与退出仍可用。"
-  },
-  "fomo_copy_trade_protocols": {
-    "message": "支持的协议"
-  },
-  "fomo_copy_trade_execution_note": {
-    "message": "买入滑点 8% · 卖出滑点 12% · 单笔网络费上限 0.004 ETH"
-  },
-  "fomo_copy_trade_future_only": {
-    "message": "只处理开启后的新交易，不追单，也不补历史交易。"
-  },
-  "fomo_copy_trade_enable": {
-    "message": "开启跟单"
-  },
-  "fomo_copy_trade_enabled": {
-    "message": "跟单已开启"
-  },
-  "fomo_copy_trade_enabled_description": {
-    "message": "此原型只更新本地界面状态，不保存设置，也不会发送交易。"
-  },
-  "fomo_copy_trade_done": {
-    "message": "完成"
   },
   "wallets_in_group": {
     "message": "组内钱包"
@@ -7109,9 +6998,6 @@
   },
   "consolidate_split": {
     "message": "合并/拆分"
-  },
-  "split_tooltip": {
-    "message": "拆分给其他活跃钱包，20%随机偏差"
   },
   "token_transfer_fee_warning": {
     "message": "该代币包含转账税。每笔转账都会独立扣税，实际到账将低于计划金额。"
