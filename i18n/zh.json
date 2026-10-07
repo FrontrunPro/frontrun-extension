@@ -9038,5 +9038,17 @@
   },
   "fomo_tracker_toggle_filters": {
     "message": "展开或收起筛选和列头"
+  },
+  "fomo_tracker_sound_alert": {
+    "message": "FOMO 提示音"
+  },
+  "fomo_tracker_sound_effect": {
+    "message": "FOMO Tracker 提示音效"
+  },
+  "fomo_tracker_sound_turn_off": {
+    "message": "关闭新成交提示音"
+  },
+  "fomo_tracker_sound_turn_on": {
+    "message": "开启新成交提示音"
   }
 }

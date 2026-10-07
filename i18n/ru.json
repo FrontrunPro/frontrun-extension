@@ -9038,5 +9038,17 @@
   },
   "fomo_tracker_toggle_filters": {
     "message": "Показать или скрыть фильтры и заголовки"
+  },
+  "fomo_tracker_sound_alert": {
+    "message": "Оповещение FOMO"
+  },
+  "fomo_tracker_sound_effect": {
+    "message": "Звук оповещения FOMO Tracker"
+  },
+  "fomo_tracker_sound_turn_off": {
+    "message": "Выключить звук новых сделок"
+  },
+  "fomo_tracker_sound_turn_on": {
+    "message": "Включить звук новых сделок"
   }
 }
