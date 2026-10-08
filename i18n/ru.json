@@ -1,4 +1,30 @@
 {
+  "trending_tokens_since_call": { "message": "с момента поста" },
+  "trending_tokens_updated_ago": { "message": "Обновлено {time} назад" },
+  "trending_tokens_community_viewers": { "message": "Зрители сообщества" },
+  "trending_tokens_comparison_help": {
+    "message": "Уникальные аккаунты Frontrun за {window}. Изменение к предыдущему равному периоду; каждый период считается отдельно. Точность до минуты; — означает, что базы нет. Это не просмотры всего X."
+  },
+  "trending_tokens_limited": { "message": "Сбор ограничен ёмкостью" },
+  "trending_tokens_title": { "message": "Популярные токены" },
+  "trending_tokens_tabs": { "message": "Категории рейтинга" },
+  "trending_tokens_window": { "message": "Период просмотра" },
+  "trending_tokens_chain": { "message": "Сеть" },
+  "trending_tokens_all": { "message": "Все сети" },
+  "trending_tokens_unavailable": {
+    "message": "Временно недоступно. Показанный рейтинг сохраняет исходное время обновления."
+  },
+  "trending_tokens_unavailable_empty": {
+    "message": "Сейчас не удалось загрузить рейтинг."
+  },
+  "trending_tokens_updated": { "message": "Обновлено {time}" },
+  "trending_tokens_stale": { "message": "Обновление задерживается" },
+  "trending_tokens_accumulating": { "message": "Данные накапливаются" },
+  "trending_tokens_empty": {
+    "message": "Нет просмотров токенов за этот период"
+  },
+  "trending_tokens_copy": { "message": "Копировать CA {ca}" },
+  "trending_tokens_copy_failed": { "message": "Не удалось скопировать адрес" },
   "token_consolidate_skipped_gas": {
     "message": "Объединение выполнено частично: завершено переводов — {completed}; пропущено кошельков-источников из-за нехватки газа — {skipped}."
   },
@@ -2948,6 +2974,12 @@
   },
   "sol_balance_not_enough_for_gas": {
     "message": "Недостаточно SOL для комиссии и ренты (оплата в SOL даже при торговле USDC)"
+  },
+  "solana_transaction_sol_shortfall": {
+    "message": "Недостаточно SOL для комиссии или ренты счёта. Пополните баланс SOL."
+  },
+  "solana_confirmation_timeout": {
+    "message": "Пока не подтверждено. Перед повтором проверьте историю транзакций и SOL для комиссии."
   },
   "bnb_balance_not_enough": {
     "message": "Недостаточно BNB. Нужно {needed} BNB, есть {have} BNB"

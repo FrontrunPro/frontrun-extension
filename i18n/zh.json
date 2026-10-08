@@ -1,4 +1,28 @@
 {
+  "trending_tokens_since_call": { "message": "自发推起" },
+  "trending_tokens_updated_ago": { "message": "{time} 前更新" },
+  "trending_tokens_community_viewers": { "message": "社区观看人数" },
+  "trending_tokens_comparison_help": {
+    "message": "所选 {window} 窗口内不同 Frontrun 账号数。变化与前一个同长度窗口比较，两期分别去重。分钟快照精度；— 表示基准不可用。不是 X 全站浏览量。"
+  },
+  "trending_tokens_limited": { "message": "采集已受容量限制" },
+  "trending_tokens_title": { "message": "热门代币" },
+  "trending_tokens_tabs": { "message": "热门榜单分类" },
+  "trending_tokens_window": { "message": "观看时间窗口" },
+  "trending_tokens_chain": { "message": "链" },
+  "trending_tokens_all": { "message": "全部链" },
+  "trending_tokens_unavailable": {
+    "message": "暂时不可用。已显示榜单保留原更新时间。"
+  },
+  "trending_tokens_unavailable_empty": {
+    "message": "暂时无法读取榜单。"
+  },
+  "trending_tokens_updated": { "message": "更新于 {time}" },
+  "trending_tokens_stale": { "message": "更新延迟" },
+  "trending_tokens_accumulating": { "message": "数据积累中" },
+  "trending_tokens_empty": { "message": "此窗口暂无代币观看数据" },
+  "trending_tokens_copy": { "message": "复制 CA {ca}" },
+  "trending_tokens_copy_failed": { "message": "地址复制失败" },
   "token_consolidate_skipped_gas": {
     "message": "合并部分完成：已完成 {completed} 笔，{skipped} 个来源钱包因 gas 不足被跳过。"
   },
@@ -2891,6 +2915,12 @@
   },
   "sol_balance_not_enough_for_gas": {
     "message": "SOL 余额不足，无法支付手续费和租金（使用 USDC 交易时仍需 SOL 支付）"
+  },
+  "solana_transaction_sol_shortfall": {
+    "message": "SOL 不足以支付交易费用或账户租金，请补充 SOL。"
+  },
+  "solana_confirmation_timeout": {
+    "message": "交易暂未确认。重试前请检查交易记录和支付费用所需的 SOL 余额。"
   },
   "bnb_balance_not_enough": {
     "message": "BNB 余额不足，需要 {needed} BNB，当前 {have} BNB"
