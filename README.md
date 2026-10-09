@@ -3,7 +3,7 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/FrontrunPro/frontrun-extension)
 
 <p align="center">
-  <img src="icon128.plasmo.f86e3ae6.png" alt="Frontrun Logo" width="128" height="128">
+  <img src="assets/branding/logo.png" alt="Frontrun Logo" width="128" height="128">
 </p>
 
 <p align="center">
@@ -14,8 +14,7 @@
   <a href="https://www.frontrun.pro/">Website</a> •
   <a href="#features">Features</a> •
   <a href="#installation">Installation</a> •
-  <a href="#privacy--security">Privacy & Security</a> •
-  
+  <a href="#privacy--security">Privacy & Security</a>
 </p>
 
 ## Overview
@@ -72,6 +71,7 @@ Frontrun requires certain permissions to function properly. Here's why each perm
 | `webRequest` | Optimize performance when loading data |
 | `windows` | Manage the extension interface |
 | `identity` | Optional: Sync settings across devices (if enabled) |
+| `alarms` | Schedule background polling tasks and cache invalidation |
 
 ## Privacy & Security
 
@@ -100,7 +100,7 @@ According to o3's analysis, our extension **objectively carries LOWER technical 
 | **Dynamic code execution**             | `eval` / `new Function` **0** occurrences (checked in all bundles).                                                                                                | 1 `eval`, 1 `new Function` (Webpack’s module loader stub).                                                                                                                     | **Phantom** is marginally riskier (dynamic evaluation can be exploited if an attacker gains code-injection). |
 | **Secrets handled in the extension**   | Frontrun does not require user to import any private keys                                     | Phantom is a *full custody wallet*: it stores private keys (encrypted at rest) and continuously exposes signing APIs to every tab.                                             | **Phantom** carries higher consequences if compromised (direct key theft).                                   |
 | **Outbound telemetry / remote code**   | Sentry & Amplitude only (blocked by CSP); no remote script loads.                                                                                                  | Sentry & Segment; also queries feature-flag JSON from `https://cdn.segment.com`. Still no remote code execution.                                                               | Tie. Both phone home roughly the same.                                                                       |
-| **Bundle transparency**                | 60 MB minified bundle; source maps absent; code not yet open-sourced.                                                                                              | 21 MB minified; no source maps; code closed-source but has years of audit history.                                                                                             | Users may *trust audits* on Phantom more, but *technically* both are opaque.                                 |
+| **Bundle transparency**                | 60 MB minified bundle; source maps absent; code open-sourced in this repository.                                                   | 21 MB minified; no source maps; code closed-source but has years of audit history.                                                                                             | **Frontrun**: Code is open-sourced and auditable on GitHub, whereas Phantom remains closed-source.            |
 
 
 ## FAQ: Why do you only open source the Plasmo build?
