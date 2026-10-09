@@ -1,4 +1,16 @@
 {
+  "trade_button_cooldown": {
+    "message": "Пауза между сделками"
+  },
+  "trade_button_cooldown_desc": {
+    "message": "Блокировать повторные сделки по токену в одном направлении. Первый клик срабатывает сразу; покупка не блокирует продажу."
+  },
+  "trade_button_cooldown_off": {
+    "message": "Выкл."
+  },
+  "trade_button_cooldown_wait": {
+    "message": "Пауза между сделками. Подождите."
+  },
   "trending_tokens_since_call": { "message": "с момента поста" },
   "trending_tokens_updated_ago": { "message": "Обновлено {time} назад" },
   "trending_tokens_community_viewers": { "message": "Зрители сообщества" },

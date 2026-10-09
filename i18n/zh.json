@@ -1,4 +1,16 @@
 {
+  "trade_button_cooldown": {
+    "message": "买卖按钮冷却"
+  },
+  "trade_button_cooldown_desc": {
+    "message": "短暂拦住同一代币、同一方向的重复交易。第一下立即执行，买入不阻挡卖出。"
+  },
+  "trade_button_cooldown_off": {
+    "message": "关闭"
+  },
+  "trade_button_cooldown_wait": {
+    "message": "交易按钮冷却中，请稍候。"
+  },
   "trending_tokens_since_call": { "message": "自发推起" },
   "trending_tokens_updated_ago": { "message": "{time} 前更新" },
   "trending_tokens_community_viewers": { "message": "社区观看人数" },
