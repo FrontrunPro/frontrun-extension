@@ -4218,6 +4218,18 @@
   "turnkey_reauth_sign_out": {
     "message": "退出并更换账号"
   },
+  "turnkey_reauth_title": {
+    "message": "验证身份"
+  },
+  "turnkey_reauth_body": {
+    "message": "会话已过期。请验证以继续交易。"
+  },
+  "turnkey_reauth_continue_google": {
+    "message": "使用 Google 验证"
+  },
+  "turnkey_reauth_verify_as": {
+    "message": "验证账号"
+  },
   "turnkey_initializing": {
     "message": "正在初始化 Turnkey..."
   },

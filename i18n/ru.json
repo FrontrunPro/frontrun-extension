@@ -4226,6 +4226,18 @@
   "turnkey_reauth_sign_out": {
     "message": "Выйти и сменить аккаунт"
   },
+  "turnkey_reauth_title": {
+    "message": "Подтвердите, что это вы"
+  },
+  "turnkey_reauth_body": {
+    "message": "Сессия истекла. Подтвердите, чтобы продолжить торговлю."
+  },
+  "turnkey_reauth_continue_google": {
+    "message": "Войти через Google"
+  },
+  "turnkey_reauth_verify_as": {
+    "message": "Войти как"
+  },
   "turnkey_initializing": {
     "message": "Инициализация Turnkey..."
   },
