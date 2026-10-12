@@ -1,4 +1,23 @@
 {
+  "trading_network_request_failed": {
+    "message": "网络请求失败，请检查网络连接并确认交易状态。"
+  },
+  "fomo_tracker_filter_empty": {
+    "message": "没有符合筛选条件的交易。可放宽范围或重置。"
+  },
+  "fomo_tracker_filter_side": { "message": "成交方向" },
+  "fomo_tracker_filter_all": { "message": "全部" },
+  "fomo_tracker_filter_buy": { "message": "买入" },
+  "fomo_tracker_filter_sell": { "message": "卖出" },
+  "fomo_tracker_filter_reset": { "message": "重置" },
+  "fomo_tracker_filter_min_mc": { "message": "最低市值 (USD)" },
+  "fomo_tracker_filter_max_mc": { "message": "最高市值 (USD)" },
+  "fomo_tracker_filter_hint": {
+    "message": "输入完整数字，自动千位分隔；留空不限。"
+  },
+  "fomo_tracker_filter_invalid": {
+    "message": "最低市值须 ≤ 最高市值。修正前暂停市值筛选。"
+  },
   "trade_button_cooldown": {
     "message": "买卖按钮冷却"
   },
@@ -136,7 +155,7 @@
   },
   "gmgn_inline_setting": { "message": "GMGN 内嵌交易面板" },
   "gmgn_inline_setting_tip": {
-    "message": "在 GMGN 交易 CTA 下方显示面板，钱包选择和实时持仓可独立向下展开。"
+    "message": "将 Frontrun 交易面板固定在 GMGN 交易 CTA 下方。"
   },
   "gmgn_inline_wallets": { "message": "钱包选择" },
   "gmgn_inline_positions": { "message": "实时持仓" },

@@ -1,4 +1,23 @@
 {
+  "trading_network_request_failed": {
+    "message": "Ошибка сети. Проверьте соединение и статус транзакции."
+  },
+  "fomo_tracker_filter_empty": {
+    "message": "Нет сделок по фильтрам. Измените диапазон или сбросьте."
+  },
+  "fomo_tracker_filter_side": { "message": "Сторона сделки" },
+  "fomo_tracker_filter_all": { "message": "Все" },
+  "fomo_tracker_filter_buy": { "message": "Покупки" },
+  "fomo_tracker_filter_sell": { "message": "Продажи" },
+  "fomo_tracker_filter_reset": { "message": "Сброс" },
+  "fomo_tracker_filter_min_mc": { "message": "Мин. MC (USD)" },
+  "fomo_tracker_filter_max_mc": { "message": "Макс. MC (USD)" },
+  "fomo_tracker_filter_hint": {
+    "message": "Введите целое число. Запятые добавятся автоматически. Пусто — без лимита."
+  },
+  "fomo_tracker_filter_invalid": {
+    "message": "Мин. ≤ Макс. До исправления фильтр MC приостановлен."
+  },
   "trade_button_cooldown": {
     "message": "Пауза между сделками"
   },
@@ -138,7 +157,7 @@
   },
   "gmgn_inline_setting": { "message": "Торговая панель в GMGN" },
   "gmgn_inline_setting_tip": {
-    "message": "Панель под кнопкой сделки GMGN. Выбор кошельков и текущие позиции можно раскрыть отдельно под ней."
+    "message": "Показывать панель Frontrun под торговой кнопкой GMGN."
   },
   "gmgn_inline_wallets": { "message": "Выбор кошельков" },
   "gmgn_inline_positions": { "message": "Текущие позиции" },
