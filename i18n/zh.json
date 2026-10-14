@@ -1,22 +1,21 @@
 {
+  "trending_tokens_tweet_unavailable": {
+    "message": "原帖已删除或不可用 · 显示采集时内容"
+  },
   "trading_network_request_failed": {
     "message": "网络请求失败，请检查网络连接并确认交易状态。"
   },
   "fomo_tracker_filter_empty": {
     "message": "没有符合筛选条件的交易。可放宽范围或重置。"
   },
-  "fomo_tracker_filter_side": { "message": "成交方向" },
-  "fomo_tracker_filter_all": { "message": "全部" },
-  "fomo_tracker_filter_buy": { "message": "买入" },
-  "fomo_tracker_filter_sell": { "message": "卖出" },
-  "fomo_tracker_filter_reset": { "message": "重置" },
-  "fomo_tracker_filter_min_mc": { "message": "最低市值 (USD)" },
-  "fomo_tracker_filter_max_mc": { "message": "最高市值 (USD)" },
-  "fomo_tracker_filter_hint": {
-    "message": "输入完整数字，自动千位分隔；留空不限。"
+  "trending_tokens_view_tweet": {
+    "message": "查看推文"
   },
-  "fomo_tracker_filter_invalid": {
-    "message": "最低市值须 ≤ 最高市值。修正前暂停市值筛选。"
+  "trending_tokens_buy_setup": {
+    "message": "在上方快捷购买设置金额"
+  },
+  "trending_tokens_buy_not_ready": {
+    "message": "快捷买入尚未就绪。请检查该代币所属链、已激活钱包和交易设置。"
   },
   "trade_button_cooldown": {
     "message": "买卖按钮冷却"
@@ -30,30 +29,108 @@
   "trade_button_cooldown_wait": {
     "message": "交易按钮冷却中，请稍候。"
   },
-  "trending_tokens_since_call": { "message": "自发推起" },
-  "trending_tokens_updated_ago": { "message": "{time} 前更新" },
-  "trending_tokens_community_viewers": { "message": "社区观看人数" },
-  "trending_tokens_comparison_help": {
-    "message": "所选 {window} 窗口内不同 Frontrun 账号数。变化与前一个同长度窗口比较，两期分别去重。分钟快照精度；— 表示基准不可用。不是 X 全站浏览量。"
+  "trending_tokens_updated_ago": {
+    "message": "{time} 前更新"
   },
-  "trending_tokens_limited": { "message": "采集已受容量限制" },
-  "trending_tokens_title": { "message": "热门代币" },
-  "trending_tokens_tabs": { "message": "热门榜单分类" },
-  "trending_tokens_window": { "message": "观看时间窗口" },
-  "trending_tokens_chain": { "message": "链" },
-  "trending_tokens_all": { "message": "全部链" },
+  "trending_tokens_community_viewers": {
+    "message": "社区观看人数"
+  },
+  "trending_tokens_new_viewers": {
+    "message": "新增 {count}"
+  },
+  "trending_tokens_price_change_label": {
+    "message": "{window} 价格变化：{change}"
+  },
+  "trending_tokens_market_cap_change_label": {
+    "message": "{window} 市值涨跌：{change}"
+  },
+  "trending_tokens_growth_unavailable": {
+    "message": "暂无前期增长基准"
+  },
+  "trending_tokens_age": {
+    "message": "Age"
+  },
+  "trending_tokens_viewer_zero_baseline_label": {
+    "message": "{count} 位独立 Frontrun 浏览用户；无历史记录，按零基准显示变化：{change}"
+  },
+  "trending_tokens_viewer_growth_label": {
+    "message": "{count} 个不同 Frontrun 观看账号；较前一个同长度窗口的人数变化：{change}"
+  },
+  "trending_tokens_related_tweet_heading": {
+    "message": "相关热门推文"
+  },
+  "trending_tokens_open_mention": {
+    "message": "在 X 打开 {author} 的热门提及"
+  },
+  "trending_tokens_comparison_help": {
+    "message": "该代币的浏览人数"
+  },
+  "trending_tokens_limited": {
+    "message": "当前窗口样本不完整"
+  },
+  "trending_tokens_title": {
+    "message": "热门代币"
+  },
+  "trending_tokens_tabs": {
+    "message": "热门榜单分类"
+  },
+  "trending_tokens_window": {
+    "message": "观看时间窗口"
+  },
+  "trending_tokens_chain": {
+    "message": "链"
+  },
+  "trending_tokens_open_terminal": {
+    "message": "在 {terminal} 打开 {token}"
+  },
+  "trending_tokens_open_terminal_from_logo": {
+    "message": "从头像在 {terminal} 打开 {token}"
+  },
+  "trending_tokens_details": {
+    "message": "{token} 代币详情"
+  },
+  "trending_tokens_avatar": {
+    "message": "{token} 头像"
+  },
+  "trending_tokens_ranked": {
+    "message": "{token}，排名第 {rank}"
+  },
+  "trending_tokens_show_chain": {
+    "message": "显示 {chain}"
+  },
+  "trending_tokens_all": {
+    "message": "全部链"
+  },
+  "trending_tokens_checking_plan": {
+    "message": "正在确认套餐…"
+  },
+  "trending_tokens_plan_check_failed": {
+    "message": "暂时无法确认套餐。"
+  },
   "trending_tokens_unavailable": {
     "message": "暂时不可用。已显示榜单保留原更新时间。"
   },
   "trending_tokens_unavailable_empty": {
     "message": "暂时无法读取榜单。"
   },
-  "trending_tokens_updated": { "message": "更新于 {time}" },
-  "trending_tokens_stale": { "message": "更新延迟" },
-  "trending_tokens_accumulating": { "message": "数据积累中" },
-  "trending_tokens_empty": { "message": "此窗口暂无代币观看数据" },
-  "trending_tokens_copy": { "message": "复制 CA {ca}" },
-  "trending_tokens_copy_failed": { "message": "地址复制失败" },
+  "trending_tokens_updated": {
+    "message": "更新于 {time}"
+  },
+  "trending_tokens_stale": {
+    "message": "更新延迟"
+  },
+  "trending_tokens_accumulating": {
+    "message": "数据积累中"
+  },
+  "trending_tokens_empty": {
+    "message": "此窗口暂无代币观看数据"
+  },
+  "trending_tokens_copy": {
+    "message": "复制 CA {ca}"
+  },
+  "trending_tokens_copy_failed": {
+    "message": "地址复制失败"
+  },
   "token_consolidate_skipped_gas": {
     "message": "合并部分完成：已完成 {completed} 笔，{skipped} 个来源钱包因 gas 不足被跳过。"
   },
@@ -153,13 +230,21 @@
   "token_consolidate_partial_received": {
     "message": "合并部分完成（{completed}/{total}）。因到账金额差异，剩余转账已停止，请核对余额后再操作。"
   },
-  "gmgn_inline_setting": { "message": "GMGN 内嵌交易面板" },
+  "gmgn_inline_setting": {
+    "message": "GMGN 内嵌交易面板"
+  },
   "gmgn_inline_setting_tip": {
     "message": "将 Frontrun 交易面板固定在 GMGN 交易 CTA 下方。"
   },
-  "gmgn_inline_wallets": { "message": "钱包选择" },
-  "gmgn_inline_positions": { "message": "实时持仓" },
-  "gmgn_inline_expand": { "message": "展开交易面板" },
+  "gmgn_inline_wallets": {
+    "message": "钱包选择"
+  },
+  "gmgn_inline_positions": {
+    "message": "实时持仓"
+  },
+  "gmgn_inline_expand": {
+    "message": "展开交易面板"
+  },
   "gmgn_holdings_toggle": {
     "message": "使用 Frontrun 执行持仓交易"
   },
@@ -302,7 +387,7 @@
     "message": "升级为高级会员"
   },
   "premium_upgrade_cta_body": {
-    "message": "升级解锁更早的热门信号、标签导出、更高请求上限以及更多功能"
+    "message": "升级解锁更早的热门信号、标签导出、更高请求上限以及更多功能。"
   },
   "premium_features_title": {
     "message": "高级会员功能"
@@ -2305,24 +2390,6 @@
   "archive_wallet_disabled": {
     "message": "活跃钱包不能归档"
   },
-  "monitor_wallet": {
-    "message": "监控"
-  },
-  "unmonitor_wallet": {
-    "message": "取消监控"
-  },
-  "wallet_monitored": {
-    "message": "已添加到监控列表"
-  },
-  "wallet_unmonitored": {
-    "message": "已从监控列表移除"
-  },
-  "wallet_monitor_error": {
-    "message": "监控操作失败"
-  },
-  "wallet_monitor_limit_reached": {
-    "message": "监控上限：最多50个钱包"
-  },
   "holdings": {
     "message": "持仓"
   },
@@ -4236,18 +4303,6 @@
   },
   "turnkey_reauth_sign_out": {
     "message": "退出并更换账号"
-  },
-  "turnkey_reauth_title": {
-    "message": "验证身份"
-  },
-  "turnkey_reauth_body": {
-    "message": "会话已过期。请验证以继续交易。"
-  },
-  "turnkey_reauth_continue_google": {
-    "message": "使用 Google 验证"
-  },
-  "turnkey_reauth_verify_as": {
-    "message": "验证账号"
   },
   "turnkey_initializing": {
     "message": "正在初始化 Turnkey..."
@@ -7642,6 +7697,9 @@
   "ton_bridge_send_cta": {
     "message": "发送"
   },
+  "ton_bridge_wallet_conversion_busy": {
+    "message": "钱包正在兑换，本次请求未执行。"
+  },
   "ton_bridge_send_in_progress": {
     "message": "发送中…"
   },
@@ -8647,6 +8705,9 @@
   "ton_bridge_wsol_need_sol_for_fee": {
     "message": "添加少量 SOL 用于支付网络费。"
   },
+  "ton_bridge_wsol_account_unavailable": {
+    "message": "部分 wSOL 账户已冻结或需要其他关闭权限，无法兑换。"
+  },
   "ton_bridge_wsol_none": {
     "message": "此钱包没有可解包的 wSOL。"
   },
@@ -8748,6 +8809,21 @@
   },
   "fomo_tracker_column_amount": {
     "message": "金额"
+  },
+  "fomo_tracker_purchase_premium": {
+    "message": "购买 Premium"
+  },
+  "fomo_tracker_sync_upgrade_title": {
+    "message": "将你的关注同步到 Frontrun"
+  },
+  "fomo_tracker_sync_upgrade_description": {
+    "message": "同步你在 FOMO 关注的人，实时查看他们的钱包交易。你可以在 Frontrun 交易赚取抵扣 Premium 的积分，或直接购买套餐。"
+  },
+  "fomo_tracker_sync_upgrade_button": {
+    "message": "升级到 Premium"
+  },
+  "fomo_tracker_my_feed_premium_description": {
+    "message": "Premium 可解锁 My Feed、个人关注动态和 FOMO 关注同步。你可以在 Frontrun 交易赚取抵扣 Premium 的积分，或直接购买套餐。"
   },
   "fomo_tracker_featured": {
     "message": "精选"
@@ -9123,5 +9199,71 @@
   },
   "fomo_tracker_sound_turn_on": {
     "message": "开启新成交提示音"
+  },
+  "trending_tokens_sample": {
+    "message": "不同 Frontrun 观看账号数 · 社区样本"
+  },
+  "trending_tokens_viewers": {
+    "message": "{count} 人观看"
+  },
+  "trending_header": {
+    "message": "实时热门"
+  },
+  "trending_now_tab_tokens": {
+    "message": "代币"
+  },
+  "trending_tokens_buy_amount": {
+    "message": "快捷购买金额"
+  },
+  "trending_tokens_buy_chain": {
+    "message": "购买链"
+  },
+  "trending_tokens_buy_failed": {
+    "message": "购买未能完成"
+  },
+  "trending_tokens_quick_buy": {
+    "message": "快捷购买"
+  },
+  "trending_tokens_sampled_comparison": {
+    "message": "采集样本对比"
+  },
+  "fomo_tracker_filter_side": {
+    "message": "成交方向"
+  },
+  "fomo_tracker_filter_all": {
+    "message": "全部"
+  },
+  "fomo_tracker_filter_buy": {
+    "message": "买入"
+  },
+  "fomo_tracker_filter_sell": {
+    "message": "卖出"
+  },
+  "fomo_tracker_filter_reset": {
+    "message": "重置"
+  },
+  "fomo_tracker_filter_min_mc": {
+    "message": "最低市值 (USD)"
+  },
+  "fomo_tracker_filter_max_mc": {
+    "message": "最高市值 (USD)"
+  },
+  "fomo_tracker_filter_hint": {
+    "message": "输入完整数字，自动千位分隔；留空不限。"
+  },
+  "fomo_tracker_filter_invalid": {
+    "message": "最低市值须 ≤ 最高市值。修正前暂停市值筛选。"
+  },
+  "turnkey_reauth_title": {
+    "message": "验证身份"
+  },
+  "turnkey_reauth_body": {
+    "message": "会话已过期。请验证以继续交易。"
+  },
+  "turnkey_reauth_continue_google": {
+    "message": "使用 Google 验证"
+  },
+  "turnkey_reauth_verify_as": {
+    "message": "验证账号"
   }
 }

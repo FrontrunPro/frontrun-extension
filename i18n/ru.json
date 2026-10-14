@@ -1,22 +1,21 @@
 {
+  "trending_tokens_tweet_unavailable": {
+    "message": "Исходный пост удалён или недоступен · показан сохранённый текст"
+  },
   "trading_network_request_failed": {
     "message": "Ошибка сети. Проверьте соединение и статус транзакции."
   },
   "fomo_tracker_filter_empty": {
     "message": "Нет сделок по фильтрам. Измените диапазон или сбросьте."
   },
-  "fomo_tracker_filter_side": { "message": "Сторона сделки" },
-  "fomo_tracker_filter_all": { "message": "Все" },
-  "fomo_tracker_filter_buy": { "message": "Покупки" },
-  "fomo_tracker_filter_sell": { "message": "Продажи" },
-  "fomo_tracker_filter_reset": { "message": "Сброс" },
-  "fomo_tracker_filter_min_mc": { "message": "Мин. MC (USD)" },
-  "fomo_tracker_filter_max_mc": { "message": "Макс. MC (USD)" },
-  "fomo_tracker_filter_hint": {
-    "message": "Введите целое число. Запятые добавятся автоматически. Пусто — без лимита."
+  "trending_tokens_view_tweet": {
+    "message": "Открыть пост"
   },
-  "fomo_tracker_filter_invalid": {
-    "message": "Мин. ≤ Макс. До исправления фильтр MC приостановлен."
+  "trending_tokens_buy_setup": {
+    "message": "Укажите сумму в Quick Buy выше"
+  },
+  "trending_tokens_buy_not_ready": {
+    "message": "Быстрая покупка не готова. Проверьте сеть этого токена, активные кошельки и настройки торговли."
   },
   "trade_button_cooldown": {
     "message": "Пауза между сделками"
@@ -30,32 +29,108 @@
   "trade_button_cooldown_wait": {
     "message": "Пауза между сделками. Подождите."
   },
-  "trending_tokens_since_call": { "message": "с момента поста" },
-  "trending_tokens_updated_ago": { "message": "Обновлено {time} назад" },
-  "trending_tokens_community_viewers": { "message": "Зрители сообщества" },
-  "trending_tokens_comparison_help": {
-    "message": "Уникальные аккаунты Frontrun за {window}. Изменение к предыдущему равному периоду; каждый период считается отдельно. Точность до минуты; — означает, что базы нет. Это не просмотры всего X."
+  "trending_tokens_updated_ago": {
+    "message": "Обновлено {time} назад"
   },
-  "trending_tokens_limited": { "message": "Сбор ограничен ёмкостью" },
-  "trending_tokens_title": { "message": "Популярные токены" },
-  "trending_tokens_tabs": { "message": "Категории рейтинга" },
-  "trending_tokens_window": { "message": "Период просмотра" },
-  "trending_tokens_chain": { "message": "Сеть" },
-  "trending_tokens_all": { "message": "Все сети" },
+  "trending_tokens_community_viewers": {
+    "message": "Зрители сообщества"
+  },
+  "trending_tokens_new_viewers": {
+    "message": "Новые +{count}"
+  },
+  "trending_tokens_price_change_label": {
+    "message": "Изменение цены за {window}: {change}"
+  },
+  "trending_tokens_market_cap_change_label": {
+    "message": "Изменение капитализации за {window}: {change}"
+  },
+  "trending_tokens_growth_unavailable": {
+    "message": "Нет базы для сравнения роста"
+  },
+  "trending_tokens_age": {
+    "message": "Age"
+  },
+  "trending_tokens_viewer_zero_baseline_label": {
+    "message": "{count} уникальных зрителей Frontrun; нет истории, изменение от нуля: {change}"
+  },
+  "trending_tokens_viewer_growth_label": {
+    "message": "{count} уникальных зрителей Frontrun; изменение к предыдущему равному периоду: {change}"
+  },
+  "trending_tokens_related_tweet_heading": {
+    "message": "Самый популярный пост о"
+  },
+  "trending_tokens_open_mention": {
+    "message": "Открыть топ-упоминание {author} в X"
+  },
+  "trending_tokens_comparison_help": {
+    "message": "Просмотры этого токена"
+  },
+  "trending_tokens_limited": {
+    "message": "Неполная выборка за этот период"
+  },
+  "trending_tokens_title": {
+    "message": "Популярные токены"
+  },
+  "trending_tokens_tabs": {
+    "message": "Категории рейтинга"
+  },
+  "trending_tokens_window": {
+    "message": "Период просмотра"
+  },
+  "trending_tokens_chain": {
+    "message": "Сеть"
+  },
+  "trending_tokens_open_terminal": {
+    "message": "Открыть {token} в {terminal}"
+  },
+  "trending_tokens_open_terminal_from_logo": {
+    "message": "Открыть {token} в {terminal} через значок"
+  },
+  "trending_tokens_details": {
+    "message": "Данные токена {token}"
+  },
+  "trending_tokens_avatar": {
+    "message": "Значок {token}"
+  },
+  "trending_tokens_ranked": {
+    "message": "{token}, место {rank}"
+  },
+  "trending_tokens_show_chain": {
+    "message": "Показать {chain}"
+  },
+  "trending_tokens_all": {
+    "message": "Все сети"
+  },
+  "trending_tokens_checking_plan": {
+    "message": "Проверяем ваш тариф…"
+  },
+  "trending_tokens_plan_check_failed": {
+    "message": "Не удалось проверить ваш тариф."
+  },
   "trending_tokens_unavailable": {
     "message": "Временно недоступно. Показанный рейтинг сохраняет исходное время обновления."
   },
   "trending_tokens_unavailable_empty": {
     "message": "Сейчас не удалось загрузить рейтинг."
   },
-  "trending_tokens_updated": { "message": "Обновлено {time}" },
-  "trending_tokens_stale": { "message": "Обновление задерживается" },
-  "trending_tokens_accumulating": { "message": "Данные накапливаются" },
+  "trending_tokens_updated": {
+    "message": "Обновлено {time}"
+  },
+  "trending_tokens_stale": {
+    "message": "Обновление задерживается"
+  },
+  "trending_tokens_accumulating": {
+    "message": "Данные накапливаются"
+  },
   "trending_tokens_empty": {
     "message": "Нет просмотров токенов за этот период"
   },
-  "trending_tokens_copy": { "message": "Копировать CA {ca}" },
-  "trending_tokens_copy_failed": { "message": "Не удалось скопировать адрес" },
+  "trending_tokens_copy": {
+    "message": "Копировать CA {ca}"
+  },
+  "trending_tokens_copy_failed": {
+    "message": "Не удалось скопировать адрес"
+  },
   "token_consolidate_skipped_gas": {
     "message": "Объединение выполнено частично: завершено переводов — {completed}; пропущено кошельков-источников из-за нехватки газа — {skipped}."
   },
@@ -155,13 +230,21 @@
   "token_consolidate_partial_received": {
     "message": "Объединение выполнено частично ({completed}/{total}). Остальные переводы остановлены из-за разницы сумм. Проверьте балансы перед повтором."
   },
-  "gmgn_inline_setting": { "message": "Торговая панель в GMGN" },
+  "gmgn_inline_setting": {
+    "message": "Торговая панель в GMGN"
+  },
   "gmgn_inline_setting_tip": {
     "message": "Показывать панель Frontrun под торговой кнопкой GMGN."
   },
-  "gmgn_inline_wallets": { "message": "Выбор кошельков" },
-  "gmgn_inline_positions": { "message": "Текущие позиции" },
-  "gmgn_inline_expand": { "message": "Развернуть торговую панель" },
+  "gmgn_inline_wallets": {
+    "message": "Выбор кошельков"
+  },
+  "gmgn_inline_positions": {
+    "message": "Текущие позиции"
+  },
+  "gmgn_inline_expand": {
+    "message": "Развернуть торговую панель"
+  },
   "gmgn_holdings_toggle": {
     "message": "Использовать Frontrun для сделок с позициями"
   },
@@ -328,7 +411,7 @@
     "message": "Обновить план"
   },
   "premium_upgrade_cta_body": {
-    "message": "Перейдите на Premium: тренды раньше, экспорт меток, выше лимиты и не только"
+    "message": "Перейдите на Premium: тренды раньше, экспорт меток, выше лимиты и не только."
   },
   "premium_features_title": {
     "message": "Функции Premium"
@@ -2322,24 +2405,6 @@
   "archive_wallet_disabled": {
     "message": "Активный не архивируется"
   },
-  "monitor_wallet": {
-    "message": "Мониторинг"
-  },
-  "unmonitor_wallet": {
-    "message": "Снять"
-  },
-  "wallet_monitored": {
-    "message": "Кошелёк на мониторинге"
-  },
-  "wallet_unmonitored": {
-    "message": "Мониторинг снят"
-  },
-  "wallet_monitor_error": {
-    "message": "Ошибка мониторинга"
-  },
-  "wallet_monitor_limit_reached": {
-    "message": "Лимит: 50 кошельков"
-  },
   "holdings": {
     "message": "Активы"
   },
@@ -4244,18 +4309,6 @@
   },
   "turnkey_reauth_sign_out": {
     "message": "Выйти и сменить аккаунт"
-  },
-  "turnkey_reauth_title": {
-    "message": "Подтвердите, что это вы"
-  },
-  "turnkey_reauth_body": {
-    "message": "Сессия истекла. Подтвердите, чтобы продолжить торговлю."
-  },
-  "turnkey_reauth_continue_google": {
-    "message": "Войти через Google"
-  },
-  "turnkey_reauth_verify_as": {
-    "message": "Войти как"
   },
   "turnkey_initializing": {
     "message": "Инициализация Turnkey..."
@@ -7659,6 +7712,9 @@
   "ton_bridge_send_cta": {
     "message": "Отправить"
   },
+  "ton_bridge_wallet_conversion_busy": {
+    "message": "Обмен уже выполняется. Этот запрос не выполнен."
+  },
   "ton_bridge_send_in_progress": {
     "message": "Отправка…"
   },
@@ -7793,6 +7849,9 @@
   },
   "ton_bridge_wsol_need_sol_for_fee": {
     "message": "Добавьте немного SOL на комиссию сети."
+  },
+  "ton_bridge_wsol_account_unavailable": {
+    "message": "Часть счетов wSOL заморожена или требует другого владельца права закрытия."
   },
   "ton_bridge_need_gas": {
     "message": "Добавьте немного {symbol} на комиссию сети."
@@ -8751,6 +8810,21 @@
   "fomo_tracker_column_amount": {
     "message": "Сумма"
   },
+  "fomo_tracker_purchase_premium": {
+    "message": "Купить Premium"
+  },
+  "fomo_tracker_sync_upgrade_title": {
+    "message": "Синхронизируйте подписки с Frontrun"
+  },
+  "fomo_tracker_sync_upgrade_description": {
+    "message": "Синхронизируйте подписки FOMO и следите за сделками в реальном времени. Торгуйте на Frontrun и получайте кредиты для Premium или купите подписку."
+  },
+  "fomo_tracker_sync_upgrade_button": {
+    "message": "Перейти на Premium"
+  },
+  "fomo_tracker_my_feed_premium_description": {
+    "message": "Premium открывает My Feed, отслеживание и синхронизацию подписок FOMO. Торгуйте на Frontrun и получайте кредиты для Premium или купите подписку."
+  },
   "fomo_tracker_featured": {
     "message": "Избранное"
   },
@@ -9125,5 +9199,71 @@
   },
   "fomo_tracker_sound_turn_on": {
     "message": "Включить звук новых сделок"
+  },
+  "trending_tokens_sample": {
+    "message": "Уникальные зрители Frontrun · выборка сообщества"
+  },
+  "trending_tokens_viewers": {
+    "message": "{count} зрителей"
+  },
+  "trending_header": {
+    "message": "В тренде сейчас"
+  },
+  "trending_now_tab_tokens": {
+    "message": "Токены"
+  },
+  "trending_tokens_buy_amount": {
+    "message": "Сумма покупки"
+  },
+  "trending_tokens_buy_chain": {
+    "message": "Сеть покупки"
+  },
+  "trending_tokens_buy_failed": {
+    "message": "Не удалось купить"
+  },
+  "trending_tokens_quick_buy": {
+    "message": "Быстрая покупка"
+  },
+  "trending_tokens_sampled_comparison": {
+    "message": "Сравнение выборок"
+  },
+  "fomo_tracker_filter_side": {
+    "message": "Сторона сделки"
+  },
+  "fomo_tracker_filter_all": {
+    "message": "Все"
+  },
+  "fomo_tracker_filter_buy": {
+    "message": "Покупки"
+  },
+  "fomo_tracker_filter_sell": {
+    "message": "Продажи"
+  },
+  "fomo_tracker_filter_reset": {
+    "message": "Сброс"
+  },
+  "fomo_tracker_filter_min_mc": {
+    "message": "Мин. MC (USD)"
+  },
+  "fomo_tracker_filter_max_mc": {
+    "message": "Макс. MC (USD)"
+  },
+  "fomo_tracker_filter_hint": {
+    "message": "Введите целое число. Запятые добавятся автоматически. Пусто — без лимита."
+  },
+  "fomo_tracker_filter_invalid": {
+    "message": "Мин. ≤ Макс. До исправления фильтр MC приостановлен."
+  },
+  "turnkey_reauth_title": {
+    "message": "Подтвердите, что это вы"
+  },
+  "turnkey_reauth_body": {
+    "message": "Сессия истекла. Подтвердите, чтобы продолжить торговлю."
+  },
+  "turnkey_reauth_continue_google": {
+    "message": "Войти через Google"
+  },
+  "turnkey_reauth_verify_as": {
+    "message": "Войти как"
   }
 }
