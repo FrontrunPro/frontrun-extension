@@ -963,7 +963,7 @@
     "message": "Скрыть кнопку FOMO Tracker?"
   },
   "fomo_tracker_hide_confirmation_body": {
-    "message": "Кнопка исчезнет с торговых сайтов. Вернуть её можно в Premium Settings на сайте."
+    "message": "Кнопка исчезнет с торговых сайтов. Вернуть её можно вверху страницы FOMO Tracker на сайте."
   },
   "fomo_tracker_hide_confirmation_cancel": {
     "message": "Оставить кнопку"
@@ -8854,6 +8854,15 @@
   },
   "fomo_tracker_quick_buy_amount": {
     "message": "Сумма быстрой покупки FOMO Tracker в SOL"
+  },
+  "fomo_tracker_quick_buy_setup_title": {
+    "message": "Покупайте прямо из списка"
+  },
+  "fomo_tracker_quick_buy_setup_description": {
+    "message": "Задайте сумму и нажмите ⚡ рядом с токеном."
+  },
+  "fomo_tracker_quick_buy_setup_action": {
+    "message": "Сумма покупки"
   },
   "fomo_tracker_quick_buy_preset": {
     "message": "Пресет быстрой покупки"

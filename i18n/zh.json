@@ -936,7 +936,7 @@
     "message": "要隐藏 FOMO Tracker 悬浮球吗？"
   },
   "fomo_tracker_hide_confirmation_body": {
-    "message": "隐藏后，支持的交易网站将不再显示此悬浮球。你可以随时在网页端 Premium 设置中重新开启。"
+    "message": "隐藏后，支持的交易网站将不再显示此悬浮球。你可以随时在网页端 FOMO 监控页顶部重新开启。"
   },
   "fomo_tracker_hide_confirmation_cancel": {
     "message": "保留悬浮球"
@@ -8854,6 +8854,15 @@
   },
   "fomo_tracker_quick_buy_amount": {
     "message": "FOMO 追踪器快捷买入 SOL 数量"
+  },
+  "fomo_tracker_quick_buy_setup_title": {
+    "message": "在列表中直接买入"
+  },
+  "fomo_tracker_quick_buy_setup_description": {
+    "message": "设置金额后，点击代币旁的 ⚡ 即可快买"
+  },
+  "fomo_tracker_quick_buy_setup_action": {
+    "message": "设置快买金额"
   },
   "fomo_tracker_quick_buy_preset": {
     "message": "快捷买入预设"
