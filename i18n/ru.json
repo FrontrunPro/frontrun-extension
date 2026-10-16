@@ -3087,7 +3087,7 @@
     "message": "Недостаточно USDC"
   },
   "token_balance_not_enough": {
-    "message": "Недостаточно"
+    "message": "Недостаточно токенов"
   },
   "sell_amount_below_minimum": {
     "message": "Остаток слишком мал для продажи"
@@ -5339,6 +5339,21 @@
   "no_pool_found": {
     "message": "Пул не найден. Торговля недоступна."
   },
+  "robinhood_pool_economics_unavailable": {
+    "message": "Пулы не соответствуют требованиям ликвидности или котировки. Торговля недоступна."
+  },
+  "twitter_post_buy_unsupported": {
+    "message": "Пока не поддерживается"
+  },
+  "twitter_post_route_unknown": {
+    "message": "Наведите курсор или выберите кнопку для проверки"
+  },
+  "twitter_post_route_checking": {
+    "message": "Проверяем доступность…"
+  },
+  "twitter_post_route_retry": {
+    "message": "Проверка не удалась. Наведите курсор или выберите кнопку снова."
+  },
   "trading_route_unavailable": {
     "message": "Торговый маршрут временно недоступен. Попробуйте позже."
   },
@@ -6525,7 +6540,7 @@
     "message": "Сумма быстрой покупки"
   },
   "favorites_quick_buy_amount_desc": {
-    "message": "Сколько покупает ⚡ на избранном (SOL для Solana, BNB для BSC)"
+    "message": "Сумма покупки кнопкой ⚡ на избранном токене в текущей сети"
   },
   "favorite_limit_reached": {
     "message": "Не более {max} монет в избранном на сеть."
@@ -9274,5 +9289,11 @@
   },
   "turnkey_reauth_verify_as": {
     "message": "Войти как"
+  },
+  "twitter_post_open_trading_panel": {
+    "message": "Открыть торговую панель"
+  },
+  "twitter_post_quick_buy_settings": {
+    "message": "Настройки быстрой покупки"
   }
 }

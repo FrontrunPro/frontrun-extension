@@ -5333,6 +5333,21 @@
   "no_pool_found": {
     "message": "未找到有效池，无法交易。"
   },
+  "robinhood_pool_economics_unavailable": {
+    "message": "现有池的流动性或报价未达到交易要求，暂时无法交易。"
+  },
+  "twitter_post_buy_unsupported": {
+    "message": "暂不支持交易"
+  },
+  "twitter_post_route_unknown": {
+    "message": "悬停或聚焦以核验交易可用性"
+  },
+  "twitter_post_route_checking": {
+    "message": "正在核验交易可用性…"
+  },
+  "twitter_post_route_retry": {
+    "message": "暂时无法核验，请重新悬停或聚焦重试。"
+  },
   "trading_route_unavailable": {
     "message": "交易路由暂时不可用，请稍后重试。"
   },
@@ -6516,7 +6531,7 @@
     "message": "收藏快捷买入金额"
   },
   "favorites_quick_buy_amount_desc": {
-    "message": "收藏 chip 上 ⚡ 按钮每次买入的金额(Solana 用 SOL,BSC 用 BNB)"
+    "message": "收藏代币上 ⚡ 按钮每次买入的本链金额"
   },
   "favorite_limit_reached": {
     "message": "每条链最多收藏 {max} 个币种。"
@@ -9274,5 +9289,11 @@
   },
   "turnkey_reauth_verify_as": {
     "message": "验证账号"
+  },
+  "twitter_post_open_trading_panel": {
+    "message": "打开交易面板"
+  },
+  "twitter_post_quick_buy_settings": {
+    "message": "设置快买金额和预设"
   }
 }
