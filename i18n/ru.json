@@ -3263,6 +3263,12 @@
   "token_creator_label_axiom": {
     "message": "Метка DA"
   },
+  "token_funding_label_axiom": {
+    "message": "Метка FA"
+  },
+  "token_funding_label_axiom_full": {
+    "message": "Метка адреса финансирования"
+  },
   "profile": {
     "message": "Профиль"
   },

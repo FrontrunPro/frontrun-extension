@@ -3209,6 +3209,12 @@
   "token_creator_label_axiom": {
     "message": "DA标签"
   },
+  "token_funding_label_axiom": {
+    "message": "FA 标签"
+  },
+  "token_funding_label_axiom_full": {
+    "message": "资金来源地址标签"
+  },
   "profile": {
     "message": "改名"
   },
