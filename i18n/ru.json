@@ -1,4 +1,40 @@
 {
+  "x_registration_short": {
+    "message": "Проверить"
+  },
+  "x_registration_missing_identity": {
+    "message": "Не удалось определить X-аккаунт. Обновите страницу и повторите."
+  },
+  "x_registration_cooldown": {
+    "message": "Между запросами — 3 секунды."
+  },
+  "x_registration_query": {
+    "message": "Проверить"
+  },
+  "x_registration_loading": {
+    "message": "Проверка…"
+  },
+  "x_registration_registered": {
+    "message": "Зарегистрирован"
+  },
+  "x_registration_unknown": {
+    "message": "Неизвестно"
+  },
+  "x_registration_login": {
+    "message": "Войдите"
+  },
+  "x_registration_forbidden": {
+    "message": "Нет доступа"
+  },
+  "x_registration_refresh": {
+    "message": "Обновить статус"
+  },
+  "x_registration_checked": {
+    "message": "Обновить статус · проверено в {time}"
+  },
+  "x_registration_failed": {
+    "message": "Не удалось проверить. Нажмите ещё раз."
+  },
   "trending_tokens_tweet_unavailable": {
     "message": "Исходный пост удалён или недоступен · показан сохранённый текст"
   },
@@ -3504,7 +3540,7 @@
     "message": "Ориентировочная стоимость газа транзакции: {fee}"
   },
   "robinhood_trench_sell_tip_unavailable": {
-    "message": "Tip недоступен для продаж Trench"
+    "message": "Tip недоступен для этого маршрута"
   },
   "tip_below_recommended_may_slow": {
     "message": "Ниже рекомендуемой комиссии ({fee}).\nВыполнение может задержаться."
@@ -4564,6 +4600,9 @@
   },
   "autotrade_preset_duplicate_strategy": {
     "message": "Уже сохранён как «{name}»"
+  },
+  "autotrade_preset_robinhood_buy_limit": {
+    "message": "Покупка после продажи Dev в Robinhood — не более {max} ETH."
   },
   "autotrade_preset_invalid_tiers": {
     "message": "Заполните выделенные ордера"
@@ -9301,5 +9340,47 @@
   },
   "twitter_post_quick_buy_settings": {
     "message": "Настройки быстрой покупки"
+  },
+  "twitter_post_enable_quick_buy": {
+    "message": "Включить Quick Buy"
+  },
+  "twitter_post_guide_title": {
+    "message": "Торгуйте прямо в X"
+  },
+  "twitter_post_guide_help": {
+    "message": "Справка Quick Buy"
+  },
+  "twitter_post_guide_enable": {
+    "message": "Включите Quick Buy для этой сети, включая другие её кнопки Quick Buy."
+  },
+  "twitter_post_guide_amount": {
+    "message": "Настройте сумму и P1–P3 кнопкой настроек. Начальная сумма 0, отдельно от Trending. Настройка не покупает; покупка — кнопкой суммы, когда она готова."
+  },
+  "twitter_post_guide_panel": {
+    "message": "Значок окна открывает панель токена: покупка, продажа и кошельки."
+  },
+  "twitter_post_guide_setup": {
+    "message": "Задать сумму"
+  },
+  "twitter_post_guide_dismiss": {
+    "message": "Понятно"
+  },
+  "twitter_post_asset_identify": {
+    "message": "Наведите указатель или установите фокус, чтобы определить токен для торговли."
+  },
+  "twitter_post_cashtag_hint": {
+    "message": "Наведите курсор на ${ticker} в этом посте, чтобы определить токен. Quick Buy станет доступен после подтверждения сети и адреса контракта."
+  },
+  "twitter_post_asset_loading": {
+    "message": "Определяем токен…"
+  },
+  "twitter_post_asset_retry": {
+    "message": "Не удалось определить токен. Наведите указатель или установите фокус для повтора."
+  },
+  "twitter_post_asset_unavailable": {
+    "message": "Сервис определения токена пока недоступен."
+  },
+  "twitter_post_asset_label": {
+    "message": "Определить {ticker} для торговли"
   }
 }

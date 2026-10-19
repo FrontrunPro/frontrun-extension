@@ -1,4 +1,40 @@
 {
+  "x_registration_short": {
+    "message": "查注册"
+  },
+  "x_registration_missing_identity": {
+    "message": "未能识别此 X 账号，请刷新主页后重试。"
+  },
+  "x_registration_cooldown": {
+    "message": "查询间隔为 3 秒，请稍后重试。"
+  },
+  "x_registration_query": {
+    "message": "查询注册状态"
+  },
+  "x_registration_loading": {
+    "message": "查询中…"
+  },
+  "x_registration_registered": {
+    "message": "已注册"
+  },
+  "x_registration_unknown": {
+    "message": "未知"
+  },
+  "x_registration_login": {
+    "message": "请先登录"
+  },
+  "x_registration_forbidden": {
+    "message": "无权限"
+  },
+  "x_registration_refresh": {
+    "message": "重新查询注册状态"
+  },
+  "x_registration_checked": {
+    "message": "重新查询注册状态 · 查询于 {time}"
+  },
+  "x_registration_failed": {
+    "message": "无法确认注册状态，点击重试。"
+  },
   "trending_tokens_tweet_unavailable": {
     "message": "原帖已删除或不可用 · 显示采集时内容"
   },
@@ -3510,7 +3546,7 @@
     "message": "预计交易 Gas 费用：{fee}"
   },
   "robinhood_trench_sell_tip_unavailable": {
-    "message": "Trench 卖出不支持 Tip"
+    "message": "当前交易路径不支持 Tip"
   },
   "tip_below_recommended_may_slow": {
     "message": "费用低于推荐值 ({fee})\n执行可能延迟"
@@ -4555,6 +4591,9 @@
   },
   "autotrade_preset_duplicate_strategy": {
     "message": "已保存为「{name}」"
+  },
+  "autotrade_preset_robinhood_buy_limit": {
+    "message": "Robinhood Dev 卖出后买入金额不能超过 {max} ETH。"
   },
   "autotrade_preset_invalid_tiers": {
     "message": "请先补全标红的订单"
@@ -9301,5 +9340,47 @@
   },
   "twitter_post_quick_buy_settings": {
     "message": "设置快买金额和预设"
+  },
+  "twitter_post_enable_quick_buy": {
+    "message": "启用 Quick Buy"
+  },
+  "twitter_post_guide_title": {
+    "message": "直接在 X 交易这个代币"
+  },
+  "twitter_post_guide_help": {
+    "message": "Quick Buy 使用说明"
+  },
+  "twitter_post_guide_enable": {
+    "message": "先启用这条链的 Quick Buy；该链其他区域的 Quick Buy 也会启用。"
+  },
+  "twitter_post_guide_amount": {
+    "message": "点调节图标设置推文专用金额和 P1–P3 预设，默认 0，与 Trending 独立。设置不会买入；就绪后点击金额按钮才会买入。"
+  },
+  "twitter_post_guide_panel": {
+    "message": "旁边的窗口图标打开这个代币的完整交易面板，可买入、卖出和管理钱包。"
+  },
+  "twitter_post_guide_setup": {
+    "message": "设置金额"
+  },
+  "twitter_post_guide_dismiss": {
+    "message": "知道了"
+  },
+  "twitter_post_asset_identify": {
+    "message": "悬停或聚焦以识别代币并使用交易功能。"
+  },
+  "twitter_post_cashtag_hint": {
+    "message": "悬停此推文中的 ${ticker} 以识别代币；确认准确链和合约地址后才能使用 Quick Buy。"
+  },
+  "twitter_post_asset_loading": {
+    "message": "正在识别代币…"
+  },
+  "twitter_post_asset_retry": {
+    "message": "暂时无法识别代币，悬停或聚焦可重试。"
+  },
+  "twitter_post_asset_unavailable": {
+    "message": "代币识别服务暂不可用。"
+  },
+  "twitter_post_asset_label": {
+    "message": "识别 {ticker} 以使用交易功能"
   }
 }
