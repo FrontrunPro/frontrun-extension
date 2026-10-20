@@ -1,4 +1,13 @@
 {
+  "disable_autotrade_on_token_change": {
+    "message": "切币时关闭止盈止损"
+  },
+  "disable_autotrade_on_token_change_desc": {
+    "message": "打开或切换代币后，需手动开启自动策略，返回之前的代币也一样。同链页面共享开关；策略参数和已有订单不变。"
+  },
+  "new_feature_badge": {
+    "message": "New"
+  },
   "x_registration_short": {
     "message": "查注册"
   },
@@ -15,10 +24,10 @@
     "message": "查询中…"
   },
   "x_registration_registered": {
-    "message": "已注册"
+    "message": "已注册 Frontrun"
   },
   "x_registration_unknown": {
-    "message": "未知"
+    "message": "注册状态未知"
   },
   "x_registration_login": {
     "message": "请先登录"
@@ -266,6 +275,12 @@
   "token_consolidate_partial_received": {
     "message": "合并部分完成（{completed}/{total}）。因到账金额差异，剩余转账已停止，请核对余额后再操作。"
   },
+  "average_price_lines_setting": {
+    "message": "买卖均价参考线"
+  },
+  "average_price_lines_setting_desc": {
+    "message": "在 Axiom 和 GMGN 图表上显示历史累计买卖均价，清仓后仍保留。"
+  },
   "gmgn_inline_setting": {
     "message": "GMGN 内嵌交易面板"
   },
@@ -397,6 +412,12 @@
   },
   "avg_buying_mc_short": {
     "message": "买入市值"
+  },
+  "position_average_buy": {
+    "message": "平均买入价"
+  },
+  "position_average_sell": {
+    "message": "平均卖出价"
   },
   "appearance": {
     "message": "主题"
@@ -6585,7 +6606,7 @@
     "message": "显示图表订单线"
   },
   "show_chart_order_lines_desc": {
-    "message": "在图表上显示限价单和自动交易线"
+    "message": "在图表上显示限价单和自动交易订单线"
   },
   "edge_node": {
     "message": "边缘节点加速"
@@ -8813,6 +8834,9 @@
   "position_data_not_loaded": {
     "message": "持仓数据未加载，请刷新后重试。"
   },
+  "limit_order_target_unavailable": {
+    "message": "无法读取目标百分比，请调整限价目标后重试。"
+  },
   "invalid_market_cap": {
     "message": "请输入有效市值。"
   },
@@ -9382,5 +9406,53 @@
   },
   "twitter_post_asset_label": {
     "message": "识别 {ticker} 以使用交易功能"
+  },
+  "open_in_dexscreener": {
+    "message": "在 DexScreener 中打开"
+  },
+  "token_link_icons": {
+    "message": "代币快捷链接"
+  },
+  "token_link_icons_desc": {
+    "message": "选择代币操作栏中显示的平台入口。设置对所有链生效，仅显示支持当前代币的链接。"
+  },
+  "x_registration_more_details": {
+    "message": "更多详情"
+  },
+  "x_registration_volume_scope": {
+    "message": "交易额仅统计 SOL、BSC 和 Robinhood。"
+  },
+  "x_registration_details_unavailable": {
+    "message": "详情暂不可用，请刷新重试。"
+  },
+  "x_registration_user_id": {
+    "message": "用户 ID"
+  },
+  "x_registration_volume_30d": {
+    "message": "30 天交易额（USD）"
+  },
+  "x_registration_volume_7d": {
+    "message": "7 天交易额（USD）"
+  },
+  "x_registration_plan": {
+    "message": "会员等级"
+  },
+  "x_registration_group": {
+    "message": "TG VIP 群"
+  },
+  "x_registration_group_yes": {
+    "message": "有群记录"
+  },
+  "x_registration_group_no": {
+    "message": "无群记录"
+  },
+  "x_registration_group_note": {
+    "message": "根据群邀请链接记录判断，不代表已实际入群。"
+  },
+  "x_registration_group_open": {
+    "message": "打开群邀请"
+  },
+  "x_registration_group_link_unavailable": {
+    "message": "群邀请链接不可用。"
   }
 }

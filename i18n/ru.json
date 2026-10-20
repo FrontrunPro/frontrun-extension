@@ -1,4 +1,13 @@
 {
+  "disable_autotrade_on_token_change": {
+    "message": "Сброс TP/SL при смене токена"
+  },
+  "disable_autotrade_on_token_change_desc": {
+    "message": "При открытии или смене токена включайте Auto вручную, даже при возврате к прежнему токену. Переключатель общий для вкладок одной сети. Настройки стратегии и созданные ордера сохраняются."
+  },
+  "new_feature_badge": {
+    "message": "Новое"
+  },
   "x_registration_short": {
     "message": "Проверить"
   },
@@ -15,10 +24,10 @@
     "message": "Проверка…"
   },
   "x_registration_registered": {
-    "message": "Зарегистрирован"
+    "message": "Зарегистрирован во Frontrun"
   },
   "x_registration_unknown": {
-    "message": "Неизвестно"
+    "message": "Статус регистрации неизвестен"
   },
   "x_registration_login": {
     "message": "Войдите"
@@ -265,6 +274,12 @@
   },
   "token_consolidate_partial_received": {
     "message": "Объединение выполнено частично ({completed}/{total}). Остальные переводы остановлены из-за разницы сумм. Проверьте балансы перед повтором."
+  },
+  "average_price_lines_setting": {
+    "message": "Линии средней цены покупки и продажи"
+  },
+  "average_price_lines_setting_desc": {
+    "message": "Средние цены всех покупок и продаж на графиках Axiom и GMGN, включая закрытые позиции."
   },
   "gmgn_inline_setting": {
     "message": "Торговая панель в GMGN"
@@ -1078,6 +1093,12 @@
   },
   "avg_buying_mc_short": {
     "message": "AMC"
+  },
+  "position_average_buy": {
+    "message": "Средняя цена покупки"
+  },
+  "position_average_sell": {
+    "message": "Средняя цена продажи"
   },
   "jito_bundle": {
     "message": "Пакет Jito"
@@ -6591,10 +6612,10 @@
     "message": "Не более {max} монет в избранном на сеть."
   },
   "show_chart_order_lines": {
-    "message": "Линии ордеров на графике"
+    "message": "Показывать линии ордеров на графике"
   },
   "show_chart_order_lines_desc": {
-    "message": "Показывать на графике линии ордеров и автоторговли"
+    "message": "Показывать линии лимитных ордеров и автоторговли на графике"
   },
   "edge_node": {
     "message": "Ускорение Edge-узлом"
@@ -8813,6 +8834,9 @@
   "position_data_not_loaded": {
     "message": "Данные позиции не загружены. Обновите и попробуйте снова."
   },
+  "limit_order_target_unavailable": {
+    "message": "Не удалось прочитать целевой процент. Измените целевое значение лимитного ордера и повторите попытку."
+  },
   "invalid_market_cap": {
     "message": "Введите корректную капитализацию."
   },
@@ -9382,5 +9406,53 @@
   },
   "twitter_post_asset_label": {
     "message": "Определить {ticker} для торговли"
+  },
+  "open_in_dexscreener": {
+    "message": "Открыть в DexScreener"
+  },
+  "token_link_icons": {
+    "message": "Быстрые ссылки токена"
+  },
+  "token_link_icons_desc": {
+    "message": "Выберите ссылки на платформы в меню действий токена. Настройка действует во всех сетях; отображаются только ссылки, поддерживающие текущий токен."
+  },
+  "x_registration_more_details": {
+    "message": "Подробнее"
+  },
+  "x_registration_volume_scope": {
+    "message": "Объём только SOL, BSC и Robinhood."
+  },
+  "x_registration_details_unavailable": {
+    "message": "Данные недоступны. Обновите."
+  },
+  "x_registration_user_id": {
+    "message": "ID пользователя"
+  },
+  "x_registration_volume_30d": {
+    "message": "Объём 30д (USD)"
+  },
+  "x_registration_volume_7d": {
+    "message": "Объём 7д (USD)"
+  },
+  "x_registration_plan": {
+    "message": "Тариф"
+  },
+  "x_registration_group": {
+    "message": "TG VIP-группа"
+  },
+  "x_registration_group_yes": {
+    "message": "Группа записана"
+  },
+  "x_registration_group_no": {
+    "message": "Нет записи"
+  },
+  "x_registration_group_note": {
+    "message": "По записи ссылки-приглашения; участие не подтверждено."
+  },
+  "x_registration_group_open": {
+    "message": "Открыть приглашение"
+  },
+  "x_registration_group_link_unavailable": {
+    "message": "Приглашение недоступно."
   }
 }
