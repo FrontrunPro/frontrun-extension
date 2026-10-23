@@ -1,13 +1,4 @@
 {
-  "disable_autotrade_on_token_change": {
-    "message": "切币时关闭止盈止损"
-  },
-  "disable_autotrade_on_token_change_desc": {
-    "message": "打开或切换代币后，需手动开启自动策略，返回之前的代币也一样。同链页面共享开关；策略参数和已有订单不变。"
-  },
-  "new_feature_badge": {
-    "message": "New"
-  },
   "x_registration_short": {
     "message": "查注册"
   },
@@ -275,12 +266,6 @@
   "token_consolidate_partial_received": {
     "message": "合并部分完成（{completed}/{total}）。因到账金额差异，剩余转账已停止，请核对余额后再操作。"
   },
-  "average_price_lines_setting": {
-    "message": "买卖均价参考线"
-  },
-  "average_price_lines_setting_desc": {
-    "message": "在 Axiom 和 GMGN 图表上显示历史累计买卖均价，清仓后仍保留。"
-  },
   "gmgn_inline_setting": {
     "message": "GMGN 内嵌交易面板"
   },
@@ -412,12 +397,6 @@
   },
   "avg_buying_mc_short": {
     "message": "买入市值"
-  },
-  "position_average_buy": {
-    "message": "平均买入价"
-  },
-  "position_average_sell": {
-    "message": "平均卖出价"
   },
   "appearance": {
     "message": "主题"
@@ -1418,6 +1397,39 @@
   "successfully_added_wallets_to_group": {
     "message": "成功添加钱包到分组！"
   },
+  "wallet_group_import_network_error": {
+    "message": "网络错误，请检查网络连接后重试。"
+  },
+  "wallet_group_import_auth_error": {
+    "message": "登录已失效，请重新登录。"
+  },
+  "wallet_group_import_permission_error": {
+    "message": "你没有修改此分组的权限。"
+  },
+  "wallet_group_import_not_found": {
+    "message": "找不到此钱包分组，请刷新分组列表。"
+  },
+  "wallet_group_import_rate_limited": {
+    "message": "请求过于频繁，请稍后重试。"
+  },
+  "wallet_group_import_server_error": {
+    "message": "服务暂时不可用，请稍后重试。"
+  },
+  "wallet_group_import_capacity_error": {
+    "message": "每个分组最多包含 1000 个钱包，请减少地址或选择其他分组。"
+  },
+  "wallet_group_import_invalid_input": {
+    "message": "无法导入这些地址，请检查输入后重试。"
+  },
+  "wallet_group_import_connection_error": {
+    "message": "插件连接已断开，请重新加载插件后重试。"
+  },
+  "wallet_group_import_label_limit": {
+    "message": "账号已达到 20000 个标签上限，请清理不需要的标签后重试。"
+  },
+  "wallet_group_import_partial_failed": {
+    "message": "已确认处理 {processed}/{total} 个地址。未确认的地址已保留在输入框中，可重试。{reason}"
+  },
   "could_not_resolve_chain_fallback_evm": {
     "message": "无法识别 {count} 个钱包的链种类，已默认用EVM"
   },
@@ -1508,9 +1520,6 @@
   "create": {
     "message": "创建"
   },
-  "earn": {
-    "message": "赚取"
-  },
   "claim": {
     "message": "领取"
   },
@@ -1568,77 +1577,20 @@
   "total_claimed": {
     "message": "总计领取"
   },
-  "jupiter_earn": {
-    "message": "Jupiter 赚取"
-  },
-  "jupiter_earn_description": {
-    "message": "将您的 SOL 和 USDC 存入 Jupiter Lend 以赚取收益。"
-  },
-  "jupiter_earn_info_1": {
-    "message": "将为所有活跃钱包处理存款"
-  },
-  "jupiter_earn_info_2": {
-    "message": "预计 Gas 费用 $0.00063"
-  },
-  "jupiter_earn_info_3": {
-    "message": "您可以随时从 Jupiter 提取"
-  },
   "earned": {
     "message": "已赚取"
-  },
-  "total_earnings": {
-    "message": "总收益"
-  },
-  "jupiter_withdraw_description": {
-    "message": "将您的 SOL 和 USDC 从 Jupiter Lend 提取回您的钱包。"
-  },
-  "no_balance_to_deposit": {
-    "message": "没有可存入的余额"
   },
   "available": {
     "message": "可用"
   },
-  "amount_exceeds_balance": {
-    "message": "金额超过可用余额"
-  },
   "deposit_all": {
     "message": "全部存入"
-  },
-  "processing_deposits": {
-    "message": "正在处理存款..."
-  },
-  "deposits_completed": {
-    "message": "笔存款已成功完成"
-  },
-  "processing_withdrawals": {
-    "message": "正在处理提款..."
-  },
-  "withdrawals_completed": {
-    "message": "笔提款已成功完成"
   },
   "withdraw_all": {
     "message": "全部提款"
   },
   "depositing": {
     "message": "存入中..."
-  },
-  "all_deposits_failed": {
-    "message": "所有存款失败"
-  },
-  "deposit_failed": {
-    "message": "存款失败"
-  },
-  "withdraw_failed": {
-    "message": "提款失败"
-  },
-  "all_withdrawals_failed": {
-    "message": "所有提款失败"
-  },
-  "no_position_to_withdraw": {
-    "message": "没有可提款的仓位"
-  },
-  "withdrawing": {
-    "message": "提款中"
   },
   "loading_positions": {
     "message": "加载仓位中..."
@@ -1846,6 +1798,12 @@
   },
   "wallet_tracker_quick_buy": {
     "message": "钱包追踪内快速买入"
+  },
+  "gmgn_wallet_tracker_quick_buy": {
+    "message": "GMGN 钱包追踪内快速买入"
+  },
+  "gmgn_wallet_tracker_quick_buy_description": {
+    "message": "在 GMGN 钱包追踪的追踪与监控中启用 Frontrun 快速买入，适用于所有支持的链，不影响 Axiom。"
   },
   "wallet_tracker_quick_buy_description": {
     "message": "在 Axiom 钱包追踪的 Monitor 和 Trades 中启用 Frontrun 快速买入。Transfers 使用 Axiom 原生快速买入。"
@@ -3833,6 +3791,27 @@
   "plan_renewal_address_copied": {
     "message": "地址已复制"
   },
+  "enable_auto_renew_method": {
+    "message": "续费方式"
+  },
+  "enable_auto_renew_wallet": {
+    "message": "加密钱包"
+  },
+  "enable_auto_renew_card": {
+    "message": "信用卡"
+  },
+  "enable_auto_renew_card_note": {
+    "message": "在浏览器中管理信用卡续费，打开页面不会扣款。"
+  },
+  "enable_auto_renew_card_account_note": {
+    "message": "请在浏览器中登录同一个 Frontrun 账号。在订阅页面绑定信用卡、切换续费方式或管理取消订阅。"
+  },
+  "enable_auto_renew_card_continue": {
+    "message": "在浏览器中继续"
+  },
+  "enable_auto_renew_card_open_error": {
+    "message": "无法打开浏览器，请重试。"
+  },
   "enable_auto_renew_title": {
     "message": "开启自动续订"
   },
@@ -4264,6 +4243,9 @@
   },
   "limit_order_price_not_available": {
     "message": "代币价格尚未加载，请稍后再试。"
+  },
+  "limit_order_target_already_crossed": {
+    "message": "当前价格已越过该目标，订单会立即成交。请调整目标或刷新后重试。"
   },
   "limit_order_chart_preset_mismatch": {
     "message": "预设与此 BSC 订单不匹配"
@@ -6768,7 +6750,7 @@
     "message": "确认销毁并关闭"
   },
   "burn_confirm_strong_warning": {
-    "message": "此操作永久且不可撤回。选中的代币将被永久销毁，无法恢复。仅租金（约每个账户 0.002 SOL）会返还。"
+    "message": "此操作永久且不可撤回。选中的代币将被永久销毁，无法恢复。仅返还账户中的 SOL（当前标准账户租金约为每账户 0.0015 SOL，实际返还金额以账户余额为准）。"
   },
   "burn_confirm_tokens_header": {
     "message": "即将销毁的代币"
@@ -8834,9 +8816,6 @@
   "position_data_not_loaded": {
     "message": "持仓数据未加载，请刷新后重试。"
   },
-  "limit_order_target_unavailable": {
-    "message": "无法读取目标百分比，请调整限价目标后重试。"
-  },
   "invalid_market_cap": {
     "message": "请输入有效市值。"
   },
@@ -9095,9 +9074,6 @@
   "solana_source_account_unsupported": {
     "message": "当前路由无法安全使用你的代币账户，请尝试其他路由。"
   },
-  "solana_price_impact_blocked": {
-    "message": "价格冲击超过 {percent}%，已取消交易"
-  },
   "search_trading_settings": {
     "message": "搜索交易设置"
   },
@@ -9109,9 +9085,6 @@
   },
   "solana_stock_trade_limit_exceeded": {
     "message": "股票配对池单笔交易金额超过 {limit}U，已禁止发送。"
-  },
-  "solana_price_impact_unavailable": {
-    "message": "无法验证价格冲击，已取消交易"
   },
   "wallet_archive_orders_blocked": {
     "message": "请先取消或完成 BSC、Robinhood 上的有效订单与策略。下方取消待生成策略不会取消已生成的订单。"
@@ -9371,6 +9344,9 @@
   "twitter_post_guide_title": {
     "message": "直接在 X 交易这个代币"
   },
+  "twitter_post_select_token": {
+    "message": "选择代币"
+  },
   "twitter_post_guide_help": {
     "message": "Quick Buy 使用说明"
   },
@@ -9406,6 +9382,45 @@
   },
   "twitter_post_asset_label": {
     "message": "识别 {ticker} 以使用交易功能"
+  },
+  "public_label_categories_title": {
+    "message": "公共标签类别"
+  },
+  "public_label_categories_description": {
+    "message": "Dev 仅过滤“$TOKEN dev”格式的管理员公共标签；Top Holders 控制持仓排名，盈利标签控制 PnL 和高收益标签；AI 标签独立控制。"
+  },
+  "public_label_category_dev": {
+    "message": "Dev"
+  },
+  "public_label_category_top_holder": {
+    "message": "Top Holders"
+  },
+  "public_label_category_profit": {
+    "message": "盈利标签"
+  },
+  "disable_autotrade_on_token_change": {
+    "message": "切币时关闭止盈止损"
+  },
+  "disable_autotrade_on_token_change_desc": {
+    "message": "打开或切换代币后，需手动开启自动策略，返回之前的代币也一样。同链页面共享开关；策略参数和已有订单不变。"
+  },
+  "new_feature_badge": {
+    "message": "New"
+  },
+  "average_price_lines_setting": {
+    "message": "买卖均价参考线"
+  },
+  "average_price_lines_setting_desc": {
+    "message": "在 Axiom 和 GMGN 图表上显示历史累计买卖均价，清仓后仍保留。"
+  },
+  "position_average_buy": {
+    "message": "平均买入价"
+  },
+  "position_average_sell": {
+    "message": "平均卖出价"
+  },
+  "limit_order_target_unavailable": {
+    "message": "无法读取目标百分比，请调整限价目标后重试。"
   },
   "open_in_dexscreener": {
     "message": "在 DexScreener 中打开"
@@ -9454,5 +9469,21 @@
   },
   "x_registration_group_link_unavailable": {
     "message": "群邀请链接不可用。"
+  },
+  "twitter_post_hide_confirmation_title": {
+    "message": "要隐藏 X 快捷购买吗？"
+  },
+  "twitter_post_debug_visibility": {
+    "message": "显示 X 快捷购买"
+  },
+  "twitter_post_debug_rollout_status": {
+    "message": "当前账号灰度资格：{enabled}。此显示开关不会覆盖灰度，可在这里或 X 设置中恢复。"
+  },
+  "twitter_post_hide_confirmation_cancel": {
+    "message": "保留快捷购买"
+  },
+  "twitter_post_hide_trading": { "message": "隐藏 X 快捷购买" },
+  "twitter_post_restore_trading_hint": {
+    "message": "隐藏后，所有 X 推文将不再显示快捷购买入口。你可以随时在 X 设置中重新开启。"
   }
 }

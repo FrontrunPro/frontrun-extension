@@ -1,13 +1,4 @@
 {
-  "disable_autotrade_on_token_change": {
-    "message": "Сброс TP/SL при смене токена"
-  },
-  "disable_autotrade_on_token_change_desc": {
-    "message": "При открытии или смене токена включайте Auto вручную, даже при возврате к прежнему токену. Переключатель общий для вкладок одной сети. Настройки стратегии и созданные ордера сохраняются."
-  },
-  "new_feature_badge": {
-    "message": "Новое"
-  },
   "x_registration_short": {
     "message": "Проверить"
   },
@@ -274,12 +265,6 @@
   },
   "token_consolidate_partial_received": {
     "message": "Объединение выполнено частично ({completed}/{total}). Остальные переводы остановлены из-за разницы сумм. Проверьте балансы перед повтором."
-  },
-  "average_price_lines_setting": {
-    "message": "Линии средней цены покупки и продажи"
-  },
-  "average_price_lines_setting_desc": {
-    "message": "Средние цены всех покупок и продаж на графиках Axiom и GMGN, включая закрытые позиции."
   },
   "gmgn_inline_setting": {
     "message": "Торговая панель в GMGN"
@@ -1094,12 +1079,6 @@
   "avg_buying_mc_short": {
     "message": "AMC"
   },
-  "position_average_buy": {
-    "message": "Средняя цена покупки"
-  },
-  "position_average_sell": {
-    "message": "Средняя цена продажи"
-  },
   "jito_bundle": {
     "message": "Пакет Jito"
   },
@@ -1499,6 +1478,39 @@
   "successfully_added_wallets_to_group": {
     "message": "Кошельки успешно добавлены в группу!"
   },
+  "wallet_group_import_network_error": {
+    "message": "Ошибка сети. Проверьте подключение и повторите попытку."
+  },
+  "wallet_group_import_auth_error": {
+    "message": "Требуется авторизация. Войдите снова."
+  },
+  "wallet_group_import_permission_error": {
+    "message": "У вас нет разрешения изменять эту группу."
+  },
+  "wallet_group_import_not_found": {
+    "message": "Группа кошельков не найдена. Обновите список групп."
+  },
+  "wallet_group_import_rate_limited": {
+    "message": "Слишком много запросов. Подождите и повторите попытку."
+  },
+  "wallet_group_import_server_error": {
+    "message": "Сервис недоступен. Повторите попытку позже."
+  },
+  "wallet_group_import_capacity_error": {
+    "message": "В группе может быть не более 1000 кошельков. Удалите адреса или выберите другую группу."
+  },
+  "wallet_group_import_invalid_input": {
+    "message": "Не удалось импортировать адреса. Проверьте ввод и повторите попытку."
+  },
+  "wallet_group_import_connection_error": {
+    "message": "Соединение с расширением потеряно. Перезагрузите расширение и повторите попытку."
+  },
+  "wallet_group_import_label_limit": {
+    "message": "В аккаунте может быть не более 20000 меток. Удалите ненужные метки и повторите попытку."
+  },
+  "wallet_group_import_partial_failed": {
+    "message": "Подтверждена обработка {processed} из {total} адресов. Неподтверждённые адреса оставлены для повтора. {reason}"
+  },
   "could_not_resolve_chain_fallback_evm": {
     "message": "Не удалось определить сеть для {count} кошельков. Используется EVM"
   },
@@ -1549,9 +1561,6 @@
   },
   "create": {
     "message": "Создать"
-  },
-  "earn": {
-    "message": "Доход"
   },
   "claim": {
     "message": "Забрать"
@@ -1610,77 +1619,20 @@
   "total_claimed": {
     "message": "Итого"
   },
-  "jupiter_earn": {
-    "message": "Jupiter Earn"
-  },
-  "jupiter_earn_description": {
-    "message": "Внесите SOL и USDC в Jupiter Lend для получения дохода."
-  },
-  "jupiter_earn_info_1": {
-    "message": "Депозиты будут обработаны для всех активных кошельков"
-  },
-  "jupiter_earn_info_2": {
-    "message": "Ориентировочная комиссия за газ $0.00063"
-  },
-  "jupiter_earn_info_3": {
-    "message": "Вы можете вывести средства в любое время через Jupiter"
-  },
   "earned": {
     "message": "заработано"
-  },
-  "total_earnings": {
-    "message": "Доход"
-  },
-  "jupiter_withdraw_description": {
-    "message": "Выведите ваши SOL и USDC из Jupiter Lend обратно на ваши кошельки."
-  },
-  "no_balance_to_deposit": {
-    "message": "Нет доступного баланса для депозита"
   },
   "available": {
     "message": "Доступно"
   },
-  "amount_exceeds_balance": {
-    "message": "Сумма превышает доступный баланс"
-  },
   "deposit_all": {
     "message": "Внести всё"
-  },
-  "processing_deposits": {
-    "message": "Обработка депозитов..."
-  },
-  "deposits_completed": {
-    "message": "депозитов успешно завершено"
-  },
-  "processing_withdrawals": {
-    "message": "Обработка выводов..."
-  },
-  "withdrawals_completed": {
-    "message": "выводов успешно завершено"
   },
   "withdraw_all": {
     "message": "Вывести всё"
   },
   "depositing": {
     "message": "Внесение..."
-  },
-  "all_deposits_failed": {
-    "message": "Все депозиты не удались"
-  },
-  "deposit_failed": {
-    "message": "Депозит не удался"
-  },
-  "withdraw_failed": {
-    "message": "Вывод не удался"
-  },
-  "all_withdrawals_failed": {
-    "message": "Все выводы не удались"
-  },
-  "no_position_to_withdraw": {
-    "message": "Нет позиции для вывода"
-  },
-  "withdrawing": {
-    "message": "Выводим"
   },
   "loading_positions": {
     "message": "Загрузка позиций..."
@@ -1888,6 +1840,12 @@
   },
   "wallet_tracker_quick_buy": {
     "message": "Быстрая покупка (трекер)"
+  },
+  "gmgn_wallet_tracker_quick_buy": {
+    "message": "Быстрая покупка в трекере GMGN"
+  },
+  "gmgn_wallet_tracker_quick_buy_description": {
+    "message": "Включить Frontrun Quick Buy в GMGN Track и Monitor для всех поддерживаемых сетей, независимо от Axiom."
   },
   "wallet_tracker_quick_buy_description": {
     "message": "Frontrun Quick Buy для Monitor и Trades в Axiom. Transfers используют Axiom."
@@ -3824,6 +3782,27 @@
   "plan_renewal_address_copied": {
     "message": "Адрес скопирован"
   },
+  "enable_auto_renew_method": {
+    "message": "Способ продления"
+  },
+  "enable_auto_renew_wallet": {
+    "message": "Криптокошелёк"
+  },
+  "enable_auto_renew_card": {
+    "message": "Банковская карта"
+  },
+  "enable_auto_renew_card_note": {
+    "message": "Управляйте продлением картой в браузере. Открытие страницы не списывает деньги."
+  },
+  "enable_auto_renew_card_account_note": {
+    "message": "Войдите в тот же аккаунт Frontrun в браузере. На странице подписки можно привязать карту, сменить способ продления или отменить подписку."
+  },
+  "enable_auto_renew_card_continue": {
+    "message": "Открыть в браузере"
+  },
+  "enable_auto_renew_card_open_error": {
+    "message": "Не удалось открыть браузер. Попробуйте ещё раз."
+  },
   "enable_auto_renew_title": {
     "message": "Включить автопродление"
   },
@@ -4270,6 +4249,9 @@
   },
   "limit_order_price_not_available": {
     "message": "Цена токена ещё не загружена. Подождите и попробуйте снова."
+  },
+  "limit_order_target_already_crossed": {
+    "message": "Текущая цена уже пересекла эту цель, и ордер исполнится сразу. Измените цель или обновите и попробуйте снова."
   },
   "limit_order_chart_preset_mismatch": {
     "message": "Пресет не подходит для этого BSC-ордера"
@@ -6777,7 +6759,7 @@
     "message": "Подтвердить сжигание"
   },
   "burn_confirm_strong_warning": {
-    "message": "Действие необратимо. Выбранные токены будут уничтожены навсегда. Восстановление невозможно. Вернётся только рента (~0.002 SOL за аккаунт)."
+    "message": "Действие необратимо. Выбранные токены будут уничтожены навсегда. Восстановление невозможно. Вернётся только SOL со счёта (текущая рента стандартного аккаунта — ~0.0015 SOL; точная сумма зависит от баланса)."
   },
   "burn_confirm_tokens_header": {
     "message": "Токены для уничтожения"
@@ -8834,9 +8816,6 @@
   "position_data_not_loaded": {
     "message": "Данные позиции не загружены. Обновите и попробуйте снова."
   },
-  "limit_order_target_unavailable": {
-    "message": "Не удалось прочитать целевой процент. Измените целевое значение лимитного ордера и повторите попытку."
-  },
   "invalid_market_cap": {
     "message": "Введите корректную капитализацию."
   },
@@ -9095,9 +9074,6 @@
   "solana_source_account_unsupported": {
     "message": "Этот маршрут не может безопасно использовать ваш токен-аккаунт. Попробуйте другой маршрут."
   },
-  "solana_price_impact_blocked": {
-    "message": "Влияние на цену выше {percent}% — сделка отменена"
-  },
   "search_trading_settings": {
     "message": "Поиск торговых настроек"
   },
@@ -9109,9 +9085,6 @@
   },
   "solana_stock_trade_limit_exceeded": {
     "message": "Сделки свыше ${limit} в пулах с акциями заблокированы."
-  },
-  "solana_price_impact_unavailable": {
-    "message": "Не удалось проверить влияние на цену — сделка отменена"
   },
   "wallet_archive_orders_blocked": {
     "message": "Сначала отмените или завершите активные ордера и стратегии BSC и Robinhood. Отмена ожидающей стратегии ниже не отменяет созданные ордера."
@@ -9371,6 +9344,9 @@
   "twitter_post_guide_title": {
     "message": "Торгуйте прямо в X"
   },
+  "twitter_post_select_token": {
+    "message": "Выбрать токен"
+  },
   "twitter_post_guide_help": {
     "message": "Справка Quick Buy"
   },
@@ -9406,6 +9382,45 @@
   },
   "twitter_post_asset_label": {
     "message": "Определить {ticker} для торговли"
+  },
+  "public_label_categories_title": {
+    "message": "Категории меток"
+  },
+  "public_label_categories_description": {
+    "message": "Dev скрывает админ-метки вида $TOKEN dev. Top Holders — рейтинг, метки прибыли — PnL и High Profit. ИИ отдельно."
+  },
+  "public_label_category_dev": {
+    "message": "Dev"
+  },
+  "public_label_category_top_holder": {
+    "message": "Top Holders"
+  },
+  "public_label_category_profit": {
+    "message": "Метки прибыли"
+  },
+  "disable_autotrade_on_token_change": {
+    "message": "Сброс TP/SL при смене токена"
+  },
+  "disable_autotrade_on_token_change_desc": {
+    "message": "При открытии или смене токена включайте Auto вручную, даже при возврате к прежнему токену. Переключатель общий для вкладок одной сети. Настройки стратегии и созданные ордера сохраняются."
+  },
+  "new_feature_badge": {
+    "message": "Новое"
+  },
+  "average_price_lines_setting": {
+    "message": "Линии средней цены покупки и продажи"
+  },
+  "average_price_lines_setting_desc": {
+    "message": "Средние цены всех покупок и продаж на графиках Axiom и GMGN, включая закрытые позиции."
+  },
+  "position_average_buy": {
+    "message": "Средняя цена покупки"
+  },
+  "position_average_sell": {
+    "message": "Средняя цена продажи"
+  },
+  "limit_order_target_unavailable": {
+    "message": "Не удалось прочитать целевой процент. Измените целевое значение лимитного ордера и повторите попытку."
   },
   "open_in_dexscreener": {
     "message": "Открыть в DexScreener"
@@ -9454,5 +9469,21 @@
   },
   "x_registration_group_link_unavailable": {
     "message": "Приглашение недоступно."
+  },
+  "twitter_post_hide_confirmation_title": {
+    "message": "Скрыть покупки в X?"
+  },
+  "twitter_post_debug_visibility": {
+    "message": "Показывать покупки в X"
+  },
+  "twitter_post_debug_rollout_status": {
+    "message": "Доступ для аккаунта: {enabled}. Этот переключатель не меняет доступ. Включить снова можно здесь или в настройках X."
+  },
+  "twitter_post_hide_confirmation_cancel": {
+    "message": "Оставить"
+  },
+  "twitter_post_hide_trading": { "message": "Скрыть покупки в X" },
+  "twitter_post_restore_trading_hint": {
+    "message": "Быстрые покупки исчезнут из всех постов X. Включить снова можно в настройках X."
   }
 }
