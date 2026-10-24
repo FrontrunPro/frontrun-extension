@@ -6486,7 +6486,7 @@
     "message": "按余额自动排序钱包"
   },
   "auto_sort_wallets_by_balance_desc": {
-    "message": "开启时按 {symbol} 余额排序；关闭后可拖动钱包自定义顺序"
+    "message": "开启时按当前结算币种余额排序；关闭后可拖动钱包自定义顺序"
   },
   "auto_sort_disabled_quick_select": {
     "message": "「快捷键快速选择钱包」开启时不可用 —— 它使用固定的钱包顺序"
