@@ -419,6 +419,9 @@
   "current_status": {
     "message": "当前状态"
   },
+  "premium_try_for_free": {
+    "message": "免费试用"
+  },
   "premium_upgrade_cta_title": {
     "message": "升级为高级会员"
   },
@@ -3076,6 +3079,15 @@
   },
   "preparing_order": {
     "message": "准备订单"
+  },
+  "gmgn_cta_currency_unavailable": {
+    "message": "暂时无法确认 GMGN 交易币种"
+  },
+  "gmgn_cta_usdc_disabled": {
+    "message": "USDC 交易暂不可用"
+  },
+  "gmgn_cta_usdc_pool_unsupported": {
+    "message": "当前池不支持 USDC 交易"
   },
   "broadcasting_transaction": {
     "message": "广播交易"

@@ -443,6 +443,9 @@
   "current_status": {
     "message": "Текущий статус"
   },
+  "premium_try_for_free": {
+    "message": "Бесплатно"
+  },
   "premium_upgrade_cta_title": {
     "message": "Обновить план"
   },
@@ -3130,6 +3133,15 @@
   },
   "preparing_order": {
     "message": "Подготовка"
+  },
+  "gmgn_cta_currency_unavailable": {
+    "message": "Не удалось определить валюту GMGN"
+  },
+  "gmgn_cta_usdc_disabled": {
+    "message": "Торговля USDC сейчас недоступна"
+  },
+  "gmgn_cta_usdc_pool_unsupported": {
+    "message": "Этот пул не поддерживает USDC"
   },
   "broadcasting_transaction": {
     "message": "Отправка"
