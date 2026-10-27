@@ -1,4 +1,7 @@
 {
+  "padre_cta_market_required": {
+    "message": "请在 Padre 选择市价买入或卖出，再使用 Frontrun 交易"
+  },
   "x_registration_short": {
     "message": "查注册"
   },
@@ -8315,15 +8318,6 @@
   "add_profiles": {
     "message": "添加账户"
   },
-  "add_from_saved_labels": {
-    "message": "从已保存的标签添加"
-  },
-  "search_saved_labels": {
-    "message": "搜索你的标签"
-  },
-  "no_saved_labels_found": {
-    "message": "未找到已保存的标签"
-  },
   "load_more": {
     "message": "加载更多"
   },
@@ -9497,5 +9491,32 @@
   "twitter_post_hide_trading": { "message": "隐藏 X 快捷购买" },
   "twitter_post_restore_trading_hint": {
     "message": "隐藏后，所有 X 推文将不再显示快捷购买入口。你可以随时在 X 设置中重新开启。"
+  },
+  "sw_lost_connection": {
+    "message": "扩展连接已断开。"
+  },
+  "sw_reload_extension": {
+    "message": "重新加载扩展"
+  },
+  "sw_updated_refresh_page": {
+    "message": "Frontrun 已更新。请刷新此页面以继续交易。"
+  },
+  "sw_refresh_page": {
+    "message": "刷新页面"
+  },
+  "sw_manual_reload_instructions": {
+    "message": "无法连接扩展。请点击工具栏中的 Frontrun 图标并选择“重新加载”，或打开 chrome://extensions 并点击重新加载图标。"
+  },
+  "sw_reload_in_progress": {
+    "message": "正在重新加载…"
+  },
+  "sw_auto_reload_paused": {
+    "message": "多次重新加载后已暂停自动重载，正在后台恢复…"
+  },
+  "sw_reconnecting": {
+    "message": "正在重新连接扩展…"
+  },
+  "sw_reconnected": {
+    "message": "扩展已重新连接"
   }
 }

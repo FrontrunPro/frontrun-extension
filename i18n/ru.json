@@ -1,4 +1,7 @@
 {
+  "padre_cta_market_required": {
+    "message": "Выберите покупку/продажу по рынку в Padre"
+  },
   "x_registration_short": {
     "message": "Проверить"
   },
@@ -8351,15 +8354,6 @@
   "add_profiles": {
     "message": "Добавить профили"
   },
-  "add_from_saved_labels": {
-    "message": "Из сохранённых меток"
-  },
-  "search_saved_labels": {
-    "message": "Поиск по меткам"
-  },
-  "no_saved_labels_found": {
-    "message": "Метки не найдены"
-  },
   "load_more": {
     "message": "Показать ещё"
   },
@@ -9497,5 +9491,32 @@
   "twitter_post_hide_trading": { "message": "Скрыть покупки в X" },
   "twitter_post_restore_trading_hint": {
     "message": "Быстрые покупки исчезнут из всех постов X. Включить снова можно в настройках X."
+  },
+  "sw_lost_connection": {
+    "message": "Потеряно соединение с расширением."
+  },
+  "sw_reload_extension": {
+    "message": "Перезагрузить"
+  },
+  "sw_updated_refresh_page": {
+    "message": "Frontrun обновлён. Обновите страницу, чтобы продолжить торговлю."
+  },
+  "sw_refresh_page": {
+    "message": "Обновить"
+  },
+  "sw_manual_reload_instructions": {
+    "message": "Расширение недоступно. Нажмите значок Frontrun на панели и выберите «Перезагрузить» или откройте chrome://extensions и нажмите значок перезагрузки."
+  },
+  "sw_reload_in_progress": {
+    "message": "Перезагрузка уже идёт…"
+  },
+  "sw_auto_reload_paused": {
+    "message": "Автоперезагрузка приостановлена — восстановление в фоне…"
+  },
+  "sw_reconnecting": {
+    "message": "Подключаем расширение…"
+  },
+  "sw_reconnected": {
+    "message": "Расширение подключено"
   }
 }
