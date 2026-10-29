@@ -9488,7 +9488,9 @@
   "twitter_post_hide_confirmation_cancel": {
     "message": "保留快捷购买"
   },
-  "twitter_post_hide_trading": { "message": "隐藏 X 快捷购买" },
+  "twitter_post_hide_trading": {
+    "message": "隐藏 X 快捷购买"
+  },
   "twitter_post_restore_trading_hint": {
     "message": "隐藏后，所有 X 推文将不再显示快捷购买入口。你可以随时在 X 设置中重新开启。"
   },
@@ -9518,5 +9520,8 @@
   },
   "sw_reconnected": {
     "message": "扩展已重新连接"
+  },
+  "first_wallet_create_and_fund": {
+    "message": "暂无钱包，请从左上角钱包菜单创建钱包并充值。"
   }
 }

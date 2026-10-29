@@ -9488,7 +9488,9 @@
   "twitter_post_hide_confirmation_cancel": {
     "message": "Оставить"
   },
-  "twitter_post_hide_trading": { "message": "Скрыть покупки в X" },
+  "twitter_post_hide_trading": {
+    "message": "Скрыть покупки в X"
+  },
   "twitter_post_restore_trading_hint": {
     "message": "Быстрые покупки исчезнут из всех постов X. Включить снова можно в настройках X."
   },
@@ -9518,5 +9520,8 @@
   },
   "sw_reconnected": {
     "message": "Расширение подключено"
+  },
+  "first_wallet_create_and_fund": {
+    "message": "Нет кошельков. Создайте и пополните кошелёк через меню слева вверху."
   }
 }
