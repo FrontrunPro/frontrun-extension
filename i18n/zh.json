@@ -1,4 +1,7 @@
 {
+  "wallet_platform_profile": {
+    "message": "{platform} 主页"
+  },
   "padre_cta_market_required": {
     "message": "请在 Padre 选择市价买入或卖出，再使用 Frontrun 交易"
   },
@@ -423,13 +426,73 @@
     "message": "当前状态"
   },
   "premium_try_for_free": {
-    "message": "免费试用"
+    "message": "开始免费试用"
+  },
+  "plan_usage_trial_cta": {
+    "message": "免费试用 Premium"
+  },
+  "premium_gate_trial_cta": {
+    "message": "开始免费试用"
   },
   "premium_upgrade_cta_title": {
     "message": "升级为高级会员"
   },
+  "premium_try_premium_for_free": {
+    "message": "免费试用高级会员"
+  },
+  "trading_hide_control_label": {
+    "message": "在所有平台关闭交易"
+  },
+  "trading_hide_control_confirm_title": {
+    "message": "在所有网站上隐藏交易？"
+  },
+  "trading_hide_control_confirm_body": {
+    "message": "Frontrun 的买入/卖出按钮和交易面板将在所有网站上隐藏。您可以在“设置 → 平台集成”中重新开启。"
+  },
+  "trading_hide_control_confirm": {
+    "message": "隐藏交易"
+  },
+  "trading_hide_control_confirm_cancel": {
+    "message": "取消"
+  },
+  "trading_hide_control_keep": {
+    "message": "保留交易"
+  },
+  "trading_hide_control_upgrade_title": {
+    "message": "关闭交易为高级会员功能"
+  },
+  "trading_hide_control_upgrade_body": {
+    "message": "升级高级会员，让交易页面保持清爽。"
+  },
+  "trading_hide_control_trial_title": {
+    "message": "隐藏 Frontrun Trading"
+  },
+  "trading_hide_control_trial_body": {
+    "message": "升级高级会员，即可在所有网站上关闭 Frontrun 交易。"
+  },
+  "trading_hide_control_trial_cancel": {
+    "message": "暂不"
+  },
+  "trading_hide_control_trial_cta": {
+    "message": "免费试用 Premium"
+  },
   "premium_upgrade_cta_body": {
     "message": "升级解锁更早的热门信号、标签导出、更高请求上限以及更多功能。"
+  },
+  "trending_accounts_trial_title": {
+    "message": "更早发现热门账号"
+  },
+  "trending_tokens_trial_title": {
+    "message": "更早发现热门代币"
+  },
+  "trending_trial_body": {
+    "message": "升级为高级会员，更早获取热门信号，并解锁标签导出和更高请求上限。"
+  },
+  "wallet_labels_trial_title": {
+    "message": "了解这些钱包背后的身份"
+  },
+  "wallet_labels_trial_body": {
+    "message": "升级为高级会员，查看钱包标签和帖子上下文。"
   },
   "premium_features_title": {
     "message": "高级会员功能"
@@ -622,6 +685,9 @@
   },
   "smart_followers_locked_desc": {
     "message": "升级到 Silver 或更高方案，可查看更多知名关注。"
+  },
+  "smart_followers_trial_title": {
+    "message": "查看更多聪明钱粉丝"
   },
   "sort_smart": {
     "message": "排名"
@@ -899,6 +965,15 @@
   "x_profile": {
     "message": "X 账户"
   },
+  "wallet_proxima_marker_title": {
+    "message": "可能通过 Proxima 捆绑交易的钱包"
+  },
+  "wallet_proxima_marker_description": {
+    "message": "可能与其他钱包协同交易。"
+  },
+  "wallet_proxima_inline_label": {
+    "message": "Proxima 关联钱包"
+  },
   "wallet_marketplace_marker_label": {
     "message": "曾出现在钱包市场。"
   },
@@ -975,16 +1050,16 @@
     "message": "隐藏 FOMO Tracker 悬浮球"
   },
   "fomo_tracker_hide_confirmation_title": {
-    "message": "要隐藏 FOMO Tracker 悬浮球吗？"
+    "message": "要在交易网站上隐藏 FOMO Tracker 吗？"
   },
   "fomo_tracker_hide_confirmation_body": {
-    "message": "隐藏后，支持的交易网站将不再显示此悬浮球。你可以随时在网页端 FOMO 监控页顶部重新开启。"
+    "message": "可随时在 FOMO Tracker 页面重新开启。"
   },
   "fomo_tracker_hide_confirmation_cancel": {
-    "message": "保留悬浮球"
+    "message": "取消"
   },
   "fomo_tracker_hide_confirmation_confirm": {
-    "message": "隐藏悬浮球"
+    "message": "隐藏"
   },
   "fomo_tracker_following_import_title": {
     "message": "导入你在 FOMO 关注的人？"
@@ -1630,6 +1705,9 @@
   },
   "trading_toggle_premium_only_cta": {
     "message": "升级高级会员以关闭交易"
+  },
+  "trading_toggle_trial_cta": {
+    "message": "免费试用 Premium 以关闭交易"
   },
   "feature_temporarily_disabled": {
     "message": "该功能暂时停用，将在恢复后自动开启。"
@@ -7363,6 +7441,12 @@
   },
   "first_followers_locked_desc": {
     "message": "升级到 Silver 或以上会员，即可查看最早关注该账户的用户。"
+  },
+  "first_followers_trial_title": {
+    "message": "查看谁最先关注"
+  },
+  "first_followers_trial_desc": {
+    "message": "升级到 Silver 或更高等级，查看最早关注的聪明钱粉丝。"
   },
   "first_followers_loading": {
     "message": "正在加载最早粉丝…"

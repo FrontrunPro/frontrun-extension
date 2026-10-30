@@ -1,4 +1,7 @@
 {
+  "wallet_platform_profile": {
+    "message": "Профиль {platform}"
+  },
   "padre_cta_market_required": {
     "message": "Выберите покупку/продажу по рынку в Padre"
   },
@@ -447,13 +450,73 @@
     "message": "Текущий статус"
   },
   "premium_try_for_free": {
-    "message": "Бесплатно"
+    "message": "Начать триал"
+  },
+  "plan_usage_trial_cta": {
+    "message": "Триал бесплатно"
+  },
+  "premium_gate_trial_cta": {
+    "message": "Начать триал"
   },
   "premium_upgrade_cta_title": {
     "message": "Обновить план"
   },
+  "premium_try_premium_for_free": {
+    "message": "Premium бесплатно"
+  },
+  "trading_hide_control_label": {
+    "message": "Отключить торговлю везде"
+  },
+  "trading_hide_control_confirm_title": {
+    "message": "Скрыть торговлю на всех сайтах?"
+  },
+  "trading_hide_control_confirm_body": {
+    "message": "Кнопки покупки/продажи и торговые панели Frontrun будут скрыты везде. Включить их снова можно в разделе «Настройки → Интеграции платформ»."
+  },
+  "trading_hide_control_confirm": {
+    "message": "Скрыть"
+  },
+  "trading_hide_control_confirm_cancel": {
+    "message": "Отмена"
+  },
+  "trading_hide_control_keep": {
+    "message": "Оставить"
+  },
+  "trading_hide_control_upgrade_title": {
+    "message": "Отключение торговли доступно в Premium"
+  },
+  "trading_hide_control_upgrade_body": {
+    "message": "Сохраняйте торговые страницы чистыми с Premium."
+  },
+  "trading_hide_control_trial_title": {
+    "message": "Скрыть Frontrun Trading"
+  },
+  "trading_hide_control_trial_body": {
+    "message": "С Premium можно отключить торговлю Frontrun на всех сайтах."
+  },
+  "trading_hide_control_trial_cancel": {
+    "message": "Позже"
+  },
+  "trading_hide_control_trial_cta": {
+    "message": "Premium бесплатно"
+  },
   "premium_upgrade_cta_body": {
     "message": "Перейдите на Premium: тренды раньше, экспорт меток, выше лимиты и не только."
+  },
+  "trending_accounts_trial_title": {
+    "message": "Смотрите трендовые аккаунты раньше"
+  },
+  "trending_tokens_trial_title": {
+    "message": "Смотрите трендовые токены раньше"
+  },
+  "trending_trial_body": {
+    "message": "Перейдите на Premium, чтобы раньше видеть тренды, экспортировать метки и получить более высокие лимиты."
+  },
+  "wallet_labels_trial_title": {
+    "message": "Узнайте, кто стоит за этими кошельками"
+  },
+  "wallet_labels_trial_body": {
+    "message": "Перейдите на Premium, чтобы видеть метки кошельков и контекст публикаций."
   },
   "premium_features_title": {
     "message": "Функции Premium"
@@ -646,6 +709,9 @@
   },
   "smart_followers_locked_desc": {
     "message": "Перейдите на Silver или выше, чтобы увидеть больше умных подписчиков."
+  },
+  "smart_followers_trial_title": {
+    "message": "Показать больше умных подписчиков"
   },
   "sort_smart": {
     "message": "Топ"
@@ -926,6 +992,15 @@
   "x_profile": {
     "message": "Профиль X"
   },
+  "wallet_proxima_marker_title": {
+    "message": "Возможная связанная торговля через Proxima"
+  },
+  "wallet_proxima_marker_description": {
+    "message": "Возможно, торгует совместно с другими кошельками."
+  },
+  "wallet_proxima_inline_label": {
+    "message": "Кошелёк, связанный через Proxima"
+  },
   "wallet_marketplace_marker_label": {
     "message": "Появлялся на маркетплейсе кошельков."
   },
@@ -1002,16 +1077,16 @@
     "message": "Скрыть плавающую кнопку FOMO Tracker"
   },
   "fomo_tracker_hide_confirmation_title": {
-    "message": "Скрыть кнопку FOMO Tracker?"
+    "message": "Скрыть FOMO Tracker на торговых сайтах?"
   },
   "fomo_tracker_hide_confirmation_body": {
-    "message": "Кнопка исчезнет с торговых сайтов. Вернуть её можно вверху страницы FOMO Tracker на сайте."
+    "message": "Включить снова можно на странице FOMO Tracker."
   },
   "fomo_tracker_hide_confirmation_cancel": {
-    "message": "Оставить кнопку"
+    "message": "Отмена"
   },
   "fomo_tracker_hide_confirmation_confirm": {
-    "message": "Скрыть кнопку"
+    "message": "Скрыть"
   },
   "fomo_tracker_following_import_title": {
     "message": "Импортировать подписки FOMO?"
@@ -1672,6 +1747,9 @@
   },
   "trading_toggle_premium_only_cta": {
     "message": "Оформите Premium, чтобы отключить торговлю"
+  },
+  "trading_toggle_trial_cta": {
+    "message": "Бесплатный триал — отключить"
   },
   "feature_temporarily_disabled": {
     "message": "Эта функция временно отключена и будет восстановлена автоматически."
@@ -7372,6 +7450,12 @@
   },
   "first_followers_locked_desc": {
     "message": "Перейдите на Silver и выше, чтобы видеть первых подписчиков."
+  },
+  "first_followers_trial_title": {
+    "message": "Узнать, кто подписался первым"
+  },
+  "first_followers_trial_desc": {
+    "message": "Перейдите на Silver или выше, чтобы найти самых ранних умных подписчиков."
   },
   "first_followers_loading": {
     "message": "Загрузка…"
