@@ -9521,6 +9521,57 @@
   "sw_reconnected": {
     "message": "扩展已重新连接"
   },
+  "account_preferences_save_failed": {
+    "message": "未能保存你的选择，请重试。"
+  },
+  "terms_screen_title": {
+    "message": "服务条款已更新"
+  },
+  "terms_screen_description": {
+    "message": "我们更新了服务条款，请查看并接受后继续使用 Frontrun。"
+  },
+  "terms_screen_terms_link": {
+    "message": "服务条款"
+  },
+  "terms_screen_privacy_link": {
+    "message": "隐私政策"
+  },
+  "terms_screen_email_optin_label": {
+    "message": "通过邮件接收产品更新"
+  },
+  "terms_screen_email_optin_detail": {
+    "message": "每月几封产品更新和促销邮件，需在邮箱确认后订阅，可随时退订。"
+  },
+  "terms_screen_accept": {
+    "message": "接受条款"
+  },
+  "email_confirmation_send_failed": {
+    "message": "条款已接受，但确认邮件未能发送。可在设置中重试。"
+  },
+  "email_unsubscribe_terms_failed": {
+    "message": "条款已接受，但未能关闭邮件订阅。可在设置中重试。"
+  },
+  "email_confirmation_popup_title": {
+    "message": "确认产品邮件订阅"
+  },
+  "email_confirmation_popup_description": {
+    "message": "请前往邮箱点击确认链接，然后回到这里；没收到时可查看垃圾邮件。产品邮件为可选订阅，你也可以取消订阅后继续使用。"
+  },
+  "email_confirmation_popup_check": {
+    "message": "已确认邮件，继续"
+  },
+  "email_confirmation_popup_cancel": {
+    "message": "取消订阅，继续使用"
+  },
+  "email_confirmation_popup_checking": {
+    "message": "正在检查…"
+  },
+  "email_confirmation_popup_cancelling": {
+    "message": "正在取消…"
+  },
+  "email_confirmation_popup_still_pending": {
+    "message": "仍在等待确认。请先点击邮件中的确认链接，再重试。"
+  },
   "first_wallet_create_and_fund": {
     "message": "暂无钱包，请从左上角钱包菜单创建钱包并充值。"
   }

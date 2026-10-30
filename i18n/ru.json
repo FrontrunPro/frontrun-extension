@@ -9521,6 +9521,57 @@
   "sw_reconnected": {
     "message": "Расширение подключено"
   },
+  "account_preferences_save_failed": {
+    "message": "Не удалось сохранить выбор. Попробуйте ещё раз."
+  },
+  "terms_screen_title": {
+    "message": "Обновлённые условия использования"
+  },
+  "terms_screen_description": {
+    "message": "Мы обновили условия использования. Просмотрите и примите их, чтобы продолжить пользоваться Frontrun."
+  },
+  "terms_screen_terms_link": {
+    "message": "Условия использования"
+  },
+  "terms_screen_privacy_link": {
+    "message": "Политика конфиденциальности"
+  },
+  "terms_screen_email_optin_label": {
+    "message": "Письма об обновлениях"
+  },
+  "terms_screen_email_optin_detail": {
+    "message": "Новости и акции несколько раз в месяц. Подтвердите по email. Отписаться можно в любой момент."
+  },
+  "terms_screen_accept": {
+    "message": "Принять"
+  },
+  "email_confirmation_send_failed": {
+    "message": "Условия приняты. Письмо не отправлено. Повторите в настройках."
+  },
+  "email_unsubscribe_terms_failed": {
+    "message": "Условия приняты. Не удалось отключить рассылку. Повторите в настройках."
+  },
+  "email_confirmation_popup_title": {
+    "message": "Подтвердите подписку"
+  },
+  "email_confirmation_popup_description": {
+    "message": "Откройте ссылку в письме и вернитесь сюда. Проверьте спам. Рассылка необязательна: можно отменить подписку и продолжить."
+  },
+  "email_confirmation_popup_check": {
+    "message": "Подтверждено — дальше"
+  },
+  "email_confirmation_popup_cancel": {
+    "message": "Отписаться и продолжить"
+  },
+  "email_confirmation_popup_checking": {
+    "message": "Проверяем…"
+  },
+  "email_confirmation_popup_cancelling": {
+    "message": "Отменяем…"
+  },
+  "email_confirmation_popup_still_pending": {
+    "message": "Подтверждение ещё не получено. Откройте ссылку в письме и повторите проверку."
+  },
   "first_wallet_create_and_fund": {
     "message": "Нет кошельков. Создайте и пополните кошелёк через меню слева вверху."
   }
