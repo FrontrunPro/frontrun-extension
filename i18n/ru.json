@@ -8087,6 +8087,9 @@
   "ton_bridge_source_reverted": {
     "message": "Исходная транзакция отклонена. Средства не переведены."
   },
+  "ton_bridge_local_convert_reverted": {
+    "message": "Конвертация отменена в сети. Средства не были конвертированы."
+  },
   "ton_bridge_source_confirmed_relay_delayed": {
     "message": "Исходная транзакция подтверждена, но мост ещё не обновился."
   },

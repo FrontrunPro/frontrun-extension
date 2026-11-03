@@ -8060,6 +8060,9 @@
   "ton_bridge_source_reverted": {
     "message": "源链交易已回滚，资金未进入跨链桥。"
   },
+  "ton_bridge_local_convert_reverted": {
+    "message": "兑换交易已在链上回滚，资金未转换。"
+  },
   "ton_bridge_source_confirmed_relay_delayed": {
     "message": "源链交易已确认，但跨链桥尚未更新。"
   },
