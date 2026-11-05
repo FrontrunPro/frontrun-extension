@@ -9500,6 +9500,9 @@
   "new_feature_badge": {
     "message": "Новое"
   },
+  "bsc_usdc_limit_order_announcement": {
+    "message": "Лимитные ордера в USDC доступны"
+  },
   "average_price_lines_setting": {
     "message": "Линии средней цены покупки и продажи"
   },

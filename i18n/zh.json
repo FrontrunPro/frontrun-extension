@@ -9500,6 +9500,9 @@
   "new_feature_badge": {
     "message": "New"
   },
+  "bsc_usdc_limit_order_announcement": {
+    "message": "USDC 限价单已上线"
+  },
   "average_price_lines_setting": {
     "message": "买卖均价参考线"
   },
