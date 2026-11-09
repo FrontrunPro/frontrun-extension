@@ -5933,6 +5933,21 @@
   "prev_username_more": {
     "message": "+{count} 个"
   },
+  "x_account_location_based_in": {
+    "message": "所在地：{country}"
+  },
+  "x_account_location_aria": {
+    "message": "所在地：{country}。打开 X 的「关于此账号」"
+  },
+  "x_account_location_vpn_title": {
+    "message": "位置可能不准确"
+  },
+  "x_account_location_vpn_body": {
+    "message": "X 提示该账号可能在使用 VPN 或代理连接。"
+  },
+  "x_account_location_source": {
+    "message": "来源：X · 关于此账号"
+  },
   "ai_tags_section_info": {
     "message": "由 AI 生成的标签，请验证其准确性"
   },

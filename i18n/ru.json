@@ -5939,6 +5939,21 @@
   "prev_username_more": {
     "message": "+{count} ещё"
   },
+  "x_account_location_based_in": {
+    "message": "Локация: {country}"
+  },
+  "x_account_location_aria": {
+    "message": "Локация: {country}. Открывает «Об этом аккаунте» в X"
+  },
+  "x_account_location_vpn_title": {
+    "message": "Локация может быть неточной"
+  },
+  "x_account_location_vpn_body": {
+    "message": "X отмечает, что аккаунт может подключаться через VPN или прокси."
+  },
+  "x_account_location_source": {
+    "message": "Источник: X · Об этом аккаунте"
+  },
   "ai_tags_section_info": {
     "message": "AI-теги. Проверяйте сами"
   },
