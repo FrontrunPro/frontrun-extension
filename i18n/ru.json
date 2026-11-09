@@ -993,10 +993,10 @@
     "message": "Профиль X"
   },
   "wallet_proxima_marker_title": {
-    "message": "Возможная связанная торговля через Proxima"
+    "message": "Возможно, связанный кошелёк"
   },
   "wallet_proxima_marker_description": {
-    "message": "Возможно, торгует совместно с другими кошельками."
+    "message": "Возможно, связан с Proxima и торгует совместно с другими кошельками."
   },
   "wallet_proxima_inline_label": {
     "message": "Кошелёк, связанный через Proxima"
@@ -1606,6 +1606,12 @@
   },
   "failed_to_parse_wallet_data": {
     "message": "Не удалось обработать данные кошелька"
+  },
+  "bulk_import_invalid_lines": {
+    "message": "Некорректные данные кошельков в строках ({count}): {positions}. Ничего не импортировано. Исправьте строки и повторите попытку."
+  },
+  "bulk_import_invalid_entries": {
+    "message": "Некорректные данные кошельков в записях ({count}): {positions}. Ничего не импортировано. Исправьте записи и повторите попытку."
   },
   "bulk_import": {
     "message": "Массовый импорт"
@@ -9664,5 +9670,47 @@
   },
   "first_wallet_create_and_fund": {
     "message": "Нет кошельков. Создайте и пополните кошелёк через меню слева вверху."
+  },
+  "trending_tokens_hide": {
+    "message": "Скрыть"
+  },
+  "trending_tokens_hide_named": {
+    "message": "Скрыть {token}"
+  },
+  "trending_tokens_restore_all": {
+    "message": "Вернуть все"
+  },
+  "trending_tokens_hide_limit": {
+    "message": "Можно скрыть до 20 токенов. Очистите список, чтобы выбрать заново."
+  },
+  "trending_tokens_hide_failed": {
+    "message": "Не удалось подтвердить сохранение. Повторите позже."
+  },
+  "trending_tokens_hidden": {
+    "message": "{token} скрыт"
+  },
+  "trending_tokens_restored": {
+    "message": "Все токены возвращены"
+  },
+  "wallet_intel_limit_title": {
+    "message": "Вы использовали бесплатные запросы за эту неделю"
+  },
+  "wallet_intel_limit_usage": {
+    "message": "Бесплатный план включает {limit} запроса в неделю. Сброс через {relative}."
+  },
+  "wallet_intel_limit_cta": {
+    "message": "Открыть с Silver"
+  },
+  "wallet_intel_limit_compare_plans": {
+    "message": "Сравнить тарифы"
+  },
+  "wallet_intel_status_one_left": {
+    "message": "Остался 1 запрос"
+  },
+  "wallet_intel_status_reset_tooltip": {
+    "message": "Бесплатные запросы сбросятся через {relative}"
+  },
+  "wallet_intel_status_limit_tooltip": {
+    "message": "Недельный лимит исчерпан · Сброс через {relative}"
   }
 }

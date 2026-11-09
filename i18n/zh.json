@@ -966,10 +966,10 @@
     "message": "X 账户"
   },
   "wallet_proxima_marker_title": {
-    "message": "可能通过 Proxima 捆绑交易的钱包"
+    "message": "可能的捆绑钱包"
   },
   "wallet_proxima_marker_description": {
-    "message": "可能与其他钱包协同交易。"
+    "message": "可能与 Proxima 关联，并与其他钱包协同交易。"
   },
   "wallet_proxima_inline_label": {
     "message": "Proxima 关联钱包"
@@ -1564,6 +1564,12 @@
   },
   "failed_to_parse_wallet_data": {
     "message": "解析钱包数据失败"
+  },
+  "bulk_import_invalid_lines": {
+    "message": "有 {count} 行钱包数据无效，行号：{positions}。尚未导入，请修正后重试。"
+  },
+  "bulk_import_invalid_entries": {
+    "message": "有 {count} 条钱包数据无效，条目序号：{positions}。尚未导入，请修正后重试。"
   },
   "bulk_import": {
     "message": "批量导入"
@@ -9664,5 +9670,47 @@
   },
   "first_wallet_create_and_fund": {
     "message": "暂无钱包，请从左上角钱包菜单创建钱包并充值。"
+  },
+  "trending_tokens_hide": {
+    "message": "隐藏代币"
+  },
+  "trending_tokens_hide_named": {
+    "message": "隐藏 {token}"
+  },
+  "trending_tokens_restore_all": {
+    "message": "恢复全部"
+  },
+  "trending_tokens_hide_limit": {
+    "message": "最多隐藏 20 个代币，可恢复全部后重新选择。"
+  },
+  "trending_tokens_hide_failed": {
+    "message": "未能确认保存，请稍后重试。"
+  },
+  "trending_tokens_hidden": {
+    "message": "已隐藏 {token}"
+  },
+  "trending_tokens_restored": {
+    "message": "已恢复全部代币"
+  },
+  "wallet_intel_limit_title": {
+    "message": "你已用完本周的免费查询"
+  },
+  "wallet_intel_limit_usage": {
+    "message": "免费计划每周包含 {limit} 次查询。{relative} 后重置。"
+  },
+  "wallet_intel_limit_cta": {
+    "message": "使用 Silver 解锁"
+  },
+  "wallet_intel_limit_compare_plans": {
+    "message": "对比套餐"
+  },
+  "wallet_intel_status_one_left": {
+    "message": "剩 1 次查询"
+  },
+  "wallet_intel_status_reset_tooltip": {
+    "message": "免费查询将在 {relative} 后重置"
+  },
+  "wallet_intel_status_limit_tooltip": {
+    "message": "已达每周上限 · {relative} 后重置"
   }
 }
