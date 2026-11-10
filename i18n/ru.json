@@ -5939,6 +5939,24 @@
   "prev_username_more": {
     "message": "+{count} ещё"
   },
+  "x_account_location_hide_confirmation_title": {
+    "message": "Скрыть местоположение аккаунта?"
+  },
+  "x_account_location_hide_confirmation_body": {
+    "message": "Местоположение аккаунтов Frontrun будет скрыто во всех профилях X. Чтобы включить его снова, откройте «{settingsPath}»."
+  },
+  "x_account_location_hide_confirm": {
+    "message": "Скрыть местоположение"
+  },
+  "x_account_location_hide": {
+    "message": "Скрыть местоположение аккаунта. Восстановить можно в настройках X."
+  },
+  "x_account_location_setting_title": {
+    "message": "Местоположение аккаунта в X"
+  },
+  "x_account_location_setting_description": {
+    "message": "Показывать страну аккаунта в профилях X. Включите эту настройку, чтобы восстановить отображение."
+  },
   "x_account_location_based_in": {
     "message": "Локация: {country}"
   },
@@ -7160,6 +7178,31 @@
   "trending_accounts_title": {
     "message": "Популярные аккаунты"
   },
+  "premium_wallet_tags_locked": {
+    "message": "Метки кошелька доступны с Premium"
+  },
+  "premium_wallet_tags_title": {
+    "message": "Откройте умные метки кошелька"
+  },
+  "premium_wallet_tags_ai_description": {
+    "message": "Узнайте особенности кошелька и его торговли"
+  },
+  "premium_wallet_tags_marketplace_title": {
+    "message": "Объявления о продаже кошелька"
+  },
+  "premium_wallet_tags_marketplace_description": {
+    "message": "Узнайте, выставлялся ли кошелёк на продажу"
+  },
+  "premium_wallet_tags_proxima_title": {
+    "message": "Кошельки в бандлах Proxima"
+  },
+  "premium_wallet_tags_proxima_description": {
+    "message": "Находите кошельки с признаками торговли в бандлах"
+  },
+  "premium_wallet_tags_trial_cta": {
+    "message": "Попробовать бесплатно"
+  },
+  "premium_wallet_tags_upgrade_cta": { "message": "Открыть умные метки" },
   "upgrade_to_unlock": {
     "message": "Обновите тариф"
   },
@@ -9696,7 +9739,7 @@
     "message": "Вернуть все"
   },
   "trending_tokens_hide_limit": {
-    "message": "Можно скрыть до 20 токенов. Очистите список, чтобы выбрать заново."
+    "message": "Можно скрыть до 20 токенов. Верните один из списка скрытых, чтобы освободить место."
   },
   "trending_tokens_hide_failed": {
     "message": "Не удалось подтвердить сохранение. Повторите позже."
@@ -9707,6 +9750,24 @@
   "trending_tokens_restored": {
     "message": "Все токены возвращены"
   },
+  "trending_tokens_hidden_title": {
+    "message": "Скрытые токены"
+  },
+  "trending_tokens_hidden_empty": {
+    "message": "Нет скрытых токенов"
+  },
+  "trending_tokens_hidden_load_failed": {
+    "message": "Не удалось загрузить скрытые токены."
+  },
+  "trending_tokens_unhide": {
+    "message": "Вернуть"
+  },
+  "trending_tokens_unhide_named": {
+    "message": "Вернуть {token}"
+  },
+  "trending_tokens_unhidden": {
+    "message": "{token} снова в списке"
+  },
   "wallet_intel_limit_title": {
     "message": "Вы использовали бесплатные запросы за эту неделю"
   },
@@ -9715,6 +9776,9 @@
   },
   "wallet_intel_limit_cta": {
     "message": "Открыть с Silver"
+  },
+  "wallet_intel_limit_trial_cta": {
+    "message": "Разблокировать бесплатно"
   },
   "wallet_intel_limit_compare_plans": {
     "message": "Сравнить тарифы"

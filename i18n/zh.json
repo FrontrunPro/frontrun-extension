@@ -5936,6 +5936,24 @@
   "x_account_location_based_in": {
     "message": "所在地：{country}"
   },
+  "x_account_location_hide_confirmation_title": {
+    "message": "隐藏账号所在地？"
+  },
+  "x_account_location_hide_confirmation_body": {
+    "message": "将隐藏所有 X 个人主页中的 Frontrun 账号所在地。你可以前往「{settingsPath}」重新开启。"
+  },
+  "x_account_location_hide_confirm": {
+    "message": "隐藏所在地"
+  },
+  "x_account_location_hide": {
+    "message": "隐藏账号所在地，可在 X 设置中恢复。"
+  },
+  "x_account_location_setting_title": {
+    "message": "X 账号所在地"
+  },
+  "x_account_location_setting_description": {
+    "message": "在 X 个人主页显示账号所在地。隐藏后可打开此设置恢复。"
+  },
   "x_account_location_aria": {
     "message": "所在地：{country}。打开 X 的「关于此账号」"
   },
@@ -7151,6 +7169,25 @@
   "trending_accounts_title": {
     "message": "热门账号"
   },
+  "premium_wallet_tags_locked": {
+    "message": "Premium 钱包标签已锁定"
+  },
+  "premium_wallet_tags_title": {
+    "message": "解锁钱包智能标签"
+  },
+  "premium_wallet_tags_ai_description": {
+    "message": "了解钱包的身份与交易特征"
+  },
+  "premium_wallet_tags_marketplace_title": { "message": "钱包出售记录" },
+  "premium_wallet_tags_marketplace_description": {
+    "message": "查看钱包是否曾被挂牌出售"
+  },
+  "premium_wallet_tags_proxima_title": { "message": "Proxima 捆绑钱包" },
+  "premium_wallet_tags_proxima_description": {
+    "message": "识别疑似参与捆绑交易的钱包"
+  },
+  "premium_wallet_tags_trial_cta": { "message": "免费试用" },
+  "premium_wallet_tags_upgrade_cta": { "message": "解锁智能标签" },
   "upgrade_to_unlock": {
     "message": "升级解锁"
   },
@@ -9696,7 +9733,7 @@
     "message": "恢复全部"
   },
   "trending_tokens_hide_limit": {
-    "message": "最多隐藏 20 个代币，可恢复全部后重新选择。"
+    "message": "最多隐藏 20 个代币，请先在已隐藏列表中取消隐藏一个。"
   },
   "trending_tokens_hide_failed": {
     "message": "未能确认保存，请稍后重试。"
@@ -9707,6 +9744,24 @@
   "trending_tokens_restored": {
     "message": "已恢复全部代币"
   },
+  "trending_tokens_hidden_title": {
+    "message": "已隐藏的代币"
+  },
+  "trending_tokens_hidden_empty": {
+    "message": "没有已隐藏的代币"
+  },
+  "trending_tokens_hidden_load_failed": {
+    "message": "已隐藏列表加载失败。"
+  },
+  "trending_tokens_unhide": {
+    "message": "取消隐藏"
+  },
+  "trending_tokens_unhide_named": {
+    "message": "取消隐藏 {token}"
+  },
+  "trending_tokens_unhidden": {
+    "message": "已取消隐藏 {token}"
+  },
   "wallet_intel_limit_title": {
     "message": "你已用完本周的免费查询"
   },
@@ -9715,6 +9770,9 @@
   },
   "wallet_intel_limit_cta": {
     "message": "使用 Silver 解锁"
+  },
+  "wallet_intel_limit_trial_cta": {
+    "message": "免费解锁"
   },
   "wallet_intel_limit_compare_plans": {
     "message": "对比套餐"
