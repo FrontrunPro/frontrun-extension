@@ -1,4 +1,13 @@
 {
+  "confirm_payment_api_quote_expired": {
+    "message": "Срок действия расчёта истёк. Вернитесь в раздел API и проверьте исходный заказ перед оплатой."
+  },
+  "confirm_payment_api_quote_changed": {
+    "message": "Зафиксированная сумма платежа изменилась. Проверьте новую сумму и подтвердите ещё раз."
+  },
+  "confirm_payment_api_cancelled": {
+    "message": "Сервер отменил этот заказ. Вернитесь к покупке API, чтобы начать заново; не переводите средства на старый адрес."
+  },
   "wallet_platform_profile": {
     "message": "Профиль {platform}"
   },
@@ -2867,6 +2876,9 @@
   "insufficient_balance": {
     "message": "Недостаточно средств для выполнения этой транзакции."
   },
+  "skipped_zero_sol_wallets": {
+    "message": "Пропущено кошельков с 0 SOL: {count}"
+  },
   "robinhood_eth_balance_not_enough_for_trade_and_gas": {
     "message": "Недостаточно ETH для покупки и газа. Пополните ETH или уменьшите сумму."
   },
@@ -3941,6 +3953,15 @@
   "enable_auto_renew_confirm": {
     "message": "Подтвердить"
   },
+  "api_payment_title": {
+    "message": "Оплата API"
+  },
+  "api_payment_permanent_title": {
+    "message": "Пополнение бессрочных кредитов"
+  },
+  "api_payment_plan_title": {
+    "message": "Оплата API-тарифа {plan}"
+  },
   "confirm_payment_title": {
     "message": "Оплата плана {plan}"
   },
@@ -4003,6 +4024,9 @@
   },
   "confirm_payment_success": {
     "message": "Платёж подтверждён — план активен."
+  },
+  "confirm_payment_insufficient_sol": {
+    "message": "В этом кошельке недостаточно SOL для оплаты суммы и сетевой комиссии."
   },
   "confirm_payment_failed": {
     "message": "Платёж не прошёл. Попробуйте ещё раз."
@@ -5949,7 +5973,7 @@
     "message": "Скрыть местоположение"
   },
   "x_account_location_hide": {
-    "message": "Скрыть местоположение аккаунта. Восстановить можно в настройках X."
+    "message": "Скрыть геолокацию на всех профилях. Вернуть — в настройках Frontrun X."
   },
   "x_account_location_setting_title": {
     "message": "Местоположение аккаунта в X"
@@ -5967,10 +5991,7 @@
     "message": "Локация может быть неточной"
   },
   "x_account_location_vpn_body": {
-    "message": "X отмечает, что аккаунт может подключаться через VPN или прокси."
-  },
-  "x_account_location_source": {
-    "message": "Источник: X · Об этом аккаунте"
+    "message": "X отмечает аккаунт как возможно использующий VPN или прокси."
   },
   "ai_tags_section_info": {
     "message": "AI-теги. Проверяйте сами"

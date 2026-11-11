@@ -1,4 +1,13 @@
 {
+  "confirm_payment_api_quote_expired": {
+    "message": "付款报价已过期，请返回 API 页面核对原订单后再付款。"
+  },
+  "confirm_payment_api_quote_changed": {
+    "message": "锁定的付款金额已变化，请核对更新后的金额并再次确认。"
+  },
+  "confirm_payment_api_cancelled": {
+    "message": "服务端已取消此订单。请返回 API 购买页重新购买，勿向旧地址转账。"
+  },
   "wallet_platform_profile": {
     "message": "{platform} 主页"
   },
@@ -2849,6 +2858,9 @@
   "insufficient_balance": {
     "message": "余额不足，无法完成此交易。"
   },
+  "skipped_zero_sol_wallets": {
+    "message": "已跳过 {count} 个 SOL 余额为 0 的钱包"
+  },
   "robinhood_eth_balance_not_enough_for_trade_and_gas": {
     "message": "ETH 余额不足，无法同时支付买入金额和 Gas。请充值 ETH 或减少买入金额。"
   },
@@ -3950,6 +3962,15 @@
   "enable_auto_renew_confirm": {
     "message": "确认自动续订"
   },
+  "api_payment_title": {
+    "message": "API 付款"
+  },
+  "api_payment_permanent_title": {
+    "message": "永久积分充值"
+  },
+  "api_payment_plan_title": {
+    "message": "{plan} API 套餐支付"
+  },
   "confirm_payment_title": {
     "message": "{plan} 套餐支付"
   },
@@ -4012,6 +4033,9 @@
   },
   "confirm_payment_success": {
     "message": "支付成功 —— 套餐已激活。"
+  },
+  "confirm_payment_insufficient_sol": {
+    "message": "该钱包 SOL 余额不足以支付金额和网络手续费。"
   },
   "confirm_payment_failed": {
     "message": "支付失败，请重试。"
@@ -5946,7 +5970,7 @@
     "message": "隐藏所在地"
   },
   "x_account_location_hide": {
-    "message": "隐藏账号所在地，可在 X 设置中恢复。"
+    "message": "在所有主页隐藏所在地，可在 Frontrun X 设置中恢复。"
   },
   "x_account_location_setting_title": {
     "message": "X 账号所在地"
@@ -5961,10 +5985,7 @@
     "message": "位置可能不准确"
   },
   "x_account_location_vpn_body": {
-    "message": "X 提示该账号可能在使用 VPN 或代理连接。"
-  },
-  "x_account_location_source": {
-    "message": "来源：X · 关于此账号"
+    "message": "X 标记该账号可能在使用 VPN 或代理。"
   },
   "ai_tags_section_info": {
     "message": "由 AI 生成的标签，请验证其准确性"
