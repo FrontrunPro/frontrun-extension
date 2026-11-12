@@ -2468,6 +2468,9 @@
   "all_transactions_failed": {
     "message": "Все транзакции не удались"
   },
+  "transfer_sol_fee_shortfall": {
+    "message": "Для комиссии нужен SOL, даже при отправке USDC и других токенов. Пополните этот кошелёк небольшим количеством SOL и повторите перевод."
+  },
   "partial_success": {
     "message": "Частичный успех"
   },
@@ -5525,6 +5528,9 @@
   "twitter_post_route_retry": {
     "message": "Проверка не удалась. Наведите курсор или выберите кнопку снова."
   },
+  "solana_price_impact_blocked": {
+    "message": "Влияние на цену {impact}% выше {percent}% — сделка отменена"
+  },
   "trading_route_unavailable": {
     "message": "Торговый маршрут временно недоступен. Попробуйте позже."
   },
@@ -7165,6 +7171,9 @@
   },
   "trending_now_dismiss_hint": {
     "message": "Включить снова: Настройки → Twitter"
+  },
+  "trending_feature_announcement_dismiss": {
+    "message": "Скрыть объявление о функции"
   },
   "trending_now_setting_tip": {
     "message": "Трендовые аккаунты в боковой панели"
@@ -9812,5 +9821,8 @@
   },
   "wallet_intel_status_limit_tooltip": {
     "message": "Недельный лимит исчерпан · Сброс через {relative}"
+  },
+  "announcement_dismiss_failed": {
+    "message": "Не удалось сохранить закрытие. Попробуйте ещё раз."
   }
 }

@@ -2450,6 +2450,9 @@
   "all_transactions_failed": {
     "message": "所有交易失败"
   },
+  "transfer_sol_fee_shortfall": {
+    "message": "此钱包需要 SOL 支付网络手续费，发送 USDC 等代币也不例外。请先向此钱包转入少量 SOL，再重试。"
+  },
   "partial_success": {
     "message": "部分成功"
   },
@@ -5519,6 +5522,9 @@
   "twitter_post_route_retry": {
     "message": "暂时无法核验，请重新悬停或聚焦重试。"
   },
+  "solana_price_impact_blocked": {
+    "message": "价格冲击 {impact}% 超过 {percent}%，已取消交易"
+  },
   "trading_route_unavailable": {
     "message": "交易路由暂时不可用，请稍后重试。"
   },
@@ -7156,6 +7162,9 @@
   },
   "trending_now_dismiss_hint": {
     "message": "可在 设置 → 推特 中重新开启"
+  },
+  "trending_feature_announcement_dismiss": {
+    "message": "关闭功能更新提示"
   },
   "trending_now_setting_tip": {
     "message": "在推特侧栏显示热门账号"
@@ -9806,5 +9815,8 @@
   },
   "wallet_intel_status_limit_tooltip": {
     "message": "已达每周上限 · {relative} 后重置"
+  },
+  "announcement_dismiss_failed": {
+    "message": "未能保存关闭记录，请重试。"
   }
 }
