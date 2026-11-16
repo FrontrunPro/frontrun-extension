@@ -9822,6 +9822,54 @@
   "wallet_intel_status_limit_tooltip": {
     "message": "Недельный лимит исчерпан · Сброс через {relative}"
   },
+  "website_domain_age_label": {
+    "message": "Возраст домена сайта: {domain}, {age}. Срок с регистрации домена, не возраст токена и не оценка безопасности."
+  },
+  "website_domain_age_hide": {
+    "message": "Скрыть возраст домена. Вернуть можно в настройках Frontrun → Общие."
+  },
+  "website_domain_age_hide_confirmation_title": {
+    "message": "Скрыть возраст домена?"
+  },
+  "website_domain_age_hide_confirmation_body": {
+    "message": "Возраст домена сайта будет скрыт на страницах токенов GMGN и Axiom и в профилях X. Чтобы включить его снова, откройте «{settingsPath}»."
+  },
+  "website_domain_age_hide_confirm": {
+    "message": "Скрыть возраст домена"
+  },
+  "website_domain_age_setting_title": {
+    "message": "Возраст домена сайта"
+  },
+  "website_domain_age_setting_description": {
+    "message": "Показывать возраст домена рядом со значком сайта на страницах токенов GMGN и Axiom и при наведении на ссылки в профилях X. Включите, чтобы восстановить отображение после скрытия."
+  },
+  "website_domain_age_hover_title": {
+    "message": "Возраст домена"
+  },
+  "website_domain_age_hover_check": {
+    "message": "Узнать возраст"
+  },
+  "website_domain_age_hover_checking": {
+    "message": "Проверяем…"
+  },
+  "website_domain_age_hover_failed": {
+    "message": "Не удалось проверить домен."
+  },
+  "website_domain_age_hover_retry": {
+    "message": "Повторить"
+  },
+  "website_domain_age_hover_unsupported": {
+    "message": "Недоступно для .{tld}."
+  },
+  "website_domain_age_hover_unknown": {
+    "message": "Дата регистрации не найдена."
+  },
+  "website_domain_age_hover_hide": {
+    "message": "Скрыть"
+  },
+  "website_domain_age_registered": {
+    "message": "Зарегистрирован {date}"
+  },
   "announcement_dismiss_failed": {
     "message": "Не удалось сохранить закрытие. Попробуйте ещё раз."
   }

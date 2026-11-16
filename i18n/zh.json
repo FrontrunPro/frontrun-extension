@@ -9816,6 +9816,54 @@
   "wallet_intel_status_limit_tooltip": {
     "message": "已达每周上限 · {relative} 后重置"
   },
+  "website_domain_age_label": {
+    "message": "网站域名年龄：{domain}，{age}。指域名注册时长，并非代币年龄或安全评级。"
+  },
+  "website_domain_age_hide": {
+    "message": "隐藏域名年龄，可在 Frontrun 设置 → 通用中重新开启。"
+  },
+  "website_domain_age_hide_confirmation_title": {
+    "message": "隐藏域名年龄？"
+  },
+  "website_domain_age_hide_confirmation_body": {
+    "message": "将在 GMGN 和 Axiom 代币详情页及 X 个人主页隐藏网站域名年龄。你可以前往「{settingsPath}」重新开启。"
+  },
+  "website_domain_age_hide_confirm": {
+    "message": "隐藏域名年龄"
+  },
+  "website_domain_age_setting_title": {
+    "message": "网站域名年龄"
+  },
+  "website_domain_age_setting_description": {
+    "message": "在 GMGN 和 Axiom 代币详情页的网站图标旁显示域名年龄，并在悬停 X 个人主页链接时显示。隐藏后可打开此设置恢复。"
+  },
+  "website_domain_age_hover_title": {
+    "message": "网站域名年龄"
+  },
+  "website_domain_age_hover_check": {
+    "message": "查询域名年龄"
+  },
+  "website_domain_age_hover_checking": {
+    "message": "查询中…"
+  },
+  "website_domain_age_hover_failed": {
+    "message": "暂时无法查询该域名。"
+  },
+  "website_domain_age_hover_retry": {
+    "message": "重试"
+  },
+  "website_domain_age_hover_unsupported": {
+    "message": "暂不支持 .{tld} 域名。"
+  },
+  "website_domain_age_hover_unknown": {
+    "message": "未找到注册日期。"
+  },
+  "website_domain_age_hover_hide": {
+    "message": "隐藏"
+  },
+  "website_domain_age_registered": {
+    "message": "注册于 {date}"
+  },
   "announcement_dismiss_failed": {
     "message": "未能保存关闭记录，请重试。"
   }
