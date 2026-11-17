@@ -6647,6 +6647,12 @@
   "auto_sort_wallets_by_balance_desc": {
     "message": "开启时按当前结算币种余额排序；关闭后可拖动钱包自定义顺序"
   },
+  "simplified_trading_wallet_rows": {
+    "message": "精简钱包行"
+  },
+  "simplified_trading_wallet_rows_desc": {
+    "message": "隐藏钱包行上的区块浏览器和归档按钮，并关闭交易面板内的拖拽排序；钱包顺序改在钱包页调整"
+  },
   "auto_sort_disabled_quick_select": {
     "message": "「快捷键快速选择钱包」开启时不可用 —— 它使用固定的钱包顺序"
   },
