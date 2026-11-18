@@ -9822,6 +9822,18 @@
   "wallet_intel_status_limit_tooltip": {
     "message": "已达每周上限 · {relative} 后重置"
   },
+  "website_domain_age_unavailable": {
+    "message": "暂不可用"
+  },
+  "website_domain_age_unavailable_unsupported": {
+    "message": "暂不支持查询 {domain} 的域名年龄。"
+  },
+  "website_domain_age_unavailable_unknown": {
+    "message": "未能查到 {domain} 的注册日期。"
+  },
+  "website_domain_age_unavailable_temporary": {
+    "message": "暂时无法查询 {domain} 的域名年龄。可能已用完当天查询额度，或数据源暂不可用。"
+  },
   "website_domain_age_label": {
     "message": "网站域名年龄：{domain}，{age}。指域名注册时长，并非代币年龄或安全评级。"
   },

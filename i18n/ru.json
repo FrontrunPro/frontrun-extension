@@ -9828,6 +9828,18 @@
   "wallet_intel_status_limit_tooltip": {
     "message": "Недельный лимит исчерпан · Сброс через {relative}"
   },
+  "website_domain_age_unavailable": {
+    "message": "Недоступно"
+  },
+  "website_domain_age_unavailable_unsupported": {
+    "message": "Проверка возраста домена {domain} пока не поддерживается."
+  },
+  "website_domain_age_unavailable_unknown": {
+    "message": "Не удалось найти дату регистрации {domain}."
+  },
+  "website_domain_age_unavailable_temporary": {
+    "message": "Возраст домена {domain} временно недоступен. Возможно, исчерпан дневной лимит проверок или источник данных временно недоступен."
+  },
   "website_domain_age_label": {
     "message": "Возраст домена сайта: {domain}, {age}. Срок с регистрации домена, не возраст токена и не оценка безопасности."
   },
