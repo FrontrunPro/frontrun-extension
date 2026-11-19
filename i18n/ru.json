@@ -1859,6 +1859,9 @@
   "copy": {
     "message": "Копировать"
   },
+  "copy_image": {
+    "message": "Копировать изображение"
+  },
   "copy_user_id": {
     "message": "Копировать ID"
   },
@@ -3409,6 +3412,24 @@
   },
   "profile_history_date_relative": {
     "message": "Назад"
+  },
+  "share_name_change_history": {
+    "message": "Поделиться историей имён"
+  },
+  "share_x_post_smart_followers": {
+    "message": "У @{handle} {count} умных подписчиков"
+  },
+  "share_x_open_fallback": {
+    "message": "Изображение скопировано. Открыть X"
+  },
+  "share_x_post_posted_cas": {
+    "message": "@{handle} упомянул CA: {count}"
+  },
+  "share_x_post_deleted_cas": {
+    "message": "@{handle} удалил упоминания CA: {count}"
+  },
+  "share_x_post_name_changes": {
+    "message": "@{handle} менял имя: {count}"
   },
   "name_change": {
     "message": "Изменение имени"
@@ -9280,10 +9301,19 @@
     "message": "Сделки свыше ${limit} в пулах с акциями заблокированы."
   },
   "wallet_archive_orders_blocked": {
-    "message": "Сначала отмените или завершите активные ордера и стратегии BSC и Robinhood. Отмена ожидающей стратегии ниже не отменяет созданные ордера."
+    "message": "Отмените активные ордера и стратегии этого кошелька или дождитесь их завершения, затем повторите архивацию."
   },
-  "wallet_cancel_pending_auto_trade": {
-    "message": "Отменить стратегию"
+  "wallet_archive_confirm_orders": {
+    "message": "У этого кошелька есть активные ордера. При архивации они будут отменены, а связанные с ними стратегии остановлены."
+  },
+  "wallet_cancel_orders_and_archive": {
+    "message": "Отменить и архивировать"
+  },
+  "wallet_archive_orders_processing": {
+    "message": "Ордера исполняются или ожидают подтверждения. Повторите архивацию после их завершения."
+  },
+  "wallet_archive_cancel_failed": {
+    "message": "Кошелёк ещё не архивирован. Проверьте оставшиеся ордера и стратегии, при необходимости отмените их вручную и повторите архивацию."
   },
   "top_up": {
     "message": "Внести"
@@ -9890,5 +9920,191 @@
   },
   "announcement_dismiss_failed": {
     "message": "Не удалось сохранить закрытие. Попробуйте ещё раз."
+  },
+  "account_deletion_entry": {
+    "message": "Удалить аккаунт"
+  },
+  "account_deletion_title": {
+    "message": "Удаление аккаунта"
+  },
+  "account_deletion_checks_title": {
+    "message": "Перед удалением"
+  },
+  "account_deletion_recheck": {
+    "message": "Проверить"
+  },
+  "account_deletion_status_checking": {
+    "message": "Проверка"
+  },
+  "account_deletion_status_blocked": {
+    "message": "Нужно действие"
+  },
+  "account_deletion_status_unknown": {
+    "message": "Не удалось проверить"
+  },
+  "account_deletion_check_failed": {
+    "message": "Проверка не выполнена. Попробуйте снова."
+  },
+  "account_deletion_orders_note": {
+    "message": "Отмените открытые ордера и стратегии в торговой панели на сайте. Без TP/SL позиция не защищена; сделки с неизвестным итогом должны завершить сверку."
+  },
+  "account_deletion_category_orders": {
+    "message": "Открытые ордера"
+  },
+  "account_deletion_category_membership": {
+    "message": "Продление подписки"
+  },
+  "account_deletion_category_api_credits": {
+    "message": "Автопополнение API"
+  },
+  "account_deletion_category_rewards": {
+    "message": "Ожидающие выплаты"
+  },
+  "account_deletion_reason_sol_order_open": {
+    "message": "Solana: открытых ордеров — {count}"
+  },
+  "account_deletion_reason_sol_auto_trade_pending": {
+    "message": "Solana: TP/SL ещё создаются — {count}"
+  },
+  "account_deletion_reason_bsc_order_open": {
+    "message": "BSC: открытых ордеров — {count}"
+  },
+  "account_deletion_reason_bsc_auto_trade_pending": {
+    "message": "BSC: TP/SL ещё создаются — {count}"
+  },
+  "account_deletion_reason_base_order_open": {
+    "message": "Base: открытых ордеров — {count}"
+  },
+  "account_deletion_reason_base_order_unreconciled": {
+    "message": "Base: на сверке — {count}"
+  },
+  "account_deletion_reason_robinhood_order_open": {
+    "message": "Robinhood: открытых ордеров — {count}"
+  },
+  "account_deletion_reason_card_renewal_active": {
+    "message": "Автопродление активно. Отмените следующее продление на странице подписки."
+  },
+  "account_deletion_reason_wallet_renewal_enabled": {
+    "message": "Автопродление с кошелька включено. Отключите его."
+  },
+  "account_deletion_reason_payment_pending": {
+    "message": "Есть неоплаченный счёт или платёж в обработке."
+  },
+  "account_deletion_reason_api_renewal_enabled": {
+    "message": "API-план продлится. Отмените продление."
+  },
+  "account_deletion_reason_api_auto_topup_enabled": {
+    "message": "Автопополнение API включено. Отключите его."
+  },
+  "account_deletion_reason_payout_in_progress": {
+    "message": "Вывод наград в процессе или на проверке."
+  },
+  "account_deletion_reason_campaign_reward_pending": {
+    "message": "Награда кампании ожидает расчёта."
+  },
+  "account_deletion_reason_remote_unavailable": {
+    "message": "Статус не подтверждён. Проверьте позже."
+  },
+  "account_deletion_reason_other": {
+    "message": "Требуется действие."
+  },
+  "account_deletion_forfeit_title": {
+    "message": "Отказ от наград"
+  },
+  "account_deletion_forfeit_body": {
+    "message": "Все ваши награды на момент удаления и позже аннулируются, включая поступившие с опозданием. Комиссии с приглашённых будут начисляться, но получить их нельзя."
+  },
+  "account_deletion_forfeit_checkbox": {
+    "message": "Отказываюсь от всех наград"
+  },
+  "account_deletion_submit": {
+    "message": "Удалить аккаунт навсегда"
+  },
+  "account_deletion_reauth_title": {
+    "message": "Подтвердите свою личность перед удалением аккаунта"
+  },
+  "account_deletion_reauth_body_google": {
+    "message": "Аккаунт и данные для восстановления кошелька будут удалены навсегда. Подтвердите свой текущий аккаунт Google, затем в течение 10 минут подтвердите удаление."
+  },
+  "account_deletion_reauth_google": {
+    "message": "Подтвердить Google"
+  },
+  "account_deletion_reauth_body_email": {
+    "message": "Для безопасности выйдите и войдите снова, затем вернитесь и отправьте запрос в течение 10 минут."
+  },
+  "account_deletion_error_precheck": {
+    "message": "Результат проверки изменился, аккаунт не удалён. Посмотрите новый результат."
+  },
+  "account_deletion_error_final_check": {
+    "message": "Финальная проверка не пройдена, аккаунт не удалён. Вы вышли из аккаунта; войдите снова и повторите проверку."
+  },
+  "account_deletion_unknown_title": {
+    "message": "Результат не подтверждён"
+  },
+  "account_deletion_done_unknown": {
+    "message": "Пока не удалось подтвердить результат удаления."
+  },
+  "account_deletion_error_account_changed": {
+    "message": "Аккаунт сменился. Откройте Frontrun заново и повторите."
+  },
+  "account_deletion_error_turnkey_auth": {
+    "message": "Не удалось проверить разрешение на удаление кошелька. Войдите в кошелёк снова. Если ошибка повторится, обратитесь в поддержку."
+  },
+  "account_deletion_error_rate_limited": {
+    "message": "Слишком много попыток. Подождите минуту и повторите."
+  },
+  "account_deletion_error_generic": {
+    "message": "Запрос не выполнен. Проверьте и повторите."
+  },
+  "account_deletion_error_reauth": {
+    "message": "Проверка не пройдена. Повторите."
+  },
+  "account_deletion_done_title": {
+    "message": "Запрос на удаление аккаунта принят"
+  },
+  "account_deletion_halted": {
+    "message": "Не удалось завершить удаление аккаунта автоматически. Обратитесь в поддержку."
+  },
+  "google_login_account_deletion_pending": {
+    "message": "Аккаунт удаляется. После завершения вы сможете снова зарегистрироваться с тем же аккаунтом Google."
+  },
+  "account_deletion_done_processing": {
+    "message": "После завершения удаления зарегистрируйтесь прежним способом. Не получается через 12 часов?"
+  },
+  "account_deletion_backup_title": {
+    "message": "Сначала сохраните кошельки"
+  },
+  "account_deletion_backup_body": {
+    "message": "Без Recovery Phrase и ключей вы потеряете доступ к средствам."
+  },
+  "account_deletion_backup_cta": {
+    "message": "Экспорт ключей"
+  },
+  "account_deletion_status_open": {
+    "message": "{count} активн."
+  },
+  "account_deletion_status_settling": {
+    "message": "Обработка"
+  },
+  "account_deletion_confirm_backed_up": {
+    "message": "Я сохранил(а) свои кошельки."
+  },
+  "account_deletion_confirm_no_refund": {
+    "message": "Без возврата за Premium и API-кредиты."
+  },
+  "account_deletion_type_email_label": {
+    "message": "Введите email для подтверждения"
+  },
+  "account_deletion_type_id_label": {
+    "message": "Введите ID аккаунта для подтверждения"
+  },
+  "account_deletion_consequence": {
+    "message": "Остаток Premium и API-кредитов не возвращается. История сделок сохраняется для сверки; всё остальное удаляется."
+  },
+  "account_deletion_contact_support": {
+    "message": "Поддержка"
+  },
+  "account_deletion_manage": {
+    "message": "Управлять"
   }
 }

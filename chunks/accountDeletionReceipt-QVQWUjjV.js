@@ -1,0 +1,1 @@
+var e=`frontrun:account-deletion-receipt`;function t(t){return navigator.locks.request(e,async()=>{(await chrome.storage.local.get(`frontrun:account-deletion-receipt`))[`frontrun:account-deletion-receipt`]?.requestId===t&&await chrome.storage.local.remove(e)})}export{t as n,e as t};

@@ -1817,6 +1817,9 @@
   "copy": {
     "message": "复制"
   },
+  "copy_image": {
+    "message": "复制图片"
+  },
   "copy_user_id": {
     "message": "复制用户 ID"
   },
@@ -3355,6 +3358,24 @@
   },
   "profile_history_date_relative": {
     "message": "天前"
+  },
+  "share_name_change_history": {
+    "message": "分享用户名更改历史"
+  },
+  "share_x_post_smart_followers": {
+    "message": "@{handle} 有 {count} 个 KOL 关注"
+  },
+  "share_x_open_fallback": {
+    "message": "图片已复制，点此打开 X 发帖"
+  },
+  "share_x_post_posted_cas": {
+    "message": "@{handle} 提及过 {count} 个 CA"
+  },
+  "share_x_post_deleted_cas": {
+    "message": "@{handle} 删除过 {count} 条 CA 提及"
+  },
+  "share_x_post_name_changes": {
+    "message": "@{handle} 改过 {count} 次名"
   },
   "name_change": {
     "message": "改名"
@@ -9274,10 +9295,19 @@
     "message": "股票配对池单笔交易金额超过 {limit}U，已禁止发送。"
   },
   "wallet_archive_orders_blocked": {
-    "message": "请先取消或完成 BSC、Robinhood 上的有效订单与策略。下方取消待生成策略不会取消已生成的订单。"
+    "message": "请先取消或完成这个钱包的活跃订单和策略，然后重试归档。"
   },
-  "wallet_cancel_pending_auto_trade": {
-    "message": "取消待生成策略"
+  "wallet_archive_confirm_orders": {
+    "message": "您现在还有活跃订单。如果决定归档，这些订单会自动取消。关联的自动策略也会停止。"
+  },
+  "wallet_cancel_orders_and_archive": {
+    "message": "取消订单并归档"
+  },
+  "wallet_archive_orders_processing": {
+    "message": "订单正在执行或等待确认。请在订单处理完成后重试归档。"
+  },
+  "wallet_archive_cancel_failed": {
+    "message": "钱包尚未归档。请检查剩余的订单和策略，必要时手动取消，然后重试归档。"
   },
   "top_up": {
     "message": "充值"
@@ -9884,5 +9914,191 @@
   },
   "announcement_dismiss_failed": {
     "message": "未能保存关闭记录，请重试。"
+  },
+  "account_deletion_entry": {
+    "message": "注销账号"
+  },
+  "account_deletion_title": {
+    "message": "注销账号"
+  },
+  "account_deletion_checks_title": {
+    "message": "注销前检查"
+  },
+  "account_deletion_recheck": {
+    "message": "检查"
+  },
+  "account_deletion_status_checking": {
+    "message": "检查中"
+  },
+  "account_deletion_status_blocked": {
+    "message": "待处理"
+  },
+  "account_deletion_status_unknown": {
+    "message": "无法确认"
+  },
+  "account_deletion_check_failed": {
+    "message": "检查未能完成，请重新检查。"
+  },
+  "account_deletion_orders_note": {
+    "message": "未完成的限价单和策略请到交易网站的交易面板中撤销。撤销止盈止损后持仓不再受保护；结果未知的交易须等对账结束。"
+  },
+  "account_deletion_category_orders": {
+    "message": "未完成订单"
+  },
+  "account_deletion_category_membership": {
+    "message": "订阅续费"
+  },
+  "account_deletion_category_api_credits": {
+    "message": "API 自动充值"
+  },
+  "account_deletion_category_rewards": {
+    "message": "待处理奖励提现"
+  },
+  "account_deletion_reason_sol_order_open": {
+    "message": "Solana：{count} 个未完成订单"
+  },
+  "account_deletion_reason_sol_auto_trade_pending": {
+    "message": "Solana：{count} 个已成交买单的止盈止损尚未生成"
+  },
+  "account_deletion_reason_bsc_order_open": {
+    "message": "BSC：{count} 个未完成订单"
+  },
+  "account_deletion_reason_bsc_auto_trade_pending": {
+    "message": "BSC：{count} 个已成交买单的止盈止损尚未生成"
+  },
+  "account_deletion_reason_base_order_open": {
+    "message": "Base：{count} 个未完成订单"
+  },
+  "account_deletion_reason_base_order_unreconciled": {
+    "message": "Base：{count} 个订单仍在对账"
+  },
+  "account_deletion_reason_robinhood_order_open": {
+    "message": "Robinhood：{count} 个未完成订单"
+  },
+  "account_deletion_reason_card_renewal_active": {
+    "message": "订阅仍会自动续费，请先在订阅页取消下期续费。"
+  },
+  "account_deletion_reason_wallet_renewal_enabled": {
+    "message": "链上钱包自动续费仍开启，请先关闭。"
+  },
+  "account_deletion_reason_payment_pending": {
+    "message": "有待付账单或付款结果未确定。"
+  },
+  "account_deletion_reason_api_renewal_enabled": {
+    "message": "API 套餐仍会续费，请先取消下期续费。"
+  },
+  "account_deletion_reason_api_auto_topup_enabled": {
+    "message": "API 自动充值仍开启，请先关闭。"
+  },
+  "account_deletion_reason_payout_in_progress": {
+    "message": "有提现中或待审批的收益。"
+  },
+  "account_deletion_reason_campaign_reward_pending": {
+    "message": "有待结算的活动奖励。"
+  },
+  "account_deletion_reason_remote_unavailable": {
+    "message": "暂时无法确认状态，请稍后重新检查。"
+  },
+  "account_deletion_reason_other": {
+    "message": "需要处理。"
+  },
+  "account_deletion_forfeit_title": {
+    "message": "放弃的收益"
+  },
+  "account_deletion_forfeit_body": {
+    "message": "注销受理时及之后记入本账号的全部收益均作废，包括迟到入账。若你邀请过其他用户，他们之后的交易仍会记入但无法领取，全部作废。"
+  },
+  "account_deletion_forfeit_checkbox": {
+    "message": "我确认放弃以上全部收益"
+  },
+  "account_deletion_submit": {
+    "message": "永久删除账号"
+  },
+  "account_deletion_reauth_title": {
+    "message": "注销前，请验证是你本人"
+  },
+  "account_deletion_reauth_body_google": {
+    "message": "注销会永久删除账号和钱包恢复数据。请验证当前 Google 账号，然后在 10 分钟内确认注销。"
+  },
+  "account_deletion_reauth_google": {
+    "message": "验证当前 Google 账号"
+  },
+  "account_deletion_reauth_body_email": {
+    "message": "为保障安全，请退出后重新登录，并在 10 分钟内回到此页提交。"
+  },
+  "account_deletion_error_precheck": {
+    "message": "检查结果已变化，账号未注销，请查看最新检查结果。"
+  },
+  "account_deletion_error_final_check": {
+    "message": "最终复检未通过，账号未注销。为安全已退出登录，请重新登录后重新检查。"
+  },
+  "account_deletion_unknown_title": {
+    "message": "注销结果未确认"
+  },
+  "account_deletion_done_unknown": {
+    "message": "暂时无法确认注销结果。"
+  },
+  "account_deletion_error_account_changed": {
+    "message": "当前登录账号已变化，请重新打开扩展后再试。"
+  },
+  "account_deletion_error_turnkey_auth": {
+    "message": "未能确认钱包注销授权。请重新登录钱包后重试，若仍然失败，请联系客服。"
+  },
+  "account_deletion_error_rate_limited": {
+    "message": "操作过于频繁，请等待一分钟后重试。"
+  },
+  "account_deletion_error_generic": {
+    "message": "请求失败，请重新检查后再试。"
+  },
+  "account_deletion_error_reauth": {
+    "message": "验证失败，请重试。"
+  },
+  "account_deletion_done_title": {
+    "message": "注销已受理"
+  },
+  "account_deletion_halted": {
+    "message": "注销未能自动完成。请联系客服查询。"
+  },
+  "google_login_account_deletion_pending": {
+    "message": "账号正在注销。注销完成后，你可以使用同一个 Google 账号重新注册。"
+  },
+  "account_deletion_done_processing": {
+    "message": "注销完成后，用原来的登录方式重新注册。12 小时后仍无法注册？"
+  },
+  "account_deletion_backup_title": {
+    "message": "请先备份你的钱包"
+  },
+  "account_deletion_backup_body": {
+    "message": "没有你的 Recovery Phrase 和私钥，你将失去对资金的访问权限。"
+  },
+  "account_deletion_backup_cta": {
+    "message": "备份钱包"
+  },
+  "account_deletion_status_open": {
+    "message": "{count} 个未完成"
+  },
+  "account_deletion_status_settling": {
+    "message": "结算中"
+  },
+  "account_deletion_confirm_backed_up": {
+    "message": "我已备份我的钱包。"
+  },
+  "account_deletion_confirm_no_refund": {
+    "message": "Premium 时长或 API 额度不予退款。"
+  },
+  "account_deletion_type_email_label": {
+    "message": "输入你的邮箱以确认"
+  },
+  "account_deletion_type_id_label": {
+    "message": "输入你的账号 ID 以确认"
+  },
+  "account_deletion_consequence": {
+    "message": "剩余的 Premium 时长和 API 额度不予退款。交易记录将保留用于对账，其余数据全部删除。"
+  },
+  "account_deletion_contact_support": {
+    "message": "请联系客服"
+  },
+  "account_deletion_manage": {
+    "message": "管理"
   }
 }
