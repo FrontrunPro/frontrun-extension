@@ -1,4 +1,10 @@
 {
+  "cta_pair_info_loading": {
+    "message": "交易信息加载中…"
+  },
+  "cta_pair_info_failed": {
+    "message": "交易信息加载失败，请刷新页面后重试。"
+  },
   "confirm_payment_api_quote_expired": {
     "message": "付款报价已过期，请返回 API 页面核对原订单后再付款。"
   },
@@ -7214,6 +7220,24 @@
   "trending_now_followers": {
     "message": "关注者"
   },
+  "trending_now_smart_followers_short": {
+    "message": "KOL 关注"
+  },
+  "trending_now_trending_tweet": {
+    "message": "热门推文"
+  },
+  "trending_now_open_trending_tweet": {
+    "message": "在新标签页打开 @{author} 的热门推文"
+  },
+  "trending_now_tweet_mention": {
+    "message": "提及"
+  },
+  "trending_now_tweet_views": {
+    "message": "浏览"
+  },
+  "trending_now_tweet_likes": {
+    "message": "点赞"
+  },
   "trending_now_labels_count": {
     "message": "个标签"
   },
@@ -9874,7 +9898,7 @@
     "message": "隐藏域名年龄？"
   },
   "website_domain_age_hide_confirmation_body": {
-    "message": "将在 GMGN 和 Axiom 代币详情页及 X 个人主页隐藏网站域名年龄。你可以前往「{settingsPath}」重新开启。"
+    "message": "将在 GMGN、Axiom、Photon、Pump.fun、BasedBot、Padre 和 DeBot 代币详情页及 X 个人主页隐藏网站域名年龄。你可以前往「{settingsPath}」重新开启。"
   },
   "website_domain_age_hide_confirm": {
     "message": "隐藏域名年龄"
@@ -9883,7 +9907,7 @@
     "message": "网站域名年龄"
   },
   "website_domain_age_setting_description": {
-    "message": "在 GMGN 和 Axiom 代币详情页的网站图标旁显示域名年龄，并在悬停 X 个人主页链接时显示。隐藏后可打开此设置恢复。"
+    "message": "在 GMGN、Axiom、Photon、Pump.fun、BasedBot、Padre 和 DeBot 代币详情页的网站图标旁显示域名年龄，并在悬停 X 个人主页链接时显示。隐藏后可打开此设置恢复。"
   },
   "website_domain_age_hover_title": {
     "message": "网站域名年龄"

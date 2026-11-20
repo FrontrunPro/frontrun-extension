@@ -1,4 +1,10 @@
 {
+  "cta_pair_info_loading": {
+    "message": "Загрузка данных для сделки…"
+  },
+  "cta_pair_info_failed": {
+    "message": "Не удалось загрузить данные. Обновите страницу."
+  },
   "confirm_payment_api_quote_expired": {
     "message": "Срок действия котировки истёк. Вернитесь в раздел API и проверьте исходный заказ перед оплатой."
   },
@@ -7223,6 +7229,24 @@
   "trending_now_followers": {
     "message": "Подписчики"
   },
+  "trending_now_smart_followers_short": {
+    "message": "SM"
+  },
+  "trending_now_trending_tweet": {
+    "message": "Топ-твит"
+  },
+  "trending_now_open_trending_tweet": {
+    "message": "Открыть топ-твит @{author} в новой вкладке"
+  },
+  "trending_now_tweet_mention": {
+    "message": "Упоминание"
+  },
+  "trending_now_tweet_views": {
+    "message": "Просмотры"
+  },
+  "trending_now_tweet_likes": {
+    "message": "Лайки"
+  },
   "trending_now_labels_count": {
     "message": "меток"
   },
@@ -9880,7 +9904,7 @@
     "message": "Скрыть возраст домена?"
   },
   "website_domain_age_hide_confirmation_body": {
-    "message": "Возраст домена сайта будет скрыт на страницах токенов GMGN и Axiom и в профилях X. Чтобы включить его снова, откройте «{settingsPath}»."
+    "message": "Возраст домена сайта будет скрыт на страницах токенов GMGN, Axiom, Photon, Pump.fun, BasedBot, Padre и DeBot и в профилях X. Чтобы включить его снова, откройте «{settingsPath}»."
   },
   "website_domain_age_hide_confirm": {
     "message": "Скрыть возраст домена"
@@ -9889,7 +9913,7 @@
     "message": "Возраст домена сайта"
   },
   "website_domain_age_setting_description": {
-    "message": "Показывать возраст домена рядом со значком сайта на страницах токенов GMGN и Axiom и при наведении на ссылки в профилях X. Включите, чтобы восстановить отображение после скрытия."
+    "message": "Показывать возраст домена рядом со значком сайта на страницах токенов GMGN, Axiom, Photon, Pump.fun, BasedBot, Padre и DeBot и при наведении на ссылки в профилях X. Включите, чтобы восстановить отображение после скрытия."
   },
   "website_domain_age_hover_title": {
     "message": "Возраст домена"
