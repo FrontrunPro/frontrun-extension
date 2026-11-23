@@ -20,6 +20,15 @@
   "padre_cta_market_required": {
     "message": "请在 Padre 选择市价买入或卖出，再使用 Frontrun 交易"
   },
+  "x_social_profile_open": { "message": "打开 {platform} 主页：{label}" },
+  "x_social_profile_view": { "message": "查看 {platform} 主页：{label}" },
+  "x_social_profiles_setting_title": { "message": "Pump/Fomo 账号" },
+  "x_social_profiles_setting_description": { "message": "在此浏览器的 X 个人主页显示关联的 Pump 和 Fomo 账号链接。" },
+  "x_social_profiles_hide": { "message": "隐藏 Pump/Fomo 账号" },
+  "x_social_profiles_hide_title": { "message": "隐藏 Pump/Fomo 账号？" },
+  "x_social_profiles_hide_body": { "message": "将隐藏此浏览器所有 X 个人主页上的 Pump/Fomo 账号链接。你可以在「{settingsPath}」重新开启。" },
+  "x_social_profiles_choose": { "message": "{platform} 账号" },
+  "x_social_profiles_limit": { "message": "最多显示 10 个已确认账号" },
   "x_registration_short": {
     "message": "查注册"
   },
@@ -3729,7 +3738,7 @@
     "message": "编辑标签按钮"
   },
   "label_tool_description": {
-    "message": "在地址旁显示一个小笔图标，直接新增或编辑标签"
+    "message": "显示或隐藏地址旁的标签编辑铅笔。钱包详情页顶部会保留主地址旁的铅笔。"
   },
   "label_visibility_show": {
     "message": "显示"
@@ -4928,6 +4937,15 @@
   "autotrade_dev_already_sold": {
     "message": "Dev Sell 未创建 — 开发者当前持仓为 0"
   },
+  "autotrade_dev_address_unavailable": {
+    "message": "Dev Sell 未创建 — 无法获取开发者地址"
+  },
+  "autotrade_dev_baseline_unavailable": {
+    "message": "Dev Sell 未创建 — Dev 持仓读取失败，请稍后重试"
+  },
+  "autotrade_dev_sell_route_unsupported": {
+    "message": "Dev Sell 未创建 — 当前代币路由不受支持"
+  },
   "autotrade_migrate_sell_created": {
     "message": "迁移卖出：{count} 已创建"
   },
@@ -5530,6 +5548,15 @@
   },
   "bug_report_cta": {
     "message": "遇到问题？点此上报"
+  },
+  "trading_pair_rate_limited": {
+    "message": "交易对请求过多，请稍后重试"
+  },
+  "trading_positions_rate_limited": {
+    "message": "持仓刷新请求过多，请稍后重试"
+  },
+  "trading_pnl_rate_limited": {
+    "message": "盈亏刷新请求过多，请稍后重试"
   },
   "no_pool_found": {
     "message": "未找到有效池，无法交易。"
@@ -7177,6 +7204,24 @@
   },
   "trending_now_empty_accounts": {
     "message": "暂无热门账号"
+  },
+  "trending_now_search_placeholder": {
+    "message": "名称、用户名或关键词"
+  },
+  "trending_now_search_label": {
+    "message": "按名称、用户名或 AI 摘要搜索上榜账号"
+  },
+  "trending_now_search_clear": {
+    "message": "清除搜索"
+  },
+  "trending_now_search_no_match": {
+    "message": "没有匹配“{query}”的上榜账号",
+    "placeholders": {
+      "query": {
+        "content": "$1",
+        "example": "@frontrun"
+      }
+    }
   },
   "trending_now_1h_unavailable": {
     "message": "1 小时数据暂不可用"
@@ -9793,13 +9838,16 @@
     "message": "确认产品邮件订阅"
   },
   "email_confirmation_popup_description": {
-    "message": "请前往邮箱点击确认链接，然后回到这里；没收到时可查看垃圾邮件。产品邮件为可选订阅，你也可以取消订阅后继续使用。"
+    "message": "请前往邮箱完成确认后再回来；没收到时可查看垃圾邮件。也可以稍后确认并继续使用，订阅申请会保持待确认。"
   },
   "email_confirmation_popup_check": {
     "message": "已确认邮件，继续"
   },
   "email_confirmation_popup_cancel": {
-    "message": "取消订阅，继续使用"
+    "message": "取消订阅"
+  },
+  "email_confirmation_popup_later": {
+    "message": "稍后，继续使用"
   },
   "email_confirmation_popup_checking": {
     "message": "正在检查…"

@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Frontrun",
   "description": "Frontrun is your AI co-pilot, empowering crypto traders to stay ahead of the market",
-  "version": "0.0.461",
+  "version": "0.0.462",
   "icons": {
     "16": "icon-16.png",
     "32": "icon-32.png",
@@ -114,6 +114,7 @@
         "vendor.js",
         "trading-vendor.js",
         "chain-trading-vendor.js",
+        "trending-trading-vendor.js",
         "extended-chain-trading-vendor.js",
         "content-scripts/axiom.js"
       ]
@@ -196,6 +197,7 @@
         "vendor.js",
         "trading-vendor.js",
         "chain-trading-vendor.js",
+        "trending-trading-vendor.js",
         "content-scripts/debot.js"
       ]
     },
@@ -253,6 +255,7 @@
         "vendor.js",
         "trading-vendor.js",
         "chain-trading-vendor.js",
+        "trending-trading-vendor.js",
         "content-scripts/fomo.js"
       ]
     },
@@ -285,6 +288,7 @@
         "vendor.js",
         "trading-vendor.js",
         "chain-trading-vendor.js",
+        "trending-trading-vendor.js",
         "extended-chain-trading-vendor.js",
         "market-trading-vendor.js",
         "content-scripts/gmgn.js"
@@ -308,6 +312,7 @@
         "vendor.js",
         "trading-vendor.js",
         "chain-trading-vendor.js",
+        "trending-trading-vendor.js",
         "extended-chain-trading-vendor.js",
         "content-scripts/padre.js"
       ]
@@ -446,6 +451,7 @@
         "vendor.js",
         "trading-vendor.js",
         "chain-trading-vendor.js",
+        "trending-trading-vendor.js",
         "content-scripts/twitter-profile.js"
       ]
     },
