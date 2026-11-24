@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Frontrun",
   "description": "Frontrun is your AI co-pilot, empowering crypto traders to stay ahead of the market",
-  "version": "0.0.463",
+  "version": "0.0.464",
   "icons": {
     "16": "icon-16.png",
     "32": "icon-32.png",
@@ -33,6 +33,27 @@
     }
   },
   "web_accessible_resources": [
+    {
+      "resources": [
+        "trading-sw-foreground.html"
+      ],
+      "matches": [
+        "https://axiom.trade/*",
+        "https://backup.axiom.trade/*",
+        "https://basedbot.app/*",
+        "https://debot.ai/*",
+        "https://dexscreener.com/*",
+        "https://fomo.family/*",
+        "https://www.fomo.family/*",
+        "https://gmgn.ai/*",
+        "https://trade.padre.gg/*",
+        "https://pump.fun/*",
+        "https://x.com/*",
+        "https://www.xxyy.io/*",
+        "https://xxyy.io/*",
+        "https://pro.xxyy.io/*"
+      ]
+    },
     {
       "resources": [
         "tracker-quick-buy-runtime.html"

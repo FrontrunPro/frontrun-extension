@@ -999,7 +999,7 @@
     "message": "Proxima 关联钱包"
   },
   "wallet_marketplace_marker_label": {
-    "message": "曾出现在钱包市场。"
+    "message": "匹配钱包市场挂单。"
   },
   "wallet_marketplace_inline_label": {
     "message": "钱包市场"
@@ -1008,7 +1008,7 @@
     "message": "这类钱包可被批量购买并由单一实体控制，因此表面上的持有者多样性和交易活动可能具有误导性。"
   },
   "wallet_marketplace_marker_intro": {
-    "message": "此钱包曾在钱包市场上架。"
+    "message": "此地址与钱包市场的一个挂单匹配。"
   },
   "net_worth": {
     "message": "净资产"
