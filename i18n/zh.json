@@ -113,6 +113,78 @@
   "trending_tokens_growth_unavailable": {
     "message": "暂无前期增长基准"
   },
+  "trending_tokens_age_filter": {
+    "message": "币龄"
+  },
+  "trending_tokens_filters": {
+    "message": "筛选"
+  },
+  "trending_tokens_filter_dialog": {
+    "message": "筛选条件"
+  },
+  "trending_tokens_age_hint": {
+    "message": "从代币创建时算起。"
+  },
+  "trending_tokens_filter_min": {
+    "message": "最小值"
+  },
+  "trending_tokens_filter_max": {
+    "message": "最大值"
+  },
+  "trending_tokens_age_unit": {
+    "message": "币龄单位"
+  },
+  "trending_tokens_age_minutes": {
+    "message": "分"
+  },
+  "trending_tokens_age_hours": {
+    "message": "时"
+  },
+  "trending_tokens_age_days": {
+    "message": "天"
+  },
+  "trending_tokens_clear_filters": {
+    "message": "清空条件"
+  },
+  "trending_tokens_apply_filters": {
+    "message": "应用筛选"
+  },
+  "trending_tokens_remove_filter": {
+    "message": "移除{filter}"
+  },
+  "trending_tokens_market_cap_filter": {
+    "message": "市值"
+  },
+  "trending_tokens_edit_filters": {
+    "message": "编辑筛选"
+  },
+  "trending_tokens_clear_all": {
+    "message": "清空"
+  },
+  "trending_tokens_filter_min_over_max": {
+    "message": "最小值大于最大值"
+  },
+  "trending_tokens_filter_integer_range": {
+    "message": "仅限 0–{max} 的整数"
+  },
+  "trending_tokens_filter_custom": {
+    "message": "自定义"
+  },
+  "trending_tokens_filters_empty": {
+    "message": "暂无符合条件的代币"
+  },
+  "trending_tokens_filters_empty_hint": {
+    "message": "试试放宽条件，或清空筛选。"
+  },
+  "trending_tokens_filters_incomplete": {
+    "message": "筛选数据暂未齐全"
+  },
+  "trending_tokens_filters_incomplete_hint": {
+    "message": "部分代币资料暂不可用，请稍后查看或调整条件。"
+  },
+  "trending_tokens_filters_storage_failed": {
+    "message": "无法读取或保存筛选条件，当前修改仅在本页生效。"
+  },
   "trending_tokens_age": {
     "message": "Age"
   },
@@ -1925,6 +1997,9 @@
   "wallet_tracker_quick_buy_description": {
     "message": "在 Axiom 钱包追踪的 Monitor 和 Trades 中启用 Frontrun 快速买入。Transfers 使用 Axiom 原生快速买入。"
   },
+  "axiom_quick_buy_enable_description": {
+    "message": "控制当前链在所有支持站点上的 Frontrun 快速买入。关闭时，Axiom Pulse 的钱包分组栏也会隐藏。"
+  },
   "axiom_search_quick_buy": {
     "message": "搜索结果内快速买入"
   },
@@ -3295,6 +3370,18 @@
   },
   "trade_failed": {
     "message": "交易失败"
+  },
+  "submitted_buy_unconfirmed": {
+    "message": "买入已提交 · 等待链上确认"
+  },
+  "submitted_sell_unconfirmed": {
+    "message": "卖出已提交 · 等待链上确认"
+  },
+  "submitted_buy_unconfirmed_batch": {
+    "message": "{pendingCount}/{totalCount} 买入已提交 · 等待链上确认"
+  },
+  "submitted_sell_unconfirmed_batch": {
+    "message": "{pendingCount}/{totalCount} 卖出已提交 · 等待链上确认"
   },
   "base_swap_no_route": {
     "message": "该代币暂无可用路由（流动性过低或交易池过新）。"
@@ -9363,6 +9450,9 @@
   "solana_stock_trade_limit_exceeded": {
     "message": "股票配对池单笔交易金额超过 {limit}U，已禁止发送。"
   },
+  "wallet_archive_base_orders_blocked": {
+    "message": "请先撤销这个地址在 Base 上的限价单，并等待已发出的交易结算，再归档钱包。"
+  },
   "wallet_archive_orders_blocked": {
     "message": "请先取消或完成这个钱包的活跃订单和策略，然后重试归档。"
   },
@@ -9488,6 +9578,9 @@
   },
   "hide_info_tooltips_desc": {
     "message": "隐藏控件的帮助提示（状态与数据提示不受影响）"
+  },
+  "min_short": {
+    "message": "最小"
   },
   "max_short": {
     "message": "最大"

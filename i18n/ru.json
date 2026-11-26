@@ -113,6 +113,78 @@
   "trending_tokens_growth_unavailable": {
     "message": "Нет базы для сравнения роста"
   },
+  "trending_tokens_age_filter": {
+    "message": "Возраст"
+  },
+  "trending_tokens_filters": {
+    "message": "Фильтры"
+  },
+  "trending_tokens_filter_dialog": {
+    "message": "Фильтры токенов"
+  },
+  "trending_tokens_age_hint": {
+    "message": "Отсчитывается с момента создания токена."
+  },
+  "trending_tokens_filter_min": {
+    "message": "Минимум"
+  },
+  "trending_tokens_filter_max": {
+    "message": "Максимум"
+  },
+  "trending_tokens_age_unit": {
+    "message": "Единица возраста"
+  },
+  "trending_tokens_age_minutes": {
+    "message": "м"
+  },
+  "trending_tokens_age_hours": {
+    "message": "ч"
+  },
+  "trending_tokens_age_days": {
+    "message": "дн."
+  },
+  "trending_tokens_clear_filters": {
+    "message": "Очистить"
+  },
+  "trending_tokens_apply_filters": {
+    "message": "Применить"
+  },
+  "trending_tokens_remove_filter": {
+    "message": "Убрать фильтр «{filter}»"
+  },
+  "trending_tokens_market_cap_filter": {
+    "message": "Капитализация"
+  },
+  "trending_tokens_edit_filters": {
+    "message": "Фильтры"
+  },
+  "trending_tokens_clear_all": {
+    "message": "Очистить"
+  },
+  "trending_tokens_filter_min_over_max": {
+    "message": "Мин больше макс"
+  },
+  "trending_tokens_filter_integer_range": {
+    "message": "Целое: 0–{max}"
+  },
+  "trending_tokens_filter_custom": {
+    "message": "Свой"
+  },
+  "trending_tokens_filters_empty": {
+    "message": "Нет подходящих токенов"
+  },
+  "trending_tokens_filters_empty_hint": {
+    "message": "Смягчите условия или сбросьте фильтры."
+  },
+  "trending_tokens_filters_incomplete": {
+    "message": "Данные для фильтра неполные"
+  },
+  "trending_tokens_filters_incomplete_hint": {
+    "message": "Часть данных недоступна. Проверьте позже или измените условия."
+  },
+  "trending_tokens_filters_storage_failed": {
+    "message": "Не удалось загрузить или сохранить фильтры. Изменения действуют только в этой вкладке."
+  },
   "trending_tokens_age": {
     "message": "Age"
   },
@@ -1967,6 +2039,9 @@
   "wallet_tracker_quick_buy_description": {
     "message": "Frontrun Quick Buy для Monitor и Trades в Axiom. Transfers используют Axiom."
   },
+  "axiom_quick_buy_enable_description": {
+    "message": "Управляет функцией Frontrun Quick Buy для этой сети на всех поддерживаемых сайтах. При отключении панель групп кошельков в Axiom Pulse также скрывается."
+  },
   "axiom_search_quick_buy": {
     "message": "Быстрая покупка (поиск)"
   },
@@ -3349,6 +3424,18 @@
   },
   "trade_failed": {
     "message": "Сделка не выполнена"
+  },
+  "submitted_buy_unconfirmed": {
+    "message": "Покупка отправлена · ожидает подтверждения"
+  },
+  "submitted_sell_unconfirmed": {
+    "message": "Продажа отправлена · ожидает подтверждения"
+  },
+  "submitted_buy_unconfirmed_batch": {
+    "message": "{pendingCount}/{totalCount} покупок отправлено · ожидает подтверждения"
+  },
+  "submitted_sell_unconfirmed_batch": {
+    "message": "{pendingCount}/{totalCount} продаж отправлено · ожидает подтверждения"
   },
   "base_swap_no_route": {
     "message": "Нет маршрута для токена (мало ликвидности или новый пул)."
@@ -9369,6 +9456,9 @@
   "solana_stock_trade_limit_exceeded": {
     "message": "Сделки свыше ${limit} в пулах с акциями заблокированы."
   },
+  "wallet_archive_base_orders_blocked": {
+    "message": "Отмените открытые лимитные ордера в Base и дождитесь завершения отправленных сделок, затем повторите архивацию кошелька."
+  },
   "wallet_archive_orders_blocked": {
     "message": "Отмените активные ордера и стратегии этого кошелька или дождитесь их завершения, затем повторите архивацию."
   },
@@ -9494,6 +9584,9 @@
   },
   "hide_info_tooltips_desc": {
     "message": "Скрывать подсказки на элементах управления (статусы и данные остаются)"
+  },
+  "min_short": {
+    "message": "Мин."
   },
   "max_short": {
     "message": "Макс."
