@@ -9369,6 +9369,39 @@
   "sell_live_balance_pill": {
     "message": "Жив. %"
   },
+  "auto_cancel": {
+    "message": "Автоотмена"
+  },
+  "limit_order_expiry_pill": {
+    "message": "Срок"
+  },
+  "limit_order_expiry_never": {
+    "message": "Никогда"
+  },
+  "limit_order_expiry_custom": {
+    "message": "Свой"
+  },
+  "limit_order_expiry_hours": {
+    "message": "Часы"
+  },
+  "limit_order_expiry_minutes": {
+    "message": "Минуты"
+  },
+  "auto_cancel_subtitle": {
+    "message": "Отменить, если не исполнен за"
+  },
+  "expires": {
+    "message": "Срок"
+  },
+  "limit_order_expiry_cancels_at": {
+    "message": "Отмена в"
+  },
+  "default_limit_order_expiry": {
+    "message": "Срок лимитных ордеров по умолчанию"
+  },
+  "default_limit_order_expiry_desc": {
+    "message": "Для новых лимитных ордеров SOL. Изменение в торговой панели меняет это значение."
+  },
   "status": {
     "message": "Статус"
   },

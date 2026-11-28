@@ -9363,6 +9363,39 @@
   "sell_live_balance_pill": {
     "message": "实时%"
   },
+  "auto_cancel": {
+    "message": "自动撤单"
+  },
+  "limit_order_expiry_pill": {
+    "message": "有效期"
+  },
+  "limit_order_expiry_never": {
+    "message": "永不"
+  },
+  "limit_order_expiry_custom": {
+    "message": "自定义"
+  },
+  "limit_order_expiry_hours": {
+    "message": "小时"
+  },
+  "limit_order_expiry_minutes": {
+    "message": "分钟"
+  },
+  "auto_cancel_subtitle": {
+    "message": "超时未成交则撤单"
+  },
+  "expires": {
+    "message": "有效期"
+  },
+  "limit_order_expiry_cancels_at": {
+    "message": "撤单时间"
+  },
+  "default_limit_order_expiry": {
+    "message": "默认限价单有效期"
+  },
+  "default_limit_order_expiry_desc": {
+    "message": "应用于新建的 SOL 限价单。在交易面板中修改会同步更新此默认值。"
+  },
   "status": {
     "message": "状态"
   },
